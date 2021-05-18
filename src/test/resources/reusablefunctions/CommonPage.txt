@@ -1,0 +1,28 @@
+For the new UI in 10.3, Methods which could be applied across all pages
+
+DASHBOARD PAGE
+---------------
+Feature Step:
+
+Method to navigate to previous page
+1.	And user navigates to previous page
+
+Method to verify the popup
+2.     And user verifies the "Unsaved changes" pop up is "displayed"
+
+Method to verify the page is displyed or not
+3. And user verifies the "Manage Configurations" page is "displayed"
+
+Method to verify the link is displayed or not
+4. And user verifies the "Add a configuration" link is "displayed"
+
+Method to click on any link across the pages
+5. And user clicks on "Add a configuration" link in the "Congratulations popup"
+
+Method to validate Hint text, validation message
+6. And user verifies "validation message" is displayed under the fields in "Add Configuration" Popup
+      | fieldName  | validationMessage                    |
+      | Name       | Name field should not be empty       |
+      | Access Key | Access key field should not be empty |
+      | Secret Key | Secret key field should not be empty |
+

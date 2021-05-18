@@ -1,0 +1,46 @@
+{
+  "label": {
+    "": "Schema View Theme"
+  },
+  "subthemes": [
+    {
+      "label": {
+        "": "Boxes"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "schema_h",
+          "icons_h"
+        ]
+      }
+    },
+    {
+      "label": {
+        "": "Boxes with attributes"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "schema_h",
+          "icons_h"
+        ],
+        "edgelabels": true
+      }
+    }
+  ],
+  "queries": [
+    {
+      "label": {
+        "": "http://www.asg.com/Analyzer/9.5.0"
+      },
+      "query": "http://www.asg.com/Analyzer/9.5.0",
+      "qualifier": "forw"
+    }
+  ],
+  "semanticzoom": {
+    "80": 0,
+    "999": 1
+  },
+  "initialzoom": {}
+}

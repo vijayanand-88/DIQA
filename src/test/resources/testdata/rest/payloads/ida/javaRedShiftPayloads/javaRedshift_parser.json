@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaRSParser",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaRSParser"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagRedshiftJson"],
+      "businessApplicationName": "test_BA_JavaRedshiftLineage",
+      "pluginType": "parser",
+      "filter": null
+    }
+  ]
+}

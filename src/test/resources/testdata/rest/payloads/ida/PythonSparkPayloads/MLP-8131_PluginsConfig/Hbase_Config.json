@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HbaseCataloger_Spark",
+      "label": {
+        "": ""
+      },
+      "catalogName": "HbaseLineage",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": null,
+      "filter": null,
+      "hbasePassword": "aTjZyazJpRjplD4q7HzR0L0vZIIPqrNLanLLG/1as48=",
+      "hbaseRestAPIBaseURL": "http://10.50.208.101:2100/",
+      "resolveNameWrapper": {
+        "resolvingPluginName": "CNavigatorCataloger",
+        "resolvingPluginConfiguration": "CNavigatorCataloger"
+      },
+      "resolveClusterName": false,
+      "hbaseUser": "TestService",
+      "includeItems": {
+        "includeNamespaces": [
+          "pyspark"
+        ],
+        "includeTables": [
+          "employee",
+          "hremployee",
+          "emp"
+        ]
+      },
+      "scanRows": "100"
+    }
+  ]
+}

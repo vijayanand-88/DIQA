@@ -1,0 +1,11 @@
+{
+  "header": {
+    "contentType": "application/json",
+    "acceptFormat": "application/json"
+  },
+  "queryparam":{},
+  "path": "settings/catalogs",
+  "method": "GET",
+  "payload":"",
+  "responseCode": "200"
+}

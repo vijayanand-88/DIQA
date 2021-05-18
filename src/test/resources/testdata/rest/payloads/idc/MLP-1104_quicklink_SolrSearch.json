@@ -1,0 +1,23 @@
+{
+  "id": "1",
+  "data": "schema_s:BigData AND type_s:Table",
+  "advanced":"true",
+  "post": {
+    "selections": {
+      "dataType_t": ["int"],
+      "schema_s": [],
+      "asg.modifiedBy_s": ["Service"],
+      "type_s": ["Table"],
+      "asg.parentTypeNamePathHierarchy_ss": ["Cluster/Cluster Demo/DbSystem/Hive Warehouse/Database/foodmart"],
+      "asg.modifiedAt_dt": []
+    }
+
+  },
+  "name": "list of Tables by Solr",
+  "description": "List of Foodmart Database",
+  "widgets": [
+    "BigData"
+  ],
+  "value": "/search",
+  "area": "BigData"
+}

@@ -1,0 +1,16 @@
+{
+  "glueavromultiplefiles": [
+    {
+      "mode": "VIEW",
+      "source": "MultipleAvroFiles",
+      "dir": "->",
+      "target": "glueavromultiplefiles"
+    },
+    {
+      "mode": "VIEW",
+      "source": "glueavromultiplefiles",
+      "dir": "->",
+      "target": "MultipleAvroFiles"
+    }
+  ]
+}

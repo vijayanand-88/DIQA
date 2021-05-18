@@ -1,0 +1,88 @@
+{
+  "name": null,
+  "definition": null,
+  "rootTags": [
+    {
+      "name": "Data Analysis",
+      "definition": "",
+      "status": "SUGGESTED",
+      "subTags": [
+        {
+          "name": "Critical",
+          "definition": "",
+          "status": "SUGGESTED",
+          "subTags": [],
+          "root": true,
+          "facet": false
+        },
+        {
+          "name": "Newly added Test Tag",
+          "definition": "",
+          "status": "SUGGESTED",
+          "subTags": [
+            {
+              "name": "Test Sub Tag",
+              "definition": "",
+              "status": "SUGGESTED",
+              "subTags": [],
+              "root": true,
+              "facet": false
+            }
+          ],
+          "root": true,
+          "facet": true
+        },
+        {
+          "name": "Untrusted",
+          "definition": "",
+          "status": "SUGGESTED",
+          "subTags": [],
+          "root": true,
+          "facet": false
+        },
+        {
+          "name": "Source of Truth",
+          "definition": "",
+          "status": "SUGGESTED",
+          "subTags": [],
+          "root": true,
+          "facet": false
+        },
+        {
+          "name": "Trustworthy",
+          "definition": "",
+          "status": "SUGGESTED",
+          "subTags": [],
+          "root": true,
+          "facet": false
+        },
+        {
+          "name": "Private",
+          "definition": "",
+          "status": "SUGGESTED",
+          "subTags": [],
+          "root": true,
+          "facet": false
+        },
+        {
+          "name": "Confidential",
+          "definition": "",
+          "status": "SUGGESTED",
+          "subTags": [],
+          "root": true,
+          "facet": false
+        },
+        {
+          "name": "Anonymized",
+          "definition": "",
+          "status": "SUGGESTED",
+          "subTags": [],
+          "root": true,
+          "facet": false
+        }
+      ],
+      "root": true,
+      "facet": true
+    }
+  ]
+}

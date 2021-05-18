@@ -1,0 +1,20 @@
+{
+  "classID": 87021,
+  "functionID": 87027,
+  "hopsList": [
+    "SPARK_SOURCE_SC2.department_name => jdbcDF_td2.department_name",
+    "SPARK_SOURCE_SC2.dept_no => jdbcDF_td2.dept_no",
+    "SPARK_SOURCE_SC2.loc_name => jdbcDF_td2.loc_name",
+    "department_name => SPARK_TARGET_SC2.department_name",
+    "dept_no => SPARK_TARGET_SC2.dept_no",
+    "loc_name => SPARK_TARGET_SC2.loc_name"
+  ],
+  "hopsID": {
+    "SPARK_SOURCE_SC2.loc_name => jdbcDF_td2.loc_name": 87049,
+    "SPARK_SOURCE_SC2.dept_no => jdbcDF_td2.dept_no": 87050,
+    "loc_name => SPARK_TARGET_SC2.loc_name": 87046,
+    "SPARK_SOURCE_SC2.department_name => jdbcDF_td2.department_name": 87051,
+    "dept_no => SPARK_TARGET_SC2.dept_no": 87048,
+    "department_name => SPARK_TARGET_SC2.department_name": 87047
+  }
+}

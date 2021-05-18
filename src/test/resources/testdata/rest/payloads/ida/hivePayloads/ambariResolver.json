@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "nodeCondition": null,
+      "label": {
+        "": "BigData"
+      },
+      "clusterManagerHost": "10.50.208.102",
+      "clusterManagerPort": "8080",
+      "catalogName": "BigData",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "name": "AmbariResolver",
+      "clusterManagerLogin": "raj_ops",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "clusterManagerPassword": "raj_ops"
+    }
+  ]
+}

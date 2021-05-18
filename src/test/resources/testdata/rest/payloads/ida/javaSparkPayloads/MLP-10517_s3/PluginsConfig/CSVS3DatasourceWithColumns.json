@@ -1,0 +1,21 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "CsvS3DataSourceJS",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": "CsvS3DataSourceJS"
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [
+    "tagJavaSpS3"
+  ],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "AWS_CredentialsJS",
+  "filter": null,
+  "region": "us-east-1"
+}

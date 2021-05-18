@@ -1,0 +1,65 @@
+{
+  "MetaData": {
+    "totalCount": 10,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 3,
+          "value": "Column"
+        },
+        {
+          "count": 1,
+          "value": "Constraint"
+        },
+        {
+          "count": 1,
+          "value": "Table"
+        },
+        {
+          "count": 1,
+          "value": "Analysis"
+        },
+        {
+          "count": 1,
+          "value": "Host"
+        },
+        {
+          "count": 1,
+          "value": "Service"
+        },
+        {
+          "count": 1,
+          "value": "Cluster"
+        }
+
+      ]
+    },
+
+    "constraintMetaData": {
+      "name": "TESTTABLEONLYPK_PRIMARYKEY",
+      "tableID": "DynamoCatalog12.Constraint:::1",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "Id"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    }
+
+  }
+}

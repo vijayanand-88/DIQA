@@ -1,0 +1,11 @@
+{
+  "ORACLE CATALOG": {
+    "label": {
+      "": "ORACLE12C CATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "ORACLE12C CATALOG"
+    }
+  }
+}

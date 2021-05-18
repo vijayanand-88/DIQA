@@ -1,0 +1,32 @@
+{
+  "classID": 40458,
+  "functionID": 40474,
+  "hopsList": [
+    "AGE => ADULTS.AGE",
+    "CITY => ADULTS.CITY",
+    "HEIGHT => ADULTS.HEIGHT",
+    "NAME => ADULTS.NAME",
+    "PEOPLE.AGE => jdbcDF4.AGE",
+    "PEOPLE.CITY => jdbcDF4.CITY",
+    "PEOPLE.HEIGHT => jdbcDF4.HEIGHT",
+    "PEOPLE.NAME => jdbcDF4.NAME",
+    "jdbcDF4.AGE => df12.AGE",
+    "jdbcDF4.CITY => df12.CITY",
+    "jdbcDF4.HEIGHT => df12.HEIGHT",
+    "jdbcDF4.NAME => df12.NAME"
+  ],
+  "hopsID": {
+    "PEOPLE.NAME => jdbcDF4.NAME": 40585,
+    "HEIGHT => ADULTS.HEIGHT": 40587,
+    "CITY => ADULTS.CITY": 40581,
+    "NAME => ADULTS.NAME": 40579,
+    "jdbcDF4.CITY => df12.CITY": 40588,
+    "PEOPLE.HEIGHT => jdbcDF4.HEIGHT": 40584,
+    "jdbcDF4.NAME => df12.NAME": 40582,
+    "jdbcDF4.AGE => df12.AGE": 40580,
+    "PEOPLE.CITY => jdbcDF4.CITY": 40589,
+    "AGE => ADULTS.AGE": 40590,
+    "jdbcDF4.HEIGHT => df12.HEIGHT": 40583,
+    "PEOPLE.AGE => jdbcDF4.AGE": 40586
+  }
+}

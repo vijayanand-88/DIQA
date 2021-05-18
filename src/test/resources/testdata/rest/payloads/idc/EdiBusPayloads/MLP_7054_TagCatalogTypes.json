@@ -1,0 +1,11 @@
+{
+	"TagCatalogTypes": {
+		"label": {
+			"": "TagCatalogTypes"
+		},
+		"className": "com.asg.dis.platform.connect.dom.SqlgArea",
+		"configuration": {
+			"schema": "TagCatalogTypes"
+		}
+	}
+}

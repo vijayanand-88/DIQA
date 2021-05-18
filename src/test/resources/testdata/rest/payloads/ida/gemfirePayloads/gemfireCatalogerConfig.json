@@ -1,0 +1,76 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GemfireCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Gemfire Catalog",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "locatorPort": "10334",
+      "JMXPort": "1099",
+      "Sample Data Limit": "10",
+      "HostName": "USYP5DIVYBHAR1V.asg.com"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GemfireCatalogerWithNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Gemfire Catalog",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "filter": null,
+      "locatorPort": "10334",
+      "JMXPort": "1099",
+      "Sample Data Limit": "10",
+      "HostName": "USYP5DIVYBHAR1V.asg.com"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GemfireCatalogerWithIncorrectHostURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Gemfire Catalog",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "locatorPort": "10334",
+      "JMXPort": "1099",
+      "Sample Data Limit": "10",
+      "HostName": "USYP5DIV.asg.com"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GemfireCatalogerWithIncorrectPort",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Gemfire Catalog",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "locatorPort": 1034,
+      "JMXPort": 199,
+      "Sample Data Limit": "10",
+      "HostName": "USYP5DIVYBHAR1V.asg.com"
+    }
+  ]
+}

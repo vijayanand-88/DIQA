@@ -1,0 +1,26 @@
+{
+  "zOS_DB2_Feeder": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Feeder",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "zOS_DB2_Feeder_DS",
+    "credential": "Valid_CAE_Feeder_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_FEEDER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "CAEFeed",
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Other"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "TIMESTAMP6TZCOLUMN": {
+    "Data type": "TIMESTAMP_WITH_TIMEZONE",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "13",
+    "scale": "6",
+    "datatypeName": "TIMESTAMP(6) WITH TIME ZONE"
+  },
+  "FLOATCOLUMN": {
+    "Data type": "FLOAT",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "2",
+    "datatypeName": "FLOAT",
+    "dataPrecision": "5"
+  },
+  "BINARYDOUBLECOLUMN": {
+    "Data type": "OTHER",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "4",
+    "datatypeName": "BINARY_DOUBLE"
+
+  },
+  "RAWCOLUMN": {
+    "Data type": "VARBINARY",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "18",
+    "datatypeName": "RAW"
+  },
+  "UROWIDCOLUMN": {
+    "Data type": "OTHER",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "20",
+    "datatypeName": "UROWID"
+  },
+  "DATECOLUMN": {
+    "Data type": "TIMESTAMP",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "11",
+    "datatypeName": "DATE"
+  },
+  "TIMESTAMPCOLUMN": {
+    "Data type": "TIMESTAMP",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "12",
+    "scale": "6",
+    "datatypeName": "TIMESTAMP(6)"
+  },
+  "CLOBCOLUMN": {
+    "Data type": "CLOB",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "16",
+    "datatypeName": "CLOB"
+  },
+  "NVARCHAR2COLUMN": {
+    "Data type": "NVARCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "10",
+    "datatypeName": "NVARCHAR2"
+  },
+  "NCHARCOLUMN": {
+    "Data type": "NCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "9",
+    "datatypeName": "NCHAR"
+  },
+  "CHARCOLUMN": {
+    "Data type": "CHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "6",
+    "datatypeName": "CHAR"
+  },
+  "VARCHARCOLUMN": {
+    "Data type": "VARCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "7",
+    "datatypeName": "VARCHAR2"
+  },
+  "VARCHAR2COLUMN": {
+    "Data type": "VARCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "8",
+    "datatypeName": "VARCHAR2"
+  },
+  "BLOBCOLUMN": {
+    "Data type": "BLOB",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "15",
+    "datatypeName": "BLOB"
+  },
+  "BFILECOLUMN": {
+    "Data type": "OTHER",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "21",
+    "datatypeName": "BFILE"
+  },
+  "LONGCOLUMN": {
+    "Data type": "LONGVARCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "3",
+    "datatypeName": "LONG"
+  },
+  "TIMESTAMP6LTZCOLUMN": {
+    "Data type": "TIMESTAMP_WITH_TIMEZONE",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "14",
+    "scale": "6",
+    "datatypeName": "TIMESTAMP(6) WITH LOCAL TIME ZONE"
+  },
+  "ROWIDCOLUMN": {
+    "Data type": "ROWID",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "19",
+    "datatypeName": "ROWID"
+  },
+  "BINARYFLOATCOLUMN": {
+    "Data type": "OTHER",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "5",
+    "datatypeName": "BINARY_FLOAT"
+  },
+  "NUMBERCOLUMN": {
+    "Data type": "DECIMAL",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "1",
+    "scale": "2",
+    "datatypeName": "NUMBER",
+    "dataPrecision": "3"
+  },
+  "NCLOBCOLUMN": {
+    "Data type": "NCLOB",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "17",
+    "datatypeName": "NCLOB"
+  },
+  "ORACLE_TAG_DETAILS": {
+    "Table Type": "TABLE"
+  },
+  "OCPPVIEW": {
+    "Table Type": "VIEW"
+  },
+  "TABLE_PRIMARY": {
+    "Table Type": "TABLE"
+  },
+  "BASELINES": {
+    "Table Type": "TABLE"
+  },
+  "ORACLE_DIFFDATATYPES": {
+    "Table Type": "TABLE"
+  }
+}
+

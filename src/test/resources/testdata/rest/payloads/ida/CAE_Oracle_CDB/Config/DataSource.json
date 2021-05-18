@@ -1,0 +1,142 @@
+{
+  "CAEDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAEDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "CAECredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "pluginName": "CAEDataSource",
+        "ServerName": "DIQDOCKER01V.DIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "ORA19",
+        "DBPort": "1521"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAEDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "CAEOracleDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAEOracleDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "OracleCredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "pluginName": "CAEOracleDataSource",
+        "Connection": {
+          "CAEPath": "${cae.home}",
+          "OracleUrl": "jdbc:oracle:thin:@//diqscanora01v.diq.qa.asgint.loc:1522/orcl19c.DIQ.QA.ASGINT.LOC"
+        }
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAEOracleDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "OraclePDBDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OraclePDBDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "OracleCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "driver": "oracle.jdbc.OracleDriver",
+        "pluginName": "OracleDBDataSource",
+        "driverBundleName": "oracle.jdbc.OracleDriver",
+        "url": "jdbc:oracle:thin:@diqscanora01v.diq.qa.asgint.loc:1522/pdbdb19c.DIQ.QA.ASGINT.LOC"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  }
+}
+
+

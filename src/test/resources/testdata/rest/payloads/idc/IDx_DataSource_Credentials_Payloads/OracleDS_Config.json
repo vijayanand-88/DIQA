@@ -1,0 +1,24 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "OracleDS",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "OracleCredentials",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "driver": "oracle.jdbc.OracleDriver",
+  "pluginName": "OracleDBDataSource",
+  "driverBundleName": "oracle.jdbc.OracleDriver",
+  "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORACLE12C"
+}

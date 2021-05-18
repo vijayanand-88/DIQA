@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDItoIDPColumn",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusStitchDataSource",
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "IDA types": [],
+      "EDI technologies": [],
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [
+        "DWR_RDB_DB_SYSTEM",
+        "DWR_RDB_DATABASE",
+        "DWR_RDB_SCHEMA",
+        "DWR_RDB_TABLE_OR_VIEW",
+        "DWR_RDB_COLUMN"
+      ],
+      "commands and flags": {
+        "function": "replicate",
+        "batch size": 1000,
+        "incremental": false,
+        "run in transaction": false
+      },
+      "IDA technologies": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "header": {
+    "contentType": "application/json",
+    "acceptFormat": "application/json"
+  },
+  "queryparam": {},
+  "path": "dashboards",
+  "method": "POST",
+  "payload": "ida/createDashboardwithAnalysis.json",
+  "responseCode": "204"
+}

@@ -1,0 +1,117 @@
+{
+  "SQLServer_Collector": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SQLServer_MulDBInc_NoSchema_WC",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"Headless-EDI\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": "SQLserver_DS",
+        "credential": "sqlserver_validcred",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "JAVA_MEMORY_HEAP_1": "-Xms256m",
+        "pluginName": "CAE_Collector_for_SQLServer",
+        "General Environment": {
+          "CAEPath": "${cae.home}",
+          "CAE_DIR": "${cae.home}",
+          "DES_DIR": "${project.host.dir}/ADU",
+          "LOG_DIR": "${project.root}/LOG/Collect",
+          "DES_FILE": "",
+          "LOG_FILE": "zOS_SQLServer.log",
+          "VSO_FILE": "",
+          "WORK_DIR": "${project.root}/Collect_Dist/Work",
+          "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+          "JAVA_TRACE": "on",
+          "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+          "JAVA_TRACE_FILE": "",
+          "LOCALE_OVERRIDE": "",
+          "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+          "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+        },
+        "ProjectRootFolder": "${cae.project.home}",
+        "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+        "type": "Collector",
+        "DEBUG": "off",
+        "Source Selection": {
+          "CFG_FILE": "",
+          "configLines": [
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLCONC,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLCONR,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLINDEX,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLSPROC,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLSYN,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLTABL,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLTRIG,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLVIEW,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLSPROCSRC,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SQLSVR,TYPE=SQLTRIGSRC,PROCESS=LOAD,BATCH=200"
+              }
+            }
+          ]
+        },
+        "database filter": [
+          {
+            "mode": "INCLUDE",
+            "schemas": [],
+            "databasename": "*DB"
+          },
+          {
+            "mode": "INCLUDE",
+            "schemas": [],
+            "databasename": "*CAE"
+          }
+        ]
+      }
+    ]
+  }
+}

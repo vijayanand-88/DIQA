@@ -1,0 +1,6 @@
+{
+  "configurationName": null,
+  "configurationType": "data-source-configuration",
+  "type": "HdfsDataSource",
+  "pluginName": null
+}

@@ -1,0 +1,39 @@
+{
+  "ReportPackageQuery": {
+    "Description1": ["Description","Definition","owner"],
+    "Description2": {
+      "Description": null,
+      "Definition": ".",
+      "owner": "ADMIN"
+    }
+  },
+  "ReportSchemaQuery": {
+    "Description1": ["Description","Definition","owner"],
+    "Description2": {
+      "Description": null,
+      "Definition": null,
+      "owner": "ADMIN"
+    }
+  },
+  "DataTypeQuery": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+
+      "Definition": "."
+    }
+  },
+  "DataFieldQuery": {
+    "Description1": ["Description","Definition","dataDefaultValue","dataAllowedValues"],
+    "Description2": ["dataLength","dataScale","dataMinimumLength"],
+    "Description3": {
+      "dataLength": "0",
+      "dataScale": "0",
+      "dataMinimumLength": "0"
+    }
+  },
+  "ReportQuery": {
+    "Description1": ["Description","Definition","owner","query"]
+  }
+
+}
+

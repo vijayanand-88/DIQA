@@ -1,0 +1,326 @@
+{
+  "LoggingLevel_Severe": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_Severe",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "SEVERE"
+      }
+    ]
+  },
+  "LoggingLevel_Warning": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_Warning",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "WARNING"
+      }
+    ]
+  },
+  "LoggingLevel_Info": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_Info",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "INFO"
+      }
+    ]
+  },
+  "LoggingLevel_Config": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_Config",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "CONFIG"
+      }
+    ]
+  },
+  "LoggingLevel_Fine": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_Fine",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "FINE"
+      }
+    ]
+  },
+  "LoggingLevel_Finer": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_Finer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "FINER"
+      }
+    ]
+  },
+  "LoggingLevel_Finest": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_Finest",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "FINEST"
+      }
+    ]
+  },
+  "LoggingLevel_Off": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_Off",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "OFF"
+      }
+    ]
+  },
+  "LoggingLevel_All": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Scan_All",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "Informatica_Scan_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ScanInputPath": "C:\\Users\\Jayasree.v\\Documents\\scan",
+        "ClassPath": "${rochade.project.home};${rochade.home}/scaninformatica/V226/lib/scanInfa2.jar;${rochade.home}/bin/ScanLogging.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "JavaMemory": "512m",
+        "pluginName": "Scanner_for_Informatica_Scan",
+        "RochadePath": "${rochade.home}",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/lib",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "arguments": [],
+        "type": "Collector",
+        "LogLevel": "ALL"
+      }
+    ]
+  }
+}

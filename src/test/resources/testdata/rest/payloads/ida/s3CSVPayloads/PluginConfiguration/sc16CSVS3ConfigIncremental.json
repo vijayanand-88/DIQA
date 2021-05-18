@@ -1,0 +1,41 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 1000,
+    "pluginType" : "cataloger",
+    "nodeCondition" : null,
+    "label" : {
+      "" : ""
+    },
+    "incremental" : true,
+    "type" : "Cataloger",
+    "tags" : [ "CSVS3" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "pluginVersion" : "LATEST",
+    "credential" : "AWS_CSV_Credentials",
+    "versionMode" : false,
+    "maxObjectsAmount" : 1000,
+    "pluginName" : "CsvS3Cataloger",
+    "name" : "CSVS3Cataloger",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "AmazonCSVS3DataSource",
+    "bucketFilter" : {
+      "mode" : "INCLUDE",
+      "patterns" : [ "asgqacsvtestautomation" ],
+      "objectFilter" : {
+        "fileFilter" : {
+          "mode" : "INCLUDE",
+          "patterns" : [ ]
+        },
+        "dirPrefixes" : [ "/AutoTestData" ],
+        "dirFilter" : {
+          "mode" : "INCLUDE",
+          "patterns" : [ ]
+        }
+      }
+    },
+    "firstRowAsHeader" : false
+  } ]
+}

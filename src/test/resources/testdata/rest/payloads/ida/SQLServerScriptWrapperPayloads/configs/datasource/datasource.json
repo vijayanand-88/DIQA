@@ -1,0 +1,60 @@
+{
+  "SQLServerScanDS":
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "SQLServerScritDS",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": null,
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": null,
+  "businessApplicationName": null,
+  "schedule": null,
+  "filter": null,
+  "RochadeBin": "${rochade.home}/bin",
+  "RochadeServerHost": "${rochade.server}",
+  "RochadePath": "${rochade.home}",
+  "PropertiesAndOutputPath": "${rochade.project.home}",
+  "VersionPathName": "V200",
+  "RochadeServerPort": "${rochade.port}"
+  },
+  "ediBusSQLServerDS":
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "EDIBusSQLServerDS",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"InternalNode\"",
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "RochadeCredentials",
+  "businessApplicationName": null,
+  "schedule": null,
+  "filter": null,
+  "EDI host": "diqserver05v.diq.qa.asgint.loc",
+  "EDI subject area access roles": [
+    {
+      "role": "*"
+    }
+  ],
+  "EDI subject area name": "METAAPPS",
+  "EDI port": 8888,
+  "pluginName": "EDIBusDataSource",
+  "EDI subject area version": "PRODUCTION",
+  "EDI database": "AP-DATA"
+}
+}

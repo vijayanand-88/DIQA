@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaSparkLineage",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaSparkSQL"],
+      "businessApplicationName": "test_BA_JavaSparkSQL",
+      "pluginType": "lineage",
+      "filter": null
+    }
+  ]
+}

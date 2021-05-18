@@ -1,0 +1,11 @@
+{
+  "DiagrammingCatalog": {
+    "label": {
+      "": "DiagrammingCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "DiagrammingCatalog"
+    }
+  }
+}

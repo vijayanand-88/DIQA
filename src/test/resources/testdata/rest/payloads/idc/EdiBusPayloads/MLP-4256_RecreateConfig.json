@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusTransactionRecreate",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusTransDataSource",
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "IDA types": [
+        {
+          "type": "Database"
+        }
+      ],
+      "EDI technologies": [],
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "toEDI",
+        "batch size": 1000,
+        "incremental": false,
+        "run in transaction": true
+      },
+      "IDA technologies": [
+        {
+          "technology": "Oracle"
+        }
+      ]
+    }
+  ]
+}

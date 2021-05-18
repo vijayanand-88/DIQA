@@ -1,0 +1,22 @@
+{
+  "LineageHop_1": {
+    "source": ["set_1"],
+    "target": ["fname"]
+  },
+  "LineageHop_2": {
+    "source": ["set_2"],
+    "target": ["lname"]
+  },
+  "LineageHop_3": {
+    "source": ["set_3"],
+    "target": ["id"]
+  },
+  "LineageHop_4": {
+    "source": ["set_4"],
+    "target": ["age"]
+  },
+  "LineageHop_5": {
+    "source": ["id","id"],
+    "target": ["FNAME => FNAME","ID => ID","LNAME => LNAME","age => AGE"]
+  }
+}

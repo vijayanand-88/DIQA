@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaSparkLineage",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagJavaSparkSnowflake"],
+      "businessApplicationName": "test_BA_JavaSparkSnowflake",
+      "pluginType": "lineage",
+      "filter": null
+    }
+  ]
+}

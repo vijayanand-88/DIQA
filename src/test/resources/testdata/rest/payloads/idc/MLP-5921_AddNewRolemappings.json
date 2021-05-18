@@ -1,0 +1,8 @@
+{
+  "roleMappings": [
+    {
+      "role": "NewUserRole",
+      "userGroup": "Development Dept"
+    }
+  ]
+}

@@ -1,0 +1,1215 @@
+{
+  "TIMESTAMP6TZCOLUMN": {
+    "Data type": "TIMESTAMP_WITH_TIMEZONE",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "13",
+    "scale": "6",
+    "datatypeName": "TIMESTAMP(6) WITH TIME ZONE"
+  },
+  "FLOATCOLUMN": {
+    "Data type": "FLOAT",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "2",
+    "datatypeName": "FLOAT",
+    "dataPrecision": "5"
+  },
+  "BINARYDOUBLECOLUMN": {
+    "Data type": "OTHER",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "4",
+    "datatypeName": "BINARY_DOUBLE"
+  },
+  "RAWCOLUMN": {
+    "Data type": "VARBINARY",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "18",
+    "datatypeName": "RAW"
+  },
+  "UROWIDCOLUMN": {
+    "Data type": "OTHER",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "20",
+    "datatypeName": "UROWID"
+  },
+  "DATECOLUMN": {
+    "Data type": "TIMESTAMP",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "11",
+    "datatypeName": "DATE"
+  },
+  "TIMESTAMPCOLUMN": {
+    "Data type": "TIMESTAMP",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "12",
+    "scale": "6",
+    "datatypeName": "TIMESTAMP(6)"
+  },
+  "CLOBCOLUMN": {
+    "Data type": "CLOB",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "16",
+    "datatypeName": "CLOB"
+  },
+  "NVARCHAR2COLUMN": {
+    "Data type": "NVARCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "10",
+    "datatypeName": "NVARCHAR2"
+  },
+  "NCHARCOLUMN": {
+    "Data type": "NCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "9",
+    "datatypeName": "NCHAR"
+  },
+  "CHARCOLUMN": {
+    "Data type": "CHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "6",
+    "datatypeName": "CHAR"
+  },
+  "VARCHARCOLUMN": {
+    "Data type": "VARCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "7",
+    "datatypeName": "VARCHAR2"
+  },
+  "VARCHAR2COLUMN": {
+    "Data type": "VARCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "10",
+    "columnId": "8",
+    "datatypeName": "VARCHAR2"
+  },
+  "BLOBCOLUMN": {
+    "Data type": "BLOB",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "15",
+    "datatypeName": "BLOB"
+  },
+  "BFILECOLUMN": {
+    "Data type": "OTHER",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "21",
+    "datatypeName": "BFILE"
+  },
+  "LONGCOLUMN": {
+    "Data type": "LONGVARCHAR",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "3",
+    "datatypeName": "LONG"
+  },
+  "TIMESTAMP6LTZCOLUMN": {
+    "Data type": "TIMESTAMP_WITH_TIMEZONE",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "14",
+    "scale": "6",
+    "datatypeName": "TIMESTAMP(6) WITH LOCAL TIME ZONE"
+  },
+  "ROWIDCOLUMN": {
+    "Data type": "ROWID",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "19",
+    "datatypeName": "ROWID"
+  },
+  "BINARYFLOATCOLUMN": {
+    "Data type": "OTHER",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "5",
+    "datatypeName": "BINARY_FLOAT"
+  },
+  "NUMBERCOLUMN": {
+    "Data type": "DECIMAL",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "1",
+    "scale": "2",
+    "datatypeName": "NUMBER",
+    "dataPrecision": "3"
+  },
+  "NCLOBCOLUMN": {
+    "Data type": "NCLOB",
+    "nulls": "YES",
+    "isEncrypted": "NO",
+    "columnType": "table",
+    "columnUsed": "NO",
+    "characterLength": "0",
+    "columnId": "17",
+    "datatypeName": "NCLOB"
+  },
+  "ORACLE_TAG_DETAILS": {
+    "Description": {
+      "Table Type": "TABLE"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ]
+  },
+  "ORACLE_VIEW": {
+    "Description": {
+      "Table Type": "VIEW"
+    },
+    "Lifecycle": [
+      "Last catalogued at"
+    ]
+  },
+  "OCPPVIEW": {
+    "Table Type": "VIEW"
+  },
+  "TABLE_PRIMARY": {
+    "Table Type": "TABLE"
+  },
+  "BASELINES": {
+    "Table Type": "TABLE"
+  },
+  "ORACLE_DIFFDATATYPES": {
+    "Table Type": "TABLE"
+  },
+  "IDADB": {
+    "Description": {
+      "Storage type": "Oracle Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production Version 19.7.0.0.0",
+      "databaseType": "PDB"
+    }
+  },
+  "ORACLE12C_SCHEMA1": {
+    "Lifecycle": [
+      "Last catalogued at",
+      "Created"
+    ]
+  },
+  "ORACLE_CHECK_SUPPLIER_ID": {
+    "Lifecycle": [
+      "Last catalogued at"
+    ],
+    "Description": {
+      "checkCondition": "check_id BETWEEN 100 and 9999",
+      "Constraint Type": "CHECK",
+      "deferrable": "NO",
+      "deferred": "NO",
+      "disabled": "NO",
+      "generatedName": "NO",
+      "rely": "NO",
+      "validated": "YES"
+    }
+  },
+  "ORACLE_SUPPLIER_UNIQUETEST": {
+    "Lifecycle": [
+      "Last catalogued at",
+      "Modified",
+      "Created"
+    ],
+    "Description": {
+      "Constraint Type": "UNIQUE",
+      "deferrable": "NO",
+      "deferred": "NO",
+      "disabled": "NO",
+      "generatedName": "NO",
+      "rely": "NO",
+      "validated": "YES"
+    }
+  },
+  "PERSON_INFO_PK": {
+    "Lifecycle": [
+      "Last catalogued at",
+      "Modified",
+      "Created"
+    ],
+    "Description": {
+      "Constraint Type": "PRIMARY_KEY",
+      "deferrable": "NO",
+      "deferred": "NO",
+      "disabled": "NO",
+      "generatedName": "NO",
+      "rely": "NO",
+      "validated": "YES"
+    }
+  },
+  "FK_PERSON_INFO": {
+    "Lifecycle": [
+      "Last catalogued at",
+      "Modified",
+      "Created"
+    ],
+    "Description": {
+      "Constraint Type": "FOREIGN_KEY",
+      "deferrable": "NO",
+      "deferred": "NO",
+      "disabled": "NO",
+      "generatedName": "NO",
+      "rely": "NO",
+      "deleteRule": "NO ACTION",
+      "validated": "YES"
+    }
+  },
+  "ORACLEINDEXTEST": {
+    "Lifecycle": [
+      "Last catalogued at",
+      "Modified",
+      "Created"
+    ],
+    "Description": {
+      "indexType": "NORMAL",
+      "unique": "NO",
+      "generatedName": "NO"
+    }
+  },
+  "FULL_NAME": {
+    "Statistics": {
+      "Length": "40",
+      "Maximum length": "14",
+      "Maximum value": "Lionel Messi",
+      "Minimum length": "11",
+      "Minimum value": "Alex Ferguson",
+      "Number of non null values": "4",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "4",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "VARCHAR",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "40",
+      "columnId": "2",
+      "datatypeName": "VARCHAR2"
+    }
+  },
+  "TRIGGERTEST": {
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Table Type": "TABLE"
+    },
+    "Statistics": {
+      "Number of rows": "1",
+      "totalBytes": "65,536"
+    }
+  },
+  "OCPPDSVT": {
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Table Type": "VIEW"
+    },
+    "Statistics": {
+      "Number of rows": "1"
+    }
+  },
+  "GRADE": {
+    "Statistics": {
+      "Length": "20",
+      "Maximum length": "5",
+      "Maximum value": "three",
+      "Minimum length": "4",
+      "Minimum value": "five",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "VARCHAR",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "20",
+      "columnId": "3",
+      "datatypeName": "VARCHAR2"
+    }
+  },
+  "ORACLEDB_SALARY": {
+    "Statistics": {
+      "Average": "95.72",
+      "Length": "22",
+      "Maximum value": "100.9",
+      "Median": "95.72",
+      "Minimum value": "90.55",
+      "Number of non null values": "2",
+      "Percentage of non null values": "50",
+      "Number of null values": "2",
+      "Standard deviation": "7.32",
+      "Number of unique values": "2",
+      "Percentage of unique values": "50",
+      "Variance": "53.56"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "DECIMAL",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "10",
+      "datatypeName": "NUMBER",
+      "dataPrecision": "6",
+      "scale": "2"
+    }
+  },
+  "ROLLNO": {
+    "Statistics": {
+      "Average": "150",
+      "Length": "0",
+      "Maximum value": "200",
+      "Median": "150",
+      "Minimum value": "100",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Standard deviation": "70.71",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100",
+      "Variance": "5000"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "DECIMAL",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "1",
+      "datatypeName": "NUMBER"
+    }
+  },
+  "ORACLEDB_LOCALTIME": {
+    "Statistics": {
+      "Length": "7",
+      "Maximum value": "2020-05-22 17:18:54",
+      "Minimum value": "2020-05-22 17:18:53",
+      "Number of non null values": "4",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "2",
+      "Percentage of unique values": "50"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "11",
+      "scale": "0",
+      "datatypeName": "TIMESTAMP(0)"
+    }
+  },
+  "ORACLE_VIEW_DOB": {
+    "Statistics": {
+      "Length": "7",
+      "Maximum value": "2005-10-20 00:00:00",
+      "Minimum value": "2005-10-20 00:00:00",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "3",
+      "datatypeName": "DATE"
+    }
+  },
+  "ORACLE_VIEW_DOB2": {
+    "Statistics": {
+      "Length": "11",
+      "Maximum value": "2005-05-01 06:14:00",
+      "Minimum value": "2005-05-01 06:14:00",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "4",
+      "scale": "6",
+      "datatypeName": "TIMESTAMP(6)"
+    }
+  },
+  "ORACLE_VIEW_DOB3": {
+    "Statistics": {
+      "Length": "13",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP_WITH_TIMEZONE",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "5",
+      "scale": "6",
+      "datatypeName": "TIMESTAMP(6) WITH TIME ZONE"
+    }
+  },
+  "ORACLE_EMPTY_DOB2": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Number of non null values",
+      "Maximum value",
+      "Number of non null values",
+      "Minimum value"
+    ]
+  },
+  "ORACLE_EMPTY_ID": {
+    "Lifecycle": [
+      "Last catalogued at"
+    ],
+    "Statistics": [
+      "Average",
+      "Maximum value",
+      "Minimum value",
+      "Median"
+    ]
+  },
+  "ORACLE_EMPTY_NAME": {
+    "Lifecycle": [
+      "Last catalogued at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "ORACLE_TABLE": {
+    "Description": {
+      "Table Type": "TABLE"
+    },
+    "Lifecycle": [
+      "Last catalogued at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "ORACLE_TABLE_NAME": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "ORACLE_VIEW__NAME": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "ORACLE_TABLE_DOB": {
+    "Statistics": {
+      "Length": "7",
+      "Maximum value": "2005-10-20 00:00:00",
+      "Minimum value": "2005-10-20 00:00:00",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "3",
+      "datatypeName": "DATE"
+    }
+  },
+  "ORACLE_TABLE_DOB2": {
+    "Statistics": {
+      "Length": "11",
+      "Maximum value": "2005-05-01 06:14:00",
+      "Minimum value": "2005-05-01 06:14:00",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "4",
+      "scale": "6",
+      "datatypeName": "TIMESTAMP(6)"
+    }
+  },
+  "ORACLE_TABLE_DOB3": {
+    "Statistics": {
+      "Length": "13",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP_WITH_TIMEZONE",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "5",
+      "scale": "6",
+      "datatypeName": "TIMESTAMP(6) WITH TIME ZONE"
+    }
+  },
+  "EMAIL": {
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ]
+  },
+  "BASELINES_EMAIL": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "BASELINES_GENDER": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "ORACLE_VIEW2__DOB": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "TRIGGERTEST_IDADDRESS": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "OCPPVIEW_GRADE": {
+    "Statistics": {
+      "Length": "20",
+      "Maximum length": "5",
+      "Maximum value": "three",
+      "Minimum length": "4",
+      "Minimum value": "five",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "VARCHAR",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "20",
+      "columnId": "3",
+      "datatypeName": "VARCHAR2"
+    }
+  },
+  "OCPPVIEW_ROLLNO": {
+    "Statistics": {
+      "Average": "150",
+      "Length": "0",
+      "Maximum value": "200",
+      "Median": "150",
+      "Minimum value": "100",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Standard deviation": "70.71",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100",
+      "Variance": "5000"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "DECIMAL",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "1",
+      "datatypeName": "NUMBER"
+    }
+  },
+  "ORACLE_VIEW_NAME": {
+    "Statistics": {
+      "Length": "20",
+      "Maximum length": "10",
+      "Maximum value": "Test Name2",
+      "Minimum length": "10",
+      "Minimum value": "Test Name2",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "VARCHAR",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "20",
+      "columnId": "2",
+      "datatypeName": "VARCHAR2"
+    }
+  },
+  "ORACLE_VIEW_ID": {
+    "Statistics": {
+      "Average": "200",
+      "Length": "0",
+      "Maximum value": "200",
+      "Median": "200",
+      "Minimum value": "200",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Standard deviation": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100",
+      "Variance": "0"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "DECIMAL",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "1",
+      "datatypeName": "NUMBER"
+    }
+  },
+  "OCPPDSVT_GRADE": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "ORACLE_VIEW3_EMAIL": {
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Statistics": [
+      "Maximum value",
+      "Maximum length",
+      "Minimum value",
+      "Minimum length"
+    ]
+  },
+  "ORACLE_TABLE2_NAME": {
+    "Statistics": {
+      "Length": "20",
+      "Maximum length": "10",
+      "Maximum value": "Test Name2",
+      "Minimum length": "10",
+      "Minimum value": "Test Name2",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "VARCHAR",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "20",
+      "columnId": "2",
+      "datatypeName": "VARCHAR2"
+    }
+  },
+  "ORACLE_TABLE2_ID": {
+    "Statistics": {
+      "Average": "200",
+      "Length": "0",
+      "Maximum value": "200",
+      "Median": "200",
+      "Minimum value": "200",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Standard deviation": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100",
+      "Variance": "0"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "DECIMAL",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "1",
+      "datatypeName": "NUMBER"
+    }
+  },
+  "ORACLE_TABLE2_DOB": {
+    "Statistics": {
+      "Length": "7",
+      "Maximum value": "2005-10-20 00:00:00",
+      "Minimum value": "2005-10-20 00:00:00",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "3",
+      "datatypeName": "DATE"
+    }
+  },
+  "ORACLE_TABLE2_DOB2": {
+    "Statistics": {
+      "Length": "11",
+      "Maximum value": "2005-05-01 06:14:00",
+      "Minimum value": "2005-05-01 06:14:00",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "4",
+      "scale": "6",
+      "datatypeName": "TIMESTAMP(6)"
+    }
+  },
+  "ORACLE_TABLE2_DOB3": {
+    "Statistics": {
+      "Length": "13",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP_WITH_TIMEZONE",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "table",
+      "columnUsed": "NO",
+      "characterLength": "0",
+      "columnId": "5",
+      "scale": "6",
+      "datatypeName": "TIMESTAMP(6) WITH TIME ZONE"
+    }
+  },
+  "ORACLE_VIEW2_DOB": {
+    "Statistics": {
+      "Length": "7",
+      "Maximum value": "2005-10-20 00:00:00",
+      "Minimum value": "2005-10-20 00:00:00",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "3",
+      "datatypeName": "DATE"
+    }
+  },
+  "ORACLE_VIEW2_DOB2": {
+    "Statistics": {
+      "Length": "11",
+      "Maximum value": "2005-05-01 06:14:00",
+      "Minimum value": "2005-05-01 06:14:00",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "4",
+      "scale": "6",
+      "datatypeName": "TIMESTAMP(6)"
+    }
+  },
+  "ORACLE_VIEW2_DOB3": {
+    "Statistics": {
+      "Length": "13",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "TIMESTAMP_WITH_TIMEZONE",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "5",
+      "scale": "6",
+      "datatypeName": "TIMESTAMP(6) WITH TIME ZONE"
+    }
+  },
+  "ORACLE_VIEW2_NAME": {
+    "Statistics": {
+      "Length": "20",
+      "Maximum length": "10",
+      "Maximum value": "Test Name2",
+      "Minimum length": "10",
+      "Minimum value": "Test Name2",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "VARCHAR",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "20",
+      "columnId": "2",
+      "datatypeName": "VARCHAR2"
+    }
+  },
+  "ORACLE_VIEW2_ID": {
+    "Statistics": {
+      "Average": "200",
+      "Length": "0",
+      "Maximum value": "200",
+      "Median": "200",
+      "Minimum value": "200",
+      "Number of non null values": "1",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Standard deviation": "0",
+      "Number of unique values": "1",
+      "Percentage of unique values": "100",
+      "Variance": "0"
+    },
+    "Lifecycle": [
+      "Last catalogued at",
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "DECIMAL",
+      "nulls": "YES",
+      "isEncrypted": "NO",
+      "columnType": "view",
+      "columnUsed": "YES",
+      "characterLength": "0",
+      "columnId": "1",
+      "datatypeName": "NUMBER"
+    }
+  },
+  "Analysis": {
+    "Description": {
+      "Number of processed items": "1",
+      "Number of errors": "2"
+    }
+  },
+  "Analysis_2": {
+    "Description": {
+      "Number of processed items": "1",
+      "Number of errors": "3"
+    }
+  },
+  "Analysis_3": {
+    "Description": {
+      "Number of processed items": "3",
+      "Number of errors": "0"
+    }
+  },
+  "Analysis_4": {
+    "Description": {
+      "Number of processed items": "0",
+      "Number of errors": "0"
+    }
+  }
+}
+

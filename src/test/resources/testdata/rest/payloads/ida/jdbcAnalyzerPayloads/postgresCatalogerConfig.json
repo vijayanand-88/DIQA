@@ -1,0 +1,360 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "public",
+          "tables": []
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "public",
+          "tables": [
+            {
+              "table": "postgres_tag_details"
+            }
+          ]
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithMultipleSchemasInFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "public"
+        },
+        {
+          "schema": "pg_catalog"
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerwithSchemaAndMultipleTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "public",
+          "tables": [
+            {
+              "table": "postgres_tag_details"
+            },
+            {
+              "table": "table_primary"
+            }
+          ]
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithOnlyTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "tables": [
+            {
+              "table": "postgres_tag_details"
+            }
+          ]
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithMultipleSchemaFilterWithTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "public",
+          "tables": [
+            {
+              "table": "postgres_tag_details"
+            },
+            {
+              "table": "table_primary"
+            }
+          ]
+        },
+        {
+          "schema": "pg_catalog",
+          "tables": [
+            {
+              "table": "pg_type"
+            }
+          ]
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerwithNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "postgresnonexistingschema",
+          "tables": [
+            {
+              "table": "postgresnonexistingtable"
+            }
+          ]
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithIncorrectURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "public",
+          "tables": []
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheq.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithIncorrectCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "post",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "public",
+          "tables": [
+            {
+              "table": "postgres_tag_details"
+            }
+          ]
+        }
+      ],
+      "user": "postgre",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithWrongDriverBundleName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdfc",
+      "schemas": [],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCatalogerWithTimeStamp",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "public",
+          "tables": [
+            {
+              "table": "postgres_empty"
+            },
+            {
+              "table": "postgres_table"
+            }
+          ]
+        }
+      ],
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    }
+  ]
+}

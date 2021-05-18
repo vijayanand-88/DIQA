@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AWSCollectorConfigSC1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "CollectorCatalog1",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["collect"],
+      "pluginType": "collector",
+      "dataSource": "AWSCollectorValidDataSource",
+      "credential": "ValidGlueCredentials",
+	  "dryRun": true,
+	  "pluginName": "AWSCollector",
+	  "type": "Collector",
+      "filter": null
+    }
+  ]
+}

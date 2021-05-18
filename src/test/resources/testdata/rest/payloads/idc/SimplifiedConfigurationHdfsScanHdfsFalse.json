@@ -1,0 +1,1 @@
+{"Clusters":{"desired_config":{"tag":"version22","type":"catalog-hdfs-config","properties":{"cataloger.manager.port":"8080","cataloger.scan.hdfs":"false","cataloger.manager.user":"raj_ops","cataloger.manager.host":"localhost","cataloger.krb.principal":"hdfs@PRINCIPAL.COM","cataloger.scan.services":"true"}}}}

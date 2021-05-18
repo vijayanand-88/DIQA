@@ -1,0 +1,1103 @@
+{
+  "typePatterntagset": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": "VARCHAR"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": "VARCHAR"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": ".*VAR.*"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": "VARCHAR"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": ".*VAR.*"
+      }
+    ]
+  },
+  "typePatterntagsetno": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": ".*VAR1.*"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": "VARCHAR1"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": ".*FLOAT.*"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": "INTEGER"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "typePattern": "INTEGER"
+      }
+    ]
+  },
+  "namePatterntagset": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": "ipaddress"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*email.*"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": "ssn"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": "gender"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*full.*"
+      }
+    ]
+  },
+  "namePatterntagsetno": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": "IPADDRESS1"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*EMAILS.*"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": "SSN1"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": "GENDER1"
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*FULL1.*"
+      }
+    ]
+  },
+  "dataPattern02ratio": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "dataPattern06ratio": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "dataPattern06ratioempty": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "dataPattern1ratio": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      }
+    ]
+  },
+  "dataPattern05ratio": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "allthreepatternmatchfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": "ipaddress",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR",
+        "namePattern": ".*email.*",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": "ssn",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR",
+        "namePattern": "gender",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": ".*full.*",
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "allthreepatternmatchfalsenameneg": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": "ipaddress1",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR",
+        "namePattern": ".*email1.*",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": "ssn1",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR",
+        "namePattern": "gender1",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": ".*full1.*",
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "allthreepatternmatchfalsetypeneg": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VARS.*",
+        "namePattern": "ipaddress",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR1",
+        "namePattern": ".*email.*",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VARS.*",
+        "namePattern": "ssn",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR1",
+        "namePattern": "gender",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VARS.*",
+        "namePattern": ".*full.*",
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "fourpatterndoesnotmatch": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}\\.\\d{5}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": "ipaddress",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+*([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR",
+        "namePattern": ".*email.*",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}\\d{6}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": "ssn",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(male|Male|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR",
+        "namePattern": "gender",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+\\d{3}",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "namePattern": ".*full.*",
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "MatchEmpty": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "MatchFulltruedatabase": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "database",
+        "tags": [
+          "FullMatchTag",
+          "FullMatchTag1"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+       }
+     ]
+   },
+  "MatchFulltruedatabasefalse": {
+        "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+        "input": {
+          "@class": "com.asg.dis.policies.facts.DIAnalysis",
+          "pluginName": "AmazonSpectrumAnalyzer",
+          "technologies": [
+            ""
+          ],
+          "dataType": "STRUCTURED"
+        },
+      "outputs": [
+         {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "database",
+        "tags": [
+          "FullMatchTag",
+          "FullMatchTag1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "MatchFulltruegrants": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "FullMatchTag",
+          "FullMatchTag1"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "MatchFulltruegrantsfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "FullMatchTag",
+          "FullMatchTag1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "dataPattern05ratioext": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  }
+}

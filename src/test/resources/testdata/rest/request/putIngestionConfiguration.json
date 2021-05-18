@@ -1,0 +1,13 @@
+{
+  "api" : "IDC",
+  "user" : "TestServiceUser",
+  "header": {
+    "contentType": "application/json",
+    "acceptFormat": "application/json"
+  },
+  "queryparam":{},
+  "path": "settings/analyzers/dechedocker12v.asg.com",
+  "method": "PUT",
+  "payload":"",
+  "responseCode": "200"
+}

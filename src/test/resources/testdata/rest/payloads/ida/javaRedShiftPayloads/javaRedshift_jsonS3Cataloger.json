@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JsonS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagRedshiftJson"],
+      "businessApplicationName": "test_BA_JavaRedshiftLineage",
+      "pluginType": "cataloger",
+      "dataSource": "S3DataSource",
+      "credential": "AWS_Credentials",
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "incremental": true,
+      "bucketFilter": {
+        "patterns": [
+          "asgredshifttest"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "javaredshiftlineage"
+          ],
+          "dirFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

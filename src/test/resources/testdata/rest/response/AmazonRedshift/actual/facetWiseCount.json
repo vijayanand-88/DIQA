@@ -1,0 +1,63 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 590,
+      "value" : "Column"
+    }, {
+      "count" : 119,
+      "value" : "Table"
+    }, {
+      "count" : 12,
+      "value" : "Constraint"
+    }, {
+      "count" : 11,
+      "value" : "Schema"
+    }, {
+      "count" : 1,
+      "value" : "Analysis"
+    }, {
+      "count" : 1,
+      "value" : "Cluster"
+    }, {
+      "count" : 1,
+      "value" : "Database"
+    }, {
+      "count" : 1,
+      "value" : "Host"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ],
+    "asg.modifiedAt_dt" : [ {
+      "count" : 0,
+      "value" : "(*,NOW-1YEAR]",
+      "label" : "1 year and older"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1YEAR,NOW-6MONTH]",
+      "label" : "6 months up to 1 year"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-6MONTH,NOW-1MONTH]",
+      "label" : "1 month up to 6 months"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1MONTH,NOW-7DAY]",
+      "label" : "1 week up to 1 month"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-7DAY,NOW-1DAY]",
+      "label" : "1 day up to 1 week"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1DAY,NOW]",
+      "label" : "past 24 hours"
+    } ],
+    "asg.modifiedBy_s" : [ ]
+  }
+}

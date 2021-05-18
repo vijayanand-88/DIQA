@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonSpectrumAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SpecAnalyzer"],
+      "pluginType": "dataanalyzer",
+      "filter": null,
+      "histogramBuckets": 10,
+      "batchWrite": true,
+      "database": "world",
+      "sampleDataCount": 25,
+      "queryBatchSize": 100,
+      "schemas": [
+        {
+          "schema": "spectrum",
+          "mode": "INCLUDE",
+          "tables": [
+            {
+              "table": "city"
+            },
+            {
+              "table": "city1"
+            }
+          ]
+        }
+      ],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Dataanalyzer",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "topValues": 10
+    }
+  ]
+}

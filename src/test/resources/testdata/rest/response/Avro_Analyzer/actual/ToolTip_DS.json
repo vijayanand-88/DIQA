@@ -1,0 +1,542 @@
+{
+  "properties" : [ {
+    "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+    "value" : {
+      "headers" : [ {
+        "label" : "Configuration name",
+        "valuePath" : [ "properties", "0", "value" ]
+      } ],
+      "rows" : [ ],
+      "prototype" : {
+        "properties" : [ {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "HdfsDataSource",
+              "label" : "HdfsDataSource"
+            } ],
+            "availableValues" : [ {
+              "value" : "AvroS3DataSource",
+              "label" : "AvroS3DataSource"
+            }, {
+              "value" : "CAEDataSource",
+              "label" : "CAEDataSource"
+            }, {
+              "value" : "DataSource_for_zOS_DB2",
+              "label" : "DataSource_for_zOS_DB2"
+            }, {
+              "value" : "DataSource_for_zOS_PDS",
+              "label" : "DataSource_for_zOS_PDS"
+            }, {
+              "value" : "GitCollectorDataSource",
+              "label" : "GitCollectorDataSource"
+            }, {
+              "value" : "HdfsDataSource",
+              "label" : "HdfsDataSource"
+            }, {
+              "value" : "HiveDataSource",
+              "label" : "HiveDataSource"
+            }, {
+              "value" : "PostgreSQLDBDataSource",
+              "label" : "PostgreSQLDBDataSource"
+            }, {
+              "value" : "SnowflakeDBDataSource",
+              "label" : "SnowflakeDBDataSource"
+            }, {
+              "value" : "TeradataDBDataSource",
+              "label" : "TeradataDBDataSource"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginName",
+          "widget" : "select",
+          "label" : "Data Source Type",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Data Source Type should have at least one value selected"
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "name",
+          "widget" : "string",
+          "label" : "Name",
+          "tooltip" : "Plugin configuration name",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "required",
+            "message" : " Name field should not be empty"
+          }, {
+            "name" : "uniqueTableKey",
+            "message" : " Name contains duplicated values"
+          }, {
+            "name" : "pattern",
+            "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+            "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+          }, {
+            "name" : "uniqueValue",
+            "config" : [ ],
+            "message" : "Name already exists. Please enter a different name."
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "availableValues" : [ {
+              "value" : "1.1.0.SNAPSHOT",
+              "label" : "1.1.0.SNAPSHOT"
+            }, {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginVersion",
+          "widget" : "select",
+          "label" : "Plugin version",
+          "tooltip" : "Required plugin version",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "label",
+          "widget" : "label",
+          "label" : "Label",
+          "tooltip" : "Plugin configuration extended label and description",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventCondition",
+          "widget" : "string",
+          "label" : "Event condition",
+          "tooltip" : "Condition an event must match to trigger this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : false,
+          "name" : "dryRun",
+          "widget" : "checkbox",
+          "label" : "Dry Run",
+          "tooltip" : "Option to enable/disable the plugin execution on dry run mode without writing objects into the repository",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventClass",
+          "widget" : "string",
+          "label" : "Event class",
+          "tooltip" : "Event Class name to trigger current plugin configuration",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 100,
+          "name" : "maxWorkSize",
+          "widget" : "number",
+          "label" : "Maximum work size",
+          "tooltip" : "Maximum number of items the plugin can process before delegating to other nodes",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "pluginType",
+          "widget" : "string",
+          "label" : "pluginType",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "nodeCondition",
+          "widget" : "string",
+          "label" : "Node condition",
+          "tooltip" : "Condition an node must match to be able to run this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+          "value" : {
+            "headers" : [ {
+              "label" : "Name",
+              "valuePath" : [ "properties", "0", "value" ]
+            } ],
+            "rows" : [ ],
+            "prototype" : {
+              "properties" : [ {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "value" : null,
+                "name" : "configuration",
+                "widget" : "string",
+                "label" : "configuration",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              }, {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "value" : null,
+                "name" : "plugin",
+                "widget" : "string",
+                "label" : "plugin",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              }, {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "value" : null,
+                "name" : "version",
+                "widget" : "string",
+                "label" : "version",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              } ],
+              "name" : "ConfigurationReference",
+              "metadata" : { },
+              "validators" : [ ],
+              "label" : "ConfigurationReference",
+              "empty" : false
+            }
+          },
+          "name" : "runAfter",
+          "widget" : "table",
+          "label" : "runAfter",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "name" : "autoStart",
+          "widget" : "checkbox",
+          "label" : "Auto start",
+          "tooltip" : "Option to enable/disable the automatic execution of the plugin configuration after node startup",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "DemoSubTag",
+              "label" : "DemoSubTag"
+            }, {
+              "value" : "Test_Add_Tag1",
+              "label" : "Test_Add_Tag1"
+            } ],
+            "singleSelection" : false,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "tags",
+          "widget" : "multi-select",
+          "label" : "Tags",
+          "tooltip" : "Add custom tag(s) to define your data item",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "availableValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : true
+          },
+          "name" : "catalogName",
+          "widget" : "select",
+          "label" : "Catalog name",
+          "tooltip" : "Catalog name",
+          "hidden" : true,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Catalog name should have at least one value selected"
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.ScheduleProperty",
+          "name" : "schedule",
+          "widget" : "schedule",
+          "label" : "schedule",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "pdscredentials",
+              "label" : "pdscredentials"
+            }, {
+              "value" : "Feeder_credentials",
+              "label" : "Feeder_credentials"
+            }, {
+              "value" : "TeradataCredentials",
+              "label" : "TeradataCredentials"
+            }, {
+              "value" : "PostgressCredentials",
+              "label" : "PostgressCredentials"
+            }, {
+              "value" : "ambari",
+              "label" : "ambari"
+            }, {
+              "value" : "Feeder_Credentails",
+              "label" : "Feeder_Credentails"
+            }, {
+              "value" : "db2credentials",
+              "label" : "db2credentials"
+            }, {
+              "value" : "HdfsCredentials",
+              "label" : "HdfsCredentials"
+            }, {
+              "value" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "name",
+                  "widget" : "string",
+                  "label" : "Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Name field should not be empty"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+                    "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+                  }, {
+                    "name" : "uniqueValue",
+                    "config" : [ "pdscredentials", "Feeder_credentials", "TeradataCredentials", "PostgressCredentials", "ambari", "Feeder_Credentails", "db2credentials", "HdfsCredentials" ],
+                    "message" : "Name already exists. Please enter a different name."
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "userName",
+                  "widget" : "string",
+                  "label" : "User Name",
+                  "tooltip" : "User Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "User Name field should not be empty"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "password",
+                  "widget" : "password",
+                  "label" : "Password",
+                  "tooltip" : "Password",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "Password field should not be empty"
+                  } ],
+                  "advanced" : false
+                } ],
+                "metadata" : { },
+                "validators" : [ ],
+                "empty" : false
+              },
+              "label" : "Add credential"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "credential",
+          "widget" : "childProperties",
+          "label" : "Credential",
+          "tooltip" : "Credential to be used",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+          "name" : "class",
+          "widget" : "string",
+          "label" : "class",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "name" : "catalogerHdfsUser",
+          "widget" : "string",
+          "label" : "HDFS username",
+          "tooltip" : "Username for connecting to HDFS (for simple authentication).",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+          "value" : [ {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "kerberosKeytabLocation",
+            "widget" : "string",
+            "label" : "Kerberos keytab location",
+            "tooltip" : "Full path along with the Kerberos keytab file name. Keytab is a file representation of Kerberos principal. It contains pairs of Kerberos principal and encrypted keys",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "kerberosKrb5location",
+            "widget" : "string",
+            "label" : "Kerberos krb5 location",
+            "tooltip" : "Full path along with the Kerberos krb5 configuration file name.",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "kerberosPrincipalName",
+            "widget" : "string",
+            "label" : "Kerberos principal name",
+            "tooltip" : "Name of the Kerberos principal that will be used to connect to HDFS.",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          } ],
+          "name" : "kerberos",
+          "widget" : "properties",
+          "label" : "Kerberos authentication configuration settings",
+          "tooltip" : "Configuration settings for Kerberos authentication",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "collapsed" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : false,
+          "name" : "resolveClusterName",
+          "widget" : "checkbox",
+          "label" : "Resolve cluster name",
+          "tooltip" : "Disabled by default. Enable it to resolve the cluster name.",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+          "value" : [ {
+            "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+            "value" : {
+              "selectedValues" : [ {
+                "value" : "HORTONWORKS",
+                "label" : "HORTONWORKS"
+              } ],
+              "availableValues" : [ {
+                "value" : "CLOUDERA",
+                "label" : "CLOUDERA"
+              }, {
+                "value" : "HORTONWORKS",
+                "label" : "HORTONWORKS"
+              } ],
+              "singleSelection" : true,
+              "reload" : false,
+              "allowUserInput" : false
+            },
+            "name" : "clusterManagerName",
+            "widget" : "select",
+            "label" : "Cluster manager name",
+            "tooltip" : "Name of the cluster manager (CLOUDERA or HORTONWORKS) to which the HDFS Data Source plugin should connect.",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "clusterManagerHost",
+            "widget" : "string",
+            "label" : "Cluster manager hostname",
+            "tooltip" : "Hostname of the cluster manager (CLOUDERA or HORTONWORKS) to which the HDFS Data Source plugin should connect.",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "clusterManagerPort",
+            "widget" : "string",
+            "label" : "Cluster manager port",
+            "tooltip" : "Port number of the cluster manager (CLOUDERA or HORTONWORKS) to which the HDFS Data Source plugin should connect.",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "clusterManagerApiVersion",
+            "widget" : "string",
+            "label" : "Cluster manager API version",
+            "tooltip" : "Version of the cluster manager (CLOUDERA or HORTONWORKS) REST API to which the HDFS Data Source plugin should connect. For example, api/v1",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          } ],
+          "name" : "clusterManager",
+          "widget" : "properties",
+          "label" : "Cluster manager configuration settings",
+          "tooltip" : "Configuration settings for the preferred cluster manager (CLOUDERA or HORTONWORKS), it will be used only if Resolve cluster name is enabled.",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "collapsed" : true
+        } ],
+        "name" : "Plugin Configuration",
+        "metadata" : {
+          "description" : {
+            "" : "Validates HDFS and Cluster Manager connection."
+          },
+          "analysis.type" : "datasource",
+          "analysis.supportedCredentialTypes" : [ "basic" ],
+          "analysis.nodeCondition" : "type=='bigdata'"
+        },
+        "validators" : [ ],
+        "label" : "Hdfs Data Source",
+        "empty" : false
+      }
+    },
+    "name" : "configurations",
+    "widget" : "table",
+    "label" : "HdfsDataSource",
+    "hidden" : false,
+    "validators" : [ ],
+    "advanced" : false
+  } ],
+  "name" : "HdfsDataSource",
+  "metadata" : { },
+  "validators" : [ ],
+  "label" : "HdfsDataSource",
+  "empty" : false
+}

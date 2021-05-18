@@ -1,0 +1,108 @@
+{
+  "tableName": "aids3",
+  "description": "Table Description",
+  "database": "linkertargetdb",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "snno",
+        "type": "bigint",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqatestautomation4/SourceFiles/Source951/AIDS3/",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "snno",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "year",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "quarter",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "delay",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "dud",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "time",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "y",
+          "type": "bigint",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {
+    "skip.header.line.count": "1",
+    "sizeKey": "442",
+    "objectCount": "2",
+    "UPDATED_BY_CRAWLER": "aids_crawler",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "20",
+    "averageRecordSize": "22",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "csv",
+    "columnsOrdered": "true",
+    "areColumnsQuoted": "false",
+    "delimiter": ",",
+    "typeOfData": "file"
+  },
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+  "skip.header.line.count": "1",
+  "sizeKey": "442",
+  "objectCount": "2",
+  "UPDATED_BY_CRAWLER": "aids_crawler",
+  "CrawlerSchemaSerializerVersion": "1.0",
+  "recordCount": "20",
+  "averageRecordSize": "22",
+  "CrawlerSchemaDeserializerVersion": "1.0",
+  "compressionType": "none",
+  "classification": "csv",
+  "columnsOrdered": "true",
+  "areColumnsQuoted": "false",
+  "delimiter": ",",
+  "typeOfData": "file"
+}
+}

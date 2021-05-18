@@ -1,0 +1,112 @@
+{
+  "configurations": {
+    "HiveCataloger": [{
+      "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+      "name": "HiveCataloger",
+      "label": {
+        "": "HiveCataloger",
+        "en": "HiveCataloger"
+      },
+      "catalogName": "BigData",
+      "eventClass": null,
+      "eventCondition": null,
+      "enableQueryParser": false,
+      "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+      "kerberosKrb5location": "/etc/krb5.conf",
+      "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+      "filter": {
+        "filters": [{
+          "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+          "label": {
+            "": "LandingArea"
+          },
+          "tags": [
+            "LandingArea",
+            "BigData"
+          ],
+          "dbRegexList": [
+            "healthcare"
+          ]
+        }],
+        "maxHits": null,
+        "deltaTime": "5"
+      }
+    }],
+    "HiveQueryParser": [{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveQueryParser",
+      "label": {
+        "": "HiveQueryParser",
+        "en": "HiveQueryParser"
+      },
+      "catalogName": "BigData",
+      "eventClass": null,
+      "eventCondition": null,
+      "filter": null
+    }],
+    "HdfsMonitor": [{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HdfsMonitor",
+      "label": {
+        "": "HdfsMonitor",
+        "en": "HdfsMonitor"
+      },
+      "catalogName": "BigData",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "filter": null,
+      "catalogerConfigurationName": "HdfsCataloger"
+    }],
+    "HiveMonitor": [{
+      "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+      "name": "HiveMonitor",
+      "label": {
+        "": "HiveMonitor",
+        "en": "HiveMonitor"
+      },
+      "catalogName": "BigData",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "enableQueryParser": true,
+      "kerberosKeytabLocation": null,
+      "kerberosKrb5location": null,
+      "kerberosPrincipalName": null,
+      "filter": null,
+      "catalogerConfigurationName": "HiveCataloger"
+    }],
+    "MLAnalyzer": [{
+      "class": "com.asg.dis.common.analysis.dom.MLConfiguration",
+      "name": "ML Analyzer",
+      "label": {
+        "": "ML Analyzer",
+        "en": "ML Analyzer"
+      },
+      "catalogName": "BigData",
+      "eventClass": null,
+      "eventCondition": null,
+      "maxNumberValues": "1000",
+      "cutoffRatio": "0.3",
+      "filter": {
+        "filters": [{
+          "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+          "label": {
+            "": "PII"
+          },
+          "tags": [
+            "PII"
+          ],
+          "dbRegexList": [
+            "healthcare"
+          ]
+        }],
+        "maxHits": null,
+        "deltaTime": "300"
+      }
+    }]
+  },
+  "$parameter": {
+    "catalog": "BigData"
+  }
+}

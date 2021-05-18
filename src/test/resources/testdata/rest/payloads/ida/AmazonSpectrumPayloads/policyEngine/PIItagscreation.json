@@ -1,0 +1,150 @@
+{
+  "typePatterntagset":
+[
+  {
+    "name": "RedshiftSpectrum PII",
+    "definition": "test",
+    "status": "SUGGESTED",
+    "type": "PII Tag",
+    "image": {
+      "icon": "fa fa-tag",
+      "color": "string"
+    },
+    "userAssignable": true,
+    "subTags": [
+      {
+        "name": "Email Address",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "Email address default format",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "Fax Number",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "Fay number US",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "Full Name",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "Full name. Can consist of three parts",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "Gender",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "Support for male and female in pattern only",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "IP Address",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "IP address",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "Phone Number",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "Support of US phone number format",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "Postal Code",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "Support of US postal code numbers",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "Social Security Number",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "US format of SSN",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "State",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "List of US states",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "SSN",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "PII TEST",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "FullMatchTag",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "PII TEST",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      },
+      {
+        "name": "FullMatchTag1",
+        "parentTagName": "RedshiftSpectrum PII",
+        "definition": "PII TEST",
+        "status": "SUGGESTED",
+        "type": "PII Tag",
+        "image": {
+          "icon": "fa fa-tag",
+          "color": "string"
+        }
+      }
+    ]
+  }
+]
+}

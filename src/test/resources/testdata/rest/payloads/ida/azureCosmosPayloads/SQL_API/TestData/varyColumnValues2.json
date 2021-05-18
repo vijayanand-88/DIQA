@@ -1,0 +1,14 @@
+{
+  "Name": "Ramu",
+  "Native": false,
+  "gender": "M",
+  "salary": 65000.56,
+  "age": 34,
+  "postalcode": 1234567890123456800,
+  "id": "808146b7-2025-4e98-af6b-9029b7549d74",
+  "_rid": "kShuAKb87LoCAAAAAAAAAA==",
+  "_self": "dbs/kShuAA==/colls/kShuAKb87Lo=/docs/kShuAKb87LoCAAAAAAAAAA==/",
+  "_etag": "\"450023b8-0000-0000-0000-5c8bf2c00000\"",
+  "_attachments": "attachments/",
+  "_ts": 1552675520
+}

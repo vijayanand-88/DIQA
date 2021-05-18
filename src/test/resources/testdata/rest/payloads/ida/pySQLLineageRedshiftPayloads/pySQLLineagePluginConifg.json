@@ -1,0 +1,188 @@
+{
+  "RedShiftCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonRedshiftCatalogerPSR",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_PySqlRedshift"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AmazonRedshiftDataSourcePSR",
+    "credential": "ValidRedshiftDBCredentialsPSR",
+    "dryRun": false,
+    "filter": null,
+    "schemas": [
+      {
+        "schema": "transport",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "properties": []
+  },
+  "GitCollector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollectorPSR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollectorPSR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_PySqlRedshift"
+    ],
+    "pluginType": "collector",
+    "dataSource": "GitCollectorDataSourcePSR",
+    "credential": "ValidGitCredentialsPSR",
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.Filter",
+          "label": null,
+          "tags": null,
+          "branch": "refs/heads/master"
+        }
+      ],
+      "deltaTime": "300",
+      "extraFilters": {
+        "filefilters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.FileFilter",
+            "label": {
+              "": "Filter1"
+            },
+            "fileMode": "include",
+            "objectType": "folder",
+            "expressionType": "simple",
+            "expressions": [
+              "**pythonODBC1**"
+            ]
+          }
+        ]
+      },
+      "maxHits": null
+    },
+    "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+    "dryRun": false
+  },
+  "PythonParser": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonParserPSR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySqlRedshift"],
+    "pluginType": "parser",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PythonParser",
+    "type": "Parser"
+  },
+  "PythonPackageLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonPackageLinkerPSR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonPackageLinkerPSR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySqlRedshift"],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PythonPackageLinker",
+    "type": "Linker"
+  },
+  "PythonLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonLinkerPSR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonLinkerPSR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySqlRedshift"],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PythonLinker",
+    "type": "Linker"
+  },
+  "PythonSQLLineageDryRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonSQLLineagePSRDryRun",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonSQLLineagePSRDryRun"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySqlRedshift"],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": true,
+    "filter": null,
+    "pluginName": "PythonSQLLineage",
+    "type": "Lineage"
+  },
+  "PythonSQLLineageActualRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonSQLLineagePSR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonSQLLineagePSR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySqlRedshift"],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_PySQLRedshift",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PythonSQLLineage",
+    "type": "Lineage"
+  }
+}

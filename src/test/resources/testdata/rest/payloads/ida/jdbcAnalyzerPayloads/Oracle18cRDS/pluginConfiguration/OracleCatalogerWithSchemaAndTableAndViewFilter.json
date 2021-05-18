@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithSchemaAndTableAndViewFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["Orc18cRDSCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "Oracle18cRDSDS",
+      "credential": "Oracle18cRDSCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TABLE"
+            },
+            {
+              "table": "ORACLE_VIEW"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

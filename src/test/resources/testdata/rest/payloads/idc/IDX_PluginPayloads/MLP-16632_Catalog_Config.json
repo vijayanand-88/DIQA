@@ -1,0 +1,9 @@
+{
+  "AvroTest": {
+    "label": {
+      "": "AvroTest",
+      "en": "AvroTest"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea"
+  }
+}

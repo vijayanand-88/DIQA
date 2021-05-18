@@ -1,0 +1,64 @@
+{
+  "configurations": {
+
+    "GitCollector": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Bitbucket AnalysisDemoData",
+        "label": {
+          "": "Git Collector",
+          "en": "Git Collector"
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.Filter",
+              "label": null,
+              "tags": null,
+              "branch": "pythonSparkCombination"
+            }
+          ],
+          "maxHits": null,
+          "deltaTime": "300"
+        },
+        "repositoryUser": "becubic_build",
+        "repositoryPassword": "laguna-2012",
+        "projectDepth": 1,
+        "repositoryURL": "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git"
+      }
+    ],
+    "PythonParser": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Python Parser",
+        "label": {
+          "": "Python Parser",
+          "en": "Python Parser"
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "filter": null
+      }
+    ],
+    "PythonSparkLineage": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "python Spark Lineage",
+        "label": {
+          "": "Spark Lineage",
+          "en": "Spark Lineage"
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 10,
+        "filter": null,
+        "pathPrefix": ""
+      }
+    ]
+  },
+  "catalogName": "PythonSparkCombination1"
+}

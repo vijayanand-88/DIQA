@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RedShiftCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name=='InternalNode'",
+      "maxWorkSize": 100,
+      "tags": [
+        "Cataloger_Internal"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "RedshiftDataSource",
+      "credential": "Redshift_Credentials",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AmazonRedshiftCataloger",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "employee"
+            },
+            {
+              "table": "department"
+            }
+          ]
+        }
+      ],
+      "incremental": false,
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

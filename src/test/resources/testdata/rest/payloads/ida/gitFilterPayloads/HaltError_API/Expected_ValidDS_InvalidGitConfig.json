@@ -1,0 +1,9 @@
+[ {
+  "itemId" : "Default.Analysis:::2209",
+  "errorIndex" : 0,
+  "errorDetails" : {
+    "timestamp" : "2020-05-28 11:40:03.086",
+    "message" : "ANALYSIS-GIT-0030: Invalid username or password.  https://source-team.asg.com/scm/di/pythonanalyzerdemo.git: not authorized",
+    "cleared" : false
+  }
+} ]

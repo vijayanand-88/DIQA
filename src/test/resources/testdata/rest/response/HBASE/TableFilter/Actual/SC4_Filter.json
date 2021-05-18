@@ -1,0 +1,2947 @@
+{
+  "count" : 53,
+  "results" : [ {
+    "id" : "Default.Service:::8180",
+    "type" : "Service",
+    "name" : "HBASE",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20726",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.761+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.761+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8180
+    }, {
+      "id" : "Default.tag:::20728",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.761+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.761+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8180
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::8191",
+    "type" : "Table",
+    "name" : "employee_test",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20617",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8191
+    }, {
+      "id" : "Default.tag:::20671",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8191
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::8190",
+    "type" : "Table",
+    "name" : "employee",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20618",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8190
+    }, {
+      "id" : "Default.tag:::20672",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8190
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8206",
+    "type" : "Column",
+    "name" : "personal data:city",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20619",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8206
+    }, {
+      "id" : "Default.tag:::20673",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8206
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8207",
+    "type" : "Column",
+    "name" : "personal data:name",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20620",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8207
+    }, {
+      "id" : "Default.tag:::20674",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8207
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8204",
+    "type" : "Column",
+    "name" : "professional data:salary",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20621",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8204
+    }, {
+      "id" : "Default.tag:::20675",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8204
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8205",
+    "type" : "Column",
+    "name" : "professional data:hike",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20622",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8205
+    }, {
+      "id" : "Default.tag:::20676",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8205
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8202",
+    "type" : "Column",
+    "name" : "professional data:designation",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20623",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8202
+    }, {
+      "id" : "Default.tag:::20677",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8202
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8203",
+    "type" : "Column",
+    "name" : "professional data:DOJ",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20624",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8203
+    }, {
+      "id" : "Default.tag:::20678",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8203
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8200",
+    "type" : "Column",
+    "name" : "personal data:name",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20625",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8200
+    }, {
+      "id" : "Default.tag:::20679",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8200
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8201",
+    "type" : "Column",
+    "name" : "personal data:address",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20626",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8201
+    }, {
+      "id" : "Default.tag:::20680",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8201
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8208",
+    "type" : "Column",
+    "name" : "personal data:address",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20627",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8208
+    }, {
+      "id" : "Default.tag:::20681",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8208
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8209",
+    "type" : "Column",
+    "name" : "professional data:designation",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20628",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8209
+    }, {
+      "id" : "Default.tag:::20682",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8209
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::8186",
+    "type" : "Table",
+    "name" : "employee",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20629",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8186
+    }, {
+      "id" : "Default.tag:::20683",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8186
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::8185",
+    "type" : "Table",
+    "name" : "employee1",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20630",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8185
+    }, {
+      "id" : "Default.tag:::20684",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8185
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Database:::8184",
+    "type" : "Database",
+    "name" : "Automation_QA2",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20631",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8184
+    }, {
+      "id" : "Default.tag:::20685",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8184
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8210",
+    "type" : "Column",
+    "name" : "professional data:DOJ",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20632",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8210
+    }, {
+      "id" : "Default.tag:::20686",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8210
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Database:::8183",
+    "type" : "Database",
+    "name" : "Automation_QA1",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20633",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8183
+    }, {
+      "id" : "Default.tag:::20687",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8183
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Database:::8182",
+    "type" : "Database",
+    "name" : "Automation_QA",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20634",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8182
+    }, {
+      "id" : "Default.tag:::20688",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8182
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8217",
+    "type" : "Column",
+    "name" : "professional data:DOJ",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20635",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8217
+    }, {
+      "id" : "Default.tag:::20689",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8217
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8218",
+    "type" : "Column",
+    "name" : "professional data:salary",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20636",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8218
+    }, {
+      "id" : "Default.tag:::20690",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8218
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8215",
+    "type" : "Column",
+    "name" : "personal data:address",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20637",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8215
+    }, {
+      "id" : "Default.tag:::20691",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8215
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8216",
+    "type" : "Column",
+    "name" : "professional data:designation",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20638",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8216
+    }, {
+      "id" : "Default.tag:::20692",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8216
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8213",
+    "type" : "Column",
+    "name" : "personal data:city",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20639",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8213
+    }, {
+      "id" : "Default.tag:::20693",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8213
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8214",
+    "type" : "Column",
+    "name" : "personal data:name",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20640",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8214
+    }, {
+      "id" : "Default.tag:::20694",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8214
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8211",
+    "type" : "Column",
+    "name" : "professional data:salary",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20641",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8211
+    }, {
+      "id" : "Default.tag:::20695",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8211
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8212",
+    "type" : "Column",
+    "name" : "professional data:hike",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20642",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8212
+    }, {
+      "id" : "Default.tag:::20696",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8212
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::8189",
+    "type" : "Table",
+    "name" : "employee_test",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20643",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8189
+    }, {
+      "id" : "Default.tag:::20697",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8189
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::8188",
+    "type" : "Table",
+    "name" : "employee",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20644",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8188
+    }, {
+      "id" : "Default.tag:::20698",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8188
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::8187",
+    "type" : "Table",
+    "name" : "employee_test",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20645",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8187
+    }, {
+      "id" : "Default.tag:::20699",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8187
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8219",
+    "type" : "Column",
+    "name" : "professional data:hike",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20646",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8219
+    }, {
+      "id" : "Default.tag:::20700",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8219
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8220",
+    "type" : "Column",
+    "name" : "personal data:city",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20648",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8220
+    }, {
+      "id" : "Default.tag:::20702",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8220
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8221",
+    "type" : "Column",
+    "name" : "personal data:name",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20649",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8221
+    }, {
+      "id" : "Default.tag:::20703",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8221
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8228",
+    "type" : "Column",
+    "name" : "personal data:name",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20650",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8228
+    }, {
+      "id" : "Default.tag:::20704",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8228
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8229",
+    "type" : "Column",
+    "name" : "personal data:address",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20651",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8229
+    }, {
+      "id" : "Default.tag:::20705",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8229
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8226",
+    "type" : "Column",
+    "name" : "professional data:hike",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20653",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8226
+    }, {
+      "id" : "Default.tag:::20707",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8226
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8227",
+    "type" : "Column",
+    "name" : "personal data:city",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20654",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8227
+    }, {
+      "id" : "Default.tag:::20708",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8227
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8224",
+    "type" : "Column",
+    "name" : "professional data:DOJ",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20655",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8224
+    }, {
+      "id" : "Default.tag:::20709",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8224
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8225",
+    "type" : "Column",
+    "name" : "professional data:salary",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20656",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8225
+    }, {
+      "id" : "Default.tag:::20710",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8225
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8222",
+    "type" : "Column",
+    "name" : "personal data:address",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20657",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8222
+    }, {
+      "id" : "Default.tag:::20711",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8222
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8223",
+    "type" : "Column",
+    "name" : "professional data:designation",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20658",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8223
+    }, {
+      "id" : "Default.tag:::20712",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8223
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8198",
+    "type" : "Column",
+    "name" : "professional data:hike",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20659",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8198
+    }, {
+      "id" : "Default.tag:::20713",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8198
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8231",
+    "type" : "Column",
+    "name" : "professional data:DOJ",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20660",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8231
+    }, {
+      "id" : "Default.tag:::20714",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8231
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8199",
+    "type" : "Column",
+    "name" : "personal data:city",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee_test" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20661",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8199
+    }, {
+      "id" : "Default.tag:::20715",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8199
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8232",
+    "type" : "Column",
+    "name" : "professional data:salary",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20662",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8232
+    }, {
+      "id" : "Default.tag:::20716",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8232
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8196",
+    "type" : "Column",
+    "name" : "professional data:DOJ",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20663",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8196
+    }, {
+      "id" : "Default.tag:::20717",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.756+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.756+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8196
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8197",
+    "type" : "Column",
+    "name" : "professional data:salary",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20664",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8197
+    }, {
+      "id" : "Default.tag:::20718",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.756+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.756+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8197
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8230",
+    "type" : "Column",
+    "name" : "professional data:designation",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20665",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8230
+    }, {
+      "id" : "Default.tag:::20719",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.756+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.756+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8230
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8194",
+    "type" : "Column",
+    "name" : "personal data:address",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20666",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8194
+    }, {
+      "id" : "Default.tag:::20720",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.756+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.756+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8194
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8195",
+    "type" : "Column",
+    "name" : "professional data:designation",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20667",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8195
+    }, {
+      "id" : "Default.tag:::20721",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.756+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.756+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8195
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8192",
+    "type" : "Column",
+    "name" : "personal data:city",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20668",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8192
+    }, {
+      "id" : "Default.tag:::20722",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.756+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.756+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8192
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8193",
+    "type" : "Column",
+    "name" : "personal data:name",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20669",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8193
+    }, {
+      "id" : "Default.tag:::20723",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.756+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.756+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8193
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8233",
+    "type" : "Column",
+    "name" : "professional data:hike",
+    "asg.parentTypeNamePath" : [ "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::20670",
+      "name" : "SC1_MultiNamespaces",
+      "rootTagName" : "SC1_MultiNamespaces",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.742+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.742+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 8234,
+      "asg_modifiedby" : "Service",
+      "target" : 8233
+    }, {
+      "id" : "Default.tag:::20724",
+      "name" : "HBase",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "HBase Distributed Database",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T19:24:49.756+0000",
+      "asg_createdat" : "2020-10-20T19:24:49.756+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 393,
+      "asg_modifiedby" : "Service",
+      "target" : 8233
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  } ],
+  "configs" : {
+    "defaultListView" : [ {
+      "value" : "asg.parentTypeNamePath",
+      "label" : "Hierarchy"
+    }, {
+      "value" : "asg.tagNames",
+      "label" : "Tags"
+    } ]
+  },
+  "configsMap" : {
+    "*" : {
+      "*" : "defaultListView"
+    }
+  },
+  "facets" : {
+    "asg.tagPathsHierarchy_ss" : {
+      "label" : "Tags",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 53,
+        "value" : "SC1_MultiNamespaces",
+        "label" : "SC1_MultiNamespaces",
+        "checked" : true,
+        "childValues" : [ ]
+      }, {
+        "count" : 53,
+        "value" : "Technology",
+        "label" : "Technology",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 53,
+          "value" : "Technology/Big Data",
+          "label" : "Big Data",
+          "checked" : false,
+          "childValues" : [ {
+            "count" : 53,
+            "value" : "Technology/Big Data/Operational",
+            "label" : "Operational",
+            "checked" : false,
+            "childValues" : [ {
+              "count" : 53,
+              "value" : "Technology/Big Data/Operational/HBase",
+              "label" : "HBase",
+              "checked" : false,
+              "childValues" : [ ]
+            } ]
+          } ]
+        } ]
+      } ]
+    },
+    "type_s" : {
+      "label" : "Metadata Type",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 42,
+        "value" : "Column",
+        "checked" : false
+      }, {
+        "count" : 7,
+        "value" : "Table",
+        "checked" : false
+      }, {
+        "count" : 3,
+        "value" : "Database",
+        "checked" : false
+      }, {
+        "count" : 1,
+        "value" : "Service",
+        "checked" : false
+      } ]
+    },
+    "asg.parentTypeNamePathHierarchy_ss" : {
+      "label" : "Hierarchy",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 54,
+        "value" : "Cluster/LocalNode",
+        "label" : "LocalNode [Cluster]",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 53,
+          "value" : "Cluster/LocalNode/Service/HBASE",
+          "label" : "HBASE [Service]",
+          "checked" : true,
+          "childValues" : [ {
+            "count" : 25,
+            "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1",
+            "label" : "Automation_QA1 [Database]",
+            "checked" : true,
+            "childValues" : [ {
+              "count" : 8,
+              "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee",
+              "label" : "employee [Table]",
+              "checked" : true,
+              "childValues" : [ ]
+            }, {
+              "count" : 8,
+              "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee1",
+              "label" : "employee1 [Table]",
+              "checked" : true,
+              "childValues" : [ ]
+            }, {
+              "count" : 8,
+              "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA1/Table/employee_test",
+              "label" : "employee_test [Table]",
+              "checked" : true,
+              "childValues" : [ ]
+            } ]
+          }, {
+            "count" : 17,
+            "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA",
+            "label" : "Automation_QA [Database]",
+            "checked" : true,
+            "childValues" : [ {
+              "count" : 8,
+              "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee",
+              "label" : "employee [Table]",
+              "checked" : true,
+              "childValues" : [ ]
+            }, {
+              "count" : 8,
+              "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA/Table/employee_test",
+              "label" : "employee_test [Table]",
+              "checked" : true,
+              "childValues" : [ ]
+            } ]
+          }, {
+            "count" : 10,
+            "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2",
+            "label" : "Automation_QA2 [Database]",
+            "checked" : true,
+            "childValues" : [ {
+              "count" : 8,
+              "value" : "Cluster/LocalNode/Service/HBASE/Database/Automation_QA2/Table/employee",
+              "label" : "employee [Table]",
+              "checked" : true,
+              "childValues" : [ ]
+            } ]
+          } ]
+        } ]
+      } ]
+    },
+    "asg_modifiedat_dt" : {
+      "label" : "Last Modified",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 0,
+        "value" : "(*,NOW-1YEAR]",
+        "label" : "1 year and older",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-1YEAR,NOW-6MONTH]",
+        "label" : "6 months up to 1 year",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-6MONTH,NOW-1MONTH]",
+        "label" : "1 month up to 6 months",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-1MONTH,NOW-7DAY]",
+        "label" : "1 week up to 1 month",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-7DAY,NOW-1DAY]",
+        "label" : "1 day up to 1 week",
+        "checked" : false
+      }, {
+        "count" : 53,
+        "value" : "(NOW-1DAY,NOW]",
+        "label" : "past 24 hours",
+        "checked" : false
+      } ]
+    },
+    "asg_modifiedby_s" : {
+      "label" : "Modified by",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 53,
+        "value" : "Service",
+        "checked" : false
+      } ]
+    }
+  }
+}

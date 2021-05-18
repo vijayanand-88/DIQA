@@ -1,0 +1,35 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TeradataCatalogerWithArgumentAndDBfilter",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [
+    "SC19TeradataCatalogerWithArgumentAndDBfilter"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "TeradataDataSource",
+  "credential": "TeradataCredentials",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "TeradataDBCataloger",
+  "databaseFilter": [
+    {
+      "database": "automation_test_db"
+    }
+  ],
+  "casesensitive": true,
+  "arguments": [
+    {
+      "argument": "filter.applyToUsers=false"
+    }
+  ],
+  "type": "Cataloger"
+}

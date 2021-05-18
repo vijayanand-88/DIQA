@@ -1,0 +1,108 @@
+{
+  "AWSGlueCataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "GlueLinkerCataloger",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "SC1GlueLinkerCataloger"
+        ],
+        "pluginType": "cataloger",
+        "dataSource": "AWSGlueDataSource",
+        "credential": "ValidGlueLinkerCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AWSGlueCataloger",
+        "type": "Cataloger",
+        "includeItems": {
+          "includeJobs": [],
+          "includeDatabases": [
+            "qagluelinkerdatabase"
+          ]
+        }
+      }
+    ]
+  },
+  "ParquetS3Cataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "ParquetS3GlueCataloger",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 1000,
+        "tags": null,
+        "pluginType": "cataloger",
+        "dataSource": "AWSGlueParquetDataSource",
+        "credential": "ValidParquetCredentials",
+        "versionMode": false,
+        "maxObjectsAmount": 1000,
+        "filter": null,
+        "incremental": false,
+        "dryRun":false,
+        "pluginName":"ParquetS3Cataloger",
+        "businessApplicationName": null,
+        "bucketFilter": {
+          "patterns": [
+            "asgqagluelinkerbucket"
+          ],
+          "mode": "INCLUDE",
+          "objectFilter": {
+            "dirPrefixes": [],
+            "dirFilter": {
+              "patterns": [],
+              "mode": "INCLUDE"
+            },
+            "fileFilter": {
+              "patterns": [],
+              "mode": "INCLUDE"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "AWSGlueLinker": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "GlueLinker",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "linker",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AWSGlueLinker",
+        "type": "Linker",
+        "region": "us-east-1"
+      }
+    ]
+  }
+}

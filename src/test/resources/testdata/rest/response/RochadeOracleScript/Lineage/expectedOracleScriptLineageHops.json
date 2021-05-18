@@ -1,0 +1,1062 @@
+{
+  "TRIGGERTEST": [
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "IDADDRESS",
+      "dir": "->",
+      "target": "IDADDRESS"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "IDNAME",
+      "dir": "->",
+      "target": "IDNAME"
+    }
+  ],
+  "TRIGGERTEST1": [
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "IDADDRESS",
+      "dir": "<-",
+      "target": "IDADDRESS"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "IDNAME",
+      "dir": "<-",
+      "target": "IDNAME"
+    }
+  ],
+  "OCPPVT": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    }
+  ],
+  "OCPPVIEW": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    }
+  ],
+  "OCPPDSVT": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    }
+  ],
+  "OCPPFT2T1": [
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "AGE",
+      "dir": "->",
+      "target": "AGE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "FIRSTNAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "LASTNAME",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "PEOPLEID",
+      "dir": "->",
+      "target": "PEOPLEID"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "ZIPCODE",
+      "dir": "->",
+      "target": "ZIPCODE"
+    }
+  ],
+  "OCPPV2T": [
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    }
+  ],
+  "OCPPFT2T2": [
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "FIRSTNAME",
+      "dir": "<-",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "LASTNAME",
+      "dir": "<-",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "PEOPLEID",
+      "dir": "<-",
+      "target": "PEOPLEID"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "ZIPCODE",
+      "dir": "<-",
+      "target": "ZIPCODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "AGE",
+      "dir": "<-",
+      "target": "AGE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "multiHopModes": [
+        "TRANSFORM"
+      ],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    }
+  ]
+}

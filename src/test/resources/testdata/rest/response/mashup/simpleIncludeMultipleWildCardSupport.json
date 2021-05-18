@@ -1,0 +1,10 @@
+{
+  "action": "addNode",
+  "nodes": [
+    {
+      "pathToConfig": "$.configurations.GitCollector[0]",
+      "configName": "simpleIncludePattern",
+      "configValue": "*.cpp|*.h|*.java"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PythonParser",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "PythonParser"
+      },
+      "catalogName": "Analysis",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "parallelWorkPollInterval": 60,
+      "parallelWorkBatchSize": 100,
+      "parallelQueryBatchSize": 10000
+    }
+  ]
+}

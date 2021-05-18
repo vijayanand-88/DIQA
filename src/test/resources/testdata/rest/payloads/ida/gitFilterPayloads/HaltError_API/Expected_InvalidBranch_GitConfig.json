@@ -1,0 +1,9 @@
+[ {
+  "itemId" : "Default.Analysis:::2226",
+  "errorIndex" : 0,
+  "errorDetails" : {
+    "timestamp" : "2020-05-28 11:40:57.768",
+    "message" : "ANALYSIS-GIT-0010: Could not obtain Git reference to branch [refs/heads/invalidBranch].  Remote does not have refs/heads/invalidBranch available for fetch.",
+    "cleared" : false
+  }
+} ]

@@ -1,0 +1,291 @@
+{
+  "CAEDeleteEntryPoint":{
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAEDeleteEntryPoint",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"BecubicIDANode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "tools",
+        "dataSource": "CAEDS",
+        "credential": "CAECredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "dryRun": false,
+        "pluginName": "CAEDeleteEntryPoint",
+        "DBUserName": "CAESqlServerTest",
+        "type": "Tools"
+      }
+    ]
+  },
+  "CAECreateEntryPoint": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAECreateEntryPoint",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"BecubicIDANode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "tools",
+        "dataSource": "CAEDS",
+        "credential": "CAECredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "Overwrite": false,
+        "dryRun": false,
+        "DBUserPassword": "CAESqlServerTest",
+        "pluginName": "CAECreateEntryPoint",
+        "DBUserName": "CAESqlServerTest",
+        "type": "Tools"
+      }
+    ]
+  },
+  "SQLServerCollector":{
+    "configurations": [
+     {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SqlServerCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T11:23:05.780625",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T11:23:05.780625"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"BecubicIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "CAESqlServerDS",
+      "credential": "SqlServerCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "SQLServerCollector",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "zOS_SQLServer.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "CAE",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLCONC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLCONR,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLINDEX,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLSPROC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLSYN,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLTABL,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLTRIG,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLVIEW,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLSPROCSRC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "SQLSVR,TYPE=SQLTRIGSRC,PROCESS=LOAD,BATCH=200"
+            }
+          }
+        ]
+      },
+      "database filter": [
+          {
+            "mode": "INCLUDE",
+            "schemas": [
+            ],
+            "databasename": "IDATESTDATABASE"
+          }
+        ]
+      }
+    ]
+  },
+  "CAEFeeder": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAEFeeder",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"BecubicIDANode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "CAE",
+        "dataSource": "CAEDS",
+        "credential": "CAEEntryPointCredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "dryRun": false,
+        "pluginName": "CAEFeed",
+        "ProjectRootFolder": "${cae.project.home}",
+        "type": "CAE"
+      }
+    ]
+  },
+  "CAELoader": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAELoader",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"BecubicIDANode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "bulk",
+        "dataSource": "CAEDS",
+        "credential": "CAEEntryPointCredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "dryRun": false,
+        "Advanced": {
+          "multi-env": false,
+          "LoaderPath": "",
+          "technologies": [
+            "Java",
+            "Oracle",
+            "SqlServer"
+          ],
+          "tfmSystemPolicy": "DefaultOnly",
+          "renamingPropertyFile": "",
+          "tfmSystemPolicyValue": "",
+          "technologyRestriction": false
+        },
+        "checkAll": false,
+        "clear": false,
+        "onDemandLineage": true,
+        "incremental": false,
+        "type": "Bulk",
+        "restrict": "",
+        "Contextuality": {
+          "inputSetName": "",
+          "inputSetPrivate": ""
+        },
+        "negative": false,
+        "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+        "parallel": false,
+        "pluginName": "CAEDDLoader"
+      }
+    ]
+  },
+ "SQLServerDBCataloger": 
+  {
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": null,
+      "pluginType": "cataloger",
+      "dataSource": "SQLServerDBDataSource",
+      "credential": "SqlServerCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "SQLServerDBCataloger",
+      "schemas": [
+          {
+            "schema": "TESTSQL2019",
+            "tables": []
+          }
+        ],
+      "arguments": [],
+      "type": "Cataloger"
+    }
+  ]
+}
+}

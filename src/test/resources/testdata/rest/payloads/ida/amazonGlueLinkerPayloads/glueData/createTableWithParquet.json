@@ -1,0 +1,112 @@
+{
+  "tableName": "glueavro",
+  "description": "Table Description",
+  "database": "qagluelinkerdatabase",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "countrycode",
+        "type": "varchar(256)",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqagluelinkerbucket/GlueLinker/PARQUET/userdata1.parquet",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "registration_dttm",
+          "type": "timestamp",
+          "comment": ""
+        },
+        {
+          "name": "id",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "first_name",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "last_name",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "gender",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "ip_address",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "cc",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "birthdate",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "salary",
+          "type": "double",
+          "comment": ""
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "comments",
+          "type": "string",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+} 

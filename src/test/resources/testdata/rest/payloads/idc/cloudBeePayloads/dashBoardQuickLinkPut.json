@@ -1,0 +1,21 @@
+{
+  "id": "4",
+  "data": "",
+  "advanced": false,
+  "post": {
+    "selections": {
+      "catalog_s": ["CLOUDBEE CATALOG"],
+      "type_s": ["Table"],
+      "asg.parentTypeNamePathHierarchy_ss": ["Cluster/Cluster Demo/HIVE/Database/foodmart"],
+      "asg.ratingAvg_d": [],
+      "asg.modifiedAt_dt": [],
+      "asg.modifiedBy_s": []
+    },
+    "sorting": []
+  },
+  "name": "idctest link updated",
+  "description": "List of Foodmart Database",
+  "widgets": ["CLOUDBEE CATALOG"],
+  "value": "/search",
+  "area": "CLOUDBEE CATALOG"
+}

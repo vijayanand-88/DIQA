@@ -1,0 +1,870 @@
+{
+  "rochName" : "BIGDATA",
+  "sqlgName" : null,
+  "xmiName" : null,
+  "nsUri" : "http://rochade.asg.com/ScanHive/2.10.000",
+  "dateTimeFormats" : [ "yyyy-MM-dd kk:mm:ss" ],
+  "objectDefs" : [ {
+    "rochName" : "RBD_CLUSTER",
+    "sqlgName" : "Cluster",
+    "xmiName" : "TCluster",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_APPLICATION-NAME",
+      "sqlgName" : "appName",
+      "xmiName" : "appName",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_APPLICATION-VERSION",
+      "sqlgName" : "appVersion",
+      "xmiName" : "appVersion",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_HAS-CLUSTER-NODES",
+      "sqlgName" : "clusterNodes",
+      "xmiName" : "nHasClusterNodes",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "THost" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "RBD_HAS-CLUSTER-SERVICES",
+      "sqlgName" : "clusterServices",
+      "xmiName" : "nHasClusterServices",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TClusterService" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_HAS-DIRECTORIES",
+      "sqlgName" : "directories",
+      "xmiName" : "nHasDirectories",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDirectory" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_HAS_DATA-PACKAGES",
+      "sqlgName" : "dataPackages",
+      "xmiName" : "nHasDataPackages",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatPackage" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_HAS_DBSYSTEMS",
+      "sqlgName" : "dbSystems",
+      "xmiName" : "nHasDbSystems",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDbSystem" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    } ]
+  }, {
+    "rochName" : "RBD_COLUMN",
+    "sqlgName" : "Column",
+    "xmiName" : "TColumn",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_ACCESSED-AT",
+      "sqlgName" : "accessedAt",
+      "xmiName" : "accessedAt",
+      "valueType" : "LOCAL_DATE_TIME_ISO",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_CREATED-AT",
+      "sqlgName" : "createdAt",
+      "xmiName" : "createdAt",
+      "valueType" : "LOCAL_DATE_TIME_ISO",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_CREATED-BY",
+      "sqlgName" : "createdBy",
+      "xmiName" : "createdBy",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_DATA-TYPE",
+      "sqlgName" : "dataType",
+      "xmiName" : "dataType",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "desc",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_EXTERNAL-LINKS",
+      "sqlgName" : "externalLinks",
+      "xmiName" : "externalLinks",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_ID",
+      "sqlgName" : "idNumber",
+      "xmiName" : "idNumber",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_DAT_OF_TYPE",
+      "sqlgName" : "dataOfType",
+      "xmiName" : "lDatOfType",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatDataType", "TDatRecordType" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "RBD_MODIFIED-AT",
+      "sqlgName" : "modifiedAt",
+      "xmiName" : "modifiedAt",
+      "valueType" : "LOCAL_DATE_TIME_ISO",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_MODIFIED-BY",
+      "sqlgName" : "modifiedBy",
+      "xmiName" : "modifiedBy",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_TYPE",
+      "sqlgName" : "storageType",
+      "xmiName" : "storageType",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "TAGS",
+      "sqlgName" : null,
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "RBD_CONFIG-PARAM",
+    "sqlgName" : "Configuration",
+    "xmiName" : "TConfigParams",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "desc",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_CONFIG-PARAMS",
+      "sqlgName" : "parameters",
+      "xmiName" : "params",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_CONFIG-PARAMS-TYPE",
+      "sqlgName" : "parameterType",
+      "xmiName" : "paramsType",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "RBD_CONNECTION",
+    "sqlgName" : "DbSystem",
+    "xmiName" : "TDbSystem",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_APPLICATION-NAME",
+      "sqlgName" : "appName",
+      "xmiName" : "appName",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_APPLICATION-VERSION",
+      "sqlgName" : "appVersion",
+      "xmiName" : "appVersion",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_HOST-NAME",
+      "sqlgName" : "hostName",
+      "xmiName" : "hostName",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_IP",
+      "sqlgName" : "hostAddress",
+      "xmiName" : "ipAddress",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_LOCATION",
+      "sqlgName" : "location",
+      "xmiName" : "location",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_HAS-CONFIG-MAP",
+      "sqlgName" : "configurations",
+      "xmiName" : "nHasConfigMap",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TConfigParams" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "RBD_HAS-STORAGE",
+      "sqlgName" : "databases",
+      "xmiName" : "nHasStorage",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatabase" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    } ]
+  }, {
+    "rochName" : "DWR_DAT_DATA_TYPE",
+    "sqlgName" : "DataType",
+    "xmiName" : "TDatDataType",
+    "propertyDefs" : [ {
+      "rochName" : "DWR_DAT_DATATYPE",
+      "sqlgName" : "dataType",
+      "xmiName" : "datDataType",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_DAT_LENGTH",
+      "sqlgName" : "dataLength",
+      "xmiName" : "datLength",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_DAT_SCALE",
+      "sqlgName" : "dataScale",
+      "xmiName" : "datScale",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_DAT_OF_TYPE",
+      "sqlgName" : "dataOfType",
+      "xmiName" : "lDatOfType",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatDataType", "TDatRecordType" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "DWR_DAT_HAS_DOMAIN",
+      "sqlgName" : "dataDomains",
+      "xmiName" : "nHasDatDomain",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatDomain" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DWR_STAGE",
+      "sqlgName" : "stage",
+      "xmiName" : "stage",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "DWR_DAT_DOMAIN",
+    "sqlgName" : "DataDomain",
+    "xmiName" : "TDatDomain",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_STAGE",
+      "sqlgName" : "stage",
+      "xmiName" : "stage",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "DWR_DAT_FIELD",
+    "sqlgName" : "DataField",
+    "xmiName" : "TDatField",
+    "propertyDefs" : [ {
+      "rochName" : "DWR_DAT_LENGTH",
+      "sqlgName" : "dataLength",
+      "xmiName" : "datLength",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_DAT_SCALE",
+      "sqlgName" : "dataScale",
+      "xmiName" : "datScale",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_DAT_OF_TYPE",
+      "sqlgName" : "dataOfType",
+      "xmiName" : "lDatOfType",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatDataType", "TDatRecordType" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "DWR_STAGE",
+      "sqlgName" : "stage",
+      "xmiName" : "stage",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "DWR_DAT_PACKAGE",
+    "sqlgName" : "DataPackage",
+    "xmiName" : "TDatPackage",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_DAT_HAS_TYPE",
+      "sqlgName" : "dataTypes",
+      "xmiName" : "nHasDatType",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatDataType", "TDatRecordType" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DWR_STAGE",
+      "sqlgName" : "stage",
+      "xmiName" : "stage",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "DWR_DAT_RECORD_TYPE",
+    "sqlgName" : "DataRecordType",
+    "xmiName" : "TDatRecordType",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DWR_DAT_HAS_DOMAIN",
+      "sqlgName" : "dataDomains",
+      "xmiName" : "nHasDatDomain",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatDomain" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DWR_DAT_HAS_FIELD",
+      "sqlgName" : "dataFields",
+      "xmiName" : "nHasDatField",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDatField" ],
+      "namespace" : true,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "DWR_STAGE",
+      "sqlgName" : "stage",
+      "xmiName" : "stage",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "RBD_DATASAMPLE",
+    "sqlgName" : "DataSample",
+    "xmiName" : "TDataSample",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_SAMPLE",
+      "sqlgName" : "sample",
+      "xmiName" : "sample",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "RBD_DATABASE",
+    "sqlgName" : "Database",
+    "xmiName" : "TDatabase",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "desc",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_HDFS-LOCATION",
+      "sqlgName" : "locatedAt",
+      "xmiName" : "hdfsLocation",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "Directory" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_LOCATION",
+      "sqlgName" : "location",
+      "xmiName" : "location",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_HAS-STORAGE-UNIT",
+      "sqlgName" : "tables",
+      "xmiName" : "nHasStoUnit",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TTable" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_TYPE",
+      "sqlgName" : "storageType",
+      "xmiName" : "storageType",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "TAGS",
+      "sqlgName" : null,
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "RBD_TABLE",
+    "sqlgName" : "Table",
+    "xmiName" : "TTable",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_ACCESSED-AT",
+      "sqlgName" : "accessedAt",
+      "xmiName" : "accessedAt",
+      "valueType" : "LOCAL_DATE_TIME_ISO",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_BUCKETS-NUMBER",
+      "sqlgName" : "bucketsNumber",
+      "xmiName" : "buckNumber",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_CREATED-AT",
+      "sqlgName" : "createdAt",
+      "xmiName" : "createdAt",
+      "valueType" : "LOCAL_DATE_TIME_ISO",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_CREATED-BY",
+      "sqlgName" : "createdBy",
+      "xmiName" : "createdBy",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "def",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_DELIMITED-FIELDS",
+      "sqlgName" : "delimitedFields",
+      "xmiName" : "delimitFields",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "desc",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_EXTERNAL-LINKS",
+      "sqlgName" : "externalLinks",
+      "xmiName" : "externalLinks",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_FILES-COUNT",
+      "sqlgName" : "filesCount",
+      "xmiName" : "filesNumber",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_HBASE-NAME",
+      "sqlgName" : "hbaseName",
+      "xmiName" : "hbaseName",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_HDFS-LOCATION",
+      "sqlgName" : "locatedAt",
+      "xmiName" : "hdfsLocation",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "Directory" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_ID",
+      "sqlgName" : "idNumber",
+      "xmiName" : "idNumber",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_INPUT-TYPE",
+      "sqlgName" : "inputType",
+      "xmiName" : "inputType",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_CLUSTERED-BY",
+      "sqlgName" : "clusteredBy",
+      "xmiName" : "lClusteredBy",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TColumn" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_PARTITIONED-BY",
+      "sqlgName" : "partitionedBy",
+      "xmiName" : "lPartitionedBy",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TColumn" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_SORTED-BY",
+      "sqlgName" : "sortedBy",
+      "xmiName" : "lSortedBy",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TColumn" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_LOCATION",
+      "sqlgName" : "location",
+      "xmiName" : "location",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_MODIFIED-AT",
+      "sqlgName" : "modifiedAt",
+      "xmiName" : "modifiedAt",
+      "valueType" : "LOCAL_DATE_TIME_ISO",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_MODIFIED-BY",
+      "sqlgName" : "modifiedBy",
+      "xmiName" : "modifiedBy",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_HAS-COLUMNS",
+      "sqlgName" : "columns",
+      "xmiName" : "nHasColumns",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TColumn" ],
+      "namespace" : true,
+      "qualified" : true,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_HAS-DATASAMPLES",
+      "sqlgName" : "dataSamples",
+      "xmiName" : "nHasDataSamples",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "TDataSample" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_PARTITION-VALUE",
+      "sqlgName" : "partitionValue",
+      "xmiName" : "partValue",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_SERIALIZATION-LIB",
+      "sqlgName" : "serdeLibrary",
+      "xmiName" : "serLib",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_TYPE",
+      "sqlgName" : "storageType",
+      "xmiName" : "storageType",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "RBD_DIR-SIZE",
+      "sqlgName" : "tableSize",
+      "xmiName" : "tableSize",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "TAGS",
+      "sqlgName" : null,
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  } ]
+}
+

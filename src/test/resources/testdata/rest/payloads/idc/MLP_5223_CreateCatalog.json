@@ -1,0 +1,10 @@
+{
+  "ImporterCatalog": {
+    "label": {
+      "": "ImporterCatalog",
+      "en":"ImporterCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea"
+
+  }
+}

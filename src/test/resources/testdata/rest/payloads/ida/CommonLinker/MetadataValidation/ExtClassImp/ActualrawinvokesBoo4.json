@@ -1,0 +1,16 @@
+[
+    {
+        "name": "simple.doo",
+        "start": {
+            "lineNumber": 1,
+            "position": 1
+        },
+        "stop": {
+            "lineNumber": 1,
+            "position": 16
+        },
+        "resolved": [
+            "Default.SourceTree:::3055"
+        ]
+    }
+]

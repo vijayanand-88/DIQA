@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureInvalidHost",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AzureInvalidHost",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "database": "testSqlDatabase9",
+      "tables": [],
+      "host": "test",
+      "user": "Devi.Niranjani@asg.com",
+      "primarykey": "m2FVxxoa21Th6DJBnIq9GTAPwtGOZWmVGcWzaNKoWI0Y0kmYpyqx3XIQZZSIZG3SSE21qBoiVUkbZ1AMgCDhPg=="
+    }
+  ]
+}

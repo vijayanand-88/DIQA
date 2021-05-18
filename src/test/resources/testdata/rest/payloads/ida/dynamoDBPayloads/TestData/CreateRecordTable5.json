@@ -1,0 +1,32 @@
+{
+  "CodeBinary": "dGhpcyB0ZXh0IGlzIGJhc2U2NC1lbmNvZGVk",
+  "Description": "Desc for Mobile",
+  "Id": 101,
+  "ModelBinarySet": [
+    "Xh0IGlzI",
+    "dGhpcyB0"
+  ],
+  "ModelList": [
+    "Google",
+    "Samsung",
+    "Nokia"
+  ],
+  "ModelMap": {
+    "Pixel": "3xl",
+    "Samsung": "s7"
+  },
+  "ModelNumberSet": [
+    "2002",
+    "2000",
+    "2001"
+  ],
+  "ModelStringSet": [
+    "5G",
+    "BLUETOOTH",
+    "GPS"
+  ],
+  "Name": "Mobile",
+  "Book Title":"AT",
+  "Price": "122312",
+  "Valid": false
+}

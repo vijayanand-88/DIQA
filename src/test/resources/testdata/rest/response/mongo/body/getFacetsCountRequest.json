@@ -1,0 +1,14 @@
+{
+  "selections": {
+    "asg.tagPathsHierarchy_ss": [
+      "MongoDBCatalog"
+    ],
+    "type_s": [],
+    "asg.parentTypeNamePathHierarchy_ss": [
+      "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/Table1"
+    ],
+    "dataType_s": [],
+    "asg_modifiedat_dt": [],
+    "asg_modifiedby_s": []
+  }
+}

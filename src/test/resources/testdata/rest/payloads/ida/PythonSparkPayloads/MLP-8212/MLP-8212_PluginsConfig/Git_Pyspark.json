@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "GitCollector"
+      },
+      "catalogName": "CatalogSC1",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "CSVandParquet"
+          }
+        ],
+        "deltaTime": "300",
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "dryRun": "FALSE",
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "repositoryUser": "becubic_build",
+      "repositoryPassword": "laguna-2012",
+      "repositoryURL": "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git"
+    }
+  ]
+}

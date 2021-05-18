@@ -1,0 +1,325 @@
+{
+  "MetaData": {
+    "totalCount": 5,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 4,
+          "value": "Column"
+        },
+        {
+          "count": 1,
+          "value": "Constraint"
+        }
+      ]
+    },
+    "hostMetaData": {
+      "name": "10.33.6.130",
+      "NumberofCores": 0,
+      "HostName": "10.33.6.130",
+      "taglist": {
+        "values": [
+          {
+            "techTag": "MongoDB"
+          },
+          {
+            "techTag": "MongoDBCatalog"
+          },
+          {
+            "techTag": "MONGODB_BA"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "clusterMetaData": {
+      "name": "10.33.6.130",
+      "table": {
+        "values": [
+          {
+            "type": "Hosts",
+            "name": "10.33.6.130"
+          },
+          {
+            "type": "Services",
+            "name": "MONGODB"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "MongoDB"
+            },
+            {
+              "techTag": "MongoDBCatalog"
+            },
+            {
+              "techTag": "MONGODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "serviceMetaData": {
+      "name": "MONGODBl",
+      "applicationVersion": "CData JDBC Driver for MongoDB 201919.0.7354",
+      "table": {
+        "values": [
+          {
+            "type": "Databases",
+            "name": "SampleDB"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "MongoDB"
+            },
+            {
+              "techTag": "MongoDBCatalog"
+            },
+            {
+              "techTag": "MONGODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "databaseMetaData": {
+      "name": "SampleDB",
+      "storageType": "CData JDBC Driver for MongoDB 201919.0.7354",
+      "table": {
+        "values": [
+          {
+            "type": "Tables",
+            "name": "Table1"
+          },
+          {
+            "type": "Tables",
+            "name": "Table2"
+          },
+          {
+            "type": "Tables",
+            "name": "allDataTypes"
+          },
+          {
+            "type": "Tables",
+            "name": "categories"
+          },
+          {
+            "type": "Tables",
+            "name": "customers"
+          },
+          {
+            "type": "Tables",
+            "name": "employeeterritories"
+          },
+          {
+            "type": "Tables",
+            "name": "northwind"
+          },
+          {
+            "type": "Tables",
+            "name": "orderdetails"
+          },
+          {
+            "type": "Tables",
+            "name": "orders"
+          },
+          {
+            "type": "Tables",
+            "name": "QAEMP1M"
+          },
+          {
+            "type": "Tables",
+            "name": "QAEMPM"
+          },
+          {
+            "type": "Tables",
+            "name": "QAJOIN1M"
+          },
+          {
+            "type": "Tables",
+            "name": "QAJOIN2M"
+          },
+          {
+            "type": "Tables",
+            "name": "QAJOIN3M"
+          },
+          {
+            "type": "Tables",
+            "name": "territories"
+          },
+          {
+            "type": "Tables",
+            "name": "suppliers"
+          },
+          {
+            "type": "Tables",
+            "name": "students"
+          },
+          {
+            "type": "Tables",
+            "name": "shippers"
+          },
+          {
+            "type": "Tables",
+            "name": "regions"
+          },
+          {
+            "type": "Tables",
+            "name": "qainventory"
+          },
+          {
+            "type": "Tables",
+            "name": "products"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "MongoDB"
+            },
+            {
+              "techTag": "MongoDBCatalog"
+            },
+            {
+              "techTag": "MONGODB_BA"
+            }
+          ]
+        }
+      }
+    },
+    "tableMetaData": {
+      "name": "Table1",
+      "tableType": "TABLE",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "_id"
+          },
+          {
+            "type": "Columns",
+            "name": "collectionName"
+          },
+          {
+            "type": "Columns",
+            "name": "emailId"
+          },
+          {
+            "type": "Columns",
+            "name": "phoneNo"
+          },
+          {
+            "type": "Constraints",
+            "name": "TABLE1_PRIMARYKEY"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "MongoDB"
+            },
+            {
+              "techTag": "MongoDBCatalog"
+            },
+            {
+              "techTag": "MONGODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "constraintMetaData": {
+      "name": "TABLE1_PRIMARYKEY",
+      "constraintType": "PRIMARY_KEY",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "_id"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "MongoDB"
+            },
+            {
+              "techTag": "MongoDBCatalog"
+            },
+            {
+              "techTag": "MONGODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "columnMetaData": {
+      "name": "emailId",
+      "breadCrumbs": {
+        "values": [
+          {
+            "name": "10.33.6.130",
+            "tooltip": "10.33.6.130 [Cluster]"
+          },
+          {
+            "name": "MONGODB",
+            "tooltip": "MONGODB [Service]"
+          },
+          {
+            "name": "SampleDB",
+            "tooltip": "SampleDB [Database]"
+          },
+          {
+            "name": "Table1",
+            "tooltip": "Table1 [Table]"
+          },
+          {
+            "name": "emailId",
+            "tooltip": "emailId [Column]"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "MongoDB"
+            },
+            {
+              "techTag": "MongoDBCatalog"
+            },
+            {
+              "techTag": "MONGODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "TableName": "TAGDETAILS_Ratiolesserthan05MatchFullTrue",
+  "KeySchema": [
+    {
+      "AttributeName": "RollNumber",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "Name",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "RollNumber",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "Name",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

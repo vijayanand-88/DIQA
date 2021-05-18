@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CsvS3Analyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "AnalyzeCsvS3InvalidEMRCluster"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": "CsvS3DataSource",
+      "credential": "ValidCsvReadWriteCredentials",
+      "businessApplicationName": "Test_BA_CsvS3Analyzer",
+      "dryRun": false,
+      "filter": null,
+      "bucketName": "asg-qa-emr-csvanalyzer",
+      "cleanupAfterRun": true,
+      "incremental": true,
+      "type": "Dataanalyzer",
+      "restrictRegion": "us-east-1",
+      "emrClusterId": "j-3S9PU",
+      "histogramBuckets": 100,
+      "pluginName": "CsvS3Analyzer",
+      "delimiter": ",",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": []
+        }
+      },
+      "dataSampleSize": 25,
+      "topValues": 10,
+      "firstRowAsHeader": false
+    }
+  ]
+}

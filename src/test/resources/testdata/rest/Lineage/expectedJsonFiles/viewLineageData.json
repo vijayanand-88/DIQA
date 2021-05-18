@@ -1,0 +1,148 @@
+{
+  "viewfromsingletable": [
+    {
+      "mode": "VIEW",
+      "source": "testtimewithzone",
+      "dir": "->",
+      "target": "testtimewithzone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testdata",
+      "dir": "->",
+      "target": "testdata"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testsmallint",
+      "dir": "->",
+      "target": "testsmallint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testchar",
+      "dir": "->",
+      "target": "testchar"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testdecimal",
+      "dir": "->",
+      "target": "testdecimal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testint",
+      "dir": "->",
+      "target": "testint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testbigint",
+      "dir": "->",
+      "target": "testbigint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testfloat",
+      "dir": "->",
+      "target": "testfloat"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testreal",
+      "dir": "->",
+      "target": "testreal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testboolean",
+      "dir": "->",
+      "target": "testboolean"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testdatatime",
+      "dir": "->",
+      "target": "testdatatime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testdouble",
+      "dir": "->",
+      "target": "testdouble"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testdata",
+      "dir": "->",
+      "target": "testdata"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testsmallint",
+      "dir": "->",
+      "target": "testsmallint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testfloat",
+      "dir": "->",
+      "target": "testfloat"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testtimewithzone",
+      "dir": "->",
+      "target": "testtimewithzone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testint",
+      "dir": "->",
+      "target": "testint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testbigint",
+      "dir": "->",
+      "target": "testbigint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testdatatime",
+      "dir": "->",
+      "target": "testdatatime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testdouble",
+      "dir": "->",
+      "target": "testdouble"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testchar",
+      "dir": "->",
+      "target": "testchar"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testdecimal",
+      "dir": "->",
+      "target": "testdecimal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testreal",
+      "dir": "->",
+      "target": "testreal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testboolean",
+      "dir": "->",
+      "target": "testboolean"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "businessOwners": ["TestDataAdmin"],
+  "technologyOwners": ["TestSystem"],
+  "relationshipOwners": ["TestGuestUser"],
+  "securityOwners": ["TestSystem"],
+  "complianceOwners": ["TestGuestUser"]
+ }

@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE XMI SYSTEM 'http://schema.asg.com/rochade/xml/RNX_1_6.dtd'>
+<XMI timestamp='01/03/2018 11:17:49 CET' verified='false' xmi.version='1.0'  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+			<XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+		</XMI.documentation>
+		<XMI.model xmi.name='RNX' xmi.version='1.6'/>
+	</XMI.header>
+	<XMI.content xmi.uuid='XMLDsp|SERVER|AP-DATA|USER|S|AREA|INITIAL' uuidDel='|'>
+		<ITEM xmi.id='BigData.Column:::947' itemType='RBD_COLUMN' itemName='col0' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::948' itemType='RBD_COLUMN' itemName='col1' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::948' itemType='RBD_COLUMN' itemName='col1' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::945' itemType='RBD_COLUMN' itemName='col2' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::946' itemType='RBD_COLUMN' itemName='col3' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::945' itemType='RBD_COLUMN' itemName='col2' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::943' itemType='RBD_COLUMN' itemName='col4' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::1050' itemType='RBD_COLUMN' itemName='col11' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::946' itemType='RBD_COLUMN' itemName='col3' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::944' itemType='RBD_COLUMN' itemName='col5' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::741' itemType='RBD_COLUMN' itemName='col20' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::1052' itemType='RBD_COLUMN' itemName='col13' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::943' itemType='RBD_COLUMN' itemName='col4' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::941' itemType='RBD_COLUMN' itemName='col6' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::942' itemType='RBD_COLUMN' itemName='col7' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::741' itemType='RBD_COLUMN' itemName='col20' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::744' itemType='RBD_COLUMN' itemName='col21' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::742' itemType='RBD_COLUMN' itemName='col22' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::743' itemType='RBD_COLUMN' itemName='col23' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::744' itemType='RBD_COLUMN' itemName='col21' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::941' itemType='RBD_COLUMN' itemName='col6' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::742' itemType='RBD_COLUMN' itemName='col22' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::750' itemType='RBD_COLUMN' itemName='col25' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::941' itemType='RBD_COLUMN' itemName='col6' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::743' itemType='RBD_COLUMN' itemName='col23' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::941' itemType='RBD_COLUMN' itemName='col6' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::750' itemType='RBD_COLUMN' itemName='col25' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::941' itemType='RBD_COLUMN' itemName='col6' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::1050' itemType='RBD_COLUMN' itemName='col11' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::1049' itemType='RBD_COLUMN' itemName='col12' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::944' itemType='RBD_COLUMN' itemName='col5' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::941' itemType='RBD_COLUMN' itemName='col6' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::944' itemType='RBD_COLUMN' itemName='col5' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::1052' itemType='RBD_COLUMN' itemName='col13' >      </ITEM>
+		<ITEM xmi.id='BigData.Column:::941' itemType='RBD_COLUMN' itemName='col6' >      </ITEM>
+		<ITEM xmi.id='BigData.Column:::942' itemType='RBD_COLUMN' itemName='col7' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::939' itemType='RBD_COLUMN' itemName='col8' ></ITEM>
+						<ITEM xmi.idref='BigData.Column:::945' itemType='RBD_COLUMN' itemName='col2' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::1049' itemType='RBD_COLUMN' itemName='col12' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::945' itemType='RBD_COLUMN' itemName='col2' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::939' itemType='RBD_COLUMN' itemName='col8' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::940' itemType='RBD_COLUMN' itemName='col9' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::940' itemType='RBD_COLUMN' itemName='col9' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::1051' itemType='RBD_COLUMN' itemName='col10' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='BigData.Column:::1051' itemType='RBD_COLUMN' itemName='col10' >
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Lnk' attrName='LINK' linkType='Set' >
+					<ITEMS>
+						<ITEM xmi.idref='BigData.Column:::939' itemType='RBD_COLUMN' itemName='col8' ></ITEM>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+	</XMI.content>
+</XMI>

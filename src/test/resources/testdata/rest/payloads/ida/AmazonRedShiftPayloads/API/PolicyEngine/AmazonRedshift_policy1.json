@@ -1,0 +1,888 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "pluginName": "AmazonRedshiftAnalyzer",
+    "technologies": [
+      ""
+    ],
+    "view": {
+      "label": "AmazonRedshiftAnalyzer",
+      "value": "AmazonRedshiftAnalyzer"
+    },
+    "dataType": "STRUCTURED"
+  },
+  "outputs": [
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*VAR1.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VAR3CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VAR2CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*VAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*4CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*ipadd.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "email",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "ss.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "gender",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*name",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*I1P.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*EM1AIL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "ssN11.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "1gender",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*F1ULL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "ipaddress",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*mail",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*ssn.*",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "gender",
+      "typePattern": ".*CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "full_.*",
+      "typePattern": ".*CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPAD1DREss",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*1mail",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*1ssN.*",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "gender1",
+      "typePattern": ".*CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL1.*",
+      "typePattern": ".*CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "ipaddress",
+      "typePattern": ".*AR2CHA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*mail",
+      "typePattern": "2VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*ssn.*",
+      "typePattern": "VAR2CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "gender",
+      "typePattern": ".*2CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "full_.*",
+      "typePattern": ".*VA2CHA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}$[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "ipaddress",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]$([A-Za-z0-9_\\-]+\\.)$[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*mail",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}\\d{6}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*ssn.*",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(male|Male|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "gender",
+      "typePattern": ".*CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]$\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "full_.*",
+      "typePattern": ".*CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "database",
+      "tags": [
+        "AmazonRedshift_FullMatchPII_SC1Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "GRANTS.",
+      "tags": [
+        "AmazonRedshift_FullMatchPII_SC3Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SpectrumDS",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "Spectrum_Credentials",
+      "filter": null,
+      "driverBundleName": "com.amazon.redshift.jdbc.Driver",
+      "pluginName": "AmazonSpectrumDataSource",
+      "url": "jdbc:redshift://redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com:5439/world"
+    },{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonSpectrumDataSource_TEST_DEFAULT_CONFIGURATION",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": null,
+      "pluginType": null,
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null
+    }
+  ]
+}

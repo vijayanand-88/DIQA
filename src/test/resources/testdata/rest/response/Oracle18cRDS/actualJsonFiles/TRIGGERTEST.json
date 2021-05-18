@@ -1,0 +1,1 @@
+{"TRIGGERTEST":[{"mode":"COPY","source":"ID","dir":"->","target":"ID"},{"mode":"CONTROL","source":"TRIGGERTEST","dir":"->","target":"TRIGGER1"},{"mode":"COPY","source":"IDADDRESS","dir":"->","target":"IDADDRESS"},{"mode":"COPY","source":"IDNAME","dir":"->","target":"IDNAME"}]}

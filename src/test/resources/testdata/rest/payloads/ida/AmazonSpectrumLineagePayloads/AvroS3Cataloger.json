@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AvroS3Catalog",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition":"name==\"LocalNode\"",
+      "businessApplicationName": null,
+      "maxWorkSize": 100,
+      "tags": ["Linker_Avros3"],
+      "pluginType": "cataloger",
+      "dataSource": "AvroS3ValidDataSource",
+      "credential": "Spec_ValidAVROCredentials",
+      "dryRun": false,
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "AvroS3Cataloger",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asgredshiftworlddata"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": ["*/QA/*"]
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": []
+        }
+      }
+    }
+  ]
+}

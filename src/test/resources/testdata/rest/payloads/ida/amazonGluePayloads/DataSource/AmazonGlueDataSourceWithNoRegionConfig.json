@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AWSGlueDataSourceWithNoRegion",
+      "pluginVersion": "Latest",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "ValidGlueCredentials",
+	  "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "region": null
+    }
+  ]
+}

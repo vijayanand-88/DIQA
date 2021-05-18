@@ -1,0 +1,12 @@
+count,type,countstate,nomber,sex,citizen
+132,"I(Pu)",148,1,Male,US
+87,"I(Pr)",63,3,Male,US
+96,II,161,5,Male,US
+71,IV,89,9,Male,US
+54,IV,55,10,Female,US
+130,"I(Pu)",136,13,Male,Non-US
+79,"I(Pr)",82,15,Male,Non-US
+89,II,116,17,Male,Non-US
+53,III,61,19,Male,Non-US
+122,IV,153,21,Male,Non-US
+105,IV,115,22,Female,Non-US

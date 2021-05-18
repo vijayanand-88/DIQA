@@ -1,0 +1,50 @@
+{
+  "ReportPackageMetadata": {
+    "Attributes": ["Description","Definition","owner"],
+    "Values": {
+      "owner": "ADMIN",
+      "Definition": "Caption: Chapter 1 - First Workbook",
+      "Description": "Chapter 1 - First Workbook"
+    }
+  },
+  "ReportSchemaMetadata": {
+    "Attributes": ["Description","Definition","owner"],
+    "Values": {
+      "owner": "ADMIN",
+      "Definition": "Caption: Chapter 1 - First Workbook",
+      "Description": "Chapter 1 - First Workbook"
+    }
+  },
+  "ReportMetadata": {
+    "Attributes": ["Description","Definition","owner","query"],
+    "Values": {
+      "owner": "ADMIN",
+      "query": null,
+      "Definition": "Caption: <Sheet Name>\\n\\nThis simple workbook contains a single bar chart in one worksheet. Notice dimensions and measures on the Columns and Rows shelves, the Filters shelf, and the Marks card, as outlined in Chapter 1 of the book. This sheet title, as well as the caption at the bottom of the chart, were displayed from the Worksheet pull down menu.",
+      "Description": "<Sheet Name>\\n\\nThis simple workbook contains a single bar chart in one worksheet. Notice dimensions and measures on the Columns and Rows shelves, the Filters shelf, and the Marks card, as outlined in Chapter 1 of the book. This sheet title, as well as the caption at the bottom of the chart, were displayed from the Worksheet pull down menu."
+    }
+  },
+  "DataTypeMetadata": {
+    "Attributes": ["Description","Definition"],
+    "Values": {
+      "Definition": "Caption: <Sheet Name>\\n\\nThis simple workbook contains a single bar chart in one worksheet. Notice dimensions and measures on the Columns and Rows shelves, the Filters shelf, and the Marks card, as outlined in Chapter 1 of the book. This sheet title, as well as the caption at the bottom of the chart, were displayed from the Worksheet pull down menu.",
+      "Description": "<Sheet Name>\\n\\nThis simple workbook contains a single bar chart in one worksheet. Notice dimensions and measures on the Columns and Rows shelves, the Filters shelf, and the Marks card, as outlined in Chapter 1 of the book. This sheet title, as well as the caption at the bottom of the chart, were displayed from the Worksheet pull down menu."
+    }
+  },
+  "DataFieldMetadata": {
+    "Attributes1": ["Description","Definition","dataDefaultValue","dataAllowedValues"],
+    "Attributes2": ["dataScale","dataLength","dataMinimumLength"],
+    "Values1": {
+      "Definition": "Caption: ",
+      "Description": null,
+      "dataDefaultValue": null,
+      "dataAllowedValues": null
+    },
+    "Values2": {
+      "dataScale": null,
+      "dataLength": null,
+      "dataMinimumLength": null
+    }
+  }
+}
+

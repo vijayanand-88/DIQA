@@ -1,0 +1,41 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "SampleGitCollector",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "collector",
+  "startWith": "Node",
+  "dataSource": "TestGitDS",
+  "credential": "TestGitCredential",
+  "businessApplicationName": "SampleGitBA",
+  "dryRun": false,
+  "schedule": null,
+  "runAfter": [],
+  "filter": {
+    "filters": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.Filter",
+        "label": null,
+        "tags": null,
+        "branch": "refs/heads/master"
+      }
+    ],
+    "deltaTime": null,
+    "extraFilters": {
+      "filefilters": []
+    },
+    "maxHits": null
+  },
+  "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+  "pluginName": "GitCollector",
+  "Node": "LocalNode",
+  "type": "Collector"
+}

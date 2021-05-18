@@ -1,0 +1,1 @@
+{"ORACLE_SUPPLIER_UNIQUETEST":[{"level":1,"back":false,"id":"","source":"ORACLE_SUPPLIER_UNIQUETEST","type":"index","target":"ORACLE_SUPPLIER_UNIQUETEST"},{"level":1,"back":false,"id":"","source":"ORACLE_SUPPLIER_UNIQUETEST","type":"linkColumn","target":"SUPPLIER_ID"}]}

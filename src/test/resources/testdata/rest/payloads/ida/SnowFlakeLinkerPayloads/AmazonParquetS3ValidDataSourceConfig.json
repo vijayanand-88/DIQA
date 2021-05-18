@@ -1,0 +1,46 @@
+
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonParquetS3ValidDataSource",
+      "pluginVersion": "Latest",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "Spec_ValidParquetCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "runAfter": [],
+      "filter": null,
+	  "pluginName":"ParquetS3DataSource",
+      "region": "us-east-1"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ParquetS3DataSource_TEST_DEFAULT_CONFIGURATION",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": null,
+      "pluginType": null,
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null
+    }
+  ]
+}

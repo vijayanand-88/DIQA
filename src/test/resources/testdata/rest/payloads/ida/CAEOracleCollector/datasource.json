@@ -1,0 +1,110 @@
+{
+  "OracleEntryPointServer": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleEntryPointCreateDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-17T06:47:05.327348",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-17T06:47:05.327356"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "OracleEntryPointServer",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "pluginName": "CAEDataSource",
+        "ServerName": "DIQPLUGINS01V.DIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "ORA19",
+        "DBPort": "1521"
+      }
+    ]
+  },
+  "OracleCollectorDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAEOracleCollectorDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-17T06:48:50.321802",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-17T06:48:50.321812"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "Oracle12CDataServer",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "pluginName": "CAEOracleDataSource",
+        "Connection": {
+          "CAEPath": "${cae.home}",
+          "OracleUrl": "jdbc:oracle:thin:@//DIDORACLE01V.DID.DEV.ASGINT.LOC:1521/ORACLE12C"
+        }
+      }
+    ]
+  },
+  "CAEFeedETLLINDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CAEFeedETLLINDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-16T10:55:42.530867",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-16T10:55:42.530876"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "OracleEntryPoint",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "dryRun": false,
+        "pluginName": "CAEDataSource",
+        "ServerName": "DIQPLUGINS01V.DIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "ORA19",
+        "DBPort": "1521"
+      }
+    ]
+  }
+}

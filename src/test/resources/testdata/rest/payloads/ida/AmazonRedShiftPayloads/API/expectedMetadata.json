@@ -1,0 +1,285 @@
+{
+  "tag_details": {
+    "Columns": {
+      "employee_id": {
+        "Statistics": {
+          "Average": "11",
+          "Length": "10",
+          "Maximum value": "13",
+          "Median": "11",
+          "Minimum value": "10",
+          "Number of non null values": "4",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "1.29",
+          "Number of unique values": "4",
+          "Percentage of unique values": "100",
+          "Variance": "1.67"
+        },
+        "Lifecycle": [
+          "Last analyzed at",
+          "Last catalogued at"
+        ],
+        "Description": {
+          "Data type": "INTEGER"
+        }
+      },
+      "empid": {
+        "Statistics": {
+          "Average": "20",
+          "Length": "10",
+          "Maximum value": "30",
+          "Median": "20",
+          "Minimum value": "10",
+          "Number of non null values": "6",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "8.94",
+          "Number of unique values": "3",
+          "Percentage of unique values": "50",
+          "Variance": "80"
+        },
+        "Lifecycle": [
+          "Last analyzed at",
+          "Last catalogued at"
+        ],
+        "Description": {
+          "Data type": "INTEGER"
+        }
+      },
+      "empid1": {
+        "Statistics": {
+          "Average": "32000",
+          "Length": "5",
+          "Maximum value": "52000",
+          "Median": "32000",
+          "Minimum value": "12000",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "15811.39",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "250000000"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "FLOAT"
+        }
+      }
+    }
+  },
+  "department": {
+    "Columns": {
+      "deptname": {
+        "Statistics": [
+          "Number of non null values",
+          "Maximum Value",
+          "Minimum Value",
+          "Standard deviation",
+          "Variance",
+          "Last Analyzed At"
+        ],
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      },
+      "deptname_analyzed": {
+        "Statistics": {
+          "Length": "50",
+          "Maximum value": "dept3",
+          "Minimum length": "5",
+          "Minimum value": "dept1",
+          "Maximum length": "5",
+          "Number of non null values": "6",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "3",
+          "Percentage of unique values": "50"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      }
+    }
+  },
+  "city": {
+    "Columns": {
+      "population": {
+        "Statistics": [
+          "Number of non null values",
+          "Maximum Value",
+          "Minimum Value",
+          "Standard deviation",
+          "Variance",
+          "Last Analyzed At"
+        ],
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "INTEGER"
+        }
+      },
+      "countrycode": {
+        "Statistics": [
+          "Number of non null values",
+          "Maximum Value",
+          "Minimum Value",
+          "Standard deviation",
+          "Variance",
+          "Last Analyzed At"
+        ],
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "CHAR"
+        }
+      }
+    }
+  },
+  "employee": {
+    "Columns": {
+      "empid": {
+        "Statistics": [
+          "Number of non null values",
+          "Maximum Value",
+          "Minimum Value",
+          "Standard deviation",
+          "Variance",
+          "Last Analyzed At"
+        ],
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "INTEGER"
+        }
+      },
+      "eaddress": {
+        "Statistics": [
+          "Number of non null values",
+          "Maximum Value",
+          "Minimum Value",
+          "Standard deviation",
+          "Variance",
+          "Last Analyzed At"
+        ],
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      }
+    }
+  },
+  "country": {
+    "Columns": {
+      "headofstate": {
+        "Statistics": {
+          "Length": "256",
+          "Maximum value": "Mohammad Omar",
+          "Minimum length": "7",
+          "Minimum value": "Beatrix",
+          "Maximum length": "13",
+          "Number of non null values": "3",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "2",
+          "Percentage of unique values": "66.67"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      }
+    }
+  },
+  "viewexternalcity": {
+    "Columns": {
+      "countrycode": {
+        "Statistics": {
+          "Length": "256",
+          "Maximum value": "ZWE",
+          "Minimum length": "3",
+          "Minimum value": "ABW",
+          "Maximum length": "3",
+          "Number of non null values": "4079",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "232",
+          "Percentage of unique values": "25"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      }
+    }
+  },
+  "testschema": {
+    "Table": {
+      "employee": {
+        "Description": {
+          "Table Type": "TABLE"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ]
+      },
+      "viewdiffdatatypes": {
+        "Description": {
+          "Table Type": "VIEW",
+          "Created by": "master"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Statistics": {
+          "Number of rows": "5"
+        }
+      }
+    }
+  },
+  "demo": {
+    "Table": {
+      "city": {
+        "Description": {
+          "Table Type": "TABLE"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ]
+      }
+    }
+  },
+  "InvalidCredentials": {
+    "Description": {
+      "Number of processed items": "1",
+      "Number of errors": "2"
+    }
+  },
+  "InvalidSchema": {
+    "Description": {
+      "Number of processed items": "1",
+      "Number of errors": "0"
+    }
+  }
+}
+
+
+

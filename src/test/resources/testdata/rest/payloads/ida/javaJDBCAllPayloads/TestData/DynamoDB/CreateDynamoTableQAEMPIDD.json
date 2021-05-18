@@ -1,0 +1,29 @@
+{
+  "TableName": "QAEMPIDD",
+  "KeySchema": [
+    {
+      "AttributeName": "EMP",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "FNAME",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "EMP",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "FNAME",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

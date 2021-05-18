@@ -1,0 +1,6 @@
+{
+  "name": "TableauDataSets",
+  "description": "Column items",
+  "status": "PUBLIC",
+  "dataElements":["BigData.Column:::15","BigData.Table:::1","BigData.Database:::1","BigData.Service:::1","BigData.File:::1"]
+}

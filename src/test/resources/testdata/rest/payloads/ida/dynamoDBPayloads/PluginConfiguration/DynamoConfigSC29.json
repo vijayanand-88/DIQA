@@ -1,0 +1,26 @@
+{
+  "configurations": [
+  {
+       "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DynamoCatalogDSNoRegionValidCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["SC19DynamoTags"],
+      "pluginType": "cataloger",
+      "dataSource": "DynamoDBNoRegion",
+      "credential": "ValidDYDBCredentials",
+      "dryRun": false,
+      "filter": null,
+      "tables": [],
+      "properties": []
+    }
+   
+  ]
+}

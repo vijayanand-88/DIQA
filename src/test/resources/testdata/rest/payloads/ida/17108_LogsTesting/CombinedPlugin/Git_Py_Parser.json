@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "IDALogs",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "GitCollectorDataSource",
+      "credential": "SampleCredentialsgit",
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null
+          },
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "PythonTest"
+          }
+        ],
+        "deltaTime": "300",
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "pluginName": "GitCollector",
+      "contentAnalyzerPluginConfiguration": "UDA",
+      "type": "Collector"
+    }
+  ]
+}

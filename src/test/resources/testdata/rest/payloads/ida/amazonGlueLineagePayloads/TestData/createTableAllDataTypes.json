@@ -1,0 +1,99 @@
+{
+  "SerDeInfo": {
+    "serializationLib": "org.openx.data.jsonserde.JsonSerDe",
+    "name": "",
+    "parameters": {
+      "paths": "delay,dud,quarter,snno,time,y,year"
+    }
+  },
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "book binary",
+          "comment": "",
+          "type": "string"
+        },
+        {
+          "name": "in publication",
+          "comment": "",
+          "type": "boolean"
+        },
+        {
+          "name": "book ss",
+          "comment": "",
+          "type": "array<string>"
+        },
+        {
+          "name": "book title",
+          "comment": "",
+          "type": "string"
+        },
+        {
+          "name": "itemsonmydesk",
+          "comment": "",
+          "type": "array<string>"
+        },
+        {
+          "name": "book null",
+          "comment": "",
+          "type": "string"
+        },
+        {
+          "name": "color",
+          "comment": "",
+          "type": "array<string>"
+        },
+        {
+          "name": "book bs",
+          "comment": "",
+          "type": "array<string>"
+        },
+        {
+          "name": "id",
+          "comment": "",
+          "type": "bigint"
+        },
+        {
+          "name": "book ns",
+          "comment": "",
+          "type": "array<double>"
+        }
+      ]
+    }
+  },
+  "description": "Table Description",
+  "inputFormat": "",
+  "tableName": "alldatatypes3",
+  "database": "linkersourcedb",
+  "bucketCols": [],
+  "SkewedInfo": {},
+  "sortCols": [],
+  "storedAsSubDirectories": "false",
+  "location": "arn:aws:dynamodb:us-east-1:868165524337:table/AllDataTypes3",
+  "compressed": "false",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "book binary",
+        "comment": "",
+        "type": "string"
+      }
+    ]
+  },
+  "outputFormat": "",
+  "parameters": {
+    "rangeKey": "Book Title",
+    "sizeKey": "166",
+    "hashKey": "Id",
+    "UPDATED_BY_CRAWLER": "GluelinkerDynamo",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "1",
+    "averageRecordSize": "166",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "dynamodb",
+    "typeOfData": "table"
+  },
+  "numBuckets": "-1"
+}

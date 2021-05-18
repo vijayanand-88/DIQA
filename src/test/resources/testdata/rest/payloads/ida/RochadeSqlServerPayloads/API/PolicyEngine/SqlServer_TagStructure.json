@@ -1,0 +1,177 @@
+[
+  {
+    "name": "SQLSERVER_PII",
+    "definition":"PII Classification",
+    "status": "APPROVED",
+    "type": "PII Tags",
+    "userAssignable": true,
+    "subTags": [
+      {
+        "name": "intTag",
+        "definition": "intTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "varcharTag",
+        "definition": "varcharTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "nvarcharTag",
+        "definition": "nvarcharTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "intTag1",
+        "definition": "intTag1",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "varcharTag1",
+        "definition": "varcharTag1",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "nvarcharTag1",
+        "definition": "nvarcharTag1",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "intType",
+        "definition": "intType",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "varcharType",
+        "definition": "varcharType",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "nvarcharType",
+        "definition": "nvarcharType",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "intType2",
+        "definition": "intType2",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "varcharType2",
+        "definition": "varcharType2",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "nvarcharType2",
+        "definition": "nvarcharType2",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "intType3",
+        "definition": "intType3",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "varcharType3",
+        "definition": "varcharType3",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "nvarcharType3",
+        "definition": "nvarcharType3",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "intTag4",
+        "definition": "intTag4",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "varcharTag4",
+        "definition": "varcharTag4",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "nvarcharTag4",
+        "definition": "nvarcharTag4",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      }
+      
+    ],
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

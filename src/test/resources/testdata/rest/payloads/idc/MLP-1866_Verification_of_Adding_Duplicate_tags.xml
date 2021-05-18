@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE XMI SYSTEM 'http://schema.asg.com/rochade/xml/RNX_1_6.dtd'>
+<XMI timestamp='07/20/2017 15:53:42 CEST'
+     verified='false'
+     xmi.version='1.0'>
+    <XMI.header>
+        <XMI.documentation>
+            <XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+            <XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+        </XMI.documentation>
+        <XMI.model xmi.name='RNX'
+                   xmi.version='1.6'/>
+        <XMI.model xmi.name='METAAPPS'
+                   xmi.version='DEVELOPMENT'
+                   href='rochade://decheutas01p.asg.com:8000/ADMIN/AP-DATA/S/METAAPPS/DEVELOPMENT'>Created  09/07/2016     14:50:56
+        </XMI.model>
+    </XMI.header>
+    <XMI.content xmi.uuid='XMLDsp|SERVER1|AP-DATA|ADMIN|S|METAAPPS|DEVELOPMENT'
+                 uuidDel='|'>
+        <ITEM xmi.id='_0'
+              itemType='RBG/GLOSSARY'
+              itemName='Health'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt'
+                           attrName='RBG/BUSINESS-TERM-TYPE'
+                           contentType='text/plain'>RBG/BUSINESS-TERM</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt'
+                           attrName='DEFINITION'
+                           contentType='text/plain'>Health</ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk'
+                           attrName='RBG/HAS-BUSINESS-TERM'
+                           linkType='Xns'>
+                    <ITEMS>
+                        <ITEM xmi.id='_1'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Medical Plan'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>Employee's Medical Plan related datas available</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_2'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Insurance Plan'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>Employee's Insurance Plan related datas available</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_7'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Loan Status'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>Employee's Loan Status related datas available.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_3'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Authorization'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>An authorization is an act of the Congress that establishes or continues a Federal program or agency and sets forth the guidelines to which it must adhere.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_4'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Loan Status'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>Employee's Loan Status related datas available.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+    </XMI.content>
+</XMI>

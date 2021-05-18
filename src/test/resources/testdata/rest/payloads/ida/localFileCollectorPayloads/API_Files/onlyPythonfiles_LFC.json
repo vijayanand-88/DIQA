@@ -1,0 +1,55 @@
+{
+  "count" : 0,
+  "results" : [ ],
+  "configs" : {
+    "defaultListView" : [ {
+      "value" : "asg.parentTypeNamePath",
+      "label" : "Hierarchy"
+    }, {
+      "value" : "asg.tagNames",
+      "label" : "Tags"
+    } ]
+  },
+  "configsMap" : {
+    "*" : {
+      "*" : "defaultListView"
+    }
+  },
+  "facets" : {
+    "asg.tagPathsHierarchy_ss" : {
+      "label" : "Tags",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 2,
+        "value" : "LFC",
+        "label" : "LFC",
+        "checked" : false,
+        "childValues" : [ ]
+      }, {
+        "count" : 2,
+        "value" : "Technology",
+        "label" : "Technology",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 2,
+          "value" : "Technology/Enterprise Data",
+          "label" : "Enterprise Data",
+          "checked" : false,
+          "childValues" : [ {
+            "count" : 2,
+            "value" : "Technology/Enterprise Data/Data Files",
+            "label" : "Data Files",
+            "checked" : false,
+            "childValues" : [ {
+              "count" : 2,
+              "value" : "Technology/Enterprise Data/Data Files/Local Files",
+              "label" : "Local Files",
+              "checked" : false,
+              "childValues" : [ ]
+            } ]
+          } ]
+        } ]
+      } ]
+    }
+  }
+}

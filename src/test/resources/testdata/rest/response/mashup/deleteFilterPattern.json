@@ -1,0 +1,19 @@
+{
+  "action": "deleteNode",
+  "nodes": [
+
+    {
+      "pathToConfig": "$.configurations.GitCollector[0].regexExcludePattern"
+    },
+    {
+      "pathToConfig": "$.configurations.GitCollector[0].simpleExcludePattern"
+    },
+    {
+      "pathToConfig": "$.configurations.GitCollector[0].regexIncludePattern"
+    },
+    {
+      "pathToConfig": "$.configurations.GitCollector[0].simpleIncludePattern"
+    }
+
+  ]
+}

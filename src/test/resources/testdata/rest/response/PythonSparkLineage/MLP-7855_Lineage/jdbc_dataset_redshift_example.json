@@ -1,0 +1,1 @@
+{"classID":3704,"functionID":3721,"hopsList":["name => users_created.name","users.email => jdbcDF.email","users.gender => jdbcDF.gender","users.id => jdbcDF.id","users.name => jdbcDF.name"],"hopsID":{"name => users_created.name":3741,"users.email => jdbcDF.email":3739,"users.id => jdbcDF.id":3740,"users.gender => jdbcDF.gender":3742,"users.name => jdbcDF.name":3738}}

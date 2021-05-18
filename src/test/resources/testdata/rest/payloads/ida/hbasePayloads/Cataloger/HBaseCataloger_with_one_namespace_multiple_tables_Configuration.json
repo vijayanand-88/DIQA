@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HBaseCataloger_oneNamespace_MultipleTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC1_oneNS_MultiTables"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "HbaseDataSource_Valid",
+      "credential": "hbaseDBValidCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "HBaseCataloger",
+      "type": "Cataloger",
+      "includeItems": {
+        "includeTables": [
+          "employee",
+          "hremployee"
+        ],
+        "includeNamespaces": [
+          "pyspark"
+        ]
+      },
+      "scanRows": "100"
+    }
+  ]
+}

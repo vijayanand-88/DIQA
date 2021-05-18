@@ -1,0 +1,25 @@
+{
+  "UDB_Lineage": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "UDB_Lineage",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "lineage",
+    "dataSource": "UDB_Feeder_DS",
+    "credential": "UDB_Feeder_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "CAELineage",
+    "type": "Lineage"
+  }
+}

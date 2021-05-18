@@ -1,0 +1,23 @@
+{
+  "event": "com.asg.dis.common.data.events.ItemDeletedEvent",
+  "keepAlive": 86400000,
+  "localizedBody": {
+    "": "Item ${itemId} with type ${type} and name ${name} has been deleted in area ${areaName}"
+  },
+  "localizedTitle": {
+    "": "Item Deleted!"
+  },
+  "link": {
+    "value": "/subject-area",
+    "localizedText": {
+      "": "Open area ${areaName}"
+    },
+    "params": {
+      "name": "${areaName}"
+    }
+  },
+  "icon": "glyphicon-plus",
+  "localizedActionBy": {
+    "": "Created by: ${userName}"
+  }
+}

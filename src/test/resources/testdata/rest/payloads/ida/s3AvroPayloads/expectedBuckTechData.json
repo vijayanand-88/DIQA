@@ -1,0 +1,53 @@
+{
+  "BucketAccelerateConfiguration": {
+    "accelerateEnabled": false
+  },
+  "BucketVersioningConfiguration": {
+    "status": "Off"
+  },
+  "BucketCrossOriginConfiguration": {},
+  "BucketLoggingConfiguration": {
+    "loggingEnabled": false
+  },
+  "BucketNotificationConfiguration": {
+    "configurations": {},
+    "topicConfigurations": []
+  },
+  "BucketReplicationConfiguration": {},
+  "BucketTaggingConfiguration": {},
+  "BucketWebsiteConfiguration": {},
+  "AccessControlList": {
+    "owner": {
+      "displayName": "aws.saas.dev.di",
+      "id": "9335a9b0b90538483889c17170f749d72b190c87041c1a765c0fd1e0f1e569d7"
+    },
+    "requesterCharged": false,
+    "grantsAsList": [
+      {
+        "grantee": {
+          "displayName": "aws.saas.dev.di",
+          "typeIdentifier": "id",
+          "identifier": "9335a9b0b90538483889c17170f749d72b190c87041c1a765c0fd1e0f1e569d7"
+        },
+        "permission": "FullControl"
+      }
+    ],
+    "grants": [
+      {
+        "grantee": {
+          "displayName": "aws.saas.dev.di",
+          "typeIdentifier": "id",
+          "identifier": "9335a9b0b90538483889c17170f749d72b190c87041c1a765c0fd1e0f1e569d7"
+        },
+        "permission": "FullControl"
+      }
+    ]
+  },
+  "BucketPolicy": {},
+  "ServerSideEncryptionConfiguration": {},
+  "location": "US",
+  "AnalyticsConfigurations": [],
+  "MetricsConfiguration": [],
+  "InventoryConfigurations": [],
+  "region": "us-east-1"
+}

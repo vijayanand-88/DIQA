@@ -1,0 +1,23 @@
+{
+  "event": "com.asg.dis.common.data.events.ItemsUpdatedEvent",
+  "keepAlive": 86400000,
+  "localizedBody": {
+    "": " ${itemCount} items has been updated in area ${areaName}"
+  },
+  "localizedTitle": {
+    "": "Items updated!"
+  },
+  "link": {
+    "value": "/subject-area",
+    "localizedText": {
+      "": "Open area ${areaName}"
+    },
+    "params": {
+      "name": "${areaName}"
+    }
+  },
+  "icon": "glyphicon-plus",
+  "localizedActionBy": {
+    "": "Created by: ${userName}"
+  }
+}

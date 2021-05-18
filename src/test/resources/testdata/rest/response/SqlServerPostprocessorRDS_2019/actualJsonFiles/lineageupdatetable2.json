@@ -1,0 +1,1 @@
+{"lineageupdatetable2":[{"mode":"MULTIHOP","sourceAvailability":"YES","source":"name","dir":"<-","target":"id"},{"mode":"MULTIHOP","sourceAvailability":"YES","source":"name","dir":"<-","target":"id"},{"mode":"COPY","sourceAvailability":"YES","source":"name","dir":"<-","target":"name"},{"mode":"MULTIHOP","sourceAvailability":"YES","source":"id","dir":"->","target":"name"}]}

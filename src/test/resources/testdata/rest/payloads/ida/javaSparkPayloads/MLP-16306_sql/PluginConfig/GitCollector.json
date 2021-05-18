@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "GitCollector"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaSparkSQL"],
+      "pluginType": "collector",
+      "dataSource": "GitCollectorDataSource",
+      "credential": "ValidGitCredentials",
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "Java Spark SQL"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+                "**/javasqllineage/**"
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "dryRun": false,
+      "businessApplicationName": "test_BA_JavaSparkSQL",
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+    }
+  ]
+}

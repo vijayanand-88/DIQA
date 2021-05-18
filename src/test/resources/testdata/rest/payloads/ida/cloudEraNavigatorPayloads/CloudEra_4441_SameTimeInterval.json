@@ -1,0 +1,58 @@
+{
+  "configurations": {
+    "CNavigatorCataloger": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "HiveWithSameDates",
+        "pluginVersion": "9.8.0",
+        "label": {
+          "": ""
+        },
+        "catalogName": "HiveWithSameDates",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.Filter",
+              "label": {
+                "": "filter1"
+              },
+              "tags": ["TagSameTime"],
+              "fromLastRun": false,
+              "dateTimeFilters": {"fromDate": "2018-08-08T01:00",
+                "toDate": "2018-08-08T12:00"},
+              "sourceTypes": [
+                "hive"
+              ],
+              "excludeNameWrapper": {
+                "excludeTopNamePattern": [],
+                "excludeNamePattern": []
+              },
+              "includeNameWrapper": {
+                "includeTopNamePattern": [
+                  ""
+                ],
+                "includeNamePattern": []
+              }
+            }
+          ],
+          "deltaTime": null,
+          "extraFilters": {},
+          "maxHits": null
+        },
+        "clouderaNavigatorPort": "7187",
+        "trackRelations": false,
+        "clouderaNavigatorHost": "http://10.33.6.155",
+        "clouderaNavigatorApiVersion": "v9",
+        "clouderaNavigatorPassword": "cloudera",
+        "clouderaNavigatorUser": "cloudera",
+        "skipSelects": false
+      }
+    ]
+  },
+  "catalogName": "BigData"
+}

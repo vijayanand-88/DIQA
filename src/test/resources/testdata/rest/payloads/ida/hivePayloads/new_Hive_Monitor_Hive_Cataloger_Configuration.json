@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+      "name": "HiveCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "HiveCataloger"
+      },
+      "catalogName": "BigData",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "parallelQueryBatchSize": 10000,
+      "parallelWorkBatchSize": 100,
+      "parallelWorkPollInterval": 60,
+      "enableQueryParser": false,
+      "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+      "kerberosKrb5location": "/etc/krb5.conf",
+      "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+      "analyzeCollectedData": true,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+            "label": {
+              "": "LandingArea"
+            },
+            "tags": [
+              "LandingArea",
+              "BigData"
+            ],
+            "dbRegexList": [
+              "healthcare"
+            ]
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "resolveNameWrapper": {
+        "resolvingPluginName": "CNavigatorCataloger",
+        "resolvingPluginConfiguration": "CNavigatorCataloger"
+      },
+      "resolveClusterName": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "pluginName": "AmazonRedshiftAnalyzer",
+    "technologies": [
+      ""
+    ],
+    "view": {
+      "label": "AmazonRedshiftAnalyzer",
+      "value": "AmazonRedshiftAnalyzer"
+    },
+    "dataType": "STRUCTURED"
+  },
+  "outputs": [
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "AmazonRedshift_IPAddressPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "AmazonRedshift_EmailPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "AmazonRedshift_SSNPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "AmazonRedshift_GenderPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "AmazonRedshift_FullNamePII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "database",
+      "tags": [
+        "AmazonRedshift_FullMatchPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "AmazonRedshift_PII",
+      "dataPattern": "GRANTS.",
+      "tags": [
+        "AmazonRedshift_FullMatchPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    }
+  ]
+}

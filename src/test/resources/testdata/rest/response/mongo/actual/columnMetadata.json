@@ -1,0 +1,578 @@
+{
+  "caption" : {
+    "name" : "emailId",
+    "type" : "Column",
+    "id" : "Default.Column:::4293",
+    "actions" : [ ],
+    "editableIcon" : false,
+    "breadCrumbs" : [ {
+      "name" : "10.33.6.130",
+      "tooltip" : "10.33.6.130 [Cluster]",
+      "id" : "Default.Cluster:::4206"
+    }, {
+      "name" : "MONGODB",
+      "tooltip" : "MONGODB [Service]",
+      "id" : "Default.Service:::4208"
+    }, {
+      "name" : "SampleDB",
+      "tooltip" : "SampleDB [Database]",
+      "id" : "Default.Database:::4210"
+    }, {
+      "name" : "Table1",
+      "tooltip" : "Table1 [Table]",
+      "id" : "Default.Table:::4229"
+    }, {
+      "name" : "emailId",
+      "tooltip" : "emailId [Column]",
+      "id" : "Default.Column:::4293"
+    } ],
+    "historyVersion" : null,
+    "editableName" : false,
+    "refreshItemOnChangeEndpoint" : null,
+    "quality" : {
+      "message" : "Not applicable",
+      "color" : "#A59C9C",
+      "value" : 0.0
+    }
+  },
+  "data" : [ {
+    "category" : "Overview",
+    "preview" : true,
+    "data" : [ {
+      "type" : "multi-properties",
+      "caption" : "Description",
+      "data" : {
+        "attributes" : [ {
+          "type" : "string",
+          "caption" : "Data type",
+          "data" : {
+            "value" : "VARCHAR",
+            "attributeName" : "dataType",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.Column%3A%3A%3A4293",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Lifecycle",
+      "data" : {
+        "attributes" : [ {
+          "type" : "date",
+          "caption" : "Last catalogued at",
+          "data" : {
+            "value" : "2020-10-20T09:49:32.656",
+            "attributeName" : "cataloguedAt",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.Column%3A%3A%3A4293",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Statistics",
+      "data" : {
+        "attributes" : [ {
+          "type" : "number",
+          "caption" : "Length",
+          "data" : {
+            "value" : 2000,
+            "attributeName" : "length",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.Column%3A%3A%3A4293",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "issuelist",
+      "caption" : "issue",
+      "data" : {
+        "actions" : [ {
+          "actionId" : "create-issue",
+          "label" : "Create issue"
+        } ]
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ],
+    "actions" : [ ]
+  }, {
+    "category" : "Relationships",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lineage",
+      "caption" : "DataLineage",
+      "data" : {
+        "theme" : "relationships",
+        "id" : "Default.Column:::4293"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ],
+    "actions" : [ ]
+  }, {
+    "category" : "Lineage",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lineage",
+      "caption" : "DataLineage",
+      "data" : {
+        "theme" : "lineage",
+        "id" : "Default.Column:::4293"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ],
+    "actions" : [ ]
+  }, {
+    "category" : "Stewardship",
+    "preview" : false,
+    "data" : [ {
+      "type" : "user-with-avatar",
+      "caption" : "Business Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "businessOwners" : [ ],
+            "clickable" : true
+          }
+        },
+        "attributeName" : "businessOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::4198",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "user-with-avatar",
+      "caption" : "Technology Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "technologyOwners" : [ ],
+            "clickable" : true
+          }
+        },
+        "attributeName" : "technologyOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::4198",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "user-with-avatar",
+      "caption" : "Relationship Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "relationshipOwners" : [ ]
+          }
+        },
+        "attributeName" : "relationshipOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::4198",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "user-with-avatar",
+      "caption" : "Security Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "securityOwners" : [ ]
+          }
+        },
+        "attributeName" : "securityOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::4198",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "user-with-avatar",
+      "caption" : "Compliance Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "complianceOwners" : [ ]
+          }
+        },
+        "attributeName" : "complianceOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::4198",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ],
+    "actions" : [ ]
+  } ],
+  "sideBar" : {
+    "widgets" : [ {
+      "type" : "rating",
+      "caption" : "Rating",
+      "data" : {
+        "content" : {
+          "ratingCount" : 0,
+          "averageRating" : 0.0,
+          "userRating" : 0,
+          "ratings" : [ ],
+          "maxValue" : 5
+        },
+        "links" : {
+          "add" : {
+            "value" : "/ratings/Default/Default.Column:::4293/",
+            "params" : { }
+          },
+          "get" : {
+            "value" : "/ratings/Default/Default.Column:::4293/",
+            "params" : { }
+          },
+          "delete" : {
+            "value" : "/ratings/Default/Default.Column:::4293/",
+            "params" : { }
+          }
+        }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "taglist",
+      "caption" : "Tags",
+      "data" : [ {
+        "id" : "Default.Tag:::4199",
+        "name" : "MONGODB_BA",
+        "rootTagName" : "BusinessApplication",
+        "parentTagName" : "",
+        "definition" : "BusinessApplication: MONGODB_BA",
+        "status" : "APPROVED",
+        "type" : "BusinessApplication Tag",
+        "image" : {
+          "icon" : "icon-business",
+          "color" : "#004ea8"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-10-20T09:48:36.300+0000",
+        "asg_createdat" : "2020-10-20T09:48:36.300+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "originItemID" : "Default.BusinessApplication:::4198",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service",
+        "originItemCatalog" : "Default"
+      }, {
+        "id" : "Default.Tag:::482",
+        "name" : "MongoDB",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Technology Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-10-20T09:48:36.300+0000",
+        "asg_createdat" : "2020-10-19T09:38:47.729+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::2752",
+        "name" : "MongoDBCatalog",
+        "rootTagName" : "MongoDBCatalog",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-10-20T09:48:36.300+0000",
+        "asg_createdat" : "2020-10-19T11:53:40.783+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "topBar" : {
+    "widgets" : [ {
+      "type" : "tag-details",
+      "caption" : "Tags",
+      "data" : [ {
+        "id" : "Default.Tag:::4199",
+        "name" : "MONGODB_BA",
+        "rootTagName" : "BusinessApplication",
+        "parentTagName" : "",
+        "definition" : "BusinessApplication: MONGODB_BA",
+        "status" : "APPROVED",
+        "type" : "BusinessApplication Tag",
+        "image" : {
+          "icon" : "icon-business",
+          "color" : "#004ea8"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-10-20T09:48:36.300+0000",
+        "asg_createdat" : "2020-10-20T09:48:36.300+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "originItemID" : "Default.BusinessApplication:::4198",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service",
+        "originItemCatalog" : "Default"
+      }, {
+        "id" : "Default.Tag:::482",
+        "name" : "MongoDB",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Technology Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-10-20T09:48:36.300+0000",
+        "asg_createdat" : "2020-10-19T09:38:47.729+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::2752",
+        "name" : "MongoDBCatalog",
+        "rootTagName" : "MongoDBCatalog",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-10-20T09:48:36.300+0000",
+        "asg_createdat" : "2020-10-19T11:53:40.783+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "hierarchy" : [ {
+    "label" : "10.33.6.130",
+    "children" : [ {
+      "label" : "MONGODB",
+      "children" : [ {
+        "label" : "SampleDB",
+        "children" : [ {
+          "label" : "Table1",
+          "children" : [ {
+            "label" : "emailId",
+            "children" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}

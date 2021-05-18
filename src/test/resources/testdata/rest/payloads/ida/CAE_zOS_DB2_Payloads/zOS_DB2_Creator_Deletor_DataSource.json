@@ -1,0 +1,29 @@
+{
+  "zOS_DB2_Creator_Deletor_DS": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Creator_Deletor_DS",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "Valid_CAE_Creator_Deletor_zOS_DB2_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "CAEPath": "${cae.home}",
+    "pluginName": "CAEDataSource",
+    "ServerName": "DIQPLUGINS01V.DIQ.QA.ASGINT.LOC",
+    "DBName": "CAE",
+    "Driver": "ORA19",
+    "DBPort": "1521"
+  }
+}

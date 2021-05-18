@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [{
+        "schema": "UDBTEST1",
+        "tables": []
+      }],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    }
+  ]
+}

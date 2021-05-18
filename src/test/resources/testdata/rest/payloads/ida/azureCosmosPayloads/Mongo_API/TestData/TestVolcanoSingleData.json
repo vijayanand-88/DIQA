@@ -1,0 +1,16 @@
+{
+  "Volcano Name": "Abu",
+  "Country": "Japan",
+  "Region": "Honshu-Japan",
+  "Location": {
+    "type": "Point",
+    "coordinates": [
+      131.6,
+      34.5
+    ]
+  },
+  "Elevation": 571,
+  "Type": "Shield volcano",
+  "Status": "Holocene",
+  "Last Known Eruption": "Unknown"
+}

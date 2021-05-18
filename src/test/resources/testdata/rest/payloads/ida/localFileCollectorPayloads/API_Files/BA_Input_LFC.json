@@ -1,0 +1,10 @@
+{
+  "selections": {
+    "asg.tagPathsHierarchy_ss": [
+      "BusinessApplication/onlyPython"
+    ],
+    "asg.analysisID_ss": [
+      "LocalFileCollector:LocalFileCollector_BA"
+    ]
+  }
+}

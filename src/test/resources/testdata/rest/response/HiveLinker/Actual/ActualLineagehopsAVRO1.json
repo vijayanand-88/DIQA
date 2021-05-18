@@ -1,0 +1,1 @@
+{"tagdetails_avro":[{"mode":"VIEW","source":"AVRO","dir":"->","target":"tagdetails_avro"},{"mode":"VIEW","source":"tagdetails_avro","dir":"->","target":"AVRO"}]}

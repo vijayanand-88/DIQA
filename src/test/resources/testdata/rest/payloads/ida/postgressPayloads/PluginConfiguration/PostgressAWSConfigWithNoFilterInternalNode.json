@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgreCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["PostgressTag1"],
+      "pluginType": "cataloger",
+      "dataSource": "PostgressInternalValidDataSource",
+      "credential": "ValidPostgressCredentials",
+      "businessApplicationName": "Postgress_BA",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "PostgreSQLDBCataloger",
+      "schemas": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

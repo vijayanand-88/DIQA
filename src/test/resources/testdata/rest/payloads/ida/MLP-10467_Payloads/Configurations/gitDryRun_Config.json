@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "collector",
+      "dryRun": "true",
+      "nodeCondition": null,
+      "label": {
+        "": "GitCollector"
+      },
+      "tags": [],
+      "catalogName": "Analysis",
+      "filter": {
+        "deltaTime": "300",
+        "filters": [
+          {
+            "label": null,
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "branch": "Parser_Jayasree",
+            "tags": null
+          }
+        ],
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "pluginVersion": "LATEST",
+      "credential": "gitCredentials",
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "name": "GitCollector",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "GitCollectorDataSource"
+    }
+  ]
+}

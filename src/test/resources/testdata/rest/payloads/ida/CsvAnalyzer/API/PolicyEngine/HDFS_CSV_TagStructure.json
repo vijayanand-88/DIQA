@@ -1,0 +1,680 @@
+[
+  {
+    "name": "HDFS_CSV_PII",
+    "definition": "General Classification",
+    "status": "APPROVED",
+    "type": "Structure Information Tag",
+    "userAssignable": true,
+    "subTags": [
+      {
+        "name": "Hdfs_Csv_EmailPII_SC1Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC1Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC1Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC1Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC1Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC2Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC2Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC2Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC2Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC2Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC3Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC3Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC3Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC3Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC3Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC4Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC4Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC4Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC4Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC4Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC5Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC5Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC5Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC5Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC5Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC6Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC6Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC6Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC6Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC6Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC7Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC7Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC7Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC7Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC7Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC8Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC8Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC8Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC8Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC8Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC9Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC9Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC9Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC9Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC9Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC10Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC10Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC10Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC10Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC10Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC11Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC11Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC11Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC11Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC11Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC12Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC12Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC12Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC12Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC12Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC13Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC13Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC13Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC13Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC13Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_EmailPII_SC14Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_SSNPII_SC14Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_GenderPII_SC14Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullNamePII_SC14Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_IPAddressPII_SC14Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullMatchPII_SC1Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullMatchPII_SC2Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullMatchPII_SC3Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "Hdfs_Csv_FullMatchPII_SC4Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      }
+    ],
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

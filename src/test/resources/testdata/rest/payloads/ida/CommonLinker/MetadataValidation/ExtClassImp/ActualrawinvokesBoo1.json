@@ -1,0 +1,44 @@
+[
+    {
+        "name": "..foo.*",
+        "start": {
+            "lineNumber": 1,
+            "position": 1
+        },
+        "stop": {
+            "lineNumber": 1,
+            "position": 20
+        },
+        "resolved": [
+            "Default.SourceTree:::3057"
+        ]
+    },
+    {
+        "name": "..soo.SooClass",
+        "start": {
+            "lineNumber": 2,
+            "position": 1
+        },
+        "stop": {
+            "lineNumber": 2,
+            "position": 24
+        },
+        "resolved": [
+            "Default.SourceTree:::3058"
+        ]
+    },
+    {
+        "name": "...soo.soo",
+        "start": {
+            "lineNumber": 2,
+            "position": 1
+        },
+        "stop": {
+            "lineNumber": 2,
+            "position": 24
+        },
+        "resolved": [
+            "Default.SourceTree:::3058"
+        ]
+    }
+]

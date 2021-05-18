@@ -1,0 +1,10 @@
+{
+  "actionId": "CREATE_WORKBOOK",
+  "pluginName": "TableauConnector",
+  "pluginVersion": "10.0.0.RC1-SNAPSHOT",
+  "configurationName": "TableauConnector",
+  "elementIDs": [
+    "BigData.File:::1",
+    "BigData.Service:::1"
+  ]
+}

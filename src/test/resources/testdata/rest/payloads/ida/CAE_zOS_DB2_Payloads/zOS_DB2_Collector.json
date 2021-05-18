@@ -1,0 +1,815 @@
+{
+  "zOS_DB2_Collector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "on",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_ALIAS,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_CONC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_CONR,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_DBASE,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_INDEX,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_PLAN,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_PKG,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SEQ,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SPROC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SYN,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TRIG,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SUBSYS,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SPROCSRC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TRIGSRC,PROCESS=LOAD,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_Process_DELETE": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_Process_DELETE",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "on",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_ALIAS,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_CONC,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_CONR,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_DBASE,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_INDEX,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_PLAN,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_PKG,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SEQ,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SPROC,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SYN,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TRIG,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SUBSYS,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_SPROCSRC,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TRIGSRC,PROCESS=DELETE,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_Include_SchemaInConfigLines": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_Include_SchemaInConfigLines",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "on",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200,INCS=DV538A"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200,INCS=DV538A"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_Exclude_SchemaInConfigLines": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_Exclude_SchemaInConfigLines",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "on",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200,EXCS=DV538A"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200,EXCS=DV538A"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_Include_Exclude_SchemaInConfigLines": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_Include_Exclude_SchemaInConfigLines",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "on",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200,INCS=DV538A,EXCS=DEVDXC"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200,INCS=DV538A,EXCS=DEVDXC"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_Incremental_LOAD": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_Incremental_LOAD",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "on",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200,INCS=DV538A"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200,INCS=DV538A"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_Incremental_AUTO": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_Incremental_AUTO",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "on",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=AUTO,BATCH=200,INCS=DV538A"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=AUTO,BATCH=200,INCS=DV538A"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_InvalidCredentials": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_InvalidCredentials",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Invalid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "off",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200,INCS=DEVDXC,INCM=DLN%"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TRIG,PROCESS=LOAD,BATCH=200,INCS=DEVDXC,INCM=DLN%"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TRIGSRC,PROCESS=LOAD,BATCH=200,INCS=DEVDXC,INCM=DLN%"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200,INCS=DEVDXC,INCM=DLN%"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_PKG,PROCESS=LOAD,BATCH=200,INCM=DLN%"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_PLAN,PROCESS=LOAD,BATCH=200,INCM=PRDCAEP2"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_Config1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_Config1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DataSource",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Collector",
+    "DEBUG": "off",
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200,INCS=DV538A"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200,INCS=DV538A"
+          }
+        }
+      ]
+    }
+  },
+  "sybase_Collector_Incremental": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Collector_Incremental",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_DataSource_Testing_DB",
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": "zOS_DB2_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "schema filter": [],
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_Sybase",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "Sybase.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATABL,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAVIEW,PROCESS=LOAD,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_withTiltInConfig": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_withTiltInConfig",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DS",
+    "credential": "zOS_DB2_cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=AUTO,BATCH=200~DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=AUTO,BATCH=200"
+          }
+        }
+      ]
+    }
+  }
+}

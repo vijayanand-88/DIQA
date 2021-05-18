@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Cassandra_Cataloger_Index",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CassandraFilter_Index"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CassandraDS",
+      "credential": "CassandraCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "databases": [
+        {
+          "tables": [
+            {
+              "table": "complexdatatypes"
+            },
+            {
+              "table": "complexdatatypes1"
+            },
+            {
+              "table": "complexdatatypes2"
+            },
+            {
+              "table": "rank_by_year_and_name"
+            },
+            {
+              "table": "cyclist_alt_stats"
+            },
+            {
+              "table": "popular_count"
+            }
+          ],
+          "database": "automationkeyspace"
+        }
+      ],
+      "pluginName": "CassandraDBCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

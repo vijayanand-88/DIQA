@@ -1,0 +1,15 @@
+{
+  "action": "addNode",
+  "nodes": [
+    {
+      "pathToConfig": "$.configurations.GitCollector[0]",
+      "configName": "regexExcludePattern",
+      "configValue": "*\\.siva[sS]$"
+    },
+    {
+      "pathToConfig": "$.configurations.GitCollector[0]",
+      "configName": "simpleExcludePattern",
+      "configValue": "*.firebase"
+    }
+  ]
+}

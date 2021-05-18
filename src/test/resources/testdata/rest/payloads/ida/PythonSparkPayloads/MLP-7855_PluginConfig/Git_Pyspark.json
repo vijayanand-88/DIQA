@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollector_RedshiftSpark",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "RedshiftPythonSparkLineage"
+      ],
+      "pluginType": "collector",
+      "dataSource": "GitSpark_RedshiftDataSource",
+      "credential": "GitSparkCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "amazonRedshift"
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "pluginName": "GitCollector",
+      "type": "Collector"
+    }
+  ]
+}

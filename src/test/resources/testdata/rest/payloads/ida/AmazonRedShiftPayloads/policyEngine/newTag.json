@@ -1,0 +1,46 @@
+{
+  "comments": "Social Security Number",
+  "inputEntry": [
+    {
+      "text": "DIAnalysis[ true ]",
+      "domainName": "DIAnalysis"
+    }
+  ],
+  "outputEntry": [
+    {
+      "text": "\"^\\d{3}-\\d{2}-\\d{4}$\"",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "\"Social Security Number\"",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "false",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "true",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "0.5",
+      "expressionLanguage": null,
+      "attributeName": null
+    }
+  ]
+}

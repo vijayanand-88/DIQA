@@ -1,0 +1,5056 @@
+{
+  "SnowViewSubqueryUsingWhere": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "FULL_NAME"
+    }
+  ],
+  "Snowcitycomplexview": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGUAGE",
+      "dir": "<-",
+      "target": "LANGUAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGPERCENTAGE",
+      "dir": "<-",
+      "target": "PERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYCONTINENT",
+      "dir": "<-",
+      "target": "CONTINENT"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYLIFEEXPECTANCY",
+      "dir": "<-",
+      "target": "LIFEEXPECTANCY"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYREGION",
+      "dir": "<-",
+      "target": "REGION"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "POPULATION"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "LANGUAGE",
+      "dir": "<-",
+      "target": "COUNTRYLANGUAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTINENT",
+      "dir": "<-",
+      "target": "CITYCONTINENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGPERCENTAGE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGPERCENTAGE",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYLIFEEXPECTANCY",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYLIFEEXPECTANCY",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYREGION",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYCONTINENT",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYREGION",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "LIFEEXPECTANCY",
+      "dir": "<-",
+      "target": "CITYLIFEEXPECTANCY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYCONTINENT",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGUAGE",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGUAGE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PERCENTAGE",
+      "dir": "<-",
+      "target": "COUNTRYLANGPERCENTAGE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYREGION",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYREGION",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGPERCENTAGE",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYCONTINENT",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGPERCENTAGE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYCONTINENT",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYLIFEEXPECTANCY",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYLIFEEXPECTANCY",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATION",
+      "dir": "<-",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGUAGE",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGUAGE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "REGION",
+      "dir": "<-",
+      "target": "CITYREGION"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGUAGE",
+      "dir": "->",
+      "target": "LANGUAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGPERCENTAGE",
+      "dir": "->",
+      "target": "PERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYCONTINENT",
+      "dir": "->",
+      "target": "CONTINENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYLIFEEXPECTANCY",
+      "dir": "->",
+      "target": "LIFEEXPECTANCY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYREGION",
+      "dir": "->",
+      "target": "REGION"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "->",
+      "target": "POPULATION"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYREGION"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "COUNTRYLANGUAGE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "COUNTRYLANGPERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATION",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYCONTINENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYLIFEEXPECTANCY"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "LIFEEXPECTANCY",
+      "dir": "->",
+      "target": "CITYLIFEEXPECTANCY"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PERCENTAGE",
+      "dir": "->",
+      "target": "COUNTRYLANGPERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTINENT",
+      "dir": "->",
+      "target": "CITYCONTINENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "LANGUAGE",
+      "dir": "->",
+      "target": "COUNTRYLANGUAGE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "REGION",
+      "dir": "->",
+      "target": "CITYREGION"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITYREGION"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYLANGUAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYLANGPERCENTAGE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITYCONTINENT"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITYLIFEEXPECTANCY"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "->",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "->",
+      "target": "TOTALSTRENGTH"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "->",
+      "target": "AREA"
+    }
+  ],
+  "SnowViewToMultipleTableWithJoinhavingCondition": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    }
+  ],
+  "SnowViewfromViewToViewViewToTable": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "AMOUNT",
+      "dir": "<-",
+      "target": "AMOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "SCHOOLID",
+      "dir": "<-",
+      "target": "SCHOOLID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STUDENTID",
+      "dir": "<-",
+      "target": "STUDENTID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "AMOUNT",
+      "dir": "<-",
+      "target": "AMOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "AMOUNT",
+      "dir": "->",
+      "target": "AMOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "SCHOOLID",
+      "dir": "->",
+      "target": "SCHOOLID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STUDENTID",
+      "dir": "->",
+      "target": "STUDENTID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "AMOUNT",
+      "dir": "->",
+      "target": "AMOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    }
+  ],
+  "SnowViewFullOuterjoin": [
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "SnowViewfromExternalTableView": [],
+  "SnowViewInnerjoin": [
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    }
+  ],
+  "SnowViewfromMultipleExternalTablesView": [],
+  "Snowviewtosingletable": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE",
+      "dir": "<-",
+      "target": "PHONE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE",
+      "dir": "->",
+      "target": "PHONE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    }
+  ],
+  "SnowViewfromMultipleExternalTables": [],
+  "SnowViewToMultipleTableWithJoinDiffSchema": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    }
+  ],
+  "SnowSingleViewtoView": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE",
+      "dir": "<-",
+      "target": "PHONE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE",
+      "dir": "<-",
+      "target": "PHONE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE",
+      "dir": "->",
+      "target": "PHONE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE",
+      "dir": "->",
+      "target": "PHONE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    }
+  ],
+  "SnowViewWithUnion": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "<-",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "<-",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "<-",
+      "target": "DEPTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "<-",
+      "target": "DEPTID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "->",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "->",
+      "target": "DEPTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "DEPTID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "FULL_NAME"
+    }
+  ],
+  "Snowviewtomultipletable": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PAYMENTDATE",
+      "dir": "<-",
+      "target": "PAYMENTDATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "AMOUNT",
+      "dir": "<-",
+      "target": "AMOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ORDERDATE",
+      "dir": "<-",
+      "target": "ORDERDATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PAYMENTDATE",
+      "dir": "->",
+      "target": "PAYMENTDATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "AMOUNT",
+      "dir": "->",
+      "target": "AMOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ORDERDATE",
+      "dir": "->",
+      "target": "ORDERDATE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    }
+  ],
+  "SnowViewToMultipleTableGroupbyHaving": [
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    }
+  ],
+  "SnowViewSubqueryUsingWhereExist": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    }
+  ],
+  "Snowcityview": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "POPULATION"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "<-",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "<-",
+      "target": "TOTALSTRENGTH"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "<-",
+      "target": "AREA"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATION",
+      "dir": "<-",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "AREA",
+      "dir": "<-",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "<-",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TOTALSTRENGTH",
+      "dir": "<-",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "<-",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "->",
+      "target": "POPULATION"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "->",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "->",
+      "target": "TOTALSTRENGTH"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "STRENGTH",
+      "dir": "->",
+      "target": "AREA"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYREGION"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITYREGION"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "COUNTRYLANGUAGE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYLANGUAGE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "COUNTRYLANGPERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATIONCOUNT",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "POPULATION",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYLANGPERCENTAGE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYCONTINENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITYCONTINENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYLIFEEXPECTANCY"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITYLIFEEXPECTANCY"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "STRENGTH"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "POPULATIONCOUNT"
+    }
+  ],
+  "SnowViewFullCrossjoin": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "SnowViewToMultipleTableWithJoin": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    }
+  ],
+  "Snowmultipletablespecificcolumns": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "OFFICECODE",
+      "dir": "<-",
+      "target": "OFFICECODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "OFFICECODE",
+      "dir": "->",
+      "target": "OFFICECODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    }
+  ],
+  "SnowViewNaturaljoin": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "SnowViewLeftOuterjoin": [
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "SnowViewRightOuterjoin": [
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "MULTIHOP",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "SnowViewWithUnionAll": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "<-",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "<-",
+      "target": "DEPTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "<-",
+      "target": "DEPTID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "<-",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "->",
+      "target": "DEPTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "DEPTID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "->",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    }
+  ],
+  "SnowViewFromComplexStatement": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "<-",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "<-",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "LASTNAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "CONTROL",
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "FIRSTNAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    }
+  ],
+  "Snowsingletablespecificcolumns": [
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PRODUCTSCALE",
+      "dir": "<-",
+      "target": "PRODUCTSCALE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PRODUCTCODE",
+      "dir": "<-",
+      "target": "PRODUCTCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PRODUCTNAME",
+      "dir": "<-",
+      "target": "PRODUCTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TEXTDESCRIPTION",
+      "dir": "<-",
+      "target": "TEXTDESCRIPTION"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PRODUCTSCALE",
+      "dir": "->",
+      "target": "PRODUCTSCALE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PRODUCTCODE",
+      "dir": "->",
+      "target": "PRODUCTCODE"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "PRODUCTNAME",
+      "dir": "->",
+      "target": "PRODUCTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "sourceAvailability": "YES",
+      "source": "TEXTDESCRIPTION",
+      "dir": "->",
+      "target": "TEXTDESCRIPTION"
+    }
+  ]
+}

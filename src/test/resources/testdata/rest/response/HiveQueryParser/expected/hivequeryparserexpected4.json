@@ -1,0 +1,1 @@
+{"cust_shop_list":[{"mode":"MULTIHOP","source":"brand_name","dir":"<-","target":"brand_name"},{"mode":"MULTIHOP","source":"customer_id","dir":"<-","target":"customer_id"},{"mode":"MULTIHOP","source":"product_id","dir":"<-","target":"product_id"},{"mode":"MULTIHOP","source":"product_name","dir":"<-","target":"product_name"}]}

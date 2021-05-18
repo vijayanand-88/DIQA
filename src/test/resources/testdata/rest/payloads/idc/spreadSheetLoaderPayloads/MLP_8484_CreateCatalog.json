@@ -1,0 +1,11 @@
+{
+  "ImportSpreadSheet": {
+    "label": {
+      "": "ImportSpreadSheet"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "ImportSpreadSheet"
+    }
+  }
+}

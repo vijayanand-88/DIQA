@@ -1,0 +1,53 @@
+{
+  "message": {
+    "": "Welcome to ASG Data Discovery. What would you like to do next?",
+    "en": "Welcome to ASG Data Discovery. What would you like to do next?"
+  },
+  "actions": [
+    {
+      "label": {
+        "": "Create a configuration and load new data",
+        "en": "Create a configuration and load new data"
+      },
+      "description": {
+        "": "Create a configuration to load new data:",
+        "en": "Create a configuration to load new data:"
+      },
+      "path": "/data-capture/config",
+      "navigateVia": "router"
+    },
+    {
+      "label": {
+        "": "Create new Business Application",
+        "en": "Create new Business Application"
+      },
+      "description": {
+        "": "If there is no business application yet, you can create a new one here or import new ones using Excel:",
+        "en": "If there is no business application yet, you can create a new one here or import new ones using Excel:"
+      },
+      "path": "create",
+      "navigateVia": "popup"
+    },
+    {
+      "label": {
+        "": "Import Business Application via Excel file",
+        "en": "Import Business Application via Excel file"
+      },
+      "description": null,
+      "path": "manage-excel-importer",
+      "navigateVia": "popup"
+    },
+    {
+      "label": {
+        "": "List of Business Applications",
+        "en": "List of Business Applications"
+      },
+      "description": {
+        "": "View a list of existing business applications:",
+        "en": "View a list of existing business applications:"
+      },
+      "path": "/search;searchQuery=;type_s=BusinessApplication",
+      "navigateVia": "router"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "S3BottomLevelInvalid",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN9610SC18"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "AmazonS3"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": [
+                "&xyz@"
+              ]
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "S3InvalidDates",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN9610SC19"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {
+              "fromDate": "2020-05-31T17:00",
+              "toDate": "2020-05-31T18:00"
+            },
+            "sourceTypes": [
+              "AmazonS3"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "S3TagName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN9610SC20"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter"
+            },
+            "tags": [
+              "TagCloudera"
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "AmazonS3"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+                "asgcnavigatorautomation"
+              ],
+              "includeNamePattern": [
+              ]
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "S3NodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN9610SC21"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter"
+            },
+            "tags": [
+
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "AmazonS3"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+                "asgcnavigatorautomation"
+              ],
+              "includeNamePattern": [
+              ]
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "S3TopLevelExcludeInvalid",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN9610SC22"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "AmazonS3"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [
+                "&xdf@"
+              ],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "S3BottomLevelExcludeInvalid",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN9610SC23"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "AmazonS3"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": [
+                "xyzabn7"
+              ]
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "S3BottomIncludeFull",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN9610SC24"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "AmazonS3"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": [
+                "qatest"
+              ]
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : true,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Cataloger",
+    "tags" : [ "Orc12cCDBCataloger" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "pluginVersion" : "LATEST",
+    "credential" : "Oracle12cCDBCredentials",
+    "pluginName" : "OracleDBCataloger",
+    "schemas" : [ ],
+    "name" : "OracleCataloger_DryRun",
+    "arguments" : [ ],
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "Oracle12cCDBDS",
+    "properties" : [ ],
+    "businessApplicationName" : null
+  } ]
+}

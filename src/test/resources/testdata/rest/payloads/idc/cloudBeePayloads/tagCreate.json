@@ -1,0 +1,16 @@
+{
+  "name" : "Data Analysis",
+  "subTags" : [ {
+    "name" : "Critical"
+  }, {
+    "name" : "Trustworthy"
+  }, {
+    "name" : "Source of Truth"
+  }, {
+    "name" : "Confidential"
+  }, {
+    "name" : "Private"
+  }, {
+    "name" : "Untrusted"
+  } ]
+}

@@ -1,0 +1,4 @@
+  {
+    "callbackURL": "http://idc_node:2001/plugins/",
+    "headers": {}
+  }

@@ -1,0 +1,11 @@
+{
+  "@class": "com.asg.dis.policies.facts.DIAnalysis",
+  "data": {},
+  "pluginName": "DynamoDBAnalyzer",
+  "technologies": [],
+  "dataType": "STRUCTURED",
+  "view": {
+    "label": "DynamoDBAnalyzer ",
+    "value": "DynamoDBAnalyzer "
+  }
+}

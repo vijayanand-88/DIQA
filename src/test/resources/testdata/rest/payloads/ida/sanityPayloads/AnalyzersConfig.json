@@ -1,0 +1,213 @@
+{
+  "csvS3Analyzer": {
+    "configurations": {
+      "bucketName": "asg-ida-dev1",
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "cleanupAfterRun": true,
+      "nodeCondition": "name==\"LocalNode\"",
+      "type": "Dataanalyzer",
+      "emrClusterId": "j-3FRVJGUFVHX3L",
+      "credential": "sanityCSVRWCredential",
+      "delimiter": ",",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [],
+        "objectFilter": {
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": [
+              "correctness.csv",
+              "1000 Sales Records.csv"
+            ]
+          },
+          "dirPrefixes": [],
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          }
+        }
+      },
+      "dataSampleSize": 25,
+      "firstRowAsHeader": false,
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "dataanalyzer",
+      "label": {
+        "": ""
+      },
+      "incremental": false,
+      "restrictRegion": "us-east-1",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginVersion": "LATEST",
+      "pluginName": "CsvS3Analyzer",
+      "name": "democsvS3Analyzer",
+      "dataSource": "CSVS3SanityDataSource",
+      "topValues": 10
+    }
+  },
+  "jsonS3Analyzer": {
+    "configurations": {
+      "bucketName": "asg-ida-dev1",
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "cleanupAfterRun": true,
+      "nodeCondition": "name==\"LocalNode\"",
+      "type": "Dataanalyzer",
+      "emrClusterId": "j-Q6ON4HY45D6H",
+      "credential": "sanityJSONRWCredential",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [],
+        "objectFilter": {
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": [
+              "clients.json",
+              "webApp.json",
+              "clientsformat2.json",
+              "youtubeAdjusted.json"
+            ]
+          },
+          "dirPrefixes": [],
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          }
+        }
+      },
+      "dataSampleSize": 25,
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "dataanalyzer",
+      "label": {
+        "": ""
+      },
+      "incremental": false,
+      "restrictRegion": "us-east-1",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginVersion": "LATEST",
+      "pluginName": "JsonS3Analyzer",
+      "name": "demojsonS3Analyzer",
+      "dataSource": "JSONS3SanityDataSource",
+      "topValues": 10
+    }
+  },
+  "avroS3Analyzer": {
+    "configurations": {
+      "bucketName": "asg-ida-dev1",
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "cleanupAfterRun": true,
+      "nodeCondition": "name==\"LocalNode\"",
+      "type": "Dataanalyzer",
+      "emrClusterRelease": "emr6.0.0",
+      "emrClusterId": "j-Q6ON4HY45D6H",
+      "credential": "sanityAVRORWCredential",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [],
+        "objectFilter": {
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": [
+              "employee.avro",
+              "request.avro",
+              "twitter.avro"
+            ]
+          },
+          "dirPrefixes": [],
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          }
+        }
+      },
+      "dataSampleSize": 25,
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "dataanalyzer",
+      "label": {
+        "": ""
+      },
+      "incremental": false,
+      "restrictRegion": "us-east-1",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginVersion": "LATEST",
+      "pluginName": "AvroS3Analyzer",
+      "name": "demoAvroS3Analyzer",
+      "dataSource": "AVROS3SanityDataSource",
+      "topValues": 10
+    }
+  },
+  "parquetS3Analyzer": {
+    "configurations": {
+      "bucketName": "asg-ida-dev1",
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "cleanupAfterRun": true,
+      "nodeCondition": "name==\"LocalNode\"",
+      "type": "Dataanalyzer",
+      "emrClusterId": "j-Q6ON4HY45D6H",
+      "credential": "sanityParquetRWCredential",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [],
+        "objectFilter": {
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": [
+              "userdata2.parquet",
+              "userInfo.parquet",
+              "source.parquet",
+              "userdata1.parquet",
+              "diffTypes.parquet",
+              "test.parquet",
+              "diffTypes.parquet"
+            ]
+          },
+          "dirPrefixes": [],
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          }
+        }
+      },
+      "dataSampleSize": 25,
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "dataanalyzer",
+      "label": {
+        "": ""
+      },
+      "incremental": false,
+      "restrictRegion": "us-east-1",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginVersion": "LATEST",
+      "pluginName": "ParquetS3Analyzer",
+      "name": "demoParquetS3Analyzer",
+      "dataSource": "PARQUETS3SanityDataSource",
+      "topValues": 10
+    }
+  }
+}

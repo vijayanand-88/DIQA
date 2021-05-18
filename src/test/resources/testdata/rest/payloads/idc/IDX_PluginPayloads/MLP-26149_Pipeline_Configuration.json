@@ -1,0 +1,29 @@
+{
+  "name": "Pipeline1",
+  "label": null,
+  "schedule": null,
+  "orchestration": {
+    "starts": [
+      {
+        "plugin": "AmazonRedshiftCataloger",
+        "configuration": "RedShiftCataloger"
+      }
+    ],
+    "graph": {
+      "AmazonRedshiftCataloger:RedShiftCataloger": [
+        {
+          "plugin": "AmazonRedshiftAnalyzer",
+          "configuration": "RedShiftAnalyzer"
+        }
+      ],
+      "AmazonRedshiftAnalyzer:RedShiftAnalyzer": [
+        {
+          "plugin": "GitCollector",
+          "configuration": "TestGitCollector"
+        }
+      ]
+    },
+    "positions": {}
+  },
+  "description": "This pipeline is running Amazon redshift plugin"
+}

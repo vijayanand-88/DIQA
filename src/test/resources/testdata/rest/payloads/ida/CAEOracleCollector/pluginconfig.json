@@ -1,0 +1,1012 @@
+{
+  "CAEOracleCreator": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleEntryPoint",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-16T11:20:11.577556",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-16T11:20:11.577564"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "tools",
+      "dataSource": "OracleEntryPointCreateDS",
+      "credential": "OracleEntryPointServer",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "Overwrite": true,
+      "dryRun": false,
+      "DBUserPassword": "OracleEntryPoint",
+      "pluginName": "CAECreateEntryPoint",
+      "DBUserName": "OracleEntryPoint",
+      "type": "Tools"
+    }
+  },
+  "CAEOracleCollector": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-16T11:24:02.218496",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-16T11:28:04.149601"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "CAEOracleCollectorDS",
+      "credential": "Oracle12CDataServer",
+      "businessApplicationName": "CAE_ORACLE_BA",
+      "schedule": null,
+      "filter": null,
+      "schema filter": [
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_SCHEMA1"
+        },
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_SCHEMA2"
+        },
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_LINEAGESCHEMA1"
+        }
+      ],
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "OracleCollector",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "Oracle.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "CAE",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORACONC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORACONR,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAIDX,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASEQ,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASPROC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASYN,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATBL,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATRIG,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAVIEW,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAPKGSRC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASPROCSRC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATRIGSRC,PROCESS=LOAD,BATCH=200"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "CAEOracleFeeder": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleFeed",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-16T11:28:40.926349",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-16T11:28:40.926356"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "CAEFeedETLLINDS",
+      "credential": "OracleEntryPoint",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "pluginName": "CAEFeed",
+      "ProjectRootFolder": "${cae.project.home}",
+      "type": "CAE"
+    }
+  },
+  "CAEOracleDDLoad": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleDDLoad",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-16T11:36:19.15194",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-16T11:36:19.15195"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "CAEFeedETLLINDS",
+      "credential": "OracleEntryPoint",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "Advanced": {
+        "multi-env": false,
+        "LoaderPath": "",
+        "technologies": [
+          "Java",
+          "Oracle",
+          "SqlServer"
+        ],
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": "",
+        "tfmSystemPolicyValue": "",
+        "technologyRestriction": false
+      },
+      "checkAll": false,
+      "clear": true,
+      "onDemandLineage": true,
+      "incremental": false,
+      "type": "Bulk",
+      "restrict": "",
+      "Contextuality": {
+        "inputSetName": "",
+        "inputSetPrivate": ""
+      },
+      "negative": false,
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "pluginName": "CAEDDLoader"
+    }
+  },
+  "DeleteEntryPoint": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DeleteOracleEntryPoint",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-16T11:57:51.334071",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-16T11:57:51.334078"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "tools",
+      "dataSource": "OracleEntryPointCreateDS",
+      "credential": "OracleEntryPointServer",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "pluginName": "CAEDeleteEntryPoint",
+      "DBUserName": "OracleEntryPoint",
+      "type": "Tools"
+    }
+  },
+  "InvalidSchema": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEOracleCollectorDS",
+      "credential": "Oracle12CDataServer",
+      "businessApplicationName": "CAE_ORACLE_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "schema filter": [
+        {
+          "mode": "INCLUDE",
+          "schema": "TESTXYZ"
+        }
+      ],
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "CAE_Collector_for_Oracle",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "Oracle.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "Collector",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORACONC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORACONR,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAIDX,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASEQ,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASPROC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASYN,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATBL,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATRIG,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAVIEW,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAPKGSRC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASPROCSRC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATRIGSRC,PROCESS=LOAD,BATCH=200"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "CAEOracleCollectorTypeFilter": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEOracleCollectorDS",
+      "credential": "Oracle12CDataServer",
+      "businessApplicationName": "CAE_ORACLE_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "schema filter": [
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_SCHEMA1"
+        },
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_SCHEMA2"
+        },
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_LINEAGESCHEMA1"
+        }
+      ],
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "CAE_Collector_for_Oracle",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "Oracle.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "Collector",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATBL,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATRIG,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAVIEW,PROCESS=LOAD,BATCH=200"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "CAEDDLoadClearFalse": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleDDLoad",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEFeedETLLINDS",
+      "credential": "OracleEntryPoint",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "Contextuality": {
+        "inputSetName": "",
+        "inputSetPrivate": ""
+      },
+      "negative": false,
+      "Advanced": {
+        "multi-env": false,
+        "LoaderPath": "",
+        "technologies": [
+          "Oracle"
+        ],
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": "",
+        "tfmSystemPolicyValue": "",
+        "technologyRestriction": true
+      },
+      "checkAll": false,
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "pluginName": "CAEDDLoader",
+      "clear": false,
+      "onDemandLineage": true,
+      "incremental": false,
+      "type": "Collector",
+      "restrict": ""
+    }
+  },
+  "CAEDDLoadClearTrue": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleDDLoad",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEFeedETLLINDS",
+      "credential": "OracleEntryPoint",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "Contextuality": {
+        "inputSetName": "",
+        "inputSetPrivate": ""
+      },
+      "negative": false,
+      "Advanced": {
+        "multi-env": false,
+        "LoaderPath": "",
+        "technologies": [
+          "MySql"
+        ],
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": "",
+        "tfmSystemPolicyValue": "",
+        "technologyRestriction": true
+      },
+      "checkAll": false,
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "pluginName": "CAEDDLoader",
+      "clear": true,
+      "onDemandLineage": true,
+      "incremental": false,
+      "type": "Collector",
+      "restrict": ""
+    }
+  },
+  "CAEOracleCollectorExclude": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEOracleCollectorDS",
+      "credential": "Oracle12CDataServer",
+      "businessApplicationName": "CAE_ORACLE_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "schema filter": [
+        {
+          "mode": "EXCLUDE",
+          "schema": "ORACLE12C_LINEAGESCHEMA1"
+        }
+      ],
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "CAE_Collector_for_Oracle",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "Oracle.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "Collector",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORACONC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORACONR,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAIDX,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASEQ,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASPROC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASYN,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATBL,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATRIG,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAVIEW,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAPKGSRC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORASPROCSRC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATRIGSRC,PROCESS=LOAD,BATCH=200"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "CAEOracleLineage": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleLineage",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "other",
+      "dataSource": "CAEFeedETLLINDS",
+      "credential": "OracleEntryPoint",
+      "businessApplicationName": "CAE_ORACLE_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "CAELineage",
+      "type": "Other"
+    }
+  },
+  "CAEOracleCollectorIncremental_ProcessLoad": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEOracleCollectorDS",
+      "credential": "Oracle12CDataServer",
+      "businessApplicationName": "CAE_ORACLE_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "schema filter": [
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_LINEAGESCHEMA1"
+        }
+      ],
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "CAE_Collector_for_Oracle",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "Oracle.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "Collector",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATBL,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAVIEW,PROCESS=LOAD,BATCH=200"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "CAEOracleCollectorIncremental_ProcessAuto": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEOracleCollectorDS",
+      "credential": "Oracle12CDataServer",
+      "businessApplicationName": "CAE_ORACLE_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "schema filter": [
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_LINEAGESCHEMA1"
+        }
+      ],
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "CAE_Collector_for_Oracle",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "Oracle.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "Collector",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATBL,PROCESS=AUTO,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAVIEW,PROCESS=AUTO,BATCH=200"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "CAEOracleDDLoadIncremental": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleDDLoad",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEFeedETLLINDS",
+      "credential": "OracleEntryPoint",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "Contextuality": {
+        "inputSetName": "",
+        "inputSetPrivate": ""
+      },
+      "negative": false,
+      "Advanced": {
+        "multi-env": false,
+        "LoaderPath": "",
+        "technologies": [
+          "Oracle"
+        ],
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": "",
+        "tfmSystemPolicyValue": "",
+        "technologyRestriction": true
+      },
+      "checkAll": false,
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "pluginName": "CAEDDLoader",
+      "clear": false,
+      "onDemandLineage": true,
+      "incremental": true,
+      "type": "Collector",
+      "restrict": ""
+    }
+  },
+  "CAEOracleDDLoadNegative": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleDDLoad",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEFeedETLLINDS",
+      "credential": "OracleEntryPoint",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "Contextuality": {
+        "inputSetName": "",
+        "inputSetPrivate": ""
+      },
+      "negative": true,
+      "Advanced": {
+        "multi-env": false,
+        "LoaderPath": "",
+        "technologies": [
+          "Oracle"
+        ],
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": "",
+        "tfmSystemPolicyValue": "",
+        "technologyRestriction": true
+      },
+      "checkAll": false,
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "pluginName": "CAEDDLoader",
+      "clear": false,
+      "onDemandLineage": true,
+      "incremental": true,
+      "type": "Collector",
+      "restrict": ""
+    }
+  },
+  "CAEOracleCollectorIncremental_ProcessDelete": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CAEOracleCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "CAEOracleCollectorDS",
+      "credential": "Oracle12CDataServer",
+      "businessApplicationName": "CAE_ORACLE_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "schema filter": [
+        {
+          "mode": "INCLUDE",
+          "schema": "ORACLE12C_LINEAGESCHEMA1"
+        }
+      ],
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "CAE_Collector_for_Oracle",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "Oracle.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "Collector",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORATBL,PROCESS=DELETE,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "ORA,TYPE=ORAVIEW,PROCESS=DELETE,BATCH=200"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

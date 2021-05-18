@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonGlueCatalog1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+	  "catalogName":"Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["SC1TagGlueCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "AWSGlueValidDataSource",
+      "credential": "ValidGlueCredentials",
+	  "businessApplicationName": null,
+      "filter": null,
+      "dryRun": false,
+	  "includeItems": {
+        "includeDatabases": [],
+        "includeJobs": ["PythonTestJob1","ScalaTestJob1"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "tableName": "cricketparquet2",
+  "description": "Table Description",
+  "database": "linkersourcedb",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "username1",
+        "type": "string",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqatestautomation4/SourceFiles/s3FileSupportWithGlueTable/GlueSource/ParquetFile/",
+  "inputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "username1",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "age",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "phone",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "housenum",
+          "type": "string",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+    "parameters": {
+      "serialization.format": "1"
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {
+    "sizeKey": "1127",
+    "objectCount": "1",
+    "UPDATED_BY_CRAWLER": "cricket2",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "1",
+    "averageRecordSize": "272",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "parquet",
+    "typeOfData": "file"
+  },
+  "SkewedInfo": {},
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "sizeKey": "1127",
+    "objectCount": "1",
+    "UPDATED_BY_CRAWLER": "cricket2",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "1",
+    "averageRecordSize": "272",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "parquet",
+    "typeOfData": "file"
+  }
+}

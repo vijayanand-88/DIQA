@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HdfsMonitor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "monitor",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "HDFS_MONITOR_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "catalogerConfigurationName": "SC1_CreateDir",
+      "pluginName": "HdfsMonitor",
+      "type": "monitor"
+    }
+  ]
+}

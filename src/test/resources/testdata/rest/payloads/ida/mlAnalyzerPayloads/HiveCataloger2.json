@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+      "name": "HiveCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "HiveCataloger"
+      },
+      "catalogName": "MLANALYZER CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "enableQueryParser": true,
+      "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+      "kerberosKrb5location": "/etc/krb5.conf",
+      "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+      "analyzeCollectedData": true,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+            "label": {
+              "": "LandingArea"
+            },
+            "tags": [],
+            "dbRegexList": [
+              "testmladatabase"
+            ]
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "resolveNameWrapper": {
+        "resolvingPluginName": "CNavigatorCataloger",
+        "resolvingPluginConfiguration": "CNavigatorCataloger"
+      },
+      "resolveClusterName": false
+    }
+  ]
+}

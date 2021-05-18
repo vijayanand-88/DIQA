@@ -1,0 +1,28 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 15,
+      "value" : "Measure"
+    }, {
+      "count" : 14,
+      "value" : "Analysis"
+    }, {
+      "count" : 5,
+      "value" : "OlapSchema"
+    }, {
+      "count" : 4,
+      "value" : "OlapPackage"
+    }, {
+      "count" : 2,
+      "value" : "Dimension"
+    }, {
+      "count" : 1,
+      "value" : "ReportPackage"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

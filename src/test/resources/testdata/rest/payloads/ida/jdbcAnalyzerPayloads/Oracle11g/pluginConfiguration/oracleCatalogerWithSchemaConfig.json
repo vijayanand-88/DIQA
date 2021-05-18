@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": ["Orc11Cataloger"],
+      "filter": null,
+      "password": "collector1",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "COLLECTOR",
+          "tables": []
+        }
+      ],
+      "arguments": [],
+      "user": "collector",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:col2"
+    }
+  ]
+}

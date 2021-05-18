@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CSVS3_Analysis",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "S3CSVTC1",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonCSVS3DataSource",
+      "credential": "AWS_Credentials",
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "delimiter": ",",
+      "incremental": false,
+      "bucketFilter": {
+        "patterns": [
+          "asgqatestautomation2"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [],
+          "dirFilter": {
+            "patterns": [    ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [
+
+            ],
+            "mode": "INCLUDE"
+          }
+        }
+      },
+      "firstRowAsHeader": false
+    }
+  ]
+}

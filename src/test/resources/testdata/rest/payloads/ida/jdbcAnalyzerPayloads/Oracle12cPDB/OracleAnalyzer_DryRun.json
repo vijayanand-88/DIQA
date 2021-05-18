@@ -1,0 +1,30 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "dataanalyzer",
+    "dryRun" : true,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Dataanalyzer",
+    "tags" : [ "Orc12cPDBAnalyzer" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "histogramBuckets" : 10,
+    "pluginVersion" : "LATEST",
+    "database" : "ORACLE12C",
+    "credential" : null,
+    "pluginName" : "OracleDBAnalyzer",
+    "queryBatchSize" : 100,
+    "sampleDataCount" : 25,
+    "schemas" : [ ],
+    "name" : "OracleAnalyzer_DryRun",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : null,
+    "topValues" : 10,
+    "businessApplicationName" : "Oracle12C_PDB_BA"
+  } ]
+}

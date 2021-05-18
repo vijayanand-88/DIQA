@@ -1,0 +1,6 @@
+{
+  "name": "Cluster DataSets",
+  "description": "cluster data items",
+  "status": "PUBLIC",
+  "dataElements":["BigData.Cluster:::1","BigData.Cluster:::2"]
+}

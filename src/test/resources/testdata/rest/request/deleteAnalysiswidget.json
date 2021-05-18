@@ -1,0 +1,11 @@
+{
+  "header": {
+    "contentType": "application/json",
+    "acceptFormat": "application/json"
+  },
+  "queryparam":{},
+  "path": "settings/catalogs/Analysis",
+  "method": "DELETE",
+  "payload":"",
+  "responseCode": "204"
+}

@@ -1,0 +1,130 @@
+{
+  "QATest1": {
+    "source": [
+      "input"
+    ],
+    "target": [
+      "output13"
+    ]
+  },
+  "QATest2": {
+    "source": [
+      "sqoop_to_hdfs"
+    ],
+    "target": [
+      "sqoop_to_hdfs_pig_filtered"
+    ]
+  },
+  "QATest3": {
+    "source": [
+      "salary"
+    ],
+    "target": [
+      "dispatching_base_number"
+    ]
+  },
+  "QATest4": {
+    "source": [
+      "id"
+    ],
+    "target": [
+      "trips"
+    ]
+  },
+  "QATest5": {
+    "source": [
+      "id"
+    ],
+    "target": [
+      "trips"
+    ]
+  },
+  "QATest6": {
+    "source": [
+      "input"
+    ],
+    "target": [
+      "output10"
+    ]
+  },
+  "QATest7": {
+    "source": [
+      "input"
+    ],
+    "target": [
+      "output"
+    ]
+  },
+  "QATest8": {
+    "source": [
+      "came_from"
+    ],
+    "target": [
+      "came_from"
+    ]
+  },
+  "QATest9": {
+    "source": [
+      "link"
+    ],
+    "target": [
+      "link"
+    ]
+  },
+  "QATest10": {
+    "source": [
+      "userid"
+    ],
+    "target": [
+      "userid"
+    ]
+  },
+  "QATest11": {
+    "source": [
+      "address"
+    ],
+    "target": [
+      "address"
+    ]
+  },
+  "QATest12": {
+    "source": [
+      "age"
+    ],
+    "target": [
+      "age"
+    ]
+  },
+  "QATest13": {
+    "source": [
+      "name"
+    ],
+    "target": [
+      "name"
+    ]
+  },
+  "QATest14": {
+    "source": [
+      "id"
+    ],
+    "target": [
+      "x"
+    ]
+  },
+  "QATest15": {
+    "source": [
+      "name"
+    ],
+    "target": [
+      "y"
+    ]
+  },
+  "QATest16": {
+    "source": [
+      "empno"
+    ],
+    "target": [
+      "empno"
+    ]
+  }
+}

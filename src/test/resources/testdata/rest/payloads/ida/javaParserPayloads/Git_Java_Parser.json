@@ -1,0 +1,50 @@
+{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollectorJ1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "GitCollectorJ1"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaParser"],
+      "pluginType": "collector",
+      "dataSource": "GitCollectorDataSourceJ1",
+      "credential": "ValidGitCredentialsJ1",
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "300",
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "Filter1"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+                "**/javaParser/**"
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "businessApplicationName": "test_BA_JavaParser",
+      "dryRun": false
+}
+

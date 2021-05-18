@@ -1,0 +1,56 @@
+{
+  "roleMappings": [
+    {
+      "role": "SYSTEM_ADMIN",
+      "userGroup": "Development Dept"
+    },
+    {
+      "role": "SYSTEM_ADMIN",
+      "userGroup": "DEV_SOFTSERV"
+    },
+    {
+      "role": "CATALOG_ADMIN",
+      "userGroup": "Catalog Admins"
+    },
+    {
+      "role": "DATA_OWNER",
+      "userGroup": "Data Owners"
+    },
+    {
+      "role": "DATA_STEWARD",
+      "userGroup": "Data Stewards"
+    },
+    {
+      "role": "NO_ACCESS",
+      "userGroup": "NoAccess"
+    },
+    {
+      "role": "DATA_CUSTODIAN",
+      "userGroup": "Data Custodians"
+    },
+    {
+      "role": "SYSTEM_ADMIN",
+      "userGroup": "Development Department"
+    },
+    {
+      "role": "DATA_CONSUMER",
+      "userGroup": "Data Consumers"
+    },
+    {
+      "role": "GUEST_USER",
+      "userGroup": "Guest Users"
+    },
+    {
+      "role": "SYSTEM_ADMIN",
+      "userGroup": "System"
+    },
+    {
+      "role": "SYSTEM_ADMIN",
+      "userGroup": "Service"
+    },
+    {
+      "role": "NewUserRole",
+      "user": "becubic_build"
+    }
+  ]
+}

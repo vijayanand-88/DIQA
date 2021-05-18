@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DynamoDBInvalidDS",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "IncorrectDYDBCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "DynamoDBDataSource",
+      "domain": "amazonaws.com",
+      "region": "NorthernVirginia/us-east-1"
+    }
+  ]
+}

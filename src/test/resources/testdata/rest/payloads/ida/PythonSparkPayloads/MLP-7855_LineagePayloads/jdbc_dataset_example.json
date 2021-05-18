@@ -1,0 +1,26 @@
+{
+  "address": {
+    "source": ["address"],
+    "target": ["address"]
+  },
+  "empid": {
+    "source": ["empid"],
+    "target": ["empid"]
+  },
+  "address1": {
+    "source": ["address"],
+    "target": ["address"]
+  },
+  "empid1": {
+    "source": ["empid"],
+    "target": ["empid"]
+  },
+  "ename": {
+    "source": ["ename"],
+    "target": ["ename"]
+  },
+  "ename1": {
+    "source": ["ename"],
+    "target": ["ename"]
+  }
+}

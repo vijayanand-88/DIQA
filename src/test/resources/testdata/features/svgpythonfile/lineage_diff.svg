@@ -1,0 +1,127 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg _ngcontent-c35="" class="asg-diagram" style="background-position: 719px 449px;" viewBox="369.2358093261719 391.5 701.5283203125 117" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><style type="text/css">
+<![CDATA[
+
+.asg-diagram { font-family: Lato,Arial,sans-serif; font-size: 14px; }
+svg { overflow: hidden; vertical-align: middle; }
+
+.asg-diagram .typeicon { fill: rgb(153, 153, 153); }
+
+.asg-diagram .node { cursor: grab; }
+
+.asg-diagram .drillicon { cursor: pointer; fill: rgb(146, 170, 157); }
+
+.asg-diagram .edgeicon { cursor: pointer; }
+
+.asg-diagram .nodebox .iboxicon, 
+.asg-diagram .nodebox .infoicon, 
+.asg-diagram .nodebox .itemicon, 
+.asg-diagram .nodeparent .infoicon, 
+.asg-diagram .nodeparent .itemicon { visibility: hidden; cursor: pointer; }
+.asg-diagram-type-File .noderect { fill: rgb(255, 246, 234); }
+
+]]></style></defs><g transform="translate(719,449) scale(1)">
+ <g class="edges">
+  <g class="edge" style="display: inline; stroke: rgb(170, 170, 170); fill: rgb(170, 170, 170); stroke-width: 1;"><path d="M-69.48965939608485,26h17q10,0 10,-3V23q0,-3 10,-3H3.510340603915097q10,0 10,-3V16q0,-3 10,-3H40.5103406039151" style="fill: none;"></path><polygon points="49.5103406039151,13 40.5103406039151,18 40.5103406039151,8"></polygon><g class="edgeicon" style="stroke:none;" transform="translate(-21.489659396084875,13)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+    <rect fill="#6CE08F" x="2.1" y="2.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.8995 7)" width="9.8" height="9.8"></rect>
+</svg>
+  </g>
+  </g>
+  </g>
+ <g class="nodes">
+  <g class="node" transform="translate(-538.6629838076504,0)" style="display: none;">
+  </g>
+  <g class="node" transform="translate(-340.76418581875885,-48.5)" style="display: inline;">
+    <rect width="271.274526422674" height="97" style="rx: 4; ry: 4; stroke: rgb(170, 170, 170); stroke-width: 1; fill: rgb(255, 255, 255);"></rect><g class="nodeparent"><title>Python Spark Cluster [Cluster] </title>
+    <rect class="noderect" x="10" y="10" height="25" width="251.274526422674" style="fill: rgb(255, 255, 255); rx: 3; ry: 3; stroke: rgb(240, 90, 150); stroke-width: 0;"></rect>
+    <text class="nodetext" x="40" y="27" style="fill: rgb(51, 51, 51); font-weight: normal;">Python Spark Cluster<tspan class="nodetspan" style="fill: rgb(136, 136, 136);"> [Cluster]</tspan></text><g class="typeicon" transform="translate(16 14)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="ic-cluster"><path d="M5.6,1.4L7,2.8h5.6c0.4,0,0.7,0.1,1,0.4c0.3,0.3,0.4,0.6,0.4,1v7c0,0.4-0.1,0.7-0.4,1c-0.3,0.3-0.6,0.4-1,0.4H1.4c-0.4,0-0.7-0.1-1-0.4c-0.3-0.3-0.4-0.6-0.4-1V2.8c0-0.4,0.1-0.7,0.4-1c0.3-0.3,0.6-0.4,1-0.4H5.6z"></path>
+  </g></svg>
+  </g><g class="infoicon" transform="translate(225.274526422674,14)">
+    <rect width="16" height="16" fill="white"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M2.05,2.05A6.74,6.74,0,0,1,7,0,6.74,6.74,0,0,1,12,2.05,6.71,6.71,0,0,1,14,7,6.72,6.72,0,0,1,12,11.92,6.78,6.78,0,0,1,7,14a6.78,6.78,0,0,1-4.95-2.05A6.72,6.72,0,0,1,0,7,6.71,6.71,0,0,1,2.05,2.05Zm1,8.9a5.39,5.39,0,0,0,4,1.64A5.39,5.39,0,0,0,11,11a5.4,5.4,0,0,0,1.64-4A5.4,5.4,0,0,0,11,3,5.35,5.35,0,0,0,7,1.38,5.35,5.35,0,0,0,3.05,3,5.4,5.4,0,0,0,1.41,7,5.4,5.4,0,0,0,3.05,11ZM6.3,4.89V3.48H7.7V4.89Zm0,5.6V6.3H7.7v4.19Z"></path>
+  </g>
+  </g></svg>
+  </g><g class="itemicon" transform="translate(241.274526422674,14)">
+    <rect width="16" height="16" fill="white"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="8.5" cy="1.5" r="1.5"></circle><circle cx="8.5" cy="7" r="1.5"></circle><circle cx="8.5" cy="12.5" r="1.5"></circle>
+  </g>
+  </g></svg>
+  </g>
+  </g><g class="nodeparent"><title>Python Spark Cluster [Cluster]  =&gt; Spark Lineage Service [Service] </title>
+    <rect class="noderect" x="10" y="36" height="25" width="251.274526422674" style="fill: rgb(255, 255, 255); rx: 3; ry: 3; stroke: rgb(246, 156, 192); stroke-width: 0;"></rect>
+    <text class="nodetext" x="62" y="53" style="fill: rgb(51, 51, 51); font-weight: normal;">Spark Lineage Service<tspan class="nodetspan" style="fill: rgb(136, 136, 136);"> [Service]</tspan></text><g class="drillicon" transform="translate(16 40)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><path d="M12.43,0a1.48,1.48,0,0,1,1.11.46A1.48,1.48,0,0,1,14,1.57V12.43A1.57,1.57,0,0,1,12.43,14H1.57a1.48,1.48,0,0,1-1.11-.46A1.48,1.48,0,0,1,0,12.43V1.57A1.48,1.48,0,0,1,.46.46,1.48,1.48,0,0,1,1.57,0ZM10.9,7.77V6.23H3.1V7.77Z"></path></svg>
+  </g><g class="typeicon" transform="translate(38 40)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="ic-cluster-service"><path d="M5.6,1.4L7,2.8h5.6c0.4,0,0.7,0.1,1,0.4c0.3,0.3,0.4,0.6,0.4,1v7c0,0.4-0.1,0.7-0.4,1c-0.3,0.3-0.6,0.4-1,0.4H1.4c-0.4,0-0.7-0.1-1-0.4c-0.3-0.3-0.4-0.6-0.4-1V2.8c0-0.4,0.1-0.7,0.4-1c0.3-0.3,0.6-0.4,1-0.4H5.6z"></path><path fill="white" d="M10.3,8.7C10.4,8.7,10.4,8.8,10.3,8.7c0.1,0.1,0.1,0.2,0.1,0.2c-0.2,0.5-0.4,1-0.8,1.4c0,0-0.1,0-0.1,0.1c0,0-0.1,0-0.1,0L8.8,9.9c-0.3,0.2-0.6,0.4-0.9,0.5v0.7c0,0,0,0.1,0,0.1s-0.1,0.1-0.1,0.1c-0.5,0.1-1.1,0.1-1.6,0c0,0-0.1,0-0.1-0.1s0-0.1,0-0.1v-0.7c-0.3-0.1-0.6-0.3-0.9-0.5l-0.6,0.4c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1-0.1C4,9.9,3.7,9.4,3.6,8.9c0,0,0-0.1,0-0.1c0,0,0-0.1,0.1-0.1l0.6-0.4c-0.1-0.3-0.1-0.7,0-1L3.7,7c0,0-0.1,0-0.1-0.1c0,0,0-0.1,0-0.1c0.2-0.5,0.4-1,0.8-1.4c0,0,0.1,0,0.1-0.1s0.1,0,0.1,0l0.6,0.4c0.3-0.2,0.6-0.4,0.9-0.5V4.5c0,0,0-0.1,0-0.1s0.1-0.1,0.1-0.1c0.5-0.1,1.1-0.1,1.6,0c0,0,0.1,0,0.1,0.1s0,0.1,0,0.1v0.7c0.3,0.1,0.6,0.3,0.9,0.5l0.6-0.4c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0.1c0.4,0.4,0.6,0.8,0.8,1.4c0,0,0,0.1,0,0.1s0,0.1-0.1,0.1L9.7,7.3c0.1,0.3,0.1,0.7,0,1L10.3,8.7z M7.8,7C7.6,6.8,7.3,6.7,7,6.7S6.4,6.8,6.2,7S5.8,7.5,5.8,7.8S6,8.4,6.2,8.7S6.7,9,7,9s0.6-0.1,0.8-0.3s0.3-0.5,0.3-0.8S8,7.3,7.8,7z"></path>
+  </g></svg>
+  </g><g class="infoicon" transform="translate(225.274526422674,40)">
+    <rect width="16" height="16" fill="white"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M2.05,2.05A6.74,6.74,0,0,1,7,0,6.74,6.74,0,0,1,12,2.05,6.71,6.71,0,0,1,14,7,6.72,6.72,0,0,1,12,11.92,6.78,6.78,0,0,1,7,14a6.78,6.78,0,0,1-4.95-2.05A6.72,6.72,0,0,1,0,7,6.71,6.71,0,0,1,2.05,2.05Zm1,8.9a5.39,5.39,0,0,0,4,1.64A5.39,5.39,0,0,0,11,11a5.4,5.4,0,0,0,1.64-4A5.4,5.4,0,0,0,11,3,5.35,5.35,0,0,0,7,1.38,5.35,5.35,0,0,0,3.05,3,5.4,5.4,0,0,0,1.41,7,5.4,5.4,0,0,0,3.05,11ZM6.3,4.89V3.48H7.7V4.89Zm0,5.6V6.3H7.7v4.19Z"></path>
+  </g>
+  </g></svg>
+  </g><g class="itemicon" transform="translate(241.274526422674,40)">
+    <rect width="16" height="16" fill="white"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="8.5" cy="1.5" r="1.5"></circle><circle cx="8.5" cy="7" r="1.5"></circle><circle cx="8.5" cy="12.5" r="1.5"></circle>
+  </g>
+  </g></svg>
+  </g>
+  </g><g class="asg-diagram-type-File nodebox"><title>Python Spark Cluster [Cluster]  =&gt; Spark Lineage Service [Service]  =&gt; users.parquet [File] </title>
+    <rect class="noderect" x="10" y="62" height="25" width="251.274526422674" style="rx: 3; ry: 3; stroke: rgb(228, 196, 149);"></rect>
+    <text class="nodetext" x="40" y="79" style="fill: rgb(51, 51, 51); font-weight: normal;">users.parquet<tspan class="nodetspan" style="fill: rgb(136, 136, 136);"> [File]</tspan></text><g class="typeicon" transform="translate(16 66)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="ic-file"><path d="M11,14H3c-0.8,0-1.5-0.7-1.5-1.5v-11C1.5,0.7,2.2,0,3,0h5.5l4,4v8.5C12.5,13.3,11.8,14,11,14z M3,1C2.7,1,2.5,1.2,2.5,1.5v11C2.5,12.8,2.7,13,3,13h8c0.3,0,0.5-0.2,0.5-0.5V4.4L8.1,1H3z"></path><path d="M9.1,8H4.9C4.6,8,4.4,7.8,4.4,7.5S4.6,7,4.9,7h4.2c0.3,0,0.5,0.2,0.5,0.5S9.4,8,9.1,8z"></path><path d="M9.1,10.5H4.9c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h4.2c0.3,0,0.5,0.2,0.5,0.5S9.4,10.5,9.1,10.5z"></path><path d="M12,5H9.9C8.7,5,7.7,4,7.7,2.8V0.5h1v2.3C8.7,3.4,9.2,4,9.9,4H12V5z"></path>
+  </g></svg>
+  </g><g class="infoicon" transform="translate(225.274526422674,66)">
+    <rect width="16" height="16" fill="#fff1de"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M2.05,2.05A6.74,6.74,0,0,1,7,0,6.74,6.74,0,0,1,12,2.05,6.71,6.71,0,0,1,14,7,6.72,6.72,0,0,1,12,11.92,6.78,6.78,0,0,1,7,14a6.78,6.78,0,0,1-4.95-2.05A6.72,6.72,0,0,1,0,7,6.71,6.71,0,0,1,2.05,2.05Zm1,8.9a5.39,5.39,0,0,0,4,1.64A5.39,5.39,0,0,0,11,11a5.4,5.4,0,0,0,1.64-4A5.4,5.4,0,0,0,11,3,5.35,5.35,0,0,0,7,1.38,5.35,5.35,0,0,0,3.05,3,5.4,5.4,0,0,0,1.41,7,5.4,5.4,0,0,0,3.05,11ZM6.3,4.89V3.48H7.7V4.89Zm0,5.6V6.3H7.7v4.19Z"></path>
+  </g>
+  </g></svg>
+  </g><g class="itemicon" transform="translate(241.274526422674,66)">
+    <rect width="16" height="16" fill="#fff1de"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="8.5" cy="1.5" r="1.5"></circle><circle cx="8.5" cy="7" r="1.5"></circle><circle cx="8.5" cy="12.5" r="1.5"></circle>
+  </g>
+  </g></svg>
+  </g>
+  </g>
+    <rect x="7" y="59" height="31" width="257.274526422674" style="fill: none; rx: 5; ry: 5; stroke: rgb(255, 255, 0); stroke-width: 5; stroke-opacity: 0.3;"></rect>
+  </g>
+  <g class="node" transform="translate(50.5103406039151,-35.5)" style="display: inline;">
+    <rect width="290.25384521484375" height="71" style="rx: 4; ry: 4; stroke: rgb(170, 170, 170); stroke-width: 1; fill: rgb(255, 255, 255);"></rect><g class="nodeparent"><title>GitCollector1936282865143306288 [Project] </title>
+    <rect class="noderect" x="10" y="10" height="25" width="270.25384521484375" style="fill: rgb(255, 255, 255); rx: 3; ry: 3; stroke: rgb(138, 58, 213); stroke-width: 0;"></rect>
+    <text class="nodetext" x="62" y="27" style="fill: rgb(51, 51, 51); font-weight: normal;">GitCollector19362828...<tspan class="nodetspan" style="fill: rgb(136, 136, 136);"> [Project]</tspan></text><g class="drillicon" transform="translate(16 14)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><path d="M12.43,0a1.48,1.48,0,0,1,1.11.46A1.48,1.48,0,0,1,14,1.57V12.43A1.57,1.57,0,0,1,12.43,14H1.57a1.48,1.48,0,0,1-1.11-.46A1.48,1.48,0,0,1,0,12.43V1.57A1.48,1.48,0,0,1,.46.46,1.48,1.48,0,0,1,1.57,0ZM10.9,7.77V6.23H3.1V7.77Z"></path></svg>
+  </g><g class="typeicon" transform="translate(38 14)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="ic-project"><path d="M14,14H0V0h14V14z M1,13h12V1H1V13z"></path><path d="M11.9,6.5h-10V2.8h10V6.5z M2.9,5.5h8V3.8h-8V5.5z"></path>
+  </g></svg>
+  </g><g class="infoicon" transform="translate(244.25384521484375,14)">
+    <rect width="16" height="16" fill="white"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M2.05,2.05A6.74,6.74,0,0,1,7,0,6.74,6.74,0,0,1,12,2.05,6.71,6.71,0,0,1,14,7,6.72,6.72,0,0,1,12,11.92,6.78,6.78,0,0,1,7,14a6.78,6.78,0,0,1-4.95-2.05A6.72,6.72,0,0,1,0,7,6.71,6.71,0,0,1,2.05,2.05Zm1,8.9a5.39,5.39,0,0,0,4,1.64A5.39,5.39,0,0,0,11,11a5.4,5.4,0,0,0,1.64-4A5.4,5.4,0,0,0,11,3,5.35,5.35,0,0,0,7,1.38,5.35,5.35,0,0,0,3.05,3,5.4,5.4,0,0,0,1.41,7,5.4,5.4,0,0,0,3.05,11ZM6.3,4.89V3.48H7.7V4.89Zm0,5.6V6.3H7.7v4.19Z"></path>
+  </g>
+  </g></svg>
+  </g><g class="itemicon" transform="translate(260.25384521484375,14)">
+    <rect width="16" height="16" fill="white"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="8.5" cy="1.5" r="1.5"></circle><circle cx="8.5" cy="7" r="1.5"></circle><circle cx="8.5" cy="12.5" r="1.5"></circle>
+  </g>
+  </g></svg>
+  </g>
+  </g><g class="asg-diagram-type-File nodebox"><title>GitCollector1936282865143306288 [Project]  =&gt; namesAndFavColors.parquet [File] </title>
+    <rect class="noderect" x="10" y="36" height="25" width="270.25384521484375" style="rx: 3; ry: 3; stroke: rgb(228, 196, 149);"></rect>
+    <text class="nodetext" x="40" y="53" style="fill: rgb(51, 51, 51); font-weight: normal;">namesAndFavColors.parquet<tspan class="nodetspan" style="fill: rgb(136, 136, 136);"> [File]</tspan></text><g class="typeicon" transform="translate(16 40)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="ic-file"><path d="M11,14H3c-0.8,0-1.5-0.7-1.5-1.5v-11C1.5,0.7,2.2,0,3,0h5.5l4,4v8.5C12.5,13.3,11.8,14,11,14z M3,1C2.7,1,2.5,1.2,2.5,1.5v11C2.5,12.8,2.7,13,3,13h8c0.3,0,0.5-0.2,0.5-0.5V4.4L8.1,1H3z"></path><path d="M9.1,8H4.9C4.6,8,4.4,7.8,4.4,7.5S4.6,7,4.9,7h4.2c0.3,0,0.5,0.2,0.5,0.5S9.4,8,9.1,8z"></path><path d="M9.1,10.5H4.9c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h4.2c0.3,0,0.5,0.2,0.5,0.5S9.4,10.5,9.1,10.5z"></path><path d="M12,5H9.9C8.7,5,7.7,4,7.7,2.8V0.5h1v2.3C8.7,3.4,9.2,4,9.9,4H12V5z"></path>
+  </g></svg>
+  </g><g class="infoicon" transform="translate(244.25384521484375,40)">
+    <rect width="16" height="16" fill="#fff1de"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M2.05,2.05A6.74,6.74,0,0,1,7,0,6.74,6.74,0,0,1,12,2.05,6.71,6.71,0,0,1,14,7,6.72,6.72,0,0,1,12,11.92,6.78,6.78,0,0,1,7,14a6.78,6.78,0,0,1-4.95-2.05A6.72,6.72,0,0,1,0,7,6.71,6.71,0,0,1,2.05,2.05Zm1,8.9a5.39,5.39,0,0,0,4,1.64A5.39,5.39,0,0,0,11,11a5.4,5.4,0,0,0,1.64-4A5.4,5.4,0,0,0,11,3,5.35,5.35,0,0,0,7,1.38,5.35,5.35,0,0,0,3.05,3,5.4,5.4,0,0,0,1.41,7,5.4,5.4,0,0,0,3.05,11ZM6.3,4.89V3.48H7.7V4.89Zm0,5.6V6.3H7.7v4.19Z"></path>
+  </g>
+  </g></svg>
+  </g><g class="itemicon" transform="translate(260.25384521484375,40)">
+    <rect width="16" height="16" fill="#fff1de"></rect><svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 15 15" width="16" height="16">
+    <rect x="0" y="0" width="14" height="14" fill="transparent"></rect><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="8.5" cy="1.5" r="1.5"></circle><circle cx="8.5" cy="7" r="1.5"></circle><circle cx="8.5" cy="12.5" r="1.5"></circle>
+  </g>
+  </g></svg>
+  </g>
+  </g>
+  </g>
+  </g>
+  </g><style>.asg-diagram-type-Analysis .noderect { fill: #f7fffa; } .asg-diagram-type-Namespace .noderect { fill: #f7fffa; } .asg-diagram-type-Project .noderect { fill: #fbf6ff; } .asg-diagram-type-ExternalPackage .noderect { fill: #fbf6ff; } .asg-diagram-type-Source .noderect { fill: #fbf6ff; } .asg-diagram-type-SourceTree .noderect { fill: #fbf6ff; } .asg-diagram-type-Class .noderect { fill: #fbf6ff; } .asg-diagram-type-Function .noderect { fill: #fbf6ff; } .asg-diagram-type-Operation .noderect { fill: #fff2ec; } .asg-diagram-type-Execution .noderect { fill: #fff2ec; } .asg-diagram-type-LineageHop .noderect { fill: #fff2ec; } .asg-diagram-type-Cluster .noderect { fill: #fff3f8; } .asg-diagram-type-Service .noderect { fill: #fff3f8; } .asg-diagram-type-Host .noderect { fill: #fff3f8; } .asg-diagram-type-Role .noderect { fill: #fff3f8; } .asg-diagram-type-Directory .noderect { fill: #fff6ea; } .asg-diagram-type-File .noderect { fill: #fff6ea; } .asg-diagram-type-Field .noderect { fill: #fff6ea; } .asg-diagram-type-Database .noderect { fill: #e9f8ff; } .asg-diagram-type-Table .noderect { fill: #e9f8ff; } .asg-diagram-type-Schema .noderect { fill: #e9f8ff; } .asg-diagram-type-Column .noderect { fill: #ffffff; } .asg-diagram-type-DataPackage .noderect { fill: #feffee; } .asg-diagram-type-DataType .noderect { fill: #feffee; } .asg-diagram-type-DataDomain .noderect { fill: #feffee; } .asg-diagram-type-DataField .noderect { fill: #feffee; } .asg-diagram-type-Analysis:hover .noderect { fill: #e6ffef; } .asg-diagram-type-Namespace:hover .noderect { fill: #e6ffef; } .asg-diagram-type-Project:hover .noderect { fill: #f4e8ff; } .asg-diagram-type-ExternalPackage:hover .noderect { fill: #f4e8ff; } .asg-diagram-type-Source:hover .noderect { fill: #f4e8ff; } .asg-diagram-type-SourceTree:hover .noderect { fill: #f4e8ff; } .asg-diagram-type-Class:hover .noderect { fill: #f4e8ff; } .asg-diagram-type-Function:hover .noderect { fill: #f4e8ff; } .asg-diagram-type-Operation:hover .noderect { fill: #ffe0d2; } .asg-diagram-type-Execution:hover .noderect { fill: #ffe0d2; } .asg-diagram-type-LineageHop:hover .noderect { fill: #ffe0d2; } .asg-diagram-type-Cluster:hover .noderect { fill: #ffecf4; } .asg-diagram-type-Service:hover .noderect { fill: #ffecf4; } .asg-diagram-type-Host:hover .noderect { fill: #ffecf4; } .asg-diagram-type-Role:hover .noderect { fill: #ffecf4; } .asg-diagram-type-Directory:hover .noderect { fill: #fff1de; } .asg-diagram-type-File:hover .noderect { fill: #fff1de; } .asg-diagram-type-Field:hover .noderect { fill: #fff1de; } .asg-diagram-type-Database:hover .noderect { fill: #d4f2ff; } .asg-diagram-type-Table:hover .noderect { fill: #d4f2ff; } .asg-diagram-type-Schema:hover .noderect { fill: #d4f2ff; } .asg-diagram-type-Column:hover .noderect { fill: #d4f2ff; } .asg-diagram-type-DataPackage:hover .noderect { fill: #f2f4d4; } .asg-diagram-type-DataType:hover .noderect { fill: #f2f4d4; } .asg-diagram-type-DataDomain:hover .noderect { fill: #f2f4d4; } .asg-diagram-type-DataField:hover .noderect { fill: #f2f4d4; } .asg-diagram-type-_parent_ .noderect { fill: #ffffff; } .asg-diagram-type-_child_ .noderect { fill: #ffffff; } .asg-diagram-type-_cluster_ .noderect { fill: #cbe32d; } .asg-diagram-type-_cluster_:hover .noderect { fill: #cbe32d; } </style></svg>

@@ -1,0 +1,112 @@
+{
+  "gluedynamodbtable": [
+    {
+      "mode": "VIEW",
+      "source": "BicycleType",
+      "dir": "->",
+      "target": "bicycletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "Brand",
+      "dir": "->",
+      "target": "brand"
+    },
+    {
+      "mode": "VIEW",
+      "source": "Color",
+      "dir": "->",
+      "target": "color"
+    },
+    {
+      "mode": "VIEW",
+      "source": "Description",
+      "dir": "->",
+      "target": "description"
+    },
+    {
+      "mode": "VIEW",
+      "source": "GlueSource",
+      "dir": "->",
+      "target": "gluedynamodbtable"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ID",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "Price",
+      "dir": "->",
+      "target": "price"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ProductCategory",
+      "dir": "->",
+      "target": "productcategory"
+    },
+    {
+      "mode": "VIEW",
+      "source": "Title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "bicycletype",
+      "dir": "->",
+      "target": "BicycleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "brand",
+      "dir": "->",
+      "target": "Brand"
+    },
+    {
+      "mode": "VIEW",
+      "source": "color",
+      "dir": "->",
+      "target": "Color"
+    },
+    {
+      "mode": "VIEW",
+      "source": "description",
+      "dir": "->",
+      "target": "Description"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gluedynamodbtable",
+      "dir": "->",
+      "target": "GlueSource"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "source": "price",
+      "dir": "->",
+      "target": "Price"
+    },
+    {
+      "mode": "VIEW",
+      "source": "productcategory",
+      "dir": "->",
+      "target": "ProductCategory"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "Title"
+    }
+  ]
+}

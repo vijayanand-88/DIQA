@@ -1,0 +1,39 @@
+{
+  "SnowFlake_to_SnowFlake_jdbc_select": {
+    "CUSTOMERS.ID => SF_to_SF_jdbc.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "CUSTOMERS.AGE => SF_to_SF_jdbc.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "AGE => CUSTOMERS_MANY.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "NAME => CUSTOMERS_MANY.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "CUSTOMERS.NAME => SF_to_SF_jdbc.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "ID => CUSTOMERS_MANY.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "CUSTOMERS.ADDRESS => SF_to_SF_jdbc.ADDRESS": {
+      "mode": "COPY",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    }
+  }
+}

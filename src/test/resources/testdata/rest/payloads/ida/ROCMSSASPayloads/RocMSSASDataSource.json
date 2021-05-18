@@ -1,0 +1,92 @@
+{
+  "RocMSSASSADataSource":{
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "ROCMSSASSADataSource",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "RochadeBin": "${rochade.home}/bin",
+    "VersionServer": "2019",
+    "RochadeServerHost": "${rochade.server}",
+    "RochadePath": "${rochade.home}",
+    "ScannerBin": "${rochade.home}/scanmss/${VersionPathName}/bin/${VersionServer}",
+    "ScannerBinSQL": "${rochade.home}/scanmss/${VersionPathName}/bin",
+    "PropertiesAndOutputPath": "D:\\MSSAS_backup\\mssas_backup",
+    "VersionPathName": "V119",
+    "RochadeServerPort": "${rochade.port}"
+  },
+  "RocMSSASDataSource":{
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "ROCMSSASDataSource",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "RochadeBin": "${rochade.home}/bin",
+    "VersionServer": "2019",
+    "pluginName": "ROCMSSASDataSource",
+    "RochadePath": "${rochade.home}",
+    "ScannerBin": "${rochade.home}/scanmss/${VersionPathName}/bin/${VersionServer}",
+    "ScannerBinSQL": "${rochade.home}/scanmss/${VersionPathName}/bin",
+    "PropertiesAndOutputPath": "${rochade.project.home}/mssas",
+    "serverName": "DIDROCHADE04V\\I2019TAB",
+    "VersionPathName": "V119"
+  },
+  "EDIBusDataSource": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "EDIBusMSSASDS",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "RochadeMSSASSACredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "EDI host": "DIQROCHADE01V.DIQ.QA.ASGINT.LOC",
+    "EDI subject area access roles": [
+      {
+        "role": "*"
+      }
+    ],
+    "EDI subject area name": "METAAPPS",
+    "EDI port": 8888,
+    "pluginName": "EDIBusDataSource",
+    "EDI subject area version": "PRODUCTION",
+    "EDI database": "AP-DATA"
+  }
+}
+

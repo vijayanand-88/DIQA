@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Amazon_Redshift_PostProcessor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "BA TagTest before plugin run",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AmazonRedshiftPostProcessor",
+      "arguments": [],
+      "type": "Lineage"
+    }
+  ]
+}

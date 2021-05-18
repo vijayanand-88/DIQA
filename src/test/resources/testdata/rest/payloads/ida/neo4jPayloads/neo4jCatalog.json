@@ -1,0 +1,11 @@
+{
+  "Neo4j CATALOG": {
+    "label": {
+      "": "Neo4j CATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Neo4j CATALOG"
+    }
+  }
+}

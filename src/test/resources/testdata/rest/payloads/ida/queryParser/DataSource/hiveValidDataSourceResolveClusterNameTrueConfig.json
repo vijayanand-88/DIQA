@@ -1,0 +1,56 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveDataSource_ValidResolveClusterTrue",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "hiveValidCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "clusterManager": {
+         "clusterManagerHost": "10.33.10.138",
+        "clusterManagerName": "HORTONWORKS",
+        "clusterManagerPort": "8080",
+        "clusterManagerApiVersion": "api/v1"
+      },
+      "resolveClusterName": true,
+      "pluginName": "HiveDataSource",
+      "kerberos": {}
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveDataSource_TEST_DEFAULT_CONFIGURATION",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": null,
+      "pluginType": null,
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+	  "clusterManager": {
+        "clusterManagerName": "HORTONWORKS"
+      },
+      "resolveClusterName": null,
+      "pluginName": "HiveDataSource",
+      "kerberos": {}
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"password":"","productVersion":"Teradata Database 15.10.00.07","driverVersion":"16.20.00.08","driverBundleName":"com.teradata.jdbc.TeraDriver","driverClass":"com.teradata.jdbc.TeraDriver","jdbcURL":"jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII,database=collector","driverName":"com.teradata.jdbc.TeraDriver","userName":"dbc","productName":"Teradata"}

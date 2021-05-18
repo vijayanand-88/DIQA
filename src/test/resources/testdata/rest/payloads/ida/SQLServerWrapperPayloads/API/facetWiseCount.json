@@ -1,0 +1,31 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 725,
+      "value" : "Column"
+    }, {
+      "count" : 119,
+      "value" : "Table"
+    }, {
+      "count" : 15,
+      "value" : "Schema"
+    }, {
+      "count" : 6,
+      "value" : "Constraint"
+    }, {
+      "count" : 5,
+      "value" : "Analysis"
+    }, {
+      "count" : 1,
+      "value" : "Database"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

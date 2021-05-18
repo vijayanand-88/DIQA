@@ -1,0 +1,16 @@
+{
+  "glueavro": [
+    {
+      "mode": "VIEW",
+      "source": "glueavro",
+      "dir": "->",
+      "target": "orcfile1.orc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orcfile1.orc",
+      "dir": "->",
+      "target": "glueavro"
+    }
+  ]
+}

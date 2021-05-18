@@ -1,0 +1,154 @@
+{
+  "gitCollector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollector",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollector"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tagJavaSparkHDFS"
+    ],
+    "businessApplicationName": "test_BA_JavaSparkHDFS",
+    "pluginType": "collector",
+    "dataSource": "GitCollectorDataSource",
+    "credential": "Git_Credentials",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.Filter",
+          "label": null,
+          "tags": null,
+          "branch": "refs/heads/master"
+        }
+      ],
+      "deltaTime": "30",
+      "extraFilters": {
+        "filefilters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.FileFilter",
+            "label": {
+              "": "Label1"
+            },
+            "tags": null,
+            "fileMode": "include",
+            "objectType": "folder",
+            "expressionType": "simple",
+            "expressions": [
+              "**/hdfs/**"
+            ]
+          }
+        ]
+      },
+      "maxHits": null
+    },
+    "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+    "pluginName": "GitCollector",
+    "type": "Collector"
+  },
+  "hdfsCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "HdfsCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Cluster Demo\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tagJavaSparkHDFS"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "HdfsDataSource",
+    "credential": "HdfsCredentials",
+    "businessApplicationName": "test_BA_JavaSparkHDFS",
+    "dryRun": false,
+    "schedule": null,
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+          "label": {
+            "": "Label1"
+          },
+          "tags": [],
+          "root": "/user/root/java",
+          "excludeRegexp": [],
+          "fileMode": "include",
+          "fileExtensions": []
+        }
+      ],
+      "deltaTime": "30",
+      "extraFilters": {},
+      "maxHits": "100"
+    },
+    "scanHdfs": true,
+    "analyzeCollectedData": false,
+    "scanServices": false,
+    "pluginName": "HdfsCataloger",
+    "type": "Cataloger"
+  },
+  "javaParser": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaParser",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tagJavaSparkHDFS"
+    ],
+    "businessApplicationName": "test_BA_JavaSparkHDFS",
+    "pluginType": "parser",
+    "dataSource": null,
+    "credential": null,
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "JavaParser",
+    "type": "Parser"
+  },
+  "javaSparkLineage": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaSparkLineage",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tagJavaSparkHDFS"
+    ],
+    "businessApplicationName": "test_BA_JavaSparkHDFS",
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "JavaSparkLineage",
+    "type": "Lineage"
+  }
+}

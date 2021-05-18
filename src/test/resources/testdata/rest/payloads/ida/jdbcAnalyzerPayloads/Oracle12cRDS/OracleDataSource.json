@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Oracle12cRDSDS",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "Oracle12cRDSCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "driver": "oracle.jdbc.OracleDriver",
+      "pluginName": "OracleDBDataSource",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "url": "jdbc:oracle:thin:@idadb12c.cshey0cobobn.us-east-1.rds.amazonaws.com:1521:idadb12c"
+    }
+  ]
+}

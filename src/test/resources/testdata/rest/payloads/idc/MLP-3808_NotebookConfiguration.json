@@ -1,0 +1,85 @@
+{
+  "configurations": {
+    "SimilarityLinker": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SimilarityLinkerTable",
+        "label": {
+          "": "SimilarityLinkerTable",
+          "en": "SimilarityLinkerTable"
+        },
+        "eventClass": "ImporterProgressEvent",
+        "eventCondition": "event.isSuccessful() && event.isAnyTypeAffected('Table')",
+        "filter": null,
+        "checks": [
+          {
+            "weight": 1,
+            "method": {
+              "class": "com.asg.ida.similar.link.dom.JaccardSimilarityMethod"
+            },
+            "query": "g.V('${id}').out('has_Column').valueMap('name','dataType')"
+          }
+        ],
+        "cutoff": 0.1,
+        "similarMax": 10,
+        "linkName": "similar",
+        "query": "g.V().hasLabel('${schema}.Table')"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SimilarityLinkerHistogram",
+        "label": {
+          "": "SimilarityLinkerHistogram",
+          "en": "SimilarityLinkerHistogram"
+        },
+        "eventClass": "ImporterProgressEvent",
+        "eventCondition": "event.isSuccessful() && event.isAnyTypeAffected('Column','Field')",
+        "filter": null,
+        "checks": [
+          {
+            "weight": 1,
+            "method": {
+              "class": "com.asg.ida.similar.link.dom.HistogramSimilarityMethod"
+            },
+            "property": "histogram"
+          }
+        ],
+        "cutoff": 0.2,
+        "similarMax": 20,
+        "linkName": "similar",
+        "query": "g.V().hasLabel('${schema}.Column','${schema}.Field').has('histogram')"
+      }
+    ],
+    "HiveDirectoryLinker": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "HiveDirectoryLinkerOnImport",
+        "label": {
+          "": "Hive Cataloger",
+          "en": "Hive Cataloger"
+        },
+        "eventClass": "ImporterProgressEvent",
+        "eventCondition": "event.isSuccessful() && event.isAnyTypeAffected('Table','Directory')",
+        "filter": null
+      }
+    ],
+    "NotebookAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "NotebookTest",
+        "label": {
+          "": "Notebook"
+        },
+        "catalogName": "DataSets",
+        "eventClass": null,
+        "eventCondition": null,
+        "filter": null,
+        "jupyterPath": "jupyter",
+        "pipPath": "pip3.6",
+        "timeout": "-1",
+        "templateMapping": []
+      }
+    ]
+  },
+  "catalogName": "BigData"
+}

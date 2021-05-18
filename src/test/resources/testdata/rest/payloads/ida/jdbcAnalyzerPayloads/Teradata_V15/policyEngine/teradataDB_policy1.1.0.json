@@ -1,0 +1,980 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "pluginName": "TeradataDBAnalyzer",
+    "technologies": [
+      ""
+    ],
+    "view":{
+      "label":"TeradataDBAnalyzer_SC1",
+      "value":"TeradataDBAnalyzer_SC1"
+    },
+    "dataType": "STRUCTURED"
+  },
+  "outputs": [
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*ARCHA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*VAR1.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VAR3CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "V2ARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*int",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*4RCHA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*IP.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*EMAIL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "SSN.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*FULL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*I1P.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*EM1AIL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "SSN11.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "1GENDER",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*F1ULL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL.*",
+      "typePattern": ".*ARCH.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPAD1DRESS",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*1MAIL",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*1SSN.*",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER1",
+      "typePattern": ".*RCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL1.*",
+      "typePattern": ".*CHA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*VA3R.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "2VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "VARC3HAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*3CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL.*",
+      "typePattern": ".*RC6HA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}.\\d{5}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+*([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4} \\d{6}",
+      "tags": [
+        "TeradataDBSSNPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(male|Male|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+\\d{3}",
+      "tags": [
+        "TeradataDBFullNamePII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL.*",
+      "typePattern": ".*CHA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "TeradataDBIPAddressPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "TeradataDBEmailPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "TeradataDBSSNPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "TeradataDBGenderPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "TeradataDBFullNamePII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "database",
+      "tags": [
+        "TeradataDBFullMatchPII_SC1Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "database",
+      "tags": [
+        "TeradataDBFullMatchPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "GRANTS.",
+      "tags": [
+        "TeradataDBFullMatchPII_SC3Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "TeradataDBPII",
+      "dataPattern": "GRANTS.",
+      "tags": [
+        "TeradataDBFullMatchPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    }
+  ]
+
+}

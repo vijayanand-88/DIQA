@@ -1,0 +1,22 @@
+{
+  "users_created_name": {
+    "source": ["name"],
+    "target": ["name"]
+  },
+  "email": {
+    "source": ["email"],
+    "target": ["email"]
+  },
+  "gender": {
+    "source": ["gender"],
+    "target": ["gender"]
+  },
+  "id": {
+    "source": ["id"],
+    "target": ["id"]
+  },
+  "name": {
+    "source": ["name"],
+    "target": ["name"]
+  }
+}

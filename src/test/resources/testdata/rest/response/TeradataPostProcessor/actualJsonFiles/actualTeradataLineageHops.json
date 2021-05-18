@@ -1,0 +1,142 @@
+{
+  "TAB_TO_TAB1": [
+    {
+      "mode": "COPY",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "COPY",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "COPY",
+      "source": "AGE",
+      "dir": "->",
+      "target": "AGE"
+    },
+    {
+      "mode": "COPY",
+      "source": "ID",
+      "dir": "->",
+      "target": "ID"
+    }
+  ],
+  "VIEWTOTABLEDYNAMIC": [
+    {
+      "mode": "VIEW",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "source": "AGE",
+      "dir": "->",
+      "target": "AGE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "SNAME",
+      "dir": "->",
+      "target": "SNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "CLASSNAME",
+      "dir": "->",
+      "target": "CLASSNAME"
+    }
+  ],
+  "TAB_TAB_NOVARS1": [
+    {
+      "mode": "MULTIHOP",
+      "source": "ID",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ID",
+      "dir": "->",
+      "target": "LASTNAME"
+    }
+  ],
+  "VIEW_TO_TABLE1": [
+    {
+      "mode": "VIEW",
+      "source": "SNAME",
+      "dir": "->",
+      "target": "SNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    }
+  ],
+  "JOIN_TO_SINGLE": [
+    {
+      "mode": "MULTIHOP",
+      "source": "ROLL_NO",
+      "dir": "->",
+      "target": "STUDENT_NAME"
+    }
+  ],
+  "EMP_JOIN_INDEX": [
+    {
+      "mode": "MULTIHOP",
+      "source": "EMPLOYEENO",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    }
+  ],
+  "TAB_TO_FUNC1": [
+    {
+      "mode": "MULTIHOP",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "COPY",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ID",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ID",
+      "dir": "->",
+      "target": "LASTNAME"
+    }
+  ]
+}

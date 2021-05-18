@@ -1,0 +1,137 @@
+{
+  "GitCollector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollector_8211",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollector_8211"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "PySpark8211"
+    ],
+    "pluginType": "collector",
+    "dataSource": "Git_8211_DS",
+    "credential": "GitCredentials_8211",
+    "businessApplicationName": "test_BA_PySpark_8211",
+    "schedule": null,
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.Filter",
+          "label": null,
+          "tags": null,
+          "branch": "PythonPaser_8211"
+        }
+      ],
+      "deltaTime": "300",
+      "extraFilters": {
+        "filefilters": []
+      },
+      "maxHits": null
+    },
+    "dryRun": false,
+    "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+    "pluginName": "GitCollector",
+    "type": "Collector"
+  },
+  "HdfsCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "HdfsCataloger_8211",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "HdfsCataloger_8211"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Cluster Demo\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "PySpark8211"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "HDFS_8211_DS",
+    "credential": "HDFSCredentials_8211",
+    "businessApplicationName": "test_BA_PySpark_8211",
+    "schedule": null,
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+          "label": {
+            "": "files"
+          },
+          "tags": [],
+          "root": "/pythonA",
+          "excludeRegexp": [],
+          "fileMode": "include",
+          "fileExtensions": []
+        }
+      ],
+      "deltaTime": "99",
+      "extraFilters": {},
+      "maxHits": "30"
+    },
+    "scanHdfs": true,
+    "analyzeCollectedData": false,
+    "scanServices": false,
+    "dryRun": false,
+    "pluginName": "HdfsCataloger",
+    "type": "Cataloger"
+  },
+  "PythonParser": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonParser_8211",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonParser_8211"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "PySpark8211"
+    ],
+    "pluginType": "parser",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_PySpark_8211",
+    "schedule": null,
+    "filter": null,
+    "dryRun": false,
+    "pluginName": "PythonParser",
+    "type": "Parser"
+  },
+  "PythonSparkLineage": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonSparkLineage_8211",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonSparkLineage_8211"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "PySpark8211"
+    ],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_PySpark_8211",
+    "schedule": null,
+    "filter": null,
+    "dryRun": false,
+    "pluginName": "PythonSparkLineage",
+    "type": "Lineage"
+  }
+}

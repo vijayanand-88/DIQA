@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonSpectrumLinker",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SpecLinker"],
+      "pluginType": "linker",
+      "businessApplicationName": "Spectrum_BA",
+      "dryRun": false,
+      "dataSource": null,
+      "credential": null,
+      "filter": null,
+      "database": "world",
+      "pluginName": "AmazonSpectrumLinker",
+      "queryBatchSize": 100,
+      "schemas": [],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Linker",
+      "region": "us-east-1"
+    }
+  ]
+}

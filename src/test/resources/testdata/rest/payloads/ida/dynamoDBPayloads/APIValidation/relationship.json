@@ -1,0 +1,97 @@
+[ {
+  "nodes" : [ {
+    "catalog" : "Default",
+    "name" : "TESTTABLE1_PRIMARYKEY",
+    "id" : "Default.Constraint:::41849",
+    "type" : "Constraint"
+  }, {
+    "catalog" : "Default",
+    "name" : "ID",
+    "id" : "Default.Column:::41841",
+    "type" : "Column"
+  }, {
+    "catalog" : "Default",
+    "name" : "BicycleType",
+    "id" : "Default.Column:::41847",
+    "type" : "Column"
+  } ],
+  "edges" : [ {
+    "id" : "columns:::990724",
+    "source" : "Default.Constraint:::41849",
+    "target" : "Default.Column:::41841",
+    "type" : "columns",
+    "level" : 1,
+    "back" : false
+  }, {
+    "id" : "columns:::990723",
+    "source" : "Default.Constraint:::41849",
+    "target" : "Default.Column:::41847",
+    "type" : "columns",
+    "level" : 1,
+    "back" : false
+  } ],
+  "cnodes" : [ {
+    "catalog" : "Default",
+    "name" : "TestTable1",
+    "id" : "Default.Table:::41840",
+    "type" : "Table"
+  }, {
+    "catalog" : "Default",
+    "name" : "DYNAMODB",
+    "id" : "Default.Database:::41839",
+    "type" : "Database"
+  }, {
+    "catalog" : "Default",
+    "name" : "DYNAMODB",
+    "id" : "Default.Service:::41837",
+    "type" : "Service"
+  }, {
+    "catalog" : "Default",
+    "name" : "Domain=amazonaws.com;Region=us-east-1;",
+    "id" : "Default.Cluster:::41835",
+    "type" : "Cluster"
+  } ],
+  "cedges" : [ {
+    "id" : "definitions:::990728",
+    "source" : "Default.Column:::41841",
+    "target" : "Default.Table:::41840",
+    "type" : "definitions",
+    "level" : 1,
+    "back" : true
+  }, {
+    "id" : "definitions:::990727",
+    "source" : "Default.Column:::41847",
+    "target" : "Default.Table:::41840",
+    "type" : "definitions",
+    "level" : 1,
+    "back" : true
+  }, {
+    "id" : "definitions:::990735",
+    "source" : "Default.Constraint:::41849",
+    "target" : "Default.Table:::41840",
+    "type" : "definitions",
+    "level" : 1,
+    "back" : true
+  }, {
+    "id" : "definitions:::990725",
+    "source" : "Default.Table:::41840",
+    "target" : "Default.Database:::41839",
+    "type" : "definitions",
+    "level" : 2,
+    "back" : true
+  }, {
+    "id" : "definitions:::990726",
+    "source" : "Default.Database:::41839",
+    "target" : "Default.Service:::41837",
+    "type" : "definitions",
+    "level" : 3,
+    "back" : true
+  }, {
+    "id" : "definitions:::990737",
+    "source" : "Default.Service:::41837",
+    "target" : "Default.Cluster:::41835",
+    "type" : "definitions",
+    "level" : 4,
+    "back" : true
+  } ]
+} ]

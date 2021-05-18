@@ -1,0 +1,55 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleDB_WithOut_BundleVersion",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "OracleBundle",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": null,
+      "credential": null,
+      "filter": null,
+      "password": "ZkE2DVl0kl2wwk+zuXAzTHVJgRxGu8g2t2qxvMujAa0=",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "arguments": [],
+      "driverBundleVersion": "",
+      "user": "collector",
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:col2",
+      "properties": []
+    }, {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleDB_With_BundleVersion",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "OracleBundle",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": null,
+      "credential": null,
+      "filter": null,
+      "password": "ZkE2DVl0kl2wwk+zuXAzTHVJgRxGu8g2t2qxvMujAa0=",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "arguments": [],
+      "driverBundleVersion": "12.1.0.1-0",
+      "user": "collector",
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:col2",
+      "properties": []
+    }
+  ]
+}

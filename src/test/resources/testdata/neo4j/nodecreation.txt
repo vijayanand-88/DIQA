@@ -1,0 +1,2 @@
+CREATE (a:Album { Name: "Piece of Mind"})
+ CREATE (b:Album { Name: "Somewhere in Time"})

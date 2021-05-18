@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JsonS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 1000,
+      "tags": ["Linker_Json"],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonJSONS3ValidDataSource",
+      "credential": "Spec_ValidJSONCredentials",
+      "versionMode": false,
+      "businessApplicationName": null,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "incremental": false,
+      "bucketFilter": {
+        "patterns": [
+          "asgredshiftworlddata"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [],
+          "dirFilter": {
+            "patterns": [
+              "*/QA/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

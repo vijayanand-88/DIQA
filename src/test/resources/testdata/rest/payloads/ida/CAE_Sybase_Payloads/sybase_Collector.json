@@ -1,0 +1,822 @@
+{
+  "sybase_Collector": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "sybase_Collector",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"Headless-EDI\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": "sybase_DataSource",
+        "credential": "Valid_sybase_Cred",
+        "businessApplicationName": "SYBASE_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "JAVA_MEMORY_HEAP_1": "-Xms256m",
+        "pluginName": "CAE_Collector_for_Sybase",
+        "General Environment": {
+          "CAEPath": "${cae.home}",
+          "DES_DIR": "${project.host.dir}/ADU",
+          "LOG_DIR": "${project.root}/LOG/Collect",
+          "DES_FILE": "",
+          "LOG_FILE": "Sybase.log",
+          "VSO_FILE": "",
+          "WORK_DIR": "${project.root}/Collect_Dist/Work",
+          "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+          "JAVA_TRACE": "on",
+          "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+          "JAVA_TRACE_FILE": "",
+          "LOCALE_OVERRIDE": "",
+          "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+          "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+        },
+        "ProjectRootFolder": "${cae.project.home}",
+        "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+        "type": "Collector",
+        "DEBUG": "off",
+        "Source Selection": {
+          "CFG_FILE": "",
+          "configLines": [
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBACONC,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBACONR,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBAINDEX,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBASPROC,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBATABL,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBATRIG,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBAVIEW,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBASPROCSRC,PROCESS=LOAD,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBATRIGSRC,PROCESS=LOAD,BATCH=200"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sybase_Collector_InvalidCredentials": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "sybase_Collector_InvalidCredentials",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"Headless-EDI\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "collector",
+        "dataSource": "sybase_DataSource",
+        "credential": "Invalid_sybase_Cred",
+        "businessApplicationName": "SYBASE_BA",
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "JAVA_MEMORY_HEAP_1": "-Xms256m",
+        "pluginName": "CAE_Collector_for_Sybase",
+        "General Environment": {
+          "CAEPath": "${cae.home}",
+          "DES_DIR": "${project.host.dir}/ADU",
+          "LOG_DIR": "${project.root}/LOG/Collect",
+          "DES_FILE": "",
+          "LOG_FILE": "Sybase.log",
+          "VSO_FILE": "",
+          "WORK_DIR": "${project.root}/Collect_Dist/Work",
+          "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+          "JAVA_TRACE": "on",
+          "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+          "JAVA_TRACE_FILE": "",
+          "LOCALE_OVERRIDE": "",
+          "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+          "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+        },
+        "ProjectRootFolder": "${cae.project.home}",
+        "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+        "type": "Collector",
+        "DEBUG": "off",
+        "Source Selection": {
+          "CFG_FILE": "",
+          "configLines": [
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBACONC,PROCESS=AUTO,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBACONR,PROCESS=AUTO,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBAINDEX,PROCESS=AUTO,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBASPROC,PROCESS=AUTO,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBATABL,PROCESS=AUTO,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBATRIG,PROCESS=AUTO,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBAVIEW,PROCESS=AUTO,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBASPROCSRC,PROCESS=AUTO,BATCH=200"
+              }
+            },
+            {
+              "configLine": {
+                "": "SYBA,TYPE=SYBATRIGSRC,PROCESS=AUTO,BATCH=200"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "sybase_Collector_Process_DELETE": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Collector_Process_DELETE",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_DataSource",
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": "SYBASE_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_Sybase",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "Sybase.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBACONC,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBACONR,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAINDEX,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBASPROC,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATABL,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATRIG,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAVIEW,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBASPROCSRC,PROCESS=DELETE,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATRIGSRC,PROCESS=DELETE,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "sybase_Collector_Include_Schema": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Collector_Include_Schema",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_DataSource",
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": "SYBASE_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "schema filter": [
+      {
+        "mode": "INCLUDE",
+        "schema": "DBO"
+      }
+    ],
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_Sybase",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "Sybase.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBACONC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBACONR,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAINDEX,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBASPROC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATABL,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATRIG,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAVIEW,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBASPROCSRC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATRIGSRC,PROCESS=LOAD,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "sybase_Collector_Exclude_Schema": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Collector_Exclude_Schema",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_DataSource",
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": "SYBASE_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "schema filter": [
+      {
+        "mode": "EXCLUDE",
+        "schema": "DBO"
+      }
+    ],
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_Sybase",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "Sybase.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBACONC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBACONR,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAINDEX,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBASPROC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATABL,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATRIG,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAVIEW,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBASPROCSRC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATRIGSRC,PROCESS=LOAD,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "sybase_Collector_Include_Exclude_Schema": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Collector_Include_Exclude_Schema",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_DataSource",
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": "SYBASE_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "schema filter": [
+      {
+        "mode": "INCLUDE",
+        "schema": "DBO"
+      },
+      {
+        "mode": "EXCLUDE",
+        "schema": "DOUG"
+      }
+    ],
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_Sybase",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "Sybase.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBACONC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBACONR,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAINDEX,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBASPROC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATABL,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATRIG,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAVIEW,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBASPROCSRC,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATRIGSRC,PROCESS=LOAD,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "sybase_Collector_Testing_DB": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Collector_Testing_DB",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_DataSource_Testing_DB",
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": "SYBASE_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "schema filter": [],
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_Sybase",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "Sybase.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATABL,PROCESS=LOAD,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAVIEW,PROCESS=LOAD,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "sybase_Collector_Incremental": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Collector_Incremental",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_DataSource_Testing_DB",
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": "SYBASE_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "schema filter": [],
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_Sybase",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "Sybase.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATABL,PROCESS=AUTO,BATCH=200"
+          }
+        },
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBAVIEW,PROCESS=AUTO,BATCH=200"
+          }
+        }
+      ]
+    }
+  },
+  "zOS_DB2_Collector_Testing":  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Collector_Testing",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "zOS_DB2_DS",
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": "SYBASE_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_zOS_DB2",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "zOS_DB2.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200,INCS=DV538A"
+          }
+        },
+        {
+          "configLine": {
+            "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200,INCS=DV538A"
+          }
+        }
+      ]
+    }
+  },
+  "sybase_Collector_withTiltInConfig":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Collector_withTiltInConfig",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_DataSource",
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": "SYBASE_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "schema filter": [],
+    "JAVA_MEMORY_HEAP_1": "-Xms256m",
+    "pluginName": "CAE_Collector_for_Sybase",
+    "General Environment": {
+      "CAEPath": "${cae.home}",
+      "DES_DIR": "${project.host.dir}/ADU",
+      "LOG_DIR": "${project.root}/LOG/Collect",
+      "DES_FILE": "",
+      "LOG_FILE": "Sybase.log",
+      "VSO_FILE": "",
+      "WORK_DIR": "${project.root}/Collect_Dist/Work",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_TRACE": "on",
+      "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+      "JAVA_TRACE_FILE": "",
+      "LOCALE_OVERRIDE": "",
+      "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+      "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+    },
+    "ProjectRootFolder": "${cae.project.home}",
+    "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+    "type": "Collector",
+    "DEBUG": "off",
+    "Source Selection": {
+      "CFG_FILE": "",
+      "configLines": [
+        {
+          "configLine": {
+            "": "SYBA,TYPE=SYBATABL,PROCESS=AUTO,BATCH=200~SYBA,TYPE=SYBAVIEW,PROCESS=AUTO,BATCH=200"
+          }
+        }
+      ]
+    }
+  }
+}

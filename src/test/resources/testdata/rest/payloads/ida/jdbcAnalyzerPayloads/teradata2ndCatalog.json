@@ -1,0 +1,11 @@
+{
+  "TD CATALOG": {
+    "label": {
+      "": "TD CATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "TD CATALOG"
+    }
+  }
+}

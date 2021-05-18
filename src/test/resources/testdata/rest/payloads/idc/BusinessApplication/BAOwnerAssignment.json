@@ -1,0 +1,28 @@
+[
+  {
+    "id": null,
+    "scopeId": null,
+    "scopeAttrName": null,
+    "type": "BusinessApplication",
+    "name": "BAROLETEST1",
+    "businessCriticality": "High",
+    "authoritativeSource": "Yes",
+    "dataClassification": "Restricted",
+    "pii": "Yes",
+    "businessOwners": [
+      "becubic_build"
+    ],
+    "relationshipOwners": [
+      "becubic_build"
+    ],
+    "securityOwners": [
+      "becubic_build"
+    ],
+    "technologyOwners": [
+      "becubic_build"
+    ],
+    "complianceOwners": [
+      "becubic_build"
+    ]
+  }
+]

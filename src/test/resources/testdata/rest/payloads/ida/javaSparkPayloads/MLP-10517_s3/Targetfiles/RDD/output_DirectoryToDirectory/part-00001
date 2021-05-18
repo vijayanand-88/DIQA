@@ -1,0 +1,74 @@
+login as: root
+root@10.33.6.122's password:
+Last login: Thu Feb 21 10:22:47 2019 from 10.10.205.78
+[root@sandbox ~]# hadoop fs -ls
+Found 5 items
+drwx------   - root    hdfs          0 2017-09-27 18:00 .Trash
+drwxr-xr-x   - root    hdfs          0 2017-06-15 07:45 .hiveJars
+drwxr-xr-x   - root    hdfs          0 2019-02-18 12:10 .sparkStaging
+drwxr-xr-x   - raj_ops hdfs          0 2019-02-21 10:50 PySpark
+drwxr-xr-x   - root    hdfs          0 2017-09-08 10:55 user
+[root@sandbox ~]# hadoop fs -ls /PySpark/
+Found 1 items
+drwxr-xr-x   - root hdfs          0 2019-02-21 10:44 /PySpark/Source
+[root@sandbox ~]# hadoop fs -ls /PySpark/Source
+[root@sandbox ~]# ls
+anaconda-ks.cfg  build.out  install.log         sandbox.info     start_hbase.sh
+blueprint.json   hdp        install.log.syslog  start_ambari.sh
+[root@sandbox ~]# hadoop fs -ls -R /PySpark/Source
+[root@sandbox ~]# hadoop fs -ls -R /user/root/PySpark/Source
+drwxr-xr-x   - root    hdfs          0 2019-02-21 10:55 /user/root/PySpark/Sourc                                                                             e/out.parquet
+-rw-r--r--   1 root    hdfs          0 2019-02-21 10:55 /user/root/PySpark/Sourc                                                                             e/out.parquet/_SUCCESS
+-rw-r--r--   1 root    hdfs        867 2019-02-21 10:55 /user/root/PySpark/Sourc                                                                             e/out.parquet/part-r-00000-3578187e-2d0a-4352-ac37-b17de0723eeb.snappy.parquet
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Sourc                                                                             e/users.parquet
+[root@sandbox ~]# hadoop fs -ls -R /user/root/PySpark/Source
+drwxr-xr-x   - root    hdfs          0 2019-02-21 10:55 /user/root/PySpark/Source/out.parquet
+-rw-r--r--   1 root    hdfs          0 2019-02-21 10:55 /user/root/PySpark/Source/out.parquet/_SUCCESS
+-rw-r--r--   1 root    hdfs        867 2019-02-21 10:55 /user/root/PySpark/Source/out.parquet/part-r-00000-3578187e-2d0a-4352-ac37-b17de0723eeb.snappy.parquet
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Source/users.parquet
+[root@sandbox ~]# spark-submit --version
+Multiple versions of Spark are installed but SPARK_MAJOR_VERSION is not set
+Spark1 will be picked by default
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 1.6.2
+      /_/
+
+Type --help for more information.
+[root@sandbox ~]# export SPARK_MAJOR_VERSION=2
+[root@sandbox ~]# spark-submit --version
+SPARK_MAJOR_VERSION is set to 2, using Spark2
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 2.0.0.2.5.0.0-1245
+      /_/
+
+Branch HEAD
+Compiled by user jenkins on 2016-08-26T02:52:23Z
+Revision c036d8e15666e914cd6aaf90ada0390619828b10
+Url git@github.com:hortonworks/spark2.git
+Type --help for more information.
+[root@sandbox ~]# pwd
+/root
+[root@sandbox ~]# cd /
+[root@sandbox /]# cd /home/Siddharthan/
+[root@sandbox Siddharthan]# ls
+read_loadandwrite.py
+[root@sandbox Siddharthan]# spark-submit read_loadandwrite.py
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/Source
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Source/users.parquet
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/
+drwxr-xr-x   - raj_ops hdfs          0 2019-02-21 11:22 /user/root/PySpark/Source
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Source/users.parquet
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/Source
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Source/users.parquet
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/
+drwxr-xr-x   - raj_ops hdfs          0 2019-02-21 11:22 /user/root/PySpark/Source
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Source/users.parquet
+[root@sandbox Siddharthan]# hadoop fs -mkdir  /user/root/PySpark/Load
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/
+drwxr-xr-x   - root    hdfs          0 2019-02-21 11:38 /user/root/PySpark/Load

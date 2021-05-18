@@ -1,0 +1,82 @@
+{
+  "GitCollectorDataSource": {
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name" : "Git_7856_DS",
+    "pluginVersion" : "LATEST",
+    "label" : {
+      "" : ""
+    },
+    "catalogName" : "Default",
+    "eventClass" : null,
+    "eventCondition" : null,
+    "nodeCondition" : null,
+    "maxWorkSize" : 100,
+    "tags" : [ ],
+    "pluginType" : "datasource",
+    "dataSource" : null,
+    "credential" : "GitCredentials_7856",
+    "businessApplicationName" : null,
+    "schedule" : null,
+    "filter" : null,
+    "pluginName" : "GitCollectorDataSource",
+    "url" : "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git"
+  },
+  "GitCollectorDataSource_Default": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollectorDataSource_TEST_DEFAULT_CONFIGURATION",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": null,
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null
+  },
+  "MSSQLDataSource": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "MSSQL_7856_DS",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "MSSQLCredentials_7856",
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+    "pluginName": "SQLServerDBDataSource",
+    "driverBundleName": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+    "url": "jdbc:sqlserver://esbcnprodcap02v.asg.com:1433;databaseName=pubs"
+  },
+  "MSSQLDataSource_Default": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SQLServerDBDataSource_TEST_DEFAULT_CONFIGURATION",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": null,
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "label": {
+    "": "Incoming"
+  },
+  "querySource": "{\"paths\":[{\"id\":\"backward\",\"back\":true},{\"id\":\"parents\",\"edge\":\"_parent_\"}],\"content\":{\"default\":[\"backward\"]},\"context\":{\"default\":[\"parents\"]},\"depth\":1}",
+  "queryJson": {
+    "paths": [
+      {
+        "id": "backward",
+        "back": true
+      },
+      {
+        "id": "parents",
+        "edge": "_parent_"
+      }
+    ],
+    "content": {
+      "default": [
+        "backward"
+      ]
+    },
+    "context": {
+      "default": [
+        "parents"
+      ]
+    },
+    "depth": 1
+  },
+  "className": "com.asg.dis.platform.data.query.PathQuery",
+  "parameters": [],
+  "queryResultType": "UNSPECIFIED",
+  "templateQuery": false,
+  "chartQuery": false
+}

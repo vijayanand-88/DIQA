@@ -1,0 +1,22 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "GitDSConfig",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "GitCred",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "GitCollectorDataSource",
+  "url": "https://source-team.asg.com/scm/diqa/test_data_git_collector.git"
+}

@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleDBCataloger_Spark",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["PythonSparkAnlayzerImprovements"],
+      "pluginType": "cataloger",
+      "dataSource": "Oracle12cDS_Spark",
+      "credential": "sparkOracle",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [
+        {
+          "schema": "COLLECTOR",
+          "tables": []
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataDBPostProcessor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC1TeradataDBPostProcessor"
+      ],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "TeradataDBPostProcessor",
+      "arguments": [],
+      "type": "Lineage"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataPostProcessorDryRunTrue",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "TeradataPostProcessorDryRunTrue"
+      ],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": true,
+      "filter": null,
+      "pluginName": "TeradataDBPostProcessor",
+      "arguments": [],
+      "type": "Lineage"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sybase_creator": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "SYBASE_CREATOR_BA"
+    }
+  ],
+  "sybase_collector": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "SYBASE_BA"
+    }
+  ],
+  "sybase_feeder": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "SYBASE_FEEDER_BA"
+    }
+  ],
+  "sybase_ddloader": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "SYBASE_LOADER_BA"
+    }
+  ],
+  "sybase_lineage": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "SYBASE_LINEAGE_BA"
+    }
+  ],
+  "sybase_deletor": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "SYBASE_DELETOR_BA"
+    }
+  ]
+}

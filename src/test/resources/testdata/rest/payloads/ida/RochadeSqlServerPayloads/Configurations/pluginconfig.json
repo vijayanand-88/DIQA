@@ -1,0 +1,191 @@
+{
+  "SqlServerImport": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeSqlServerImport",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:53:50.228693",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T14:53:50.228707"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+      "dryRun": false,
+      "JavaMemory": "512m",
+      "pluginName": "SQLServerImport",
+      "type": "Rochade",
+      "LogLevel": "WARNING",
+      "ResetDependencyLinks": false
+    }
+  },
+  "SqlserverReconcile": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeSqlserverReconcile",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:55:19.836641",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T14:55:19.836657"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeSqlServerDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/rrt.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar",
+      "dryRun": false,
+      "ReconcileCategory": "database",
+      "JavaMemory": "4096m",
+      "pluginName": "SQLServerReconcile",
+      "ThreadsUsed": "4",
+      "type": "Rochade",
+      "DatabaseSeedItem": "*"
+    }
+  },
+  "SqlServerScan": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeSqlServerScan",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:52:59.122388",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T14:52:59.122393"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "SqlServerDS",
+      "credential": "SqlServerCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ExcludeFilter": [],
+      "SkipInaccessiblePDB": true,
+      "ClassPath": "${driver.path};${rochade.home}/scansqlsrvr/${VersionPathName}/bin/scansqlsrvr.jar;${rochade.home}/scansqlsrvr/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scansqlsrvr/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scansqlsrvr/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/scansqlsrvr/${VersionPathName}/bin/SQL2XML.jar",
+      "dryRun": false,
+      "ProcessPDBinCDB": true,
+      "JavaMemory": "2048m",
+      "pluginName": "SQLServerScan",
+      "arguments": [],
+      "type": "Rochade",
+      "LimitToIncludeFilter": false,
+      "LogLevel": "CONFIG",
+      "IncludeFilter": []
+    }
+  },
+  "EDIBus_Replicate": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusSqlServerReplicate",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:59:41.254737",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-20T04:03:42.746346"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusSqlServerDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        "Sqlserver"
+      ],
+      "dryRun": false,
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "replicate",
+        "incremental": false
+      }
+    }
+  },
+  "EDIBus_Cleanup": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusSqlserverCleanup",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:59:41.254737",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-20T04:03:42.746346"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusSqlServerDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        "ORACLE"
+      ],
+      "dryRun": false,
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "cleanup",
+        "incremental": false
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MongoDBCataloger_ValidDB&Cred",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "MongoDBCatalog"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "MongoDBDataSource_valid",
+      "credential": "MongoDBValidCredential",
+      "businessApplicationName": "MONGODB_BA",
+      "dryRun": false,
+      "filter": null,
+      "tables": [],
+      "pluginName": "MongoDBCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

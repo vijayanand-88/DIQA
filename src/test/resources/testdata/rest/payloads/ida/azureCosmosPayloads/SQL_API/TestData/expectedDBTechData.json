@@ -1,0 +1,11 @@
+{
+  "jdbcURL": "jdbc:cosmosdb:AccountEndpoint=https://asgsqlcosmos.documents.azure.com/;AccountKey=m2FVxxoa21Th6DJBnIq9GTAPwtGOZWmVGcWzaNKoWI0Y0kmYpyqx3XIQZZSIZG3SSE21qBoiVUkbZ1AMgCDhPg==;",
+  "dbType": "COSMOS",
+  "host": "asgsqlcosmos.documents.azure.com",
+  "driverClass": "cdata.jdbc.cosmosdb.CosmosDBDriver",
+  "driverName": "CData JDBC Driver for Cosmos DB 2019",
+  "driverBundleName": "cdata.jdbc.cosmosdb.CosmosDBDriver",
+  "database": "testSqlDatabase1",
+  "userName": "Devi.Niranjani@asg.com",
+  "password": "yhBHHZmZ0IKgiEzp/98SuMqI4hs7gVvlfFW7DFX6brI="
+}

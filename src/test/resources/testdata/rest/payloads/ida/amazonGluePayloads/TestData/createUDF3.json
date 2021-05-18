@@ -1,0 +1,15 @@
+{
+  "DatabaseName": "automationglue",
+  "FunctionInput": {
+    "ClassName": "Test",
+    "FunctionName": "testfunction5",
+    "OwnerName": "testUser",
+    "OwnerType": "USER",
+    "ResourceUris": [
+      {
+        "ResourceType": "JAR",
+        "Uri": "string"
+      }
+    ]
+  }
+}

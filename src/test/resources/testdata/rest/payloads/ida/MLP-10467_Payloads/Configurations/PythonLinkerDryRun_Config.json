@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": null,
+      "dryRun": "true",
+      "nodeCondition": null,
+      "label": {
+        "": ""
+      },
+      "tags": [],
+      "catalogName": "Analysis",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "credential": null,
+      "name": "PythonLinker",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": null
+    }
+  ]
+}

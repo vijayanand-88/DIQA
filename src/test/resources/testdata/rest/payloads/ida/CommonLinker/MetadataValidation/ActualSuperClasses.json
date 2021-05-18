@@ -1,0 +1,16 @@
+[
+    {
+        "superClass": "Person",
+        "start": {
+            "lineNumber": 9,
+            "position": 15
+        }
+    },
+    {
+        "superClass": "object",
+        "start": {
+            "lineNumber": 9,
+            "position": 15
+        }
+    }
+]

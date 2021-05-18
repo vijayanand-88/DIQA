@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Sanity",
+    "definition": "General Classification",
+    "status": "APPROVED",
+    "type": "Structure Information Tag",
+    "userAssignable": true,
+    "subTags": [
+      {
+        "name": "AmazonS3Explicit",
+        "definition": "AmazonS3Explicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "AvroS3Explicit",
+        "definition": "AvroS3Explicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "GlueLineageExplicit",
+        "definition": "GlueLineageExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "GlueLinkerExplicit",
+        "definition": "GlueLinkerExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "CsvS3Explicit",
+        "definition": "CsvS3Explicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "DynamoDBExplicit",
+        "definition": "DynamoDBExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "GitCollectorExplicit",
+        "definition": "GitCollectorExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "JsonS3Explicit",
+        "definition": "JsonS3Explicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "LocalFileCollectorExplicit",
+        "definition": "LocalFileCollectorExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "Oracle12CRDSExplicit",
+        "definition": "Oracle12CRDSExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "Oracle19CRDSExplicit",
+        "definition": "Oracle19CRDSExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "ParquetS3Explicit",
+        "definition": "ParquetS3Explicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "RedshiftExplicit",
+        "definition": "RedshiftExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "SnowflakeExplicit",
+        "definition": "SnowflakeExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      },
+      {
+        "name": "SpectrumExplicit",
+        "definition": "SpectrumExplicit",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags": []
+      }
+    ],
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

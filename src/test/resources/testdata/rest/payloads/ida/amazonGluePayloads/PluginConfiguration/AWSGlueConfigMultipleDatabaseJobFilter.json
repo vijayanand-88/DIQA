@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GlueCatalogMultipleDBJob",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagGlueMultipleDBJobs"],
+      "pluginType": "cataloger",
+      "dataSource": "AWSGlueValidDataSource",
+      "credential": "ValidGlueCredentials",
+      "filter": null,
+	  "dryRun":false,
+	  "businessApplicationName":null,	  
+      "includeItems": {
+        "includeDatabases": ["gluetestdatabase","*testdata*"],
+        "includeJobs": ["ScalaTestJob1","Python*"]
+      }
+    }
+  ]
+}

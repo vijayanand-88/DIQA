@@ -1,0 +1,84 @@
+{
+  "caeCreatorOverWriteFalse": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CreateEntryPoint",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "other",
+      "dataSource": "CreatorDS",
+      "credential": "EntryPointServerCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "Overwrite": false,
+      "DBUserPassword": "CAEPassword",
+      "pluginName": "CAECreator",
+      "DBUserName": "CAECreator",
+      "type": "Other"
+    }
+  },
+  "caeCreatorOverWriteTrue": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CreateEntryPoint",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "other",
+      "dataSource": "CreatorDS",
+      "credential": "EntryPointServerCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "Overwrite": true,
+      "DBUserPassword": "CAEPassword",
+      "pluginName": "CAECreator",
+      "DBUserName": "CAECreator",
+      "type": "Other"
+    }
+  },
+  "caeDeletor": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EntryPointDelete",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "other",
+      "dataSource": "CreatorDS",
+      "credential": "EntryPointServerCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "CAEDeletor",
+      "DBUserName": "CAECreator",
+      "type": "Other"
+    }
+  }
+}

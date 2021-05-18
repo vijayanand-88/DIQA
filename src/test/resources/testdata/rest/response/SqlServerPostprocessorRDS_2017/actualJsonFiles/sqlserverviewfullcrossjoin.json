@@ -1,0 +1,1 @@
+{"sqlserverviewfullcrossjoin":[{"mode":"VIEW","source":"col1","dir":"<-","target":"col1"},{"mode":"VIEW","source":"col4","dir":"<-","target":"col4"},{"mode":"VIEW","source":"col1","dir":"->","target":"col1"},{"mode":"VIEW","source":"col4","dir":"->","target":"col4"}]}

@@ -1,0 +1,11 @@
+{
+	"TFMCatalog": {
+		"label": {
+			"": "TFMCatalog"
+		},
+		"className": "com.asg.dis.platform.connect.dom.SqlgArea",
+		"configuration": {
+			"schema": "TFMCatalog"
+		}
+	}
+}

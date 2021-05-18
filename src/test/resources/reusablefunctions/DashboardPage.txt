@@ -1,0 +1,78 @@
+For the new UI in 10.3,Few methods in Dashboard(includes Header, left navigation Sidebar, License page, profile settings page, item view page and Welcome page)
+
+DASHBOARD PAGE
+---------------
+Feature Step:
+
+Method to perform all type of actions in Header (includes enter text, click and verification)
+1.	And user "click" on "AGREE" button in "License page" - Method to verify presence and click any button or any link
+2.	And user performs following actions in the header  (dataTable)
+    | actionType | actionItem |
+    | verifies displayed | Search Cross button |
+
+Method to perform all type of actions in Left side bar(includes enter text, click and verification)
+4.	And user performs following actions in the sidebar (dataTable)
+    | actionType | actionItem |
+    | verifies displayed | Settings Icon |
+
+Method to verify presence and click any button or any link in Manage Data Sources page
+5.	And user "enters text" in Manage DataSource page  (dataTable)
+    | TextBox | Text |
+    | Search Area | Customer |
+
+Method to select dropdown and enter text in Add data source page
+6. And user "select dropdown" in Add Data Source Page
+| fieldName  | attribute      |
+| Credential | Add credential |
+
+Method to select dropdown in Profile setting page
+7.     And user "select dropdown" in Profile Setting Page
+         | fieldName    | option                |
+         | Default View | Manage Configurations |
+
+Method to perform various operations in header including exnter text, verify presence and absence
+8.    And user performs following actions in the header
+        | actionType | actionItem    |
+        | click      | Profile Image |
+
+Method to validate the element presence in list in Manage Data Sources page
+    And user "verifies presence" of following "DataSource all are same" in "Manage DataSource" page
+      | GitCollector |
+
+Method to validate the element presence in list in Manage Credentials page
+    And user "verifies presence" of following "Credentials all are same" in "Manage Credentials" page
+      | GitCollector |
+
+Method to validate the error messages for the fields(DataTable)
+11. user verifies the validation message is displayed under the configuration fields
+
+Method to verify the elements in credentials page
+    And user "verifies presence" of following "credentials List" in "Manage credentials" page
+         | TestCredential1 |
+
+Method to verify background colors of the page
+13. And user verifies the background color of the page
+          | StyleType        | ColorCode              | Page                  |
+          | background-color | rgba(255, 255, 255, 1) | Manage Credentials |
+
+Method to perform dropdown select and enter text in Manage Credentials page
+14.     And user does "select dropdown" in Manage Credentials page
+          | fieldName | actionItem        |
+          | Type      | Username/Password |
+
+Method to enter text field in Save Search page
+15. And user "enter text" in the Save Search Page
+      | fieldName   | attribute                    |
+      | Name        | BBigData & Business Glossary |
+      | Description | MultiItems Search            |
+
+Method to Select & Run / Select & Delete search from search list in Saved Search & Recent Search pages
+16. And user "click" on "Run" button in "Run Saved Search page"
+17. And user "click" on "DELETE SAVED SEARCH" button in "Run Saved Search page"
+18.And user "click" on "Sort Icon" button in "Item View"
+19. And user "verifies sorting order" of following "FirstColumn are in ascending order" in "Item View" page
+         |  |
+20. And user "click" on "Data Sample" tab in Item view page
+21. And user "click" on "FirstColumn" tab in Item view page
+22. Then user verifies "Create" menu is "not displayed" in the left menu.
+

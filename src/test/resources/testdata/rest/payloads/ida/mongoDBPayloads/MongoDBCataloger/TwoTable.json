@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MongoDBCataloger_FilterTable",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "MongoDBCataloger"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "FilterTable"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "MongoDBDataSource_valid",
+      "credential": "MongoDBValidCredential",
+      "businessApplicationName": "MONGODB_BA",
+      "dryRun": false,
+      "filter": null,
+      "tables": [
+        {
+          "table": "Table1"
+        },
+        {
+          "table": "Table2"
+        }
+      ],
+      "pluginName": "MongoDBCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

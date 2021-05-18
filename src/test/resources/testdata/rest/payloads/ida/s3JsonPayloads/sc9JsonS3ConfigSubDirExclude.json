@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JsonS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "S3JsonATSC9",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 1000,
+      "filter": null,
+      "amazonAuth": {
+        "region": "us-east-1",
+        "accessKey": "AKIAINAOWUOY4OZA72JA",
+        "secretKey": "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"
+      },
+      "options": {
+        "incremental": false,
+        "mode": "files",
+        "keepEmptyFolders": false,
+        "maxObjectsAmount": 1000
+      },
+      "bucketFilter": {
+        "patterns": [
+          "asgqatestautomation"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/AutoTestData"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/TestJSON/JsonInternal/*"
+            ],
+            "mode": "EXCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

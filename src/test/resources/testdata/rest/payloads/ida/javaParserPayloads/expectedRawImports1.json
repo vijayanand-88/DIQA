@@ -1,0 +1,126 @@
+[
+  {
+    "name": "java.util.Properties",
+    "start": {
+      "lineNumber": 3,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 3,
+      "position": 29
+    }
+  },
+  {
+    "name": "org.apache.spark.sql.Dataset",
+    "start": {
+      "lineNumber": 5,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 5,
+      "position": 37
+    }
+  },
+  {
+    "name": "org.apache.spark.sql.Row",
+    "start": {
+      "lineNumber": 6,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 6,
+      "position": 33
+    }
+  },
+  {
+    "name": "org.apache.spark.sql.SparkSession",
+    "start": {
+      "lineNumber": 7,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 7,
+      "position": 42
+    }
+  },
+  {
+    "name": "org.apache.spark.sql.Encoders",
+    "start": {
+      "lineNumber": 8,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 8,
+      "position": 38
+    }
+  },
+  {
+    "name": "org.apache.spark.SparkConf",
+    "start": {
+      "lineNumber": 10,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 10,
+      "position": 35
+    }
+  },
+  {
+    "name": "org.apache.spark.api.java.JavaRDD",
+    "start": {
+      "lineNumber": 11,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 11,
+      "position": 42
+    }
+  },
+  {
+    "name": "org.apache.spark.api.java.JavaSparkContext",
+    "start": {
+      "lineNumber": 12,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 12,
+      "position": 51
+    }
+  },
+  {
+    "name": "org.apache.spark.rdd.RDD",
+    "start": {
+      "lineNumber": 13,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 13,
+      "position": 33
+    }
+  },
+  {
+    "name": "org.apache.spark.SparkContext",
+    "start": {
+      "lineNumber": 14,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 14,
+      "position": 38
+    }
+  },
+  {
+    "name": "java.util.List",
+    "start": {
+      "lineNumber": 18,
+      "position": 1
+    },
+    "stop": {
+      "lineNumber": 18,
+      "position": 23
+    }
+  },
+  {
+    "name": "java.lang.String"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaRedshiftLineage",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaRedshiftLineage"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagRedshiftCsvDryRunTrue"],
+      "businessApplicationName": "test_BA_JavaRedshiftLineage",
+      "dryRun": true,
+      "pluginType": "lineage",
+      "filter": null
+    }
+  ]
+}

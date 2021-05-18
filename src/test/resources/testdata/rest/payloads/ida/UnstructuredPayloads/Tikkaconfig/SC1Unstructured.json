@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Unstructured",
+      "label": {
+        "": "Unstructured Data Analyzer Config",
+        "en": "Unstructured Data Analyzer Config"
+      },
+      "catalogName": "SC1TIKKACATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "unstructuredBehavior": "UNPARSED",
+      "overrides": []
+    }
+  ]
+}

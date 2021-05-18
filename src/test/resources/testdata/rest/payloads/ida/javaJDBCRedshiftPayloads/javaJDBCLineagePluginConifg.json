@@ -1,0 +1,194 @@
+{
+  "RedShiftCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonRedshiftCatalogerJJR",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCRedshift"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AmazonRedshiftDataSourceJJR",
+    "credential": "ValidRedshiftDBCredentialsJJR",
+    "dryRun": false,
+    "filter": null,
+    "schemas": [
+      {
+        "schema": "empdb",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "properties": []
+  },
+  "GitCollector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollectorJJR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollectorJJR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCRedshift"
+    ],
+    "pluginType": "collector",
+    "dataSource": "GitCollectorDataSourceJJR",
+    "credential": "ValidGitCredentialsJJR",
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.Filter",
+          "label": null,
+          "tags": null,
+          "branch": "refs/heads/master"
+        }
+      ],
+      "deltaTime": "300",
+      "extraFilters": {
+        "filefilters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.FileFilter",
+            "label": {
+              "": "Filter1"
+            },
+            "fileMode": "include",
+            "objectType": "folder",
+            "expressionType": "simple",
+            "expressions": [
+              "**javajdbclineage/redshift**"
+            ]
+          }
+        ]
+      },
+      "maxHits": null
+    },
+    "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+    "dryRun": false
+  },
+  "JavaParser": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaParserJJR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaParserJJR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "filter": null,
+    "tags": [
+      "tag_JavaJDBCRedshift"
+    ],
+    "pluginType": "parser",
+    "pluginName": "JavaParser",
+    "dryRun": false
+  },
+  "JavaLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaLinkerJJR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaLinkerJJR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCRedshift"
+    ],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "JavaLinker",
+    "type": "Linker"
+  },
+  "JavaIOLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaIOLinkerJJR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaIOLinkerJJR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCRedshift"
+    ],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "JavaIOLinker",
+    "type": "Linker"
+  },
+  "JavaJDBCLineageDryRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaJDBCLineageJJRDryRun",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaJDBCLineageJJRDryRun"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCRedshift"
+    ],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": true,
+    "filter": null,
+    "pluginName": "JavaJDBCLineage",
+    "type": "Lineage"
+  },
+  "JavaJDBCLineageActualRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaJDBCLineageJJR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaJDBCLineageJJR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCRedshift"
+    ],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_JavaJDBCRedshift",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "JavaJDBCLineage",
+    "type": "Lineage"
+  }
+}

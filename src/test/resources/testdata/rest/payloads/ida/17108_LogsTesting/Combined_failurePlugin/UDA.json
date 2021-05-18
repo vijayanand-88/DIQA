@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "UDA",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "IDALogs",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UnstructuredDataAnalyzer",
+      "unstructuredBehavior": "UNPARSED",
+      "overrides": [
+        {
+          "detected": "application/x-sh",
+          "extension": "py",
+          "mime": "text/x-python"
+        },
+        {
+          "detected": "text/troff",
+          "extension": "py",
+          "mime": "text/x-python"
+        },
+        {
+          "detected": "text/html",
+          "extension": "java",
+          "mime": "text/x-java-source"
+        }
+      ],
+      "type": "Dataanalyzer"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveQueryParser",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": ["HiveQueryParserTag1"],
+      "pluginType": "parser",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "HiveQueryParser_BA",
+      "dryRun": true,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "HiveQueryParser",
+      "type": "Parser"
+    }
+  ]
+}

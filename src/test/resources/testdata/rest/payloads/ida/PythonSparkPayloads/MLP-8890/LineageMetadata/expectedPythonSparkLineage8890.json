@@ -1,0 +1,52 @@
+{
+  "filetodir": {
+    "peopleDF2 => \/python\/studentTarget": {
+      "mode": "COPY",
+      "lineageFrom": "peopleDF2",
+      "targetLocation": "\\\/python\\\/studentTarget",
+      "lineageTo": "part-r-00000.json"
+    },
+    "peopleDF => \/python\/peopleTarget": {
+      "mode": "COPY",
+      "lineageFrom": "peopleDF",
+      "targetLocation": "\\\/python\\\/peopleTarget",
+      "lineageTo": "part-r-00000.json"
+    },
+    "people.json => peopleDF": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/python\\\/sourceVJ01",
+      "lineageFrom": "people.json",
+      "lineageTo": "peopleDF"
+    },
+    "peopleDF1 => \/python\/shapesTarget1": {
+      "mode": "COPY",
+      "lineageFrom": "peopleDF1",
+      "targetLocation": "\\\/python\\\/shapesTarget1",
+      "lineageTo": "part-r-00000.json"
+    },
+    "shapes.orc => peopleDF1": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/python\\\/sourceVJ01",
+      "lineageFrom": "shapes.orc",
+      "lineageTo": "peopleDF1"
+    },
+    "shapes.orc => peopleDF2": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/python\\\/sourceVJ01",
+      "lineageFrom": "shapes.orc",
+      "lineageTo": "peopleDF2"
+    },
+    "peopleDF => \/python\/peopleTarget1": {
+      "mode": "COPY",
+      "lineageFrom": "peopleDF",
+      "targetLocation": "\\\/python\\\/peopleTarget1",
+      "lineageTo": "part-r-00000.orc"
+    },
+    "peopleDF1 => \/python\/shapesTarget": {
+      "mode": "COPY",
+      "lineageFrom": "peopleDF1",
+      "targetLocation": "\\\/python\\\/shapesTarget",
+      "lineageTo": "part-r-00000.orc"
+    }
+  }
+}

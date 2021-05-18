@@ -1,0 +1,95 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Neo4jCatalogerCommunityEdition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Neo4j CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "repositoryPass": "Neo4JDB",
+      "repositoryUser": "neo4j",
+      "Sample Data Limit": "10",
+      "repositoryURL": "bolt://10.50.205.46:7687"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Neo4jCatalogerCommunityEditionWithInvalidUsername",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Neo4j CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "repositoryPass": "Neo4JDB",
+      "repositoryUser": "neo4juser",
+      "Sample Data Limit": "10",
+      "repositoryURL": "bolt://10.50.205.46:7687"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Neo4jCatalogerCommunityEditionWithInvalidPassword",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Neo4j CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "repositoryPass": "Neo4JDBBBB",
+      "repositoryUser": "neo4j",
+      "Sample Data Limit": "10",
+      "repositoryURL": "bolt://10.50.205.46:7687"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Neo4jCatalogerCommunityWithInvalidHostURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Neo4j CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "repositoryPass": "Neo4JDB",
+      "repositoryUser": "neo4j",
+      "Sample Data Limit": "10",
+      "repositoryURL": "bolt://10.00.205.46:7687"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Neo4jCatalogerCommunityEditionWithNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Neo4j CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "filter": null,
+      "repositoryPass": "Neo4JDB",
+      "repositoryUser": "neo4j",
+      "Sample Data Limit": "10",
+      "repositoryURL": "bolt://10.50.205.46:7687"
+    }
+  ]
+}

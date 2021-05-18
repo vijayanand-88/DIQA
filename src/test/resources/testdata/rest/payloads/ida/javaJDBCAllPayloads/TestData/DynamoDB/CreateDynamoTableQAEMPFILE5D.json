@@ -1,0 +1,29 @@
+{
+  "TableName": "QAEMPFILE5D",
+  "KeySchema": [
+    {
+      "AttributeName": "FNAME",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "LNAME",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "FNAME",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "LNAME",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

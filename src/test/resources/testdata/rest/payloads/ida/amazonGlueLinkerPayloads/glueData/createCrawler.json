@@ -1,0 +1,44 @@
+{
+  "Classifiers": [ "string" ],
+  "Configuration": "string",
+  "CrawlerSecurityConfiguration": "string",
+  "DatabaseName": "qagluelinkerdatabase",
+  "Description": "string",
+  "Name": "automationcrawler",
+  "Role": "AWSSeviceRoleForGlue",
+  "Schedule": "string",
+  "SchemaChangePolicy": {
+    "DeleteBehavior": "string",
+    "UpdateBehavior": "string"
+  },
+  "TablePrefix": "automation",
+  "Tags": {
+    "string" : "string"
+  },
+  "Targets": {
+    "CatalogTargets": [
+      {
+        "DatabaseName": "string",
+        "Tables": [ "string" ]
+      }
+    ],
+    "DynamoDBTargets": [
+      {
+        "Path": null
+      }
+    ],
+    "JdbcTargets": [
+      {
+        "ConnectionName": "gwRedshiftCluster",
+        "Exclusions": [ "string" ],
+        "Path": "world/schematest/customers"
+      }
+    ],
+    "S3Targets": [
+      {
+        "Exclusions": [ "string" ],
+        "Path": null
+      }
+    ]
+  }
+}

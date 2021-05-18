@@ -1,0 +1,19 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 122,
+      "value" : "Operation"
+    }, {
+      "count" : 15,
+      "value" : "Analysis"
+    }, {
+      "count" : 3,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

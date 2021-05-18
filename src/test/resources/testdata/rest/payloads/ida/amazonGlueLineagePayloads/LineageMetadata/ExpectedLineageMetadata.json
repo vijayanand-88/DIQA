@@ -1,0 +1,4232 @@
+{
+  "QATest1": {
+    "dropnullfields3.fare => Targetdata1A": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Targetdata1A"
+    },
+    "resolvechoice2.age => dropnullfields3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.ticket => resolvechoice2.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "dropnullfields3.fare => Targetdata1B": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Targetdata1B"
+    },
+    "datasource0.fare => resolvechoice2.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "dropnullfields3.age => Targetdata1A": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "Targetdata1A"
+    },
+    "resolvechoice2.fare => dropnullfields3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "resolvechoice2.passengerid => dropnullfields3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "dropnullfields3.passengerid => Targetdata1B": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "Targetdata1B"
+    },
+    "dropnullfields3.ticket => Targetdata1A": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Targetdata1A"
+    },
+    "train_sm_s2adb_csv.fare => datasource0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "dropnullfields3.ticket => Targetdata1B": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Targetdata1B"
+    },
+    "dropnullfields3.passengerid => Targetdata1A": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "Targetdata1A"
+    },
+    "train_sm_s2adb_csv.age => datasource0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.age => resolvechoice2.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "train_sm_s2adb_csv.ticket => datasource0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "resolvechoice2.ticket => dropnullfields3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.passengerid => resolvechoice2.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.passengerid => datasource0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "dropnullfields3.age => Targetdata1B": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "Targetdata1B"
+    }
+  },
+  "QATest3": {
+    "train_sm_s2adb_csv.ticket => datasource0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "resolvechoice2.age => dropnullfields3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.ticket => resolvechoice2.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "resolvechoice2.ticket => dropnullfields3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.passengerid => resolvechoice2.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "datasource0.fare => resolvechoice2.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "resolvechoice2.fare => dropnullfields3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv.passengerid => datasource0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "resolvechoice2.passengerid => dropnullfields3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.fare => datasource0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv.age => datasource0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.age => resolvechoice2.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    }
+  },
+  "QATest211": {
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "rc1.ticket => gluetable211.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv.fare => ds0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "rc1.ticket => Targetdata211": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Targetdata211"
+    },
+    "ds0.fare => rc1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "rc1.fare => Targetdata211": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Targetdata211"
+    },
+    "rc1.fare => gluetable211.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "rc1.age => gluetable211.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "rc1.passengerid => gluetable211.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "rc1.passengerid => Targetdata211": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "Targetdata211"
+    },
+    "ds0.ticket => rc1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds0.age => rc1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds0.passengerid => rc1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.ticket => ds0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "rc1.age => Targetdata211": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "Targetdata211"
+    },
+    "train_sm_s2adb_csv.age => ds0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    }
+  },
+  "QATest212": {
+    "rc1.passengerid => gluetable212a.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.fare => ds0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "rc1.age => GLUETABLE212B.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "AGE"
+    },
+    "rc1.fare => GLUETABLE212B.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "FARE"
+    },
+    "rc1.ticket => gluetable212a.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "rc1.ticket => GLUETABLE212B.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "TICKET"
+    },
+    "ds0.fare => rc1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "rc1.passengerid => GLUETABLE212B.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "PASSENGERID"
+    },
+    "ds0.ticket => rc1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds0.age => rc1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "rc1.age => gluetable212a.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds0.passengerid => rc1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "rc1.fare => gluetable212a.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv.ticket => ds0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv.age => ds0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    }
+  },
+  "QATest213": {
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv_temp1.age => ds4.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "AGE"
+    },
+    "ds5.FARE => Targetdata213": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "Targetdata213"
+    },
+    "ds0.ticket => ds3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds5.PASSENGERID => Targetdata213": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "Targetdata213"
+    },
+    "train_sm_s2adb_csv.fare => ds0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds4.FARE => ds5.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "FARE"
+    },
+    "ds3.fare => train_sm_s2adb_csv_temp1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds0.age => ds3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds3.ticket => train_sm_s2adb_csv_temp1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv_temp1.passengerid => ds4.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "PASSENGERID"
+    },
+    "train_sm_s2adb_csv_temp1.fare => ds4.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "FARE"
+    },
+    "ds5.AGE => Targetdata213": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "Targetdata213"
+    },
+    "ds3.passengerid => train_sm_s2adb_csv_temp1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv_temp1.ticket => ds4.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "TICKET"
+    },
+    "ds0.fare => ds3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds5.TICKET => Targetdata213": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "Targetdata213"
+    },
+    "ds4.TICKET => ds5.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "TICKET"
+    },
+    "ds0.passengerid => ds3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "ds4.PASSENGERID => ds5.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "PASSENGERID"
+    },
+    "train_sm_s2adb_csv.ticket => ds0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds3.age => train_sm_s2adb_csv_temp1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "train_sm_s2adb_csv.age => ds0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds4.AGE => ds5.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    }
+  },
+  "QATest214": {
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv_temp.fare => ds4.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "FARE"
+    },
+    "ds5.PASSENGERID => Targetdata214": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "Targetdata214"
+    },
+    "train_sm_s2adb_csv.fare => ds0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv_temp.age => ds4.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "AGE"
+    },
+    "ds3.fare => train_sm_s2adb_csv_temp.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv_temp.ticket => ds4.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "TICKET"
+    },
+    "ds0.fare => ds3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds5.TICKET => Targetdata214": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "Targetdata214"
+    },
+    "train_sm_s2adb_csv_temp.passengerid => ds4.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "PASSENGERID"
+    },
+    "ds0.passengerid => ds3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "ds3.ticket => train_sm_s2adb_csv_temp.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv.ticket => ds0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds5.PASSENGERID => gluetable214.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "passengerid"
+    },
+    "ds0.ticket => ds3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds5.FARE => gluetable214.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "fare"
+    },
+    "ds5.FARE => Targetdata214": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "Targetdata214"
+    },
+    "ds4.FARE => ds5.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "FARE"
+    },
+    "ds3.passengerid => train_sm_s2adb_csv_temp.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "ds0.age => ds3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds5.TICKET => gluetable214.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "ticket"
+    },
+    "ds5.AGE => gluetable214.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "age"
+    },
+    "ds5.AGE => Targetdata214": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "Targetdata214"
+    },
+    "ds4.TICKET => ds5.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "TICKET"
+    },
+    "ds4.PASSENGERID => ds5.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "PASSENGERID"
+    },
+    "ds3.age => train_sm_s2adb_csv_temp.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "train_sm_s2adb_csv.age => ds0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds4.AGE => ds5.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    }
+  },
+  "QATest215": {
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "ds0.ticket => ds3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv_temp.fare => ds4.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "FARE"
+    },
+    "train_sm_s2adb_csv.fare => ds0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds4.FARE => ds5.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "FARE"
+    },
+    "ds3.passengerid => train_sm_s2adb_csv_temp.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv_temp.age => ds4.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "AGE"
+    },
+    "ds3.fare => train_sm_s2adb_csv_temp.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds0.age => ds3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "train_sm_s2adb_csv_temp.ticket => ds4.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "TICKET"
+    },
+    "ds0.fare => ds3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds4.TICKET => ds5.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "TICKET"
+    },
+    "train_sm_s2adb_csv_temp.passengerid => ds4.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "PASSENGERID"
+    },
+    "ds0.passengerid => ds3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "ds3.ticket => train_sm_s2adb_csv_temp.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv.ticket => ds0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds4.PASSENGERID => ds5.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "PASSENGERID"
+    },
+    "ds3.age => train_sm_s2adb_csv_temp.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds4.AGE => ds5.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "train_sm_s2adb_csv.age => ds0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    }
+  },
+  "AutoGlueLineage311Job": {
+    "resolvechoice2.age => dropnullfields3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.ticket => resolvechoice2.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.fare => resolvechoice2.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "resolvechoice2.fare => dropnullfields3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "resolvechoice2.passengerid => dropnullfields3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "dropnullfields3.age => Targetdata311A": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "Targetdata311A"
+    },
+    "train_sm_s2adb_csv.fare => datasource0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "dropnullfields3.age => Targetdata311B": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "Targetdata311B"
+    },
+    "train_sm_s2adb_csv.age => datasource0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.age => resolvechoice2.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "train_sm_s2adb_csv.ticket => datasource0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "resolvechoice2.ticket => dropnullfields3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "dropnullfields3.fare => Targetdata311A": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Targetdata311A"
+    },
+    "datasource0.passengerid => resolvechoice2.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "dropnullfields3.fare => Targetdata311B": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Targetdata311B"
+    },
+    "train_sm_s2adb_csv.passengerid => datasource0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "dropnullfields3.ticket => Targetdata311A": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Targetdata311A"
+    },
+    "dropnullfields3.ticket => Targetdata311B": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Targetdata311B"
+    },
+    "dropnullfields3.passengerid => Targetdata311B": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "Targetdata311B"
+    },
+    "dropnullfields3.passengerid => Targetdata311A": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "Targetdata311A"
+    }
+  },
+  "AutoGlueLineage312Job": {
+    "ds5.TICKET => gluetable312.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "ds5.PASSENGERID => Targetdata312": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "Targetdata312"
+    },
+    "train_sm_s2adb_csv.fare => ds0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv_temp2.fare => ds4.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "FARE"
+    },
+    "ds5.PASSENGERID => gluetable312.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "passengerid"
+    },
+    "ds3.ticket => train_sm_s2adb_csv_temp2.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds5.FARE => gluetable312.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "fare"
+    },
+    "ds3.age => train_sm_s2adb_csv_temp2.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds3.passengerid => train_sm_s2adb_csv_temp2.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "ds5.TICKET => Targetdata312": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "Targetdata312"
+    },
+    "ds0.fare => ds3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds3.fare => train_sm_s2adb_csv_temp2.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds0.passengerid => ds3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.ticket => ds0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv_temp2.passengerid => ds4.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "PASSENGERID"
+    },
+    "ds5.FARE => Targetdata312": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "Targetdata312"
+    },
+    "ds0.ticket => ds3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds4.FARE => ds5.FARE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FARE",
+      "lineageTo": "FARE"
+    },
+    "ds0.age => ds3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds5.AGE => Targetdata312": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "Targetdata312"
+    },
+    "train_sm_s2adb_csv_temp2.age => ds4.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "AGE"
+    },
+    "ds4.TICKET => ds5.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "TICKET",
+      "lineageTo": "TICKET"
+    },
+    "ds5.AGE => gluetable312.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "age"
+    },
+    "ds4.PASSENGERID => ds5.PASSENGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PASSENGERID",
+      "lineageTo": "PASSENGERID"
+    },
+    "train_sm_s2adb_csv_temp2.ticket => ds4.TICKET": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "TICKET"
+    },
+    "train_sm_s2adb_csv.age => ds0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "ds4.AGE => ds5.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    }
+  },
+  "AutoGlueLineage411Job": {
+    "resolvechoice3.passengerid => gluetargett1_csv.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "resolvechoice3.fare => gluetargett12_csv.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.passengerid => applymapping1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.fare => datasource0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv.age => datasource0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "resolvechoice3.age => gluetargett1_csv.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "resolvechoice3.age => gluetargett12_csv.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.age => applymapping1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "train_sm_s2adb_csv.ticket => datasource0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "applymapping1.fare => resolvechoice3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "resolvechoice3.fare => gluetargett1_csv.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "resolvechoice3.ticket => gluetargett12_csv.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "resolvechoice3.passengerid => gluetargett12_csv.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.passengerid => datasource0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "resolvechoice3.ticket => gluetargett1_csv.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "applymapping1.passengerid => resolvechoice3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "applymapping1.ticket => resolvechoice3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.fare => applymapping1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "applymapping1.age => resolvechoice3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.ticket => applymapping1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    }
+  },
+  "AutoGlueLineage412Job": {
+    "resolvechoice3.ticket => gluetargett2_csv.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.passengerid => applymapping1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "resolvechoice3.age => gluetable412.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "train_sm_s2adb_csv.fare => datasource0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "resolvechoice3.fare => gluetargett2_csv.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv.age => datasource0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "resolvechoice3.age => gluetargett2_csv.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.age => applymapping1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "resolvechoice3.fare => gluetable412.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv.ticket => datasource0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "applymapping1.fare => resolvechoice3.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "resolvechoice3.ticket => Targetdata412": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Targetdata412"
+    },
+    "resolvechoice3.age => Targetdata412": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "Targetdata412"
+    },
+    "train_sm_s2adb_csv.passengerid => datasource0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "applymapping1.passengerid => resolvechoice3.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "applymapping1.ticket => resolvechoice3.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "resolvechoice3.passengerid => gluetargett2_csv.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "resolvechoice3.ticket => gluetable412.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "resolvechoice3.passengerid => gluetable412.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "datasource0.fare => applymapping1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "applymapping1.age => resolvechoice3.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.ticket => applymapping1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "resolvechoice3.passengerid => Targetdata412": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "Targetdata412"
+    },
+    "resolvechoice3.fare => Targetdata412": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Targetdata412"
+    }
+  },
+  "AutoGlueLineage511Job": {
+    "fruits_table.id => fruits.id": {
+      "mode": "COPY",
+      "lineageFrom": "id",
+      "lineageTo": "id"
+    },
+    "fruits.pname => fruits_and_brands1.pname": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "pname",
+      "lineageTo": "pname"
+    },
+    "company.company profit => true_company.company profit": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "company profit",
+      "lineageTo": "company profit"
+    },
+    "fruits_and_brands1.brand => FruitsAndBrands": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "brand",
+      "lineageTo": "FruitsAndBrands"
+    },
+    "company.id1 => true_company.id": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "id1",
+      "lineageTo": "id"
+    },
+    "true_company.serving since => TrueCompany": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "serving since",
+      "lineageTo": "TrueCompany"
+    },
+    "brands.brand => fruits_and_brands1.brand": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "brand",
+      "lineageTo": "brand"
+    },
+    "company_table.company profit => company.company profit": {
+      "mode": "COPY",
+      "lineageFrom": "company profit",
+      "lineageTo": "company profit"
+    },
+    "fruits_and_brands1.origin => FruitsAndBrands": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "origin",
+      "lineageTo": "FruitsAndBrands"
+    },
+    "true_company.company profit => TrueCompany": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "company profit",
+      "lineageTo": "TrueCompany"
+    },
+    "company.serving since => true_company.serving since": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "serving since",
+      "lineageTo": "serving since"
+    },
+    "brands.id => fruits_and_brands1..id": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "id",
+      "lineageTo": ".id"
+    },
+    "fruits_and_brands1.id => FruitsAndBrands": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "id",
+      "lineageTo": "FruitsAndBrands"
+    },
+    "fruits_and_brands1..id => FruitsAndBrands": {
+      "mode": "TRANSFORM",
+      "lineageFrom": ".id",
+      "lineageTo": "FruitsAndBrands"
+    },
+    "fruits_and_brands1.office address => FruitsAndBrands": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "office address",
+      "lineageTo": "FruitsAndBrands"
+    },
+    "fruits.origin => fruits_and_brands1.origin": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "origin",
+      "lineageTo": "origin"
+    },
+    "fruits_and_brands1.pname => FruitsAndBrands": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "pname",
+      "lineageTo": "FruitsAndBrands"
+    },
+    "brands_table.brand => brands.brand": {
+      "mode": "COPY",
+      "lineageFrom": "brand",
+      "lineageTo": "brand"
+    },
+    "company_table.id1 => company.id1": {
+      "mode": "COPY",
+      "lineageFrom": "id1",
+      "lineageTo": "id1"
+    },
+    "fruits_table.origin => fruits.origin": {
+      "mode": "COPY",
+      "lineageFrom": "origin",
+      "lineageTo": "origin"
+    },
+    "brands_table.office address => brands.office address": {
+      "mode": "COPY",
+      "lineageFrom": "office address",
+      "lineageTo": "office address"
+    },
+    "brands.office address => fruits_and_brands1.office address": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "office address",
+      "lineageTo": "office address"
+    },
+    "brands_table.id => brands.id": {
+      "mode": "COPY",
+      "lineageFrom": "id",
+      "lineageTo": "id"
+    },
+    "fruits_table.pname => fruits.pname": {
+      "mode": "COPY",
+      "lineageFrom": "pname",
+      "lineageTo": "pname"
+    },
+    "company_table.serving since => company.serving since": {
+      "mode": "COPY",
+      "lineageFrom": "serving since",
+      "lineageTo": "serving since"
+    },
+    "true_company.id => TrueCompany": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "id",
+      "lineageTo": "TrueCompany"
+    },
+    "fruits.id => fruits_and_brands1.id": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "id",
+      "lineageTo": "id"
+    }
+  },
+  "AutoGlueLineage512Job": {
+    "titanic_table.ticket => frame.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "titanic.city => titanic1.city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "titanic_table.age => frame.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "titanic2.sex => Titanic2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "Titanic2"
+    },
+    "titanic_table.ticket => titanic.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "titanic2.passid => Titanic2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passid",
+      "lineageTo": "Titanic2"
+    },
+    "titanic1.city => titanic2.city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "titanic_table.passengerid => titanic.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "titanic1.age => titanic2.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "titanic1.ticket => titanic2.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "titanic1.passid => titanic2.passid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passid",
+      "lineageTo": "passid"
+    },
+    "titanic_table.city => titanic.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "titanic.age => titanic1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "titanic.sex => titanic1.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "titanic_table.sex => titanic.sex": {
+      "mode": "COPY",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "titanic_table.fare => frame.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "titanic.fare => titanic1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "titanic2.city => Titanic2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "Titanic2"
+    },
+    "titanic2.faredollars => Titanic2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "faredollars",
+      "lineageTo": "Titanic2"
+    },
+    "titanic_table.city => frame.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "titanic_table.fare => titanic.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "titanic_table.sex => frame.sex": {
+      "mode": "COPY",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "titanic1.sex => titanic2.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "titanic2.ticket => Titanic2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Titanic2"
+    },
+    "titanic.ticket => titanic1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "titanic1.fare => titanic2.faredollars": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "faredollars"
+    },
+    "titanic2.age => Titanic2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "Titanic2"
+    },
+    "titanic_table.passengerid => frame.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "titanic.passengerid => titanic1.passid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passid"
+    },
+    "titanic_table.age => titanic.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    }
+  },
+  "AutoGlueLineage611Job": {
+    "datasource0.city => applymapping2.city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "applymapping1.ticket => AppMap1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "AppMap1Op"
+    },
+    "dropfields1.ticket => dropfields2.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "selectfields1.sex => Select1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "Select1Op"
+    },
+    "applymapping2.city => AppMap2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "AppMap2Op"
+    },
+    "applymapping2.sex1 => AppMap2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex1",
+      "lineageTo": "AppMap2Op"
+    },
+    "datasource0.city => dropfields1.city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "datasource0.fare => selectfields1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.sex => applymapping1.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "datasource0.ticket => dropfields1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.ticket => selectfields1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "titanic611table.age => datasource0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "applymapping2.age1 => AppMap2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age1",
+      "lineageTo": "AppMap2Op"
+    },
+    "dropfields2.ticket => Drop2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Drop2Op"
+    },
+    "selectfields1.fare => Select1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Select1Op"
+    },
+    "dropfields1.city => Drop1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "Drop1Op"
+    },
+    "titanic611table.fare => datasource0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.passengerid => applymapping1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "applymapping1.fare => AppMap1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "AppMap1Op"
+    },
+    "applymapping2.fare1 => AppMap2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare1",
+      "lineageTo": "AppMap2Op"
+    },
+    "dropfields2.fare => Drop2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Drop2Op"
+    },
+    "applymapping1.sex => AppMap1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "AppMap1Op"
+    },
+    "dropfields1.ticket => Drop1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Drop1Op"
+    },
+    "applymapping1.age => AppMap1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "AppMap1Op"
+    },
+    "datasource0.fare => dropfields1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "applymapping1.city => AppMap1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "AppMap1Op"
+    },
+    "datasource0.sex => applymapping2.sex1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex1"
+    },
+    "datasource0.sex => dropfields1.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "titanic611table.city => datasource0.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "datasource0.passengerid => applymapping2.passengerid1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid1"
+    },
+    "titanic611table.sex => datasource0.sex": {
+      "mode": "COPY",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "dropfields1.sex => dropfields2.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "selectfields2.ticket => Select2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Select2Op"
+    },
+    "dropfields1.fare => Drop1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "Drop1Op"
+    },
+    "dropfields2.sex => Drop2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "Drop2Op"
+    },
+    "titanic611table.passengerid => datasource0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "applymapping1.passengerid => AppMap1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "AppMap1Op"
+    },
+    "titanic611table.ticket => datasource0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.age => applymapping1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.ticket => applymapping2.ticket1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket1"
+    },
+    "applymapping2.passengerid1 => AppMap2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid1",
+      "lineageTo": "AppMap2Op"
+    },
+    "dropfields1.sex => Drop1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "Drop1Op"
+    },
+    "selectfields1.ticket => Select1Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "Select1Op"
+    },
+    "datasource0.fare => applymapping2.fare1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare1"
+    },
+    "selectfields1.ticket => selectfields2.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.sex => selectfields1.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "datasource0.city => applymapping1.city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "datasource0.age => applymapping2.age1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age1"
+    },
+    "applymapping2.ticket1 => AppMap2Op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket1",
+      "lineageTo": "AppMap2Op"
+    },
+    "datasource0.fare => applymapping1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.ticket => applymapping1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "dropfields1.fare => dropfields2.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    }
+  },
+  "AutoGlueLineage612Job": {
+    "applymapping1.fare => dropfields1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "titanic611table.passengerid => datasource0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "datasource0.sex => applymapping1.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "titanic611table.ticket => datasource0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.age => applymapping1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "selectfields1.passengerid => gluetable6121.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "selectfields1.ticket => gluetable6121.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "titanic611table.age => datasource0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "selectfields1.ticket => gluetable612.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "dropfields1.ticket => selectfields1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "titanic611table.fare => datasource0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.passengerid => applymapping1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "applymapping1.ticket => dropfields1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.city => applymapping1.city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "selectfields1.age => gluetable6121.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "selectfields1.age => gluetable612.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "dropfields1.age => selectfields1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "applymapping1.age => dropfields1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "applymapping1.passengerid => dropfields1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "dropfields1.passengerid => selectfields1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "titanic611table.city => datasource0.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "titanic611table.sex => datasource0.sex": {
+      "mode": "COPY",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "selectfields1.passengerid => gluetable612.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "datasource0.fare => applymapping1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.ticket => applymapping1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    }
+  },
+  "AutoGlueLineage711Job": {
+    "split11.passengerid => split1_op1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "split1_op1"
+    },
+    "train_sm_s2adb_csv.age => datasource0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.ticket => split22.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "split11.age => split1_op1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "split1_op1"
+    },
+    "datasource0.passengerid => split21.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "split12.fare => split1_op1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "split1_op1"
+    },
+    "split12.age => split1_op1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "split1_op1"
+    },
+    "split12.ticket => split1_op1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "split1_op1"
+    },
+    "datasource0.age => split21.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.age => split12.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "split11.fare => split1_op1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "split1_op1"
+    },
+    "datasource0.fare => split21.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv.fare => datasource0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "split12.passengerid => split1_op1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "split1_op1"
+    },
+    "datasource0.fare => split12.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.age => split11.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.passengerid => split11.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.ticket => datasource0.ticket": {
+      "mode": "COPY",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.age => split22.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasource0.passengerid => split22.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "datasource0.ticket => split21.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "datasource0.passengerid => split12.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "datasource0.fare => split22.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.fare => split11.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "datasource0.ticket => split11.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv.passengerid => datasource0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "datasource0.ticket => split12.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "split11.ticket => split1_op1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "split1_op1"
+    }
+  },
+  "AutoGlueLineage811Job": {
+    "datasource0.count => filter31frame.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "datasource0.count => filter21frame.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "filter21frame.sex => filter21_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "filter21_op"
+    },
+    "filter21frame.citizen => filter21_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "filter21_op"
+    },
+    "datasource0.countState => filter31frame.countState": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countState",
+      "lineageTo": "countState"
+    },
+    "filter11frame.countState => filter11_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countState",
+      "lineageTo": "filter11_op"
+    },
+    "datasource0.count => filter11frame.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "filter11frame.sex => filter11_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "filter11_op"
+    },
+    "datasource0.sex => filter31frame.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "datasource0.type => filter11frame.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "filter21frame.type => filter21_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "filter21_op"
+    },
+    "AMSsurvey.csv.citizen => datasource0.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "AMSsurvey.csv.sex => datasource0.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "datasource0.nomber => filter21frame.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "filter11frame.citizen => filter11_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "filter11_op"
+    },
+    "datasource0.nomber => filter11frame.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "datasource0.sex => filter11frame.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "filter21frame.nomber => filter21_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "filter21_op"
+    },
+    "filter31frame.countState => filter31_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countState",
+      "lineageTo": "filter31_op"
+    },
+    "AMSsurvey.csv.count => datasource0.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "datasource0.citizen => filter21frame.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "datasource0.citizen => filter31frame.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "datasource0.type => filter21frame.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "AMSsurvey.csv.type => datasource0.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "filter31frame.citizen => filter31_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "filter31_op"
+    },
+    "filter31frame.nomber => filter31_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "filter31_op"
+    },
+    "datasource0.nomber => filter31frame.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "filter11frame.count => filter11_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "filter11_op"
+    },
+    "datasource0.countState => filter11frame.countState": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countState",
+      "lineageTo": "countState"
+    },
+    "filter21frame.count => filter21_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "filter21_op"
+    },
+    "filter31frame.count => filter31_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "filter31_op"
+    },
+    "filter31frame.type => filter31_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "filter31_op"
+    },
+    "datasource0.type => filter31frame.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "filter21frame.countState => filter21_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countState",
+      "lineageTo": "filter21_op"
+    },
+    "AMSsurvey.csv.countState => datasource0.countState": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countState",
+      "lineageTo": "countState"
+    },
+    "filter11frame.nomber => filter11_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "filter11_op"
+    },
+    "filter11frame.type => filter11_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "filter11_op"
+    },
+    "AMSsurvey.csv.nomber => datasource0.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "datasource0.sex => filter21frame.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "datasource0.citizen => filter11frame.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "datasource0.countState => filter21frame.countState": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countState",
+      "lineageTo": "countState"
+    },
+    "filter31frame.sex => filter31_op": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "filter31_op"
+    }
+  },
+  "AutoGlueLineage812Job": {
+    "aids1.csv.snno => datasource0.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "aids.csv.y => datasource0.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "aids.csv.quarter => datasource0.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "datasource0.snno => mapframe812.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "mapframe812.year => mapframe812OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "mapframe812OP"
+    },
+    "aids1.csv.delay => datasource0.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "datasource0.y => mapframe812.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "year"
+    },
+    "mapframe812.snno => mapframe812OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "mapframe812OP"
+    },
+    "aids1.csv.y => datasource0.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "aids.csv.dud => datasource0.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "aids.csv.year => datasource0.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "datasource0.year => mapframe812.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "aids.csv.time => datasource0.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "aids.csv.snno => datasource0.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "aids1.csv.dud => datasource0.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "aids1.csv.time => datasource0.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "aids.csv.delay => datasource0.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "aids1.csv.year => datasource0.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "aids1.csv.quarter => datasource0.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    }
+  },
+  "AutoGlueLineage813Job": {
+    "applymapping1.nomber => splitf12.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "selFromCol2f.nomber => selFromCol2Opf": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "selFromCol2Opf"
+    },
+    "datasource0.citizen => applymapping1.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "selFromCol1f.sex => selFromCol1Opf": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "selFromCol1Opf"
+    },
+    "selFromCol2f.citizen => selFromCol2Opf": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "selFromCol2Opf"
+    },
+    "splitf11.sex => selFromCol1f.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "datasource0.sex => applymapping1.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "applymapping1.count => splitf12.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "applymapping1.citizen => splitf12.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "datasource0.nomber => applymapping1.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "applymapping1.sex => splitf11.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "amssurvey.citizen => datasource0.citizen": {
+      "mode": "COPY",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "amssurvey.sex => datasource0.sex": {
+      "mode": "COPY",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "selFromCol2f.count => selFromCol2Opf": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "selFromCol2Opf"
+    },
+    "splitf12.nomber => selFromCol2f.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "splitf11.type => selFromCol1f.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "amssurvey.nomber => datasource0.nomber": {
+      "mode": "COPY",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "applymapping1.type => splitf11.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "datasource0.type => applymapping1.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "splitf12.citizen => selFromCol2f.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "datasource0.count => applymapping1.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "amssurvey.countstate => datasource0.countstate": {
+      "mode": "COPY",
+      "lineageFrom": "countstate",
+      "lineageTo": "countstate"
+    },
+    "selFromCol1f.countstate => selFromCol1Opf": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countstate",
+      "lineageTo": "selFromCol1Opf"
+    },
+    "amssurvey.type => datasource0.type": {
+      "mode": "COPY",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "applymapping1.countstate => splitf11.countstate": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countstate",
+      "lineageTo": "countstate"
+    },
+    "selFromCol1f.type => selFromCol1Opf": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "selFromCol1Opf"
+    },
+    "splitf11.countstate => selFromCol1f.countstate": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countstate",
+      "lineageTo": "countstate"
+    },
+    "amssurvey.count => datasource0.count": {
+      "mode": "COPY",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "datasource0.countstate => applymapping1.countstate": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countstate",
+      "lineageTo": "countstate"
+    },
+    "splitf12.count => selFromCol2f.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    }
+  },
+  "AutoGlueLineage814Job": {
+    "datasource0.citizen => applymapping1.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "applymapping1.sex => spigot1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "spigot1"
+    },
+    "applymapping1.sex => spigot1.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "spigot1.nomber => spigot3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "spigot3"
+    },
+    "applymapping1.citizen => spigot1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "spigot1"
+    },
+    "applymapping1.type => spigot1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "spigot1"
+    },
+    "datasource0.sex => applymapping1.sex": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "spigot1.type => spigot3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "spigot3"
+    },
+    "datasource0.nomber => applymapping1.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "amssurvey.citizen => datasource0.citizen": {
+      "mode": "COPY",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "amssurvey.sex => datasource0.sex": {
+      "mode": "COPY",
+      "lineageFrom": "sex",
+      "lineageTo": "sex"
+    },
+    "applymapping1.countstate => spigot1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countstate",
+      "lineageTo": "spigot1"
+    },
+    "applymapping1.citizen => spigot1.citizen": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "citizen"
+    },
+    "applymapping1.count => spigot1.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "applymapping1.nomber => spigot1.nomber": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "spigot1.sex => spigot3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "sex",
+      "lineageTo": "spigot3"
+    },
+    "spigot1.countstate => spigot3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countstate",
+      "lineageTo": "spigot3"
+    },
+    "amssurvey.nomber => datasource0.nomber": {
+      "mode": "COPY",
+      "lineageFrom": "nomber",
+      "lineageTo": "nomber"
+    },
+    "spigot1.count => spigot3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "spigot3"
+    },
+    "datasource0.type => applymapping1.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "applymapping1.count => spigot1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "spigot1"
+    },
+    "applymapping1.countstate => spigot1.countstate": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countstate",
+      "lineageTo": "countstate"
+    },
+    "applymapping1.type => spigot1.type": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "applymapping1.nomber => spigot1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "nomber",
+      "lineageTo": "spigot1"
+    },
+    "datasource0.count => applymapping1.count": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "amssurvey.countstate => datasource0.countstate": {
+      "mode": "COPY",
+      "lineageFrom": "countstate",
+      "lineageTo": "countstate"
+    },
+    "amssurvey.type => datasource0.type": {
+      "mode": "COPY",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "amssurvey.count => datasource0.count": {
+      "mode": "COPY",
+      "lineageFrom": "count",
+      "lineageTo": "count"
+    },
+    "datasource0.countstate => applymapping1.countstate": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "countstate",
+      "lineageTo": "countstate"
+    },
+    "spigot1.citizen => spigot3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "citizen",
+      "lineageTo": "spigot3"
+    }
+  },
+  "AutoGlueLineage815Job": {
+    "datasourceJson.delay => JsonOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "JsonOUTPUT"
+    },
+    "emp.csv._c4 => datasourceCSV.col4": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c4",
+      "lineageTo": "col4"
+    },
+    "AvroFile1.avro.timestamp => datasourceAvro.timestamp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "timestamp",
+      "lineageTo": "timestamp"
+    },
+    "emp.csv._c0 => datasourceCSV.col0": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c0",
+      "lineageTo": "col0"
+    },
+    "datasourceAvro.username => AvroOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "AvroOUTPUT"
+    },
+    "datasourceParquet.phone => ParquetOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "phone",
+      "lineageTo": "ParquetOUTPUT"
+    },
+    "emp.csv._c3 => datasourceCSV.col3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c3",
+      "lineageTo": "col3"
+    },
+    "aids_columnArray.json.snno => datasourceJson.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "aids_columnArray.json.delay => datasourceJson.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "datasourceParquet.username1 => ParquetOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username1",
+      "lineageTo": "ParquetOUTPUT"
+    },
+    "datasourceJson.dud => JsonOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "JsonOUTPUT"
+    },
+    "aids_columnArray.json.y => datasourceJson.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "emp.csv._c1 => datasourceCSV.col1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c1",
+      "lineageTo": "col1"
+    },
+    "AvroFile1.avro.tweet => datasourceAvro.tweet": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "tweet",
+      "lineageTo": "tweet"
+    },
+    "datasourceAvro.timestamp => AvroOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "timestamp",
+      "lineageTo": "AvroOUTPUT"
+    },
+    "aids_columnArray.json.dud => datasourceJson.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "cricket.parquet.username1 => datasourceParquet.username1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username1",
+      "lineageTo": "username1"
+    },
+    "datasourceParquet.age => ParquetOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "ParquetOUTPUT"
+    },
+    "emp.csv._c2 => datasourceCSV.col2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c2",
+      "lineageTo": "col2"
+    },
+    "datasourceCSV.col3 => CSVOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "col3",
+      "lineageTo": "CSVOUTPUT"
+    },
+    "datasourceCSV.col4 => CSVOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "col4",
+      "lineageTo": "CSVOUTPUT"
+    },
+    "datasourceJson.snno => JsonOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "JsonOUTPUT"
+    },
+    "datasourceJson.y => JsonOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "JsonOUTPUT"
+    },
+    "cricket.parquet.age => datasourceParquet.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "datasourceJson.year => JsonOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "JsonOUTPUT"
+    },
+    "datasourceParquet.housenum => ParquetOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "housenum",
+      "lineageTo": "ParquetOUTPUT"
+    },
+    "datasourceAvro.tweet => AvroOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "tweet",
+      "lineageTo": "AvroOUTPUT"
+    },
+    "cricket.parquet.housenum => datasourceParquet.housenum": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "housenum",
+      "lineageTo": "housenum"
+    },
+    "datasourceJson.quarter => JsonOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "JsonOUTPUT"
+    },
+    "AvroFile1.avro.username => datasourceAvro.username": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "datasourceCSV.col2 => CSVOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "col2",
+      "lineageTo": "CSVOUTPUT"
+    },
+    "cricket.parquet.phone => datasourceParquet.phone": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "datasourceCSV.col1 => CSVOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "col1",
+      "lineageTo": "CSVOUTPUT"
+    },
+    "aids_columnArray.json.year => datasourceJson.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "aids_columnArray.json.quarter => datasourceJson.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "datasourceJson.time => JsonOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "JsonOUTPUT"
+    },
+    "aids_columnArray.json.time => datasourceJson.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "datasourceCSV.col0 => CSVOUTPUT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "col0",
+      "lineageTo": "CSVOUTPUT"
+    }
+  },
+  "AutoGlueLineage911Job": {
+    "gluetable911.address => world_frame.address": {
+      "mode": "COPY",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "world_frame.country => unbox_transform.country": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "country",
+      "lineageTo": "country"
+    },
+    "world_frame.year => unbox_transform.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "relationalize_transform.address => Target911": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "address",
+      "lineageTo": "Target911"
+    },
+    "gluetable911.year => world_frame.year": {
+      "mode": "COPY",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "relationalize_transform.country => Target911": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "country",
+      "lineageTo": "Target911"
+    },
+    "world_frame.address => unbox_transform.address": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "gluetable911.country => world_frame.country": {
+      "mode": "COPY",
+      "lineageFrom": "country",
+      "lineageTo": "country"
+    },
+    "relationalize_transform.year => Target911": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "Target911"
+    },
+    "unbox_transform.year => relationalize_transform.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "unbox_transform.address => relationalize_transform.address": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "unbox_transform.country => relationalize_transform.country": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "country",
+      "lineageTo": "country"
+    }
+  },
+  "AutoGlueLineage912Job": {
+    "frame1_2.dud => frame2_1.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "frame2_1.dud => mapToColf1OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "mapToColf1OP"
+    },
+    "frame1_1.year => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "mapToColf0OP"
+    },
+    "datasource0.snno => split11.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "frame1_2.delay => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "mapToColf0OP"
+    },
+    "frame1_2.young_new => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "young_new",
+      "lineageTo": "mapToColf0OP"
+    },
+    "split12.time => frame1_2.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "frame1_1.snno => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "mapToColf0OP"
+    },
+    "split11.time => frame1_1.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "split11.snno => frame1_1.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "datasource0.quarter => split11.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "datasource0.snno => split12.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "datasource0.y => split12.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "datasource0.delay => split12.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "split12.snno => frame1_2.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "frame1_1.young_new => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "young_new",
+      "lineageTo": "mapToColf0OP"
+    },
+    "frame1_1.quarter => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "mapToColf0OP"
+    },
+    "aids.csv.y => datasource0.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "frame1_2.young_new => frame2_1.young_new1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "young_new",
+      "lineageTo": "young_new1"
+    },
+    "frame1_2.time => frame2_1.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "split11.year => frame1_1.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "frame1_2.year => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "mapToColf0OP"
+    },
+    "frame2_1.delay => mapToColf1OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "mapToColf1OP"
+    },
+    "frame2_1.year => mapToColf1OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "mapToColf1OP"
+    },
+    "split11.quarter => frame1_1.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "aids.csv.delay => datasource0.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "frame1_2.quarter => frame2_1.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "frame1_1.delay => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "mapToColf0OP"
+    },
+    "frame1_2.quarter => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "mapToColf0OP"
+    },
+    "frame1_2.year => frame2_1.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "split12.quarter => frame1_2.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "datasource0.year => split12.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "datasource0.time => split11.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "aids.csv.dud => datasource0.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "frame2_1.young_new1 => mapToColf1OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "young_new1",
+      "lineageTo": "mapToColf1OP"
+    },
+    "datasource0.y => split11.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "split11.y => frame1_1.young_new": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "young_new"
+    },
+    "aids.csv.time => datasource0.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "split11.delay => frame1_1.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "datasource0.quarter => split12.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "datasource0.time => split12.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "split11.dud => frame1_1.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "frame1_1.time => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "mapToColf0OP"
+    },
+    "frame1_2.delay => frame2_1.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "frame2_1.quarter => mapToColf1OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "mapToColf1OP"
+    },
+    "aids.csv.quarter => datasource0.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "frame2_1.snno => mapToColf1OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "mapToColf1OP"
+    },
+    "frame1_1.dud => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "mapToColf0OP"
+    },
+    "datasource0.dud => split12.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "split12.y => frame1_2.young_new": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "young_new"
+    },
+    "datasource0.delay => split11.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "frame1_2.dud => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "mapToColf0OP"
+    },
+    "aids.csv.year => datasource0.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "frame1_2.snno => frame2_1.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "frame1_2.snno => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "mapToColf0OP"
+    },
+    "split12.year => frame1_2.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "split12.dud => frame1_2.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "aids.csv.snno => datasource0.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "datasource0.year => split11.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "datasource0.dud => split11.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "frame1_2.time => mapToColf0OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "mapToColf0OP"
+    },
+    "split12.delay => frame1_2.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "frame2_1.time => mapToColf1OP": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "mapToColf1OP"
+    }
+  },
+  "AutoGlueLineage951Job": {
+    "datasource0.year => applymapping1.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "resolvechoice3.quarter => aids3.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "applymapping1.y => selectfields2.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "resolvechoice3.year => world_atn_gluetable951.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "selectfields2.quarter => resolvechoice3.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "aids2.snno => datasource0.snno": {
+      "mode": "COPY",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "applymapping1.snno => selectfields2.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "resolvechoice3.delay => world_atn_gluetable951.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "applymapping1.dud => selectfields2.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "resolvechoice3.year => aids3.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "applymapping1.quarter => selectfields2.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "datasource0.delay => applymapping1.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "datasource0.quarter => applymapping1.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "resolvechoice3.delay => aids3.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "resolvechoice3.snno => aids3.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "selectfields2.delay => resolvechoice3.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "datasource0.time => applymapping1.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "aids2.year => datasource0.year": {
+      "mode": "COPY",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "datasource0.y => applymapping1.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "resolvechoice3.time => world_atn_gluetable951.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "selectfields2.dud => resolvechoice3.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "applymapping1.time => selectfields2.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "resolvechoice3.y => world_atn_gluetable951.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "datasource0.snno => applymapping1.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "resolvechoice3.y => aids3.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "aids2.dud => datasource0.dud": {
+      "mode": "COPY",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "aids2.quarter => datasource0.quarter": {
+      "mode": "COPY",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "selectfields2.snno => resolvechoice3.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "resolvechoice3.time => aids3.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "aids2.delay => datasource0.delay": {
+      "mode": "COPY",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "applymapping1.year => selectfields2.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "aids2.y => datasource0.y": {
+      "mode": "COPY",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "selectfields2.year => resolvechoice3.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "selectfields2.y => resolvechoice3.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "resolvechoice3.dud => world_atn_gluetable951.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "resolvechoice3.dud => aids3.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "resolvechoice3.quarter => world_atn_gluetable951.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "datasource0.dud => applymapping1.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "resolvechoice3.snno => world_atn_gluetable951.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "aids2.time => datasource0.time": {
+      "mode": "COPY",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "applymapping1.delay => selectfields2.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "selectfields2.time => resolvechoice3.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    }
+  },
+  "AutoGlueLineage952Job": {
+    "datasource0.in publication => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "in publication",
+      "lineageTo": "Target952"
+    },
+    "alldatatypes3.book ss => datasource0.book ss": {
+      "mode": "COPY",
+      "lineageFrom": "book ss",
+      "lineageTo": "book ss"
+    },
+    "alldatatypes3.id => datasource0.id": {
+      "mode": "COPY",
+      "lineageFrom": "id",
+      "lineageTo": "id"
+    },
+    "datasource0.itemsonmydesk => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "itemsonmydesk",
+      "lineageTo": "Target952"
+    },
+    "datasource0.book ns => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "book ns",
+      "lineageTo": "Target952"
+    },
+    "datasource0.book null => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "book null",
+      "lineageTo": "Target952"
+    },
+    "datasource0.color => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "color",
+      "lineageTo": "Target952"
+    },
+    "datasource0.id => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "id",
+      "lineageTo": "Target952"
+    },
+    "alldatatypes3.book title => datasource0.book title": {
+      "mode": "COPY",
+      "lineageFrom": "book title",
+      "lineageTo": "book title"
+    },
+    "alldatatypes3.book binary => datasource0.book binary": {
+      "mode": "COPY",
+      "lineageFrom": "book binary",
+      "lineageTo": "book binary"
+    },
+    "datasource0.book binary => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "book binary",
+      "lineageTo": "Target952"
+    },
+    "alldatatypes3.color => datasource0.color": {
+      "mode": "COPY",
+      "lineageFrom": "color",
+      "lineageTo": "color"
+    },
+    "alldatatypes3.book null => datasource0.book null": {
+      "mode": "COPY",
+      "lineageFrom": "book null",
+      "lineageTo": "book null"
+    },
+    "datasource0.book bs => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "book bs",
+      "lineageTo": "Target952"
+    },
+    "alldatatypes3.itemsonmydesk => datasource0.itemsonmydesk": {
+      "mode": "COPY",
+      "lineageFrom": "itemsonmydesk",
+      "lineageTo": "itemsonmydesk"
+    },
+    "datasource0.book ss => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "book ss",
+      "lineageTo": "Target952"
+    },
+    "datasource0.book title => Target952": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "book title",
+      "lineageTo": "Target952"
+    },
+    "alldatatypes3.book ns => datasource0.book ns": {
+      "mode": "COPY",
+      "lineageFrom": "book ns",
+      "lineageTo": "book ns"
+    },
+    "alldatatypes3.in publication => datasource0.in publication": {
+      "mode": "COPY",
+      "lineageFrom": "in publication",
+      "lineageTo": "in publication"
+    },
+    "alldatatypes3.book bs => datasource0.book bs": {
+      "mode": "COPY",
+      "lineageFrom": "book bs",
+      "lineageTo": "book bs"
+    }
+  },
+  "AutoGlueLineage953Job": {
+    "dsjson.y => aidscolumnarrayjsontarget.y": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "aidscolumnarrayjson.time => dsjson.time": {
+      "mode": "COPY",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "aidscolumnarrayjson.year => dsjson.year": {
+      "mode": "COPY",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "dsjson.snno => aidscolumnarrayjsontarget.snno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "cricketparquet2.age => dsparquet.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "dsavro.tweet => avrofile2target.tweet": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "tweet",
+      "lineageTo": "tweet"
+    },
+    "dsavro.timestamp => avrofile2target.timestamp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "timestamp",
+      "lineageTo": "timestamp"
+    },
+    "cricketparquet2.phone => dsparquet.phone": {
+      "mode": "COPY",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "dsparquet.username1 => amparquet.username1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username1",
+      "lineageTo": "username1"
+    },
+    "dsparquet.phone => amparquet.phone": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "dsjson.time => aidscolumnarrayjsontarget.time": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "time",
+      "lineageTo": "time"
+    },
+    "amparquet.age => cricketparquet2target.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "cricketparquet2.housenum => dsparquet.housenum": {
+      "mode": "COPY",
+      "lineageFrom": "housenum",
+      "lineageTo": "housenum"
+    },
+    "aidscolumnarrayjson.snno => dsjson.snno": {
+      "mode": "COPY",
+      "lineageFrom": "snno",
+      "lineageTo": "snno"
+    },
+    "aidscolumnarrayjson.delay => dsjson.delay": {
+      "mode": "COPY",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "aidscolumnarrayjson.quarter => dsjson.quarter": {
+      "mode": "COPY",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "avrofile2.username => dsavro.username": {
+      "mode": "COPY",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "aidscolumnarrayjson.y => dsjson.y": {
+      "mode": "COPY",
+      "lineageFrom": "y",
+      "lineageTo": "y"
+    },
+    "dsparquet.housenum => amparquet.housenum": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "housenum",
+      "lineageTo": "housenum"
+    },
+    "dsjson.delay => aidscolumnarrayjsontarget.delay": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "delay",
+      "lineageTo": "delay"
+    },
+    "dsavro.username => avrofile2target.username": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "amparquet.phone => cricketparquet2target.phone": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "amparquet.username1 => cricketparquet2target.username1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username1",
+      "lineageTo": "username1"
+    },
+    "dsjson.dud => aidscolumnarrayjsontarget.dud": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "dsjson.year => aidscolumnarrayjsontarget.year": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "year",
+      "lineageTo": "year"
+    },
+    "avrofile2.timestamp => dsavro.timestamp": {
+      "mode": "COPY",
+      "lineageFrom": "timestamp",
+      "lineageTo": "timestamp"
+    },
+    "cricketparquet2.username1 => dsparquet.username1": {
+      "mode": "COPY",
+      "lineageFrom": "username1",
+      "lineageTo": "username1"
+    },
+    "dsjson.quarter => aidscolumnarrayjsontarget.quarter": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "quarter",
+      "lineageTo": "quarter"
+    },
+    "avrofile2.tweet => dsavro.tweet": {
+      "mode": "COPY",
+      "lineageFrom": "tweet",
+      "lineageTo": "tweet"
+    },
+    "dsparquet.age => amparquet.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "aidscolumnarrayjson.dud => dsjson.dud": {
+      "mode": "COPY",
+      "lineageFrom": "dud",
+      "lineageTo": "dud"
+    },
+    "amparquet.housenum => cricketparquet2target.housenum": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "housenum",
+      "lineageTo": "housenum"
+    }
+  },
+  "AutoGlueLineage954Job": {
+    "dvdrental_accounts_rds.created_on => datasource0.created_on": {
+      "mode": "COPY",
+      "lineageFrom": "created_on",
+      "lineageTo": "created_on"
+    },
+    "datasource0.password => csv_format": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "password",
+      "lineageTo": "csv_format"
+    },
+    "datasource0.user_id => csv_format": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "user_id",
+      "lineageTo": "csv_format"
+    },
+    "dvdrental_accounts_rds.last_login => datasource0.last_login": {
+      "mode": "COPY",
+      "lineageFrom": "last_login",
+      "lineageTo": "last_login"
+    },
+    "datasource0.last_login => csv_format": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "last_login",
+      "lineageTo": "csv_format"
+    },
+    "datasource0.created_on => csv_format": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "created_on",
+      "lineageTo": "csv_format"
+    },
+    "datasource0.username => csv_format": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "csv_format"
+    },
+    "dvdrental_accounts_rds.username => datasource0.username": {
+      "mode": "COPY",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "dvdrental_accounts_rds.user_id => datasource0.user_id": {
+      "mode": "COPY",
+      "lineageFrom": "user_id",
+      "lineageTo": "user_id"
+    },
+    "datasource0.email => csv_format": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "email",
+      "lineageTo": "csv_format"
+    },
+    "dvdrental_accounts_rds.email => datasource0.email": {
+      "mode": "COPY",
+      "lineageFrom": "email",
+      "lineageTo": "email"
+    },
+    "dvdrental_accounts_rds.password => datasource0.password": {
+      "mode": "COPY",
+      "lineageFrom": "password",
+      "lineageTo": "password"
+    }
+  },
+  "AutoGlueLineage955Job": {
+    "applymapping1.userid => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userid",
+      "lineageTo": "OrcFileOp"
+    },
+    "applymapping1.city => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "OrcFileOp"
+    },
+    "orcfile.email => datasource0.email": {
+      "mode": "COPY",
+      "lineageFrom": "email",
+      "lineageTo": "email"
+    },
+    "orcfile.ipaddress => datasource0.ipaddress": {
+      "mode": "COPY",
+      "lineageFrom": "ipaddress",
+      "lineageTo": "ipaddress"
+    },
+    "applymapping1.fax => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fax",
+      "lineageTo": "OrcFileOp"
+    },
+    "datasource0.state => applymapping1.state": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    },
+    "datasource0.country => applymapping1.country": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "country",
+      "lineageTo": "country"
+    },
+    "applymapping1.ssn => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ssn",
+      "lineageTo": "OrcFileOp"
+    },
+    "applymapping1.phone => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "phone",
+      "lineageTo": "OrcFileOp"
+    },
+    "datasource0.ssn => applymapping1.ssn": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ssn",
+      "lineageTo": "ssn"
+    },
+    "datasource0.contactno => applymapping1.contactno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "contactno",
+      "lineageTo": "contactno"
+    },
+    "datasource0.fax => applymapping1.fax": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fax",
+      "lineageTo": "fax"
+    },
+    "datasource0.landlineno => applymapping1.landlineno": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "landlineno",
+      "lineageTo": "landlineno"
+    },
+    "applymapping1.landlineno => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "landlineno",
+      "lineageTo": "OrcFileOp"
+    },
+    "applymapping1.state => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "state",
+      "lineageTo": "OrcFileOp"
+    },
+    "applymapping1.contactno => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "contactno",
+      "lineageTo": "OrcFileOp"
+    },
+    "orcfile.userid => datasource0.userid": {
+      "mode": "COPY",
+      "lineageFrom": "userid",
+      "lineageTo": "userid"
+    },
+    "orcfile.ssn => datasource0.ssn": {
+      "mode": "COPY",
+      "lineageFrom": "ssn",
+      "lineageTo": "ssn"
+    },
+    "datasource0.ipaddress => applymapping1.ipaddress": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ipaddress",
+      "lineageTo": "ipaddress"
+    },
+    "applymapping1.country => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "country",
+      "lineageTo": "OrcFileOp"
+    },
+    "applymapping1.gender => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "gender",
+      "lineageTo": "OrcFileOp"
+    },
+    "applymapping1.street => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "street",
+      "lineageTo": "OrcFileOp"
+    },
+    "orcfile.fax => datasource0.fax": {
+      "mode": "COPY",
+      "lineageFrom": "fax",
+      "lineageTo": "fax"
+    },
+    "orcfile.username => datasource0.username": {
+      "mode": "COPY",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "orcfile.country => datasource0.country": {
+      "mode": "COPY",
+      "lineageFrom": "country",
+      "lineageTo": "country"
+    },
+    "datasource0.gender => applymapping1.gender": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "gender",
+      "lineageTo": "gender"
+    },
+    "datasource0.postalcode => applymapping1.postalcode": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "postalcode",
+      "lineageTo": "postalcode"
+    },
+    "orcfile.phone => datasource0.phone": {
+      "mode": "COPY",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "datasource0.username => applymapping1.username": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "orcfile.street => datasource0.street": {
+      "mode": "COPY",
+      "lineageFrom": "street",
+      "lineageTo": "street"
+    },
+    "datasource0.city => applymapping1.city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "orcfile.postalcode => datasource0.postalcode": {
+      "mode": "COPY",
+      "lineageFrom": "postalcode",
+      "lineageTo": "postalcode"
+    },
+    "datasource0.email => applymapping1.email": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "email",
+      "lineageTo": "email"
+    },
+    "applymapping1.username => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "OrcFileOp"
+    },
+    "applymapping1.ipaddress => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ipaddress",
+      "lineageTo": "OrcFileOp"
+    },
+    "orcfile.contactno => datasource0.contactno": {
+      "mode": "COPY",
+      "lineageFrom": "contactno",
+      "lineageTo": "contactno"
+    },
+    "datasource0.phone => applymapping1.phone": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "datasource0.street => applymapping1.street": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "street",
+      "lineageTo": "street"
+    },
+    "datasource0.userid => applymapping1.userid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userid",
+      "lineageTo": "userid"
+    },
+    "orcfile.city => datasource0.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "orcfile.state => datasource0.state": {
+      "mode": "COPY",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    },
+    "applymapping1.postalcode => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "postalcode",
+      "lineageTo": "OrcFileOp"
+    },
+    "orcfile.landlineno => datasource0.landlineno": {
+      "mode": "COPY",
+      "lineageFrom": "landlineno",
+      "lineageTo": "landlineno"
+    },
+    "applymapping1.email => OrcFileOp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "email",
+      "lineageTo": "OrcFileOp"
+    },
+    "orcfile.gender => datasource0.gender": {
+      "mode": "COPY",
+      "lineageFrom": "gender",
+      "lineageTo": "gender"
+    }
+  },
+  "AutoGlueLineage956Job": {
+    "selectfields2.user_id => adventureworks_acc_useraccount_bkp.user_id": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "user_id",
+      "lineageTo": "user_id"
+    },
+    "adventureworks_acc_useraccount.email => datasource0.email": {
+      "mode": "COPY",
+      "lineageFrom": "email",
+      "lineageTo": "email"
+    },
+    "adventureworks_acc_useraccount.last_login => datasource0.last_login": {
+      "mode": "COPY",
+      "lineageFrom": "last_login",
+      "lineageTo": "last_login"
+    },
+    "datasource0.created_on => applymapping1.created_on": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "created_on",
+      "lineageTo": "created_on"
+    },
+    "datasource0.username => applymapping1.username": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "applymapping1.created_on => selectfields2.created_on": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "created_on",
+      "lineageTo": "created_on"
+    },
+    "applymapping1.user_id => selectfields2.user_id": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "user_id",
+      "lineageTo": "user_id"
+    },
+    "datasource0.last_login => applymapping1.last_login": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "last_login",
+      "lineageTo": "last_login"
+    },
+    "datasource0.email => applymapping1.email": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "email",
+      "lineageTo": "email"
+    },
+    "selectfields2.last_login => adventureworks_acc_useraccount_bkp.last_login": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "last_login",
+      "lineageTo": "last_login"
+    },
+    "selectfields2.password => adventureworks_acc_useraccount_bkp.password": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "password",
+      "lineageTo": "password"
+    },
+    "adventureworks_acc_useraccount.password => datasource0.password": {
+      "mode": "COPY",
+      "lineageFrom": "password",
+      "lineageTo": "password"
+    },
+    "adventureworks_acc_useraccount.user_id => datasource0.user_id": {
+      "mode": "COPY",
+      "lineageFrom": "user_id",
+      "lineageTo": "user_id"
+    },
+    "selectfields2.email => adventureworks_acc_useraccount_bkp.email": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "email",
+      "lineageTo": "email"
+    },
+    "selectfields2.created_on => adventureworks_acc_useraccount_bkp.created_on": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "created_on",
+      "lineageTo": "created_on"
+    },
+    "applymapping1.last_login => selectfields2.last_login": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "last_login",
+      "lineageTo": "last_login"
+    },
+    "datasource0.password => applymapping1.password": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "password",
+      "lineageTo": "password"
+    },
+    "adventureworks_acc_useraccount.created_on => datasource0.created_on": {
+      "mode": "COPY",
+      "lineageFrom": "created_on",
+      "lineageTo": "created_on"
+    },
+    "selectfields2.username => adventureworks_acc_useraccount_bkp.username": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "applymapping1.password => selectfields2.password": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "password",
+      "lineageTo": "password"
+    },
+    "applymapping1.username => selectfields2.username": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "datasource0.user_id => applymapping1.user_id": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "user_id",
+      "lineageTo": "user_id"
+    },
+    "adventureworks_acc_useraccount.username => datasource0.username": {
+      "mode": "COPY",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "applymapping1.email => selectfields2.email": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "email",
+      "lineageTo": "email"
+    }
+  },
+  "AutoGlueLineage957Job": {
+    "dropnullfields1.Education => PAST_HIRES_ORC_TARGET.Education": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Education",
+      "lineageTo": "Education"
+    },
+    "dropnullfields1.Years Experience => past_hires_sqlsvr_target.years experience": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Years Experience",
+      "lineageTo": "years experience"
+    },
+    "datasource0.school => dropnullfields1.school": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "school",
+      "lineageTo": "school"
+    },
+    "dropnullfields1.Employed => PAST_HIRES_ORC_TARGET.Employed": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Employed",
+      "lineageTo": "Employed"
+    },
+    "dropnullfields1.Education => past_hires_pstgr_target.Education": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Education",
+      "lineageTo": "Education"
+    },
+    "dropnullfields1.Employed => past_hires_pstgr_target.Employed": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Employed",
+      "lineageTo": "Employed"
+    },
+    "datasource0.Hired => dropnullfields1.Hired": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Hired",
+      "lineageTo": "Hired"
+    },
+    "PastHires.csv.Hired => datasource0.Hired": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Hired",
+      "lineageTo": "Hired"
+    },
+    "PastHires.csv.Previous_employers => datasource0.Previous_employers": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Previous_employers",
+      "lineageTo": "Previous_employers"
+    },
+    "PastHires.csv.Education => datasource0.Education": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Education",
+      "lineageTo": "Education"
+    },
+    "dropnullfields1.Employed => past_hires_sqlsvr_target.employed": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Employed",
+      "lineageTo": "employed"
+    },
+    "datasource0.Employed => dropnullfields1.Employed": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Employed",
+      "lineageTo": "Employed"
+    },
+    "datasource0.Years Experience => dropnullfields1.Years Experience": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Years Experience",
+      "lineageTo": "Years Experience"
+    },
+    "dropnullfields1.school => past_hires_pstgr_target.school": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "school",
+      "lineageTo": "school"
+    },
+    "dropnullfields1.Years Experience => PAST_HIRES_ORC_TARGET.Years Experience": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Years Experience",
+      "lineageTo": "Years Experience"
+    },
+    "datasource0.Previous_employers => dropnullfields1.Previous_employers": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Previous_employers",
+      "lineageTo": "Previous_employers"
+    },
+    "dropnullfields1.Hired => PAST_HIRES_ORC_TARGET.Hired": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Hired",
+      "lineageTo": "Hired"
+    },
+    "PastHires.csv.school => datasource0.school": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "school",
+      "lineageTo": "school"
+    },
+    "PastHires.csv.Interned => datasource0.Interned": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Interned",
+      "lineageTo": "Interned"
+    },
+    "dropnullfields1.Education => past_hires_sqlsvr_target.education": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Education",
+      "lineageTo": "education"
+    },
+    "datasource0.Interned => dropnullfields1.Interned": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Interned",
+      "lineageTo": "Interned"
+    },
+    "PastHires.csv.Employed => datasource0.Employed": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Employed",
+      "lineageTo": "Employed"
+    },
+    "datasource0.Education => dropnullfields1.Education": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Education",
+      "lineageTo": "Education"
+    },
+    "dropnullfields1.Hired => past_hires_sqlsvr_target.hired": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Hired",
+      "lineageTo": "hired"
+    },
+    "dropnullfields1.Previous_employers => past_hires_sqlsvr_target.previous_employers": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Previous_employers",
+      "lineageTo": "previous_employers"
+    },
+    "dropnullfields1.Years Experience => past_hires_pstgr_target.Years Experience": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Years Experience",
+      "lineageTo": "Years Experience"
+    },
+    "dropnullfields1.Interned => past_hires_pstgr_target.Interned": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Interned",
+      "lineageTo": "Interned"
+    },
+    "dropnullfields1.Interned => past_hires_sqlsvr_target.interned": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Interned",
+      "lineageTo": "interned"
+    },
+    "PastHires.csv.Years Experience => datasource0.Years Experience": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Years Experience",
+      "lineageTo": "Years Experience"
+    },
+    "dropnullfields1.Previous_employers => PAST_HIRES_ORC_TARGET.Previous_employers": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Previous_employers",
+      "lineageTo": "Previous_employers"
+    },
+    "dropnullfields1.Previous_employers => past_hires_pstgr_target.Previous_employers": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Previous_employers",
+      "lineageTo": "Previous_employers"
+    },
+    "dropnullfields1.Hired => past_hires_pstgr_target.Hired": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Hired",
+      "lineageTo": "Hired"
+    },
+    "dropnullfields1.school => PAST_HIRES_ORC_TARGET.school": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "school",
+      "lineageTo": "school"
+    },
+    "dropnullfields1.school => past_hires_sqlsvr_target.school": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "school",
+      "lineageTo": "school"
+    },
+    "dropnullfields1.Interned => PAST_HIRES_ORC_TARGET.Interned": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Interned",
+      "lineageTo": "Interned"
+    }
+  }
+}

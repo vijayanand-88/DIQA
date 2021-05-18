@@ -1,0 +1,51 @@
+{
+  "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.MLConfiguration",
+        "name": "ML Analyzer",
+        "label": {
+          "": "ML Analyzer",
+          "en": "ML Analyzer"
+        },
+        "catalogName": "MLANALYZER CATALOG",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "maxNumberValues": "1000",
+        "cutoffRatio": "0.3",
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+              "label": {
+                "": "PII"
+              },
+              "tags": [
+                "color",
+                "shade"
+              ],
+              "dbRegexList": [
+                "testmladatabase"
+              ]
+            }
+          ],
+          "maxHits": null,
+          "deltaTime": "300",
+          "extraFilters": {}
+        },
+        "sparkOptions": [
+          {
+            "key": "spark.deploy.mode",
+            "value": "client"
+          },
+          {
+            "key": "spark.sql.broadcastTimeout",
+            "value": "1200"
+          }
+        ]
+      }
+    ]
+}

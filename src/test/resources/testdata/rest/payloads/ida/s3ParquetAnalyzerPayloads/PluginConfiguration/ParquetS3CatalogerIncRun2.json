@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ParquetS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CatalogParquetS3IncRun2"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "ParquetS3DataSource",
+      "credential": "ValidParquetReadWriteCredentials",
+      "businessApplicationName": "Test_BA_ParquetS3Analyzer",
+      "dryRun": false,
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "ParquetS3Cataloger",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asgqaparquetanalyzerb2"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": []
+        }
+      }
+    }
+  ]
+}

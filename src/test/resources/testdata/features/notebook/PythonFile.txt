@@ -1,0 +1,26 @@
+%matplotlib inline
+from pyhive import hive
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+#Create Hive connection
+conn = hive.Connection(host="ambarihost", port=10000, username="raj_ops")
+
+# Read Hive table and Create pandas dataframe
+df_risk = pd.read_sql("SELECT * FROM healthcare.riskfactorsandaccesstocare WHERE riskfactorsandaccesstocare.chsi_state_name = 'Florida' AND riskfactorsandaccesstocare.diabetes <> -1111.1 ", conn)
+county = df_risk['riskfactorsandaccesstocare.chsi_county_name']
+diabetes = df_risk['riskfactorsandaccesstocare.diabetes']
+def plot(dpi):
+    N = county.count()
+    ind = np.arange(N)  # the x locations for the groups
+    width = 0.70       # the width of the bars
+    fig, ax_lst = plt.subplots(dpi=dpi)
+    ax_lst.set_xlabel('County')
+    ax_lst.set_ylabel('Diabetes Risk')
+    ax_lst.bar(ind, diabetes, width, color='#3E606F')
+    ax_lst.set_xticks(ind)
+    ax_lst.set_xticklabels(county, rotation=90)
+    ax_lst.tick_params(axis='x', labelsize=6)
+    ax_lst.tick_params(axis='y', labelsize=5)
+plot(172)

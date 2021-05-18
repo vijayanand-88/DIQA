@@ -1,0 +1,155 @@
+{
+  "AutoMappingExactMatch": {
+    "category_object_auto_exact.json => catgroup => category => catgroup": {
+      "mode": "COPY",
+      "lineageFrom": "catgroup",
+      "lineageTo": "catgroup"
+    },
+    "category_object_auto_exact.json => catname => category => catname": {
+      "mode": "COPY",
+      "lineageFrom": "catname",
+      "lineageTo": "catname"
+    },
+    "category_object_auto_exact.json => catid => category => catid": {
+      "mode": "COPY",
+      "lineageFrom": "catid",
+      "lineageTo": "catid"
+    },
+    "category_object_auto_exact.json => catdesc => category => catdesc": {
+      "mode": "COPY",
+      "lineageFrom": "catdesc",
+      "lineageTo": "catdesc"
+    }
+  },
+  "ValidCsvDefaultQuote": {
+    "valid_csv_data.csv => 12,Shows,Musicals,Musical theatre => category => catid": {
+      "mode": "COPY",
+      "lineageFrom": "12,Shows,Musicals,Musical theatre",
+      "lineageTo": "catid"
+    }
+  },
+  "CustomMappingJsonArrays": {
+    "category_array_data.json => category": {
+      "mode": "COPY",
+      "sourceLocation": "asgredshifttest\\\/javaredshiftlineage\\\/json\\\/category_array_data.json",
+      "lineageFrom": "category_array_data.json",
+      "lineageTo": "category"
+    }
+  },
+  "CustomMappingJsonData": {
+    "category_object_paths.json => category": {
+      "mode": "COPY",
+      "sourceLocation": "asgredshifttest\\\/javaredshiftlineage\\\/json\\\/category_object_paths.json",
+      "lineageFrom": "category_object_paths.json",
+      "lineageTo": "category"
+    }
+  },
+  "FieldToColumnCsvWithoutHeaders": {
+    "fieldToColumn_csv_withoutHeaders.csv => Musicals => category => catname": {
+      "mode": "COPY",
+      "lineageFrom": "Musicals",
+      "lineageTo": "catname"
+    },
+    "fieldToColumn_csv_withoutHeaders.csv => 12 => category => catid": {
+      "mode": "COPY",
+      "lineageFrom": "12",
+      "lineageTo": "catid"
+    },
+    "fieldToColumn_csv_withoutHeaders.csv => Shows => category => catgroup": {
+      "mode": "COPY",
+      "lineageFrom": "Shows",
+      "lineageTo": "catgroup"
+    },
+    "fieldToColumn_csv_withoutHeaders.csv => Musical theatre => category => catdesc": {
+      "mode": "COPY",
+      "lineageFrom": "Musical theatre",
+      "lineageTo": "catdesc"
+    }
+  },
+  "ValidImageFileDefaultQuote": {
+    "valid_image_data.jpg => category": {
+      "mode": "COPY",
+      "sourceLocation": "asgredshifttest\\\/javaredshiftlineage\\\/csv\\\/valid_image_data.jpg",
+      "lineageFrom": "valid_image_data.jpg",
+      "lineageTo": "category"
+    }
+  },
+  "TwoCopyStatement": {
+    "valid_csv_data1.csv => 12,Shows,Musicals,Musical theatre => category => catid": {
+      "mode": "COPY",
+      "lineageFrom": "12,Shows,Musicals,Musical theatre",
+      "lineageTo": "catid"
+    }
+  },
+  "FieldToColumnCsv_unOrderedHeaders": {
+    "fieldToColumn_csv_unOrderedHeaders.csv => catname => category => catid": {
+      "mode": "COPY",
+      "lineageFrom": "catname",
+      "lineageTo": "catid"
+    },
+    "fieldToColumn_csv_unOrderedHeaders.csv => catid => category => catgroup": {
+      "mode": "COPY",
+      "lineageFrom": "catid",
+      "lineageTo": "catgroup"
+    },
+    "fieldToColumn_csv_unOrderedHeaders.csv => catgroup => category => catname": {
+      "mode": "COPY",
+      "lineageFrom": "catgroup",
+      "lineageTo": "catname"
+    }
+  },
+  "ValidTextFileDefaultQuote": {
+    "valid_text_data.txt => category": {
+      "mode": "COPY",
+      "sourceLocation": "asgredshifttest\\\/javaredshiftlineage\\\/csv\\\/valid_text_data.txt",
+      "lineageFrom": "valid_text_data.txt",
+      "lineageTo": "category"
+    }
+  },
+  "FieldToColumnCsv": {
+    "fieldToColumn_csv_withHeaders.csv => catid => category => catid": {
+      "mode": "COPY",
+      "lineageFrom": "catid",
+      "lineageTo": "catid"
+    },
+    "fieldToColumn_csv_withHeaders.csv => catdesc => category => catdesc": {
+      "mode": "COPY",
+      "lineageFrom": "catdesc",
+      "lineageTo": "catdesc"
+    },
+    "fieldToColumn_csv_withHeaders.csv => catname => category => catname": {
+      "mode": "COPY",
+      "lineageFrom": "catname",
+      "lineageTo": "catname"
+    },
+    "fieldToColumn_csv_withHeaders.csv => catgroup => category => catgroup": {
+      "mode": "COPY",
+      "lineageFrom": "catgroup",
+      "lineageTo": "catgroup"
+    }
+  },
+  "AutoMappingPartialMatch": {
+    "category_object_auto_partial.json => catdesc => category => catdesc": {
+      "mode": "COPY",
+      "lineageFrom": "catdesc",
+      "lineageTo": "catdesc"
+    },
+    "category_object_auto_partial.json => catname => category => catname": {
+      "mode": "COPY",
+      "lineageFrom": "catname",
+      "lineageTo": "catname"
+    },
+    "category_object_auto_partial.json => catid => category => catid": {
+      "mode": "COPY",
+      "lineageFrom": "catid",
+      "lineageTo": "catid"
+    }
+  },
+  "ValidCsvPercentageQuote": {
+    "valid_csv_data_with_%_quote.csv => 12,Shows,Musicals,Musical theatre => category => catid": {
+      "mode": "COPY",
+      "lineageFrom": "12,Shows,Musicals,Musical theatre",
+      "lineageTo": "catid"
+    }
+  }
+}

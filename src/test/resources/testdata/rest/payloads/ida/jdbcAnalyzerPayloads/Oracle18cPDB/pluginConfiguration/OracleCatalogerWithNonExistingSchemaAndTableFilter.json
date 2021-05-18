@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerwithNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["Orc18cPDBCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "Oracle18cPDBDS",
+      "credential": "Oracle18cPDBCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [
+        {
+          "schema": "ORACLENONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "ORACLENONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

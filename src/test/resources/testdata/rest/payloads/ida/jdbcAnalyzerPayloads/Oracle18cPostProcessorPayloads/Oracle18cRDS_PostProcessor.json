@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Oracle18cRDS_PostProcessor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["Orc18cRDSPostProcessor"],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Oracle18C_RDS_PP",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBPostProcessor",
+      "arguments": [],
+      "type": "Lineage"
+    }
+  ]
+}

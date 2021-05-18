@@ -1,0 +1,5 @@
+{
+  "Comments": "SHOW GRANTS. Lists all access control privileges that have been granted to roles, users, and shares. For more information about privileges and roles, see Access Control in Snowflake.",
+  "Name": "Name3",
+  "RollNumber": 40
+}

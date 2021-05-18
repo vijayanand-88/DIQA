@@ -1,0 +1,388 @@
+{
+  "PythonODBCLineageUsingFetchOneAPI": {
+    "passenger.age => fetchOneAPI_main.select_cursor_postgres.age": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "age"
+      ],
+      "lineageTo": [
+        "age"
+      ]
+    },
+    "fetchOneAPI_main.insert_cursor.r0 => passenger_fetchone.passengerid_tar": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "r0"
+      ],
+      "lineageTo": [
+        "passengerid_tar"
+      ]
+    },
+    "passenger.FARE => fetchOneAPI_main.select_cursor_snowflake.FARE": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "FARE"
+      ],
+      "lineageTo": [
+        "FARE"
+      ]
+    },
+    "fetchOneAPI_main.insert_cursor.r12 => passenger_fetchone.fare_tar": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "r12"
+      ],
+      "lineageTo": [
+        "fare_tar"
+      ]
+    },
+    "fetchOneAPI_main.select_cursor_postgres.ticket => fetchOneAPI_main.insert_cursor.r13": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "ticket"
+      ],
+      "lineageTo": [
+        "r13"
+      ]
+    },
+    "fetchOneAPI_main.insert_cursor.r10 => passenger_fetchone.passengerid_tar": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "r10"
+      ],
+      "lineageTo": [
+        "passengerid_tar"
+      ]
+    },
+    "fetchOneAPI_main.select_cursor_snowflake.FARE => fetchOneAPI_main.insert_cursor.r2": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "FARE"
+      ],
+      "lineageTo": [
+        "r2"
+      ]
+    },
+    "fetchOneAPI_main.insert_cursor.r11 => passenger_fetchone.age_tar": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "r11"
+      ],
+      "lineageTo": [
+        "age_tar"
+      ]
+    },
+    "passenger.TICKET => fetchOneAPI_main.select_cursor_snowflake.TICKET": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "TICKET"
+      ],
+      "lineageTo": [
+        "TICKET"
+      ]
+    },
+    "fetchOneAPI_main.insert_cursor.r2 => passenger_fetchone.fare_tar": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "r2"
+      ],
+      "lineageTo": [
+        "fare_tar"
+      ]
+    },
+    "fetchOneAPI_main.insert_cursor.r3 => passenger_fetchone.ticket_tar": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "r3"
+      ],
+      "lineageTo": [
+        "ticket_tar"
+      ]
+    },
+    "fetchOneAPI_main.select_cursor_postgres.fare => fetchOneAPI_main.insert_cursor.r12": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "fare"
+      ],
+      "lineageTo": [
+        "r12"
+      ]
+    },
+    "fetchOneAPI_main.select_cursor_postgres.passengerid => fetchOneAPI_main.insert_cursor.r10": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "passengerid"
+      ],
+      "lineageTo": [
+        "r10"
+      ]
+    },
+    "fetchOneAPI_main.select_cursor_snowflake.TICKET => fetchOneAPI_main.insert_cursor.r3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "TICKET"
+      ],
+      "lineageTo": [
+        "r3"
+      ]
+    },
+    "passenger.ticket => fetchOneAPI_main.select_cursor_postgres.ticket": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "ticket"
+      ],
+      "lineageTo": [
+        "ticket"
+      ]
+    },
+    "passenger.passengerid => fetchOneAPI_main.select_cursor_postgres.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "passengerid"
+      ],
+      "lineageTo": [
+        "passengerid"
+      ]
+    },
+    "fetchOneAPI_main.insert_cursor.r13 => passenger_fetchone.ticket_tar": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "r13"
+      ],
+      "lineageTo": [
+        "ticket_tar"
+      ]
+    },
+    "fetchOneAPI_main.insert_cursor.r1 => passenger_fetchone.age_tar": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "r1"
+      ],
+      "lineageTo": [
+        "age_tar"
+      ]
+    },
+    "passenger.AGE => fetchOneAPI_main.select_cursor_snowflake.AGE": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "passenger.PASSENGERID => fetchOneAPI_main.select_cursor_snowflake.PASSENGERID": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "PASSENGERID"
+      ],
+      "lineageTo": [
+        "PASSENGERID"
+      ]
+    },
+    "passenger.fare => fetchOneAPI_main.select_cursor_postgres.fare": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "fare"
+      ],
+      "lineageTo": [
+        "fare"
+      ]
+    },
+    "fetchOneAPI_main.select_cursor_postgres.age => fetchOneAPI_main.insert_cursor.r11": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "age"
+      ],
+      "lineageTo": [
+        "r11"
+      ]
+    },
+    "fetchOneAPI_main.select_cursor_snowflake.AGE => fetchOneAPI_main.insert_cursor.r1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "r1"
+      ]
+    },
+    "fetchOneAPI_main.select_cursor_snowflake.PASSENGERID => fetchOneAPI_main.insert_cursor.r0": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "PASSENGERID"
+      ],
+      "lineageTo": [
+        "r0"
+      ]
+    }
+  },
+  "InsertUsingColumnName": {
+    "validation_insert_using_col_name.select_cursor.PASSENGERID => validation_insert_using_col_name.insert_cursor.passID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "PASSENGERID"
+      ],
+      "lineageTo": [
+        "passID"
+      ]
+    },
+    "passenger.TICKET => validation_insert_using_col_name.select_cursor.TICKET": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "TICKET"
+      ],
+      "lineageTo": [
+        "TICKET"
+      ]
+    },
+    "passenger.PASSENGERID => validation_insert_using_col_name.select_cursor.PASSENGERID": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "PASSENGERID"
+      ],
+      "lineageTo": [
+        "PASSENGERID"
+      ]
+    },
+    "validation_insert_using_col_name.insert_cursor.passID => passenger_id.PASSENGERID": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "passID"
+      ],
+      "lineageTo": [
+        "PASSENGERID"
+      ]
+    },
+    "passenger.AGE => validation_insert_using_col_name.select_cursor.AGE": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "passenger.FARE => validation_insert_using_col_name.select_cursor.FARE": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "FARE"
+      ],
+      "lineageTo": [
+        "FARE"
+      ]
+    }
+  },
+  "RunQuery2": {
+    "create_result_set.select_cursor.AGE => execute_insert_statement_from_result_set.insert_cursor.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "age"
+      ]
+    },
+    "execute_insert_statement_from_result_set.insert_cursor.passenger => passenger_bkp.PASSENGERID": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "passenger"
+      ],
+      "lineageTo": [
+        "PASSENGERID"
+      ]
+    },
+    "create_result_set.select_cursor.FARE => execute_insert_statement_from_result_set.insert_cursor.fare": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "FARE"
+      ],
+      "lineageTo": [
+        "fare"
+      ]
+    },
+    "create_result_set.select_cursor.TICKET => execute_insert_statement_from_result_set.insert_cursor.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "TICKET"
+      ],
+      "lineageTo": [
+        "ticket"
+      ]
+    },
+    "execute_insert_statement_from_result_set.insert_cursor.ticket => passenger_bkp.TICKET": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "ticket"
+      ],
+      "lineageTo": [
+        "TICKET"
+      ]
+    },
+    "create_result_set.select_cursor.PASSENGERID => execute_insert_statement_from_result_set.insert_cursor.passenger": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "PASSENGERID"
+      ],
+      "lineageTo": [
+        "passenger"
+      ]
+    },
+    "execute_insert_statement_from_result_set.insert_cursor.age => passenger_bkp.AGE": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "age"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "execute_insert_statement_from_result_set.insert_cursor.fare => passenger_bkp.FARE": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "fare"
+      ],
+      "lineageTo": [
+        "FARE"
+      ]
+    }
+  },
+  "RunQuery1": {
+    "passenger.FARE => create_result_set.select_cursor.FARE": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "FARE"
+      ],
+      "lineageTo": [
+        "FARE"
+      ]
+    },
+    "passenger.TICKET => create_result_set.select_cursor.TICKET": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "TICKET"
+      ],
+      "lineageTo": [
+        "TICKET"
+      ]
+    },
+    "passenger.AGE => create_result_set.select_cursor.AGE": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "passenger.PASSENGERID => create_result_set.select_cursor.PASSENGERID": {
+      "mode": "COPY",
+      "lineageFrom": [
+        "PASSENGERID"
+      ],
+      "lineageTo": [
+        "PASSENGERID"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+drwxr-xr-x   - raj_ops hdfs          0 2019-02-21 11:22 /user/root/PySpark/Source
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Source/users.parquet
+[root@sandbox Siddharthan]# hadoop fs -mkdir  /user/root/PySpark/Load
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/
+drwxr-xr-x   - root    hdfs          0 2019-02-21 11:38 /user/root/PySpark/Load
+drwxr-xr-x   - raj_ops hdfs          0 2019-02-21 11:22 /user/root/PySpark/Source
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Source/users.parquet
+[root@sandbox Siddharthan]# spark-submit read_loadandwrite.py
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/Load
+[root@sandbox Siddharthan]# pyspark
+SPARK_MAJOR_VERSION is set to 2, using Spark2
+Python 2.6.6 (r266:84292, Aug 18 2016, 15:13:37)
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+/usr/hdp/2.5.0.0-1245/spark2/python/pyspark/sql/context.py:477: DeprecationWarning: HiveContext is deprecated in Spark 2.0.0. Please use SparkSession.builder.enableHiveSupport().getOrCreate() instead.
+  DeprecationWarning)
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel).
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 2.0.0.2.5.0.0-1245
+      /_/
+
+Using Python version 2.6.6 (r266:84292, Aug 18 2016 15:13:37)
+SparkSession available as 'spark'.
+
+>>> df = spark.read.load("PySpark/Source/users.parquet")
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+>>> df = spark.read.load("PySpark/Source/users.parquet",format="parquet")
+>>> df = write.save("PySpark/Load/Target")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'write' is not defined
+>>> df.write.save("PySpark/Load/Target")
+19/02/21 11:44:21 WARN ParquetRecordReader: Can not initialize counter due to context is not a instance of TaskInputOutputContext, but is org.apache.hadoop.mapreduce.task.TaskAttemptContextImpl
+>>> exit()
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/Load
+drwxr-xr-x   - root hdfs          0 2019-02-21 11:44 /user/root/PySpark/Load/Target
+-rw-r--r--   1 root hdfs          0 2019-02-21 11:44 /user/root/PySpark/Load/Target/_SUCCESS
+-rw-r--r--   1 root hdfs        867 2019-02-21 11:44 /user/root/PySpark/Load/Target/part-r-00000-e34c34eb-7adc-4d8b-bb96-9997c9584eca.snappy.parquet
+[root@sandbox Siddharthan]# spark-submit read_loadandwrite.py
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/Load
+ls: `/user/root/PySpark/Load': No such file or directory
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/
+drwxr-xr-x   - raj_ops hdfs          0 2019-02-21 11:22 /user/root/PySpark/Source
+-rw-r--r--   3 raj_ops hdfs        615 2019-02-21 10:51 /user/root/PySpark/Source/users.parquet
+[root@sandbox Siddharthan]# spark-submit read_loadandwrite.py
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/Load
+[root@sandbox Siddharthan]# spark-submit read_loadandwrite.py
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/Load
+[root@sandbox Siddharthan]# spark-submit read_loadandwrite.py
+[root@sandbox Siddharthan]# hadoop fs -ls -R /user/root/PySpark/Load
+drwxr-xr-x   - root hdfs          0 2019-02-21 11:50 /user/root/PySpark/Load/Target
+-rw-r--r--   1 root hdfs          0 2019-02-21 11:50 /user/root/PySpark/Load/Target/_SUCCESS
+-rw-r--r--   1 root hdfs        867 2019-02-21 11:50 /user/root/PySpark/Load/Target/part-r-00000-2e2d0221-4a06-46df-9c19-f2c92ba3f54c.snappy.parquet
+[root@sandbox Siddharthan]#

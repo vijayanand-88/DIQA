@@ -1,0 +1,390 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveSkipSelectON",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN6465SC1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [
+              "taghive1"
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "hive"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+                "default*"
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": true,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ImpalaSkipSelectON",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN6465SC2"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [
+              "tagImpala"
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "IMPALA"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": true,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EmptySourceType",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN6465SC3"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [
+              "tag"
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+                "testdatabase*"
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": true,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MultipleSourceType",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN6465SC4"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [
+              "Multiple"
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "SQOOP",
+              "PIG"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": true,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PIGSelectON",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN6465SC5"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [
+              "PigTag"
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "PIG"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": true,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveQueryDryRun",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN5561DRY"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": true,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "hive"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+                "*default*"
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveQuery",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN5561SC1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "hive"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+                "*default*"
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    }
+
+  ]
+}

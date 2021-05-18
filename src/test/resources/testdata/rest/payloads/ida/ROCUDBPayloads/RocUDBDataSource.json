@@ -1,0 +1,152 @@
+{
+  "ROCUDBDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RochadeUDBScanDS",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "RochadeUDBScanCredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}/UDB",
+        "Connection": {
+          "JDBCUrl": "jdbc:db2://DIQDB211501V:50000/SAMPLE",
+          "JDBCDriverPath": "D:\\JDBC_Drivers\\db2jcc4.jar",
+          "JDBCDriverClass": "com.ibm.db2.jcc.DB2Driver",
+          "SecurityJarPath": ""
+        },
+        "VersionPathName": "V134"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "ROCUDBDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "ROCUDBSADataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RochadeUDBImportDS",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "RochadeUDBSACredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}/UDB",
+        "VersionPathName": "V134",
+        "RochadeServerPort": "${rochade.port}"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "ROCUDBSADataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "EDIBusDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "EDIBusUDBDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "RochadeUDBSACredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "EDI host": "DIQROCHADE01V.DIQ.QA.ASGINT.LOC",
+        "EDI subject area access roles": [
+          {
+            "role": "*"
+          }
+        ],
+        "EDI subject area name": "METAAPPS",
+        "EDI port": 8888,
+        "pluginName": "EDIBusDataSource",
+        "EDI subject area version": "PRODUCTION",
+        "EDI database": "AP-DATA"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "EDIBusDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  }
+}
+

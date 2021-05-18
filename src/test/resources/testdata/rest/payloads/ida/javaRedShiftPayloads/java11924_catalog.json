@@ -1,0 +1,11 @@
+{
+  "Java11924": {
+    "label": {
+      "": "Java11924"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Java11924"
+    }
+  }
+}

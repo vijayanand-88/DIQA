@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": null,
+      "dryRun": "false",
+      "parallelWorkPollInterval": 60,
+      "nodeCondition":"name==\"LocalNode\"",
+      "parallelWorkBatchSize": 100,
+      "label": {
+        "": "Package_Linker"
+      },
+      "parallelQueryBatchSize": 10000,
+      "tags": [
+        "DryRun_commonlinker"
+      ],
+      "catalogName": "Default",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "credential": null,
+      "name": "Package_Linker",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": null,
+      "businessApplicationName": null
+    }
+  ]
+}

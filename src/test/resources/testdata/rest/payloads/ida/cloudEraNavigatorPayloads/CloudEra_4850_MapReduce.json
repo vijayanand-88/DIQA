@@ -1,0 +1,273 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MapReduceScanON",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4850SC1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "MAPREDUCE"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MapReduceScanOFF",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4850SC2"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "MAPREDUCE"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MapReduceONFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4850SC4"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "MAPREDUCE"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+                "*word*"
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MapReduceONExclude",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4850SC5"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "MAPREDUCE"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [
+                "*word*"
+              ],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MapReduceDates",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4850SC6"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [
+              "TagDates"
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {
+              "fromDate": "2018-07-01T00:00",
+              "toDate": "2019-08-08T00:00"
+            },
+            "sourceTypes": [
+              "MAPREDUCE"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    }
+  ]
+}

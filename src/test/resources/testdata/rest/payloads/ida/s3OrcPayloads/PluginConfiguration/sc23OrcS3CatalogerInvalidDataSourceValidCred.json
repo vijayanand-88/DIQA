@@ -1,0 +1,45 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "OrcS3CatalogerInvalidDSValidCred",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [
+    "SC23OrcS3CatalogerInvalidDSValidCred"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "OrcS3DataSourceInValidCred",
+  "credential": "ValidOrcS3Credentials",
+  "businessApplicationName": "Test_BA_OrcS3",
+  "dryRun": false,
+  "schedule": null,
+  "filter": null,
+  "versionMode": false,
+  "maxObjectsAmount": 1000,
+  "pluginName": "OrcS3Cataloger",
+  "incremental": true,
+  "type": "Cataloger",
+  "bucketFilter": {
+    "mode": "INCLUDE",
+    "patterns": [
+      "asgqaorcautomation"
+    ],
+    "objectFilter": {
+      "dirFilter": {
+        "mode": "INCLUDE",
+        "patterns": []
+      },
+      "fileFilter": {
+        "mode": "INCLUDE",
+        "patterns": []
+      },
+      "dirPrefixes": []
+    }
+  }
+}

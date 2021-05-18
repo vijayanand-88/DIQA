@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SparkLineage_Snowflake",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "SnowFlake_Spark"
+      ],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "PythonSparkLineage",
+      "type": "Lineage"
+    }
+  ]
+}

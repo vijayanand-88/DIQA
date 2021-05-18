@@ -1,0 +1,2 @@
+[{"username": {"string": "Sehwag"},"age": 38,"phone": "123445","housenum": "test 101","address": {"street": {"avenue":"North Avenue", "area":"Adyar"},"city": "Chennai","state_prov": "Tamil Nadu", "country": "India","zip": "600035"}},
+{"username": {"string": "Kamal"},"age": 45,"phone": "435435","housenum": "test 10","address": {"street": {"avenue":"South Avenue", "area":"Adyar"},"city": "Bangalore","state_prov": "Karnataka", "country": "US","zip": "60034"}}]

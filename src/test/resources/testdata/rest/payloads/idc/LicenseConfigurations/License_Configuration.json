@@ -1,0 +1,18 @@
+{
+  "entities" : [ {
+    "name" : "LINEAGE_PLUGINS",
+    "type" : "list",
+    "limit" : [ ],
+    "active" : true,
+    "currentUsage" : [ ],
+    "allAvailableValues" : [ "PythonSparkLineage", "SnowflakeDBPostProcessor", "OracleDBPostProcessor" ],
+    "localizedLabel" : "Lineage Transformations"
+  }, {
+    "name" : "DATASOURCE",
+    "type" : "number",
+    "limit" : 2,
+    "active" : true,
+    "currentUsage" : 0,
+    "localizedLabel" : "Data sources"
+  } ]
+}

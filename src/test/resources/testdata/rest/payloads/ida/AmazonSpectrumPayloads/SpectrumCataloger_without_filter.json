@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonSpectrumCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SpecCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "SpectrumDS",
+      "credential": "Spectrum_Credentials",
+      "filter": null,
+      "schemas": [
+        {
+          "schema": "spectrum",
+          "tables": [
+            {
+              "table": "city"
+            },
+            {
+              "table": "city1"
+            },
+            {
+              "table": "city2"
+            }
+          ]
+        },
+        {
+          "schema": "spectrumtest",
+          "tables": [
+            {
+              "table": "city3"
+            },
+            {
+              "table": "city4"
+            }
+          ]
+        }
+      ],
+      "incremental": false,
+      "pluginName": "AmazonSpectrumCataloger",
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "tableName": "glueTargetT12_csv",
+  "description": "Table Description",
+  "database": "autoglues3lineageT12",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "passengerid",
+        "type": "bigint",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqatestautomation4/TargetFiles/Target411/TargetT2",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "passengerid",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "age",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "ticket",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "fare",
+          "type": "double",
+          "comment": ""
+        }
+
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+}

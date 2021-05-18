@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TagCatalog",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "arguments": [],
+      "user": "testuser",
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORACLE12C",
+      "properties": []
+    }
+  ]
+}

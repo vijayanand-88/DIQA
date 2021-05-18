@@ -1,0 +1,12 @@
+[{
+  "type": "TestItems",
+  "name": "Name31",
+  "prop-real": 12345.6789e+20,
+  "prod-text": "New item 31"
+}, {
+
+  "type": "TestItems",
+  "name": "Name32",
+  "prop-int-array": [5, 58, 588],
+  "prod-text": "New item 32"
+}]

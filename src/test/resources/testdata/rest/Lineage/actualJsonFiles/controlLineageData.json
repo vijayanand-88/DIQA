@@ -1,0 +1,160 @@
+{
+  "viewfromsingletablewithcondt": [
+    {
+      "mode": "VIEW",
+      "source": "ssn",
+      "dir": "->",
+      "target": "ssn"
+    },
+    {
+      "mode": "VIEW",
+      "source": "postal_code",
+      "dir": "->",
+      "target": "postal_code"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone_number",
+      "dir": "->",
+      "target": "phone_number"
+    },
+    {
+      "mode": "VIEW",
+      "source": "full_name",
+      "dir": "->",
+      "target": "full_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "employee_id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "full_name",
+      "dir": "->",
+      "target": "full_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "postal_code",
+      "dir": "->",
+      "target": "postal_code"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "employee_id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone_number",
+      "dir": "->",
+      "target": "phone_number"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ssn",
+      "dir": "->",
+      "target": "ssn"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "full_name"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "ssn"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "postal_code"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "phone_number"
+    }
+  ]
+}

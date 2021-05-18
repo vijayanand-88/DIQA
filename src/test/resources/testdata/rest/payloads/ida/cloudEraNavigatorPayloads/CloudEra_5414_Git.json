@@ -1,0 +1,107 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN5414SC3"
+      ],
+      "pluginType": "collector",
+      "dataSource": "CNavigatorGitCollectorDataSource",
+      "credential": "ClouderaGitValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "300",
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "Filter"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+                "**/WebContent/**"
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitDirectory",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN5414SC4"
+      ],
+      "pluginType": "collector",
+      "dataSource": "CNavigatorGitCollectorDataSource",
+      "credential": "ClouderaGitValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "300",
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "Filter"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+
+    }
+  ]
+}

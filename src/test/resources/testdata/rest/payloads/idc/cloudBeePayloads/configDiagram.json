@@ -1,0 +1,132 @@
+{
+  "color.Analysis": "#f7fffa",
+  "color.Namespace": "#f7fffa",
+  "color.Project": "#fbf6ff",
+  "color.ExternalPackage": "#fbf6ff",
+  "color.Source": "#fbf6ff",
+  "color.SourceTree": "#fbf6ff",
+  "color.Class": "#fbf6ff",
+  "color.Function": "#fbf6ff",
+  "color.Operation": "#fff2ec",
+  "color.Execution": "#fff2ec",
+  "color.LineageHop": "#fff2ec",
+  "color.Cluster": "#fff3f8",
+  "color.Service": "#fff3f8",
+  "color.Host": "#fff3f8",
+  "color.Role": "#fff3f8",
+  "color.Directory": "#fff6ea",
+  "color.File": "#fff6ea",
+  "color.Field": "#fff6ea",
+  "color.Database": "#e9f8ff",
+  "color.Table": "#e9f8ff",
+  "color.Schema": "#e9f8ff",
+  "color.Column": "#ffffff",
+  "color.DataPackage": "#feffee",
+  "color.DataType": "#feffee",
+  "color.DataDomain": "#feffee",
+  "color.DataField": "#feffee",
+  "hovercolor.Analysis": "#e6ffef",
+  "hovercolor.Namespace": "#e6ffef",
+  "hovercolor.Project": "#f4e8ff",
+  "hovercolor.ExternalPackage": "#f4e8ff",
+  "hovercolor.Source": "#f4e8ff",
+  "hovercolor.SourceTree": "#f4e8ff",
+  "hovercolor.Class": "#f4e8ff",
+  "hovercolor.Function": "#f4e8ff",
+  "hovercolor.Operation": "#ffe0d2",
+  "hovercolor.Execution": "#ffe0d2",
+  "hovercolor.LineageHop": "#ffe0d2",
+  "hovercolor.Cluster": "#ffecf4",
+  "hovercolor.Service": "#ffecf4",
+  "hovercolor.Host": "#ffecf4",
+  "hovercolor.Role": "#ffecf4",
+  "hovercolor.Directory": "#fff1de",
+  "hovercolor.File": "#fff1de",
+  "hovercolor.Field": "#fff1de",
+  "hovercolor.Database": "#d4f2ff",
+  "hovercolor.Table": "#d4f2ff",
+  "hovercolor.Schema": "#d4f2ff",
+  "hovercolor.Column": "#d4f2ff",
+  "hovercolor.DataPackage": "#f2f4d4",
+  "hovercolor.DataType": "#f2f4d4",
+  "hovercolor.DataDomain": "#f2f4d4",
+  "hovercolor.DataField": "#f2f4d4",
+  "borderstyle.Analysis": {
+    "stroke": "#46d683"
+  },
+  "borderstyle.Namespace": {
+    "stroke": "#8ce3b1"
+  },
+  "borderstyle.Project": {
+    "stroke": "#8a3ad5"
+  },
+  "borderstyle.ExternalPackage": {
+    "stroke": "#b989e6"
+  },
+  "borderstyle.Source": {
+    "stroke": "#dcc4f2"
+  },
+  "borderstyle.SourceTree": {
+    "stroke": "#dcc4f2"
+  },
+  "borderstyle.Class": {
+    "stroke": "#eee2f9"
+  },
+  "borderstyle.Function": {
+    "stroke": "#eee2f9"
+  },
+  "borderstyle.Operation": {
+    "stroke": "#fa8249"
+  },
+  "borderstyle.Execution": {
+    "stroke": "#fcb492"
+  },
+  "borderstyle.LineageHop": {
+    "stroke": "#fdd9c8"
+  },
+  "borderstyle.Cluster": {
+    "stroke": "#f05a96"
+  },
+  "borderstyle.Service": {
+    "stroke": "#f69cc0"
+  },
+  "borderstyle.Host": {
+    "stroke": "#f69cc0"
+  },
+  "borderstyle.Role": {
+    "stroke": "#facddf"
+  },
+  "borderstyle.Directory": {
+    "stroke": "#d29c4e"
+  },
+  "borderstyle.File": {
+    "stroke": "#e4c495"
+  },
+  "borderstyle.Field": {
+    "stroke": "#f1e1ca"
+  },
+  "borderstyle.Database": {
+    "stroke": "#6fb2eb"
+  },
+  "borderstyle.Table": {
+    "stroke": "#b7d8f5"
+  },
+  "borderstyle.Schema": {
+    "stroke": "#b7d8f5"
+  },
+  "borderstyle.Column": {
+    "stroke": "#b7d8f5"
+  },
+  "borderstyle.DataPackage": {
+    "stroke": "#c5c979"
+  },
+  "borderstyle.DataType": {
+    "stroke": "#d4d79d"
+  },
+  "borderstyle.DataDomain": {
+    "stroke": "#e7e9c9"
+  },
+  "borderstyle.DataField": {
+    "stroke": "#e7e9c9"
+  }
+}

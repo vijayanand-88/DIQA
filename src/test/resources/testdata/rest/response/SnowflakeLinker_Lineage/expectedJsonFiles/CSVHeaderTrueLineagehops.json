@@ -1,0 +1,272 @@
+{
+  "CsvExternalTableWithHeaderSinglefolder": [
+    {
+      "mode": "VIEW",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "GENDER",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "employee_id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "IP_ADDRESS",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "phone_number"
+    },
+    {
+      "mode": "VIEW",
+      "source": "TESTMAXLENGTHOFFIELDNAMEUSINGTHISFIELDFINETILLHEREYOUSHOULDNOTSEETHIS",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "POSTAL_CODE",
+      "dir": "->",
+      "target": "postal_code"
+    },
+    {
+      "mode": "VIEW",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "full_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STATE",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "SSN",
+      "dir": "->",
+      "target": "ssn"
+    },
+    {
+      "mode": "VIEW",
+      "source": "CsvExternalTableWithHeaderSinglefolder",
+      "dir": "->",
+      "target": "CsvFilesInSingleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "CsvFilesInSingleFolder",
+      "dir": "->",
+      "target": "CsvExternalTableWithHeaderSinglefolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "postal_code",
+      "dir": "->",
+      "target": "POSTAL_CODE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "GENDER"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone_number",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ssn",
+      "dir": "->",
+      "target": "SSN"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "TESTMAXLENGTHOFFIELDNAMEUSINGTHISFIELDFINETILLHEREYOUSHOULDNOTSEETHIS"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "IP_ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "full_name",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    }
+  ],
+  "CsvExternalTableWithoutHeaderFileFirstRowHeader": [
+    {
+      "mode": "VIEW",
+      "source": "CsvExternalTableWithoutHeaderFileFirstRowHeader",
+      "dir": "->",
+      "target": "BasicDataTypesWithoutHeader"
+    },
+    {
+      "mode": "VIEW",
+      "source": "BasicDataTypesWithoutHeader",
+      "dir": "->",
+      "target": "CsvExternalTableWithoutHeaderFileFirstRowHeader"
+    }
+  ],
+  "CsvExternalTableWithHeaderMultiplefolder": [
+    {
+      "mode": "VIEW",
+      "source": "SSN",
+      "dir": "->",
+      "target": "ssn"
+    },
+    {
+      "mode": "VIEW",
+      "source": "IP_ADDRESS",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "CsvExternalTableWithHeaderMultiplefolder",
+      "dir": "->",
+      "target": "CsvFilesInMultipleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "employee_id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "full_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STATE",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "phone_number"
+    },
+    {
+      "mode": "VIEW",
+      "source": "POSTAL_CODE",
+      "dir": "->",
+      "target": "postal_code"
+    },
+    {
+      "mode": "VIEW",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "GENDER",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "source": "employee_id",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "IP_ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ssn",
+      "dir": "->",
+      "target": "SSN"
+    },
+    {
+      "mode": "VIEW",
+      "source": "postal_code",
+      "dir": "->",
+      "target": "POSTAL_CODE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "CsvFilesInMultipleFolder",
+      "dir": "->",
+      "target": "CsvExternalTableWithHeaderMultiplefolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "GENDER"
+    },
+    {
+      "mode": "VIEW",
+      "source": "full_name",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone_number",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    }
+  ]
+}

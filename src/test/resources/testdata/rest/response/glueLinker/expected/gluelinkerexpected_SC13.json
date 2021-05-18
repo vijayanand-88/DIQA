@@ -1,0 +1,100 @@
+{
+  "glueavro": [
+    {
+      "mode": "VIEW",
+      "source": "InCity",
+      "dir": "->",
+      "target": "incity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubleType",
+      "dir": "->",
+      "target": "doubletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubletype",
+      "dir": "->",
+      "target": "doubleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floatType",
+      "dir": "->",
+      "target": "floattype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floattype",
+      "dir": "->",
+      "target": "floatType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "glueavro",
+      "dir": "->",
+      "target": "userDiffDataTypes.avro"
+    },
+    {
+      "mode": "VIEW",
+      "source": "incity",
+      "dir": "->",
+      "target": "InCity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longType",
+      "dir": "->",
+      "target": "longtype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longtype",
+      "dir": "->",
+      "target": "longType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "userDiffDataTypes.avro",
+      "dir": "->",
+      "target": "glueavro"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    }
+  ]
+}

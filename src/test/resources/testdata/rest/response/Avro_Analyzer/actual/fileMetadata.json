@@ -1,0 +1,727 @@
+{
+  "caption" : {
+    "name" : "testdata.csv",
+    "type" : "File",
+    "id" : "Default.File:::19209",
+    "actions" : [ {
+      "class" : "com.asg.dis.platform.data.component.itemview.dom.ItemAction",
+      "name" : "create-assign-item",
+      "requiredPermissions" : [ "DATA_MODIFY" ],
+      "label" : "Assign to Data Set",
+      "icon" : "fa fa-database",
+      "disabled" : false,
+      "requiredUsers" : [ ],
+      "requiredRoles" : [ ],
+      "params" : {
+        "historyItemId" : null,
+        "scopeid" : "Default.Directory%3A%3A%3A19208",
+        "catalog" : "Default",
+        "name" : "testdata.csv",
+        "id" : "Default.File%3A%3A%3A19209",
+        "type" : "File"
+      }
+    } ],
+    "editableIcon" : false,
+    "breadCrumbs" : [ {
+      "name" : "Cluster Demo",
+      "tooltip" : "Cluster Demo [Cluster]",
+      "id" : "Default.Cluster:::487"
+    }, {
+      "name" : "HDFS",
+      "tooltip" : "HDFS [Service]",
+      "id" : "Default.Service:::488"
+    }, {
+      "name" : "ROOT",
+      "tooltip" : "ROOT [Directory]",
+      "id" : "Default.Directory:::19206"
+    }, {
+      "name" : "idaautomation",
+      "tooltip" : "idaautomation [Directory]",
+      "id" : "Default.Directory:::19207"
+    }, {
+      "name" : "sub1",
+      "tooltip" : "sub1 [Directory]",
+      "id" : "Default.Directory:::19208"
+    }, {
+      "name" : "testdata.csv",
+      "tooltip" : "testdata.csv [File]",
+      "id" : "Default.File:::19209"
+    } ],
+    "historyVersion" : null,
+    "editableName" : false,
+    "refreshItemOnChangeEndpoint" : "/websocket/events/broadcast",
+    "quality" : {
+      "message" : "Not applicable",
+      "color" : "#A59C9C",
+      "value" : 0.0
+    }
+  },
+  "data" : [ {
+    "category" : "Overview",
+    "preview" : true,
+    "data" : [ {
+      "type" : "multi-properties",
+      "caption" : "Description",
+      "data" : {
+        "attributes" : [ {
+          "type" : "string",
+          "caption" : "Location",
+          "data" : {
+            "value" : "/idaautomation/sub1",
+            "attributeName" : "location",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.File%3A%3A%3A19209",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "MIME type",
+          "data" : {
+            "value" : "text/csv",
+            "attributeName" : "mimeType",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.File%3A%3A%3A19209",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "file-size",
+          "caption" : "File size",
+          "data" : {
+            "value" : 151,
+            "attributeName" : "fileSize",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.File%3A%3A%3A19209",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Group",
+          "data" : {
+            "value" : "hdfs",
+            "attributeName" : "group",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.File%3A%3A%3A19209",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Permission",
+          "data" : {
+            "value" : "rwxr-xr-x",
+            "attributeName" : "permission",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.File%3A%3A%3A19209",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Created by",
+          "data" : {
+            "value" : "raj_ops",
+            "attributeName" : "createdBy",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.File%3A%3A%3A19209",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Lifecycle",
+      "data" : {
+        "attributes" : [ {
+          "type" : "date",
+          "caption" : "Modified",
+          "data" : {
+            "value" : "2020-08-03T08:20:12.000+0000",
+            "attributeName" : "modifiedAt",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.File%3A%3A%3A19209",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "date",
+          "caption" : "Last catalogued at",
+          "data" : {
+            "value" : "2020-08-03T08:21:15.438+0000",
+            "attributeName" : "cataloguedAt",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.File%3A%3A%3A19209",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Data Sample",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lazy-load-table",
+      "caption" : "DataSampling",
+      "data" : {
+        "wrangling" : "false",
+        "url" : "services/components/Default/definition/dataSample/Default.File:::19209"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Relationships",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lineage",
+      "caption" : "DataLineage",
+      "data" : {
+        "theme" : "relationships",
+        "id" : "Default.File:::19209"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Lineage",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lineage",
+      "caption" : "DataLineage",
+      "data" : {
+        "theme" : "lineage",
+        "id" : "Default.File:::19209"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Stewardship",
+    "preview" : false,
+    "data" : [ {
+      "type" : "user-with-avatar",
+      "caption" : "Business Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "businessOwners" : [ ],
+            "clickable" : true
+          }
+        },
+        "attributeName" : "businessOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::14676",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "user-with-avatar",
+      "caption" : "Technology Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "technologyOwners" : [ ],
+            "clickable" : true
+          }
+        },
+        "attributeName" : "technologyOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::14676",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "user-with-avatar",
+      "caption" : "Relationship Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "relationshipOwners" : [ ]
+          }
+        },
+        "attributeName" : "relationshipOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::14676",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "user-with-avatar",
+      "caption" : "Security Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "securityOwners" : [ ]
+          }
+        },
+        "attributeName" : "securityOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::14676",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "user-with-avatar",
+      "caption" : "Compliance Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "complianceOwners" : [ ]
+          }
+        },
+        "attributeName" : "complianceOwners",
+        "editable" : false,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::14676",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  } ],
+  "sideBar" : {
+    "widgets" : [ {
+      "type" : "rating",
+      "caption" : "Rating",
+      "data" : {
+        "content" : {
+          "ratingCount" : 0,
+          "averageRating" : 0.0,
+          "userRating" : 0,
+          "ratings" : [ ],
+          "maxValue" : 5
+        },
+        "links" : {
+          "add" : {
+            "value" : "/ratings/Default/Default.File:::19209/",
+            "params" : { }
+          },
+          "get" : {
+            "value" : "/ratings/Default/Default.File:::19209/",
+            "params" : { }
+          },
+          "delete" : {
+            "value" : "/ratings/Default/Default.File:::19209/",
+            "params" : { }
+          }
+        }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "taglist",
+      "caption" : "Tags",
+      "data" : [ {
+        "id" : "Default.Tag:::14688",
+        "name" : "HDFS_BA",
+        "rootTagName" : "BusinessApplication",
+        "parentTagName" : "",
+        "definition" : "BusinessApplication: HDFS_BA",
+        "status" : "APPROVED",
+        "type" : "BusinessApplication Tag",
+        "image" : {
+          "icon" : "icon-business",
+          "color" : "#004ea8"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-08-03T09:51:31.498+0000",
+        "isExpand" : null,
+        "asg_createdat" : "2020-08-03T08:02:22.258+0000",
+        "isRoot" : false,
+        "rootid" : null,
+        "catalog" : null,
+        "originItemID" : "Default.BusinessApplication:::14676",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service",
+        "originItemCatalog" : "Default"
+      }, {
+        "id" : "Default.Tag:::420",
+        "name" : "Hadoop Files",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "Hadoop Filesystem",
+        "status" : "APPROVED",
+        "type" : "Technology Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-08-03T09:51:31.498+0000",
+        "asg_createdat" : "2020-08-03T06:15:03.460+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::19210",
+        "name" : "SC1_folderwith1subfolder",
+        "rootTagName" : "SC1_folderwith1subfolder",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-08-03T09:51:31.498+0000",
+        "asg_createdat" : "2020-08-03T08:21:16.026+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::19211",
+        "name" : "createDir",
+        "rootTagName" : "createDir",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-08-03T09:51:31.498+0000",
+        "asg_createdat" : "2020-08-03T08:21:16.026+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "topBar" : {
+    "widgets" : [ {
+      "type" : "tag-details",
+      "caption" : "Tags",
+      "data" : [ {
+        "id" : "Default.Tag:::14688",
+        "name" : "HDFS_BA",
+        "rootTagName" : "BusinessApplication",
+        "parentTagName" : "",
+        "definition" : "BusinessApplication: HDFS_BA",
+        "status" : "APPROVED",
+        "type" : "BusinessApplication Tag",
+        "image" : {
+          "icon" : "icon-business",
+          "color" : "#004ea8"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-08-03T09:51:31.498+0000",
+        "isExpand" : null,
+        "asg_createdat" : "2020-08-03T08:02:22.258+0000",
+        "isRoot" : false,
+        "rootid" : null,
+        "catalog" : null,
+        "originItemID" : "Default.BusinessApplication:::14676",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service",
+        "originItemCatalog" : "Default"
+      }, {
+        "id" : "Default.Tag:::420",
+        "name" : "Hadoop Files",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "Hadoop Filesystem",
+        "status" : "APPROVED",
+        "type" : "Technology Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-08-03T09:51:31.498+0000",
+        "asg_createdat" : "2020-08-03T06:15:03.460+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::19210",
+        "name" : "SC1_folderwith1subfolder",
+        "rootTagName" : "SC1_folderwith1subfolder",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-08-03T09:51:31.498+0000",
+        "asg_createdat" : "2020-08-03T08:21:16.026+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::19211",
+        "name" : "createDir",
+        "rootTagName" : "createDir",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-08-03T09:51:31.498+0000",
+        "asg_createdat" : "2020-08-03T08:21:16.026+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "hierarchy" : [ {
+    "label" : "Cluster Demo",
+    "children" : [ {
+      "label" : "HDFS",
+      "children" : [ {
+        "label" : "ROOT",
+        "children" : [ {
+          "label" : "idaautomation",
+          "children" : [ {
+            "label" : "sub1",
+            "children" : [ {
+              "label" : "testdata.csv",
+              "children" : [ ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}

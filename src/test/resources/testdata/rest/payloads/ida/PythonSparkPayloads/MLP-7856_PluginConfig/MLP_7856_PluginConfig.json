@@ -1,0 +1,124 @@
+{
+  "GitCollector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollector_7856",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollector_7856"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "PySpark7856"
+    ],
+    "pluginType": "collector",
+    "dataSource": "Git_7856_DS",
+    "credential": "GitCredentials_7856",
+    "businessApplicationName": "test_BA_PySpark_7856",
+    "schedule": null,
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.Filter",
+          "label": null,
+          "tags": null,
+          "branch": "azuremssqlsparklineage"
+        }
+      ],
+      "deltaTime": "300",
+      "extraFilters": {
+        "filefilters": []
+      },
+      "maxHits": null
+    },
+    "dryRun": false,
+    "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+    "pluginName": "GitCollector",
+    "type": "Collector"
+  },
+  "MSSQLCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "MSSQLCataloger_7856",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "PySpark7856"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "MSSQL_7856_DS",
+    "credential": "MSSQLCredentials_7856",
+    "businessApplicationName": "test_BA_PySpark_7856",
+    "schedule": null,
+    "filter": null,
+    "dryRun": false,
+    "pluginName": "SQLServerDBCataloger",
+    "schemas": [
+      {
+        "schema": "dbo",
+        "tables": []
+      }
+    ],
+    "arguments": [],
+    "type": "Cataloger"
+  },
+  "PythonParser": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonParser_7856",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonParser_7856"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "PySpark7856"
+    ],
+    "pluginType": "parser",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_PySpark_7856",
+    "schedule": null,
+    "filter": null,
+    "dryRun": false,
+    "pluginName": "PythonParser",
+    "type": "Parser"
+  },
+  "PythonSparkLineage": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonSparkLineage_7856",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonSparkLineage_7856"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "PySpark7856"
+    ],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_PySpark_7856",
+    "schedule": null,
+    "filter": null,
+    "dryRun": false,
+    "pluginName": "PythonSparkLineage",
+    "type": "Lineage"
+  }
+}

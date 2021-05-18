@@ -1,0 +1,11 @@
+{
+  "SourceCatalog": {
+    "label": {
+      "": "SourceCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "SourceCatalog"
+    }
+  }
+}

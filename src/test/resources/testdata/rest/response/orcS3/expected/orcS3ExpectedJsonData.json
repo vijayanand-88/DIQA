@@ -1,0 +1,221 @@
+{
+  "MetaData": {
+    "totalCount": 111,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 88,
+          "value": "Field"
+        },
+        {
+          "count": 14,
+          "value": "File"
+        },
+        {
+          "count": 6,
+          "value": "Directory"
+        },
+        {
+          "count": 1,
+          "value": "Analysis"
+        },
+        {
+          "count": 1,
+          "value": "Cluster"
+        },
+        {
+          "count": 1,
+          "value": "Service"
+        }
+      ]
+    },
+    "clusterMetaData": {
+      "name": "amazonaws.com",
+      "clusterID": "S3ParquetSC1.Cluster:::1",
+      "table": {
+        "values": {
+          "type": "Service",
+          "name": [
+            "AmazonS3"
+          ]
+        }
+      },
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Data Files"
+          },
+          {
+            "techTag": "Parquet"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "serviceMetaData": {
+      "name": "AmazonS3",
+      "serviceID": "S3AmazonSC1.Service:::1",
+      "has_Directory": [
+        {
+          "name": "asgqaparquetautomation"
+        }
+      ],
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Data Files"
+          },
+          {
+            "techTag": "Parquet"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "directoryMetaData": {
+      "directorySize": 0,
+      "numberOfFiles": 0,
+      "sizeOfFiles": 0,
+      "location": "asgqaparquetautomation/",
+      "numberOfSubDir": 1,
+      "sizeOfSubDir": 0,
+      "directoryID": "S3AmazonSC1.Directory:::3",
+      "table": {
+        "has_Directory": [
+          {
+            "name": "ParquetTestData"
+          }
+        ]
+      }
+    },
+    "subDirectoryMetaData": {
+      "directorySize": 125919,
+      "numberOfFiles": 10,
+      "sizeOfFiles": 125919,
+      "location": "asgqaparquetautomation/ParquetTestData/TestParquet/",
+      "numberOfSubDir": 1,
+      "sizeOfSubDir": 1445,
+      "directoryID": "S3AmazonSC1.Directory:::3",
+      "table": {
+        "has_Files": [
+          {
+            "name": "HiveParquet.parquet"
+          },
+          {
+            "name": "Spark.parquet"
+          },
+          {
+            "name": "nation.parquet"
+          },
+          {
+            "name": "region.parquet"
+          },
+          {
+            "name": "simple.parquet"
+          },
+          {
+            "name": "source.parquet"
+          },
+          {
+            "name": "testcomplex.parquet"
+          },
+          {
+            "name": "userDiffDataTypes.parquet"
+          },
+          {
+            "name": "userdata1.parquet"
+          },
+          {
+            "name": "version"
+          },
+          {
+            "name": "weather.parquet"
+          }
+        ]
+      }
+    },
+    "fileMetaData": {
+      "fileID": "S3AmazonSC1.File:::1",
+      "Location": "asgqaparquetautomation/ParquetTestData/TestParquet/nation.parquet",
+      "fileContentLength": 1210,
+      "table": {
+        "has_Fields": [
+          {
+            "name": "N_COMMENT"
+          },
+          {
+            "name": "N_NAME"
+          },
+          {
+            "name": "N_NATIONKEY"
+          },
+          {
+            "name": "N_REGIONKEY"
+          }
+        ]
+      }
+    },
+    "fieldMetaData": {
+      "file1": {
+        "field1": {
+          "fieldName": "boolean1",
+          "fieldDataType": "BOOLEAN"
+        },
+        "field2": {
+          "fieldName": "byte1",
+          "fieldDataType": "BYTE"
+        },
+        "field3": {
+          "fieldName": "short1",
+          "fieldDataType": "SHORT"
+        },
+        "field4": {
+          "fieldName": "int1",
+          "fieldDataType": "INT"
+        },
+        "field5": {
+          "fieldName": "long1",
+          "fieldDataType": "LONG"
+        },
+        "field6": {
+          "fieldName": "float1",
+          "fieldDataType": "FLOAT"
+        },
+        "field7": {
+          "fieldName": "double1",
+          "fieldDataType": "DOUBLE"
+        },
+        "field8": {
+          "fieldName": "bytes1",
+          "fieldDataType": "BINARY"
+        },
+        "field9": {
+          "fieldName": "string1",
+          "fieldDataType": "STRING"
+        },
+        "field10": {
+          "fieldName": "middle",
+          "fieldDataType": "STRUCT"
+        },
+        "field11": {
+          "fieldName": "list",
+          "fieldDataType": "LIST"
+        },
+        "field12": {
+          "fieldName": "map",
+          "fieldDataType": "MAP"
+        }
+      }
+    },
+    "analysisMetaData": {
+    }
+  }
+}

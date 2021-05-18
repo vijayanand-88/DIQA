@@ -1,0 +1,77 @@
+{
+  "tableName": "titanic_table",
+  "description": "Table Description",
+  "database": "sourcedb512",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "id1",
+        "type": "bigint",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqatestautomation4/SourceFiles/Source512/Titanic_Table",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "passengerid",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "age",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "ticket",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "fare",
+          "type": "double",
+          "comment": ""
+        },
+        {
+          "name": "sex",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+}

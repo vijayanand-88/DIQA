@@ -1,0 +1,11 @@
+{
+  "AZURESQL CATALOG": {
+    "label": {
+      "": "AZURESQL CATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "AZURESQL CATALOG"
+    }
+  }
+}

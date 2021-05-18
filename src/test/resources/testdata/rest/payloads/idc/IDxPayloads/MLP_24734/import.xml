@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/Analyzer/1.1.0"><xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="ATTRIBUTE.RBD_FILE.RBD_TREE">REMOVE</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+
+<Project location="" xmi:id="id_6" name="Java2770371379012143743" tags="Local Files">
+    <contains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="File" accessedAt="20200709003256" location="Test1.java" modifiedAt="20200709003256" xmi:id="id_21" name="Test1.java" tags="Local Files" asg_originid='3000000' asg_origintype='DWR_ORG_UNIT'>
+        <collectedAt>2020-07-09T00:33:22.791-07:00</collectedAt>
+        <content name="Test1.java" tags="Local Files">
+            <data>cHVibGljIGNsYXNzIFRlc3QxIHsNCglwdWJsaWMgdm9pZCBmKCkgew0KCX0NCn0=</data>
+        </content>
+        <extension>java</extension>
+        <fileName>Test1111.java</fileName>
+        <fileSize>47</fileSize>
+        <mimeType>text/x-java-source</mimeType>
+    </contains>
+    <contains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="File" accessedAt="20200709003310" location="MyFile.java" modifiedAt="20200709003310" xmi:id="id_22" name="MyFile.java" tags="Local Files" asg_originid='3000001' asg_origintype='DWR_ORG_UNIT'>
+        <collectedAt>2020-07-09T00:33:22.809-07:00</collectedAt>
+        <content name="MyFile.java" tags="Local Files">
+            <data>cHVibGljIGNsYXNzIFRlc3QyIHsNCglwdWJsaWMgdm9pZCBmKCkgew0KCX0NCn0=</data>
+        </content>
+        <extension>java</extension>
+        <fileName>MyFile.java</fileName>
+        <fileSize>47</fileSize>
+        <mimeType>text/x-java-source</mimeType>
+    </contains>
+	  <contains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="File" accessedAt="20200709003310" location="MyFile1.java" modifiedAt="20200709003310" xmi:id="id_23" name="MyFile1.java" tags="Local Files" asg_originid='3000002' asg_origintype='DWR_ORG_UNIT'>
+        <collectedAt>2020-07-09T00:33:22.809-07:00</collectedAt>
+        <content name="MyFile1.java" tags="Local Files">
+            <data>cHVibGljIGNsYXNzIFRlc3QyIHsNCglwdWJsaWMgdm9pZCBmKCkgew0KCX0NCn0=</data>
+        </content>
+        <extension>java</extension>
+        <fileName>MyFile1.java</fileName>
+        <fileSize>47</fileSize>
+        <mimeType>text/x-java-source</mimeType>
+    </contains>
+	  <contains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="File" accessedAt="20200709003310" location="MyFile2.java" modifiedAt="20200709003310" xmi:id="id_24" name="MyFile2.java" tags="Local Files" asg_originid='3000003' asg_origintype='DWR_ORG_UNIT'>
+        <collectedAt>2020-07-09T00:33:22.809-07:00</collectedAt>
+        <content name="MyFile2.java" tags="Local Files">
+            <data>cHVibGljIGNsYXNzIFRlc3QyIHsNCglwdWJsaWMgdm9pZCBmKCkgew0KCX0NCn0=</data>
+        </content>
+        <extension>java</extension>
+        <fileName>MyFile2.java</fileName>
+        <fileSize>47</fileSize>
+        <mimeType>text/x-java-source</mimeType>
+    </contains>
+</Project>
+
+<Analysis configurationName="test" ended="2020-07-09T00:33:22.812-07:00" errors="0" fatalErrors="0" hostName="solr" nodeName="TestIngestion2" pluginName="LocalFileCollector" pluginType="collector" pluginVersion="Unknown" processedCount="3" started="2020-07-09T00:33:21.774-07:00" warnings="0" def="{&quot;class&quot;:&quot;com.asg.dis.common.analysis.dom.PluginConfiguration&quot;,&quot;name&quot;:&quot;test&quot;,&quot;label&quot;:null,&quot;catalogName&quot;:&quot;analysis1594279976280&quot;,&quot;eventClass&quot;:null,&quot;eventCondition&quot;:null,&quot;nodeCondition&quot;:null,&quot;maxWorkSize&quot;:100,&quot;tags&quot;:null,&quot;pluginType&quot;:null,&quot;dataSource&quot;:null,&quot;credential&quot;:null,&quot;businessApplicationName&quot;:null,&quot;dryRun&quot;:false,&quot;filter&quot;:null,&quot;root&quot;:&quot;C:\\Users\\MAGESH~1.ANA\\AppData\\Local\\Temp\\2\\Java2770371379012143743&quot;,&quot;incrementalRun&quot;:false}" xmi:id="id_9" name="collector/LocalFileCollector/test/2020-07-09T00:33:21.774-0700" tags="Local Files">
+    <content name="log" tags="Local Files">
+        <data>MjAyMC0wNy0wOSAwMDozMzoyMS43NzkgSU5GTyAgLSBBTkFMWVNJUy0wMDE5OiBQbHVnaW4gc3RhcnRlZA0KMjAyMC0wNy0wOSAwMDozMzoyMS43ODcgSU5GTyAgLSBBTkFMWVNJUy0wMDczOiBQbHVnaW4gTG9jYWxGaWxlQ29sbGVjdG9yIENvbmZpZ3VyYXRpb246IC0tLSAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjc4OCBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogbmFtZTogInRlc3QiICANCjIwMjAtMDctMDkgMDA6MzM6MjEuNzg4IElORk8gIC0gQU5BTFlTSVMtMDA3MzogUGx1Z2luIExvY2FsRmlsZUNvbGxlY3RvciBDb25maWd1cmF0aW9uOiBsYWJlbDogbnVsbCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjc4OSBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogY2F0YWxvZ05hbWU6ICJhbmFseXNpczE1OTQyNzk5NzYyODAiICANCjIwMjAtMDctMDkgMDA6MzM6MjEuNzkwIElORk8gIC0gQU5BTFlTSVMtMDA3MzogUGx1Z2luIExvY2FsRmlsZUNvbGxlY3RvciBDb25maWd1cmF0aW9uOiBldmVudENsYXNzOiBudWxsICANCjIwMjAtMDctMDkgMDA6MzM6MjEuNzkxIElORk8gIC0gQU5BTFlTSVMtMDA3MzogUGx1Z2luIExvY2FsRmlsZUNvbGxlY3RvciBDb25maWd1cmF0aW9uOiBldmVudENvbmRpdGlvbjogbnVsbCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjc5MiBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogbm9kZUNvbmRpdGlvbjogbnVsbCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjc5MiBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogbWF4V29ya1NpemU6IDEwMCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjc5MiBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogdGFnczogbnVsbCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjgwMiBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogcGx1Z2luVHlwZTogbnVsbCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjgwMyBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogZGF0YVNvdXJjZTogbnVsbCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjgwMyBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogY3JlZGVudGlhbDogbnVsbCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjgwNyBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogYnVzaW5lc3NBcHBsaWNhdGlvbk5hbWU6IG51bGwgIA0KMjAyMC0wNy0wOSAwMDozMzoyMS44MDcgSU5GTyAgLSBBTkFMWVNJUy0wMDczOiBQbHVnaW4gTG9jYWxGaWxlQ29sbGVjdG9yIENvbmZpZ3VyYXRpb246IGRyeVJ1bjogZmFsc2UgIA0KMjAyMC0wNy0wOSAwMDozMzoyMS44MDggSU5GTyAgLSBBTkFMWVNJUy0wMDczOiBQbHVnaW4gTG9jYWxGaWxlQ29sbGVjdG9yIENvbmZpZ3VyYXRpb246IGZpbHRlcjogbnVsbCAgDQoyMDIwLTA3LTA5IDAwOjMzOjIxLjgwOCBJTkZPICAtIEFOQUxZU0lTLTAwNzM6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgQ29uZmlndXJhdGlvbjogcm9vdDogIkM6XFxVc2Vyc1xcTUFHRVNIfjEuQU5BXFxBcHBEYXRhXFxMb2NhbFxcVGVtcFxcMlxcSmF2YTI3NzAzNzEzNzkwMTIxNDM3NDMiICANCjIwMjAtMDctMDkgMDA6MzM6MjEuODA4IElORk8gIC0gQU5BTFlTSVMtMDA3MzogUGx1Z2luIExvY2FsRmlsZUNvbGxlY3RvciBDb25maWd1cmF0aW9uOiBpbmNyZW1lbnRhbFJ1bjogZmFsc2UgIA0KMjAyMC0wNy0wOSAwMDozMzoyMS44MDggSU5GTyAgLSBBTkFMWVNJUy0wMDcxOiBQbHVnaW4gTmFtZTpMb2NhbEZpbGVDb2xsZWN0b3IsIFBsdWdpbiBUeXBlOmNvbGxlY3RvciwgUGx1Z2luIFZlcnNpb246VW5rbm93biwgTm9kZSBOYW1lOlRlc3RJbmdlc3Rpb24yLCBIb3N0IE5hbWU6c29sciwgUGx1Z2luIENvbmZpZ3VyYXRpb24gbmFtZTp0ZXN0DQoyMDIwLTA3LTA5IDAwOjMzOjIyLjY3NiBJTkZPICAtIERFQlVHDQoyMDIwLTA3LTA5IDAwOjMzOjIyLjY3NiBERUJVRyAtIE1heFdvcmtTaXplIDo9IDEwMA0KMjAyMC0wNy0wOSAwMDozMzoyMi43ODcgSU5GTyAgLSBBTkFMWVNJUy1MT0NBTC0wMDA1OiBGaWxlIEM6XFVzZXJzXE1BR0VTSH4xLkFOQVxBcHBEYXRhXExvY2FsXFRlbXBcMlxKYXZhMjc3MDM3MTM3OTAxMjE0Mzc0M1xUZXN0MS5qYXZhIHZpc2l0ZWQNCjIwMjAtMDctMDkgMDA6MzM6MjIuODA4IElORk8gIC0gQU5BTFlTSVMtTE9DQUwtMDAwNzogRmlsZSBDOlxVc2Vyc1xNQUdFU0h+MS5BTkFcQXBwRGF0YVxMb2NhbFxUZW1wXDJcSmF2YTI3NzAzNzEzNzkwMTIxNDM3NDNcVGVzdDEuamF2YSBjb2xsZWN0ZWQNCjIwMjAtMDctMDkgMDA6MzM6MjIuODA5IElORk8gIC0gQU5BTFlTSVMtTE9DQUwtMDAwNTogRmlsZSBDOlxVc2Vyc1xNQUdFU0h+MS5BTkFcQXBwRGF0YVxMb2NhbFxUZW1wXDJcSmF2YTI3NzAzNzEzNzkwMTIxNDM3NDNcVGVzdDIuamF2YSB2aXNpdGVkDQoyMDIwLTA3LTA5IDAwOjMzOjIyLjgxMiBJTkZPICAtIEFOQUxZU0lTLUxPQ0FMLTAwMDc6IEZpbGUgQzpcVXNlcnNcTUFHRVNIfjEuQU5BXEFwcERhdGFcTG9jYWxcVGVtcFwyXEphdmEyNzcwMzcxMzc5MDEyMTQzNzQzXFRlc3QyLmphdmEgY29sbGVjdGVkDQoyMDIwLTA3LTA5IDAwOjMzOjIyLjgxMiBJTkZPICAtIEFOQUxZU0lTLTAwNzI6IFBsdWdpbiBMb2NhbEZpbGVDb2xsZWN0b3IgU3RhcnQgVGltZToyMDIwLTA3LTA5IDAwOjMzOjIxLjc3NCwgRW5kIFRpbWU6MjAyMC0wNy0wOSAwMDozMzoyMi44MTIsIFByb2Nlc3NlZCBDb3VudDozLCBFcnJvcnM6MCwgV2FybmluZ3M6MA0KMjAyMC0wNy0wOSAwMDozMzoyMi44MTIgSU5GTyAgLSBBTkFMWVNJUy0wMDIwOiBQbHVnaW4gY29tcGxldGVkIChlbGFwc2VkIHRpbWUgaW4gKEhIOk1NOlNTLm1zKTogMDA6MDA6MDEuMDM4KQ0K</data>
+    </content>
+    <processed xmi:idref="id_21"/>
+    <processed xmi:idref="id_22"/>
+    <processed xmi:idref="id_23"/>
+	<processed xmi:idref="id_24"/>
+</Analysis>
+
+</xmi:XMI>

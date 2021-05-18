@@ -1,0 +1,54 @@
+{
+  "fieldActualMetaData": {
+    "file1": {
+      "field11": {
+        "fieldActualDataType": "LIST",
+        "fieldActualName": "list"
+      },
+      "field12": {
+        "fieldActualDataType": "MAP",
+        "fieldActualName": "map"
+      },
+      "field1": {
+        "fieldActualDataType": "BOOLEAN",
+        "fieldActualName": "boolean1"
+      },
+      "field10": {
+        "fieldActualDataType": "STRUCT",
+        "fieldActualName": "middle"
+      },
+      "field7": {
+        "fieldActualDataType": "DOUBLE",
+        "fieldActualName": "double1"
+      },
+      "field6": {
+        "fieldActualDataType": "FLOAT",
+        "fieldActualName": "float1"
+      },
+      "field9": {
+        "fieldActualDataType": "STRING",
+        "fieldActualName": "string1"
+      },
+      "field8": {
+        "fieldActualDataType": "BINARY",
+        "fieldActualName": "bytes1"
+      },
+      "field3": {
+        "fieldActualDataType": "SHORT",
+        "fieldActualName": "short1"
+      },
+      "field2": {
+        "fieldActualDataType": "BYTE",
+        "fieldActualName": "byte1"
+      },
+      "field5": {
+        "fieldActualDataType": "LONG",
+        "fieldActualName": "long1"
+      },
+      "field4": {
+        "fieldActualDataType": "INT",
+        "fieldActualName": "int1"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "SqlServerDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SQLserver_DS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "sqlserver_validcred",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "pluginName": "DataSource_for_SQLServer",
+        "Connection": {
+          "CAEPath": "${cae.home}",
+          "SQLServerUrl": "jdbc:sqlserver://diqdataintel01v.diq.qa.asgint.loc:1433",
+          "WindowsAuthentication": false
+        }
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "DataSource_for_SQLServer_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null
+      }
+    ]
+  }
+}

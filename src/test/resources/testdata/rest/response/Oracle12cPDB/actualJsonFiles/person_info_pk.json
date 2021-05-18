@@ -1,0 +1,20 @@
+{
+  "PERSON_INFO_PK": [
+    {
+      "level": 1,
+      "back": false,
+      "id": "",
+      "source": null,
+      "type": "index",
+      "target": null
+    },
+    {
+      "level": 1,
+      "back": false,
+      "id": "",
+      "source": null,
+      "type": "linkColumn",
+      "target": null
+    }
+  ]
+}

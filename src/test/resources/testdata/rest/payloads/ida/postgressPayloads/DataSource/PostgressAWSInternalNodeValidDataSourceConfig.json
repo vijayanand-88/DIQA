@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgressInternalValidDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "ValidPostgressCredentials",
+      "schedule": null,
+      "filter": null,
+      "driver": "org.postgresql.Driver",
+      "pluginName": "PostgreSQLDBDataSource",
+      "driverBundleName": "org.postgresql.jdbc",
+      "url": "jdbc:postgresql://ddpostgresql.cshey0cobobn.us-east-1.rds.amazonaws.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgressInternalValidDataSource_TEST_DEFAULT_CONFIGURATION",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": null,
+      "filter": null,
+      "driver": "org.postgresql.Driver",
+      "pluginName": "PostgreSQLDBDataSource",
+      "driverBundleName": "org.postgresql.jdbc",
+      "url": null
+    }
+  ]
+}

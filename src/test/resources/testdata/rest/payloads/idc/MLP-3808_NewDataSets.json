@@ -1,0 +1,6 @@
+{
+  "name": "NewDataSet",
+  "description": "Table items",
+  "status": "PUBLIC",
+  "dataElements":["BigData.Table:::2","BigData.Table:::3"]
+}

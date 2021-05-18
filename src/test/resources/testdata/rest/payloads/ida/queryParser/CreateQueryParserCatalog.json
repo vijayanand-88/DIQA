@@ -1,0 +1,11 @@
+{
+  "QueryParser": {
+    "label": {
+      "": "QueryParser"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "QueryParser"
+    }
+  }
+}

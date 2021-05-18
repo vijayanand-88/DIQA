@@ -1,0 +1,1778 @@
+{
+  "diffdatatypesanalyzer": {
+    "Columns": {
+      "bittype": {
+        "Description": {
+          "Data type": "BIT"
+        }
+      },
+      "tinyinttype": {
+        "Statistics": {
+          "Average": "114.8",
+          "Length": "1",
+          "Maximum value": "255",
+          "Median": "115",
+          "Minimum value": "20",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "89.07",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 7932.70
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TINYINT"
+        }
+      },
+	  "smallinttype": {
+        "Statistics": {
+          "Average": 9257.80,
+          "Length": "2",
+          "Maximum value": "32767",
+          "Median": "2395",
+          "Minimum value": "2365",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 13256.79,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "175742487.2"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "SMALLINT"
+        }
+      },
+	  "inttype": {
+        "Statistics": {
+          "Average": "1039483677",
+          "Length": "4",
+          "Maximum value": "2147483647",
+          "Median": "1137483647",
+          "Minimum value": "137483697",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "745332120.5",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "555519969850000640"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "INT"
+        }
+      },
+	  "biginttype": {
+        "Statistics": {
+          "Average": 5295372036854775800,
+          "Length": "8",
+          "Maximum value": "9223372036854776000",
+          "Median": 8213372036854775800,
+          "Minimum value": 213372036854775904,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 4477903527321686000,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "20051619999999998000000000000000000000"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "BIGINT"
+        }
+      },
+	   "decimaltype": {
+        "Statistics": {
+          "Average": 412.03,
+          "Length": "5",
+          "Maximum value": 665.57,
+          "Median": 465.57,
+          "Minimum value": 123,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 206.67,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 42712.62
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DECIMAL"
+        }
+      },
+	  "numerictype": {
+        "Statistics": {
+          "Average": 28945.32,
+          "Length": "9",
+          "Maximum value": 63345.62000,
+          "Median": 23345.62,
+          "Minimum value": 12345.12000,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 19857.17,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "394307200.08"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NUMERIC"
+        }
+      },
+	  "smallmoneytype": {
+        "Description": {
+          "Data type": "SMALLMONEY"
+        }
+      },
+	  "moneytype": {
+        "Description": {
+          "Data type": "MONEY"
+        }
+      },
+	  "realtype": {
+        "Statistics": {
+          "Average": 1384.40,
+          "Length": "4",
+          "Maximum value": 6754.6,
+          "Median": 54.60,
+          "Minimum value": 5.6,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 3002.11,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 9012642.97
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "REAL"
+        }
+      },
+	   "floattype": {
+        "Statistics": {
+          "Average": "35521412.15",
+          "Length": "8",
+          "Maximum value": "64321412.13",
+          "Median": "24321412.13",
+          "Minimum value": "12321412.23",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "22476654.53",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "505199998840000.5"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "FLOAT"
+        }
+      },
+	  "datetype": {
+        "Statistics": {
+          "Length": "3",
+          "Maximum value": "2007-05-08",
+          "Minimum value": "1900-05-08",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATE"
+        }
+      },
+	  "datetimetype": {
+        "Statistics": {
+          "Length": "8",
+          "Maximum value": "2007-05-08 12:35:29.123",
+          "Minimum value": "1900-05-08 12:35:29.123",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIME"
+        }
+      },
+	  "datetime2type": {
+        "Statistics": {
+          "Length": "8",
+          "Maximum value": "2007-05-08 12:35:29.1234567",
+          "Minimum value": "1900-05-08 12:35:29.1234567",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIME2"
+        }
+      },
+	  "datetimeoffsettype": {
+        "Statistics": {
+          "Length": "10",
+          "Maximum value": "2007-05-08 12:35:29.1234567 +12:15",
+          "Minimum value": "1900-05-08 12:35:29.1234567 +12:15",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIMEOFFSET"
+        }
+      },
+	  "smalldatetimetype": {
+        "Statistics": {
+          "Length": "4",
+          "Maximum value": "2007-05-08 12:35:00.0",
+          "Minimum value": "1900-05-08 12:35:00.0",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "SMALLDATETIME"
+        }
+      },
+	  "timetype": {
+        "Statistics": {
+          "Length": "5",
+          "Maximum value": "12:35:29.1234567",
+          "Minimum value": "12:35:29.1234567",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "1",
+          "Percentage of unique values": "20"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TIME"
+        }
+      },
+      "chartype": {
+        "Statistics": {
+          "Length": "20",
+          "Maximum value": "TestChar6",
+          "Minimum length": "8",
+          "Minimum value": "TestChar",
+          "Maximum length": "9",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "CHAR"
+        }
+      },
+	  "varchartype": {
+        "Statistics": {
+          "Length": "1200",
+          "Maximum value": "Testing Variable Char6",
+          "Minimum length": "21",
+          "Minimum value": "Testing Variable Char",
+          "Maximum length": "22",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      },
+      "texttype": {
+        "Description": {
+          "Data type": "TEXT"
+        }
+      },
+	  "nchartype": {
+        "Statistics": {
+          "Length": "100",
+          "Maximum value": "Test Unicode char6",
+          "Minimum length": "17",
+          "Minimum value": "Test Unicode char",
+          "Maximum length": "18",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NCHAR"
+        }
+      },
+	   "nvarchartype": {
+        "Statistics": {
+          "Length": "1200",
+          "Maximum value": "Testing Unicode Variable Char6",
+          "Minimum length": "29",
+          "Minimum value": "Testing Unicode Variable Char",
+          "Maximum length": "30",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NVARCHAR"
+        }
+      },
+      "ntexttype": {
+        "Description": {
+          "Data type": "NTEXT"
+        }
+      },
+	   "binarytype": {
+        "Description": {
+          "Data type": "BINARY"
+        }
+      },
+	   "varbinarytype": {
+        "Description": {
+          "Data type": "VARBINARY"
+        }
+      },
+	  "imagetype": {
+        "Description": {
+          "Data type": "IMAGE"
+        }
+      },
+	  "rowversiontype": {
+        "Description": {
+          "Data type": "ROWVERSION"
+        }
+      },
+	  "hierarchyidtype": {
+        "Description": {
+          "Data type": "HIERARCHYID"
+        }
+      },
+	  "uniqueidentifiertype": {
+        "Description": {
+          "Data type": "UNIQUEIDENTIFIER"
+        }
+      },
+	   "xmltype": {
+        "Description": {
+          "Data type": "XML"
+        }
+      },
+	   "sql_varianttype": {
+        "Description": {
+          "Data type": "SQL_VARIANT"
+        }
+      },
+	   "geographtype": {
+        "Description": {
+          "Data type": "GEOGRAPHY"
+        }
+      },
+	   "geometrytype": {
+        "Description": {
+          "Data type": "GEOMETRY"
+        }
+      }
+      
+    }
+  },
+  "diffdatatypesanalyzerview": {
+    "Columns": {
+      "bittype": {
+        "Description": {
+          "Data type": "BIT"
+        }
+      },
+      "tinyinttype": {
+        "Statistics": {
+          "Average": "114.8",
+          "Length": "1",
+          "Maximum value": "255",
+          "Median": "115",
+          "Minimum value": "20",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "89.07",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 7932.70
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TINYINT"
+        }
+      },
+      "smallinttype": {
+        "Statistics": {
+          "Average": 9257.80,
+          "Length": "2",
+          "Maximum value": "32767",
+          "Median": "2395",
+          "Minimum value": "2365",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 13256.79,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "175742487.2"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "SMALLINT"
+        }
+      },
+      "inttype": {
+        "Statistics": {
+          "Average": "1039483677",
+          "Length": "4",
+          "Maximum value": "2147483647",
+          "Median": "1137483647",
+          "Minimum value": "137483697",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "745332120.5",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "555519969850000640"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "INT"
+        }
+      },
+      "biginttype": {
+        "Statistics": {
+          "Average": 5295372036854775800,
+          "Length": "8",
+          "Maximum value": "9223372036854776000",
+          "Median": 8213372036854775800,
+          "Minimum value": 213372036854775904,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 4477903527321686000,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "20051619999999998000000000000000000000"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "BIGINT"
+        }
+      },
+      "decimaltype": {
+        "Statistics": {
+          "Average": 412.03,
+          "Length": "5",
+          "Maximum value": 665.57,
+          "Median": 465.57,
+          "Minimum value": 123,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 206.67,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 42712.62
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DECIMAL"
+        }
+      },
+      "numerictype": {
+        "Statistics": {
+          "Average": 28945.32,
+          "Length": "9",
+          "Maximum value": 63345.62000,
+          "Median": 23345.62,
+          "Minimum value": 12345.12000,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 19857.17,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "394307200.08"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NUMERIC"
+        }
+      },
+      "smallmoneytype": {
+        "Description": {
+          "Data type": "SMALLMONEY"
+        }
+      },
+      "moneytype": {
+        "Description": {
+          "Data type": "MONEY"
+        }
+      },
+      "realtype": {
+        "Statistics": {
+          "Average": 1384.40,
+          "Length": "4",
+          "Maximum value": 6754.6,
+          "Median": 54.60,
+          "Minimum value": 5.6,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 3002.11,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 9012642.97
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "REAL"
+        }
+      },
+      "floattype": {
+        "Statistics": {
+          "Average": "35521412.15",
+          "Length": "8",
+          "Maximum value": "64321412.13",
+          "Median": "24321412.13",
+          "Minimum value": "12321412.23",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "22476654.53",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "505199998840000.5"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "FLOAT"
+        }
+      },
+      "datetype": {
+        "Statistics": {
+          "Length": "3",
+          "Maximum value": "2007-05-08",
+          "Minimum value": "1900-05-08",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATE"
+        }
+      },
+      "datetimetype": {
+        "Statistics": {
+          "Length": "8",
+          "Maximum value": "2007-05-08 12:35:29.123",
+          "Minimum value": "1900-05-08 12:35:29.123",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIME"
+        }
+      },
+      "datetime2type": {
+        "Statistics": {
+          "Length": "8",
+          "Maximum value": "2007-05-08 12:35:29.1234567",
+          "Minimum value": "1900-05-08 12:35:29.1234567",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIME2"
+        }
+      },
+      "datetimeoffsettype": {
+        "Statistics": {
+          "Length": "10",
+          "Maximum value": "2007-05-08 12:35:29.1234567 +12:15",
+          "Minimum value": "1900-05-08 12:35:29.1234567 +12:15",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIMEOFFSET"
+        }
+      },
+      "smalldatetimetype": {
+        "Statistics": {
+          "Length": "4",
+          "Maximum value": "2007-05-08 12:35:00.0",
+          "Minimum value": "1900-05-08 12:35:00.0",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "SMALLDATETIME"
+        }
+      },
+      "timetype": {
+        "Statistics": {
+          "Length": "5",
+          "Maximum value": "12:35:29.1234567",
+          "Minimum value": "12:35:29.1234567",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "1",
+          "Percentage of unique values": "20"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TIME"
+        }
+      },
+      "chartype": {
+        "Statistics": {
+          "Length": "20",
+          "Maximum value": "TestChar6",
+          "Minimum length": "8",
+          "Minimum value": "TestChar",
+          "Maximum length": "9",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "CHAR"
+        }
+      },
+      "varchartype": {
+        "Statistics": {
+          "Length": "1200",
+          "Maximum value": "Testing Variable Char6",
+          "Minimum length": "21",
+          "Minimum value": "Testing Variable Char",
+          "Maximum length": "22",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      },
+      "texttype": {
+        "Description": {
+          "Data type": "TEXT"
+        }
+      },
+      "nchartype": {
+        "Statistics": {
+          "Length": "100",
+          "Maximum value": "Test Unicode char6",
+          "Minimum length": "17",
+          "Minimum value": "Test Unicode char",
+          "Maximum length": "18",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NCHAR"
+        }
+      },
+      "nvarchartype": {
+        "Statistics": {
+          "Length": "1200",
+          "Maximum value": "Testing Unicode Variable Char6",
+          "Minimum length": "29",
+          "Minimum value": "Testing Unicode Variable Char",
+          "Maximum length": "30",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NVARCHAR"
+        }
+      },
+      "ntexttype": {
+        "Description": {
+          "Data type": "NTEXT"
+        }
+      },
+      "binarytype": {
+        "Description": {
+          "Data type": "BINARY"
+        }
+      },
+      "varbinarytype": {
+        "Description": {
+          "Data type": "VARBINARY"
+        }
+      },
+      "imagetype": {
+        "Description": {
+          "Data type": "IMAGE"
+        }
+      },
+      "rowversiontype": {
+        "Description": {
+          "Data type": "ROWVERSION"
+        }
+      },
+      "hierarchyidtype": {
+        "Description": {
+          "Data type": "HIERARCHYID"
+        }
+      },
+      "uniqueidentifiertype": {
+        "Description": {
+          "Data type": "UNIQUEIDENTIFIER"
+        }
+      },
+      "xmltype": {
+        "Description": {
+          "Data type": "XML"
+        }
+      },
+      "sql_varianttype": {
+        "Description": {
+          "Data type": "SQL_VARIANT"
+        }
+      },
+      "geographtype": {
+        "Description": {
+          "Data type": "GEOGRAPHY"
+        }
+      },
+      "geometrytype": {
+        "Description": {
+          "Data type": "GEOMETRY"
+        }
+      }
+
+    }
+  },
+  "Sqllineage_diffdatatypesanalyzer": {
+    "Columns": {
+      "bittype": {
+        "Description": {
+          "Data type": "BIT"
+        }
+      },
+      "tinyinttype": {
+        "Statistics": {
+          "Average": "114.8",
+          "Length": "1",
+          "Maximum value": "255",
+          "Median": "115",
+          "Minimum value": "20",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "89.07",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 7932.70
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TINYINT"
+        }
+      },
+      "smallinttype": {
+        "Statistics": {
+          "Average": 9257.80,
+          "Length": "2",
+          "Maximum value": "32767",
+          "Median": "2395",
+          "Minimum value": "2365",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 13256.79,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "175742487.2"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "SMALLINT"
+        }
+      },
+      "inttype": {
+        "Statistics": {
+          "Average": "1039483677",
+          "Length": "4",
+          "Maximum value": "2147483647",
+          "Median": "1137483647",
+          "Minimum value": "137483697",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "745332120.5",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "555519969850000640"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "INT"
+        }
+      },
+      "biginttype": {
+        "Statistics": {
+          "Average": 5295372036854775800,
+          "Length": "8",
+          "Maximum value": "9223372036854776000",
+          "Median": 8213372036854775800,
+          "Minimum value": 213372036854775904,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 4477903527321686000,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "20051619999999998000000000000000000000"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "BIGINT"
+        }
+      },
+      "decimaltype": {
+        "Statistics": {
+          "Average": 412.03,
+          "Length": "5",
+          "Maximum value": 665.57,
+          "Median": 465.57,
+          "Minimum value": 123,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 206.67,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 42712.62
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DECIMAL"
+        }
+      },
+      "numerictype": {
+        "Statistics": {
+          "Average": 28945.32,
+          "Length": "9",
+          "Maximum value": 63345.62000,
+          "Median": 23345.62,
+          "Minimum value": 12345.12000,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 19857.17,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "394307200.08"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NUMERIC"
+        }
+      },
+      "smallmoneytype": {
+        "Description": {
+          "Data type": "SMALLMONEY"
+        }
+      },
+      "moneytype": {
+        "Description": {
+          "Data type": "MONEY"
+        }
+      },
+      "realtype": {
+        "Statistics": {
+          "Average": 1384.40,
+          "Length": "4",
+          "Maximum value": 6754.6,
+          "Median": 54.60,
+          "Minimum value": 5.6,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 3002.11,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 9012642.97
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "REAL"
+        }
+      },
+      "floattype": {
+        "Statistics": {
+          "Average": "35521412.15",
+          "Length": "8",
+          "Maximum value": "64321412.13",
+          "Median": "24321412.13",
+          "Minimum value": "12321412.23",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "22476654.53",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "505199998840000.5"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "FLOAT"
+        }
+      },
+      "datetype": {
+        "Statistics": {
+          "Length": "3",
+          "Maximum value": "2007-05-08",
+          "Minimum value": "1900-05-08",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATE"
+        }
+      },
+      "datetimetype": {
+        "Statistics": {
+          "Length": "8",
+          "Maximum value": "2007-05-08 12:35:29.123",
+          "Minimum value": "1900-05-08 12:35:29.123",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIME"
+        }
+      },
+      "datetime2type": {
+        "Statistics": {
+          "Length": "8",
+          "Maximum value": "2007-05-08 12:35:29.1234567",
+          "Minimum value": "1900-05-08 12:35:29.1234567",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIME2"
+        }
+      },
+      "datetimeoffsettype": {
+        "Statistics": {
+          "Length": "10",
+          "Maximum value": "2007-05-08 12:35:29.1234567 +12:15",
+          "Minimum value": "1900-05-08 12:35:29.1234567 +12:15",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIMEOFFSET"
+        }
+      },
+      "smalldatetimetype": {
+        "Statistics": {
+          "Length": "4",
+          "Maximum value": "2007-05-08 12:35:00.0",
+          "Minimum value": "1900-05-08 12:35:00.0",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "SMALLDATETIME"
+        }
+      },
+      "timetype": {
+        "Statistics": {
+          "Length": "5",
+          "Maximum value": "12:35:29.1234567",
+          "Minimum value": "12:35:29.1234567",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "1",
+          "Percentage of unique values": "20"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TIME"
+        }
+      },
+      "chartype": {
+        "Statistics": {
+          "Length": "20",
+          "Maximum value": "TestChar6",
+          "Minimum length": "8",
+          "Minimum value": "TestChar",
+          "Maximum length": "9",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "CHAR"
+        }
+      },
+      "varchartype": {
+        "Statistics": {
+          "Length": "1200",
+          "Maximum value": "Testing Variable Char6",
+          "Minimum length": "21",
+          "Minimum value": "Testing Variable Char",
+          "Maximum length": "22",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      },
+      "texttype": {
+        "Description": {
+          "Data type": "TEXT"
+        }
+      },
+      "nchartype": {
+        "Statistics": {
+          "Length": "100",
+          "Maximum value": "Test Unicode char6",
+          "Minimum length": "17",
+          "Minimum value": "Test Unicode char",
+          "Maximum length": "18",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NCHAR"
+        }
+      },
+      "nvarchartype": {
+        "Statistics": {
+          "Length": "1200",
+          "Maximum value": "Testing Unicode Variable Char6",
+          "Minimum length": "29",
+          "Minimum value": "Testing Unicode Variable Char",
+          "Maximum length": "30",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NVARCHAR"
+        }
+      },
+      "ntexttype": {
+        "Description": {
+          "Data type": "NTEXT"
+        }
+      },
+      "binarytype": {
+        "Description": {
+          "Data type": "BINARY"
+        }
+      },
+      "varbinarytype": {
+        "Description": {
+          "Data type": "VARBINARY"
+        }
+      },
+      "imagetype": {
+        "Description": {
+          "Data type": "IMAGE"
+        }
+      },
+      "rowversiontype": {
+        "Description": {
+          "Data type": "ROWVERSION"
+        }
+      },
+      "hierarchyidtype": {
+        "Description": {
+          "Data type": "HIERARCHYID"
+        }
+      },
+      "uniqueidentifiertype": {
+        "Description": {
+          "Data type": "UNIQUEIDENTIFIER"
+        }
+      },
+      "xmltype": {
+        "Description": {
+          "Data type": "XML"
+        }
+      },
+      "sql_varianttype": {
+        "Description": {
+          "Data type": "SQL_VARIANT"
+        }
+      },
+      "geographtype": {
+        "Description": {
+          "Data type": "GEOGRAPHY"
+        }
+      },
+      "geometrytype": {
+        "Description": {
+          "Data type": "GEOMETRY"
+        }
+      }
+
+    }
+  },
+  "Sqllineage_diffdatatypesanalyzerview": {
+    "Columns": {
+      "bittype": {
+        "Description": {
+          "Data type": "BIT"
+        }
+      },
+      "tinyinttype": {
+        "Statistics": {
+          "Average": "114.8",
+          "Length": "1",
+          "Maximum value": "255",
+          "Median": "115",
+          "Minimum value": "20",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "89.07",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 7932.70
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TINYINT"
+        }
+      },
+      "smallinttype": {
+        "Statistics": {
+          "Average": 9257.80,
+          "Length": "2",
+          "Maximum value": "32767",
+          "Median": "2395",
+          "Minimum value": "2365",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 13256.79,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "175742487.2"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "SMALLINT"
+        }
+      },
+      "inttype": {
+        "Statistics": {
+          "Average": "1039483677",
+          "Length": "4",
+          "Maximum value": "2147483647",
+          "Median": "1137483647",
+          "Minimum value": "137483697",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "745332120.5",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "555519969850000640"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "INT"
+        }
+      },
+      "biginttype": {
+        "Statistics": {
+          "Average": 5295372036854775800,
+          "Length": "8",
+          "Maximum value": "9223372036854776000",
+          "Median": 8213372036854775800,
+          "Minimum value": 213372036854775904,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 4477903527321686000,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "20051619999999998000000000000000000000"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "BIGINT"
+        }
+      },
+      "decimaltype": {
+        "Statistics": {
+          "Average": 412.03,
+          "Length": "5",
+          "Maximum value": 665.57,
+          "Median": 465.57,
+          "Minimum value": 123,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 206.67,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 42712.62
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DECIMAL"
+        }
+      },
+      "numerictype": {
+        "Statistics": {
+          "Average": 28945.32,
+          "Length": "9",
+          "Maximum value": 63345.62000,
+          "Median": 23345.62,
+          "Minimum value": 12345.12000,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 19857.17,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "394307200.08"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NUMERIC"
+        }
+      },
+      "smallmoneytype": {
+        "Description": {
+          "Data type": "SMALLMONEY"
+        }
+      },
+      "moneytype": {
+        "Description": {
+          "Data type": "MONEY"
+        }
+      },
+      "realtype": {
+        "Statistics": {
+          "Average": 1384.40,
+          "Length": "4",
+          "Maximum value": 6754.6,
+          "Median": 54.60,
+          "Minimum value": 5.6,
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": 3002.11,
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 9012642.97
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "REAL"
+        }
+      },
+      "floattype": {
+        "Statistics": {
+          "Average": "35521412.15",
+          "Length": "8",
+          "Maximum value": "64321412.13",
+          "Median": "24321412.13",
+          "Minimum value": "12321412.23",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "22476654.53",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "505199998840000.5"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "FLOAT"
+        }
+      },
+      "datetype": {
+        "Statistics": {
+          "Length": "3",
+          "Maximum value": "2007-05-08",
+          "Minimum value": "1900-05-08",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATE"
+        }
+      },
+      "datetimetype": {
+        "Statistics": {
+          "Length": "8",
+          "Maximum value": "2007-05-08 12:35:29.123",
+          "Minimum value": "1900-05-08 12:35:29.123",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIME"
+        }
+      },
+      "datetime2type": {
+        "Statistics": {
+          "Length": "8",
+          "Maximum value": "2007-05-08 12:35:29.1234567",
+          "Minimum value": "1900-05-08 12:35:29.1234567",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIME2"
+        }
+      },
+      "datetimeoffsettype": {
+        "Statistics": {
+          "Length": "10",
+          "Maximum value": "2007-05-08 12:35:29.1234567 +12:15",
+          "Minimum value": "1900-05-08 12:35:29.1234567 +12:15",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATETIMEOFFSET"
+        }
+      },
+      "smalldatetimetype": {
+        "Statistics": {
+          "Length": "4",
+          "Maximum value": "2007-05-08 12:35:00.0",
+          "Minimum value": "1900-05-08 12:35:00.0",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "SMALLDATETIME"
+        }
+      },
+      "timetype": {
+        "Statistics": {
+          "Length": "5",
+          "Maximum value": "12:35:29.1234567",
+          "Minimum value": "12:35:29.1234567",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "1",
+          "Percentage of unique values": "20"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TIME"
+        }
+      },
+      "chartype": {
+        "Statistics": {
+          "Length": "20",
+          "Maximum value": "TestChar6",
+          "Minimum length": "8",
+          "Minimum value": "TestChar",
+          "Maximum length": "9",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "CHAR"
+        }
+      },
+      "varchartype": {
+        "Statistics": {
+          "Length": "1200",
+          "Maximum value": "Testing Variable Char6",
+          "Minimum length": "21",
+          "Minimum value": "Testing Variable Char",
+          "Maximum length": "22",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR"
+        }
+      },
+      "texttype": {
+        "Description": {
+          "Data type": "TEXT"
+        }
+      },
+      "nchartype": {
+        "Statistics": {
+          "Length": "100",
+          "Maximum value": "Test Unicode char6",
+          "Minimum length": "17",
+          "Minimum value": "Test Unicode char",
+          "Maximum length": "18",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NCHAR"
+        }
+      },
+      "nvarchartype": {
+        "Statistics": {
+          "Length": "1200",
+          "Maximum value": "Testing Unicode Variable Char6",
+          "Minimum length": "29",
+          "Minimum value": "Testing Unicode Variable Char",
+          "Maximum length": "30",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NVARCHAR"
+        }
+      },
+      "ntexttype": {
+        "Description": {
+          "Data type": "NTEXT"
+        }
+      },
+      "binarytype": {
+        "Description": {
+          "Data type": "BINARY"
+        }
+      },
+      "varbinarytype": {
+        "Description": {
+          "Data type": "VARBINARY"
+        }
+      },
+      "imagetype": {
+        "Description": {
+          "Data type": "IMAGE"
+        }
+      },
+      "rowversiontype": {
+        "Description": {
+          "Data type": "ROWVERSION"
+        }
+      },
+      "hierarchyidtype": {
+        "Description": {
+          "Data type": "HIERARCHYID"
+        }
+      },
+      "uniqueidentifiertype": {
+        "Description": {
+          "Data type": "UNIQUEIDENTIFIER"
+        }
+      },
+      "xmltype": {
+        "Description": {
+          "Data type": "XML"
+        }
+      },
+      "sql_varianttype": {
+        "Description": {
+          "Data type": "SQL_VARIANT"
+        }
+      },
+      "geographtype": {
+        "Description": {
+          "Data type": "GEOGRAPHY"
+        }
+      },
+      "geometrytype": {
+        "Description": {
+          "Data type": "GEOMETRY"
+        }
+      }
+
+    }
+  }
+}

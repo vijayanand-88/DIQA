@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaLinkerGit",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaLinkerGit"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaLinker"],
+      "businessApplicationName": "test_BA_JavaLinker",
+      "pluginType": "collector",
+      "dataSource": "GitCollectorDataSource",
+      "credential": "ValidGitCredentials",
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "300",
+        "extraFilters": {
+          "filefilters": [ {
+            "class": "com.asg.dis.common.analysis.dom.FileFilter",
+            "label": {
+              "": "linker"
+            },
+            "tags": null,
+            "fileMode": "include",
+            "objectType": "folder",
+            "expressionType": "simple",
+            "expressions": [
+              "**javaLinkerNullLiteral**"
+            ]
+          }]
+        },
+        "maxHits": null
+      },
+      "dryRun": "false",
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+    }
+  ]
+}

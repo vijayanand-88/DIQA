@@ -1,0 +1,39 @@
+{
+  "name": "TestTagTemplate",
+  "definition": "New Template for Testing",
+  "rootTags": [{
+    "name": "Test Tag Template",
+    "definition": "New tag template",
+    "status": "APPROVED",
+    "newName": "",
+    "subTags": [{
+      "name": "Tag One",
+      "definition": "",
+      "status": "APPROVED",
+      "subTags": [],
+      "facet": true
+    },
+      {
+        "name": "Tag Two",
+        "definition": "",
+        "status": "APPROVED",
+        "subTags": [],
+        "facet": true
+      },
+      {
+        "name": "Tag Three",
+        "definition": "",
+        "status": "APPROVED",
+        "subTags": [],
+        "facet": true
+      },
+      {
+        "name": "Tag Four",
+        "definition": "",
+        "status": "APPROVED",
+        "subTags": [],
+        "facet": true
+      }
+    ]
+  }]
+}

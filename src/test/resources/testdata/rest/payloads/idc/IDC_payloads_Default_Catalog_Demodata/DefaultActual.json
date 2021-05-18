@@ -1,0 +1,19 @@
+[ {
+  "name" : "POSTGRES CATALOG",
+  "label" : "POSTGRES CATALOG",
+  "description" : null,
+  "type" : "DATA",
+  "image" : {
+    "icon" : "fa fa-file",
+    "color" : "black"
+  }
+}, {
+  "name" : "Default",
+  "label" : "Default",
+  "description" : "Default data catalog",
+  "type" : "DATA",
+  "image" : {
+    "icon" : "fa fa-book",
+    "color" : "black"
+  }
+} ]

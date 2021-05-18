@@ -1,0 +1,48 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "GitCollector",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": "GitCollector"
+  },
+  "catalogName": "SC1Catalog",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "collector",
+  "dataSource": "GitCollectorDataSource",
+  "credential": "GitCredentials",
+  "filter": {
+    "filters": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.Filter",
+        "label": null,
+        "tags": null,
+        "branch": "refs/heads/master"
+      }
+    ],
+    "deltaTime": "300",
+    "extraFilters": {
+      "filefilters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.FileFilter",
+          "label": {
+            "": "lable"
+          },
+          "tags": null,
+          "fileMode": "include",
+          "objectType": "folder",
+          "expressionType": "simple",
+          "expressions": [
+            "**/s3/**"
+          ]
+        }
+      ]
+    },
+    "maxHits": null
+  },
+  "dryRun": "FALSE",
+  "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+}

@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HBaseCataloger_onlyTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC1_onlyTables"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "HbaseDataSource_Valid",
+      "credential": "hbaseDBValidCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "HBaseCataloger",
+      "type": "Cataloger",
+      "includeItems": {
+        "includeTables": [
+          "employee"
+        ],
+        "includeNamespaces": []
+      },
+      "scanRows": "100"
+    }
+  ]
+}

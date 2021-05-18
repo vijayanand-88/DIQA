@@ -1,0 +1,7 @@
+[ {
+  "sample" : {
+    "header" : [ "countrycode", "district", "id", "name", "population" ],
+    "values" : [ [ "AFG", "Kabol", "5000", "Kabul", "1780000" ], [ "AFG", "Qandahar", "5001", "Qandahar", "237500" ], [ "AFG", "Herat", "5002", "Herat", "186800" ], [ "AFG", "Balkh", "5003", "Mazar-e-Sharif", "127800" ], [ "NLD", "Noord-Holland", "5004", "Amsterdam", "731200" ], [ "NLD", "Zuid-Holland", "5005", "Rotterdam", "593321" ], [ "NLD", "Zuid-Holland", "5006", "Haag", "440900" ], [ "NLD", "Utrecht", "5007", "Utrecht", "234323" ], [ "NLD", "Noord-Brabant", "5008", "Eindhoven", "201843" ], [ "NLD", "Noord-Brabant", "5009", "Tilburg", "193238" ] ]
+  },
+  "id" : "null"
+} ]

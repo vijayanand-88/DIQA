@@ -1,0 +1,8 @@
+{
+  "responseCode": 200,
+  "validation_rule": [
+    {
+      "configurations.findAll{it.pluginName = 'GitCollector'}.pluginName": "GitCollector"
+    }
+  ]
+}

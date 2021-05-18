@@ -1,0 +1,94 @@
+{
+  "tableName": "world_atn_gluetable951",
+  "description": "Table Description",
+  "database": "linkertargetdb",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "dud",
+        "type": "bigint",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "world.atn.gluetable951",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "dud",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "delay",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "year",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "snno",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "y",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "time",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "quarter",
+          "type": "bigint",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {
+    "UPDATED_BY_CRAWLER": "aids redshift crawler",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "connectionName": "AmazonRedshiftConnection",
+    "classification": "redshift",
+    "typeOfData": "table"
+  },
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "UPDATED_BY_CRAWLER": "aids redshift crawler",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "connectionName": "AmazonRedshiftConnection",
+    "classification": "redshift",
+    "typeOfData": "table"
+  }
+}

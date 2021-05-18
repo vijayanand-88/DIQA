@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AvroS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CatalogAvroS3IncRun1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "AvroS3DataSource",
+      "credential": "ValidAvroReadWriteCredentials",
+      "businessApplicationName": "Test_BA_AvroS3Analyzer",
+      "dryRun": false,
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "AvroS3Cataloger",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asgqaavroanalyzer"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": []
+        }
+      }
+    }
+  ]
+}

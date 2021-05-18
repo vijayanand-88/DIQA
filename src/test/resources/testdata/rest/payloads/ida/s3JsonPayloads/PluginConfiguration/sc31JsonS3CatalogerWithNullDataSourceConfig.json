@@ -1,0 +1,63 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JsonS3CatalogerWithNullDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": ["JsonS3SC31Tags"],
+      "pluginType": "cataloger",
+      "dataSource": null,
+      "credential": "ValidJSONCredentials",
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "incremental": false,
+      "bucketFilter": {
+        "patterns": [
+          "asgqajsontestautomation"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/AutoTestData"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/TestJSON/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JsonS3CatalogerWithNullDataSource_TEST_DEFAULT_CONFIGURATION",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": null,
+      "pluginType": null,
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null
+     }
+  ]
+}

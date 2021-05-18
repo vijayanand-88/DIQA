@@ -1,0 +1,326 @@
+{
+  "LoggingLevel_Severe": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_Severe",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "SEVERE",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  },
+  "LoggingLevel_Warning": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_Warning",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "WARNING",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  },
+  "LoggingLevel_Info": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_Info",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "INFO",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  },
+  "LoggingLevel_Config": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_Config",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "CONFIG",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  },
+  "LoggingLevel_Fine": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_Fine",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "FINE",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  },
+  "LoggingLevel_Finer": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_Finer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "FINER",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  },
+  "LoggingLevel_Finest": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_Finest",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "FINEST",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  },
+  "LoggingLevel_Off": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_Off",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "OFF",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  },
+  "LoggingLevel_All": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Import_All",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "1024m",
+        "pluginName": "Scanner_for_Informatica_Import",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "ALL",
+        "RochadeServerPort": "${rochade.port}",
+        "ResetDependencyLinks": false
+      }
+    ]
+  }
+}

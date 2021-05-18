@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {
+      "name": "LINEAGE_PLUGINS",
+      "limit": [
+        "PythonSparkLineage",
+        "PythonSQLLineage",
+        "OracleDBPostProcessor"
+      ],
+      "currentUsage": [],
+      "active": true,
+      "type": "list"
+    },
+    {
+      "name": "DATASOURCE",
+      "limit": 10,
+      "active": true,
+      "type": "number"
+    }
+  ]
+}

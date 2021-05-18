@@ -1,0 +1,31 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TeradataCatalogerWithNodeCondition",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "type=='internal'",
+  "maxWorkSize": 100,
+  "tags": [
+    "SC3TeradataCatalogerWithNodeCondition"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "TeradataDataSourceInternalNode",
+  "credential": "TeradataCredentials",
+  "businessApplicationName": "Test_BA_Teradata",
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "TeradataDBCataloger",
+  "databaseFilter": [
+    {
+      "database": "automation_test_db"
+    }
+  ],
+  "casesensitive": true,
+  "arguments": [],
+  "type": "Cataloger"
+}

@@ -1,0 +1,44 @@
+{
+  "configurations" : [ {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : true,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "cataloger",
+    "autoStart" : false,
+    "tags" : [ "SC7_CreateDir" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/AutoTrigger",
+        "fileMode" : "include",
+        "label" : {
+          "" : "AddDir and Files(Subdir combo)"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "Three extension files" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "schedule" : null,
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC7_CreateDir",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_valid",
+    "businessApplicationName" : "HDFS_MONITOR_BA"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "ERMCatalog": {
+    "label": {
+      "": "ERMCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "ERMCatalog"
+    }
+  }
+}

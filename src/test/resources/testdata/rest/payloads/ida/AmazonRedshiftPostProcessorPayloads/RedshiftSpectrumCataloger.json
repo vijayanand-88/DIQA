@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SpectrumCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition":  "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "RedshiftPostProcessor_filter"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SpectrumDataSource",
+      "credential": "Redshift_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AmazonSpectrumCataloger",
+      "schemas": [],
+      "incremental": false,
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

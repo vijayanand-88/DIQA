@@ -1,0 +1,12 @@
+{
+  "name": "NEW_ROLE",
+  "label": {
+    "": "New Role",
+    "en": "New Role"
+  },
+  "description": {
+    "": "New Role",
+    "en": "New Role"
+  },
+  "permissions": ["ADMIN_CATALOG", "ADMIN_STRUCTURE", "TAG_APPROVE", "DATASET_MODIFY", "DATA_CREATE", "ADMIN_WIDGETS"]
+}

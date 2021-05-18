@@ -1,0 +1,83 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDItoIDXAutomation",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "IDA types": [],
+      "EDI technologies": [],
+      "pluginName": "EDIBus",
+      "EDI access": {
+        "EDI host": "usyp5thirmoga1v.asg.com",
+        "EDI port": 9292,
+        "EDI user": "ADMIN",
+        "EDI database": "AP-DATA",
+        "EDI password": "rochade",
+        "EDI subject area name": "EDIAUTOMATION",
+        "EDI subject area version": "1.0",
+        "EDI subject area access roles": [
+          {
+            "role": "RBR_ADM"
+          }
+        ]
+      },
+      "type": "Bulk",
+      "EDI types": [
+        {
+          "type": "DWR_RDB_DB_SYSTEM"
+        }, {
+          "type": "DWR_RDB_DATABASE"
+        }, {
+          "type": "DWR_RDB_SCHEMA"
+        }, {
+          "type": "DWR_RDB_TABLE_OR_VIEW"
+        }, {
+          "type": "DWR_RDB_COLUMN"
+        }, {
+          "type": "DWR_TFM_SYSTEM"
+        }, {
+          "type": "DWR_DAT_FILE"
+        }, {
+          "type": "DWR_DAT_PACKAGE"
+        }, {
+          "type": "DWR_DAT_RECORD_TYPE"
+        }, {
+          "type": "DWR_DAT_DATA_TYPE"
+        }, {
+          "type": "DWR_DAT_FIELD"
+        }, {
+          "type": "DWR_DAT_DOMAIN"
+        }, {
+          "type": "DWR_TFM_TASK"
+        }, {
+          "type": "DWR_TFM_TRANSFORMATION"
+        }, {
+          "type": "DWR_TFM_TRANSFORMATION_MAP"
+        }
+      ],
+      "commands and flags": {
+        "function": "toIDPCleanup",
+        "batch size": 1000,
+        "incremental": false,
+        "run in transaction": false
+      },
+      "IDA technologies": []
+    }
+  ]
+
+}

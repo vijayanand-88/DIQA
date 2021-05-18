@@ -1,0 +1,9 @@
+[
+  {
+    "type": "Cluster",
+    "name": "ClusterTest03",
+    "prop-text" : "ClusterTest03_updated",
+    "@schema": {},
+    "@global": {}
+  }
+]

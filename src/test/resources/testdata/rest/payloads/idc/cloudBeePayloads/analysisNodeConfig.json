@@ -1,0 +1,136 @@
+{
+  "configurations": {
+    "SimilarityLinker": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SimilarityLinkerTable",
+        "label": {
+          "": "SimilarityLinkerTable",
+          "en": "SimilarityLinkerTable"
+        },
+        "eventClass": "ImporterProgressEvent",
+        "eventCondition": "event.isSuccessful() && event.isAnyTypeAffected('Table')",
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": null,
+        "checks": [
+          {
+            "weight": 1,
+            "method": {
+              "class": "com.asg.ida.similar.link.dom.JaccardSimilarityMethod"
+            },
+            "query": "g.V('${id}').out('has_Column').valueMap('name','dataType')"
+          }
+        ],
+        "cutoff": 0.1,
+        "similarMax": 10,
+        "linkName": "similar",
+        "query": "g.V().hasLabel('${schema}.Table')"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SimilarityLinkerHistogram",
+        "label": {
+          "": "SimilarityLinkerHistogram",
+          "en": "SimilarityLinkerHistogram"
+        },
+        "eventClass": "ImporterProgressEvent",
+        "eventCondition": "event.isSuccessful() && event.isAnyTypeAffected('Column','Field')",
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": null,
+        "checks": [
+          {
+            "weight": 1,
+            "method": {
+              "class": "com.asg.ida.similar.link.dom.HistogramSimilarityMethod"
+            },
+            "property": "histogram"
+          }
+        ],
+        "cutoff": 0.2,
+        "similarMax": 20,
+        "linkName": "similar",
+        "query": "g.V().hasLabel('${schema}.Column','${schema}.Field').has('histogram')"
+      }
+    ],
+    "TikaAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Unstructured",
+        "label": {
+          "": "Tika Unstructured Config",
+          "en": "Tika Unstructured Config"
+        },
+        "catalogName": "Unstructured",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": null,
+        "unstructuredBehavior": "UNPARSED",
+        "overrides": []
+      }
+    ],
+    "HiveDirectoryLinker": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "HiveDirectoryLinkerOnImport",
+        "label": {
+          "": "Hive Cataloger",
+          "en": "Hive Cataloger"
+        },
+        "eventClass": "ImporterProgressEvent",
+        "eventCondition": "event.isSuccessful() && event.isAnyTypeAffected('Table','Directory')",
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": null
+      }
+    ],
+    "LocalFileCollector": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Demo Local Files",
+        "label": {
+          "": "Demo Local Files",
+          "en": "Demo Local Files"
+        },
+        "catalogName": "Unstructured",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": null,
+        "contentAnalyzerPlugin": "TikaAnalyzer",
+        "contentAnalyzerPluginConfiguration": "Unstructured",
+        "root": "/home/docs"
+      }
+    ],
+    "NotebookAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "NB",
+        "label": {
+          "": ""
+        },
+        "catalogName": "DataSets",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": null,
+        "jupyterPath": "jupyter",
+        "pipPath": "pip3.6",
+        "timeout": "-1",
+        "templateMapping": []
+      }
+    ]
+  },
+  "catalogName": "BigData"
+}

@@ -1,0 +1,19 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TestPostgresDS",
+  "label": {
+    "": ""
+  },
+  "catalogName": "POSTGRES CATALOG",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": "null",
+  "credential": "TestPostgresCredential",
+  "filter": null,
+  "pluginName": "PostgresJDBCDataSource",
+  "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+}

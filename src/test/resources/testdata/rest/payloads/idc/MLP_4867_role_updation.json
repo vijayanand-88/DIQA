@@ -1,0 +1,20 @@
+{
+"name": "Test User",
+"label": {
+"": "Test User",
+"en": "Test User"
+},
+"description": {
+"": "Test User consumes the data and also has contributor rights to give ratings, suggest new business terms, make comments and ask questions, create datasets.",
+"en": "Test User consumes the data and also has contributor rights to give ratings, suggest new business terms, make comments and ask questions, create datasets."
+},
+"permissions": [
+
+"BASE_PERMISSION",
+"TAG_SUGGEST",
+"TAG_CREATE"
+
+
+]
+}
+ 

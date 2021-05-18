@@ -1,0 +1,1 @@
+{"patterns:["asgcombilling"],"mode:"INCLUDE",objectFilter":{"dirPrefixes:["Redshift-Data"],"dirFilter:{"patterns":["**/TestFolder1"],"mode:"INCLUDE"},"fileFilter":{"patterns":[],"mode":"INCLUDE"}}}}}}}

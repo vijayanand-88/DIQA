@@ -1,0 +1,16 @@
+{
+  "Name": "TestJDBCConnection",
+  "Description": "TestJDBCConnection description",
+  "ConnectionType": "JDBC",
+  "ConnectionProperties": {
+    "JDBC_CONNECTION_URL": "jdbc:redshift://redshift-cluster-1.cfemcchdhpao.us-east-2.redshift.amazonaws.com:5439/world",
+    "USERNAME": "master",
+    "PASSWORD": "master"
+  },
+  "PhysicalConnectionRequirements": {
+    "SubnetId": "subnet-0d2cc9126f83147b1",
+    "SecurityGroupIdList": [
+      "sg-09f705b1e67437860"],
+    "AvailabilityZone": "string"
+  }
+}

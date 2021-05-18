@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MaxWorkSize100",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "",
+        "en": "MaxWorkSize100"
+      },
+      "catalogName": "MaxWorkSize100",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "tags": [],
+      "filter": {
+        "filters": [],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": null,
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "file",
+              "expressionType": "simple",
+              "expressions": [
+                ""
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "root": "/lfc_testfiles",
+      "incrementalRun": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "TableName": "TestTable1",
+  "KeySchema": [
+    {
+      "AttributeName": "BicycleType",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "ID",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "BicycleType",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "ID",
+      "AttributeType": "N"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

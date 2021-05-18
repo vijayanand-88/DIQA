@@ -1,0 +1,1 @@
+{"entities":[{"name":"LINEAGE_PLUGINS","limit":["PythonSparkLineage","PythonSQLLineage"],"currentUsage":[],"active":true,"type":"list"},{"name":"DATASOURCE","limit":15,"active":true,"type":"number"}]}

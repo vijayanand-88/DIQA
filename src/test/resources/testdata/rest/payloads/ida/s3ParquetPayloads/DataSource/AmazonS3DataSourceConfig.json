@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonS3DataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "ValidParquetCredentials",
+	  "pluginName":"AmazonS3DataSource",
+      "region": "us-east-1",
+      "filter": null
+      
+    }
+  ]
+}

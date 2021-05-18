@@ -1,0 +1,8 @@
+1.to hit a end point with dynamic id stored in file and validate the expected value with actual value from json response using json path
+# Given user hits request "<type>" with "<endPoint>" using dynamic id from "<dynamicIdFile>" using "<jsonPath>" and verify "<responseCode>" and "<responseValue>" with "<expectedValue>"
+    Examples:
+      | type | endPoint                            | dynamicIdFile                                   | jsonPath  | responseCode | responseValue | expectedValue |
+      | Get  | items/Default/Default.Table:::DYNID | payloads/idc/IDxPayloads/MLP_24734/itemids.json | $.TableID | 200          | $.asg_scopeid | 1             |
+
+2.to get a json response and write the complete response to a file
+#    And user get json response and write to file "payloads/idc/IDxPayloads/itemids.json" for json path "null"

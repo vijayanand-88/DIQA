@@ -1,0 +1,67 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "7856_AzureSQLAPI",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": [],
+      "filter": null,
+      "password": "uz3seBEjzLE/AtJbkLL53kjqdoJxgBkJc8QOq8Hk2bU=",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": [
+            {
+              "table": "titleauthor"
+            },
+            {
+              "table": "titleauthor_created"
+            },
+            {
+              "table": "authors"
+            },
+            {
+              "table": "authors_toronto"
+            },
+            {
+              "table": "canada_author"
+            },
+            {
+              "table": "titles"
+            },
+            {
+              "table": "jobs"
+            },
+            {
+              "table": "jobs_min"
+            },
+            {
+              "table": "jobs_onlytwocolumns"
+            },
+            {
+              "table": "publishers"
+            },
+            {
+              "table": "jobs_all"
+            },
+            {
+              "table": "business_tag"
+            }
+          ]
+        }
+      ],
+      "user": "sa",
+      "properties": [],
+      "url": "jdbc:sqlserver://esbcnprodcap02v.asg.com:1433;databaseName=pubs"
+    }
+  ]
+}

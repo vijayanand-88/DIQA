@@ -1,0 +1,721 @@
+{
+  "properties" : [ {
+    "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+    "value" : {
+      "headers" : [ {
+        "label" : "Configuration name",
+        "valuePath" : [ "properties", "0", "value" ]
+      } ],
+      "rows" : [ ],
+      "prototype" : {
+        "properties" : [ {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Cataloger",
+              "label" : "Cataloger"
+            } ],
+            "availableValues" : [ {
+              "value" : "Bulk",
+              "label" : "Bulk"
+            }, {
+              "value" : "Cataloger",
+              "label" : "Cataloger"
+            }, {
+              "value" : "Collector",
+              "label" : "Collector"
+            }, {
+              "value" : "Dataanalyzer",
+              "label" : "Dataanalyzer"
+            }, {
+              "value" : "Lineage",
+              "label" : "Lineage"
+            }, {
+              "value" : "Linker",
+              "label" : "Linker"
+            }, {
+              "value" : "Monitor",
+              "label" : "Monitor"
+            }, {
+              "value" : "Other",
+              "label" : "Other"
+            }, {
+              "value" : "Parser",
+              "label" : "Parser"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "type",
+          "widget" : "select",
+          "label" : "Type",
+          "tooltip" : "Type of the plugin",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Type should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "MongoDBCataloger",
+              "label" : "MongoDBCataloger"
+            } ],
+            "availableValues" : [ {
+              "value" : "AmazonRedshiftCataloger",
+              "label" : "AmazonRedshiftCataloger"
+            }, {
+              "value" : "AmazonS3Cataloger",
+              "label" : "AmazonS3Cataloger"
+            }, {
+              "value" : "AmazonSpectrumCataloger",
+              "label" : "AmazonSpectrumCataloger"
+            }, {
+              "value" : "AvroS3Cataloger",
+              "label" : "AvroS3Cataloger"
+            }, {
+              "value" : "AWSGlueCataloger",
+              "label" : "AWSGlueCataloger"
+            }, {
+              "value" : "CassandraDBCataloger",
+              "label" : "CassandraDBCataloger"
+            }, {
+              "value" : "CNavigatorCataloger",
+              "label" : "CNavigatorCataloger"
+            }, {
+              "value" : "CsvS3Cataloger",
+              "label" : "CsvS3Cataloger"
+            }, {
+              "value" : "DynamoDBCataloger",
+              "label" : "DynamoDBCataloger"
+            }, {
+              "value" : "HBaseCataloger",
+              "label" : "HBaseCataloger"
+            }, {
+              "value" : "HdfsCataloger",
+              "label" : "HdfsCataloger"
+            }, {
+              "value" : "HiveCataloger",
+              "label" : "HiveCataloger"
+            }, {
+              "value" : "JsonS3Cataloger",
+              "label" : "JsonS3Cataloger"
+            }, {
+              "value" : "MongoDBCataloger",
+              "label" : "MongoDBCataloger"
+            }, {
+              "value" : "OracleDBCataloger",
+              "label" : "OracleDBCataloger"
+            }, {
+              "value" : "OrcS3Cataloger",
+              "label" : "OrcS3Cataloger"
+            }, {
+              "value" : "ParquetS3Cataloger",
+              "label" : "ParquetS3Cataloger"
+            }, {
+              "value" : "PostgreSQLDBCataloger",
+              "label" : "PostgreSQLDBCataloger"
+            }, {
+              "value" : "SnowflakeDBCataloger",
+              "label" : "SnowflakeDBCataloger"
+            }, {
+              "value" : "SQLServerDBCataloger",
+              "label" : "SQLServerDBCataloger"
+            }, {
+              "value" : "TeradataDBCataloger",
+              "label" : "TeradataDBCataloger"
+            }, {
+              "value" : "UDBCataloger",
+              "label" : "UDBCataloger"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginName",
+          "widget" : "select",
+          "label" : "Plugin",
+          "tooltip" : "Name of the plugin",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Plugin should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "name",
+          "widget" : "string",
+          "label" : "Name",
+          "tooltip" : "Plugin configuration name",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "required",
+            "message" : " Name field should not be empty"
+          }, {
+            "name" : "uniqueTableKey",
+            "message" : " Name contains duplicated values"
+          }, {
+            "name" : "pattern",
+            "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+            "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+          }, {
+            "name" : "uniqueValue",
+            "config" : [ "MongoDBCataloger_ValidDB&Cred" ],
+            "message" : "Name already exists. Please enter a different name."
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "availableValues" : [ {
+              "value" : "1.1.0",
+              "label" : "1.1.0"
+            }, {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginVersion",
+          "widget" : "select",
+          "label" : "Plugin version",
+          "tooltip" : "Required plugin version",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "label",
+          "widget" : "label",
+          "label" : "Label",
+          "tooltip" : "Plugin configuration extended label and description",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventCondition",
+          "widget" : "string",
+          "label" : "Event condition",
+          "tooltip" : "Condition an event must match to trigger this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : false,
+          "name" : "dryRun",
+          "widget" : "checkbox",
+          "label" : "Dry Run",
+          "tooltip" : "Option to enable/disable the plugin execution on dry run mode without writing objects into the repository",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventClass",
+          "widget" : "string",
+          "label" : "Event class",
+          "tooltip" : "Event Class name to trigger current plugin configuration",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 100,
+          "name" : "maxWorkSize",
+          "widget" : "number",
+          "label" : "Maximum work size",
+          "tooltip" : "Maximum number of items the plugin can process before delegating to other nodes",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "pluginType",
+          "widget" : "string",
+          "label" : "pluginType",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "nodeCondition",
+          "widget" : "string",
+          "label" : "Node condition",
+          "tooltip" : "Condition an node must match to be able to run this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "name" : "autoStart",
+          "widget" : "checkbox",
+          "label" : "Auto start",
+          "tooltip" : "Option to enable/disable the automatic execution of the plugin configuration after node startup",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "Backward Lineage Candidate",
+              "label" : "Backward Lineage Candidate"
+            }, {
+              "value" : "Email Address",
+              "label" : "Email Address"
+            }, {
+              "value" : "Email Address1",
+              "label" : "Email Address1"
+            }, {
+              "value" : "Email Address2",
+              "label" : "Email Address2"
+            }, {
+              "value" : "Email Address3",
+              "label" : "Email Address3"
+            }, {
+              "value" : "Forward Lineage Candidate",
+              "label" : "Forward Lineage Candidate"
+            }, {
+              "value" : "Full Name",
+              "label" : "Full Name"
+            }, {
+              "value" : "Full Name1",
+              "label" : "Full Name1"
+            }, {
+              "value" : "Full Name2",
+              "label" : "Full Name2"
+            }, {
+              "value" : "Full Name3",
+              "label" : "Full Name3"
+            }, {
+              "value" : "FullMatchTag",
+              "label" : "FullMatchTag"
+            }, {
+              "value" : "FullMatchTag1",
+              "label" : "FullMatchTag1"
+            }, {
+              "value" : "FullMatchTag2",
+              "label" : "FullMatchTag2"
+            }, {
+              "value" : "FullMatchTag3",
+              "label" : "FullMatchTag3"
+            }, {
+              "value" : "Gender",
+              "label" : "Gender"
+            }, {
+              "value" : "Gender1",
+              "label" : "Gender1"
+            }, {
+              "value" : "Gender2",
+              "label" : "Gender2"
+            }, {
+              "value" : "Gender3",
+              "label" : "Gender3"
+            }, {
+              "value" : "IP Address",
+              "label" : "IP Address"
+            }, {
+              "value" : "IP Address1",
+              "label" : "IP Address1"
+            }, {
+              "value" : "IP Address2",
+              "label" : "IP Address2"
+            }, {
+              "value" : "IP Address3",
+              "label" : "IP Address3"
+            }, {
+              "value" : "SSN",
+              "label" : "SSN"
+            }, {
+              "value" : "SSN1",
+              "label" : "SSN1"
+            }, {
+              "value" : "SSN2",
+              "label" : "SSN2"
+            }, {
+              "value" : "SSN3",
+              "label" : "SSN3"
+            } ],
+            "singleSelection" : false,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "tags",
+          "widget" : "multi-select",
+          "label" : "Tags",
+          "tooltip" : "Add custom tag(s) to define your data item",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "availableValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : true
+          },
+          "name" : "catalogName",
+          "widget" : "select",
+          "label" : "Catalog name",
+          "tooltip" : "Catalog name",
+          "hidden" : true,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Catalog name should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "MongoDBDataSource_valid",
+              "label" : "MongoDBDataSource_valid"
+            }, {
+              "value" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "name",
+                  "widget" : "string",
+                  "label" : "Name",
+                  "tooltip" : "Plugin configuration name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Name field should not be empty"
+                  }, {
+                    "name" : "uniqueTableKey",
+                    "message" : " Name contains duplicated values"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+                    "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+                  }, {
+                    "name" : "uniqueValue",
+                    "config" : [ "MongoDBDataSource_valid" ],
+                    "message" : "Name already exists. Please enter a different name."
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "label",
+                  "widget" : "label",
+                  "label" : "Label",
+                  "tooltip" : "Plugin configuration extended label and description",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "pluginType",
+                  "widget" : "string",
+                  "label" : "pluginType",
+                  "hidden" : true,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                  "value" : {
+                    "selectedValues" : [ {
+                      "value" : "Default",
+                      "label" : "Default"
+                    } ],
+                    "availableValues" : [ {
+                      "value" : "Default",
+                      "label" : "Default"
+                    } ],
+                    "singleSelection" : true,
+                    "reload" : false,
+                    "allowUserInput" : true
+                  },
+                  "name" : "catalogName",
+                  "widget" : "select",
+                  "label" : "Catalog name",
+                  "tooltip" : "Catalog name",
+                  "hidden" : true,
+                  "validators" : [ {
+                    "name" : "requiredSelection",
+                    "message" : " Catalog name should have at least one value selected"
+                  } ],
+                  "advanced" : false,
+                  "constant" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+                  "name" : "class",
+                  "widget" : "string",
+                  "label" : "class",
+                  "hidden" : true,
+                  "validators" : [ ],
+                  "advanced" : false,
+                  "constant" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "host",
+                  "widget" : "string",
+                  "label" : "Host",
+                  "tooltip" : "Host name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Host field should not be empty"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : "27017",
+                  "name" : "port",
+                  "widget" : "number",
+                  "label" : "Port",
+                  "tooltip" : "mongo running port, default is 27017",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "database",
+                  "widget" : "string",
+                  "label" : "Database Name",
+                  "tooltip" : "Name of the database",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Database Name field should not be empty"
+                  } ],
+                  "advanced" : false
+                } ],
+                "name" : "Plugin Configuration",
+                "metadata" : {
+                  "description" : {
+                    "" : "MongoDB Data Source Details"
+                  },
+                  "analysis.type" : "datasource",
+                  "analysis.supportedCredentialTypes" : [ "basic" ]
+                },
+                "validators" : [ ],
+                "label" : "Mongo DB Data Source",
+                "empty" : false
+              },
+              "label" : "Add data source"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "dataSource",
+          "widget" : "childProperties",
+          "label" : "Data Source",
+          "tooltip" : "Data source connection to be used",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+          "name" : "class",
+          "widget" : "string",
+          "label" : "class",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "EDIBusValidCredentials",
+              "label" : "EDIBusValidCredentials"
+            }, {
+              "value" : "MongoDBEmptyCredential",
+              "label" : "MongoDBEmptyCredential"
+            }, {
+              "value" : "MongoDBInValidCredential",
+              "label" : "MongoDBInValidCredential"
+            }, {
+              "value" : "MongoDBValidCredential",
+              "label" : "MongoDBValidCredential"
+            }, {
+              "value" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "name",
+                  "widget" : "string",
+                  "label" : "Name",
+                  "tooltip" : "Credential Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Name field should not be empty"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+                    "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+                  }, {
+                    "name" : "uniqueValue",
+                    "config" : [ "EDIBusValidCredentials", "MongoDBEmptyCredential", "MongoDBInValidCredential", "MongoDBValidCredential" ],
+                    "message" : "Name already exists. Please enter a different name."
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "userName",
+                  "widget" : "string",
+                  "label" : "User Name",
+                  "tooltip" : "User Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "User Name field should not be empty"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "password",
+                  "widget" : "password",
+                  "label" : "Password",
+                  "tooltip" : "Password",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "Password field should not be empty"
+                  } ],
+                  "advanced" : false
+                } ],
+                "metadata" : { },
+                "validators" : [ ],
+                "empty" : false
+              },
+              "label" : "Add credential"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "credential",
+          "widget" : "childProperties",
+          "label" : "Credential",
+          "tooltip" : "Credential to be used",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "MONGODB_BA",
+              "label" : "MONGODB_BA"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "businessApplicationName",
+          "widget" : "select",
+          "label" : "Business Application",
+          "tooltip" : "Business Application",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+          "value" : {
+            "headers" : [ {
+              "label" : "MongoDB Collection filters",
+              "valuePath" : [ "properties", "0", "value" ]
+            } ],
+            "rows" : [ ],
+            "prototype" : {
+              "properties" : [ {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "name" : "table",
+                "widget" : "string",
+                "label" : "Collection",
+                "tooltip" : "Collection Name",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              } ],
+              "name" : "tables",
+              "metadata" : { },
+              "validators" : [ ],
+              "empty" : false
+            }
+          },
+          "name" : "tables",
+          "widget" : "table",
+          "label" : "MongoDB Collection Filters",
+          "tooltip" : "Filter on MongoDB Collections",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        } ],
+        "name" : "Plugin Configuration",
+        "metadata" : {
+          "analysis.technologies" : [ "MongoDB" ],
+          "analysis.itemtypes" : [ "Cluster", "Service", "Database", "Host", "Table", "Column", "Constraint" ],
+          "description" : {
+            "" : "MongoDB Cataloger"
+          },
+          "analysis.type" : "cataloger",
+          "analysis.supportedDataSourceTypes" : [ "MongoDBDataSource" ],
+          "analysis.supportedCredentialTypes" : [ "basic" ]
+        },
+        "validators" : [ ],
+        "label" : "Mongo DB Cataloger",
+        "empty" : false
+      }
+    },
+    "name" : "configurations",
+    "widget" : "table",
+    "label" : "MongoDBCataloger",
+    "hidden" : false,
+    "validators" : [ ],
+    "advanced" : false
+  } ],
+  "name" : "MongoDBCataloger",
+  "metadata" : { },
+  "validators" : [ ],
+  "label" : "MongoDBCataloger",
+  "empty" : false
+}

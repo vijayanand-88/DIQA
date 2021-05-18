@@ -1,0 +1,19 @@
+{
+  "CatalogId": "01",
+  "DatabaseInput": {
+    "CreateTableDefaultPermissions": [
+      {
+        "Permissions": ["ALL"],
+        "Principal": {
+          "DataLakePrincipalIdentifier": "IAM_ALLOWED_PRINCIPALS"
+        }
+      }
+    ],
+    "Description": "Test Database",
+    "LocationUri": "Test Database Location",
+    "Name": "testdatabase",
+    "Parameters": {
+      "key" : "value"
+    }
+  }
+}

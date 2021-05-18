@@ -1,0 +1,330 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PigMetadata",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4853SC1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "PIG"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PigScanOFF",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4853SC2"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "PIG"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": false,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PigScanON",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4853SC3"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "PIG"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PigInclude",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4853SC4"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "PIG"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+                "*pig*"
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PigExclude",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4853SC5"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [],
+            "fromLastRun": false,
+            "dateTimeFilters": {},
+            "sourceTypes": [
+              "PIG"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [
+                "*script*"
+              ],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PigDates",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CN4853SC6"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CNavigatorDataSource",
+      "credential": "ClouderaValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [
+              "TagDates"
+            ],
+            "fromLastRun": false,
+            "dateTimeFilters": {
+              "fromDate": "2018-08-01T00:00",
+              "toDate": "2018-08-30T00:00"
+            },
+            "sourceTypes": [
+              "PIG"
+            ],
+            "excludeNameWrapper": {
+              "excludeTopNamePattern": [
+              ],
+              "excludeNamePattern": []
+            },
+            "includeNameWrapper": {
+              "includeTopNamePattern": [
+
+              ],
+              "includeNamePattern": []
+            }
+          }
+        ],
+        "deltaTime": null,
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "trackRelations": true,
+      "pluginName": "CNavigatorCataloger",
+      "skipSelects": false,
+      "type": "Cataloger"
+    }
+  ]
+}

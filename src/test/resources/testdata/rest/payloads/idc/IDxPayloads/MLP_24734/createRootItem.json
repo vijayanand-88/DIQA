@@ -1,0 +1,42 @@
+[
+  {
+    "id": null,
+    "localID": "Default.Database:::1",
+    "scopeId": null,
+    "scopeAttrName": null,
+    "type": "Database",
+    "name": "RootDatabase01",
+    "@schema": null,
+    "@global": null
+  },
+  {
+    "id": null,
+    "localID": "Default.Table:::2",
+    "scopeId": "Default.Database:::1",
+    "scopeAttrName": "rootToChild",
+    "type": "Table",
+    "name": "ChildTable01",
+    "@schema": null,
+    "@global": null
+  },
+  {
+    "id": null,
+    "localID": "Default.Table:::3",
+    "scopeId": "Default.Database:::1",
+    "scopeAttrName": "rootToChild",
+    "type": "Table",
+    "name": "ChildTable02",
+    "@schema": null,
+    "@global": null
+  },
+  {
+    "id": null,
+    "localID": "Default.Column:::1",
+    "scopeId": "Default.Table:::2",
+    "scopeAttrName": "GrandChild01",
+    "type": "Column",
+    "name": "ChildColumn",
+    "@schema": null,
+    "@global": null
+  }
+]

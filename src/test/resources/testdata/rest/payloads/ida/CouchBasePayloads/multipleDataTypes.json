@@ -1,0 +1,12 @@
+{
+  "charvalue": "A",
+  "varcharvalue": "ACER",
+  "booleanvalue": true,
+  "smallintvalue": 5,
+  "integervalue": 	21474836,
+  "decimalvalue": 1234567.123,
+  "bigdecimalvalue": 12345678.123,
+  "floatvalue": 123.45678,
+  "longvalue": 	21474836483,
+  "scope": ["scopevalue1","scopevalue2"]
+}

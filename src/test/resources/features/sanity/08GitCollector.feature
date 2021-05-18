@@ -1,0 +1,14 @@
+Feature: Git Collector Sanity run for AWS instance
+
+
+  @sanityrun
+  Scenario Outline:AmazonS3_Update Credential,Data Source,plugin configuration and run plugin
+    Given endpoint for "<ServiceName>" for "<ServiceUser>" having "<Header>" and query param with "<Query>" "<Param>" for request type "<type>" with url "<url>" and body as string from "<bodyFile>" with "<path>" and verify "<response code>" and "<response message>" using "<jsonPath>"
+    Examples:
+      | ServiceName | ServiceUser    | Header           | Query | Param | type         | url                                                                          | bodyFile                                      | path                               | response code | response message | jsonPath                                             |
+      | IDC         | TestSystemUser | application/json | raw   | false | Put          | settings/credentials/GitHubCredentials                                       | payloads/ida/sanityPayloads/credentials.json  | $.GitHubCredentials                | 200           |                  |                                                      |
+      | IDC         | TestSystemUser | application/json | raw   | false | Put          | settings/analyzers/GitCollectorDataSource/SanityGitDataSource                | payloads/ida/sanityPayloads/datasource.json   | $.GitDataSource.configurations.[0] | 204           |                  |                                                      |
+      | IDC         | TestSystemUser | application/json | raw   | false | Put          | settings/analyzers/GitCollector/SanityGitConfig                              | payloads/ida/sanityPayloads/pluginconfig.json | $.GitColConfig.configurations      | 204           |                  |                                                      |
+      | IDC         | TestSystemUser | application/json |       |       | RecursiveGet | extensions/analyzers/status/LocalNode/collector/GitCollector/SanityGitConfig |                                               |                                    | 200           | IDLE             | $.[?(@.configurationName=='SanityGitConfig')].status |
+      | IDC         | TestSystemUser | application/json |       |       | Post         | extensions/analyzers/start/LocalNode/collector/GitCollector/SanityGitConfig  |                                               |                                    | 200           |                  |                                                      |
+      | IDC         | TestSystemUser | application/json |       |       | RecursiveGet | extensions/analyzers/status/LocalNode/collector/GitCollector/SanityGitConfig |                                               |                                    | 200           | IDLE             | $.[?(@.configurationName=='SanityGitConfig')].status |

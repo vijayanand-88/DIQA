@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.teradata.jdbc:terajdbc4:16.20.00.10">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/teradata/jdbc/terajdbc4/16.20.00.10/terajdbc4-16.20.00.10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/teradata/jdbc/terajdbc4/16.20.00.10/terajdbc4-16.20.00.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/teradata/jdbc/terajdbc4/16.20.00.10/terajdbc4-16.20.00.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

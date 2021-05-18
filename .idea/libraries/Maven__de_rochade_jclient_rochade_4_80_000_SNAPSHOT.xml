@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: de.rochade.jclient:rochade:4.80.000-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/rochade/jclient/rochade/4.80.000-SNAPSHOT/rochade-4.80.000-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/de/rochade/jclient/rochade/4.80.000-SNAPSHOT/rochade-4.80.000-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/rochade/jclient/rochade/4.80.000-SNAPSHOT/rochade-4.80.000-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

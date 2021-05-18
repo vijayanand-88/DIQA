@@ -1,0 +1,82 @@
+{
+  "tableName": "adventureworks_acc_useraccount",
+  "description": "Table Description",
+  "database": "accounts_rds",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "password",
+        "type": "string",
+        "comment": ""
+      }
+    ]
+  },
+  "StorageDescriptor": {
+  "cols": {
+    "FieldSchema": [
+      {
+        "name": "password",
+        "type": "string",
+        "comment": ""
+      },
+      {
+        "name": "user_id",
+        "type": "int",
+        "comment": ""
+      },
+      {
+        "name": "created_on",
+        "type": "string",
+        "comment": ""
+      },
+      {
+        "name": "last_login",
+        "type": "string",
+        "comment": ""
+      },
+      {
+        "name": "email",
+        "type": "string",
+        "comment": ""
+      },
+      {
+        "name": "username",
+        "type": "string",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "AdventureWorks.acc.useraccount",
+  "inputFormat": "",
+  "outputFormat": "",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "1",
+    "parameters": {}
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {
+    "UPDATED_BY_CRAWLER": "sqlserver_rds_cr",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "connectionName": "RDS-SQLServer",
+    "classification": "sqlserver",
+    "typeOfData": "table"
+  },
+  "SkewedInfo": {},
+  "storedAsSubDirectories": "false"
+},
+  "parameters": {
+    "UPDATED_BY_CRAWLER": "sqlserver_rds_cr",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "connectionName": "RDS-SQLServer",
+    "classification": "sqlserver",
+    "typeOfData": "table"
+  }
+}

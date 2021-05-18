@@ -1,0 +1,531 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseMultipleSchemaInFilters",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": []
+        },
+        {
+          "schema": "dbo",
+          "tables":[
+            {
+              "table":"FactInternetSales"
+            },
+            {
+              "table":"DimProduct"
+            }]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseSchemaNameInfilters",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": []
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseSchemaAndTablesInfilters",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "person_info"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseSingleSchemaMultipleTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": [
+            {
+              "table": "FactInternetSales"
+            },
+            {
+              "table": "DimProduct"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseWithoutSchema",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "tables": [
+            {
+              "table": "personal_details"
+            },
+            {
+              "table": "DimProduct"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseMultipleSchemasWithTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "members",
+          "tables": [
+            {
+              "table": "personal_details"
+            },
+            {
+              "table": "address_details"
+            }
+          ]
+        },
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "person_info"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseWithoutSchemaAndTable",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseNonExistingSchema",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo1",
+          "tables": [
+            {
+              "table": "DatabaseLog1"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseTablesWithDiffDataTypes",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "diffdatatypes"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseExternalTable",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": []
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureWarehouseValidSchemaInvalidTable",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "test1"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseMissedSchemaInvalidTable",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "tables": [
+            {
+              "table": "test1"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseMissedDB",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseInvalidBundleName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc1",
+      "schemas": [
+        {
+          "schema": "",
+          "tables": [
+            {
+              "table": "person_info"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseInvalidVersionNDriver",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driver": "test",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdb",
+      "schemas": [],
+      "driverBundleVersion": "10.0",
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseInvalidURL1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:test:thin:@gechcae-col1.asg.com:1521:col2"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseInvalidURL2",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:col2"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseValidURLInvalidBundle",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [
+        {
+          "schema": "members",
+          "tables": [
+            {
+              "table": "address_details"
+            }
+          ]
+        }],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;gechcae-col1.asg.com=asgsqlwarehouse;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzurewarehouseWithoutUserNamePwd",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Azurewarehouse",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asgsqlwarehouse;"
+    }
+
+  ]
+}

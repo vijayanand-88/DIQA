@@ -1,0 +1,28 @@
+{
+  "BATag": {
+    "onlyPython": {
+      "LocalFileCollector_BA": {
+        "Data_Elements": 12,
+        "Directory": 3,
+        "File": 6,
+        "Project": 1,
+        "Analysis": 2
+      },
+      "GitCollector": {
+        "Data_Elements": 67,
+        "Directory": 7,
+        "File": 58,
+        "Project": 1,
+        "Analysis": 1
+      },
+      "AmazonS3": {
+        "Data_Elements": 19,
+        "Directory": 6,
+        "File": 10,
+        "Cluster": 1,
+        "Service": 1,
+        "Analysis": 1
+      }
+    }
+  }
+}

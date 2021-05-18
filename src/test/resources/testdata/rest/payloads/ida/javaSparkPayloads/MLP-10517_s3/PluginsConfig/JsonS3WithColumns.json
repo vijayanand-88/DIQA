@@ -1,0 +1,52 @@
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JsonS3CatalogerJS",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JsonS3CatalogerJS"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaSpS3"],
+      "pluginType": "cataloger",
+      "dataSource": "JsonS3DataSourceJS",
+      "credential": "AWS_CredentialsJS",
+      "keepEmptyFolders": false,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "incremental": false,
+      "options": {
+        "incremental": false,
+        "mode": "files",
+        "keepEmptyFolders": false,
+        "maxObjectsAmount": 1000
+      },
+      "bucketFilter": {
+        "patterns": [
+          "asgqatestautomation6"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/Java"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/Source/*",
+              "*/Target/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      },
+      "businessApplicationName": "test_BA_JavaSpS3",
+      "dryRun": false
+    }

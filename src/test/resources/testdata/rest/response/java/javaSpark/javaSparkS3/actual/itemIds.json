@@ -1,0 +1,36 @@
+{
+  "DynamicIDs": {
+    "AmazonS3Data": {
+      "has_Directory": {
+        "id": ""
+      },
+      "has_Analysis": {
+        "id": ""
+      }
+    },
+    "GitData": {
+      "has_Analysis": {
+        "id": ""
+      },
+      "has_Project": {
+        "id": ""
+      }
+    },
+    "JavaData": {
+      "has_Analysis3": {
+        "id": ""
+      },
+      "has_Analysis2": {
+        "id": ""
+      },
+      "has_Analysis1": {
+        "id": ""
+      }
+    },
+    "BAData": {
+      "has_BA": {
+        "id": ""
+      }
+    }
+  }
+}

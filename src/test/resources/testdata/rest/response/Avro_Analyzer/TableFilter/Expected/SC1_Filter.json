@@ -1,0 +1,232 @@
+{
+  "SC1": {
+    "Directory": {
+      "name": [
+        "idaautomation",
+        "sub1",
+        "ROOT"
+      ],
+      "files": {
+        "name": [
+          "testdata.csv",
+          "testdataRenamed.csv"
+        ]
+      }
+    }
+  },
+  "SC2": {
+    "Run1": {
+      "Directory": {
+        "name": [
+          "idaautomation",
+          "upload1",
+          "ROOT"
+        ],
+        "files": {
+          "name": [
+            "uploadFile1.csv"
+          ]
+        }
+      }
+    },
+    "Run2": {
+      "Directory": {
+        "name": [
+          "idaautomation",
+          "upload1",
+          "upload2",
+          "ROOT"
+        ],
+        "files": {
+          "name": [
+            "uploadFile1.csv",
+            "uploadFile2.csv"
+          ]
+        }
+      }
+    }
+  },
+  "SC3": {
+    "Run1": {
+      "Directory": {
+        "name": [
+          "ROOT",
+          "sub1",
+          "sub7",
+          "sub6",
+          "asdsadfffffffffffffffffffffffffsaaaaaaaaaaaaaaaaaaaacdefghifklmnopqrstuvxyzqwertyuioasdfghjklzxcvbnmokmijnuhygvtfcrdxeszqawsxedcrfvtgbyhnujio",
+          "idaautomation",
+          "sub3",
+          "sub2",
+          "sub5",
+          "sub4",
+          "sub9",
+          "sub8",
+          "sub11",
+          "sub12",
+          "sub10"
+        ],
+        "files": {
+          "name": [
+            "userdata2.parquet",
+            "uploadFile5.csv",
+            "hdfs (1).zip",
+            "userdata1.parquet",
+            "insert_cycling1",
+            "insert_cycling.txt",
+            "uploadFile1.csv",
+            "uploadFile4.csv",
+            "Test+Results+-+Scenario__SC#33_2_Verify_Tag_is_set_for_the_column_when_namePattern_and_dataPattern_minimumRatio_matches_with_the_column_name_value_ratio_in_Oracle_table_ (4).html",
+            "uploadFile3.csv",
+            "insert_cycling_cassandra.txt",
+            "dummy.pdf",
+            "CALC-1985.doc"
+          ]
+        }
+      }
+    },
+    "Run2": {
+      "Directory": {
+        "name": [
+          "ROOT",
+          "sub1",
+          "sub7",
+          "sub6",
+          "asdsadfffffffffffffffffffffffffsaaaaaaaaaaaaaaaaaaaacdefghifklmnopqrstuvxyzqwertyuioasdfghjklzxcvbnmokmijnuhygvtfcrdxeszqawsxedcrfvtgbyhnujio",
+          "idaautomation",
+          "sub3",
+          "sub2",
+          "sub5",
+          "sub4",
+          "sub9",
+          "sub8",
+          "sub11",
+          "sub10"
+        ],
+        "files": {
+          "name": [
+            "userdata2.parquet",
+            "uploadFile5.csv",
+            "hdfs (1).zip",
+            "userdata1.parquet",
+            "insert_cycling1",
+            "insert_cycling.txt",
+            "uploadFile1.csv",
+            "uploadFile4.csv",
+            "Test+Results+-+Scenario__SC#33_2_Verify_Tag_is_set_for_the_column_when_namePattern_and_dataPattern_minimumRatio_matches_with_the_column_name_value_ratio_in_Oracle_table_ (4).html",
+            "uploadFile3.csv",
+            "insert_cycling_cassandra.txt",
+            "dummy.pdf",
+            "CALC-1985.doc"
+          ]
+        }
+      }
+    }
+  },
+  "SC4": {
+    "Run1": {
+      "Directory": {
+        "name": [
+          "ROOT",
+          "sub11",
+          "sub10",
+          "idaautomation",
+          "asdsadfffffffffffffffffffffffffsaaaaaaaaaaaaaaaaaaaacdefghifklmnopqrstuvxyzqwertyuioasdfghjklzxcvbnmokmijnuhygvtfcrdxeszqawsxedcrfvtgbyhnujio",
+          "sub1"
+        ],
+        "files": {
+          "name": [
+            "uploadFile1.csv",
+            "uploadFile5.csv",
+            "insert_cycling.txt",
+            "insert_cycling1",
+            "uploadFile4.csv"
+          ]
+        }
+      }
+    },
+    "Run2": {
+      "Directory": {
+        "name": [
+          "ROOT",
+          "MaxHits",
+          "Sub1"
+        ]
+      }
+    }
+  },
+  "SC5": {
+    "Directory": {
+      "name": [
+        "ROOT",
+        "sub1",
+        "sub7",
+        "sub6",
+        "asdsadfffffffffffffffffffffffffsaaaaaaaaaaaaaaaaaaaacdefghifklmnopqrstuvxyzqwertyuioasdfghjklzxcvbnmokmijnuhygvtfcrdxeszqawsxedcrfvtgbyhnujio",
+        "idaautomation",
+        "sub3",
+        "sub2",
+        "sub5",
+        "sub4",
+        "sub9",
+        "sub8",
+        "sub11",
+        "sub10"
+      ],
+      "files": {
+        "name": [
+          "userdata2.parquet",
+          "hdfs (1).zip",
+          "userdata1.parquet",
+          "insert_cycling1",
+          "insert_cycling.txt",
+          "Test+Results+-+Scenario__SC#33_2_Verify_Tag_is_set_for_the_column_when_namePattern_and_dataPattern_minimumRatio_matches_with_the_column_name_value_ratio_in_Oracle_table_ (4).html",
+          "insert_cycling_cassandra.txt",
+          "dummy.pdf",
+          "CALC-1985.doc"
+        ]
+      },
+      "Cluster": {
+        "name": [
+          "Sandbox"
+        ]
+      }
+    }
+  },
+  "SC6": {
+    "Directory": {
+      "name": [
+        "ROOT",
+        "MaxHits",
+        "Sub3",
+        "Sub4",
+        "Sub1",
+        "Sub2"
+      ],
+      "files": {
+        "name": [
+          "uploadFile2.csv"
+        ]
+      }
+    }
+  },
+  "SC7": {
+    "Tables": {
+      "employee": {
+        "column": [
+          "professional data:designation",
+          "professional data:salary",
+          "personal data:city",
+          "personal data:name",
+          "personal data:address",
+          "professional data:DOJ",
+          "professional data:hike"
+        ]
+      }
+    },
+    "hierarchy": [
+      "default"
+    ]
+  }
+}
+

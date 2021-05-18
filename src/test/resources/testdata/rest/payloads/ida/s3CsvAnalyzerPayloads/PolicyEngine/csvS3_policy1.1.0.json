@@ -1,0 +1,980 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "pluginName": "CsvS3Analyzer",
+    "technologies": [
+      ""
+    ],
+    "view":{
+      "label":"CsvS3Analyzer_SC1",
+      "value":"CsvS3Analyzer_SC1"
+    },
+    "dataType": "STRUCTURED"
+  },
+  "outputs": [
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*str.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "string",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "string",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*ring",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*trin.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*str1.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "str3ing",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "s2tring",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*int",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*4trin.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*IP.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*EMAIL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "SSN.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*FULL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*I1P.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*EM1AIL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "SSN11.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "1GENDER",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*F1ULL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*str.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "string",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "string",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*ring",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL.*",
+      "typePattern": ".*trin.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPAD1DRESS",
+      "typePattern": ".*str.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*1MAIL",
+      "typePattern": "string",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*1SSN.*",
+      "typePattern": "string",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER1",
+      "typePattern": ".*ring",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL1.*",
+      "typePattern": ".*trin.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*st2r.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "2string",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "str2ng",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*2ring",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL.*",
+      "typePattern": ".*tr2in.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}.\\d{5}",
+      "tags": [
+        "CsvS3IPAddressPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*str.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+*([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "string",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4} \\d{6}",
+      "tags": [
+        "CsvS3SSNPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "string",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(male|Male|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*ring",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+\\d{3}",
+      "tags": [
+        "CsvS3FullNamePII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL.*",
+      "typePattern": ".*trin.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CsvS3IPAddressPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CsvS3EmailPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CsvS3SSNPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CsvS3GenderPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CsvS3FullNamePII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "database",
+      "tags": [
+        "CsvS3FullMatchPII_SC1Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "database",
+      "tags": [
+        "CsvS3FullMatchPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "GRANTS.",
+      "tags": [
+        "CsvS3FullMatchPII_SC3Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CsvS3PII",
+      "dataPattern": "GRANTS.",
+      "tags": [
+        "CsvS3FullMatchPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    }
+  ]
+
+}

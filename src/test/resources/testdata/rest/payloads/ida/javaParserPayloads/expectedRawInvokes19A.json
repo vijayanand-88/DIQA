@@ -1,0 +1,26 @@
+[
+  {
+    "startLine": 9,
+    "endLine": 9,
+    "startColumn": 18,
+    "endColumn": 46,
+    "methodName": "IntStream.of().filter().forEach",
+    "argumentNb": 1
+  },
+  {
+    "startLine": 7,
+    "endLine": 8,
+    "startColumn": 9,
+    "endColumn": 41,
+    "methodName": "IntStream.of().filter",
+    "argumentNb": 1
+  },
+  {
+    "startLine": 7,
+    "endLine": 7,
+    "startColumn": 9,
+    "endColumn": 39,
+    "methodName": null,
+    "argumentNb": 6
+  }
+]

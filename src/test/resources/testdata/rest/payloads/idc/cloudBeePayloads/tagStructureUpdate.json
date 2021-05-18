@@ -1,0 +1,78 @@
+{
+  "name": null,
+  "definition": null,
+  "rootTags": [
+    {
+      "id": "TAGCATALOG.Tag:::1",
+      "name": "Data Analysis",
+      "rootTagName": "Data Analysis",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "type": "Structure Information Tag",
+      "subTags": [
+        {
+          "id": "TAGCATALOG.Tag:::3",
+          "name": "Trustworthy",
+          "rootTagName": "Data Analysis",
+          "parentTagName": "",
+          "definition": "",
+          "status": "APPROVED",
+          "type": "Structure Information Tag",
+          "subTags": []
+        },
+        {
+          "id": "TAGCATALOG.Tag:::2",
+          "name": "Critical",
+          "rootTagName": "Data Analysis",
+          "parentTagName": "",
+          "definition": "",
+          "status": "APPROVED",
+          "type": "Structure Information Tag",
+          "subTags": []
+        },
+        {
+          "id": "TAGCATALOG.Tag:::7",
+          "name": "Untrusted",
+          "rootTagName": "Data Analysis",
+          "parentTagName": "",
+          "definition": "",
+          "status": "APPROVED",
+          "type": "Structure Information Tag",
+          "subTags": []
+        },
+        {
+          "id": "TAGCATALOG.Tag:::6",
+          "name": "Private",
+          "rootTagName": "Data Analysis",
+          "parentTagName": "",
+          "definition": "",
+          "status": "APPROVED",
+          "type": "Structure Information Tag",
+          "subTags": []
+        },
+        {
+          "id": "TAGCATALOG.Tag:::5",
+          "name": "Confidential",
+          "rootTagName": "Data Analysis",
+          "parentTagName": "",
+          "definition": "",
+          "status": "APPROVED",
+          "type": "Structure Information Tag",
+          "subTags": []
+        },
+        {
+          "id": "TAGCATALOG.Tag:::4",
+          "name": "Source of Truth",
+          "rootTagName": "Data Analysis",
+          "parentTagName": "",
+          "definition": "",
+          "status": "APPROVED",
+          "type": "Structure Information Tag",
+          "subTags": []
+        }
+      ]
+
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "7856_AzureSQLAPI": {
+    "label": {
+      "": "7856_AzureSQLAPI"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "7856_AzureSQLAPI"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"Clusters":{"desired_config":{"tag":"version59","type":"cataloger-config","properties":{"ingestionServiceLink":"https://dechedocker02v.asg.com/IDC","ingestionServiceToken":"SECRET:cataloger-config:1:ingestionServiceToken","clusterAlias":"Cluster Demo"}}}}

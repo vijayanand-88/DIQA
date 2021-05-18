@@ -1,0 +1,30 @@
+{
+  "DataBaseMetaDataForEE": {
+    "TotalCountOfNodes": 1213,
+    "ToatalCountOfRelationship": 3399,
+    "AverageCountOfRelationships": 5.603462489694969,
+    "MaximumCountOfRelationships": 56,
+    "MinimumCountOfRelationships": 0
+  },
+  "eeFileStoreSize": {
+    "LogicalLogSize": 4465841,
+    "StringStoreSize": 24576,
+    "RelationshipStoreSize": 122400,
+    "ArrayStoreSize": 24576,
+    "PropertyStoreSize": 481381,
+    "TotalStoreSize": 5731557,
+    "NodeStoreSize": 24570
+  },
+  "Indexes": {
+    "Indexes1": "INDEX ON :Category(categoryID)",
+    "Indexes2": "INDEX ON :Customer(customerID)",
+    "Indexes3": "INDEX ON :Order(orderID)",
+    "Indexes4": "INDEX ON :Product(productID)",
+    "Indexes5": "INDEX ON :Supplier(supplierID)",
+    "Indexes6": "INDEX ON :Category(isbn)",
+    "Indexes7": "INDEX ON :Order(isbn)",
+    "Indexes8": "INDEX ON :Product(isbn)",
+    "Indexes9": "INDEX ON :Supplier(isbn)"
+  },
+  "eeAvailabelDataBaseCount": 0
+}

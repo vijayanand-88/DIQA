@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TagSort",
+    "definition": "General Classification",
+    "status": "APPROVED",
+    "type": "Structure Information Tag",
+    "userAssignable": true,
+    "subTags": [
+      {
+        "name": "A",
+        "definition": "A1",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "B",
+        "definition": "B1",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "C",
+        "definition": "C1",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "D",
+        "definition": "D1",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      }
+    ],
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

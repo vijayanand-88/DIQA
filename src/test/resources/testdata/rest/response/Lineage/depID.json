@@ -1,0 +1,50 @@
+{
+  "fieldNameId": {
+    "_c5": 11536,
+    "_c4": 11537,
+    "_c7": 11538,
+    "_c6": 11539,
+    "_c9": 11540,
+    "_c8": 11541,
+    "_c1": 11532,
+    "_c0": 11533,
+    "_c3": 11534,
+    "_c2": 11535
+  },
+  "classID": 142920,
+  "functionID": 142932,
+  "hopsList": [
+    "ds0.age => rc1.age",
+    "ds0.fare => rc1.fare",
+    "ds0.passengerid => rc1.passengerid",
+    "ds0.ticket => rc1.ticket",
+    "train_sm_s2adb_csv.age => ds0.age",
+    "train_sm_s2adb_csv.fare => ds0.fare",
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid",
+    "train_sm_s2adb_csv.ticket => ds0.ticket"
+  ],
+  "hopsID": {
+    "ds0.fare => rc1.fare": 142979,
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": 142974,
+    "ds0.ticket => rc1.ticket": 142978,
+    "ds0.age => rc1.age": 142977,
+    "train_sm_s2adb_csv.fare => ds0.fare": 142975,
+    "ds0.passengerid => rc1.passengerid": 142976,
+    "train_sm_s2adb_csv.ticket => ds0.ticket": 142981,
+    "train_sm_s2adb_csv.age => ds0.age": 142980
+  },
+  "FieldIdList": [
+    "_c0",
+    "_c1",
+    "_c2",
+    "_c3",
+    "_c4",
+    "_c5",
+    "_c6",
+    "_c7",
+    "_c8",
+    "_c9"
+  ],
+  "fileID": 11501,
+  "fieldID": 11533
+}

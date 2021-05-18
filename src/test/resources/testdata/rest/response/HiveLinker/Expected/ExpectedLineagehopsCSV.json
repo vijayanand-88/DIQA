@@ -1,0 +1,124 @@
+{
+  "tagdetails_csv": [
+    {
+      "mode": "VIEW",
+      "source": "CSV",
+      "dir": "->",
+      "target": "tagdetails_csv"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c0",
+      "dir": "->",
+      "target": "employeeid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c1",
+      "dir": "->",
+      "target": "full_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c2",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c3",
+      "dir": "->",
+      "target": "phonenumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c4",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c5",
+      "dir": "->",
+      "target": "ssn"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c6",
+      "dir": "->",
+      "target": "postalcode"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c7",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "_c8",
+      "dir": "->",
+      "target": "ipaddress"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "_c2"
+    },
+    {
+      "mode": "VIEW",
+      "source": "employeeid",
+      "dir": "->",
+      "target": "_c0"
+    },
+    {
+      "mode": "VIEW",
+      "source": "full_name",
+      "dir": "->",
+      "target": "_c1"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "_c4"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ipaddress",
+      "dir": "->",
+      "target": "_c8"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phonenumber",
+      "dir": "->",
+      "target": "_c3"
+    },
+    {
+      "mode": "VIEW",
+      "source": "postalcode",
+      "dir": "->",
+      "target": "_c6"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ssn",
+      "dir": "->",
+      "target": "_c5"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "_c7"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tagdetails_csv",
+      "dir": "->",
+      "target": "CSV"
+    }
+  ]
+}

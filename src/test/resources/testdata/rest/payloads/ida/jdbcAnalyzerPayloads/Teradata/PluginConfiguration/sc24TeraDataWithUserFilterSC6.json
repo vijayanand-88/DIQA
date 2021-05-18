@@ -1,0 +1,35 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TeraDataWithUserFilterSC6",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [
+    "TeraDataWithUserFilterSC6"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "TeradataDataSource",
+  "credential": "TeradataCredentials",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "TeradataDBCataloger",
+  "databaseFilter": [
+    {
+      "database": "DBC.*"
+    }
+  ],
+  "casesensitive": true,
+  "arguments": [
+    {
+      "argument": "filter.applyToUsers= true"
+    }
+  ],
+  "type": "Cataloger"
+}

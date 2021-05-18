@@ -1,0 +1,10 @@
+{
+  "GitCatalog": {
+    "label": {
+      "": "GitCatalog",
+      "en":"GitCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea"
+
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "catdesc": {
+    "source": ["catdesc"],
+    "target": ["catdesc"]
+  },
+  "catdesc1": {
+    "source": ["catdesc"],
+    "target": ["catdesc"]
+  },
+  "catgroup": {
+    "source": ["catgroup"],
+    "target": ["catgroup"]
+  },
+  "catid": {
+    "source": ["catid"],
+    "target": ["catid"]
+  },
+  "catname": {
+    "source": ["catname"],
+    "target": ["catname"]
+  },
+  "catgroup1": {
+    "source": ["catgroup"],
+    "target": ["catgroup"]
+  },
+  "catid1": {
+    "source": ["catid"],
+    "target": ["catid"]
+  },
+  "catname1": {
+    "source": ["catname"],
+    "target": ["catname"]
+  }
+}

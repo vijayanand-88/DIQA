@@ -1,0 +1,17 @@
+{
+  "sqlgName" : "AttTypes",
+  "nsUri" : "http://rochade.asg.com/AttTypes/1.00.000",
+  "objectDefs" : [ {
+    "sqlgName" : "tAttType",
+    "propertyDefs" : [
+      { "sqlgName" : "aString", "valueType" : "STRING" },
+      { "sqlgName" : "aBoolean", "valueType" : "BOOLEAN" },
+      { "sqlgName" : "aInt", "valueType" : "INT" },
+      { "sqlgName" : "aLong", "valueType" : "LONG" },
+      { "sqlgName" : "aFloat", "valueType" : "FLOAT" },
+      { "sqlgName" : "aDouble", "valueType" : "DOUBLE" },
+      { "sqlgName" : "aZonedDateTime", "valueType" : "ZONED_DATE_TIME" },
+      { "sqlgName" : "aLocalDateTime", "valueType" : "LOCAL_DATE_TIME" }
+    ]
+  } ]
+}

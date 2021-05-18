@@ -1,0 +1,42 @@
+{
+  "LineageHop_1": {
+    "source": ["EMAIL"],
+    "target": ["EMAIL"]
+  },
+  "LineageHop_2": {
+    "source": ["EMPLOYEE_ID"],
+    "target": ["EMPLOYEE_ID"]
+  },
+  "LineageHop_3": {
+    "source": ["FIRST_NAME"],
+    "target": ["FIRST_NAME"]
+  },
+  "LineageHop_4": {
+    "source": ["LAST_NAME"],
+    "target": ["LAST_NAME"]
+  },
+  "LineageHop_5": {
+  "source": ["PHONENUMBER"],
+  "target": ["PHONENUMBER"]
+  },
+  "LineageHop_6": {
+    "source": ["EMAIL"],
+    "target": ["EMAIL"]
+  },
+  "LineageHop_7": {
+    "source": ["EMPLOYEE_ID"],
+    "target": ["EMPLOYEE_ID"]
+  },
+  "LineageHop_8": {
+    "source": ["FIRST_NAME"],
+    "target": ["FIRST_NAME"]
+  },
+  "LineageHop_9": {
+    "source": ["LAST_NAME"],
+    "target": ["LAST_NAME"]
+  },
+  "LineageHop_10": {
+    "source": ["PHONENUMBER"],
+    "target": ["PHONENUMBER"]
+  }
+}

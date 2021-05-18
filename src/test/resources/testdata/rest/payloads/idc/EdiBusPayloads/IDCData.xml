@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/DB2/1.0.0">
+	<xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+	<Cluster xmi:id="Cluster_23" xsi:type="Cluster" name="LineageTestCluster" tags="Oracle">
+		<definitions xmi:id="Service_23" xsi:type="Service" name="LineageTestService" tags="Oracle">
+			<definitions xmi:id="Database_23" xsi:type="Database" name="MultiHop" tags="Oracle">
+				<definitions xmi:id="Table_45" xsi:type="Table" name="Tbl1" tags="Oracle">
+					<definitions xmi:id="Column_54" xsi:type="Column" name="Col1" tags="Oracle">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_46" xsi:type="Table" name="Tbl2" tags="Oracle">
+					<definitions xmi:id="Column_55" xsi:type="Column" name="Col2" tags="Oracle">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_47" xsi:type="Table" name="Tbl3" tags="Oracle">
+					<definitions xmi:id="Column_56" xsi:type="Column" name="Col3" tags="Oracle">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_48" xsi:type="Table" name="Tbl4" tags="Oracle">
+					<definitions xmi:id="Column_57" xsi:type="Column" name="Col4" tags="Oracle">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_49" xsi:type="Table" name="Tbl5" tags="Oracle">
+					<definitions xmi:id="Column_58" xsi:type="Column" name="Col5" tags="Oracle">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_50" xsi:type="Table" name="Tbl6" tags="Oracle">
+					<definitions xmi:id="Column_59" xsi:type="Column" name="Col6" tags="Oracle">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_51" xsi:type="Table" name="Tbl7" tags="Oracle">
+					<definitions xmi:id="Column_60" xsi:type="Column" name="Col7" tags="Oracle">
+					</definitions>
+				</definitions>
+			</definitions>
+			<operations xmi:id="Operation_23" xsi:type="Operation" name="LineageTestOperation" tags="Oracle">
+				<lineage xmi:id="LineageHop_77" xsi:type="LineageHop" name="VEL4EHC" mode="COPY" tags="Oracle">
+					<lineageFrom xmi:idref="Column_54">
+					</lineageFrom>
+					<lineageTo xmi:idref="Column_56">
+					</lineageTo>
+				</lineage>
+				<lineage xmi:id="LineageHop_78" xsi:type="LineageHop" name="9LIW9NA" mode="COPY" tags="Oracle">
+					<lineageFrom xmi:idref="Column_57">
+					</lineageFrom>
+					<lineageTo xmi:idref="Column_60">
+					</lineageTo>
+				</lineage>
+				<lineage xmi:id="LineageHop_79" xsi:type="LineageHop" name="UE5KVXR" mode="COPY" tags="Oracle">
+					<lineageFrom xmi:idref="Column_58">
+					</lineageFrom>
+					<lineageTo xmi:idref="Column_55">
+					</lineageTo>
+				</lineage>
+			</operations>
+			<definitions xmi:id="Directory_23" xsi:type="Directory" name="TestDirectory" tags="Oracle">
+				<definitions xmi:id="File_23" xsi:type="File" name="TestFile" tags="Oracle">
+					<definitions xmi:id="Field_23" xsi:type="Field" name="TestField" tags="Oracle">
+					</definitions>
+				</definitions>
+			</definitions>
+			<definitions xmi:id="Directory_24" xsi:type="Directory" name="TestDirectoryOne" tags="Oracle">
+				<definitions xmi:id="File_24" xsi:type="File" name="TestFileOne" tags="Oracle">
+					<definitions xmi:id="Field_24" xsi:type="Field" name="TestFieldOne" tags="Oracle">
+					</definitions>
+				</definitions>
+			</definitions>
+			<definitions xmi:id="DataPackage_23" xsi:type="DataPackage" name="TestDataPackage" tags="Oracle">
+				<definitions xmi:id="DataType_23" xsi:type="DataType" name="TestDataType" tags="Oracle">
+					<definitions xmi:id="DataDomain_45" xsi:type="DataDomain" name="TestDataDomain" tags="Oracle">
+					</definitions>
+				</definitions>
+			</definitions>
+			<definitions xmi:id="DataPackage_24" xsi:type="DataPackage" name="TestDataPackageOne" tags="Oracle">
+				<definitions xmi:id="DataType_24" xsi:type="DataType" name="TestDataTypeOne" tags="Oracle">
+					<definitions xmi:id="DataDomain_46" xsi:type="DataDomain" name="TestDataDomainOne" tags="Oracle">
+					</definitions>
+				</definitions>
+			</definitions>
+		</definitions>
+	</Cluster>
+</xmi:XMI>

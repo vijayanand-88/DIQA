@@ -1,0 +1,12 @@
+{
+  "RequestInfo": {
+    "context": "Start HBASE via REST"
+  },
+  "Body": {
+    "ServiceInfo": {
+      "maintenance_state": "ON",
+      "service_name": "HBASE",
+      "state": "INSTALLED"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+    "catdesc": "Major League Baseball",
+    "catid": 1,
+    "categorygroup": "Sports",
+	"contact": "Johannah",
+    "catname": "MLB"
+}
+{
+    "categorygroup": "Sports",
+    "catid": 2,
+    "catname": "NHL",
+	"contact": "Johannah",
+    "catdesc": "National Hockey League"
+}{
+    "catid": 3,
+    "catname": "NFL",
+    "categorygroup": "Sports",
+	"contact": "Johannah",
+    "catdesc": "National Football League"
+}
+{
+    "bogus": "Bogus Sports LLC",
+    "catid": 4,
+    "categorygroup": "Sports",
+    "catname": "NBA",
+	"contact": "Johannah",
+    "catdesc": "National Basketball Association"
+}
+{
+    "catid": 5,
+    "categorygroup": "Shows",
+    "catname": "Musicals",
+	"contact": "Johannah",
+    "catdesc": "All symphony, concerto, and choir concerts"
+}

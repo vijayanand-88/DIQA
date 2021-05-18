@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonS3",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": ["S3PythonSparkLineage"],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonS3DataSource",
+      "credential": "AmazonS3Credentials",
+      "businessApplicationName": "PythonSpark_BA",
+      "keepEmptyFolders": false,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "pluginName": "AmazonS3Cataloger",
+      "incremental": false,
+      "type": "Cataloger",
+      "dryRun": false,
+      "bucketFilter": {
+        "patterns": [
+          "s3lineage1"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/PySpark"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/Source/*",
+              "*/Target/*",
+              "*/Target1/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

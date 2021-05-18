@@ -1,0 +1,56 @@
+{
+  "AllFiles": {
+    "configurations": {
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "General Environment": {
+        "DES_DIR": "${project.host.dir}/ADU",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "CAEPath": "${cae.home}",
+        "DES_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "JAVA_TRACE_FILE": "",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "LOCALE_OVERRIDE": "",
+        "VSO_FILE": "",
+        "LOG_FILE": "DirectoryCollector.log",
+        "JAVA_TRACE": "on"
+      },
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "type": "CAE",
+      "credential": null,
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "businessApplicationName": "FileSystem",
+      "eventClass": null,
+      "pluginType": "CAE",
+      "label": {
+        "": ""
+      },
+      "DEBUG": "off",
+      "Source Selection": {
+        "configLines": [
+          {
+            "configLine": {
+              "": "DIR,C:\\Users\\Jayasree.V\\Documents\\FileTypes\\*,TYPE=JAVA,PROCESS=LOAD,SUBF=Y"
+            }
+          }
+        ]
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "pluginName": "DirectoryCollector",
+      "name": "AllFiles",
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "dataSource": null
+    }
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "typePatterntagset":
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonSpectrumAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["Spectrumatag"],
+      "pluginType": "dataanalyzer",
+      "filter": null,
+      "histogramBuckets": 10,
+      "batchWrite": true,
+      "database": "world",
+      "sampleDataCount": 25,
+      "queryBatchSize": 100,
+      "schemas": [
+        {
+          "schema": "spectrumtest",
+          "mode": "INCLUDE",
+          "tables": [
+            {
+              "table": "redhsifttagallempty"
+            },
+            {
+              "table": "redshifttagallmatch"
+            },
+            {
+              "table": "redshifttagequalto05"
+            }
+          ]
+        }
+      ],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Dataanalyzer",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "topValues": 10
+    },
+  "typePatterntagsetno":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redhsifttagallempty"
+          },
+          {
+            "table": "redshifttagallmatch"
+          },
+          {
+            "table": "redshifttagequalto05"
+          },
+          {
+            "table": "redshifttagratiogreaterthan05emptyfalsetrue"
+          },
+          {
+            "table": "redshifttagratiogreaterthan05matchfulltrue"
+          },
+          {
+            "table": "redshifttagratiolesserthan05matchfulltrue"
+          },
+          {
+            "table": "redshifttaglesserthan05"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "namePatterntagset":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redhsifttagallempty"
+          },
+          {
+            "table": "redshifttagallmatch"
+          },
+          {
+            "table": "redshifttagequalto05"
+          },
+          {
+            "table": "redshifttagratiogreaterthan05emptyfalsetrue"
+          },
+          {
+            "table": "redshifttaglesserthan05"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "dataPattern02ratio":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redshifttaglesserthan05"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "dataPattern06ratio":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redshifttagratiogreaterthan05emptyfalsetrue"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "dataPattern1ratio":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redshifttagallmatch"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "dataPattern05ratio":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redshifttagequalto05"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "allthreepatternmatchfalse":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redshifttaglesserthan05"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "MatchEmpty":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redhsifttagallempty"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "MatchFulltruedatabase":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redshifttagratiogreaterthan05matchfulltrue"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "MatchFulltruegrants":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["Spectrumatag"],
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redshifttagratiolesserthan05matchfulltrue"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "dataPattern05ratioext":
+  {
+
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonRedshiftAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["RedshiftAna"],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "pluginName": "AmazonRedshiftAnalyzer",
+    "queryBatchSize": 100,
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "mode": "INCLUDE",
+        "schema": "testschema",
+        "tables": [
+          {
+            "table": "redshifttagequalto05view"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "topValues": 10
+  }
+}

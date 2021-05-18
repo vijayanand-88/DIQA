@@ -1,0 +1,1241 @@
+{
+  "EDIBusAutoDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusAutoDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "AUTOMATION",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusTransDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusTransDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "AUTOMATION",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": "TRX.LOB.ONE",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusIDPDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusIDPDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "EDIAUTOMATION",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusIDCDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusIDCDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "IDCDATA",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusOrcDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusOrcDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "ORCDATA",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusMetaDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusMetaDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "METAAPPS",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "PRODUCTION",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusCognosDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusCognosDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "COGNOSDATA",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusDBDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusDBDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "DATABASE",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusIDCOrcDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusIDCOrcDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "IDCORCDATA",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusERDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusERDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "ERDATA",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusStitchDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusStitchDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "STITCHING",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusLineageDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusLineageDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "LINEAGE",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusReportDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusReportDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusReportCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "gechem8rochref.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "METAAPPS",
+      "EDI port": 8888,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "PRODUCTION",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusDynamicDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusDynamicDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "EDIAUTOMATION",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusInvalidDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusInvalidDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusUserInValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "EDIAUTOMATION",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusRolesDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusRolesDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [],
+      "EDI subject area name": "EDIAUTOMATION",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusGlossDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusGlossDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "PIITAG",
+      "EDI port": 9292,
+      "Glossary Name": null,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusInvalidGlossDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusInvalidGlossDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "PIITAG",
+      "EDI port": 9292,
+      "Glossary Name": "NEWGLOSS",
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusInvalidPortDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusInvalidPortDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "EDIAUTOMATION",
+      "EDI port": 9290,
+      "Glossary Name": null,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusInvalidHostDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusInvalidHostDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga11v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "EDIAUTOMATION",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI transaction name": null,
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusNodeDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusNodeDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "AUTOMATION",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusDB2DataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusDB2DataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SCANDB2",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusSGPDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusSGPDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SCANGP",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusSqlDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusSqlDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SCANSQLSRVR",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusUDBDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusUDBDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "UDB",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusTableauDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusTableauDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SCANTAB",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusInfoDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusInfoDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SCANINFO",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusDSDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusDSDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "DSTAGE",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusMSSISDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusMSSISDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SCANMSSIS",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusMSSASDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusMSSASDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SCANMSSAS",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusMSSRSDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusMSSRSDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SCANMSSRS",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusSybaseDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusSybaseDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "SYBASE",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusMicroDataSource": {
+  "configurations": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "EDIBusMicroDataSource",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "EDIBusValidCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "EDI host": "usyp5thirmoga1v.asg.com",
+    "EDI subject area access roles": [
+      {
+        "role": "RBR_ADM"
+      }
+    ],
+    "EDI subject area name": "MICROSTAT",
+    "EDI port": 9292,
+    "pluginName": "EDIBusDataSource",
+    "EDI subject area version": "1.0",
+    "EDI database": "AP-DATA"
+  }
+},
+  "EDIBusAttributeDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusAttributeDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "ATTRIBUTE",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusTagsDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusTagsDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "EDITAGS",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusTagsInfoDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusTagsInfoDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "TAGSINFO",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  },
+  "EDIBusKeyDataSource": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusKeyDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "KEY",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "callbackURL": "http://hostname:2001/plugins/",
+  "headers": {}
+}

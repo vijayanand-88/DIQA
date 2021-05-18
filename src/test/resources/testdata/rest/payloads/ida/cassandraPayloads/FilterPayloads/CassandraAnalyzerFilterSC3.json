@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Cassandra_Analyzer_SC3",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC3_CassandraAnalyzerFilter"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "CassandraAnalyzerBA",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "databases": [
+        {
+          "tables": [],
+          "database": "keyspace2"
+        },
+        {
+          "tables": [],
+          "database": "keyspace2"
+        },
+        {
+          "tables": [],
+          "database": "keyspace3"
+        }
+      ],
+      "pluginName": "CassandraDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

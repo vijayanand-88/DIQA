@@ -1,0 +1,25 @@
+{
+  "Book BS": [
+    "U3Vubnk=",
+    "UmFpbnk=",
+    "U25vd3k="
+  ],
+  "Book NS": [
+    42.2,
+    -19,
+    7.5,
+    3.14
+  ],
+  "Book NULL": null,
+  "Book SS": [
+    "Black",
+    "Green",
+    "Red"
+  ],
+  "Book Title": "Mountain C",
+  "Id": 400,
+  "ItemsOnMyDesk": [
+    "Coffee Cup",
+    "Telephone"
+  ]
+}

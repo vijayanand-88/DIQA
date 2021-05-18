@@ -1,0 +1,17 @@
+{
+  "CatalogTest": {
+    "label": {
+      "": "CatalogTest",
+      "en": "CatalogTest"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea"
+  },
+  "CatalogMock": {
+    "label": {
+      "": "CatalogMock",
+      "en": "CatalogMock"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea"
+  }
+}
+

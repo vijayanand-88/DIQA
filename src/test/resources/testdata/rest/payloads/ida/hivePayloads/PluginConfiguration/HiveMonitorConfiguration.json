@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveMonitor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": ["HiveMonitorTag1"],
+      "pluginType": "monitor",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "catalogerConfigurationName": "HiveCataloger",
+      "pluginName": "HiveMonitor",
+      "enableQueryParser": false,
+      "type": "monitor"
+    }
+  ]
+}

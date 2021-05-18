@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "toIDPStitching",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusStitchDataSource",
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "IDA types": [],
+      "EDI technologies": [],
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [
+        {
+          "type": "DWR_RDB_DB_SYSTEM"
+        },
+        {
+          "type": "DWR_RDB_DATABASE"
+        },
+        {
+          "type": "DWR_RDB_SCHEMA"
+        },
+        {
+          "type": "DWR_RDB_TABLE_OR_VIEW"
+        },
+        {
+          "type": "DWR_RDB_COLUMN"
+        },
+        {
+          "type": "STI_CONTAINER"
+        },
+        {
+          "type": "STI_FIELD_LINK"
+        },
+        {
+          "type": "STI_STRUCTURE_LINK"
+        }
+      ],
+      "commands and flags": {
+        "function": "toIDP",
+        "batch size": 1000,
+        "incremental": true,
+        "run in transaction": false
+      },
+      "IDA technologies": []
+    }
+  ]
+}

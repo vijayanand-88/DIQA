@@ -1,0 +1,50 @@
+{
+  "job_desc": {
+    "source": ["job_desc"],
+    "target": ["job_desc"]
+  },
+  "job_desc1": {
+    "source": ["job_desc"],
+    "target": ["job_desc"]
+  },
+  "job_id": {
+    "source": ["job_id"],
+    "target": ["job_id"]
+  },
+  "job_id1": {
+    "source": ["job_id"],
+    "target": ["job_id"]
+  },
+  "max_lvl": {
+    "source": ["max_lvl"],
+    "target": ["max_lvl"]
+  },
+  "max_lvl1": {
+    "source": ["max_lvl"],
+    "target": ["max_lvl"]
+  },
+  "min_lvl": {
+    "source": ["min_lvl"],
+    "target": ["min_lvl"]
+  },
+  "min_lvl1": {
+    "source": ["min_lvl"],
+    "target": ["min_lvl"]
+  },
+  "job_desc3": {
+    "source": ["job_desc"],
+    "target": ["job_desc"]
+  },
+  "job_id3": {
+    "source": ["job_id"],
+    "target": ["job_id"]
+  },
+  "max_lvl3": {
+    "source": ["max_lvl"],
+    "target": ["max_lvl"]
+  },
+  "min_lvl3": {
+    "source": ["min_lvl"],
+    "target": ["min_lvl"]
+  }
+}

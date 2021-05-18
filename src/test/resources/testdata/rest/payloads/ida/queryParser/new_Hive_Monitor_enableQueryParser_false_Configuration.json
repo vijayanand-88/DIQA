@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+      "name": "HiveMonitor",
+      "label": {
+        "": "HiveMonitor"
+      },
+      "catalogName": "QueryParser",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "parallelQueryBatchSize": 10000,
+      "parallelWorkBatchSize": 100,
+      "parallelWorkPollInterval": 60,
+      "enableQueryParser": false,
+      "kerberosKeytabLocation": null,
+      "kerberosKrb5location": null,
+      "kerberosPrincipalName": null,
+      "analyzeCollectedData": false,
+      "filter": null,
+      "catalogerConfigurationName": "HiveCataloger"
+    }
+  ]
+}

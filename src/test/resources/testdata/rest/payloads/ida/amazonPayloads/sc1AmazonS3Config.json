@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonS3Catalog",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": ["AWSS3"],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonS3DataSource",
+      "credential": "AWS_S3Credentials",
+      "keepEmptyFolders": false,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "pluginName": "AmazonS3Cataloger",
+      "incremental": false,
+      "type": "Cataloger",
+      "dryRun": false,
+      "bucketFilter": {
+        "patterns": [
+          "asgqas3testautomation"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/AutoTestData"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/TestFolder1/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

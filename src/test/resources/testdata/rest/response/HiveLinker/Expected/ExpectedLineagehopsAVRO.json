@@ -1,0 +1,124 @@
+{
+  "tagdetails_avro": [
+    {
+      "mode": "VIEW",
+      "source": "AVRO",
+      "dir": "->",
+      "target": "tagdetails_avro"
+    },
+    {
+      "mode": "VIEW",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "EMPLOYEEID",
+      "dir": "->",
+      "target": "employeeid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "full_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "GENDER",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "IPADDRESS",
+      "dir": "->",
+      "target": "ipaddress"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PHONENUMBER",
+      "dir": "->",
+      "target": "phonenumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "POSTALCODE",
+      "dir": "->",
+      "target": "postalcode"
+    },
+    {
+      "mode": "VIEW",
+      "source": "SSN",
+      "dir": "->",
+      "target": "ssn"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STATE",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "source": "employeeid",
+      "dir": "->",
+      "target": "EMPLOYEEID"
+    },
+    {
+      "mode": "VIEW",
+      "source": "full_name",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "GENDER"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ipaddress",
+      "dir": "->",
+      "target": "IPADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phonenumber",
+      "dir": "->",
+      "target": "PHONENUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "source": "postalcode",
+      "dir": "->",
+      "target": "POSTALCODE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ssn",
+      "dir": "->",
+      "target": "SSN"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tagdetails_avro",
+      "dir": "->",
+      "target": "AVRO"
+    }
+  ]
+}

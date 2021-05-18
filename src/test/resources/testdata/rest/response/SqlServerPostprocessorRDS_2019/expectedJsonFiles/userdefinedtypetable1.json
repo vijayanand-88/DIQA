@@ -1,0 +1,1 @@
+{"userdefinedtypetable1":[{"mode":"COPY","sourceAvailability":"YES","source":"clientcode","dir":"->","target":"clientcode"},{"mode":"COPY","sourceAvailability":"YES","source":"lastname","dir":"->","target":"lastname"},{"mode":"COPY","sourceAvailability":"YES","source":"firstname","dir":"->","target":"firstname"}]}

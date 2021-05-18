@@ -1,0 +1,25 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "PythonSparkLineage",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [
+    "tagPythonSparkSQL"
+  ],
+  "pluginType": "lineage",
+  "dataSource": null,
+  "credential": null,
+  "businessApplicationName": "test_BA_PythonSparkSQL",
+  "dryRun": false,
+  "schedule": null,
+  "filter": null,
+  "pluginName": "PythonSparkLineage",
+  "type": "Lineage"
+}

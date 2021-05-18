@@ -1,0 +1,297 @@
+{
+  "SnowflakeAnalyzerSingleSchemaTableFilter": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "snowflakeTagSC1"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Snowflake_BA",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "TEST_DB",
+      "pluginName": "SnowflakeDBAnalyzer",
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "TEST_SNOWSchemaAuto",
+          "tables": [
+            {
+              "table": "DiffDataTypes"
+            }
+          ]
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    },
+  "SnowflakeAnalyzerSingleSchemaViewFilter": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagSC1"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "TEST_DB",
+    "pluginName": "SnowflakeDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "DiffDataTypesView"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 10
+  },
+  "SnowflakeAnalyzerMultipleSchemaTableFilter": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagSC1"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "TEST_DB",
+    "pluginName": "SnowflakeDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TESTSCHEMA",
+        "tables": [
+          {
+            "table": "CONSUMERS"
+          }
+        ]
+      },
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "DiffDataTypes"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 10
+  },
+  "SnowflakeAnalyzerMultipleSchemaViewFilter": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagSC1"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "TEST_DB",
+    "pluginName": "SnowflakeDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TESTSCHEMA",
+        "tables": [
+          {
+            "table": "ViewConsumer"
+          }
+        ]
+      },
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "DiffDataTypesView"
+          },
+          {
+            "table": "snowflakeTagview"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 10
+  },
+  "SnowflakeAnalyzerNonExistingDBFilter":  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagInvalidschema"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "TESTING_DB",
+    "pluginName": "SnowflakeDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": []
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 10
+  },
+  "SnowflakeAnalyzerMultipleSchemaExtTableViewFilter":   {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagExtMultipleTableView"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "TEST_DB",
+    "pluginName": "SnowflakeDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TESTSCHEMA",
+        "tables": [
+          {
+            "table": "snowflakecsvexttable1view"
+          }
+        ]
+      },
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "snowflakecsvexttable1view"
+          },
+          {
+            "table": "snowflakecsvexttable1"
+          },
+          {
+            "table": "exttable_part"
+          },
+          {
+            "table": "snowflaketagexttable"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 10
+  },
+  "SnowflakeAnalyzerSingleSchemaFilter":   {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagSC1"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "TEST_DB",
+    "pluginName": "SnowflakeDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": []
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 10
+  }
+
+}

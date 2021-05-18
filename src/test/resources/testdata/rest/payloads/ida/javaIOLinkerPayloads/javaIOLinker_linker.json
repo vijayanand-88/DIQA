@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaIOLinker",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaIOLinker"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagJavaIOLinker"],
+      "businessApplicationName": "test_BA_JavaIOLinker",
+      "pluginType": "linker",
+      "dryRun": false,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "InvalidLocalID": [
+    {
+      "localID": "Default.",
+      "scopeId": "string",
+      "scopeAttrName": "string",
+      "type": "Database",
+      "name": "RootDatabase01"
+    }
+  ],
+  "rootToGrandChild": [
+    {
+      "id": null,
+      "localID": "Default.Database:::2001",
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "Database",
+      "name": "RootDB1",
+      "@schema": null,
+      "@global": null
+    },
+    {
+      "id": null,
+      "localID": "Default.Column:::2005",
+      "scopeId": "Default.Database:::2001",
+      "scopeAttrName": "grandChild",
+      "type": "Column",
+      "name": "gc1",
+      "@schema": null,
+      "@global": null
+    }
+  ],
+  "reverseRoot": [
+    {
+      "id": null,
+      "localID": "Default.Column:::2005",
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "Column",
+      "name": "reverseRoot",
+      "@schema": null,
+      "@global": null
+    },
+    {
+      "id": null,
+      "localID": "Default.Table:::2006",
+      "scopeId": "Default.Column:::2005",
+      "scopeAttrName": "reverseRootChild",
+      "type": "Table",
+      "name": "child1",
+      "@schema": null,
+      "@global": null
+    }
+  ],
+  "OrderInDiffPlace":[
+    {
+      "id": null,
+      "localID": "Default.Database:::101",
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "DatabaseDO",
+      "name": "RootDatabase01",
+      "@schema": null,
+      "@global": null
+    },
+    {
+      "id": null,
+      "localID": "Default.Column:::102",
+      "scopeId": "Default.Table:::101",
+      "scopeAttrName": "GrandChild01",
+      "type": "ColumnDO",
+      "name": "ChildColumn",
+      "@schema": null,
+      "@global": null
+    },
+    {
+      "id": null,
+      "localID": "Default.Table:::103",
+      "scopeId": "Default.Database:::101",
+      "scopeAttrName": "rootToChild",
+      "type": "TableDO",
+      "name": "ChildTable01",
+      "@schema": null,
+      "@global": null
+    }
+  ],
+  "InvalidScopeID": [
+    {
+      "id": null,
+      "localID": "Default.Database:",
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "Database",
+      "name": "rootDatabase3013",
+      "@schema": null,
+      "@global": null
+    },
+    {
+      "id": null,
+      "localID": "Default.Table::",
+      "scopeId": "Default.Database:::",
+      "scopeAttrName": "rootToChild",
+      "type": "Table",
+      "name": "child3013",
+      "@schema": null,
+      "@global": null
+    }
+  ]
+}
+

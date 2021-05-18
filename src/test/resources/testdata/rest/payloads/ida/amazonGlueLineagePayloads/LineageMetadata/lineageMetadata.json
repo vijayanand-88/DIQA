@@ -1,0 +1,34 @@
+{
+  "QATest212_1": {
+    "source": ["age"],
+    "target": ["age"]
+  },
+  "QATest212_2": {
+    "source": ["fare"],
+    "target": ["fare"]
+  },
+  "QATest212_3": {
+    "source": ["passengerid"],
+    "target": ["passengerid"]
+  },
+  "QATest212_4": {
+    "source": ["ticket"],
+    "target": ["ticket"]
+  },
+  "QATest212_5": {
+    "source": ["age"],
+    "target": ["age"]
+  },
+  "QATest212_6": {
+    "source": ["fare"],
+    "target": ["fare"]
+  },
+  "QATest212_7": {
+    "source": ["passengerid"],
+    "target": ["passengerid"]
+  },
+  "QATest212_8": {
+    "source": ["ticket"],
+    "target": ["ticket"]
+  }
+}

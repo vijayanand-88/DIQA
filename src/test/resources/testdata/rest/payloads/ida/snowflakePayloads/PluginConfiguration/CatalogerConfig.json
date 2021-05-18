@@ -1,0 +1,584 @@
+{
+  "SnowflakeCatalogerNoFilterConfiguration": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeDBCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition":  "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "snowflakeTagSC1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SnowflakeValidDataSource",
+      "credential": "ValidSnowflakeCredentials",
+      "businessApplicationName": "Snowflake_BA",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "SnowflakeDBCataloger",
+      "schemas": [],
+      "type": "Cataloger",
+      "properties": []
+    },
+  "SnowflakeCatalogerSchemaTableFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagSC2"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "SCHOOL"
+          },
+          {
+            "table": "snowflakecsvexttable1"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerSchemaViewFilterConfiguration":  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagSchemaView"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "CreateReplaceView"
+          },
+          {
+            "table": "snowflakecsvexttable1view"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerSchemaExtTableFilterConfiguration":  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagSchemaExtTable1"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "snowflakecsvexttable1"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerSchemaFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagSC3"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerMultipleSchemaFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagSC4"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": []
+      },
+      {
+        "schema": "TESTSCHEMA",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerMultipleSchemawithTableFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagSC5"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TESTSCHEMA",
+        "tables": [
+          {
+            "table": "ADULTPEOPLE"
+          }
+        ]
+      },
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "SCHOOL"
+          },
+          {
+            "table": "snowflakecsvexttable1"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerMultipleSchemawithViewFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagMultipleSchemaView"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TESTSCHEMA",
+        "tables": [
+          {
+            "table": "EMPLOYEE_HIERARCHY_02"
+          }
+        ]
+      },
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "CreateViewClass"
+          },
+          {
+            "table": "SecureView"
+          },
+          {
+            "table": "exttablepartview"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerTableOnlyFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagSC6"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "tables": [
+          {
+            "table": "employee"
+          },
+          {
+            "table": "snowflakecsvexttable2"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerViewOnlyFilterConfiguration":  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagViewOnlyFilter"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "tables": [
+          {
+            "table": "JoinViews"
+          },
+          {
+            "table": "snowflakecsvexttable1view"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerSchemaWithMultipeTableFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagSC7"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "SCHOOL"
+          },
+          {
+            "table": "CLASS"
+          },
+          {
+            "table": "snowflakecsvexttable1"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerSchemaWithMultipeViewFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagSchemaMultipleViewFilter"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "ForceView"
+          },
+          {
+            "table": "SecureView"
+          },
+          {
+            "table": "CreateViewScholarSpecific"
+          },
+          {
+            "table": "snowflakecsvexttable1view"
+          }
+
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerNoFilterDryRunConfiguration":{
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagDryRun"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": true,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerNoFilterInternalNodeConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "type==\"internal\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTagInternal"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSourceInternal",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "SCHOOL"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerNonExistingSchemaFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeValidation"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": "Snowflake_BA",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TEST_SNOWSchemaAuto1",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SnowflakeCatalogerMultipleSchemawithMultipleExtTableViewFilterConfiguration": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["snowflakeTagExtMultipleTableView"],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "TESTSCHEMA",
+        "tables": [
+          {
+            "table": "snowflakecsvexttable1view"
+          }
+        ]
+      },
+      {
+        "schema": "TEST_SNOWSchemaAuto",
+        "tables": [
+          {
+            "table": "snowflakecsvexttable1view"
+          },
+          {
+            "table": "snowflakecsvexttable1"
+          },
+          {
+            "table": "exttable_part"
+          },
+          {
+            "table": "snowflaketagexttable"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  }
+}

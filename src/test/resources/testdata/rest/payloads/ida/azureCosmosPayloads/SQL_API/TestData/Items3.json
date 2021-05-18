@@ -1,0 +1,12 @@
+{
+    "id": "3",
+    "userid": "300",
+    "category": "personal",
+    "name": "fruits",
+    "description": "Pick up fruits.",
+    "_rid": "kShuAKb6m9IDAAAAAAAAAA==",
+    "_self": "dbs/kShuAA==/colls/kShuAKb6m9I=/docs/kShuAKb6m9IDAAAAAAAAAA==/",
+    "_etag": "\"18000bcf-0000-0000-0000-5c860b660000\"",
+    "_attachments": "attachments/",
+    "_ts": 1552288614
+}

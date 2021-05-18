@@ -1,0 +1,24 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "PythonParser",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [
+    "tagPythonSparkSQL"
+  ],
+  "pluginType": "parser",
+  "dataSource": null,
+  "credential": null,
+  "dryRun": false,
+  "schedule": null,
+  "filter": null,
+  "businessApplicationName": "test_BA_PythonSparkSQL",
+  "type": "Parser"
+}

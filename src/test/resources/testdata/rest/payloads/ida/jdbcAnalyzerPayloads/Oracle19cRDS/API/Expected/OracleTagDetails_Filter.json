@@ -1,0 +1,7 @@
+[ {
+  "sample" : {
+    "header" : [ "EMPLOYEE_ID", "FULL_NAME", "EMAIL", "PHONE_NUMBER", "GENDER", "SSN", "POSTAL_CODE", "STATE", "IP_ADDRESS", "ORACLEDB_SALARY", "ORACLEDB_LOCALTIME", "JOINING_DATE" ],
+    "values" : [ [ "10", "Alex Ferguson", "fergie@gmail.com", "515.123.4568", "m", "345-53-3222", "46576", "DC", "255.249.255.0", "100.9", "2020-05-22 17:18:53.0", "2013-05-08 17:02:07" ], [ "11", "Jones Campbell", "cambie@gmail.com", "515.123.4356", "f", "345-53-3779", "46581", "TX", "255.249.12.0", "90.55", "2020-05-22 17:18:54.0", "2015-08-05 14:05:07" ] ]
+  },
+  "id" : "null"
+} ]

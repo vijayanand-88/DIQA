@@ -1,0 +1,117 @@
+{
+  "tableName": "glueavro",
+  "description": "Table Description",
+  "database": "qagluelinkerdatabase",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "countrycode",
+        "type": "varchar(256)",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqagluelinkerbucket/GlueLinker/ORC/",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "boolean1",
+          "type": "boolean",
+          "comment": ""
+        },
+        {
+          "name": "byte1",
+          "type": "tinyint",
+          "comment": ""
+        },
+        {
+          "name": "short1",
+          "type": "smallint",
+          "comment": ""
+        },
+        {
+          "name": "int1",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "long1",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "float1",
+          "type": "float",
+          "comment": ""
+        },
+        {
+          "name": "double1",
+          "type": "double",
+          "comment": ""
+        },
+        {
+          "name": "bytes1",
+          "type": "binary",
+          "comment": ""
+        },
+        {
+          "name": "string1",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "middle",
+          "type": "struct<list:array<struct<int1:int,string1:string>>>",
+          "comment": ""
+        },
+        {
+          "name": "list",
+          "type": "array<struct<int1:int,string1:string>>",
+          "comment": ""
+        },
+        {
+          "name": "map",
+          "type": "map<string,struct<int1:int,string1:string>>",
+          "comment": ""
+        },
+        {
+          "name": "ts",
+          "type": "timestamp",
+          "comment": ""
+        },
+        {
+          "name": "decimal1",
+          "type": "decimal(38,10)",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+} 

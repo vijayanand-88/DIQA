@@ -1,0 +1,456 @@
+{
+  "AWSGlueDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AWSGlueDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidGlueLinkerCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AWSGlueDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "AWSGlueCSVDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AmazonGlueCSVDataSource",
+        "pluginVersion": "Latest",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidGlueLinkerCSVCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "CsvS3DataSource",
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CsvS3DataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "AWSGlueS3DataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AWSGlueLinkerS3DataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidGlueLinkerCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AmazonS3DataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "RedshiftDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RedshiftGlueDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidRedshiftGlueCredentials",
+        "filter": null,
+        "driverBundleName": "com.amazon.redshift.jdbc.Driver",
+        "pluginName": "AmazonRedshiftDataSource",
+        "url": "jdbc:redshift://redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com:5439/world"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AmazonRedshiftDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "DynamoDBDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "DynamoGlueDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "glueDynamoCredentials",
+        "dryRun": false,
+        "filter": null,
+        "domain": "amazonaws.com",
+        "region": "NorthernVirginia/us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "DynamoDBDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "AvroDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AvroS3GlueDataSource",
+        "pluginVersion": "Latest",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "glueAvroCredentials",
+        "pluginName": "AvroS3DataSource",
+        "filter": null,
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AvroS3DataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "AWSGlueJsonDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AWSGlueJsonDataSource",
+        "pluginVersion": "Latest",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidGlueLinkerCredentials",
+        "filter": null,
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "JsonS3DataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "AWSGlueParquetDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AWSGlueParquetDataSource",
+        "pluginVersion": "Latest",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidGlueLinkerCredentials",
+        "filter": null,
+        "pluginName": "ParquetS3DataSource",
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "ParquetS3DataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "AWSGlueInternalDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AWSGlueInternalDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"InternalNode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidGlueLinkerCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AWSGlueDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "GlueParquetInternalDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "GlueParquetInternalDataSource",
+        "pluginVersion": "Latest",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"InternalNode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidGlueLinkerCredentials",
+        "filter": null,
+        "pluginName": "ParquetS3DataSource",
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "ParquetS3DataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "GlueS3InternalDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "GlueS3InternalDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"InternalNode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ValidGlueLinkerCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "region": "us-east-1"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AmazonS3DataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  }
+}

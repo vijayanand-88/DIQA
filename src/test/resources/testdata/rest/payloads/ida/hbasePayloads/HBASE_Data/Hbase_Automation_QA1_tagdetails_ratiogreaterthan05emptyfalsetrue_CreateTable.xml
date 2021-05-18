@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableSchema name="pattern_matching:tagdetails_ratiogreaterthan05emptyfalsetrue">
+    <ColumnSchema name="Tagdetails"/>
+</TableSchema>

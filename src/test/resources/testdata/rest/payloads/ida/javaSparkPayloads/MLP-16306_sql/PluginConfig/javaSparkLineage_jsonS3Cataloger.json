@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JsonS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "businessApplicationName": "test_BA_JavaSparkSQL",
+      "tags": ["tagJavaSparkSQL"],
+      "pluginType": "cataloger",
+      "dataSource": "S3DataSource",
+      "credential": "AWS_Credentials",
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "incremental": true,
+      "bucketFilter": {
+        "patterns": [
+          "asgsparktest"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "javasqllineage"
+          ],
+          "dirFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

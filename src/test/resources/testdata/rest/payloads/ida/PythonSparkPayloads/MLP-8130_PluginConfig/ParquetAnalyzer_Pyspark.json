@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+      "name": "ParquetAnalyzer_Snowflake",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "ParquetAnalyzer_Snowflake"
+      },
+      "catalogName": "8130_SnowflakeAPI",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "regExpMatchers": [],
+      "dataSample": {
+        "sampleSize": "25"
+      },
+      "histogramBuckets": 100,
+      "topValues": 10,
+      "filter": null,
+      "AnalyzeColumnBlankCount": true,
+      "sparkOptions": [
+        {
+          "key": "deploy.mode",
+          "value": "cluster"
+        },
+        {
+          "key": "spark.network.timeout",
+          "value": "600s"
+        }
+      ]
+    }
+  ]
+}

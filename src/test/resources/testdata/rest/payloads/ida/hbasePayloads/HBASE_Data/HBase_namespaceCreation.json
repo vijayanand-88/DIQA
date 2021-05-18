@@ -1,0 +1,11 @@
+{
+  "name": "sample_namespace:new_table",
+  "ColumnSchema": [
+    {
+      "name": "family1"
+    },
+    {
+      "name": "family2"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "IDA types": [],
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "bulk",
+      "dryRun": false,
+      "nodeCondition": null,
+      "EDI access": {
+        "EDI host": "didtesting01v.did.dev.asgint.loc",
+        "EDI subject area access roles": [
+          {
+            "role": "RBR_ADM"
+          }
+        ],
+        "EDI subject area name": "AUTOMATION",
+        "EDI port": "9292",
+        "EDI user": "ADMIN",
+        "EDI subject area version": "1.0",
+        "EDI database": "AP-DATA",
+        "EDI password": "rochade"
+      },
+      "label": {
+        "": ""
+      },
+      "type": "Bulk",
+      "commands and flags": {
+        "run in transaction": false,
+        "function": "toIDP",
+        "batch size": 1000,
+        "incremental": false
+      },
+      "tags": [],
+      "IDA technologies": [],
+      "catalogName": "IDCData",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "EDI technologies": [],
+      "name": "EDIBus",
+      "EDI types": [
+        {
+          "type": "DWR_RDB_DATABASE"
+        }
+      ],
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration"
+    }
+  ]
+}

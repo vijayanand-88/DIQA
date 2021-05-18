@@ -1,0 +1,21 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "GitDs",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "gitcred",
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "GitCollectorDataSource",
+  "url": "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git"
+}

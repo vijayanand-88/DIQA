@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CosmosMetadata8",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "CosmosMetadata8",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "databases": [],
+      "database": "Cosmos",
+      "driverBundleName": "cdata.jdbc.cosmosdb.CosmosDBDriver",
+      "host": "asgmongo.documents.azure.com",
+      "user": "Devi.Niranjani@asg.com",
+      "primarykey": "test"
+    }
+  ]
+}

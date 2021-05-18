@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": ["HiveAnalyzerTag1"],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Hive_BA",
+      "dryRun": true,
+      "schedule": null,
+      "runAfter": [],
+      "filter": null,
+      "histogramBuckets": 100,
+      "sparkOptions": [
+        {
+          "key": "deploy.mode",
+          "value": "client"
+        },
+        {
+          "key": "spark.network.timeout",
+          "value": "600s"
+        }
+      ],
+      "pluginName": "HiveDataAnalyzer",
+      "dataSample": {
+        "sampleSize": 25
+      },
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

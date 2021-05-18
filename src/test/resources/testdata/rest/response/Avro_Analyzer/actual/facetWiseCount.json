@@ -1,0 +1,135 @@
+{
+  "count" : 6,
+  "result" : [ {
+    "id" : "Default.Cluster:::487",
+    "type" : "Cluster",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::19209",
+    "type" : "File",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::19208",
+    "type" : "Directory",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::19207",
+    "type" : "Directory",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::19206",
+    "type" : "Directory",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Service:::488",
+    "type" : "Service",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  } ],
+  "facetCounts" : {
+    "asg.tagPathsHierarchy_ss" : [ {
+      "count" : 6,
+      "value" : "BusinessApplication"
+    }, {
+      "count" : 6,
+      "value" : "BusinessApplication/HDFS_BA"
+    }, {
+      "count" : 6,
+      "value" : "SC1_folderwith1subfolder"
+    }, {
+      "count" : 6,
+      "value" : "Technology"
+    }, {
+      "count" : 6,
+      "value" : "Technology/Big Data"
+    }, {
+      "count" : 6,
+      "value" : "Technology/Big Data/Hadoop Files"
+    }, {
+      "count" : 3,
+      "value" : "createDir"
+    }, {
+      "count" : 2,
+      "value" : "PII"
+    }, {
+      "count" : 2,
+      "value" : "PII/Salary"
+    } ],
+    "type_s" : [ {
+      "count" : 3,
+      "value" : "Directory"
+    }, {
+      "count" : 1,
+      "value" : "Cluster"
+    }, {
+      "count" : 1,
+      "value" : "File"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ {
+      "count" : 6,
+      "value" : "Cluster/Cluster Demo"
+    }, {
+      "count" : 5,
+      "value" : "Cluster/Cluster Demo/Service/HDFS"
+    }, {
+      "count" : 4,
+      "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT"
+    }, {
+      "count" : 3,
+      "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/idaautomation"
+    }, {
+      "count" : 2,
+      "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/idaautomation/Directory/sub1"
+    } ],
+    "dataType_s" : [ ],
+    "asg_modifiedat_dt" : [ {
+      "count" : 0,
+      "value" : "(*,NOW-1YEAR]",
+      "label" : "1 year and older"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1YEAR,NOW-6MONTH]",
+      "label" : "6 months up to 1 year"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-6MONTH,NOW-1MONTH]",
+      "label" : "1 month up to 6 months"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1MONTH,NOW-7DAY]",
+      "label" : "1 week up to 1 month"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-7DAY,NOW-1DAY]",
+      "label" : "1 day up to 1 week"
+    }, {
+      "count" : 6,
+      "value" : "(NOW-1DAY,NOW]",
+      "label" : "past 24 hours"
+    } ],
+    "asg_modifiedby_s" : [ {
+      "count" : 6,
+      "value" : "Service"
+    } ]
+  }
+}

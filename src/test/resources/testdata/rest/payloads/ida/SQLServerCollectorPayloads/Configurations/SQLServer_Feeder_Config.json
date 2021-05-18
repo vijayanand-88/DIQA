@@ -1,0 +1,26 @@
+{
+  "SQLServer_Feeder": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SQLServer_Feeder",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "SQLServer_Feeder_DS",
+    "credential": "Valid_Feeder_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "CAEFeed",
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Other"
+  }
+}

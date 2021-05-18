@@ -1,0 +1,1 @@
+{"OrcExternalTableCombinationFolder":[{"mode":"VIEW","source":"ORCFilesinCombinationFolder","dir":"->","target":"OrcExternalTableCombinationFolder"},{"mode":"VIEW","source":"OrcExternalTableCombinationFolder","dir":"->","target":"ORCFilesinCombinationFolder"}]}

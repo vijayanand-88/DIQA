@@ -1,0 +1,252 @@
+{
+  "count" : 6,
+  "result" : [ {
+    "id" : "REDSHIFTCATALOG.Table:::5",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::171",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::172",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::173",
+    "name" : "population",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::174",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::175",
+    "name" : "district",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  } ],
+  "facetCounts" : {
+    "catalog_s" : [ {
+      "count" : 6,
+      "value" : "REDSHIFTCATALOG"
+    } ],
+    "asg.tagPathsHierarchy_ss" : [ {
+      "count" : 6,
+      "value" : "Technology"
+    }, {
+      "count" : 6,
+      "value" : "Technology/Cloud Data"
+    }, {
+      "count" : 6,
+      "value" : "Technology/Cloud Data/Cloud Data Warehouses"
+    }, {
+      "count" : 6,
+      "value" : "Technology/Cloud Data/Cloud Data Warehouses/Redshift"
+    } ],
+    "type_s" : [ {
+      "count" : 5,
+      "value" : "Column"
+    }, {
+      "count" : 1,
+      "value" : "Table"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ {
+      "count" : 736,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com"
+    }, {
+      "count" : 734,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift"
+    }, {
+      "count" : 733,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world"
+    }, {
+      "count" : 329,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable1"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfromsingleexttable"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfromsingletable"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable11"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable17"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable18"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable2"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable3"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable7"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/tabletest1"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/tempview2"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/tempviewfromexttable2"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfromsingleexttablewithcondt"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfromsingletablewithcondt"
+    }, {
+      "count" : 9,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewforforwardlineageverification"
+    }, {
+      "count" : 9,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfromdiffschemamultipleexternaltable"
+    }, {
+      "count" : 9,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfromdiffschemamultipletable"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfromdiffschemamultipleexternaltablewithcondt"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfromdiffschemamultipletablewithcondt"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewwithoutalias"
+    }, {
+      "count" : 7,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfrommultipleexternaltable"
+    }, {
+      "count" : 7,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/viewfrommultipletable"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/customers"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/persons"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable10"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/schematest/Table/referencetable12"
+    }, {
+      "count" : 259,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/diffdatatypes"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/referencetable19"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/tempview3"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/tempviewfromexttable3"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/viewdiffdatatypes"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/referencetable11"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/tag_details"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/view_from_view"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/viewtagdetails"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema/Table/department"
+    }, {
+      "count" : 127,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/demo"
+    }, {
+      "count" : 16,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/demo/Table/country"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/demo/Table/citycomplexview"
+    }, {
+      "count" : 7,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/demo/Table/multischemaview"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/demo/Table/city"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/demo/Table/city_created"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/demo/Table/viewcity"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/demo/Table/viewexternalcity"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/java_lineage_test"
+    } ],
+    "asg.modifiedAt_dt" : [ {
+      "count" : 0,
+      "value" : "(*,NOW-1YEAR]",
+      "label" : "1 year and older"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1YEAR,NOW-6MONTH]",
+      "label" : "6 months up to 1 year"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-6MONTH,NOW-1MONTH]",
+      "label" : "1 month up to 6 months"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1MONTH,NOW-7DAY]",
+      "label" : "1 week up to 1 month"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-7DAY,NOW-1DAY]",
+      "label" : "1 day up to 1 week"
+    }, {
+      "count" : 6,
+      "value" : "(NOW-1DAY,NOW]",
+      "label" : "past 24 hours"
+    } ],
+    "asg.modifiedBy_s" : [ {
+      "count" : 6,
+      "value" : "Service"
+    } ]
+  }
+}

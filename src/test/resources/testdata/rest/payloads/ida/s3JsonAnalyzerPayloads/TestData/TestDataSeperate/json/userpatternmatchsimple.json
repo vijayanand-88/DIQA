@@ -1,0 +1,86 @@
+{
+  "username": "Lionel Messi",
+  "userid": 10,
+  "email": "lmessi@gmail.com",
+  "gender": "M",
+  "phone": "515.123.6666",
+  "ssn": "315-53-3222",
+  "ipaddress": "255.83.45.0",
+  "contactno": "9876543210",
+  "landlineno": "-9876543210",
+    "street": "Anna street",
+    "city": "Chennai",
+    "state": "NY",
+    "country": "India",
+	"fax": "515.123.6666",
+    "postalcode": "78576"
+}
+{
+  "username": "Alex Ferguson",
+  "userid": 20,
+  "email": "fergie@gmail.com",
+  "gender": "m",
+  "phone": "515.123.4568",
+  "ssn": "345-53-3222",
+  "ipaddress": "255.249.255.0",
+  "contactno": "9876543211",
+  "landlineno": "-9876543211",
+    "street": "Anna street",
+    "city": "Chennai",
+    "state": "DC",
+    "country": "India",
+	"fax": "515.123.4568",
+    "postalcode": "46576"
+}
+{
+  "username": "Jones Campbell",
+  "userid": 30,
+  "email": "cambie@gmail.com",
+  "gender": "f",
+  "phone": "515.123.4356",
+  "ssn": "345-53-3779",
+  "ipaddress": "255.249.12.0",
+  "contactno": "9876543212",
+  "landlineno": "-9876543212",
+    "street": "Anna street",
+    "city": "Chennai",
+    "state": "TX",
+    "country": "India",
+	"fax": "515.123.4356",
+    "postalcode": "46581"
+}
+{
+  "username": "Irina Shayk",
+  "userid": 40,
+  "email": "ishayk@gmail.com",
+  "gender": "F",
+  "phone": "515.123.2580",
+  "ssn": "345-66-3222",
+  "ipaddress": "255.71.255.56",
+  "contactno": "9876543213",
+  "landlineno": "-9876543213",
+    "street": null,
+    "city": "Chennai",
+    "state": "VI",
+    "country": "India",
+	"fax": "515.123.2580",
+    "postalcode": "48276"
+
+}
+{
+  "username": null,
+  "userid": 50,
+  "email": "nulluser@gmail.com",
+  "gender": "M",
+  "phone": "515.127.4580",
+  "ssn": "345-99-3222",
+  "ipaddress": "255.91.255.56",
+  "contactno": "9876543214",
+  "landlineno": "-9876543214",
+    "street": null,
+    "city": "Chennai",
+    "state": "TX",
+    "country": "India",
+	"fax": "515.127.4580",
+    "postalcode": "48276"
+}

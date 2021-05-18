@@ -1,0 +1,26 @@
+{
+  "itemIds": [
+    {
+
+      "id": "BigData.Table:::1"
+
+    }
+  ],
+  "recommendedTags": [],
+  "assignedTags": [
+    {
+      "ROOTTAGNAME": "rootTagName",
+      "id": "BigData.Tag:::1",
+      "name": "Trustworthy",
+      "rootTagName": "Trustworthy",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "subTags": [],
+      "cardinality": "NONE",
+      "previousCardinality": "NONE"
+
+    }
+
+  ]
+}

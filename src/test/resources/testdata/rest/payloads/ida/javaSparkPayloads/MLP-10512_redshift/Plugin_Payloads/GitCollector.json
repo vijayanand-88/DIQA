@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "GitCollector"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["Java_RedshiftDataSource"],
+      "pluginType": "collector",
+      "dataSource": "GitCollectorDataSource",
+      "credential": "Git_Credentials",
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "Redshift"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+                "**/redshift/**"
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "dryRun": false,
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "projectDepth": "1"
+    }
+  ]
+}

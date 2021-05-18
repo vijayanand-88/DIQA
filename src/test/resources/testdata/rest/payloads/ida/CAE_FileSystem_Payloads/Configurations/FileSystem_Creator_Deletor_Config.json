@@ -1,0 +1,110 @@
+{
+  "FileSystem_Deletor": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "tools",
+      "dryRun": false,
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "DBUserName": "filesystem_automation",
+      "label": {
+        "": ""
+      },
+      "type": "Tools",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "Valid_Entrypoint_Cred",
+      "pluginName": "CAEDeleteEntryPoint",
+      "name": "FileSystem_Deletor",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "FileSystem_EntryPoint_DS",
+      "businessApplicationName": null
+    }
+  },
+  "FileSystem_Creator": {
+    "configurations": {
+      "eventCondition": null,
+      "Overwrite": true,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "tools",
+      "dryRun": false,
+      "DBUserPassword": "filesystem_automation",
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "DBUserName": "filesystem_automation",
+      "label": {
+        "": ""
+      },
+      "type": "Tools",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "Valid_Entrypoint_Cred",
+      "pluginName": "CAECreateEntryPoint",
+      "name": "FileSystem_Creator",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "FileSystem_EntryPoint_DS",
+      "businessApplicationName": null
+    }
+  },
+  "FileSystem_Creator_Sql": {
+    "configurations": {
+      "eventCondition": null,
+      "Overwrite": true,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "tools",
+      "dryRun": false,
+      "DBUserPassword": "filesystem_automation_sql",
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "DBUserName": "filesystem_automation_sql",
+      "label": {
+        "": ""
+      },
+      "type": "Tools",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "Valid_Entrypoint_Cred_SQLServer",
+      "pluginName": "CAECreateEntryPoint",
+      "name": "FileSystem_Creator_Sql",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "FileSystem_EntryPoint_DS_SQL",
+      "businessApplicationName": null
+    }
+  },
+  "FileSystem_Deletor_Sql": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "tools",
+      "dryRun": false,
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "DBUserName": "filesystem_automation_sql",
+      "label": {
+        "": ""
+      },
+      "type": "Tools",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "Valid_Entrypoint_Cred_SQLServer",
+      "pluginName": "CAEDeleteEntryPoint",
+      "name": "FileSystem_Deletor_Sql",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "FileSystem_EntryPoint_DS_SQL",
+      "businessApplicationName": null
+    }
+  }
+}

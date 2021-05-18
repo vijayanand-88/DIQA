@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "UseFunctionLinker",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "UseFunctionLinker"
+      },
+      "catalogName": "Analysis",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "parallelQueryBatchSize": 10000,
+      "parallelWorkBatchSize": 100,
+      "parallelWorkPollInterval": 60,
+      "filter": null
+    }
+  ]
+}

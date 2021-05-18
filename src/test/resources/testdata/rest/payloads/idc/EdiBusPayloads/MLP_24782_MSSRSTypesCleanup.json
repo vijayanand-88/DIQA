@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MSSRSTypes",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusMSSRSDataSource",
+      "credential": "EDIBusValidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "IDA types": [],
+      "EDI technologies": [
+        {
+          "technology": "SCANMSSAS"
+        }
+      ],
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [
+        "DWR_ANL_RPT_SCHEMA",
+        "DWR_ANL_RPT_PACKAGE"
+      ],
+      "commands and flags": {
+        "function": "cleanup",
+        "batch size": 1000,
+        "incremental": false,
+        "run in transaction": false
+      },
+      "IDA technologies": [
+      ]
+    }
+  ]
+}

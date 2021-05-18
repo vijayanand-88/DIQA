@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rim="http://rochade.asg.com/AttTypes/1.00.000">
+	<xmi:Documentation>
+		<exporter>ASG-Rochade(R) SCANHDFS</exporter>
+		<exporterVersion>9.99.999-dev</exporterVersion>
+	</xmi:Documentation>
+	<rim:tAttType name="i1"/>
+	<rim:tAttType name="i1">
+	</rim:tAttType>
+</xmi:XMI>

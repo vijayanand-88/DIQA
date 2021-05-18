@@ -1,0 +1,44 @@
+{
+  "configurations" : [ {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : false,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "runAfter" : [ ],
+    "label" : {
+      "" : ""
+    },
+    "type" : "Cataloger",
+    "tags" : [ "SC1_Avro_DataSamp_Profiling" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/AvroAnalyzerTest",
+        "fileMode" : "include",
+        "label" : {
+          "" : "avrofiles"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "Positive" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "schedule" : null,
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC1_Avro_DataSamp_Profiling",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_resolveclusterfalse",
+    "businessApplicationName" : "AVRO_ANALYZER_BA"
+  } ]
+}

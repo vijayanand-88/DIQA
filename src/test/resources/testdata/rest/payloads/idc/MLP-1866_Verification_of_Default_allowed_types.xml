@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE XMI SYSTEM 'http://schema.asg.com/rochade/xml/RNX_1_6.dtd'>
+<XMI timestamp='07/20/2017 15:53:42 CEST'
+     verified='false'
+     xmi.version='1.0'>
+    <XMI.header>
+        <XMI.documentation>
+            <XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+            <XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+        </XMI.documentation>
+        <XMI.model xmi.name='RNX'
+                   xmi.version='1.6'/>
+        <XMI.model xmi.name='METAAPPS'
+                   xmi.version='DEVELOPMENT'
+                   href='rochade://decheutas01p.asg.com:8000/ADMIN/AP-DATA/S/METAAPPS/DEVELOPMENT'>Created  09/07/2016     14:50:56
+        </XMI.model>
+    </XMI.header>
+    <XMI.content xmi.uuid='XMLDsp|SERVER1|AP-DATA|ADMIN|S|METAAPPS|DEVELOPMENT'
+                 uuidDel='|'>
+        <ITEM xmi.id='_4' itemType='GDP_PERSONAL_INFORMATION' itemName='Profile Picture' itemScope='_1'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='RBG/STATUS' contentType='text/plain'>READY</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt' attrName='GDP_PI_IS_SENSITIVE' contentType='text/plain'>Yes</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt' attrName='GDP_PI_IS_PERSONAL_IDENTIFIABLE' contentType='text/plain'>Yes</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt' attrName='GDP_PI_CLOSURE_RULE' contentType='text/plain'>Delete</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt' attrName='GDP_PI_CLASSIFICATION' contentType='text/plain'>Secret</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt' attrName='DEFINITION' contentType='text/plain'>Profile Picture</ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/HISTORY-LAST-APPR' linkType='Set'>
+                    <ITEMS>
+                        <ITEM xmi.idref='_191' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1500015881107' itemScope='_4'/>
+                    </ITEMS>
+                </ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='GDP_PI_IMPLEMENTED_IN' linkType='Set'>
+                    <ITEMS>
+                        <ITEM xmi.idref='_253' itemType='DWR_DAT_FILE' itemName='SylviasFile'/>
+                    </ITEMS>
+                </ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='GDP_PI_CATEGORY' linkType='Set'>
+                    <ITEMS>
+                        <ITEM xmi.idref='_248' itemType='GDP_PI_CATEGORY' itemName='Not private'/>
+                    </ITEMS>
+                </ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/HISTORY' linkType='Xns'>
+                    <ITEMS>
+                        <ITEM xmi.idref='_34' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492585022983' itemScope='_4'/>
+                        <ITEM xmi.idref='_35' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492585037008' itemScope='_4'/>
+                        <ITEM xmi.idref='_36' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492585037117' itemScope='_4'/>
+                        <ITEM xmi.idref='_54' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492586117033' itemScope='_4'/>
+                        <ITEM xmi.idref='_55' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492586131261' itemScope='_4'/>
+                        <ITEM xmi.idref='_56' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492586131417' itemScope='_4'/>
+                        <ITEM xmi.idref='_90' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1498055978610' itemScope='_4'/>
+                        <ITEM xmi.idref='_91' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1498056040013' itemScope='_4'/>
+                        <ITEM xmi.idref='_92' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1498459245836' itemScope='_4'/>
+                        <ITEM xmi.idref='_93' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1498459319018' itemScope='_4'/>
+                        <ITEM xmi.idref='_94' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1498459602400' itemScope='_4'/>
+                        <ITEM xmi.idref='_95' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1498459859841' itemScope='_4'/>
+                        <ITEM xmi.idref='_96' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1498459970219' itemScope='_4'/>
+                        <ITEM xmi.idref='_186' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1499668635677' itemScope='_4'/>
+                        <ITEM xmi.idref='_187' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1499668770905' itemScope='_4'/>
+                        <ITEM xmi.idref='_188' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1499669108008' itemScope='_4'/>
+                        <ITEM xmi.idref='_189' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1499670136165' itemScope='_4'/>
+                        <ITEM xmi.idref='_190' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1499695205438' itemScope='_4'/>
+                        <ITEM xmi.idref='_191' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1500015881107' itemScope='_4'/>
+                    </ITEMS>
+                </ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='GDP_PI_CASCADED_TO' linkType='Set'>
+                    <ITEMS>
+                        <ITEM xmi.idref='_254' itemType='DWR_RDB_TABLE_OR_VIEW' itemName='CUSTOMER' itemScope='_309' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_255' itemType='DWR_RDB_COLUMN' itemName='CUSTID' itemScope='_254' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_256' itemType='DWR_RDB_COLUMN' itemName='NAME' itemScope='_254' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_257' itemType='DWR_RDB_TABLE_OR_VIEW' itemName='ORDER' itemScope='_309' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_258' itemType='DWR_RDB_COLUMN' itemName='ORDERNUM' itemScope='_257' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_261' itemType='DWR_RDB_TABLE_OR_VIEW' itemName='ORDER' itemScope='_310' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_262' itemType='DWR_RDB_COLUMN' itemName='CUSTNAME' itemScope='_261' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_263' itemType='DWR_DAT_RECORD_TYPE' itemName='Record1' itemScope='_311' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_264' itemType='DWR_DAT_FIELD' itemName='Field1' itemScope='_263' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_265' itemType='DWR_DAT_FIELD' itemName='Field2' itemScope='_263' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_266' itemType='DWR_DAT_FIELD' itemName='Field3' itemScope='_263' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_270' itemType='DWR_ANL_RPT_STRUCTURE' itemName='syse' itemScope='_312' linkInfo='SCANNED'/>
+                        <ITEM xmi.idref='_271' itemType='DWR_ANL_RPT_FIELD' itemName='f2' itemScope='_270' linkInfo='SCANNED'/>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='_0'
+              itemType='RBG/GLOSSARY'
+              itemName='Savings'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt'
+                           attrName='RBG/BUSINESS-TERM-TYPE'
+                           contentType='text/plain'>RBG/BUSINESS-TERM</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt'
+                           attrName='DEFINITION'
+                           contentType='text/plain'>Savings</ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk'
+                           attrName='RBG/HAS-BUSINESS-TERM'
+                           linkType='Xns'>
+                    <ITEMS>
+                        <ITEM xmi.id='_1'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Current Account'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>This accounting method records cost when the liability is incurred. As applied to Federal employee retirement benefits, cost is recorded when the benefits are earned rather than when they are paid at some time in the future.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_2'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Savings Account'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>An appropriation provides legal authority for Federal agencies to incur obligations and to make payments out of the Treasury for specified purposes. Thirteen regular appropriations bills are considered every year by the Congress and supplemental appropriations are considered from time to time.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_3'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Pension Account'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>An authorization is an act of the Congress that establishes or continues a Federal program or agency and sets forth the guidelines to which it must adhere.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_4'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='401(k) Account'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>A balanced budget occurs when total receipts equal total outlays for a fiscal year.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_5'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Budget Authority'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>Budget authority is the authority provided by law to incur financial obligations that will result in outlays.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id='_6'
+                              itemType='RBG/BUSINESS-TERM'
+                              itemName='Budget Enforcement Act (BEA) of 1990'
+                              itemScope='_0'>
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='RBG/STATUS'
+                                           contentType='text/plain'>READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType='Txt'
+                                           attrName='DEFINITION'
+                                           contentType='text/plain'>The BEA is a recently expired law that was designed to limit discretionary spending while ensuring that any new entitlement program or tax cut did not increase deficits. It set annual limits on discretionary spending.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+    </XMI.content>
+</XMI>

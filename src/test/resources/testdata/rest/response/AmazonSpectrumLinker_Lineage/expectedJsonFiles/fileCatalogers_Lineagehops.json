@@ -1,0 +1,2180 @@
+{
+  "jsondatatypes": [
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tsmallint",
+      "dir": "->",
+      "target": "tSmallINT"
+    },
+    {
+      "mode": "VIEW",
+      "source": "treal",
+      "dir": "->",
+      "target": "tReal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isactive",
+      "dir": "->",
+      "target": "isActive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "jsondatatypes",
+      "dir": "->",
+      "target": "jsonDataTypes"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tbigint",
+      "dir": "->",
+      "target": "tBigINT"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "userName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tdecimal",
+      "dir": "->",
+      "target": "tDecimal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedtime",
+      "dir": "->",
+      "target": "loggedTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tint",
+      "dir": "->",
+      "target": "tINT"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tchar",
+      "dir": "->",
+      "target": "tChar"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ttimestamp",
+      "dir": "->",
+      "target": "tTimeStamp"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tdoubleprecision",
+      "dir": "->",
+      "target": "tDoublePrecision"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tChar",
+      "dir": "->",
+      "target": "tchar"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tINT",
+      "dir": "->",
+      "target": "tint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedTime",
+      "dir": "->",
+      "target": "loggedtime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tTimeStamp",
+      "dir": "->",
+      "target": "ttimestamp"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tDoublePrecision",
+      "dir": "->",
+      "target": "tdoubleprecision"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tReal",
+      "dir": "->",
+      "target": "treal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isActive",
+      "dir": "->",
+      "target": "isactive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tDecimal",
+      "dir": "->",
+      "target": "tdecimal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "userName",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tSmallINT",
+      "dir": "->",
+      "target": "tsmallint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "jsonDataTypes",
+      "dir": "->",
+      "target": "jsondatatypes"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tBigINT",
+      "dir": "->",
+      "target": "tbigint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    }
+  ],
+  "jsonobjecttype": [
+    {
+      "mode": "VIEW",
+      "source": "jsonobjecttype",
+      "dir": "->",
+      "target": "jsonObject"
+    },
+    {
+      "mode": "VIEW",
+      "source": "jsonObject",
+      "dir": "->",
+      "target": "jsonobjecttype"
+    }
+  ],
+  "jsonbasicdatatypes": [
+    {
+      "mode": "VIEW",
+      "source": "jsonbasicdatatypes",
+      "dir": "->",
+      "target": "basicDataTypes"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedtime",
+      "dir": "->",
+      "target": "loggedTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggeddatetime",
+      "dir": "->",
+      "target": "loggedDateTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedyear",
+      "dir": "->",
+      "target": "loggedYear"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isactive",
+      "dir": "->",
+      "target": "isActive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isActive",
+      "dir": "->",
+      "target": "isactive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedDateTime",
+      "dir": "->",
+      "target": "loggeddatetime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedYear",
+      "dir": "->",
+      "target": "loggedyear"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "basicDataTypes",
+      "dir": "->",
+      "target": "jsonbasicdatatypes"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedTime",
+      "dir": "->",
+      "target": "loggedtime"
+    }
+  ],
+  "additionaldiffdatatypes": [
+    {
+      "mode": "VIEW",
+      "source": "additionaldiffdatatypes",
+      "dir": "->",
+      "target": "AdditionalDataTypes"
+    },
+    {
+      "mode": "VIEW",
+      "source": "int8type",
+      "dir": "->",
+      "target": "int8Type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "chartype",
+      "dir": "->",
+      "target": "charType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "incity",
+      "dir": "->",
+      "target": "InCity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "decimaltype",
+      "dir": "->",
+      "target": "decimalType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "timestamptype",
+      "dir": "->",
+      "target": "TimestampType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubletype",
+      "dir": "->",
+      "target": "doubleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "int4type",
+      "dir": "->",
+      "target": "int4Type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longtype",
+      "dir": "->",
+      "target": "longType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "float8type",
+      "dir": "->",
+      "target": "float8Type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "TimestampType",
+      "dir": "->",
+      "target": "timestamptype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "decimalType",
+      "dir": "->",
+      "target": "decimaltype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "int4Type",
+      "dir": "->",
+      "target": "int4type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longType",
+      "dir": "->",
+      "target": "longtype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "float8Type",
+      "dir": "->",
+      "target": "float8type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubleType",
+      "dir": "->",
+      "target": "doubletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "charType",
+      "dir": "->",
+      "target": "chartype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "AdditionalDataTypes",
+      "dir": "->",
+      "target": "additionaldiffdatatypes"
+    },
+    {
+      "mode": "VIEW",
+      "source": "InCity",
+      "dir": "->",
+      "target": "incity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "int8Type",
+      "dir": "->",
+      "target": "int8type"
+    }
+  ],
+  "testbasicparquet": [
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testbasicparquet",
+      "dir": "->",
+      "target": "PARQUET1"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "registration_dttm",
+      "dir": "->",
+      "target": "registration_dttm"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "salary",
+      "dir": "->",
+      "target": "salary"
+    },
+    {
+      "mode": "VIEW",
+      "source": "first_name",
+      "dir": "->",
+      "target": "first_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "birthdate",
+      "dir": "->",
+      "target": "birthdate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "comments",
+      "dir": "->",
+      "target": "comments"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cc",
+      "dir": "->",
+      "target": "cc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "last_name",
+      "dir": "->",
+      "target": "last_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "salary",
+      "dir": "->",
+      "target": "salary"
+    },
+    {
+      "mode": "VIEW",
+      "source": "birthdate",
+      "dir": "->",
+      "target": "birthdate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "comments",
+      "dir": "->",
+      "target": "comments"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cc",
+      "dir": "->",
+      "target": "cc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "registration_dttm",
+      "dir": "->",
+      "target": "registration_dttm"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "first_name",
+      "dir": "->",
+      "target": "first_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PARQUET1",
+      "dir": "->",
+      "target": "testbasicparquet"
+    },
+    {
+      "mode": "VIEW",
+      "source": "last_name",
+      "dir": "->",
+      "target": "last_name"
+    }
+  ],
+  "multipleparquetfilesindifffolder": [
+    {
+      "mode": "VIEW",
+      "source": "multipleparquetfilesindifffolder",
+      "dir": "->",
+      "target": "ParquetFilesInMultipleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "last_name",
+      "dir": "->",
+      "target": "last_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cc",
+      "dir": "->",
+      "target": "cc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "salary",
+      "dir": "->",
+      "target": "salary"
+    },
+    {
+      "mode": "VIEW",
+      "source": "registration_dttm",
+      "dir": "->",
+      "target": "registration_dttm"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "birthdate",
+      "dir": "->",
+      "target": "birthdate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "comments",
+      "dir": "->",
+      "target": "comments"
+    },
+    {
+      "mode": "VIEW",
+      "source": "first_name",
+      "dir": "->",
+      "target": "first_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "birthdate",
+      "dir": "->",
+      "target": "birthdate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "first_name",
+      "dir": "->",
+      "target": "first_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "last_name",
+      "dir": "->",
+      "target": "last_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cc",
+      "dir": "->",
+      "target": "cc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "registration_dttm",
+      "dir": "->",
+      "target": "registration_dttm"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "salary",
+      "dir": "->",
+      "target": "salary"
+    },
+    {
+      "mode": "VIEW",
+      "source": "comments",
+      "dir": "->",
+      "target": "comments"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ParquetFilesInMultipleFolder",
+      "dir": "->",
+      "target": "multipleparquetfilesindifffolder"
+    }
+  ],
+  "testarrayparquet": [
+    {
+      "mode": "VIEW",
+      "source": "magic",
+      "dir": "->",
+      "target": "magic"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubletype",
+      "dir": "->",
+      "target": "DoubleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "inttype",
+      "dir": "->",
+      "target": "IntType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "stringtype",
+      "dir": "->",
+      "target": "StringType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testarrayparquet",
+      "dir": "->",
+      "target": "PARQUET3"
+    },
+    {
+      "mode": "VIEW",
+      "source": "stringarray",
+      "dir": "->",
+      "target": "StringArray"
+    },
+    {
+      "mode": "VIEW",
+      "source": "StringArray",
+      "dir": "->",
+      "target": "stringarray"
+    },
+    {
+      "mode": "VIEW",
+      "source": "IntType",
+      "dir": "->",
+      "target": "inttype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PARQUET3",
+      "dir": "->",
+      "target": "testarrayparquet"
+    },
+    {
+      "mode": "VIEW",
+      "source": "magic",
+      "dir": "->",
+      "target": "magic"
+    },
+    {
+      "mode": "VIEW",
+      "source": "DoubleType",
+      "dir": "->",
+      "target": "doubletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "StringType",
+      "dir": "->",
+      "target": "stringtype"
+    }
+  ],
+  "userdiffdatatypesparquet": [
+    {
+      "mode": "VIEW",
+      "source": "bytetype",
+      "dir": "->",
+      "target": "byteType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubletype",
+      "dir": "->",
+      "target": "doubleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floattype",
+      "dir": "->",
+      "target": "floatType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longtype",
+      "dir": "->",
+      "target": "longType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "userdiffdatatypesparquet",
+      "dir": "->",
+      "target": "PARQUET2"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "incity",
+      "dir": "->",
+      "target": "InCity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floatType",
+      "dir": "->",
+      "target": "floattype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubleType",
+      "dir": "->",
+      "target": "doubletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longType",
+      "dir": "->",
+      "target": "longtype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "byteType",
+      "dir": "->",
+      "target": "bytetype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PARQUET2",
+      "dir": "->",
+      "target": "userdiffdatatypesparquet"
+    },
+    {
+      "mode": "VIEW",
+      "source": "InCity",
+      "dir": "->",
+      "target": "incity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    }
+  ],
+  "userdiffdatatypes": [
+    {
+      "mode": "VIEW",
+      "source": "incity",
+      "dir": "->",
+      "target": "InCity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubletype",
+      "dir": "->",
+      "target": "doubleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floattype",
+      "dir": "->",
+      "target": "floatType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longtype",
+      "dir": "->",
+      "target": "longType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "userdiffdatatypes",
+      "dir": "->",
+      "target": "basicDataTypes"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "InCity",
+      "dir": "->",
+      "target": "incity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "basicDataTypes",
+      "dir": "->",
+      "target": "userdiffdatatypes"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floatType",
+      "dir": "->",
+      "target": "floattype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubleType",
+      "dir": "->",
+      "target": "doubletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longType",
+      "dir": "->",
+      "target": "longtype"
+    }
+  ],
+  "multiplejsonfilesindifffolder": [
+    {
+      "mode": "VIEW",
+      "source": "multiplejsonfilesindifffolder",
+      "dir": "->",
+      "target": "JsonFilesInMultipleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedyear",
+      "dir": "->",
+      "target": "loggedYear"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isactive",
+      "dir": "->",
+      "target": "isActive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedtime",
+      "dir": "->",
+      "target": "loggedTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggeddatetime",
+      "dir": "->",
+      "target": "loggedDateTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "JsonFilesInMultipleFolder",
+      "dir": "->",
+      "target": "multiplejsonfilesindifffolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedYear",
+      "dir": "->",
+      "target": "loggedyear"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isActive",
+      "dir": "->",
+      "target": "isactive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedTime",
+      "dir": "->",
+      "target": "loggedtime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedDateTime",
+      "dir": "->",
+      "target": "loggeddatetime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    }
+  ],
+  "multipleavrofilesinsinglefolder": [
+    {
+      "mode": "VIEW",
+      "source": "multipleavrofilesinsinglefolder",
+      "dir": "->",
+      "target": "AvroFilesInSingleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubletype",
+      "dir": "->",
+      "target": "doubleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "incity",
+      "dir": "->",
+      "target": "InCity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longtype",
+      "dir": "->",
+      "target": "longType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floattype",
+      "dir": "->",
+      "target": "floatType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "InCity",
+      "dir": "->",
+      "target": "incity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "AvroFilesInSingleFolder",
+      "dir": "->",
+      "target": "multipleavrofilesinsinglefolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longType",
+      "dir": "->",
+      "target": "longtype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubleType",
+      "dir": "->",
+      "target": "doubletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floatType",
+      "dir": "->",
+      "target": "floattype"
+    }
+  ],
+  "multipleavrofilesindifffolder": [
+    {
+      "mode": "VIEW",
+      "source": "floattype",
+      "dir": "->",
+      "target": "floatType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longtype",
+      "dir": "->",
+      "target": "longType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "multipleavrofilesindifffolder",
+      "dir": "->",
+      "target": "AvroFilesInMultipleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "incity",
+      "dir": "->",
+      "target": "InCity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubletype",
+      "dir": "->",
+      "target": "doubleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "InCity",
+      "dir": "->",
+      "target": "incity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "floatType",
+      "dir": "->",
+      "target": "floattype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubleType",
+      "dir": "->",
+      "target": "doubletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longType",
+      "dir": "->",
+      "target": "longtype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "AvroFilesInMultipleFolder",
+      "dir": "->",
+      "target": "multipleavrofilesindifffolder"
+    }
+  ],
+  "additionaldiffdatatypesparquet": [
+    {
+      "mode": "VIEW",
+      "source": "longtype",
+      "dir": "->",
+      "target": "longType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "int8type",
+      "dir": "->",
+      "target": "int8Type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "float8type",
+      "dir": "->",
+      "target": "float8Type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "additionaldiffdatatypesparquet",
+      "dir": "->",
+      "target": "PARQUET4"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "decimaltype",
+      "dir": "->",
+      "target": "decimalType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "chartype",
+      "dir": "->",
+      "target": "charType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "incity",
+      "dir": "->",
+      "target": "InCity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubletype",
+      "dir": "->",
+      "target": "doubleType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "timestamptype",
+      "dir": "->",
+      "target": "TimestampType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "datetype",
+      "dir": "->",
+      "target": "DateType"
+    },
+    {
+      "mode": "VIEW",
+      "source": "int4type",
+      "dir": "->",
+      "target": "int4Type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "int8Type",
+      "dir": "->",
+      "target": "int8type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "longType",
+      "dir": "->",
+      "target": "longtype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "charType",
+      "dir": "->",
+      "target": "chartype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "float8Type",
+      "dir": "->",
+      "target": "float8type"
+    },
+    {
+      "mode": "VIEW",
+      "source": "InCity",
+      "dir": "->",
+      "target": "incity"
+    },
+    {
+      "mode": "VIEW",
+      "source": "DateType",
+      "dir": "->",
+      "target": "datetype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "decimalType",
+      "dir": "->",
+      "target": "decimaltype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "TimestampType",
+      "dir": "->",
+      "target": "timestamptype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PARQUET4",
+      "dir": "->",
+      "target": "additionaldiffdatatypesparquet"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "doubleType",
+      "dir": "->",
+      "target": "doubletype"
+    },
+    {
+      "mode": "VIEW",
+      "source": "int4Type",
+      "dir": "->",
+      "target": "int4type"
+    }
+  ],
+  "multiplejsonfilesinsinglefolder": [
+    {
+      "mode": "VIEW",
+      "source": "multiplejsonfilesinsinglefolder",
+      "dir": "->",
+      "target": "JsonFilesInSingleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedyear",
+      "dir": "->",
+      "target": "loggedYear"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isactive",
+      "dir": "->",
+      "target": "isActive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggeddatetime",
+      "dir": "->",
+      "target": "loggedDateTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedtime",
+      "dir": "->",
+      "target": "loggedTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedDateTime",
+      "dir": "->",
+      "target": "loggeddatetime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedYear",
+      "dir": "->",
+      "target": "loggedyear"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isActive",
+      "dir": "->",
+      "target": "isactive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedTime",
+      "dir": "->",
+      "target": "loggedtime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "JsonFilesInSingleFolder",
+      "dir": "->",
+      "target": "multiplejsonfilesinsinglefolder"
+    }
+  ],
+  "multipleparquetfilesinsinglefolder": [
+    {
+      "mode": "VIEW",
+      "source": "multipleparquetfilesinsinglefolder",
+      "dir": "->",
+      "target": "ParquetFilesInSingleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "first_name",
+      "dir": "->",
+      "target": "first_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "birthdate",
+      "dir": "->",
+      "target": "birthdate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cc",
+      "dir": "->",
+      "target": "cc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "last_name",
+      "dir": "->",
+      "target": "last_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "salary",
+      "dir": "->",
+      "target": "salary"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "comments",
+      "dir": "->",
+      "target": "comments"
+    },
+    {
+      "mode": "VIEW",
+      "source": "registration_dttm",
+      "dir": "->",
+      "target": "registration_dttm"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "salary",
+      "dir": "->",
+      "target": "salary"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "comments",
+      "dir": "->",
+      "target": "comments"
+    },
+    {
+      "mode": "VIEW",
+      "source": "registration_dttm",
+      "dir": "->",
+      "target": "registration_dttm"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cc",
+      "dir": "->",
+      "target": "cc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "birthdate",
+      "dir": "->",
+      "target": "birthdate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "first_name",
+      "dir": "->",
+      "target": "first_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "last_name",
+      "dir": "->",
+      "target": "last_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ParquetFilesInSingleFolder",
+      "dir": "->",
+      "target": "multipleparquetfilesinsinglefolder"
+    }
+  ]
+}

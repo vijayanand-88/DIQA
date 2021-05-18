@@ -1,0 +1,52 @@
+{
+  "SQLServer_Creator": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SQLServer_Creator",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "SQLServer_Creator_Deletor_DS",
+    "credential": "Valid_Entrypoint_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Overwrite": true,
+    "DBUserPassword": "sqlserver_automation",
+    "pluginName": "CAECreateEntryPoint",
+    "DBUserName": "sqlserver_automation",
+    "type": "Other"
+  },
+  "SQLServer_Deletor": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SQLServer_Deletor",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "SQLServer_Creator_Deletor_DS",
+    "credential": "Valid_Entrypoint_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "CAEDeleteEntryPoint",
+    "DBUserName": "sqlserver_automation",
+    "type": "Other"
+  }
+}

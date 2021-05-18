@@ -1,0 +1,75 @@
+{
+  "tableName": "glueRedshiftTable",
+  "description": "Table Description",
+  "database": "qagluelinkerdatabase",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "countrycode",
+        "type": "varchar(256)",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "world.schematest.customers",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "contactname",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "address",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "postalcode",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "customername",
+          "type": "string",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506",
+    "connectionName": "gwRedshiftCluster",
+    "classification": "redshift",
+    "typeOfData": "table"
+  }
+} 

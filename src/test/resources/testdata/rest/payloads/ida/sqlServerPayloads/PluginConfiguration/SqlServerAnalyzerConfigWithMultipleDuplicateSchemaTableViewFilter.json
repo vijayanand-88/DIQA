@@ -1,0 +1,66 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SqlServerAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SqlServerAnalyzerTag1"],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+      "schema": "testschema",
+      "tables": [
+        {
+          "table": "diffdatatypesanalyzer"
+        },
+		{
+          "table": "diffdatatypesanalyzerview"
+        }
+      ]
+    },
+    {
+      "schema": "sqlserverlineage",
+      "tables": [
+        {
+          "table": "diffdatatypesanalyzerview"
+        },
+		{
+          "table": "diffdatatypesanalyzer"
+        }
+      ]
+    },
+	{
+	"schema": "testschema",
+      "tables": [
+        {
+          "table": "diffdatatypesanalyzer"
+        },
+		{
+          "table": "diffdatatypesanalyzerview"
+        }
+      ]
+    }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

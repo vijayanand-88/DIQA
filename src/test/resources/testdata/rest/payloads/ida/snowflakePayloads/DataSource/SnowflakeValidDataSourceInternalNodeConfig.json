@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeValidDataSourceInternal",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "ValidSnowflakeCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "driver": "net.snowflake.client.jdbc.SnowflakeDriver",
+      "pluginName": "SnowflakeDBDataSource",
+      "driverBundleName": "net.snowflake.client.jdbc.SnowflakeDriver",
+      "url": "jdbc:snowflake://asg_partner.us-east-1.snowflakecomputing.com/?warehouse=DEMO_WH&db=TEST_DB"
+    }
+  ]
+}

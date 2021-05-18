@@ -1,0 +1,63 @@
+{
+  "configurations":
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonRedshiftAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["RedShiftTag"],
+      "pluginType": "dataanalyzer",
+      "datasource": null,
+      "credential": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "batchWrite": true,
+      "database": "world",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "sampleDataCount": 25,
+      "queryBatchSize": 100,
+      "schemas": [
+        {
+          "schema": "testschema",
+          "mode": "INCLUDE",
+          "tables": [
+            {
+              "table": "tagdetails_allmatch"
+            },
+            {
+              "table": "tagdetails_allempty"
+            },
+            {
+              "table": "tagdetails_ratioequalto05emptyfalse"
+            },
+            {
+              "table": "tagdetails_ratiolessthan05emptyfalse"
+            },
+            {
+              "table": "tagdetails_ratiogreaterthan05emptyfalsetrue"
+            },
+            {
+              "table": "tagdetails_ratiogreaterthan05matchfulltrue"
+            },
+            {
+              "table": "tagdetails_ratiolesserthan05matchfulltrue"
+            },
+            {
+              "table": "redshifttagview"
+            }
+          ]
+        }
+      ],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+
+}

@@ -1,0 +1,68 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonRedshiftCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["Java_RedshiftDataSource"],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonRedshiftDataSource",
+      "credential": "Redshift_Credentials",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AmazonRedshiftCataloger",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "redshiftcustomers"
+            },
+            {
+              "table": "writeqa_redshiftcustomers"
+            },
+            {
+              "table": "redshiftdepartment"
+            },
+            {
+              "table": "writeqa_redshiftdepartment"
+            },
+            {
+              "table": "redshiftjobs"
+            },
+            {
+              "table": "qa_java_redshiftjobs1"
+            },
+            {
+              "table": "qa_java_redshiftjobs2"
+            },
+            {
+              "table": "redshiftpersons"
+            },
+            {
+              "table": "writeqa_ow_redshiftpersons"
+            },
+            {
+              "table": "qa_java_csvtoredshift"
+            },
+            {
+              "table": "qa_java_parquettoredshift"
+            },
+            {
+              "table": "redshiftpublishers"
+            }
+          ]
+        }
+      ],
+      "incremental": false,
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

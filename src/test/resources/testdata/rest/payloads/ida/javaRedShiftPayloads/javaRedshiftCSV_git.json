@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollectorJava",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "GitCollectorJava"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagRedshiftCsv"],
+      "businessApplicationName": "test_BA_JavaRedshiftLineage",
+      "pluginType": "collector",
+      "dataSource": "GitCollectorDataSource",
+      "credential": "ValidGitCredentials",
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "L1"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+                "**javaredshiftlineage/csv**"
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "dryRun": false,
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+    }
+  ]
+}

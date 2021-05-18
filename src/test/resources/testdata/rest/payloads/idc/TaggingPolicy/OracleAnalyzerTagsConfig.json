@@ -1,0 +1,75 @@
+{
+  "AnalyzerConfig": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "OracleAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "PDBDB19C.DIQ.QA.ASGINT.LOC",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "OracleAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "PDBDB19C.DIQ.QA.ASGINT.LOC",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiolessthan05EmptyFalse"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  }
+}

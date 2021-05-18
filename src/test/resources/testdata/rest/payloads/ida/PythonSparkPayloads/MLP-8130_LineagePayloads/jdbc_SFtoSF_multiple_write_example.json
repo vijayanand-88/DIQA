@@ -1,0 +1,122 @@
+{
+  "ADDRESS": {
+    "source": ["ADDRESS"],
+    "target": ["ADDRESS"]
+  },
+  "COMMISION_PCT": {
+    "source": ["COMMISION_PCT"],
+    "target": ["COMMISION_PCT"]
+  },
+  "DEPTID": {
+    "source": ["DEPTID"],
+    "target": ["DEPTID"]
+  },
+  "EMAIL": {
+    "source": ["EMAIL"],
+    "target": ["EMAIL"]
+  },
+  "COMMISION_PCT1": {
+    "source": ["COMMISION_PCT"],
+    "target": ["COMMISION_PCT"]
+  },
+  "DEPTID1": {
+    "source": ["DEPTID"],
+    "target": ["DEPTID"]
+  },
+  "EMAIL1": {
+    "source": ["EMAIL"],
+    "target": ["EMAIL"]
+  },
+  "EMPLOYEE_ID": {
+    "source": ["EMPLOYEE_ID"],
+    "target": ["EMPLOYEE_ID"]
+  },
+  "FIRST_NAME": {
+    "source": ["FIRST_NAME"],
+    "target": ["FIRST_NAME"]
+  },
+  "GENDER": {
+    "source": ["GENDER"],
+    "target": ["GENDER"]
+  },
+  "HIREDATE": {
+    "source": ["HIREDATE"],
+    "target": ["HIREDATE"]
+  },
+  "JOBID": {
+    "source": ["JOBID"],
+    "target": ["JOBID"]
+  },
+  "LAST_NAME": {
+    "source": ["LAST_NAME"],
+    "target": ["LAST_NAME"]
+  },
+  "MANAGERID": {
+    "source": ["MANAGERID"],
+    "target": ["MANAGERID"]
+  },
+  "PHONENUMBER": {
+    "source": ["PHONENUMBER"],
+    "target": ["PHONENUMBER"]
+  },
+  "SSN": {
+    "source": ["SSN"],
+    "target": ["SSN"]
+  },
+  "EMPLOYEE_ID1": {
+    "source": ["EMPLOYEE_ID"],
+    "target": ["EMPLOYEE_ID"]
+  },
+  "FIRST_NAME1": {
+    "source": ["FIRST_NAME"],
+    "target": ["FIRST_NAME"]
+  },
+  "GENDER1": {
+    "source": ["GENDER"],
+    "target": ["GENDER"]
+  },
+  "HIREDATE1": {
+    "source": ["HIREDATE"],
+    "target": ["HIREDATE"]
+  },
+  "JOBID1": {
+    "source": ["JOBID"],
+    "target": ["JOBID"]
+  },
+  "LAST_NAME1": {
+    "source": ["LAST_NAME"],
+    "target": ["LAST_NAME"]
+  },
+  "MANAGERID1": {
+    "source": ["MANAGERID"],
+    "target": ["MANAGERID"]
+  },
+  "NAME": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  },
+  "PHONENUMBER1": {
+    "source": ["PHONENUMBER"],
+    "target": ["PHONENUMBER"]
+  },
+  "SSN1": {
+    "source": ["SSN"],
+    "target": ["SSN"]
+  },
+  "ADDRESS1": {
+    "source": ["ADDRESS"],
+    "target": ["ADDRESS"]
+  },
+  "NAME1": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  },
+  "STUDENTID": {
+    "source": ["STUDENTID"],
+    "target": ["STUDENTID"]
+  },
+  "STUDENTID1": {
+    "source": ["STUDENTID"],
+    "target": ["STUDENTID"]
+  }
+}

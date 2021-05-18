@@ -1,0 +1,233 @@
+{
+  "MetaData": {
+    "totalCount": 111,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 88,
+          "value": "Field"
+        },
+        {
+          "count": 14,
+          "value": "File"
+        },
+        {
+          "count": 6,
+          "value": "Directory"
+        },
+        {
+          "count": 1,
+          "value": "Analysis"
+        },
+        {
+          "count": 1,
+          "value": "Cluster"
+        },
+        {
+          "count": 1,
+          "value": "Service"
+        }
+      ]
+    },
+    "clusterMetaData": {
+      "name": "amazonaws.com",
+      "clusterID": "S3ParquetSC1.Cluster:::1",
+      "table": {
+        "values": {
+          "type": "Service",
+          "name": [
+            "AmazonS3"
+          ]
+        }
+      },
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Data Files"
+          },
+          {
+            "techTag": "Parquet"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "serviceMetaData": {
+      "name": "AmazonS3",
+      "serviceID": "S3AmazonSC1.Service:::1",
+      "has_Directory": [
+        {
+          "name": "asgqaparquetautomation"
+        }
+      ],
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Data Files"
+          },
+          {
+            "techTag": "Parquet"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "directoryMetaData": {
+      "directorySize": 0,
+      "numberOfFiles": 0,
+      "sizeOfFiles": 0,
+      "location": "asgqaparquetautomation/",
+      "numberOfSubDir": 1,
+      "sizeOfSubDir": 0,
+      "directoryID": "S3AmazonSC1.Directory:::3",
+      "table": {
+        "has_Directory": [
+          {
+            "name": "ParquetTestData"
+          }
+        ]
+      }
+    },
+    "subDirectoryMetaData": {
+      "directorySize": 125919,
+      "numberOfFiles": 10,
+      "sizeOfFiles": 125919,
+      "location": "asgqaparquetautomation/ParquetTestData/TestParquet/",
+      "numberOfSubDir": 1,
+      "sizeOfSubDir": 1445,
+      "directoryID": "S3AmazonSC1.Directory:::3",
+      "table": {
+        "has_Files": [
+          {
+            "name": "HiveParquet.parquet"
+          },
+          {
+            "name": "Spark.parquet"
+          },
+          {
+            "name": "nation.parquet"
+          },
+          {
+            "name": "region.parquet"
+          },
+          {
+            "name": "simple.parquet"
+          },
+          {
+            "name": "source.parquet"
+          },
+          {
+            "name": "testcomplex.parquet"
+          },
+          {
+            "name": "userDiffDataTypes.parquet"
+          },
+          {
+            "name": "userdata1.parquet"
+          },
+          {
+            "name": "version"
+          },
+          {
+            "name": "weather.parquet"
+          }
+        ]
+      }
+    },
+    "fileMetaData": {
+      "fileID": "S3AmazonSC1.File:::1",
+      "Location": "asgqaparquetautomation/ParquetTestData/TestParquet/nation.parquet",
+      "fileContentLength": 1210,
+      "table": {
+        "has_Fields": [
+          {
+            "name": "N_COMMENT"
+          },
+          {
+            "name": "N_NAME"
+          },
+          {
+            "name": "N_NATIONKEY"
+          },
+          {
+            "name": "N_REGIONKEY"
+          }
+        ]
+      }
+    },
+    "columnMetaData": {
+      "Table1": {
+	  "field1": {
+        "fieldDataType": "BIGINT",
+        "fieldName": "biginttype"
+      },
+      "field2": {
+        "fieldDataType": "BIT",
+        "fieldName": "booleantype"
+      },
+      "field3": {
+        "fieldDataType": "CHAR",
+        "fieldName": "charactertype"
+      },
+      "field4": {
+        "fieldDataType": "VARCHAR",
+        "fieldName": "varchartype"
+      },
+      "field5": {
+        "fieldDataType": "DATE",
+        "fieldName": "datetype"
+      },
+      "field6": {
+        "fieldDataType": "DOUBLE",
+        "fieldName": "floattype"
+      },
+      "field7": {
+        "fieldDataType": "INTEGER",
+        "fieldName": "integertype"
+      },
+      "field8": {
+        "fieldDataType": "NUMERIC",
+        "fieldName": "numerictype"
+      },
+      "field9": {
+        "fieldDataType": "REAL",
+        "fieldName": "realtype"
+      },
+      "field10": {
+        "fieldDataType": "SMALLINT",
+        "fieldName": "smallinttype"
+      },
+      "field11": {
+        "fieldDataType": "VARCHAR",
+        "fieldName": "texttype"
+      },
+      "field12": {
+        "fieldDataType": "TIME",
+        "fieldName": "timetype"
+      },
+      "field13": {
+        "fieldDataType": "TIME",
+        "fieldName": "timetztype"
+      },
+      "field14": {
+        "fieldDataType": "TIMESTAMP",
+        "fieldName": "timestamptype"
+      },
+      "field15": {
+        "fieldDataType": "TIMESTAMP",
+        "fieldName": "timestamptztype"
+      }
+     }   
+   },
+    "analysisMetaData": {
+    }
+  }
+}

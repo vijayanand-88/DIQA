@@ -1,0 +1,42 @@
+{
+  "df_countrycode": {
+    "source": ["countrycode"],
+    "target": ["countrycode"]
+  },
+  "df_district": {
+    "source": ["district"],
+    "target": ["district"]
+  },
+  "df_id": {
+    "source": ["id"],
+    "target": ["id"]
+  },
+  "df_name": {
+    "source": ["name"],
+    "target": ["name"]
+  },
+  "df_population": {
+    "source": ["population"],
+    "target": ["population"]
+  },
+  "countrycode": {
+    "source": ["countrycode"],
+    "target": ["countrycode"]
+  },
+  "district": {
+    "source": ["district"],
+    "target": ["district"]
+  },
+  "id": {
+    "source": ["id"],
+    "target": ["id"]
+  },
+  "name": {
+    "source": ["name"],
+    "target": ["name"]
+  },
+  "population": {
+    "source": ["population"],
+    "target": ["population"]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "AvroS3DemoCataloger1",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "cataloger",
+  "dataSource": "AvroS3DemoDS",
+  "credential": "AvroCred",
+  "dryRun": false,
+  "filter": null,
+  "versionMode": false,
+  "maxObjectsAmount": 1000,
+  "pluginName": "AvroS3Cataloger",
+  "incremental": true,
+  "type": "Cataloger",
+  "bucketFilter": {
+    "mode": "INCLUDE",
+    "patterns": [
+      "asg-ida-dev"
+    ],
+    "objectFilter": {
+      "dirFilter": {
+        "mode": "INCLUDE",
+        "patterns": []
+      },
+      "fileFilter": {
+        "mode": "INCLUDE",
+        "patterns": []
+      },
+      "dirPrefixes": [
+        "S3Cataloger/testFiles/AVRO"
+      ]
+    }
+  }
+}

@@ -1,0 +1,864 @@
+{
+  "properties" : [ {
+    "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+    "value" : {
+      "headers" : [ {
+        "label" : "Configuration name",
+        "valuePath" : [ "properties", "0", "value" ]
+      } ],
+      "rows" : [ ],
+      "prototype" : {
+        "properties" : [ {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "HiveCataloger",
+              "label" : "HiveCataloger"
+            } ],
+            "availableValues" : [ {
+              "value" : "EDIBusDataSource",
+              "label" : "EDIBusDataSource"
+            }, {
+              "value" : "GitCollectorDataSource",
+              "label" : "GitCollectorDataSource"
+            }, {
+              "value" : "HBaseDataSource",
+              "label" : "HBaseDataSource"
+            }, {
+              "value" : "HdfsDataSource",
+              "label" : "HdfsDataSource"
+            }, {
+              "value" : "HiveDataSource",
+              "label" : "HiveDataSource"
+            }, {
+              "value" : "OracleDBDataSource",
+              "label" : "OracleDBDataSource"
+            }, {
+              "value" : "OrcS3DataSource",
+              "label" : "OrcS3DataSource"
+            }, {
+              "value" : "SnowflakeDBDataSource",
+              "label" : "SnowflakeDBDataSource"
+            }, {
+              "value" : "SQLServerDBDataSource",
+              "label" : "SQLServerDBDataSource"
+            }, {
+              "value" : "TeradataDBDataSource",
+              "label" : "TeradataDBDataSource"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginName",
+          "widget" : "select",
+          "label" : "Data Source Type",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Data Source Type should have at least one value selected"
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "name",
+          "widget" : "string",
+          "label" : "Name",
+          "tooltip" : "Plugin configuration name",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "required",
+            "message" : " Name field should not be empty"
+          }, {
+            "name" : "uniqueTableKey",
+            "message" : " Name contains duplicated values"
+          }, {
+            "name" : "pattern",
+            "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+            "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+          }, {
+            "name" : "uniqueValue",
+            "config" : [ "HiveCatalogerQA" ],
+            "message" : "Name already exists. Please enter a different name."
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "availableValues" : [ {
+              "value" : "1.1.0.SNAPSHOT",
+              "label" : "1.1.0.SNAPSHOT"
+            }, {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginVersion",
+          "widget" : "select",
+          "label" : "Plugin version",
+          "tooltip" : "Required plugin version",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "label",
+          "widget" : "label",
+          "label" : "Label",
+          "tooltip" : "Plugin configuration extended label and description",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventCondition",
+          "widget" : "string",
+          "label" : "Event condition",
+          "tooltip" : "Condition an event must match to trigger this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : false,
+          "name" : "dryRun",
+          "widget" : "checkbox",
+          "label" : "Dry Run",
+          "tooltip" : "Option to enable/disable the plugin execution on dry run mode without writing objects into the repository",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventClass",
+          "widget" : "string",
+          "label" : "Event class",
+          "tooltip" : "Event Class name to trigger current plugin configuration",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 100,
+          "name" : "maxWorkSize",
+          "widget" : "number",
+          "label" : "Maximum work size",
+          "tooltip" : "Maximum number of items the plugin can process before delegating to other nodes",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "pluginType",
+          "widget" : "string",
+          "label" : "pluginType",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "nodeCondition",
+          "widget" : "string",
+          "label" : "Node condition",
+          "tooltip" : "Condition an node must match to be able to run this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "name" : "autoStart",
+          "widget" : "checkbox",
+          "label" : "Auto start",
+          "tooltip" : "Option to enable/disable the automatic execution of the plugin configuration after node startup",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "Email Address",
+              "label" : "Email Address"
+            }, {
+              "value" : "EmailPII",
+              "label" : "EmailPII"
+            }, {
+              "value" : "Fax Number",
+              "label" : "Fax Number"
+            }, {
+              "value" : "Full Name",
+              "label" : "Full Name"
+            }, {
+              "value" : "FullMatch",
+              "label" : "FullMatch"
+            }, {
+              "value" : "FullMatch1",
+              "label" : "FullMatch1"
+            }, {
+              "value" : "FullNamePII",
+              "label" : "FullNamePII"
+            }, {
+              "value" : "Gender",
+              "label" : "Gender"
+            }, {
+              "value" : "GenderPII",
+              "label" : "GenderPII"
+            }, {
+              "value" : "IP Address",
+              "label" : "IP Address"
+            }, {
+              "value" : "IPAddressPII",
+              "label" : "IPAddressPII"
+            }, {
+              "value" : "OracleEmail",
+              "label" : "OracleEmail"
+            }, {
+              "value" : "OracleFullName",
+              "label" : "OracleFullName"
+            }, {
+              "value" : "OracleGender",
+              "label" : "OracleGender"
+            }, {
+              "value" : "OracleIPAddress",
+              "label" : "OracleIPAddress"
+            }, {
+              "value" : "OracleSSN",
+              "label" : "OracleSSN"
+            }, {
+              "value" : "Phone Number",
+              "label" : "Phone Number"
+            }, {
+              "value" : "Postal Code",
+              "label" : "Postal Code"
+            }, {
+              "value" : "Social Security Number",
+              "label" : "Social Security Number"
+            }, {
+              "value" : "SSN",
+              "label" : "SSN"
+            }, {
+              "value" : "SSNPII",
+              "label" : "SSNPII"
+            }, {
+              "value" : "State",
+              "label" : "State"
+            } ],
+            "singleSelection" : false,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "tags",
+          "widget" : "multi-select",
+          "label" : "Tags",
+          "tooltip" : "Add custom tag(s) to define your data item",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "availableValues" : [ {
+              "value" : "analysis1595254762840",
+              "label" : "analysis1595254762840"
+            }, {
+              "value" : "analysis1595259098625",
+              "label" : "analysis1595259098625"
+            }, {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : true
+          },
+          "name" : "catalogName",
+          "widget" : "select",
+          "label" : "Catalog name",
+          "tooltip" : "Catalog name",
+          "hidden" : true,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Catalog name should have at least one value selected"
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "name",
+                  "widget" : "string",
+                  "label" : "Name",
+                  "tooltip" : "Plugin configuration name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Name field should not be empty"
+                  }, {
+                    "name" : "uniqueTableKey",
+                    "message" : " Name contains duplicated values"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+                    "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                  "value" : {
+                    "selectedValues" : [ ],
+                    "availableValues" : [ {
+                      "value" : "1.1.0.SNAPSHOT",
+                      "label" : "1.1.0.SNAPSHOT"
+                    }, {
+                      "value" : "LATEST",
+                      "label" : "LATEST"
+                    } ],
+                    "singleSelection" : true,
+                    "reload" : false,
+                    "allowUserInput" : false
+                  },
+                  "name" : "pluginVersion",
+                  "widget" : "select",
+                  "label" : "Plugin version",
+                  "tooltip" : "Required plugin version",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "label",
+                  "widget" : "label",
+                  "label" : "Label",
+                  "tooltip" : "Plugin configuration extended label and description",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "eventCondition",
+                  "widget" : "string",
+                  "label" : "Event condition",
+                  "tooltip" : "Condition an event must match to trigger this configuration. Expressed in Groovy",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : false,
+                  "name" : "dryRun",
+                  "widget" : "checkbox",
+                  "label" : "Dry Run",
+                  "tooltip" : "Option to enable/disable the plugin execution on dry run mode without writing objects into the repository",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "eventClass",
+                  "widget" : "string",
+                  "label" : "Event class",
+                  "tooltip" : "Event Class name to trigger current plugin configuration",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : 100,
+                  "name" : "maxWorkSize",
+                  "widget" : "number",
+                  "label" : "Maximum work size",
+                  "tooltip" : "Maximum number of items the plugin can process before delegating to other nodes",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "pluginType",
+                  "widget" : "string",
+                  "label" : "pluginType",
+                  "hidden" : true,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "nodeCondition",
+                  "widget" : "string",
+                  "label" : "Node condition",
+                  "tooltip" : "Condition an node must match to be able to run this configuration. Expressed in Groovy",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "autoStart",
+                  "widget" : "checkbox",
+                  "label" : "Auto start",
+                  "tooltip" : "Option to enable/disable the automatic execution of the plugin configuration after node startup",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                  "value" : {
+                    "selectedValues" : [ ],
+                    "availableValues" : [ ],
+                    "singleSelection" : false,
+                    "reload" : false,
+                    "allowUserInput" : true
+                  },
+                  "name" : "tags",
+                  "widget" : "advanced-select",
+                  "label" : "Tags",
+                  "tooltip" : "Add custom tag(s) to define your data item",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                  "value" : {
+                    "selectedValues" : [ {
+                      "value" : "Default",
+                      "label" : "Default"
+                    } ],
+                    "availableValues" : [ {
+                      "value" : "analysis1595254762840",
+                      "label" : "analysis1595254762840"
+                    }, {
+                      "value" : "analysis1595259098625",
+                      "label" : "analysis1595259098625"
+                    }, {
+                      "value" : "Default",
+                      "label" : "Default"
+                    } ],
+                    "singleSelection" : true,
+                    "reload" : false,
+                    "allowUserInput" : true
+                  },
+                  "name" : "catalogName",
+                  "widget" : "select",
+                  "label" : "Catalog name",
+                  "tooltip" : "Catalog name",
+                  "hidden" : true,
+                  "validators" : [ {
+                    "name" : "requiredSelection",
+                    "message" : " Catalog name should have at least one value selected"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+                  "name" : "class",
+                  "widget" : "string",
+                  "label" : "class",
+                  "hidden" : true,
+                  "validators" : [ ],
+                  "advanced" : false,
+                  "constant" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+                  "value" : [ {
+                    "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                    "name" : "kerberosKeytabLocation",
+                    "widget" : "string",
+                    "label" : "Kerberos Keytab location",
+                    "tooltip" : "Full path along with the Kerberos Keytab file name. Keytab is a file representation of Kerberos principal. It contains pairs of Kerberos principal and encrypted keys.",
+                    "hidden" : false,
+                    "validators" : [ ],
+                    "advanced" : false
+                  }, {
+                    "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                    "name" : "kerberosKrb5location",
+                    "widget" : "string",
+                    "label" : "Kerberos Krb5 location",
+                    "tooltip" : "Full path along with the Kerberos Krb5 configuration file name.",
+                    "hidden" : false,
+                    "validators" : [ ],
+                    "advanced" : false
+                  }, {
+                    "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                    "name" : "kerberosPrincipalName",
+                    "widget" : "string",
+                    "label" : "Kerberos principal name",
+                    "tooltip" : "Name of the Kerberos principal that will be used to connect to the Hive metastore.",
+                    "hidden" : false,
+                    "validators" : [ ],
+                    "advanced" : false
+                  } ],
+                  "name" : "kerberos",
+                  "widget" : "properties",
+                  "label" : "Kerberos authentication",
+                  "tooltip" : "Configuration settings for kerberos authentication.",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false,
+                  "collapsed" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : false,
+                  "name" : "resolveClusterName",
+                  "widget" : "checkbox",
+                  "label" : "Resolve cluster name",
+                  "tooltip" : "Disabled by default. Enable it to resolve the cluster name.",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+                  "value" : [ {
+                    "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                    "value" : {
+                      "selectedValues" : [ {
+                        "value" : "HORTONWORKS",
+                        "label" : "HORTONWORKS"
+                      } ],
+                      "availableValues" : [ {
+                        "value" : "CLOUDERA",
+                        "label" : "CLOUDERA"
+                      }, {
+                        "value" : "HORTONWORKS",
+                        "label" : "HORTONWORKS"
+                      } ],
+                      "singleSelection" : true,
+                      "reload" : false,
+                      "allowUserInput" : false
+                    },
+                    "name" : "clusterManagerName",
+                    "widget" : "select",
+                    "label" : "Cluster manager name",
+                    "tooltip" : "Name of the cluster manager (CLOUDERA or HORTONWORKS) to which the Hive Data Source plugin should connect.",
+                    "hidden" : false,
+                    "validators" : [ ],
+                    "advanced" : false
+                  }, {
+                    "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                    "name" : "clusterManagerHost",
+                    "widget" : "string",
+                    "label" : "Cluster manager hostname",
+                    "tooltip" : "Hostname of the cluster manager (CLOUDERA or HORTONWORKS) to which the Hive Data Source plugin should connect.",
+                    "hidden" : false,
+                    "validators" : [ ],
+                    "advanced" : false
+                  }, {
+                    "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                    "name" : "clusterManagerPort",
+                    "widget" : "string",
+                    "label" : "Cluster manager port",
+                    "tooltip" : "Port number of the cluster manager (CLOUDERA or HORTONWORKS) to which the Hive Data Source plugin should connect.",
+                    "hidden" : false,
+                    "validators" : [ ],
+                    "advanced" : false
+                  }, {
+                    "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                    "name" : "clusterManagerApiVersion",
+                    "widget" : "string",
+                    "label" : "Cluster manager API version",
+                    "tooltip" : "Version of the cluster manager (CLOUDERA or HORTONWORKS) REST API to which the Hive Data Source plugin should connect. For example, api/v1.",
+                    "hidden" : false,
+                    "validators" : [ ],
+                    "advanced" : false
+                  } ],
+                  "name" : "clusterManager",
+                  "widget" : "properties",
+                  "label" : "Cluster name configuration settings",
+                  "tooltip" : "Configuration settings for the preferred cluster manager (CLOUDERA or HORTONWORKS), it will be used only if Resolve cluster name is enabled.",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false,
+                  "collapsed" : false
+                } ],
+                "name" : "Plugin Configuration",
+                "metadata" : {
+                  "description" : {
+                    "" : "Validates Hive and Cluster Manager connection"
+                  },
+                  "analysis.type" : "datasource",
+                  "analysis.supportedCredentialTypes" : [ "basic" ],
+                  "analysis.nodeCondition" : "type=='bigdata'"
+                },
+                "validators" : [ ],
+                "label" : "Hive Data Source",
+                "empty" : false
+              },
+              "label" : "Add data source"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "dataSource",
+          "widget" : "childProperties",
+          "label" : "Data Source",
+          "tooltip" : "Data source connection to be used",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+          "name" : "class",
+          "widget" : "string",
+          "label" : "class",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "Oracle19cCDBLineageCred",
+              "label" : "Oracle19cCDBLineageCred"
+            }, {
+              "value" : "TeradataCreds",
+              "label" : "TeradataCreds"
+            }, {
+              "value" : "UDB_creds",
+              "label" : "UDB_creds"
+            }, {
+              "value" : "TeradataDS",
+              "label" : "TeradataDS"
+            }, {
+              "value" : "hiveValidCredential",
+              "label" : "hiveValidCredential"
+            }, {
+              "value" : "hiveInValidCredential",
+              "label" : "hiveInValidCredential"
+            }, {
+              "value" : "Snowflakecredentials",
+              "label" : "Snowflakecredentials"
+            }, {
+              "value" : "hiveEmptyCredential",
+              "label" : "hiveEmptyCredential"
+            }, {
+              "value" : "Oracle18C",
+              "label" : "Oracle18C"
+            }, {
+              "value" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "name",
+                  "widget" : "string",
+                  "label" : "Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Name field should not be empty"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+                    "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+                  }, {
+                    "name" : "uniqueValue",
+                    "config" : [ "Oracle19cCDBLineageCred", "TeradataCreds", "UDB_creds", "TeradataDS", "hiveValidCredential", "hiveInValidCredential", "Snowflakecredentials", "hiveEmptyCredential", "Oracle18C" ],
+                    "message" : "Name already exists. Please enter a different name."
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "userName",
+                  "widget" : "string",
+                  "label" : "User Name",
+                  "tooltip" : "User Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "User Name field should not be empty"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "password",
+                  "widget" : "password",
+                  "label" : "Password",
+                  "tooltip" : "Password",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "Password field should not be empty"
+                  } ],
+                  "advanced" : false
+                } ],
+                "metadata" : { },
+                "validators" : [ ],
+                "empty" : false
+              },
+              "label" : "Add credential"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "credential",
+          "widget" : "childProperties",
+          "label" : "Credential",
+          "tooltip" : "Credential to be used",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : true,
+          "name" : "analyzeCollectedData",
+          "widget" : "checkbox",
+          "label" : "Analyze collected data",
+          "tooltip" : "Switch on/off analyzing collected data by BigDataAnalyzer",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+          "value" : [ {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "deltaTime",
+            "widget" : "number",
+            "label" : "Delta time",
+            "tooltip" : "Interval for monitoring new Hive event files. Is defined in seconds.",
+            "hidden" : false,
+            "validators" : [ {
+              "name" : "required",
+              "message" : " Delta time field should not be empty"
+            } ],
+            "advanced" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+            "value" : {
+              "headers" : [ {
+                "label" : "Name",
+                "valuePath" : [ "properties", "0", "value", "" ]
+              } ],
+              "rows" : [ ],
+              "prototype" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "label",
+                  "widget" : "label",
+                  "label" : "label",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " label field should not be empty"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : "com.asg.dis.common.analysis.dom.HiveFilter",
+                  "name" : "class",
+                  "widget" : "string",
+                  "label" : "class",
+                  "hidden" : true,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                  "value" : {
+                    "selectedValues" : [ ],
+                    "availableValues" : [ ],
+                    "singleSelection" : false,
+                    "reload" : false,
+                    "allowUserInput" : true
+                  },
+                  "name" : "dbRegexList",
+                  "widget" : "advanced-select",
+                  "label" : "Databases",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "requiredSelection",
+                    "message" : " Databases should have at least one value selected"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                  "value" : {
+                    "selectedValues" : [ ],
+                    "availableValues" : [ ],
+                    "singleSelection" : false,
+                    "reload" : false,
+                    "allowUserInput" : true
+                  },
+                  "name" : "tags",
+                  "widget" : "advanced-select",
+                  "label" : "tags",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                } ],
+                "name" : "filters",
+                "metadata" : { },
+                "validators" : [ ],
+                "empty" : false
+              }
+            },
+            "name" : "filters",
+            "widget" : "table",
+            "label" : "filters",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          } ],
+          "name" : "filter",
+          "widget" : "properties",
+          "label" : "filter",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "collapsed" : false
+        } ],
+        "name" : "Plugin Configuration",
+        "metadata" : {
+          "analysis.technologies" : [ "Hive" ],
+          "analysis.itemtypes" : [ "Cluster", "Service", "Database", "Table", "Column", "Partition" ],
+          "description" : {
+            "" : "Retrieves Hive metadata"
+          },
+          "analysis.type" : "cataloger",
+          "analysis.supportedDataSourceTypes" : [ "HiveDataSource" ],
+          "analysis.supportedCredentialTypes" : [ "basic" ],
+          "analysis.nodeCondition" : "type=='bigdata'"
+        },
+        "validators" : [ ],
+        "label" : "Hive Cataloger",
+        "empty" : false
+      }
+    },
+    "name" : "configurations",
+    "widget" : "table",
+    "label" : "HiveCataloger",
+    "hidden" : false,
+    "validators" : [ ],
+    "advanced" : false
+  } ],
+  "name" : "HiveCataloger",
+  "metadata" : { },
+  "validators" : [ ],
+  "label" : "HiveCataloger",
+  "empty" : false
+}

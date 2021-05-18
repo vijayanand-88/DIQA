@@ -1,0 +1,5163 @@
+{
+  "count" : 737,
+  "result" : [ {
+    "id" : "REDSHIFTCATALOG.Column:::544",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::545",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::546",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::547",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::548",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::549",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::550",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::551",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::552",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::553",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::556",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::557",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::558",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::559",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::560",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::561",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::562",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::563",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::564",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::565",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::566",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::567",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::568",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::569",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::570",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::571",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::572",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::573",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::574",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::575",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::512",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::513",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::514",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::515",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::516",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::517",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::518",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::519",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::520",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::521",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::522",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::523",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::524",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::525",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::526",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::527",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::528",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::529",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::530",
+    "name" : "testfloat",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::531",
+    "name" : "testint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::532",
+    "name" : "testdecimal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::533",
+    "name" : "testchar",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::534",
+    "name" : "testdouble",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::535",
+    "name" : "testboolean",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::536",
+    "name" : "testreal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::537",
+    "name" : "testsmallint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::538",
+    "name" : "testdata",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::539",
+    "name" : "testbigint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::540",
+    "name" : "testdatatime",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::541",
+    "name" : "testtimewithzone",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::542",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::543",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::576",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::577",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::578",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::579",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::580",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::581",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::582",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::583",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::584",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::585",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::586",
+    "name" : "eid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::587",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::588",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::589",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::590",
+    "name" : "fullname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::416",
+    "name" : "testtimewithzone",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::417",
+    "name" : "testbigint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::418",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::419",
+    "name" : "population",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::420",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::421",
+    "name" : "district",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::422",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::423",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::424",
+    "name" : "deptname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::425",
+    "name" : "deptid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::426",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::427",
+    "name" : "district",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::428",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::429",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::430",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::431",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::432",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::433",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::434",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::435",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::436",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::437",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::438",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::439",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::440",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::441",
+    "name" : "contactname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::442",
+    "name" : "postalcode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::443",
+    "name" : "customername",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::444",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::445",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::446",
+    "name" : "personid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::447",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::384",
+    "name" : "testdecimal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::385",
+    "name" : "testchar",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::386",
+    "name" : "testdouble",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::387",
+    "name" : "testdatatime",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::388",
+    "name" : "testboolean",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::389",
+    "name" : "testreal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::390",
+    "name" : "testsmallint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::391",
+    "name" : "testdata",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::392",
+    "name" : "testtimewithzone",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::393",
+    "name" : "testbigint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::394",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::395",
+    "name" : "deptname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::396",
+    "name" : "deptid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::397",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::398",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::399",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::400",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::401",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::402",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::403",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::404",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::405",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::406",
+    "name" : "testfloat",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::407",
+    "name" : "testint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::408",
+    "name" : "testdecimal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::409",
+    "name" : "testchar",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::410",
+    "name" : "testdouble",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::411",
+    "name" : "testdatatime",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::412",
+    "name" : "testboolean",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::413",
+    "name" : "testreal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::414",
+    "name" : "testsmallint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::415",
+    "name" : "testdata",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::498",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::499",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::500",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::501",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::502",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::503",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::504",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::505",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::506",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::448",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::449",
+    "name" : "testfloat",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::450",
+    "name" : "testint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::451",
+    "name" : "testdecimal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::452",
+    "name" : "testchar",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::453",
+    "name" : "testdouble",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::454",
+    "name" : "testdatatime",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::455",
+    "name" : "testboolean",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::456",
+    "name" : "testreal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::457",
+    "name" : "testsmallint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::458",
+    "name" : "testdata",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::459",
+    "name" : "testtimewithzone",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::460",
+    "name" : "testbigint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::288",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::289",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::290",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::291",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::292",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::293",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::294",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::295",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::296",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::297",
+    "name" : "deptname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::298",
+    "name" : "deptid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::299",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::300",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::301",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::302",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::303",
+    "name" : "deptname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::304",
+    "name" : "deptid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::305",
+    "name" : "testfloat",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::306",
+    "name" : "testint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::307",
+    "name" : "testdecimal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::308",
+    "name" : "testchar",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::309",
+    "name" : "testdouble",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::310",
+    "name" : "testdatatime",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::311",
+    "name" : "testboolean",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::312",
+    "name" : "testreal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::313",
+    "name" : "testsmallint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::314",
+    "name" : "testdata",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::315",
+    "name" : "testtimewithzone",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::316",
+    "name" : "testbigint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::317",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::318",
+    "name" : "deptname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::319",
+    "name" : "deptid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::256",
+    "name" : "max_lvl",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::257",
+    "name" : "min_lvl",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::258",
+    "name" : "job_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::259",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::260",
+    "name" : "population",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::261",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::262",
+    "name" : "district",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::263",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::264",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::265",
+    "name" : "region",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::266",
+    "name" : "code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::267",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::268",
+    "name" : "population",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::269",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::270",
+    "name" : "district",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::271",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::272",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::273",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::274",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::275",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::276",
+    "name" : "personid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::277",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::278",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::279",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::280",
+    "name" : "pub_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::281",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::282",
+    "name" : "country",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::283",
+    "name" : "pub_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::284",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::285",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::286",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::287",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::352",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::353",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::354",
+    "name" : "custid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::355",
+    "name" : "custname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::356",
+    "name" : "deptname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::357",
+    "name" : "deptid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::358",
+    "name" : "deptblock",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::359",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::360",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::361",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::362",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::363",
+    "name" : "testfloat",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::364",
+    "name" : "testint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::365",
+    "name" : "testdecimal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::366",
+    "name" : "testchar",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::367",
+    "name" : "testdouble",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::368",
+    "name" : "testdatatime",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::369",
+    "name" : "testboolean",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::370",
+    "name" : "testreal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::371",
+    "name" : "testsmallint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::372",
+    "name" : "testdata",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::373",
+    "name" : "testtimewithzone",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::374",
+    "name" : "testbigint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::375",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::376",
+    "name" : "deptname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::377",
+    "name" : "deptid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::378",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::379",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::380",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::381",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::382",
+    "name" : "testfloat",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::383",
+    "name" : "testint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::320",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::321",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::322",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::323",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::324",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::325",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::326",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::327",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::328",
+    "name" : "contactname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::329",
+    "name" : "postalcode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::330",
+    "name" : "customername",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::331",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::332",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::333",
+    "name" : "personid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::334",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::335",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::336",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::337",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::1",
+    "name" : "employee_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::338",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::2",
+    "name" : "referencetable13_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::339",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::3",
+    "name" : "referencetable14_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::340",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::4",
+    "name" : "referencetable15_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::341",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::5",
+    "name" : "referencetable16_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::342",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::6",
+    "name" : "referencetable21_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::343",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::7",
+    "name" : "department_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::344",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::8",
+    "name" : "department_empid_fkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::345",
+    "name" : "jl_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::346",
+    "name" : "jl_email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::10",
+    "name" : "referencetable4_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::347",
+    "name" : "jl_last_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::11",
+    "name" : "referencetable6_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::348",
+    "name" : "jl_first_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::12",
+    "name" : "referencetable8_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::349",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::350",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::351",
+    "name" : "personid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::160",
+    "name" : "max_lvl",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::22",
+    "name" : "employee_underage",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::161",
+    "name" : "min_lvl",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::23",
+    "name" : "viewexternalcity",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::162",
+    "name" : "job_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::20",
+    "name" : "users",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::163",
+    "name" : "catname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::21",
+    "name" : "cityview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::164",
+    "name" : "catdesc",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::18",
+    "name" : "employee",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::165",
+    "name" : "catgroup",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::19",
+    "name" : "users_onlytwocolumns",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::166",
+    "name" : "catid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::16",
+    "name" : "writeqa_employee",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::167",
+    "name" : "catname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::17",
+    "name" : "users_created",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::168",
+    "name" : "catdesc",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::30",
+    "name" : "redshiftpersons",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::169",
+    "name" : "catgroup",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::31",
+    "name" : "writeqa_ow_redshiftpersons",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::170",
+    "name" : "catid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::28",
+    "name" : "jl_person",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::171",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::29",
+    "name" : "viewexternaltagdetails",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::172",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::26",
+    "name" : "citywithtwocolumns",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::173",
+    "name" : "population",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::27",
+    "name" : "category",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::174",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::24",
+    "name" : "viewcity",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::175",
+    "name" : "district",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::25",
+    "name" : "city_created",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::176",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::6",
+    "name" : "countrylanguage",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::177",
+    "name" : "population",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::7",
+    "name" : "category_twocolumns",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::178",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::4",
+    "name" : "qa_javaemployee",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::179",
+    "name" : "district",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::5",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::180",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::2",
+    "name" : "multischemaview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::181",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::3",
+    "name" : "viewcountry",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::182",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::183",
+    "name" : "headofstate",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::1",
+    "name" : "spectrumtestview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::184",
+    "name" : "lifeexpectancy",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::14",
+    "name" : "viewexternalcity3",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::185",
+    "name" : "gnpold",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::15",
+    "name" : "country",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::186",
+    "name" : "population",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::12",
+    "name" : "employee_details",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::187",
+    "name" : "continent",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::13",
+    "name" : "employee1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::188",
+    "name" : "code2",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::10",
+    "name" : "citycomplexview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::189",
+    "name" : "localname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::11",
+    "name" : "spectrumcityview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::190",
+    "name" : "gnp",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::8",
+    "name" : "spectrumcomplexview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::191",
+    "name" : "governmentform",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::9",
+    "name" : "qa_java_csvtoredshift",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::128",
+    "name" : "n_regionkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::54",
+    "name" : "viewexternalcity",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::55",
+    "name" : "referencetable21",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::52",
+    "name" : "qa_java_parquettoredshift",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::53",
+    "name" : "viewtagdetails",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::50",
+    "name" : "tabletest2",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::51",
+    "name" : "viewexternaldiffdatatypes",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::48",
+    "name" : "employee",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::49",
+    "name" : "viewdiffdatatypes",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::62",
+    "name" : "referencetable19",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::137",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::63",
+    "name" : "redshiftdepartment",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::138",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::60",
+    "name" : "redshiftcustomers",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::139",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::61",
+    "name" : "referencetable16",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::140",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::58",
+    "name" : "referencetable23",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::59",
+    "name" : "referencetable25",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::56",
+    "name" : "referencetable22",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::57",
+    "name" : "department",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::38",
+    "name" : "qa_java_csvtoredshift",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::145",
+    "name" : "job_desc",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::39",
+    "name" : "view_from_view",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::146",
+    "name" : "max_lvl",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::36",
+    "name" : "referencetable9",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::147",
+    "name" : "min_lvl",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::37",
+    "name" : "diffdatatypes",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::148",
+    "name" : "job_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::34",
+    "name" : "tempviewfromexttable1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::35",
+    "name" : "redshiftjobs",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::32",
+    "name" : "tempviewfromexttable4",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::33",
+    "name" : "tempviewfromexttable3",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::46",
+    "name" : "redshiftpublishers",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::47",
+    "name" : "writeqa_redshiftdepartment",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::44",
+    "name" : "tempview1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::45",
+    "name" : "employee1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::156",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::42",
+    "name" : "tempview3",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::157",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::43",
+    "name" : "viewexternalycity1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::158",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::40",
+    "name" : "writeqa_redshiftcustomers",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::159",
+    "name" : "job_desc",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::41",
+    "name" : "tempview4",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::224",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::86",
+    "name" : "referencetable1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::225",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::87",
+    "name" : "referencetable2",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::226",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::84",
+    "name" : "viewfromdiffschemamultipletablewithcondt",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::227",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::85",
+    "name" : "viewfrommultipletable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::228",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::82",
+    "name" : "referencetable8",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::229",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::83",
+    "name" : "persons",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::230",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::80",
+    "name" : "referencetable4",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::231",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::81",
+    "name" : "referencetable7",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::232",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::94",
+    "name" : "tempview2",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::233",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::95",
+    "name" : "viewfrommultipleexternaltablewithcondt",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::234",
+    "name" : "deptname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::92",
+    "name" : "viewfrommultipleexternaltableusingjoin",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::235",
+    "name" : "deptid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::93",
+    "name" : "viewfromdiffschemamultipleexternaltablewithcondt",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::236",
+    "name" : "deptblock",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::90",
+    "name" : "viewfromexternaltableusingunionall",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::237",
+    "name" : "citylanguage",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::91",
+    "name" : "customers",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::238",
+    "name" : "localname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::88",
+    "name" : "viewfrommultipletableusingjoin",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::239",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::89",
+    "name" : "viewforforwardlineageverification",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::240",
+    "name" : "populationcount",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::70",
+    "name" : "referencetable14",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::241",
+    "name" : "citycapital",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::71",
+    "name" : "referencetable15",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::242",
+    "name" : "citylifeexpectancy",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::68",
+    "name" : "tag_details",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::243",
+    "name" : "cityregion",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::69",
+    "name" : "referencetable13",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::244",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::66",
+    "name" : "qa_java_redshiftjobs1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::245",
+    "name" : "citylangpercentage",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::67",
+    "name" : "referencetable11",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::246",
+    "name" : "populationcount",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::64",
+    "name" : "viewfromtableandexttable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::247",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::65",
+    "name" : "qa_java_redshiftjobs2",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::248",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::78",
+    "name" : "viewfrommultipletablewithcondt",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::249",
+    "name" : "population",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::79",
+    "name" : "referencetable3",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::250",
+    "name" : "custid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::76",
+    "name" : "referencetable5",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::251",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::77",
+    "name" : "referencetable6",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::252",
+    "name" : "custname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::74",
+    "name" : "viewfrommultipleexternaltable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::253",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::75",
+    "name" : "tempviewfromexttable2",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::254",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::72",
+    "name" : "viewfromsingleexttablewithcondt",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::255",
+    "name" : "job_desc",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::73",
+    "name" : "viewfrommultipleview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::192",
+    "name" : "indepyear",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::193",
+    "name" : "capital",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::194",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::195",
+    "name" : "region",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::196",
+    "name" : "code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::197",
+    "name" : "surfacearea",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::198",
+    "name" : "isofficial",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::199",
+    "name" : "countrycode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::200",
+    "name" : "language",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::201",
+    "name" : "percentage",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::202",
+    "name" : "custid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::203",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::204",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::205",
+    "name" : "custname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::206",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::207",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::208",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::209",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::210",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::100",
+    "name" : "viewfromview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::211",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::212",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::98",
+    "name" : "viewfromsingletablewithcondt",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::213",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::99",
+    "name" : "tabletest1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::214",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::96",
+    "name" : "viewfromdiffschemamultipletable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::215",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::97",
+    "name" : "viewfromdiffschemamultipleexternaltable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::216",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::217",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::218",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::219",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::220",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::221",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::222",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::223",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::32",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::33",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::34",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::35",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::36",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::37",
+    "name" : "fullname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::38",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::39",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::40",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::41",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::42",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::43",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::44",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::45",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::46",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::47",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::48",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::49",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::50",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::51",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::52",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::53",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::54",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::55",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::56",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::57",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::58",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::59",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::60",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::61",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::62",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::63",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::1",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::2",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::3",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::8",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::9",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::10",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::11",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::12",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::13",
+    "name" : "contactname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::14",
+    "name" : "postalcode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::15",
+    "name" : "customername",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::16",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::17",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::18",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::19",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::20",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::21",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::22",
+    "name" : "fullname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::23",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::24",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::25",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::26",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::27",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::28",
+    "name" : "contactname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::29",
+    "name" : "postalcode",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::30",
+    "name" : "customername",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::31",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::96",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::97",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::98",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::99",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::100",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::113",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::114",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::115",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::116",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::117",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::118",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::119",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::120",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::121",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::125",
+    "name" : "n_comment",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::126",
+    "name" : "n_nationkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::127",
+    "name" : "n_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::64",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::65",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::66",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::67",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::68",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::69",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::70",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::71",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::72",
+    "name" : "condition",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::75",
+    "name" : "_c1",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::76",
+    "name" : "_c0",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::77",
+    "name" : "_c3",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::78",
+    "name" : "_c2",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::79",
+    "name" : "_c4",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::92",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::93",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::94",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::95",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::129",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::130",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::131",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::132",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::133",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::134",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::135",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::136",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::141",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::142",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::143",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::144",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::149",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::150",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::151",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::152",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::153",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::154",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::155",
+    "name" : "fullname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::480",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::481",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::482",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::483",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::484",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::485",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::486",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::487",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::488",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::489",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::490",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::491",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::492",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::493",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::494",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::495",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::496",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::497",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::507",
+    "name" : "empid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::508",
+    "name" : "eaddress",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::509",
+    "name" : "ename",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::510",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::511",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::118",
+    "name" : "referencetable12",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::119",
+    "name" : "viewfromtableusingunionall",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::116",
+    "name" : "referencetable10",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::117",
+    "name" : "referencetable11",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::114",
+    "name" : "viewfromsingleexttable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::115",
+    "name" : "viewfromcomplexstatement",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::112",
+    "name" : "referencetable17",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::113",
+    "name" : "referencetable18",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::461",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::462",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::463",
+    "name" : "personid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::464",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::102",
+    "name" : "viewfromviewfromexttable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::465",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::103",
+    "name" : "viewfromcomplexstatementexternaltable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::466",
+    "name" : "ssn",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::467",
+    "name" : "state",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::101",
+    "name" : "viewfromsingletablewithcondttest",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::468",
+    "name" : "full_name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::469",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::470",
+    "name" : "gender",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::471",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::472",
+    "name" : "postal_code",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::110",
+    "name" : "tabletest",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::473",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::111",
+    "name" : "viewfromsingletable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::474",
+    "name" : "ip_address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::108",
+    "name" : "referencetable24",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::475",
+    "name" : "lastname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::109",
+    "name" : "viewwithoutalias",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::476",
+    "name" : "city",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::106",
+    "name" : "viewfromtableandview",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::477",
+    "name" : "personid",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::107",
+    "name" : "referencetable20",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::478",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::104",
+    "name" : "viewfrommultipleviewfromexttable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::479",
+    "name" : "firstname",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Table:::105",
+    "name" : "viewfromtableandviewofexternaltable",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::554",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::555",
+    "name" : "value",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::4",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::5",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::6",
+    "name" : "address",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::7",
+    "name" : "name",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::101",
+    "name" : "testfloat",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::102",
+    "name" : "testint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::103",
+    "name" : "testdecimal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::104",
+    "name" : "testchar",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::105",
+    "name" : "testdouble",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::106",
+    "name" : "testdatatime",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::107",
+    "name" : "testboolean",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::108",
+    "name" : "testreal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::109",
+    "name" : "testsmallint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::110",
+    "name" : "testdata",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::111",
+    "name" : "testtimewithzone",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::112",
+    "name" : "testbigint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::122",
+    "name" : "employee_id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::123",
+    "name" : "email",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::124",
+    "name" : "phone_number",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::73",
+    "name" : "id",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::74",
+    "name" : "condition",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::80",
+    "name" : "testfloat",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::81",
+    "name" : "testint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::82",
+    "name" : "testdecimal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::83",
+    "name" : "testchar",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::84",
+    "name" : "testdouble",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::85",
+    "name" : "testdatatime",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::86",
+    "name" : "testboolean",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::87",
+    "name" : "testreal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::88",
+    "name" : "testsmallint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::89",
+    "name" : "testdata",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Constraint:::9",
+    "name" : "referencetable20_pkey",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::90",
+    "name" : "testtimewithzone",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Column:::91",
+    "name" : "testbigint",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::2",
+    "name" : "spectrum",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::3",
+    "name" : "spectrumtest",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::1",
+    "name" : "testschema",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::6",
+    "name" : "java_lineage_test",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::7",
+    "name" : "financial",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::4",
+    "name" : "information_schema",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::5",
+    "name" : "pg_catalog",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::10",
+    "name" : "schematest",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::11",
+    "name" : "pg_internal",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::8",
+    "name" : "demo",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::9",
+    "name" : "public",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Host:::1",
+    "name" : "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Analysis:::1",
+    "name" : "cataloger/AmazonRedshiftCataloger/RedShiftCataloger/2020-01-29T06:46:09.623+0000",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Database:::1",
+    "name" : "world",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Service:::1",
+    "name" : "AmazonRedshift",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  }, {
+    "id" : "REDSHIFTCATALOG.Cluster:::1",
+    "name" : "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "catalog" : {
+      "name" : "REDSHIFTCATALOG",
+      "label" : "REDSHIFTCATALOG"
+    }
+  } ]
+}

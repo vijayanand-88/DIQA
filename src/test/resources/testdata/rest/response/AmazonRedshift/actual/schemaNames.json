@@ -1,0 +1,123 @@
+{
+  "count" : 11,
+  "result" : [ {
+    "id" : "REDSHIFTCATALOG.Schema:::2",
+    "name" : "spectrum"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::3",
+    "name" : "spectrumtest"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::1",
+    "name" : "testschema"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::6",
+    "name" : "java_lineage_test"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::7",
+    "name" : "financial"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::4",
+    "name" : "information_schema"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::5",
+    "name" : "pg_catalog"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::10",
+    "name" : "schematest"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::11",
+    "name" : "pg_internal"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::8",
+    "name" : "demo"
+  }, {
+    "id" : "REDSHIFTCATALOG.Schema:::9",
+    "name" : "public"
+  } ],
+  "facetCounts" : {
+    "catalog_s" : [ {
+      "count" : 11,
+      "value" : "REDSHIFTCATALOG"
+    } ],
+    "asg.tagPathsHierarchy_ss" : [ {
+      "count" : 11,
+      "value" : "Technology"
+    }, {
+      "count" : 11,
+      "value" : "Technology/Cloud Data"
+    }, {
+      "count" : 11,
+      "value" : "Technology/Cloud Data/Cloud Data Warehouses"
+    }, {
+      "count" : 11,
+      "value" : "Technology/Cloud Data/Cloud Data Warehouses/Redshift"
+    } ],
+    "type_s" : [ {
+      "count" : 590,
+      "value" : "Column"
+    }, {
+      "count" : 119,
+      "value" : "Table"
+    }, {
+      "count" : 12,
+      "value" : "Constraint"
+    }, {
+      "count" : 11,
+      "value" : "Schema"
+    }, {
+      "count" : 1,
+      "value" : "Analysis"
+    }, {
+      "count" : 1,
+      "value" : "Cluster"
+    }, {
+      "count" : 1,
+      "value" : "Database"
+    }, {
+      "count" : 1,
+      "value" : "Host"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ {
+      "count" : 11,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com"
+    }, {
+      "count" : 11,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift"
+    }, {
+      "count" : 11,
+      "value" : "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world"
+    } ],
+    "asg.modifiedAt_dt" : [ {
+      "count" : 0,
+      "value" : "(*,NOW-1YEAR]",
+      "label" : "1 year and older"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1YEAR,NOW-6MONTH]",
+      "label" : "6 months up to 1 year"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-6MONTH,NOW-1MONTH]",
+      "label" : "1 month up to 6 months"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1MONTH,NOW-7DAY]",
+      "label" : "1 week up to 1 month"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-7DAY,NOW-1DAY]",
+      "label" : "1 day up to 1 week"
+    }, {
+      "count" : 11,
+      "value" : "(NOW-1DAY,NOW]",
+      "label" : "past 24 hours"
+    } ],
+    "asg.modifiedBy_s" : [ {
+      "count" : 11,
+      "value" : "Service"
+    } ]
+  }
+}

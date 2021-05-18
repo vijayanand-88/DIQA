@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+	"class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MaxWorkSize0",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "MaxWorkSize0"
+      },
+      "catalogName": "MaxWorkSize0",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 0,
+      "filter": {
+        "filters": [],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "root": "/lfc_testfiles",
+      "incrementalRun": true
+	}
+  ]
+}

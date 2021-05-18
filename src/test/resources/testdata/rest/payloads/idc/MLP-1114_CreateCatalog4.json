@@ -1,0 +1,11 @@
+{
+  "ImportFour": {
+    "label": {
+      "": "ImportFour"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "ImportFour"
+    }
+  }
+}

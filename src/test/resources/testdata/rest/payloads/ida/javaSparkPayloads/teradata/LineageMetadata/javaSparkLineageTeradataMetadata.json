@@ -1,0 +1,50 @@
+{
+  "LineageHop_1": {
+    "source": [
+      "department_name"
+    ],
+    "target": [
+      "department_name"
+    ]
+  },
+  "LineageHop_2": {
+    "source": [
+      "dept_no"
+    ],
+    "target": [
+      "dept_no"
+    ]
+  },
+  "LineageHop_3": {
+    "source": [
+      "loc_name"
+    ],
+    "target": [
+      "loc_name"
+    ]
+  },
+  "LineageHop_4": {
+    "source": [
+      "department_name"
+    ],
+    "target": [
+      "department_name"
+    ]
+  },
+  "LineageHop_5": {
+    "source": [
+      "dept_no"
+    ],
+    "target": [
+      "dept_no"
+    ]
+  },
+  "LineageHop_6": {
+    "source": [
+      "loc_name"
+    ],
+    "target": [
+      "loc_name"
+    ]
+  }
+}

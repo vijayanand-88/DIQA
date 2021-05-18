@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SqlServerCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SqlServerTag1"],
+      "pluginType": "cataloger",
+      "dataSource": "SqlServerValidDataSource",
+      "credential": "ValidSqlServerCredentials",
+      "businessApplicationName": "SqlServer_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "SQLServerDBCataloger",
+       "schemas": [
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "diffdatatypesanalyzer"
+            },
+			{
+          "table": "diffdatatypesanalyzerview"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    }
+  ]
+}

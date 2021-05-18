@@ -1,0 +1,6208 @@
+{
+  "OracleObjectView": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LAST_NAME",
+      "dir": "<-",
+      "target": "LAST_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "JOB_ID",
+      "dir": "<-",
+      "target": "JOB_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LAST_NAME",
+      "dir": "<-",
+      "target": "LAST_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "JOB_ID",
+      "dir": "<-",
+      "target": "JOB_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LAST_NAME",
+      "dir": "->",
+      "target": "LAST_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "JOB_ID",
+      "dir": "->",
+      "target": "JOB_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LAST_NAME",
+      "dir": "->",
+      "target": "LAST_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "JOB_ID",
+      "dir": "->",
+      "target": "JOB_ID"
+    }
+  ],
+  "OracleViewToMultipleTableWithJoinDiffSchema": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    }
+  ],
+  "OracleViewFromListPartionedTable": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "<-",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROMO_ID",
+      "dir": "<-",
+      "target": "PROMO_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "<-",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "<-",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "QUANTITY_SOLD",
+      "dir": "<-",
+      "target": "QUANTITY_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "<-",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CHANNEL_ID",
+      "dir": "<-",
+      "target": "CHANNEL_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "QUANTITY_SOLD",
+      "dir": "<-",
+      "target": "QUANTITY_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROMO_ID",
+      "dir": "<-",
+      "target": "PROMO_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "<-",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CHANNEL_ID",
+      "dir": "<-",
+      "target": "CHANNEL_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "<-",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "<-",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "<-",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "->",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROMO_ID",
+      "dir": "->",
+      "target": "PROMO_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "->",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "->",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "QUANTITY_SOLD",
+      "dir": "->",
+      "target": "QUANTITY_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "->",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CHANNEL_ID",
+      "dir": "->",
+      "target": "CHANNEL_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "QUANTITY_SOLD",
+      "dir": "->",
+      "target": "QUANTITY_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROMO_ID",
+      "dir": "->",
+      "target": "PROMO_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "->",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CHANNEL_ID",
+      "dir": "->",
+      "target": "CHANNEL_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "->",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "->",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "->",
+      "target": "AMOUNT_SOLD"
+    }
+  ],
+  "OracleViewWithUnionAll": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "<-",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "<-",
+      "target": "DEPTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "<-",
+      "target": "DEPTID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "<-",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "<-",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "DEPTNAME",
+      "dir": "<-",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "<-",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "DEPTID",
+      "dir": "<-",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "->",
+      "target": "DEPTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "DEPTID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "->",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "DEPTNAME",
+      "dir": "->",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "DEPTID",
+      "dir": "->",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EADDRESS",
+      "dir": "->",
+      "target": "EADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "ENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    }
+  ],
+  "OracleViewfromIndexOrganizedTables": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN",
+      "dir": "<-",
+      "target": "TOKEN"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "DOC_ID",
+      "dir": "<-",
+      "target": "DOC_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN_OFFSETS",
+      "dir": "<-",
+      "target": "TOKEN_OFFSETS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN_FREQUENCY",
+      "dir": "<-",
+      "target": "TOKEN_FREQUENCY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "DOC_ID",
+      "dir": "<-",
+      "target": "DOC_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN_FREQUENCY",
+      "dir": "<-",
+      "target": "TOKEN_FREQUENCY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN",
+      "dir": "<-",
+      "target": "TOKEN"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN_OFFSETS",
+      "dir": "<-",
+      "target": "TOKEN_OFFSETS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN",
+      "dir": "->",
+      "target": "TOKEN"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "DOC_ID",
+      "dir": "->",
+      "target": "DOC_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN_OFFSETS",
+      "dir": "->",
+      "target": "TOKEN_OFFSETS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN_FREQUENCY",
+      "dir": "->",
+      "target": "TOKEN_FREQUENCY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "DOC_ID",
+      "dir": "->",
+      "target": "DOC_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN_FREQUENCY",
+      "dir": "->",
+      "target": "TOKEN_FREQUENCY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN",
+      "dir": "->",
+      "target": "TOKEN"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TOKEN_OFFSETS",
+      "dir": "->",
+      "target": "TOKEN_OFFSETS"
+    }
+  ],
+  "OracleViewToMultipleTableGroupbyHaving": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    }
+  ],
+  "OracleViewFromComplexStatement": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "<-",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "<-",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LASTNAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "<-",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FIRSTNAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "->",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LASTNAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FIRSTNAME",
+      "dir": "->",
+      "target": "NAME"
+    }
+  ],
+  "OCPPV2T": [
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    }
+  ],
+  "OracleViewSubqueryUsingWhereExist": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "EMAIL"
+    }
+  ],
+  "OracleViewfromViewToViewViewToTable": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLID",
+      "dir": "<-",
+      "target": "SCHOOLID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STUDENTID",
+      "dir": "<-",
+      "target": "STUDENTID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLID",
+      "dir": "<-",
+      "target": "SCHOOLID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STUDENTID",
+      "dir": "<-",
+      "target": "STUDENTID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLID",
+      "dir": "->",
+      "target": "SCHOOLID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STUDENTID",
+      "dir": "->",
+      "target": "STUDENTID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STUDENTID",
+      "dir": "->",
+      "target": "STUDENTID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLID",
+      "dir": "->",
+      "target": "SCHOOLID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    }
+  ],
+  "OracleViewToMultipleTableWithJoin": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    }
+  ],
+  "OracleViewWithClause": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEENAME",
+      "dir": "<-",
+      "target": "EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEENAME",
+      "dir": "<-",
+      "target": "EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEENAME",
+      "dir": "->",
+      "target": "EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEENAME",
+      "dir": "->",
+      "target": "EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "EMPLOYEDETAILS"
+    }
+  ],
+  "sales_mv": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SUM_SALES",
+      "dir": "<-",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CALENDAR_YEAR",
+      "dir": "<-",
+      "target": "CALENDAR_YEAR"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "<-",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "<-",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "<-",
+      "target": "SUM_SALES"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CALENDAR_YEAR",
+      "dir": "<-",
+      "target": "CALENDAR_YEAR"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SUM_SALES",
+      "dir": "->",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CALENDAR_YEAR",
+      "dir": "->",
+      "target": "CALENDAR_YEAR"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "->",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CALENDAR_YEAR",
+      "dir": "->",
+      "target": "CALENDAR_YEAR"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "->",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "->",
+      "target": "SUM_SALES"
+    }
+  ],
+  "OracleViewFromMultipleTableUsingInnerJoin": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "OracleViewFromHashPartionedTable": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "<-",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "<-",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "<-",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "<-",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "<-",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "<-",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "<-",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "<-",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "->",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "->",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "->",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "->",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "->",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "->",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "->",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "->",
+      "target": "PROD_ID"
+    }
+  ],
+  "OracleViewfromMultipleTableWithCondt": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEENAME",
+      "dir": "<-",
+      "target": "EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEENAME",
+      "dir": "<-",
+      "target": "EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEENAME",
+      "dir": "->",
+      "target": "EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEENAME",
+      "dir": "->",
+      "target": "EMPLOYEENAME"
+    }
+  ],
+  "OracleViewFromRangePartionedTable": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROMO_ID",
+      "dir": "<-",
+      "target": "PROMO_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "<-",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "<-",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "QUANTITY_SOLD",
+      "dir": "<-",
+      "target": "QUANTITY_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CHANNEL_ID",
+      "dir": "<-",
+      "target": "CHANNEL_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "<-",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "<-",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CHANNEL_ID",
+      "dir": "<-",
+      "target": "CHANNEL_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "<-",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "<-",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROMO_ID",
+      "dir": "<-",
+      "target": "PROMO_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "<-",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "QUANTITY_SOLD",
+      "dir": "<-",
+      "target": "QUANTITY_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "<-",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROMO_ID",
+      "dir": "->",
+      "target": "PROMO_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "->",
+      "target": "PROD_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "->",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "QUANTITY_SOLD",
+      "dir": "->",
+      "target": "QUANTITY_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CHANNEL_ID",
+      "dir": "->",
+      "target": "CHANNEL_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "->",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "->",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CHANNEL_ID",
+      "dir": "->",
+      "target": "CHANNEL_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AMOUNT_SOLD",
+      "dir": "->",
+      "target": "AMOUNT_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUST_ID",
+      "dir": "->",
+      "target": "CUST_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROMO_ID",
+      "dir": "->",
+      "target": "PROMO_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TIME_ID",
+      "dir": "->",
+      "target": "TIME_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "QUANTITY_SOLD",
+      "dir": "->",
+      "target": "QUANTITY_SOLD"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PROD_ID",
+      "dir": "->",
+      "target": "PROD_ID"
+    }
+  ],
+  "OrcaViewFromDiffSchemaWithCondt": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "EMPLOYEEADDRESS"
+    }
+  ],
+  "OCPPDSV2T": [
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    }
+  ],
+  "OCPPT2T1": [
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AGE",
+      "dir": "->",
+      "target": "AGE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "->",
+      "target": "ID"
+    }
+  ],
+  "OraclecityviewOrderBy": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGUAGE",
+      "dir": "<-",
+      "target": "LANGUAGE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGPERCENTAGE",
+      "dir": "<-",
+      "target": "PERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYLIFEEXPECTANCY",
+      "dir": "<-",
+      "target": "LIFEEXPECTANCY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYREGION",
+      "dir": "<-",
+      "target": "REGION"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYCONTINENT",
+      "dir": "<-",
+      "target": "CONTINENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTINENT",
+      "dir": "<-",
+      "target": "CITYCONTINENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "REGION",
+      "dir": "<-",
+      "target": "CITYREGION"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LANGUAGE",
+      "dir": "<-",
+      "target": "COUNTRYLANGUAGE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LIFEEXPECTANCY",
+      "dir": "<-",
+      "target": "CITYLIFEEXPECTANCY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PERCENTAGE",
+      "dir": "<-",
+      "target": "COUNTRYLANGPERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "<-",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "<-",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGUAGE",
+      "dir": "->",
+      "target": "LANGUAGE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYLANGPERCENTAGE",
+      "dir": "->",
+      "target": "PERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYLIFEEXPECTANCY",
+      "dir": "->",
+      "target": "LIFEEXPECTANCY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYREGION",
+      "dir": "->",
+      "target": "REGION"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYCONTINENT",
+      "dir": "->",
+      "target": "CONTINENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTINENT",
+      "dir": "->",
+      "target": "CITYCONTINENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "REGION",
+      "dir": "->",
+      "target": "CITYREGION"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LANGUAGE",
+      "dir": "->",
+      "target": "COUNTRYLANGUAGE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LIFEEXPECTANCY",
+      "dir": "->",
+      "target": "CITYLIFEEXPECTANCY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PERCENTAGE",
+      "dir": "->",
+      "target": "COUNTRYLANGPERCENTAGE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRYCODE",
+      "dir": "->",
+      "target": "COUNTRYCODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITYNAME",
+      "dir": "->",
+      "target": "CITYNAME"
+    }
+  ],
+  "TRIGGERTEST": [
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "IDADDRESS",
+      "dir": "->",
+      "target": "IDADDRESS"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ID",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "IDNAME",
+      "dir": "->",
+      "target": "IDNAME"
+    }
+  ],
+  "Oracleviewtomultipletable": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PAYMENTDATE",
+      "dir": "<-",
+      "target": "PAYMENTDATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERDATE",
+      "dir": "<-",
+      "target": "ORDERDATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PAYMENTDATE",
+      "dir": "<-",
+      "target": "PAYMENTDATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERDATE",
+      "dir": "<-",
+      "target": "ORDERDATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "<-",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PAYMENTDATE",
+      "dir": "->",
+      "target": "PAYMENTDATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERDATE",
+      "dir": "->",
+      "target": "ORDERDATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PAYMENTDATE",
+      "dir": "->",
+      "target": "PAYMENTDATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERDATE",
+      "dir": "->",
+      "target": "ORDERDATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORDERNUMBER",
+      "dir": "->",
+      "target": "ORDERNUMBER"
+    }
+  ],
+  "OraclemultipletableForceView": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEECODE",
+      "dir": "<-",
+      "target": "EMPLOYEECODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "OFFICECODE",
+      "dir": "<-",
+      "target": "OFFICECODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "OFFICECODE",
+      "dir": "<-",
+      "target": "OFFICECODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEECODE",
+      "dir": "<-",
+      "target": "EMPLOYEECODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEECODE",
+      "dir": "->",
+      "target": "EMPLOYEECODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "OFFICECODE",
+      "dir": "->",
+      "target": "OFFICECODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "OFFICECODE",
+      "dir": "->",
+      "target": "OFFICECODE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEECODE",
+      "dir": "->",
+      "target": "EMPLOYEECODE"
+    }
+  ],
+  "Oracleviewtosingletable": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    }
+  ],
+  "OrcaViewFromDiffSchema": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "<-",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "EMPLOYEDETAILS"
+    }
+  ],
+  "OCPPVIEW": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    }
+  ],
+  "OCPPDSVT": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "<-",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "<-",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "<-",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "<-",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "NAME",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "GRADE",
+      "dir": "->",
+      "target": "GRADE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "SCHOOLNAME",
+      "dir": "->",
+      "target": "SCHOOLNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    }
+  ],
+  "OracleViewFromMultipleTableUsingCrossJoin": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "OCPPFT2T2": [
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ZIPCODE",
+      "dir": "<-",
+      "target": "ZIPCODE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PEOPLEID",
+      "dir": "<-",
+      "target": "PEOPLEID"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "AGE",
+      "dir": "<-",
+      "target": "AGE"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "LASTNAME",
+      "dir": "<-",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "TRANSFORM",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FIRSTNAME",
+      "dir": "<-",
+      "target": "FIRSTNAME"
+    }
+  ],
+  "ViewToMultipleTableGroupbyHaving": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    }
+  ],
+  "OracleViewFromMultipleTableUsingLeftOuterJoin": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "OracleViewToMultipleTableWithJoinhavingCondition": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "<-",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "<-",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "<-",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "<-",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "<-",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "<-",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "<-",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALADDRESS",
+      "dir": "->",
+      "target": "HOSPITALADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "BILLINGADDRESS",
+      "dir": "->",
+      "target": "BILLINGADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALNAME",
+      "dir": "->",
+      "target": "HOSPITALNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "HOSPITALID",
+      "dir": "->",
+      "target": "HOSPITALID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENTNAME",
+      "dir": "->",
+      "target": "PATIENTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TREATMENT",
+      "dir": "->",
+      "target": "TREATMENT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PATIENT_ID",
+      "dir": "->",
+      "target": "PATIENT_ID"
+    }
+  ],
+  "OracleViewfromMultipleView": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "MULTIPLE_EMPLOYEENAME",
+      "dir": "<-",
+      "target": "ORCA_EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "MULTIPLE_EMPID",
+      "dir": "<-",
+      "target": "ORCA_EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "MULTIPLE_EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "VIEW_EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "MULTIPLE_EMPLOYEEDETAILS",
+      "dir": "<-",
+      "target": "VIEW_EMPLOYEEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORCA_EMPID",
+      "dir": "<-",
+      "target": "USER_EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "VIEW_EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "TABLE_EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORCA_EMPLOYEENAME",
+      "dir": "<-",
+      "target": "USER_EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "VIEW_EMPLOYEEDETAILS",
+      "dir": "<-",
+      "target": "TABLE_EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "USER_EMPLOYEENAME",
+      "dir": "<-",
+      "target": "ORCA_EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "USER_EMPID",
+      "dir": "<-",
+      "target": "ORCA_EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TABLE_EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "VIEW_EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "VIEW_EMPLOYEEADDRESS",
+      "dir": "<-",
+      "target": "MULTIPLE_EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "VIEW_EMPLOYEEDETAILS",
+      "dir": "<-",
+      "target": "MULTIPLE_EMPLOYEEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORCA_EMPID",
+      "dir": "<-",
+      "target": "MULTIPLE_EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORCA_EMPLOYEENAME",
+      "dir": "<-",
+      "target": "MULTIPLE_EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TABLE_EMPLOYEDETAILS",
+      "dir": "<-",
+      "target": "VIEW_EMPLOYEEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "MULTIPLE_EMPLOYEENAME",
+      "dir": "->",
+      "target": "ORCA_EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "MULTIPLE_EMPID",
+      "dir": "->",
+      "target": "ORCA_EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "MULTIPLE_EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "VIEW_EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "MULTIPLE_EMPLOYEEDETAILS",
+      "dir": "->",
+      "target": "VIEW_EMPLOYEEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORCA_EMPID",
+      "dir": "->",
+      "target": "USER_EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "VIEW_EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "TABLE_EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORCA_EMPLOYEENAME",
+      "dir": "->",
+      "target": "USER_EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "VIEW_EMPLOYEEDETAILS",
+      "dir": "->",
+      "target": "TABLE_EMPLOYEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "VIEW_EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "MULTIPLE_EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "VIEW_EMPLOYEEDETAILS",
+      "dir": "->",
+      "target": "MULTIPLE_EMPLOYEEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "USER_EMPLOYEENAME",
+      "dir": "->",
+      "target": "ORCA_EMPLOYEENAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "USER_EMPID",
+      "dir": "->",
+      "target": "ORCA_EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TABLE_EMPLOYEEADDRESS",
+      "dir": "->",
+      "target": "VIEW_EMPLOYEEADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "TABLE_EMPLOYEDETAILS",
+      "dir": "->",
+      "target": "VIEW_EMPLOYEEDETAILS"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORCA_EMPID",
+      "dir": "->",
+      "target": "MULTIPLE_EMPID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ORCA_EMPLOYEENAME",
+      "dir": "->",
+      "target": "MULTIPLE_EMPLOYEENAME"
+    }
+  ],
+  "OracleViewFromMultipleTableUsingRightOuterJoin": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "OracleViewSubqueryUsingWhere": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "<-",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "<-",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "<-",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "<-",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "EMPLOYEE_ID",
+      "dir": "->",
+      "target": "EMPLOYEE_ID"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "FULL_NAME",
+      "dir": "->",
+      "target": "FULL_NAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "PHONE_NUMBER",
+      "dir": "->",
+      "target": "PHONE_NUMBER"
+    }
+  ],
+  "OracleViewNaturaljoin": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ],
+  "OracleSingleViewtoView": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "<-",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "<-",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "<-",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "<-",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "<-",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "<-",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "<-",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "<-",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "STATE",
+      "dir": "->",
+      "target": "STATE"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNUMBER",
+      "dir": "->",
+      "target": "CUSTOMERNUMBER"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CUSTOMERNAME",
+      "dir": "->",
+      "target": "CUSTOMERNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE2",
+      "dir": "->",
+      "target": "ADDRESSLINE2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "ADDRESSLINE1",
+      "dir": "->",
+      "target": "ADDRESSLINE1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CREDITLIMIT",
+      "dir": "->",
+      "target": "CREDITLIMIT"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTFIRSTNAME",
+      "dir": "->",
+      "target": "CONTACTFIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "CONTACTLASTNAME",
+      "dir": "->",
+      "target": "CONTACTLASTNAME"
+    }
+  ],
+  "OracleViewFromMultipleTableUsingFullOuterJoin": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "<-",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "<-",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL4",
+      "dir": "->",
+      "target": "COL4"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "YES",
+      "source": "COL1",
+      "dir": "->",
+      "target": "COL1"
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "properties" : [ {
+    "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+    "value" : {
+      "headers" : [ {
+        "label" : "Configuration name",
+        "valuePath" : [ "properties", "0", "value" ]
+      } ],
+      "rows" : [ ],
+      "prototype" : {
+        "properties" : [ {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Dataanalyzer",
+              "label" : "Dataanalyzer"
+            } ],
+            "availableValues" : [ {
+              "value" : "Bulk",
+              "label" : "Bulk"
+            }, {
+              "value" : "Cataloger",
+              "label" : "Cataloger"
+            }, {
+              "value" : "Collector",
+              "label" : "Collector"
+            }, {
+              "value" : "Dataanalyzer",
+              "label" : "Dataanalyzer"
+            }, {
+              "value" : "Lineage",
+              "label" : "Lineage"
+            }, {
+              "value" : "Linker",
+              "label" : "Linker"
+            }, {
+              "value" : "Monitor",
+              "label" : "Monitor"
+            }, {
+              "value" : "Other",
+              "label" : "Other"
+            }, {
+              "value" : "Parser",
+              "label" : "Parser"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "type",
+          "widget" : "select",
+          "label" : "Type",
+          "tooltip" : "Type of the plugin",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Type should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "AvroAnalyzer",
+              "label" : "AvroAnalyzer"
+            } ],
+            "availableValues" : [ {
+              "value" : "AmazonRedshiftAnalyzer",
+              "label" : "AmazonRedshiftAnalyzer"
+            }, {
+              "value" : "AmazonSpectrumAnalyzer",
+              "label" : "AmazonSpectrumAnalyzer"
+            }, {
+              "value" : "AvroAnalyzer",
+              "label" : "AvroAnalyzer"
+            }, {
+              "value" : "AvroS3Analyzer",
+              "label" : "AvroS3Analyzer"
+            }, {
+              "value" : "CassandraDBAnalyzer",
+              "label" : "CassandraDBAnalyzer"
+            }, {
+              "value" : "CsvAnalyzer",
+              "label" : "CsvAnalyzer"
+            }, {
+              "value" : "CsvS3Analyzer",
+              "label" : "CsvS3Analyzer"
+            }, {
+              "value" : "DynamoDBAnalyzer",
+              "label" : "DynamoDBAnalyzer"
+            }, {
+              "value" : "HBaseAnalyzer",
+              "label" : "HBaseAnalyzer"
+            }, {
+              "value" : "HiveDataAnalyzer",
+              "label" : "HiveDataAnalyzer"
+            }, {
+              "value" : "JsonS3Analyzer",
+              "label" : "JsonS3Analyzer"
+            }, {
+              "value" : "OracleDBAnalyzer",
+              "label" : "OracleDBAnalyzer"
+            }, {
+              "value" : "OrcS3Analyzer",
+              "label" : "OrcS3Analyzer"
+            }, {
+              "value" : "ParquetAnalyzer",
+              "label" : "ParquetAnalyzer"
+            }, {
+              "value" : "ParquetS3Analyzer",
+              "label" : "ParquetS3Analyzer"
+            }, {
+              "value" : "PostgreSQLDBAnalyzer",
+              "label" : "PostgreSQLDBAnalyzer"
+            }, {
+              "value" : "SnowflakeDBAnalyzer",
+              "label" : "SnowflakeDBAnalyzer"
+            }, {
+              "value" : "SQLPostProcessor",
+              "label" : "SQLPostProcessor"
+            }, {
+              "value" : "SQLServerDBAnalyzer",
+              "label" : "SQLServerDBAnalyzer"
+            }, {
+              "value" : "TeradataDBAnalyzer",
+              "label" : "TeradataDBAnalyzer"
+            }, {
+              "value" : "UDBAnalyzer",
+              "label" : "UDBAnalyzer"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginName",
+          "widget" : "select",
+          "label" : "Plugin",
+          "tooltip" : "Name of the plugin",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Plugin should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "name",
+          "widget" : "string",
+          "label" : "Name",
+          "tooltip" : "Plugin configuration name",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "required",
+            "message" : " Name field should not be empty"
+          }, {
+            "name" : "uniqueTableKey",
+            "message" : " Name contains duplicated values"
+          }, {
+            "name" : "pattern",
+            "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+            "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+          }, {
+            "name" : "uniqueValue",
+            "config" : [ ],
+            "message" : "Name already exists. Please enter a different name."
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "availableValues" : [ {
+              "value" : "1.1.0",
+              "label" : "1.1.0"
+            }, {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginVersion",
+          "widget" : "select",
+          "label" : "Plugin version",
+          "tooltip" : "Required plugin version",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "label",
+          "widget" : "label",
+          "label" : "Label",
+          "tooltip" : "Plugin configuration extended label and description",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventCondition",
+          "widget" : "string",
+          "label" : "Event condition",
+          "tooltip" : "Condition an event must match to trigger this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : false,
+          "name" : "dryRun",
+          "widget" : "checkbox",
+          "label" : "Dry Run",
+          "tooltip" : "Option to enable/disable the plugin execution on dry run mode without writing objects into the repository",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventClass",
+          "widget" : "string",
+          "label" : "Event class",
+          "tooltip" : "Event Class name to trigger current plugin configuration",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 100,
+          "name" : "maxWorkSize",
+          "widget" : "number",
+          "label" : "Maximum work size",
+          "tooltip" : "Maximum number of items the plugin can process before delegating to other nodes",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "pluginType",
+          "widget" : "string",
+          "label" : "pluginType",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "nodeCondition",
+          "widget" : "string",
+          "label" : "Node condition",
+          "tooltip" : "Condition an node must match to be able to run this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "name" : "autoStart",
+          "widget" : "checkbox",
+          "label" : "Auto start",
+          "tooltip" : "Option to enable/disable the automatic execution of the plugin configuration after node startup",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "Backward Lineage Candidate",
+              "label" : "Backward Lineage Candidate"
+            }, {
+              "value" : "Forward Lineage Candidate",
+              "label" : "Forward Lineage Candidate"
+            } ],
+            "singleSelection" : false,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "tags",
+          "widget" : "multi-select",
+          "label" : "Tags",
+          "tooltip" : "Add custom tag(s) to define your data item",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "availableValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : true
+          },
+          "name" : "catalogName",
+          "widget" : "select",
+          "label" : "Catalog name",
+          "tooltip" : "Catalog name",
+          "hidden" : true,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Catalog name should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+          "name" : "class",
+          "widget" : "string",
+          "label" : "class",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "businessApplicationName",
+          "widget" : "select",
+          "label" : "Business Application",
+          "tooltip" : "Business Application",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+          "value" : [ {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "value" : 25,
+            "name" : "sampleSize",
+            "widget" : "number",
+            "label" : "Sample size",
+            "tooltip" : "Number of rows that would be retrieved from avro file.Range is between 10-1000.",
+            "hidden" : false,
+            "validators" : [ {
+              "name" : "min",
+              "config" : "10",
+              "message" : " Value of Sample size should not be lesser than 10"
+            }, {
+              "name" : "max",
+              "config" : "1000",
+              "message" : " Value of Sample size should not be greater than 1000"
+            }, {
+              "name" : "required",
+              "message" : " Sample size field should not be empty"
+            } ],
+            "advanced" : false
+          } ],
+          "name" : "dataSample",
+          "widget" : "properties",
+          "label" : "Data sample",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "collapsed" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 10,
+          "name" : "histogramBuckets",
+          "widget" : "number",
+          "label" : "Histogram buckets",
+          "tooltip" : "Number of buckets for representing data distribution.Range is between 5-20.",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "min",
+            "config" : "5",
+            "message" : " Value of Histogram buckets should not be lesser than 5"
+          }, {
+            "name" : "max",
+            "config" : "20",
+            "message" : " Value of Histogram buckets should not be greater than 20"
+          }, {
+            "name" : "required",
+            "message" : " Histogram buckets field should not be empty"
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 10,
+          "name" : "topValues",
+          "widget" : "number",
+          "label" : "Top values",
+          "tooltip" : "Most popular values in avro files.Range is between 5-30.",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "min",
+            "config" : "5",
+            "message" : " Value of Top values should not be lesser than 5"
+          }, {
+            "name" : "max",
+            "config" : "30",
+            "message" : " Value of Top values should not be greater than 30"
+          }, {
+            "name" : "required",
+            "message" : " Top values field should not be empty"
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+          "value" : {
+            "headers" : [ {
+              "label" : "Key",
+              "valuePath" : [ "properties", "0", "value" ]
+            }, {
+              "label" : "Value",
+              "valuePath" : [ "properties", "1", "value" ]
+            } ],
+            "rows" : [ {
+              "properties" : [ {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "value" : "deploy.mode",
+                "name" : "key",
+                "widget" : "string",
+                "label" : "key",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              }, {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "value" : "cluster",
+                "name" : "value",
+                "widget" : "string",
+                "label" : "value",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              } ],
+              "name" : "sparkOptions",
+              "metadata" : { },
+              "validators" : [ ],
+              "empty" : false
+            }, {
+              "properties" : [ {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "value" : "spark.network.timeout",
+                "name" : "key",
+                "widget" : "string",
+                "label" : "key",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              }, {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "value" : "600s",
+                "name" : "value",
+                "widget" : "string",
+                "label" : "value",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              } ],
+              "name" : "sparkOptions",
+              "metadata" : { },
+              "validators" : [ ],
+              "empty" : false
+            } ],
+            "prototype" : {
+              "properties" : [ {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "name" : "key",
+                "widget" : "string",
+                "label" : "key",
+                "hidden" : false,
+                "validators" : [ {
+                  "name" : "required",
+                  "message" : " key field should not be empty"
+                } ],
+                "advanced" : false
+              }, {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "name" : "value",
+                "widget" : "string",
+                "label" : "value",
+                "hidden" : false,
+                "validators" : [ {
+                  "name" : "required",
+                  "message" : " value field should not be empty"
+                } ],
+                "advanced" : false
+              } ],
+              "name" : "sparkOptions",
+              "metadata" : { },
+              "validators" : [ ],
+              "empty" : false
+            }
+          },
+          "name" : "sparkOptions",
+          "widget" : "table",
+          "label" : "Spark options",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 100,
+          "name" : "queryBatchSize",
+          "widget" : "number",
+          "label" : "Query batch size",
+          "tooltip" : "Number of items to read from database and analyze in single batch",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        } ],
+        "name" : "Plugin Configuration",
+        "metadata" : {
+          "description" : {
+            "" : "Calculates statistics and does pattern matching"
+          },
+          "analysis.type" : "dataanalyzer",
+          "analysis.technologies" : [ "Avro" ],
+          "analysis.nodeCondition" : "type=='bigdata'"
+        },
+        "validators" : [ ],
+        "label" : "Avro Analyzer",
+        "empty" : false
+      }
+    },
+    "name" : "configurations",
+    "widget" : "table",
+    "label" : "AvroAnalyzer",
+    "hidden" : false,
+    "validators" : [ ],
+    "advanced" : false
+  } ],
+  "name" : "AvroAnalyzer",
+  "metadata" : { },
+  "validators" : [ ],
+  "label" : "AvroAnalyzer",
+  "empty" : false
+}

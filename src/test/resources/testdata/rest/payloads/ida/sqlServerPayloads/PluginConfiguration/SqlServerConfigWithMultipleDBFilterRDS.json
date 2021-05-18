@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SqlServerCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SqlServerTag1"],
+      "pluginType": "cataloger",
+      "dataSource": "SqlServerValidDataSourceWithMultipleDB",
+      "credential": "ValidSqlServerAdminCredentials",
+      "businessApplicationName": "SqlServer_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "SQLServerDBCataloger",
+      "schemas": [
+        {
+          "schema": "Person",
+          "tables": []
+		}
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    }
+  ]
+}

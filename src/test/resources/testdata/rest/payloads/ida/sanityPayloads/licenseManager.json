@@ -1,0 +1,48 @@
+{
+  "entities": [
+    {
+      "name": "LINEAGE_PLUGINS",
+      "type": "list",
+      "limit": [
+        "AmazonRedshiftPostProcessor",
+        "PythonSparkLineage",
+        "TeradataDBPostProcessor",
+        "CAELineage",
+        "AWSGluePythonSparkLineage",
+        "JavaRedshiftLineage",
+        "OracleDBPostProcessor",
+        "SQLServerDBPostProcessor",
+        "JavaIOLineage",
+        "JavaJDBCLineage",
+        "JavaSparkLineage",
+        "JavaS3Lineage",
+        "PostgreSQLDBPostProcessor",
+        "SnowflakeDBPostProcessor",
+        "PythonSQLLineage"
+      ],
+      "active": true
+    },
+    {
+      "name": "DATASOURCE",
+      "type": "number",
+      "limit": 100,
+      "active": true
+    },
+    {
+      "class": "com.asg.dis.platform.config.dom.LicenseManagementEntityResponse",
+      "name": "NAMED_USERS",
+      "type": "number",
+      "limit": 100,
+      "active": true,
+      "hidden": false
+    },
+    {
+      "class": "com.asg.dis.platform.config.dom.LicenseManagementEntityResponse",
+      "name": "NODES",
+      "type": "number",
+      "limit": 6,
+      "active": true,
+      "hidden": false
+    }
+  ]
+}

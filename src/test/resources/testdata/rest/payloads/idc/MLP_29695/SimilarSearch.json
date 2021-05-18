@@ -1,0 +1,5 @@
+{
+  "query": "{Table(name:\"GraphQLSimilarTab\"){name catalog type id similar{Table{name}}}}",
+  "operationName": "query"
+
+}

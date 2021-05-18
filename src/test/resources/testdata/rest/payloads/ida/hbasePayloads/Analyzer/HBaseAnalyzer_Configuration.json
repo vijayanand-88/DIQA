@@ -1,0 +1,32 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "dataanalyzer",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "runAfter" : [ ],
+    "label" : {
+      "" : ""
+    },
+    "type" : "Dataanalyzer",
+    "autoStart" : false,
+    "tags" : [ "HbaseAnalyzer_policyPattern" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "histogramBuckets" : 10,
+    "schedule" : null,
+    "pluginVersion" : "LATEST",
+    "credential" : null,
+    "pluginName" : "HBaseAnalyzer",
+    "name" : "HbaseAnalyzer_policyPattern",
+    "dataSample" : {
+      "sampleSize" : 25
+    },
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : null,
+    "topValues" : 10,
+    "businessApplicationName" : "HBASE_BA_ANALYZER"
+  } ]
+}

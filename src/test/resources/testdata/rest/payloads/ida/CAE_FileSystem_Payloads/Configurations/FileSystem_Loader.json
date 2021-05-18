@@ -1,0 +1,104 @@
+{
+  "FileSystem_DDLoader": {
+    "configurations": {
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "Advanced": {
+        "technologies": [
+          "Java",
+          "Oracle",
+          "SqlServer",
+          "DB2"
+        ],
+        "tfmSystemPolicyValue": "",
+        "multi-env": false,
+        "technologyRestriction": false,
+        "LoaderPath": "",
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": ""
+      },
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "onDemandLineage": true,
+      "type": "Bulk",
+      "restrict": "",
+      "negative": false,
+      "credential": "Valid_Feeder_Cred",
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "bulk",
+      "checkAll": false,
+      "clear": true,
+      "label": {
+        "": ""
+      },
+      "incremental": false,
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "Contextuality": {
+        "inputSetPrivate": "",
+        "inputSetName": ""
+      },
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "pluginName": "CAEDDLoader",
+      "name": "FileSystem_DDLoader",
+      "dataSource": "FileSystem_Feeder_DS"
+    }
+  },
+  "FileSystem_DDLoader_Sql": {
+    "configurations": {
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "Advanced": {
+        "technologies": [
+          "Java",
+          "Oracle",
+          "SqlServer",
+          "DB2"
+        ],
+        "tfmSystemPolicyValue": "",
+        "multi-env": false,
+        "technologyRestriction": false,
+        "LoaderPath": "",
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": ""
+      },
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "onDemandLineage": true,
+      "type": "Bulk",
+      "restrict": "",
+      "negative": false,
+      "credential": "Valid_Feeder_Cred_SQLServer",
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "bulk",
+      "checkAll": false,
+      "clear": true,
+      "label": {
+        "": ""
+      },
+      "incremental": false,
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "Contextuality": {
+        "inputSetPrivate": "",
+        "inputSetName": ""
+      },
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "pluginName": "CAEDDLoader",
+      "name": "FileSystem_DDLoader_Sql",
+      "dataSource": "FileSystem_Feeder_DS_SQL"
+    }
+  }
+}

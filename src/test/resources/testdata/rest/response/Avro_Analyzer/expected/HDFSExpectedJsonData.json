@@ -1,0 +1,204 @@
+{
+  "MetaData": {
+    "totalCount": 6,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 3,
+          "value": "Directory"
+        },
+        {
+          "count": 1,
+          "value": "Cluster"
+        },
+        {
+          "count": 1,
+          "value": "File"
+        },
+        {
+          "count": 1,
+          "value": "Service"
+        }
+      ]
+    },
+    "hostMetaData": {
+      "name": "",
+      "NumberofCores": 0,
+      "HostName": "",
+      "taglist": {
+        "values": [
+          {
+            "techTag": ""
+          },
+          {
+            "techTag": ""
+          },
+          {
+            "techTag": ""
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "clusterMetaData": {
+      "name": "Cluster Demo",
+      "table": {
+        "values": [
+          {
+            "type": "Hosts",
+            "name": "sandbox.hortonworks.com"
+          },
+          {
+            "type": "Services",
+            "name": "HDFS"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": ""
+            },
+            {
+              "techTag": ""
+            },
+            {
+              "techTag": ""
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "serviceMetaData": {
+      "name": "HDFS",
+      "applicationVersion": "",
+      "table": {
+        "values": [
+          {
+            "type": "Directory",
+            "name": "ROOT"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": ""
+            },
+            {
+              "techTag": ""
+            },
+            {
+              "techTag": ""
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "parentdirectoryMetaData": {
+      "name": "idaautomation",
+      "Description": {
+        "location": "/",
+        "permission": "rwxr-xr-x",
+        "group": "hdfs",
+        "Createdby": "raj_ops"
+      },
+      "Lifecycle": {
+        "Modified": "Modified"
+      },
+      "Statistics": {
+        "Numberoffiles": "0",
+        "Sizeoffiles": "0",
+        "Sizeofsub_directories": "151",
+        "Numberofsub_directories": "1",
+        "Directorysize": "151"
+      },
+      "childdirectory": {
+        "name": "sub1",
+        "Description": {
+          "location": "/idaautomation",
+          "permission": "rwxr-xr-x",
+          "group": "hdfs",
+          "Createdby": "raj_ops"
+        },
+        "Lifecycle": {
+          "Modified": "Modified"
+        },
+        "Statistics": {
+          "Numberoffiles": "1",
+          "Sizeoffiles": "151",
+          "Sizeofsub_directories": "0",
+          "Numberofsub_directories": "0",
+          "Directorysize": "151"
+        },
+        "taglist": {
+          "values": [
+            {
+              "techTag": ""
+            },
+            {
+              "techTag": ""
+            },
+            {
+              "techTag": ""
+            }
+          ]
+        }
+      }
+    },
+    "fileMetaData": {
+      "name": "testdata.csv",
+      "Description": {
+        "location": "/idaautomation/sub1",
+        "permission": "rwxr-xr-x",
+        "group": "hdfs",
+        "Createdby": "raj_ops",
+        "MIMEtype": "text/csv",
+        "Filesize": "151"
+      },
+      "Lifecycle": {
+        "Modified": "Modified",
+        "Lastcataloguedat": "Last catalogued at"
+      },
+      "breadCrumbs": {
+        "values": [
+          {
+            "name": "Cluster Demo",
+            "tooltip": "Cluster Demo [Cluster]"
+          },
+          {
+            "name": "HDFS",
+            "tooltip": "HDFS [Service]"
+          },
+          {
+            "name": "ROOT",
+            "tooltip": "ROOT [Directory]"
+          },
+          {
+            "name": "idaautomation",
+            "tooltip": "idaautomation [Directory]"
+          },
+          {
+            "name": "sub1",
+            "tooltip": "sub1 [Directory]"
+          },
+          {
+            "name": "testdata.csv",
+            "tooltip": "testdata.csv [File]"
+          }
+        ]
+      }
+    }
+  }
+}

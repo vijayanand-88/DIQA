@@ -1,0 +1,55 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.HdfsConfiguration",
+      "name": "HdfsCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "HdfsCataloger"
+      },
+      "catalogName": "BigData",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "catalogerHdfsUser": "hdfs",
+      "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+      "kerberosKrb5location": "/etc/krb5.conf",
+      "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+      "clusterManagerName": "HORTONWORKS",
+      "clusterManagerHost": "http://10.33.6.165",
+      "clusterManagerPort": "8080",
+      "clusterManagerLogin": "raj_ops",
+      "clusterManagerPassword": "rdX7heWAVn6gvz3PoOHHpw==",
+      "clusterManagerApiVersion": "api/v1",
+      "scanHdfs": true,
+      "scanServices": false,
+      "analyzeCollectedData": true,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+            "label": {
+              "": "label1"
+            },
+            "tags": [],
+            "root": "/ParquetAutomationTrue",
+            "excludeRegexp": [],
+            "fileMode": "include",
+            "fileExtensions": [
+              "parquet"
+            ]
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {},
+        "maxHits": "100"
+      },
+      "resolveNameWrapper": {
+        "resolvingPluginName": "CNavigatorCataloger",
+        "resolvingPluginConfiguration": "CNavigatorCataloger"
+      },
+      "resolveClusterName": false
+    }
+  ]
+}

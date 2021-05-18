@@ -1,0 +1,163 @@
+{
+  "AWSGlueCataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "GlueLinkerCataloger",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "SC1GlueLinkerCataloger"
+        ],
+        "pluginType": "cataloger",
+        "dataSource": "AWSGlueDataSource",
+        "credential": "ValidGlueLinkerCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AWSGlueCataloger",
+        "type": "Cataloger",
+        "includeItems": {
+          "includeJobs": [],
+          "includeDatabases": [
+            "qagluelinkerdatabase"
+          ]
+        }
+      }
+    ]
+  },
+  "AmazonS3Cataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AmazonS3GlueCataloger",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 1000,
+        "tags": [
+          "AWSS3"
+        ],
+        "pluginType": "cataloger",
+        "dataSource": "AWSGlueLinkerS3DataSource",
+        "credential": "ValidGlueLinkerS3Credentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "keepEmptyFolders": false,
+        "versionMode": false,
+        "maxObjectsAmount": 1000,
+        "pluginName": "AmazonS3Cataloger",
+        "incremental": false,
+        "type": "Cataloger",
+        "bucketFilter": {
+          "mode": "INCLUDE",
+          "patterns": [
+            "asgqagluelinkerbucket"
+          ],
+          "objectFilter": {
+            "dirFilter": {
+              "mode": "INCLUDE",
+              "patterns": []
+            },
+            "fileFilter": {
+              "mode": "INCLUDE",
+              "patterns": []
+            },
+            "dirPrefixes": []
+          }
+        }
+      }
+    ]
+  },
+  "CsvS3Cataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "CSVGlueCataloger",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CSVS3"
+        ],
+        "pluginType": "cataloger",
+        "dataSource": "AmazonGlueCSVDataSource",
+        "credential": "ValidGlueLinkerCSVCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "versionMode": false,
+        "maxObjectsAmount": 1000,
+        "pluginName": "CsvS3Cataloger",
+        "delimiter": ",",
+        "incremental": false,
+        "type": "Cataloger",
+        "bucketFilter": {
+          "mode": "INCLUDE",
+          "patterns": [
+            "asgqagluelinkerbucket"
+          ],
+          "objectFilter": {
+            "dirFilter": {
+              "mode": "INCLUDE",
+              "patterns": [
+              ]
+            },
+            "fileFilter": {
+              "mode": "INCLUDE",
+              "patterns": []
+            },
+            "dirPrefixes": []
+          }
+        },
+        "firstRowAsHeader": true
+      }
+    ]
+  },
+  "AWSGlueLinker": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "GlueLinker",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "linker",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AWSGlueLinker",
+        "type": "Linker",
+        "region": "us-east-1"
+      }
+    ]
+  }
+}

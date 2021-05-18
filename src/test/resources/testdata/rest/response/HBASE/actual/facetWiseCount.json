@@ -1,0 +1,164 @@
+{
+  "count" : 8,
+  "result" : [ {
+    "id" : "Default.Table:::7125",
+    "type" : "Table",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8022",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8023",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8028",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8026",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8027",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8024",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::8025",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  } ],
+  "facetCounts" : {
+    "asg.tagPathsHierarchy_ss" : [ {
+      "count" : 8,
+      "value" : "SC1_Hbase"
+    }, {
+      "count" : 8,
+      "value" : "Technology"
+    }, {
+      "count" : 8,
+      "value" : "Technology/Big Data"
+    }, {
+      "count" : 8,
+      "value" : "Technology/Big Data/Operational"
+    }, {
+      "count" : 8,
+      "value" : "Technology/Big Data/Operational/HBase"
+    } ],
+    "type_s" : [ {
+      "count" : 7,
+      "value" : "Column"
+    }, {
+      "count" : 1,
+      "value" : "Table"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ {
+      "count" : 977,
+      "value" : "Cluster/LocalNode"
+    }, {
+      "count" : 976,
+      "value" : "Cluster/LocalNode/Service/HBASE"
+    }, {
+      "count" : 975,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default"
+    }, {
+      "count" : 890,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/atlas_titan"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/iemployee"
+    }, {
+      "count" : 9,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/information"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/employee"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/qa_emp_wr1"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/qa_emp_wr2"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/qa_overwrite"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/testemployee"
+    }, {
+      "count" : 5,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/testtable"
+    }, {
+      "count" : 4,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/ATLAS_ENTITY_AUDIT_EVENTS"
+    }, {
+      "count" : 4,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/products"
+    }, {
+      "count" : 3,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/qa_emp"
+    }, {
+      "count" : 3,
+      "value" : "Cluster/LocalNode/Service/HBASE/Database/default/Table/qa_emp_filter"
+    } ],
+    "dataType_s" : [ ],
+    "asg_modifiedat_dt" : [ {
+      "count" : 0,
+      "value" : "(*,NOW-1YEAR]",
+      "label" : "1 year and older"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1YEAR,NOW-6MONTH]",
+      "label" : "6 months up to 1 year"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-6MONTH,NOW-1MONTH]",
+      "label" : "1 month up to 6 months"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1MONTH,NOW-7DAY]",
+      "label" : "1 week up to 1 month"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-7DAY,NOW-1DAY]",
+      "label" : "1 day up to 1 week"
+    }, {
+      "count" : 8,
+      "value" : "(NOW-1DAY,NOW]",
+      "label" : "past 24 hours"
+    } ],
+    "asg_modifiedby_s" : [ {
+      "count" : 8,
+      "value" : "Service"
+    } ]
+  }
+}

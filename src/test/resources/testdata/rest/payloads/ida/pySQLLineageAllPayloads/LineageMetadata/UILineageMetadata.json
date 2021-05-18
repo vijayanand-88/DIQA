@@ -1,0 +1,18 @@
+{
+  "LineageHop_1": {
+    "source": ["AGE"],
+    "target": ["AGE"]
+  },
+  "LineageHop_2": {
+    "source": ["FARE"],
+    "target": ["FARE"]
+  },
+  "LineageHop_3": {
+    "source": ["PASSENGERID"],
+    "target": ["PASSENGERID"]
+  },
+  "LineageHop_4": {
+    "source": ["TICKET"],
+    "target": ["TICKET"]
+  }
+}

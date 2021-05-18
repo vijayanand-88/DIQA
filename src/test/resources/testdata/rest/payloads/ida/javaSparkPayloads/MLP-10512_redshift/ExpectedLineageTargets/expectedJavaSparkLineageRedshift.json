@@ -1,0 +1,180 @@
+{
+  "doReadRedShift": {
+    "custname => writeqa_redshiftcustomers.custname": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "custname",
+      "lineageTo": "custname"
+    },
+    "redshiftcustomers.city => jdbcDF_r1.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "redshiftcustomers.custname => jdbcDF_r1.custname": {
+      "mode": "COPY",
+      "lineageFrom": "custname",
+      "lineageTo": "custname"
+    },
+    "redshiftcustomers.address => jdbcDF_r1.address": {
+      "mode": "COPY",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "redshiftcustomers.custid => jdbcDF_r1.custid": {
+      "mode": "COPY",
+      "lineageFrom": "custid",
+      "lineageTo": "custid"
+    },
+    "custid => writeqa_redshiftcustomers.custid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "custid",
+      "lineageTo": "custid"
+    }
+  },
+  "doReadRedshiftMultipleWrite": {
+    "min_lvl => qa_java_redshiftjobs2.min_lvl": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "min_lvl",
+      "lineageTo": "min_lvl"
+    },
+    "redshiftjobs.max_lvl => jdbcDF_r3.max_lvl": {
+      "mode": "COPY",
+      "lineageFrom": "max_lvl",
+      "lineageTo": "max_lvl"
+    },
+    "min_lvl => qa_java_redshiftjobs1.min_lvl": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "min_lvl",
+      "lineageTo": "min_lvl"
+    },
+    "job_desc => qa_java_redshiftjobs2.job_desc": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "job_desc",
+      "lineageTo": "job_desc"
+    },
+    "max_lvl => qa_java_redshiftjobs2.max_lvl": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "max_lvl",
+      "lineageTo": "max_lvl"
+    },
+    "max_lvl => qa_java_redshiftjobs1.max_lvl": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "max_lvl",
+      "lineageTo": "max_lvl"
+    },
+    "redshiftjobs.job_desc => jdbcDF_r3.job_desc": {
+      "mode": "COPY",
+      "lineageFrom": "job_desc",
+      "lineageTo": "job_desc"
+    },
+    "job_id => qa_java_redshiftjobs2.job_id": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "job_id",
+      "lineageTo": "job_id"
+    },
+    "redshiftjobs.min_lvl => jdbcDF_r3.min_lvl": {
+      "mode": "COPY",
+      "lineageFrom": "min_lvl",
+      "lineageTo": "min_lvl"
+    },
+    "job_desc => qa_java_redshiftjobs1.job_desc": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "job_desc",
+      "lineageTo": "job_desc"
+    },
+    "job_id => qa_java_redshiftjobs1.job_id": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "job_id",
+      "lineageTo": "job_id"
+    },
+    "redshiftjobs.job_id => jdbcDF_r3.job_id": {
+      "mode": "COPY",
+      "lineageFrom": "job_id",
+      "lineageTo": "job_id"
+    }
+  },
+  "doReadRedshiftOverwrite": {
+    "redshiftpersons.city => jdbcDF_r4.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "city => writeqa_ow_redshiftpersons.city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "redshiftpersons.address => jdbcDF_r4.address": {
+      "mode": "COPY",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "redshiftpersons.personid => jdbcDF_r4.personid": {
+      "mode": "COPY",
+      "lineageFrom": "personid",
+      "lineageTo": "personid"
+    },
+    "firstname => writeqa_ow_redshiftpersons.firstname": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "firstname",
+      "lineageTo": "firstname"
+    },
+    "personid => writeqa_ow_redshiftpersons.personid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personid",
+      "lineageTo": "personid"
+    },
+    "redshiftpersons.lastname => jdbcDF_r4.lastname": {
+      "mode": "COPY",
+      "lineageFrom": "lastname",
+      "lineageTo": "lastname"
+    },
+    "lastname => writeqa_ow_redshiftpersons.lastname": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lastname",
+      "lineageTo": "lastname"
+    },
+    "redshiftpersons.firstname => jdbcDF_r4.firstname": {
+      "mode": "COPY",
+      "lineageFrom": "firstname",
+      "lineageTo": "firstname"
+    },
+    "address => writeqa_ow_redshiftpersons.address": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    }
+  },
+  "doReadRedshiftJDBC": {
+    "deptid => writeqa_redshiftdepartment.deptid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "deptid",
+      "lineageTo": "deptid"
+    },
+    "deptblock => writeqa_redshiftdepartment.deptblock": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "deptblock",
+      "lineageTo": "deptblock"
+    },
+    "deptname => writeqa_redshiftdepartment.deptname": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "deptname",
+      "lineageTo": "deptname"
+    },
+    "redshiftdepartment.deptblock => jdbcDF_r2.deptblock": {
+      "mode": "COPY",
+      "lineageFrom": "deptblock",
+      "lineageTo": "deptblock"
+    },
+    "redshiftdepartment.deptid => jdbcDF_r2.deptid": {
+      "mode": "COPY",
+      "lineageFrom": "deptid",
+      "lineageTo": "deptid"
+    },
+    "redshiftdepartment.deptname => jdbcDF_r2.deptname": {
+      "mode": "COPY",
+      "lineageFrom": "deptname",
+      "lineageTo": "deptname"
+    }
+  }
+}

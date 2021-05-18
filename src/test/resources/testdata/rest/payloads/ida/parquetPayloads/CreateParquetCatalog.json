@@ -1,0 +1,11 @@
+{
+  "TestParquet": {
+    "label": {
+      "": "TestParquet"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "TestParquet"
+    }
+  }
+}

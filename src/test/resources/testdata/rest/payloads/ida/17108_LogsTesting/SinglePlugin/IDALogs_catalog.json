@@ -1,0 +1,30 @@
+{
+  "IDALogs": {
+    "label": {
+      "": "IDALogs",
+      "en": "IDALogs"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea",
+    "modifiedAt": "2020-02-06T09:25:58.02808",
+    "modifiedBy": "TestSystem",
+    "catalogType": "DATA",
+    "configuration": {
+      "tags": {
+        "name": null,
+        "rootTags": [],
+        "definition": null
+      },
+      "image": {
+        "icon": "fa fa-file",
+        "color": "black"
+      },
+      "description": {
+        "": "",
+        "en": ""
+      },
+      "schemaModels": [],
+      "editableTypes": [],
+      "customAttributes": []
+    }
+  }
+}

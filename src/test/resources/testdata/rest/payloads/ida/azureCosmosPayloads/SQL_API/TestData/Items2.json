@@ -1,0 +1,13 @@
+{
+    "id": "2",
+    "userid": "200",
+    "category": "personal",
+    "name": "vegetables",
+    "description": "Pick up vegetables.",
+    "isComplete": false,
+    "_rid": "kShuAKb6m9ICAAAAAAAAAA==",
+    "_self": "dbs/kShuAA==/colls/kShuAKb6m9I=/docs/kShuAKb6m9ICAAAAAAAAAA==/",
+    "_etag": "\"05001f0b-0000-0000-0000-5c8217d00000\"",
+    "_attachments": "attachments/",
+    "_ts": 1552029648
+}

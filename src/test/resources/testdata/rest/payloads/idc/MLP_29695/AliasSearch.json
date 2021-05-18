@@ -1,0 +1,5 @@
+{
+  "query": "{Column(name:\"GraphQLColumn\"){name catalog type id similar{Column{name}}}}",
+  "operationName": "query"
+
+}

@@ -1,0 +1,15 @@
+{
+  "name": "HealthCareAnalysis",
+  "description": "Analysis",
+  "language": "PYTHON",
+  "cells": [
+    {
+      "cellType": "MARKDOWN",
+      "source": "##Analysis"
+    },
+    {
+      "cellType": "PYTHON",
+      "source": "%matplotlib inline\nfrom pyhive import hive\nimport pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n#Create Hive connection \nconn = hive.Connection(host=\"10.33.6.122\", port=10000, username=\"raj_ops\")\ndf1 = pd.read_sql(\"SELECT riskfactorsandaccesstocare.chsi_county_name, \\\n                              riskfactorsandaccesstocare.few_fruit_veg \\\n                      FROM    healthcare.riskfactorsandaccesstocare \\\n                      WHERE   riskfactorsandaccesstocare.chsi_state_name = 'Florida'\", conn)\ndf2 = pd.read_sql(\"SELECT measuresofbirthanddeath.chsi_county_name, \\\n                              measuresofbirthanddeath.col_cancer \\\n                      FROM    healthcare.measuresofbirthanddeath \\\n                      WHERE   measuresofbirthanddeath.chsi_state_name = 'Florida'\", conn)\ndf3 = pd.merge(df1, df2,\n               left_on='riskfactorsandaccesstocare.chsi_county_name',\n               right_on='measuresofbirthanddeath.chsi_county_name',\n               how='left')\ndf3['riskfactorsandaccesstocare.few_fruit_veg'].replace(-1111.1, 0, inplace=True)\ncounty = df3['riskfactorsandaccesstocare.chsi_county_name']\nfew_fruit = df3['riskfactorsandaccesstocare.few_fruit_veg']\ncol_cancer = df3['measuresofbirthanddeath.col_cancer']\n\ndef plot(dpi):\n   fig, ax = plt.subplots(dpi=dpi)\n   N = county.count()\n   index = np.arange(N)\n   bar_width = 0.35\n   rects1 = ax.bar(index, few_fruit, bar_width,\n                color='b',\n                label='few_fruit')\n   rects2 = ax.bar(index + bar_width, col_cancer, bar_width,\n                color='r',\n                label='Col_Cancer') \n   \n   ax.set_xlabel('County')\n   ax.set_ylabel('Risk')\n   ax.set_xticks(index + bar_width / 2)\n   ax.set_xticklabels(county, rotation=90)\n   ax.tick_params(axis='x', labelsize=6)\n   ax.tick_params(axis='y', labelsize=5)\n   ax.legend()\n\n\nplot(172)"
+    }
+  ]
+}

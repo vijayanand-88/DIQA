@@ -1,0 +1,50 @@
+[
+    {
+        "startLine": 7,
+        "endLine": 7,
+        "startColumn": 14,
+        "endColumn": 58,
+        "methodName": "System.out.println",
+        "argumentNb": 1
+    },
+    {
+        "startLine": 7,
+        "endLine": 7,
+        "startColumn": 38,
+        "endColumn": 57,
+        "methodName": "getLanguagesTotal",
+        "argumentNb": 0
+    },
+    {
+        "startLine": 8,
+        "endLine": 8,
+        "startColumn": 14,
+        "endColumn": 65,
+        "methodName": "System.out.println",
+        "argumentNb": 1
+    },
+    {
+        "startLine": 8,
+        "endLine": 8,
+        "startColumn": 42,
+        "endColumn": 64,
+        "methodName": "getNonLanguagesTotal",
+        "argumentNb": 0
+    },
+    {
+        "startLine": 9,
+        "endLine": 9,
+        "startColumn": 14,
+        "endColumn": 83,
+        "methodName": "System.out.println",
+        "argumentNb": 1
+    },
+    {
+        "startLine": 9,
+        "endLine": 9,
+        "startColumn": 34,
+        "endColumn": 55,
+        "methodName": "getAllSubjectsTotal",
+        "argumentNb": 0
+    }
+]

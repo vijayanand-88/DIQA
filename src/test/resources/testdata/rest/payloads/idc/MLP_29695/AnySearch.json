@@ -1,0 +1,5 @@
+{
+  "query": "{Any(permission:\"rwxx--rr-w\"){name catalog type id permission similar{Any{permission}}}}",
+  "operationName": "query"
+
+}

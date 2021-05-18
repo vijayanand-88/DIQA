@@ -1,0 +1,43 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 2216,
+      "value" : "Measure"
+    }, {
+      "count" : 1946,
+      "value" : "Column"
+    }, {
+      "count" : 221,
+      "value" : "Dimension"
+    }, {
+      "count" : 128,
+      "value" : "AggregationLevel"
+    }, {
+      "count" : 110,
+      "value" : "Table"
+    }, {
+      "count" : 49,
+      "value" : "Hierarchy"
+    }, {
+      "count" : 5,
+      "value" : "Analysis"
+    }, {
+      "count" : 3,
+      "value" : "Schema"
+    }, {
+      "count" : 1,
+      "value" : "Cube"
+    }, {
+      "count" : 1,
+      "value" : "OlapPackage"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

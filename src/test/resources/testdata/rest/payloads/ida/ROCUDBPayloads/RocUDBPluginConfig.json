@@ -1,0 +1,460 @@
+{
+  "UDBScan": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBScan",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBScanDS",
+      "credential": "RochadeUDBScanCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ExcludeFilter": [],
+      "ClassPath": "${driver.path};${securityJar.path};${rochade.home}/scanudb/${VersionPathName}/bin/scanudb.jar;${rochade.home}/scanudb/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanudb/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanudb/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "FilterType": "WILDCARD",
+      "FilterSince": "",
+      "dryRun": false,
+      "JavaMemory": "512m",
+      "pluginName": "UDBScan",
+      "ScannerBin": "${rochade.home}/scanudb/${VersionPathName}/bin",
+      "arguments": [],
+      "type": "Rochade",
+      "LogLevel": "CONFIG",
+      "IncludeFilter": []
+    }
+  },
+  "UDBScanIncludeDBWildcard": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBScanIncludeDBWildcard",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBScanDS",
+      "credential": "RochadeUDBScanCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${driver.path};${securityJar.path};${rochade.home}/scanUDB/${VersionPathName}/bin/scanUDB.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "IncludeChildDB": "TRUE",
+      "dryRun": false,
+      "DbFromDBase": "dbc.DBase",
+      "IncludeDBs": "automation_testdata_db,col*",
+      "type": "Rochade",
+      "FilterDateFormat": "yyyy-MM-dd",
+      "DbcUser": "",
+      "LogLevel": "CONFIG",
+      "ExcludeDBs": "",
+      "FilterType": "WILDCARD",
+      "FilterSince": "",
+      "JavaMemory": "512m",
+      "pluginName": "UDBScan",
+      "ScannerBin": "${rochade.home}/scanUDB/${VersionPathName}/bin",
+      "arguments": []
+    }
+  },
+  "UDBScanIncludeDBRegex": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBScanIncludeDBRegex",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBScanDS",
+      "credential": "RochadeUDBScanCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${driver.path};${securityJar.path};${rochade.home}/scanUDB/${VersionPathName}/bin/scanUDB.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "IncludeChildDB": "FALSE",
+      "dryRun": false,
+      "DbFromDBase": "dbc.DBase",
+      "IncludeDBs": "C[A-za-z]+OR",
+      "type": "Rochade",
+      "FilterDateFormat": "yyyy-MM-dd",
+      "DbcUser": "",
+      "LogLevel": "CONFIG",
+      "ExcludeDBs": "",
+      "FilterType": "REGEX",
+      "FilterSince": "",
+      "JavaMemory": "512m",
+      "pluginName": "UDBScan",
+      "ScannerBin": "${rochade.home}/scanUDB/${VersionPathName}/bin",
+      "arguments": []
+    }
+  },
+  "UDBScanExcludeDBWildcard": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBScanExcludeDBWildcard",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBScanDS",
+      "credential": "RochadeUDBScanCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${driver.path};${securityJar.path};${rochade.home}/scanUDB/${VersionPathName}/bin/scanUDB.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "IncludeChildDB": "FALSE",
+      "dryRun": false,
+      "DbFromDBase": "dbc.DBase",
+      "IncludeDBs": "",
+      "type": "Rochade",
+      "FilterDateFormat": "yyyy-MM-dd",
+      "DbcUser": "",
+      "LogLevel": "CONFIG",
+      "ExcludeDBs": "A*,D*,E*,L*,P*,S*,T*",
+      "FilterType": "WILDCARD",
+      "FilterSince": "",
+      "JavaMemory": "512m",
+      "pluginName": "UDBScan",
+      "ScannerBin": "${rochade.home}/scanUDB/${VersionPathName}/bin",
+      "arguments": []
+    }
+  },
+  "UDBScanExcludeDBRegex": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBScanExcludeDBRegex",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBScanDS",
+      "credential": "RochadeUDBScanCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${driver.path};${securityJar.path};${rochade.home}/scanUDB/${VersionPathName}/bin/scanUDB.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "IncludeChildDB": "FALSE",
+      "dryRun": false,
+      "DbFromDBase": "dbc.DBase",
+      "IncludeDBs": "",
+      "type": "Rochade",
+      "FilterDateFormat": "yyyy-MM-dd",
+      "DbcUser": "",
+      "LogLevel": "CONFIG",
+      "ExcludeDBs": "[A|D-T].*",
+      "FilterType": "REGEX",
+      "FilterSince": "",
+      "JavaMemory": "512m",
+      "pluginName": "UDBScan",
+      "ScannerBin": "${rochade.home}/scanUDB/${VersionPathName}/bin",
+      "arguments": []
+    }
+  },
+  "UDBScanDateFilter": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBScanDateFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBScanDS",
+      "credential": "RochadeUDBScanCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${driver.path};${securityJar.path};${rochade.home}/scanUDB/${VersionPathName}/bin/scanUDB.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "IncludeChildDB": "FALSE",
+      "dryRun": false,
+      "DbFromDBase": "dbc.DBase",
+      "IncludeDBs": "",
+      "type": "Rochade",
+      "FilterDateFormat": "yyyy-MM-dd",
+      "DbcUser": "",
+      "LogLevel": "CONFIG",
+      "ExcludeDBs": "",
+      "FilterType": "WILDCARD",
+      "FilterSince": "2020-11-30",
+      "JavaMemory": "512m",
+      "pluginName": "UDBScan",
+      "ScannerBin": "${rochade.home}/scanUDB/${VersionPathName}/bin",
+      "arguments": []
+    }
+  },
+  "UDBScanDateFilter2": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBScanDateFilter2",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBScanDS",
+      "credential": "RochadeUDBScanCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${driver.path};${securityJar.path};${rochade.home}/scanUDB/${VersionPathName}/bin/scanUDB.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanUDB/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "IncludeChildDB": "FALSE",
+      "dryRun": false,
+      "DbFromDBase": "dbc.DBase",
+      "IncludeDBs": "",
+      "type": "Rochade",
+      "FilterDateFormat": "MM/dd/yyyy",
+      "DbcUser": "",
+      "LogLevel": "CONFIG",
+      "ExcludeDBs": "",
+      "FilterType": "WILDCARD",
+      "FilterSince": "11/30/2020",
+      "JavaMemory": "512m",
+      "pluginName": "UDBScan",
+      "ScannerBin": "${rochade.home}/scanUDB/${VersionPathName}/bin",
+      "arguments": []
+    }
+  },
+  "UDBImport": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBImport",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBImportDS",
+      "credential": "RochadeUDBSACredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+      "dryRun": false,
+      "JavaMemory": "512m",
+      "pluginName": "UDBImport",
+      "type": "Rochade",
+      "LogLevel": "CONFIG",
+      "ResetDependencyLinks": false
+    }
+  },
+  "UDBPostprocess": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBPostprocess",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBImportDS",
+      "credential": "RochadeUDBSACredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/scanudb/${VersionPathName}/bin/scanudb.jar;${rochade.home}/scanudb/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanudb/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanudb/${VersionPathName}/bin/json.jar;${rochade.home}/scanudb/${VersionPathName}/bin/SQL2XML.jar;${rochade.home}/scanudb/${VersionPathName}/bin/ds-utils.jar",
+      "dryRun": false,
+      "JavaMemory": "512m",
+      "pluginName": "UDBPostprocess",
+      "ScannerBin": "${rochade.home}/scanudbdata/${VersionPathName}/bin",
+      "LogSuspiciousSql": false,
+      "arguments": [],
+      "LogSuspiciousSqlPath": "",
+      "type": "Rochade",
+      "LogLevel": "CONFIG"
+    }
+  },
+  "UDBReconcile": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeUDBReconcile",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeUDBImportDS",
+      "credential": "RochadeUDBSACredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ServerSeedItem": "*",
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/rrt.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar;",
+      "dryRun": false,
+      "ReconcileCategory": "server",
+      "JavaMemory": "4096m",
+      "pluginName": "UDBReconcile",
+      "ThreadsUsed": "4",
+      "type": "Rochade",
+      "DatabaseSeedItem": "*"
+    }
+  },
+  "EDIBus": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBus_UDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusUDBDS",
+      "credential": "RochadeUDBSACredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        "UDB"
+      ],
+      "dryRun": false,
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "replicate",
+        "incremental": false
+      }
+    }
+  },
+  "EDIBusWithTypes": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBus_UDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusUDBDS",
+      "credential": "RochadeUDBSACredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        "UDB"
+      ],
+      "dryRun": false,
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [
+        "DWR_TFM_SYSTEM",
+        "DWR_TFM_TASK",
+        "DWR_TFM_TRANSFORMATION",
+        "DWR_TFM_TRANSFORMATION_MAP"
+      ],
+      "commands and flags": {
+        "function": "replicate",
+        "incremental": false
+      }
+    }
+  },
+  "EDIBusCleanup": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBus_UDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusUDBDS",
+      "credential": "RochadeUDBSACredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        "UDB"
+      ],
+      "dryRun": false,
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "cleanup",
+        "incremental": false
+      }
+    }
+  }
+}

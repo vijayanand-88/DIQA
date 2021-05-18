@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithNoFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["Orc12cCDBCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "Oracle12cCDBDS",
+      "credential": "Oracle12cCDBCredentials",
+      "businessApplicationName":"Oracle12C_CDB_Cat",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

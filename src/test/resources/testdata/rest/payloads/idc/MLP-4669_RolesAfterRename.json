@@ -1,0 +1,17 @@
+{
+  "roleMappings": [
+    {
+      "role": "DATA_ADMIN",
+      "user": "TestDataAdmin"
+    },
+    {
+      "role": "SYSTEM_ADMIN",
+      "user": "TestSystem"
+    },
+    {
+      "role": "GUEST_USER",
+      "user": "TestGuestUser"
+    }
+
+  ]
+}

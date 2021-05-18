@@ -1,0 +1,54 @@
+{
+  "FileSystem_Feeder": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "CAE",
+      "dryRun": false,
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "label": {
+        "": ""
+      },
+      "type": "CAE",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "Valid_Feeder_Cred",
+      "pluginName": "CAEFeed",
+      "name": "FileSystem_Feeder",
+      "ProjectRootFolder": "${cae.project.home}",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "FileSystem_Feeder_DS",
+      "businessApplicationName": null
+    }
+  },
+  "FileSystem_Feeder_Sql": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "CAE",
+      "dryRun": false,
+      "nodeCondition": "name==\"DIQDOCKER02V.DIQ.QA.ASGINT.LOC\"",
+      "label": {
+        "": ""
+      },
+      "type": "CAE",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "Valid_Feeder_Cred_SQLServer",
+      "pluginName": "CAEFeed",
+      "name": "FileSystem_Feeder_Sql",
+      "ProjectRootFolder": "${cae.project.home}",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "FileSystem_Feeder_DS_SQL",
+      "businessApplicationName": null
+    }
+  }
+}

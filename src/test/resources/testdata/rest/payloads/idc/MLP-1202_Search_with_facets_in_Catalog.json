@@ -1,0 +1,14 @@
+{
+  "facets": {
+    "type_s": null
+  },
+  "selections": {
+    "type_s": ["Table"]
+  },
+
+  "sorting": [{
+    "name_s": true
+  }]
+
+
+}

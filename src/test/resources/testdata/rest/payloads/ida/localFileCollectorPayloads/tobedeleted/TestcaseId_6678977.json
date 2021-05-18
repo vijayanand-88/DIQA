@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+	"class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OnlyFoldersFromDir",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "OnlyFoldersFromDir"
+      },
+      "catalogName": "OnlyFoldersFromDir",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "filter": {
+        "filters": [],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "Root Level"
+              },
+              "tags": null,
+              "fileMode": "exclude",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+                "**/python/**/resources/*"
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "root": "/lfc_testfiles",
+      "incrementalRun": true
+	}
+  ]
+}

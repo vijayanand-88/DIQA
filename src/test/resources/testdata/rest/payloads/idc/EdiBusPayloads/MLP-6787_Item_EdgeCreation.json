@@ -1,0 +1,12 @@
+[
+  {
+    "edgelabel": "lineageFrom",
+    "sourceId": "LineageData.LineageHop:::1",
+    "targetId": "LineageData.Column:::1"
+  },
+  {
+    "edgelabel": "lineageTo",
+    "sourceId": "LineageData.LineageHop:::1",
+    "targetId": "LineageData.Column:::2"
+  }
+]

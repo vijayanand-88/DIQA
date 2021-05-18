@@ -1,0 +1,28 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "dataanalyzer",
+    "dryRun" : true,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Dataanalyzer",
+    "tags" : [ "Orc19cPDBAnalyzer" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "histogramBuckets" : 100,
+    "pluginVersion" : "LATEST",
+    "database" : "IDADB",
+    "credential" : null,
+    "pluginName" : "OracleDBAnalyzer",
+    "sampleDataCount" : 25,
+    "name" : "OracleAnalyzer_DryRun",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : null,
+    "topValues" : 10,
+    "businessApplicationName" : "Oracle_19C_Ay"
+  } ]
+}

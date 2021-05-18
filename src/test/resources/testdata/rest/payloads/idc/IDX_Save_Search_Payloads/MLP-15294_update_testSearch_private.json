@@ -1,0 +1,19 @@
+{
+  "data": "",
+  "advanced": false,
+  "post": {
+    "selections": {
+      "type_s": [],
+      "asg.parentTypeNamePathHierarchy_ss": [],
+      "asg.ratingAvg_d": [],
+      "dataType_s": [],
+      "asg.modifiedAt_dt": [],
+      "asg.modifiedBy_s": []
+    },
+    "sorting": []
+  },
+  "name": "TestPrivateSearch1",
+  "widgets": [],
+  "value": "/search",
+  "area": "BigData"
+}

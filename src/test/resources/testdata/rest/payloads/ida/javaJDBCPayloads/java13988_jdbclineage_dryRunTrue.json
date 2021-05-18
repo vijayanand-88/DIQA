@@ -1,0 +1,18 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "JavaJDBCLineageJJDryRun",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": "JavaJDBCLineageJJDryRun"
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "filter": null,
+  "tags": ["tagJavaJDBCLinOracleDryRun"],
+  "dryRun": true,
+  "pluginType": "lineage",
+  "businessApplicationName": "test_BA_JavaJDBCOracle"
+}

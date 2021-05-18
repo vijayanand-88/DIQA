@@ -1,0 +1,348 @@
+{
+  "Namespaces": {
+    "has_namespaces": {
+      "parent": {
+        "simple.foo": {
+          "sources": {
+            "foo": {
+              "value": "foo.py"
+            }
+          },
+          "parent_nameSpace": {
+            "value": "simple.foo"
+          }
+        },
+        "simple.doo": {
+          "sources": {
+            "doo": {
+              "value": "doo.py"
+            }
+          },
+          "parent_nameSpace": {
+            "value": "simple.doo"
+          }
+        },
+        "simple_level2": {
+          "sources": {
+            "__init__.py": {
+              "value": "__init__.py"
+            }
+          },
+          "parent_nameSpace": {
+            "value": "simple.level2"
+          },
+          "has_namespaces": {
+            "child_nameSpace": {
+              "value": "simple.level2.goo"
+            },
+            "sources": {
+              "goo": {
+                "value": "goo.py"
+              }
+            }
+          }
+        },
+        "simple_level1": {
+          "sources": {
+            "__init__.py": {
+              "value": "__init__.py"
+            }
+          },
+          "parent_nameSpace": {
+            "value": "simple.level1"
+          },
+          "has_namespaces": {
+            "simple.level1.boo": {
+              "child_nameSpace": {
+                "value": "simple.level1.boo"
+              },
+              "sources": {
+                "boo": {
+                  "value": "boo.py"
+                }
+              }
+            },
+            "simple_level1_level1_1": {
+              "child_nameSpace": {
+                "value": "simple.level1.level1_1"
+              },
+              "sources": {
+                "__init__.py": {
+                  "value": "__init__.py"
+                }
+              },
+              "has_namespaces": {
+                "sources": {
+                  "level1_1doo": {
+                    "value": "level1_1doo.py"
+                  }
+                },
+                "value": "simple.level1.level1_1.level1_1doo"
+              }
+            },
+            "simple.level1.level1foo": {
+              "child_nameSpace": {
+                "value": "simple.level1.level1foo"
+              },
+              "sources": {
+                "level1foo": {
+                  "value": "level1foo.py"
+                }
+              }
+            },
+            "simple.level1.boo1": {
+              "child_nameSpace": {
+                "value": "simple.level1.boo1"
+              },
+              "sources": {
+                "boo1": {
+                  "value": "boo1.py"
+                }
+              }
+            },
+            "simple.level1.level1doo": {
+              "child_nameSpace": {
+                "value": "simple.level1.level1doo"
+              },
+              "sources": {
+                "level1doo": {
+                  "value": "level1doo.py"
+                }
+              }
+            },
+            "simple.level1.boo2": {
+              "child_nameSpace": {
+                "value": "simple.level1.boo2"
+              },
+              "sources": {
+                "boo2": {
+                  "value": "boo2.py"
+                }
+              }
+            },
+            "simple.level1.boo3": {
+              "child_nameSpace": {
+                "value": "simple.level1.boo3"
+              },
+              "sources": {
+                "boo3": {
+                  "value": "boo3.py"
+                }
+              }
+            },
+            "simple.level1.boo4": {
+              "child_nameSpace": {
+                "value": "simple.level1.boo4"
+              },
+              "sources": {
+                "boo4": {
+                  "value": "boo4.py"
+                }
+              }
+            }
+          }
+        },
+        "simple.soo": {
+          "sources": {
+            "soo": {
+              "value": "soo.py"
+            }
+          },
+          "parent_nameSpace": {
+            "value": "simple.soo"
+          }
+        }
+      },
+      "sources": {
+        "__init__.py": {
+          "value": "__init__.py"
+        }
+      }
+    }
+  },
+  "MetaData": {
+    "sourceTree": {
+      "sourceTreeName": {
+        "sample1": {
+          "Number_of_Imports": 1,
+          "boo1": {
+            "Number_of_Imports": 3,
+            "ClassName": "boo1",
+            "Raw_Imports": "{name:..foo.*,start:{lineNumber:1,position:1},stop:{lineNumber:1,position:20},resolved:Default.SourceTree:::2425},{name:..soo.SooClass,start:{lineNumber:2,position:1},stop:{lineNumber:2,position:24},resolved:Default.SourceTree:::2426},{name:...soo.soo,start:{lineNumber:2,position:1},stop:{lineNumber:2,position:24},resolved:Default.SourceTree:::2426}",
+            "Has_Import": {
+              "soo": {
+                "value": "soo"
+              },
+              "foo": {
+                "value": "foo"
+              }
+            }
+
+          },
+          "boo": {
+            "Number_of_Imports": 1,
+            "ClassName": "boo",
+            "Has_Import": {
+              "__init__": {
+                "value": "__init__"
+              }
+            },
+            "Raw_Imports": "{name:...*,start:{lineNumber:1,position:1},stop:{lineNumber:1,position:17},resolved:Default.SourceTree:::2424}"
+          },
+          "ClassName": "sample1",
+          "Has_Import": {
+            "sample2": {
+              "value": "sample2"
+            }
+          },
+          "ErrorDetails": "[]",
+          "boo4": {
+            "Number_of_Imports": 1,
+            "ClassName": "boo4",
+            "Has_Import": {
+              "doo": {
+                "value": "doo"
+              }
+            },
+            "Raw_Imports": "{name:...doo,start:{lineNumber:1,position:1},stop:{lineNumber:1,position:17},resolved:Default.SourceTree:::2423}"
+          },
+          "Raw_Imports": "[]",
+          "boo2": {
+            "Number_of_Imports": 1,
+            "ClassName": "boo2",
+            "Has_Import": {
+              "__init__": {
+                "value": "__init__"
+              }
+            },
+            "has_Class": {
+              "has_methods": {
+                "testRelativeImports": {
+                  "Method": "testRelativeImports"
+                }
+              },
+              "has_uses": {
+                "soo": {
+                  "value": "soo"
+                },
+                "foo": {
+                  "value": "foo"
+                },
+                "fooClassFunc": {
+                  "value": "fooClassFunc"
+                },
+                "sooClassFunc": {
+                  "value": "sooClassFunc"
+                }
+              },
+              "Has_Import": {
+                "soo": {
+                  "value": "soo"
+                },
+                "foo": {
+                  "value": "foo"
+                }
+              }
+            },
+            "Raw_Imports": "{name:simple,start:{lineNumber:1,position:1},stop:{lineNumber:1,position:9},resolved:Default.SourceTree:::2424}"
+          },
+          "boo3": {
+            "Number_of_Imports": 1,
+            "ClassName": "boo3",
+            "Has_Import": {
+              "doo": {
+                "value": "doo"
+              }
+            },
+            "Raw_Imports": "{name:...doo,start:{lineNumber:1,position:1},stop:{lineNumber:1,position:17},resolved:Default.SourceTree:::2423}"
+          },
+          "sample2": {
+            "Number_of_Imports": 1,
+            "ClassName": "sample1",
+            "Has_Import": {
+              "sample2": {
+                "value": "sample2"
+              }
+            },
+            "Raw_Imports": "[{\"name\":\"tensorflow\",\"alias\":\"tf\",\"start\":{\"lineNumber\":1,\"position\":1},\"stop\":{\"lineNumber\":1,\"position\":23}}]"
+          }
+        },
+        "Error": {
+          "comments": "[{\"lineNumber\":1,\"position\":4,\"errorMsg\":\"missing ':' at ' '\",\"userInfo\":\"missing \",\"name\":\"error\"},{\"lineNumber\":5,\"position\":6,\"errorMsg\":\"extraneous input '\\\\t\\\\t    ' expecting {'def', 'return', 'raise', 'from', 'import', 'global', 'nonlocal', 'assert', 'if', 'while', 'for', 'try', 'with', 'lambda', 'not', 'None', 'True', 'False', 'class', 'yield', 'del', 'pass', 'continue', 'break', 'async', 'await', NAME, STRING_LITERAL, BYTES_LITERAL, UNSIGNED_INTEGER, DECIMAL_INTEGER, OCT_INTEGER, HEX_INTEGER, BIN_INTEGER, FLOAT_NUMBER, IMAG_NUMBER, '...', '*', '(', '[', '+', '-', '~', '{', '@', DEDENT}\",\"userInfo\":\"extraneous input \",\"name\":\"error\"},{\"lineNumber\":5,\"position\":24,\"errorMsg\":\"extraneous input ')' expecting {<EOF>, 'def', 'return', 'raise', 'from', 'import', 'global', 'nonlocal', 'assert', 'if', 'while', 'for', 'try', 'with', 'lambda', 'not', 'None', 'True', 'False', 'class', 'yield', 'del', 'pass', 'continue', 'break', 'async', 'await', NEWLINE, NAME, STRING_LITERAL, BYTES_LITERAL, UNSIGNED_INTEGER, DECIMAL_INTEGER, OCT_INTEGER, HEX_INTEGER, BIN_INTEGER, FLOAT_NUMBER, IMAG_NUMBER, '...', '*', '(', '[', '+', '-', '~', '{', '@'}\",\"userInfo\":\"extraneous input \",\"name\":\"error\"}]"
+        },
+        "FunctionDefinition": {
+          "has_methods": {
+            "car": {
+              "comments": "# init method or constructor "
+            }
+          },
+          "has_Class": {
+            "FunctionDefinition": {
+              "comments": "# both objects have different self which  \n# contain their attributes \n# same output as car.show(audi) \n# same output as car.show(ferrari) \n# Behind the scene, in every instance method  \n# call, python sends the instances also with \n# that method call like car.show(audi)"
+            }
+          }
+        },
+        "ClassInsideFunction": {
+          "has_methods": {
+            "func": {
+              "has_methods": {
+                "car": {
+                  "comments": "# init method or constructor "
+                }
+              },
+              "has_Class": {
+                "BindArgs": {
+                  "has_methods": {
+                    "__init__": {
+                      "Method": "__init__"
+                    }
+                  },
+                  "ClassName": "BindArgs"
+                }
+              },
+              "Method": "func"
+            }
+          },
+          "ClassName": "ClassInsideFunction"
+        },
+        "ImportStatement": {
+          "RawImports": "[{\"name\":\"draw\",\"start\":{\"lineNumber\":1,\"position\":1},\"stop\":{\"lineNumber\":1,\"position\":15}},{\"name\":\"circle\",\"start\":{\"lineNumber\":1,\"position\":1},\"stop\":{\"lineNumber\":1,\"position\":15}},{\"name\":\"moduletest.ageofqueen\",\"start\":{\"lineNumber\":2,\"position\":1},\"stop\":{\"lineNumber\":2,\"position\":25}},{\"name\":\"moduletest.printhello\",\"start\":{\"lineNumber\":3,\"position\":1},\"stop\":{\"lineNumber\":3,\"position\":25}},{\"name\":\"...*\",\"start\":{\"lineNumber\":4,\"position\":1},\"stop\":{\"lineNumber\":4,\"position\":17}}]",
+          "Numberofimports": 5
+        },
+        "ClassDefinitions": {
+          "has_Class": {
+            "Parent": {
+              "has_methods": {
+                "printname": {
+                  "Method": "printname"
+                },
+                "__init__": {
+                  "Method": "__init__"
+                }
+              },
+              "ClassName": "Parent"
+            },
+            "Child": {
+              "has_methods": {
+                "__init__": {
+                  "Method": "__init__"
+                }
+              },
+              "ClassName": "Child"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Analysis": {
+    "PackageLinker": {
+      "ProcessedItems": {
+        "Number_of_ProcessedItems": 50,
+        "Processed Items": {
+          "value": "AssertStatementwithError.py"
+        }
+      }
+    }
+  }
+}

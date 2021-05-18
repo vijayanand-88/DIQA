@@ -1,0 +1,49 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "ReportLineage",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"InternalNode\"",
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "bulk",
+  "dataSource": "EDIBusReportDataSource",
+  "credential": "EDIBusReportCredentials",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "IDA types": [],
+  "EDI technologies": [],
+  "pluginName": "EDIBus",
+  "type": "Bulk",
+  "EDI types": [
+    "DWR_RDB_DB_SYSTEM",
+    "DWR_RDB_DATABASE",
+    "DWR_RDB_SCHEMA",
+    "DWR_RDB_TABLE_OR_VIEW",
+    "DWR_RDB_COLUMN",
+    "DWR_TFM_SYSTEM",
+    "DWR_TFM_TASK",
+    "DWR_TFM_TRANSFORMATION",
+    "DWR_TFM_TRANSFORMATION_MAP",
+    "DWR_ANL_REPORT",
+    "DWR_ANL_RPT_SCHEMA",
+    "DWR_ANL_RPT_PACKAGE",
+    "DWR_ANL_RPT_STRUCTURE",
+    "DWR_ANL_RPT_FIELD",
+    "DWR_ANL_RPT_MAP"
+  ],
+  "commands and flags": {
+    "function": "replicate",
+    "batch size": 1000,
+    "incremental": false,
+    "run in transaction": false
+  },
+  "IDA technologies": [
+  ]
+}

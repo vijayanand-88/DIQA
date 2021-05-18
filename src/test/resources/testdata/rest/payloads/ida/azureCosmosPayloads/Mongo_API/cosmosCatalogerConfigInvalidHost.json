@@ -1,0 +1,22 @@
+{
+"configurations": [{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "CosmosMetadata9",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "CosmosMetadata9",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "filter": null,
+  "database": "Tasks",
+  "tables": [],
+  "host": "asgmongodo.documents.azure.com",
+  "user": "Devi.Niranjani@asg.com",
+  "primarykey": "ybEcljNa4pFaKhuL7Pum7bba0upeoD6yqbkYeVDKpZTVRbuMESbSw1s9b0NhCv8xFyA6S10bwZvrR6gVtNLOyg=="
+}
+]
+}

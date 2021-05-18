@@ -1,0 +1,1 @@
+{"classID":2417,"functionID":2445,"hopsList":["\/C:\/work_related\/Amazon_S3\/SampleFile\/upload\/SampleTestFile.txt => UploadedS3File.txt","SourceFile.txt => CopiedFile.txt"],"hopsID":{"SourceFile.txt => CopiedFile.txt":2482,"\/C:\/work_related\/Amazon_S3\/SampleFile\/upload\/SampleTestFile.txt => UploadedS3File.txt":2483}}

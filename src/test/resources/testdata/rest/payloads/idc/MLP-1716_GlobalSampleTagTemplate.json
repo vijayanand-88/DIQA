@@ -1,0 +1,39 @@
+{
+  "name": "Sample",
+  "definition": "New Template for Testing",
+  "rootTags": [{
+    "name": "Sample",
+    "definition": "New tag template",
+    "status": "APPROVED",
+    "newName": "",
+    "subTags": [{
+      "name": "Sample One",
+      "definition": "",
+      "status": "APPROVED",
+      "subTags": [],
+      "facet": true
+    },
+      {
+        "name": "Sample Two",
+        "definition": "",
+        "status": "APPROVED",
+        "subTags": [],
+        "facet": true
+      },
+      {
+        "name": "Sample Three",
+        "definition": "",
+        "status": "APPROVED",
+        "subTags": [],
+        "facet": true
+      },
+      {
+        "name": "Sample Four",
+        "definition": "",
+        "status": "APPROVED",
+        "subTags": [],
+        "facet": true
+      }
+    ]
+  }]
+}

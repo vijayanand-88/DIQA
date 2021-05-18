@@ -1,0 +1,16 @@
+{
+  "city": [
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city1"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city1",
+      "dir": "->",
+      "target": "city"
+    }
+  ]
+}

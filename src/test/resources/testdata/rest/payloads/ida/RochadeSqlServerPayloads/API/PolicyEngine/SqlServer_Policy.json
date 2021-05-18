@@ -1,0 +1,252 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "pluginName": "SQLServerDBAnalyzer",
+    "technologies": [
+      ""
+    ],
+    "view": {
+      "label": "SQLServerDBAnalyzer",
+      "value": "SQLServerDBAnalyzer"
+    },
+    "dataType": "STRUCTURED"
+  },
+  "outputs": [
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "intTag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "INT",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "varcharTag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "nvarcharTag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "NVARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "intTag1"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "INTS",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "varcharTag1"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VARS.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "nvarcharTag1"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "NVARCHAR1",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "intType"
+      ],
+      "matchFull": false,
+      "namePattern": "intType",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "varcharType"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".varchar.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "nvarcharType"
+      ],
+      "matchFull": false,
+      "namePattern": "nvarchar.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "intType2"
+      ],
+      "matchFull": false,
+      "namePattern": "intType1",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "varcharType2"
+      ],
+      "matchFull": false,
+      "namePattern": "varcharType1",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "nvarcharType2"
+      ],
+      "matchFull": false,
+      "namePattern": "nvarcharType1",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "intType3"
+      ],
+      "matchFull": false,
+      "namePattern": "intType",
+      "typePattern": "INT",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "varcharType3"
+      ],
+      "matchFull": false,
+      "namePattern": "varchar.*",
+      "typePattern": "VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "nvarcharType3"
+      ],
+      "matchFull": false,
+      "namePattern": "nvarcharType",
+      "typePattern": "NVARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "intTag4"
+      ],
+      "matchFull": false,
+      "namePattern": "intType",
+      "typePattern": "INTS",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "varcharTag4"
+      ],
+      "matchFull": false,
+      "namePattern": "VARCH1",
+      "typePattern": "text1",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "SQLSERVER_PII",
+      "dataPattern": "*",
+      "tags": [
+        "nvarcharTag4"
+      ],
+      "matchFull": false,
+      "namePattern": ".*nvarchar1.*",
+      "typePattern": "text1",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    }
+    
+  ]
+}

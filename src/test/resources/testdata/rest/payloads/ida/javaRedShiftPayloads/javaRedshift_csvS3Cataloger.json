@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CsvS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "CsvS3Cataloger"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagRedshiftCsv"],
+      "businessApplicationName": "test_BA_JavaRedshiftLineage",
+      "pluginType": "cataloger",
+      "dataSource": "CsvS3DataSource",
+      "credential": "AWS_Credentials",
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "delimiter": ",",
+      "incremental": false,
+      "bucketFilter": {
+        "patterns": [
+          "asgredshifttest"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "javaredshiftlineage"
+          ],
+          "dirFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      },
+      "firstRowAsHeader": true
+    }
+  ]
+}

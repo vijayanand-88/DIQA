@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaIOLineage",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaIOLineage"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaIOLineage"],
+      "businessApplicationName": "test_BA_JavaIOLineage",
+      "pluginType": "lineage",
+      "dryRun": false,
+      "filter": null
+    }
+  ]
+}

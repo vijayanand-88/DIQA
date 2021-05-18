@@ -1,0 +1,12 @@
+{
+    "id": "5",
+    "userid": "500",
+    "category": "personal",
+    "name": "Books",
+    "description": "Pick up books.",
+    "_rid": "kShuAKb6m9IFAAAAAAAAAA==",
+    "_self": "dbs/kShuAA==/colls/kShuAKb6m9I=/docs/kShuAKb6m9IFAAAAAAAAAA==/",
+    "_etag": "\"180085d0-0000-0000-0000-5c860ba80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1552288680
+}

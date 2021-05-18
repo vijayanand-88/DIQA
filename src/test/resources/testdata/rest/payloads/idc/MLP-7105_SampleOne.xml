@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/Analyzer/10.1.0">
+	<xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+	<Cluster xmi:id="Cluster_6" xsi:type="Cluster" name="LineageCluster">
+		<definitions xmi:id="Service_6" xsi:type="Service" name="LineageService">
+			<definitions xmi:id="Database_6" xsi:type="Database" name="DBEnd">
+				<definitions xmi:id="Table_11" xsi:type="Table" name="SeedTabOne">
+					<definitions xmi:id="Column_45" xsi:type="Column" name="ColThree">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_12" xsi:type="Table" name="ForwTabOne">
+					<definitions xmi:id="Column_46" xsi:type="Column" name="ColFour">
+					</definitions>
+				</definitions>
+
+
+
+			</definitions>
+		</definitions>
+	</Cluster>
+</xmi:XMI>

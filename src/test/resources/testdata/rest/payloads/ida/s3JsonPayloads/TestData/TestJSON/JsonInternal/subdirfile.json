@@ -1,0 +1,57 @@
+{
+"CNavigatorCataloger": [{
+		"class": "com.asg.dis.common.analysis.dom.CNavigatorConfiguration",
+		"name": "CNavigatorCataloger",
+		"pluginVersion": "LATEST",
+		"label": {
+			"": "CNavigatorCataloger",
+			"en": "CNavigatorCataloger"
+		},
+		"catalogName": "BigData",
+		"eventClass": null,
+		"eventCondition": null,
+		"trackRelations": true,
+		"sourceType": true,
+		"filterSource": {
+			"filters": [{
+					"label": {
+						"": "Hive Entities"
+					},
+					"class": "com.asg.dis.common.analysis.dom.CNavigatorFilter",
+					"sourceTypes": [
+						"Hive"
+					],
+					"tags": [
+						"Hive"
+					]
+				}
+			]
+		},
+		"entityName": true,
+		"nameFilters": {
+			"filters": [{
+					"label": {
+						"": "Name Filter"
+					},
+					"class": "com.asg.dis.common.analysis.dom.CNavigatorFilter",
+					"namePattern": [
+						"*defau*"
+					]
+				}
+			]
+		},
+		"timeFilters": {
+			"filters": [{
+					"label": {
+						"": "Time Slot"
+					},
+					"class": "com.asg.dis.common.analysis.dom.CNavigatorFilter",
+					"from": "2018-05-21T01:01",
+					"to": "2018-05-27T01:01"
+				}
+			]
+		},
+		"timeRange": true
+	}
+]
+}

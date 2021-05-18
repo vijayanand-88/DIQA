@@ -1,0 +1,356 @@
+{
+  "CatalogConfig": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumCataloger",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "spectrumctag"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SpectrumDS",
+    "credential": "Spectrum_Credentials",
+    "filter": null,
+    "businessApplicationName": "Item_511",
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "pluginName": "AmazonSpectrumCataloger",
+    "type": "Cataloger",
+    "properties": []
+  },
+  "CatalogConfigone": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumCataloger",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "spectrumctag"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SpectrumDS",
+    "credential": "Spectrum_Credentials",
+    "filter": null,
+    "businessApplicationName": null,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "pluginName": "AmazonSpectrumCataloger",
+    "type": "Cataloger",
+    "properties": []
+  },
+  "namePatterntagset": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Spectrumatag"
+    ],
+    "businessApplicationName": null,
+    "pluginType": "dataanalyzer",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redhsifttagallempty"
+          },
+          {
+            "table": "redshifttagallmatch"
+          },
+          {
+            "table": "redshifttagequalto05"
+          },
+          {
+            "table": "redshifttagratiogreaterthan05emptyfalsetrue"
+          },
+          {
+            "table": "redshifttaglesserthan05"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "typePatterntagset": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Spectrumatag"
+    ],
+    "pluginType": "dataanalyzer",
+    "businessApplicationName": "Item_511",
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "sampleDataCount": 25,
+    "queryBatchSize": 100,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "mode": "INCLUDE",
+        "tables": [
+          {
+            "table": "redhsifttagallempty"
+          },
+          {
+            "table": "redshifttagallmatch"
+          },
+          {
+            "table": "redshifttagequalto05"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "pluginName": "AmazonSpectrumAnalyzer",
+    "topValues": 10
+  },
+  "S3CatalogConfig": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonS3Cataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "S3tag"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AmazonS3DataSource",
+    "credential": "AWS_Amazon_Credentials",
+    "filter": null,
+    "keepEmptyFolders": false,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "pluginName": "AmazonS3Cataloger",
+    "type": "Cataloger",
+    "incremental": false,
+    "bucketFilter": {
+      "patterns": [
+        "asgredshiftworlddata"
+      ],
+      "mode": "INCLUDE",
+      "objectFilter": {
+        "dirPrefixes": [
+          "/QA"
+        ],
+        "dirFilter": {
+          "patterns": [
+            "*/RedshiftTag/*"
+          ],
+          "mode": "INCLUDE"
+        },
+        "fileFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        }
+      }
+    }
+  },
+  "CatalogConfignotag": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumCataloger",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "spectrumctag"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SpectrumDS",
+    "credential": "Spectrum_Credentials",
+    "filter": null,
+    "businessApplicationName": "Item_511",
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "pluginName": "AmazonSpectrumCataloger",
+    "type": "Cataloger",
+    "properties": []
+  },
+  "CatalogConfignoPIItagba": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumCataloger",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "spectrumctag"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SpectrumDS",
+    "credential": "Spectrum_Credentials",
+    "filter": null,
+    "businessApplicationName": null,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "pluginName": "AmazonSpectrumCataloger",
+    "type": "Cataloger",
+    "properties": []
+  },
+  "CatalogConfignoPIItag": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumCataloger",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "spectrumctag"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SpectrumDS",
+    "credential": "Spectrum_Credentials",
+    "filter": null,
+    "businessApplicationName": "Item_511",
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "pluginName": "AmazonSpectrumCataloger",
+    "type": "Cataloger",
+    "properties": []
+  },
+  "CatalogConfignoPIItagandBa": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonSpectrumCataloger",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"InternalNode\"",
+    "maxWorkSize": 100,
+    "tags":[],
+    "pluginType": "cataloger",
+    "dataSource": "SpectrumDS",
+    "credential": "Spectrum_Credentials",
+    "filter": null,
+    "businessApplicationName": null,
+    "schemas": [
+      {
+        "schema": "spectrumtest",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "pluginName": "AmazonSpectrumCataloger",
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Redshift":{
+
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonRedshiftAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["RedshiftAna"],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Item_511",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "batchWrite": true,
+    "database": "world",
+    "pluginName": "AmazonRedshiftAnalyzer",
+    "queryBatchSize": 100,
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "mode": "INCLUDE",
+        "schema": "testschema",
+        "tables": [
+          {
+            "table": "redshifttagequalto05view"
+          }
+        ]
+      }
+    ],
+    "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "incremental": false,
+    "type": "Dataanalyzer",
+    "topValues": 10
+  }
+}
+

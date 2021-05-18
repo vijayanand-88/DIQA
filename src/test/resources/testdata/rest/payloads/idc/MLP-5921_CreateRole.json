@@ -1,0 +1,43 @@
+{
+  "name": "NewUserRole",
+  "label": {
+    "": "NewUserRole",
+    "en": "NewUserRole"
+  },
+  "description": {
+    "": "",
+    "en": ""
+  },
+  "permissions": [
+    "UPLOAD_MODIFY",
+    "ADMIN_SERVICES",
+    "DATASET_MODIFY",
+    "DATASET_REQUEST_ACCESS",
+    "UPLOAD_DELETE",
+    "ADMIN_ANALYSIS",
+    "DATA_APPROVE",
+    "DATASET_ANALYSIS",
+    "TAG_APPROVE",
+    "ADMIN_ACCESS",
+    "TAG_DELETE",
+    "ADMIN_DELETION",
+    "ADMIN_SECURITY",
+    "DATASET_APPROVE",
+    "TRIGGER_ANALYSIS",
+    "ADMIN_CATALOG",
+    "ADMIN_WIDGETS",
+    "DATA_DELETE",
+    "DATASET_DELETE",
+    "ADMIN_STRUCTURE",
+    "TAG_CREATE",
+    "DATA_MODIFY",
+    "ADMIN_DASHBOARD",
+    "TAG_SUGGEST",
+    "BASE_PERMISSION",
+    "UPLOAD_CREATE",
+    "DATASET_CREATE",
+    "UPLOAD_APPROVE",
+    "DATA_TAG",
+    "DATA_CREATE"
+  ]
+}

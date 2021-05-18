@@ -1,0 +1,12 @@
+{
+    "id": "10",
+    "userid": "1000",
+    "category": "personal",
+    "name": "gadgets",
+    "description": "Pick up gadgets.",
+    "_rid": "kShuAKb6m9IKAAAAAAAAAA==",
+    "_self": "dbs/kShuAA==/colls/kShuAKb6m9I=/docs/kShuAKb6m9IKAAAAAAAAAA==/",
+    "_etag": "\"180074d3-0000-0000-0000-5c860c2c0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1552288812
+}

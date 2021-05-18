@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgreAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "PostgressTag1"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "PostgressBA",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 100,
+      "database": "postgres",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "queryBatchSize": 1,
+      "sampleDataCount": 10,
+      "schemas": [
+        {
+          "schema": "postgresstestschema1",
+          "tables": [
+            {
+              "table": "DiffDataTypesMinimized1"
+            },
+			{
+          "table": "DiffDataTypesMinimizedView1"
+            }
+          ]
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

@@ -1,0 +1,1669 @@
+{
+  "count" : 19,
+  "results" : [ {
+    "id" : "Default.File:::2511",
+    "type" : "File",
+    "name" : "city.csv",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1/Directory/subdirectory/Directory/city" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3697",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2511
+    }, {
+      "id" : "Default.tag:::3715",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2511
+    }, {
+      "id" : "Default.tag:::6800",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2511,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2501",
+    "type" : "File",
+    "name" : "Capture.jpg",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3698",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2501
+    }, {
+      "id" : "Default.tag:::3716",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2501
+    }, {
+      "id" : "Default.tag:::6801",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2501,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2502",
+    "type" : "File",
+    "name" : "AWSS3Errors.txt",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3699",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2502
+    }, {
+      "id" : "Default.tag:::3717",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2502
+    }, {
+      "id" : "Default.tag:::6802",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2502,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2503",
+    "type" : "File",
+    "name" : "userInfo.avro",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3700",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2503
+    }, {
+      "id" : "Default.tag:::3718",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2503
+    }, {
+      "id" : "Default.tag:::6803",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2503,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2504",
+    "type" : "File",
+    "name" : "userTest.avro",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3701",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2504
+    }, {
+      "id" : "Default.tag:::3719",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2504
+    }, {
+      "id" : "Default.tag:::6804",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2504,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2505",
+    "type" : "File",
+    "name" : "ExceptionforRegion.txt",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3702",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2505
+    }, {
+      "id" : "Default.tag:::3720",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2505
+    }, {
+      "id" : "Default.tag:::6805",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2505,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2506",
+    "type" : "File",
+    "name" : "user.json",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3703",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2506
+    }, {
+      "id" : "Default.tag:::3721",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2506
+    }, {
+      "id" : "Default.tag:::6806",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2506,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2507",
+    "type" : "File",
+    "name" : "user.avro",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3704",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2507
+    }, {
+      "id" : "Default.tag:::3722",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2507
+    }, {
+      "id" : "Default.tag:::6807",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2507,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2508",
+    "type" : "File",
+    "name" : "avro.xlsx",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3706",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2508
+    }, {
+      "id" : "Default.tag:::3724",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2508
+    }, {
+      "id" : "Default.tag:::6808",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2508,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::2509",
+    "type" : "File",
+    "name" : "baseversion.xlsx",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1/Directory/version" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3707",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2509
+    }, {
+      "id" : "Default.tag:::3725",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2509
+    }, {
+      "id" : "Default.tag:::6809",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2509,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Service:::2494",
+    "type" : "Service",
+    "name" : "AmazonS3",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3734",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.187+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.187+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2494
+    }, {
+      "id" : "Default.tag:::3736",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.187+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.187+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2494
+    }, {
+      "id" : "Default.tag:::6822",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2494,
+      "asg_modifiedat" : "2020-08-20T07:33:03.571+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.571+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Analysis:::3567",
+    "type" : "Analysis",
+    "name" : "cataloger/AmazonS3Cataloger/AmazonS3Catalog/2020-08-20T07:32:55.857+0000",
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::6810",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 3567,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::6818",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 3567
+    }, {
+      "id" : "Default.tag:::6820",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 3567
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Cluster:::2493",
+    "type" : "Cluster",
+    "name" : "amazonaws.com",
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3735",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.187+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.187+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2493
+    }, {
+      "id" : "Default.tag:::3737",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.187+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.187+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2493
+    }, {
+      "id" : "Default.tag:::6823",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2493,
+      "asg_modifiedat" : "2020-08-20T07:33:03.571+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.571+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::2499",
+    "type" : "Directory",
+    "name" : "version",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3708",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2499
+    }, {
+      "id" : "Default.tag:::3726",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2499
+    }, {
+      "id" : "Default.tag:::6811",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2499,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::2510",
+    "type" : "Directory",
+    "name" : "city",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1/Directory/subdirectory" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3709",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2510
+    }, {
+      "id" : "Default.tag:::3727",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2510
+    }, {
+      "id" : "Default.tag:::6812",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2510,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::2498",
+    "type" : "Directory",
+    "name" : "TestFolder1",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3710",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2498
+    }, {
+      "id" : "Default.tag:::3728",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2498
+    }, {
+      "id" : "Default.tag:::6813",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2498,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::2497",
+    "type" : "Directory",
+    "name" : "AutoTestData",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3711",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2497
+    }, {
+      "id" : "Default.tag:::3729",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2497
+    }, {
+      "id" : "Default.tag:::6814",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2497,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::2496",
+    "type" : "Directory",
+    "name" : "asgqas3testautomation",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3712",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2496
+    }, {
+      "id" : "Default.tag:::3730",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2496
+    }, {
+      "id" : "Default.tag:::6816",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2496,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::2500",
+    "type" : "Directory",
+    "name" : "subdirectory",
+    "asg.parentTypeNamePath" : [ "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::3713",
+      "name" : "Amazon S3",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Amazon S3 Cloud Storage",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 432,
+      "asg_modifiedby" : "Service",
+      "target" : 2500
+    }, {
+      "id" : "Default.tag:::3731",
+      "name" : "AWSS3_BA",
+      "rootTagName" : "AWSS3_BA",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-08-19T11:21:37.176+0000",
+      "asg_createdat" : "2020-08-19T11:21:37.176+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 2512,
+      "asg_modifiedby" : "Service",
+      "target" : 2500
+    }, {
+      "id" : "Default.tag:::6817",
+      "name" : "onlyPython",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: onlyPython",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::3401",
+      "source" : 3402,
+      "target" : 2500,
+      "asg_modifiedat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdat" : "2020-08-20T07:33:03.561+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  } ],
+  "configs" : {
+    "defaultListView" : [ {
+      "value" : "asg.parentTypeNamePath",
+      "label" : "Hierarchy"
+    }, {
+      "value" : "asg.tagNames",
+      "label" : "Tags"
+    } ]
+  },
+  "configsMap" : {
+    "*" : {
+      "*" : "defaultListView"
+    }
+  },
+  "facets" : {
+    "asg.tagPathsHierarchy_ss" : {
+      "label" : "Tags",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 23,
+        "value" : "AWSS3_BA",
+        "label" : "AWSS3_BA",
+        "checked" : false,
+        "childValues" : [ ]
+      }, {
+        "count" : 23,
+        "value" : "Technology",
+        "label" : "Technology",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 23,
+          "value" : "Technology/Cloud Data",
+          "label" : "Cloud Data",
+          "checked" : false,
+          "childValues" : [ {
+            "count" : 23,
+            "value" : "Technology/Cloud Data/Cloud Storage",
+            "label" : "Cloud Storage",
+            "checked" : false,
+            "childValues" : [ {
+              "count" : 23,
+              "value" : "Technology/Cloud Data/Cloud Storage/Amazon S3",
+              "label" : "Amazon S3",
+              "checked" : false,
+              "childValues" : [ ]
+            } ]
+          } ]
+        } ]
+      }, {
+        "count" : 19,
+        "value" : "BusinessApplication",
+        "label" : "BusinessApplication",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 19,
+          "value" : "BusinessApplication/onlyPython",
+          "label" : "onlyPython",
+          "checked" : true,
+          "childValues" : [ ]
+        } ]
+      } ]
+    },
+    "type_s" : {
+      "label" : "Metadata Type",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 10,
+        "value" : "File",
+        "checked" : false
+      }, {
+        "count" : 6,
+        "value" : "Directory",
+        "checked" : false
+      }, {
+        "count" : 1,
+        "value" : "Analysis",
+        "checked" : false
+      }, {
+        "count" : 1,
+        "value" : "Cluster",
+        "checked" : false
+      }, {
+        "count" : 1,
+        "value" : "Service",
+        "checked" : false
+      } ]
+    },
+    "asg.parentTypeNamePathHierarchy_ss" : {
+      "label" : "Hierarchy",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 18,
+        "value" : "Cluster/amazonaws.com",
+        "label" : "amazonaws.com [Cluster]",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 17,
+          "value" : "Cluster/amazonaws.com/Service/AmazonS3",
+          "label" : "AmazonS3 [Service]",
+          "checked" : false,
+          "childValues" : [ {
+            "count" : 16,
+            "value" : "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation",
+            "label" : "asgqas3testautomation [Directory]",
+            "checked" : false,
+            "childValues" : [ {
+              "count" : 15,
+              "value" : "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData",
+              "label" : "AutoTestData [Directory]",
+              "checked" : false,
+              "childValues" : [ {
+                "count" : 14,
+                "value" : "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1",
+                "label" : "TestFolder1 [Directory]",
+                "checked" : false,
+                "childValues" : [ {
+                  "count" : 3,
+                  "value" : "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1/Directory/subdirectory",
+                  "label" : "subdirectory [Directory]",
+                  "checked" : false,
+                  "childValues" : [ {
+                    "count" : 2,
+                    "value" : "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1/Directory/subdirectory/Directory/city",
+                    "label" : "city [Directory]",
+                    "checked" : false,
+                    "childValues" : [ ]
+                  } ]
+                }, {
+                  "count" : 2,
+                  "value" : "Cluster/amazonaws.com/Service/AmazonS3/Directory/asgqas3testautomation/Directory/AutoTestData/Directory/TestFolder1/Directory/version",
+                  "label" : "version [Directory]",
+                  "checked" : false,
+                  "childValues" : [ ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    },
+    "asg_modifiedat_dt" : {
+      "label" : "Last Modified",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 0,
+        "value" : "(*,NOW-1YEAR]",
+        "label" : "1 year and older",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-1YEAR,NOW-6MONTH]",
+        "label" : "6 months up to 1 year",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-6MONTH,NOW-1MONTH]",
+        "label" : "1 month up to 6 months",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-1MONTH,NOW-7DAY]",
+        "label" : "1 week up to 1 month",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-7DAY,NOW-1DAY]",
+        "label" : "1 day up to 1 week",
+        "checked" : false
+      }, {
+        "count" : 19,
+        "value" : "(NOW-1DAY,NOW]",
+        "label" : "past 24 hours",
+        "checked" : false
+      } ]
+    },
+    "asg_modifiedby_s" : {
+      "label" : "Modified by",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 19,
+        "value" : "Service",
+        "checked" : false
+      } ]
+    }
+  }
+}

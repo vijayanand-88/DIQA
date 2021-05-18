@@ -1,0 +1,9 @@
+{
+  "name": "Column Set",
+  "description": "Column set",
+  "status": "RESTRICTED",
+  "dataElements": [
+    "BigData.Column:::100",
+    "BigData.Column:::110"
+  ]
+}

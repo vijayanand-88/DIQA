@@ -1,0 +1,20 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "InvalidUrl",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "RedshiftDataSource",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "ValidCredentials",
+  "filter": null,
+  "driver": "com.amazon.redshift.jdbc.Driver",
+  "url": "jdbc:redshift://redshift-cluster-1.cfemcchdhpao1.us-east-2.redshift.amazonaws.com:5439/world"
+}

@@ -1,0 +1,680 @@
+[
+  {
+    "name": "JsonS3PII",
+    "definition": "General Classification",
+    "status": "APPROVED",
+    "type": "Structure Information Tag",
+    "userAssignable": true,
+    "subTags": [
+      {
+        "name": "JsonS3EmailPII_SC1Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC1Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC1Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC1Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC1Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC2Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC2Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC2Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC2Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC2Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC3Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC3Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC3Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC3Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC3Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC4Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC4Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC4Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC4Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC4Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC5Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC5Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC5Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC5Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC5Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC6Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC6Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC6Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC6Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC6Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC7Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC7Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC7Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC7Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC7Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC8Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC8Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC8Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC8Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC8Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC9Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC9Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC9Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC9Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC9Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC10Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC10Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC10Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC10Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC10Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC11Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC11Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC11Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC11Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC11Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC12Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC12Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC12Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC12Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC12Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC13Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC13Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC13Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC13Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC13Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3EmailPII_SC14Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3SSNPII_SC14Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3GenderPII_SC14Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullNamePII_SC14Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3IPAddressPII_SC14Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullMatchPII_SC1Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullMatchPII_SC2Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullMatchPII_SC3Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "JsonS3FullMatchPII_SC4Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      }
+    ],
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

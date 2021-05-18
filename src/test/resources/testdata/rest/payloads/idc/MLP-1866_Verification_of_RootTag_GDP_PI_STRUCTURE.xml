@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE XMI SYSTEM 'http://schema.asg.com/rochade/xml/RNX_1_6.dtd'>
+<XMI timestamp='07/20/2017 15:53:42 CEST'
+     verified='false'
+     xmi.version='1.0'>
+    <XMI.header>
+        <XMI.documentation>
+            <XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+            <XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+        </XMI.documentation>
+        <XMI.model xmi.name='RNX'
+                   xmi.version='1.6'/>
+        <XMI.model xmi.name='METAAPPS'
+                   xmi.version='DEVELOPMENT'
+                   href='rochade://decheutas01p.asg.com:8000/ADMIN/AP-DATA/S/METAAPPS/DEVELOPMENT'>Created  09/07/2016     14:50:56
+        </XMI.model>
+    </XMI.header>
+    <XMI.content xmi.uuid='XMLDsp|SERVER1|AP-DATA|ADMIN|S|METAAPPS|DEVELOPMENT'
+                 uuidDel='|'>
+        <ITEM xmi.id='_9' itemType='GDP_PI_STRUCTURE' itemName='Account' itemScope='_1'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='RBG/STATUS' contentType='text/plain'>READY</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt' attrName='DEFINITION' contentType='text/plain'>Account</ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/HISTORY-LAST-APPR' linkType='Set'>
+                    <ITEMS>
+                        <ITEM xmi.idref='_59' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492586377776' itemScope='_9'/>
+                    </ITEMS>
+                </ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='GDP_USES_PERSONAL_INFORMATION' linkType='Xns'>
+                    <ITEMS>
+                        <ITEM xmi.idref='_2' itemType='GDP_PERSONAL_INFORMATION' itemName='Account ID' itemScope='_1'/>
+                        <ITEM xmi.idref='_3' itemType='GDP_PERSONAL_INFORMATION' itemName='LastName' itemScope='_1'/>
+                        <ITEM xmi.idref='_4' itemType='GDP_PERSONAL_INFORMATION' itemName='Profile Picture' itemScope='_1'/>
+                        <ITEM xmi.idref='_5' itemType='GDP_PERSONAL_INFORMATION' itemName='Email Address' itemScope='_1'/>
+                        <ITEM xmi.idref='_6' itemType='GDP_PERSONAL_INFORMATION' itemName='Favorite Color' itemScope='_1'/>
+                    </ITEMS>
+                </ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/HISTORY' linkType='Xns'>
+                    <ITEMS>
+                        <ITEM xmi.idref='_57' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492586363471' itemScope='_9'/>
+                        <ITEM xmi.idref='_58' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492586377636' itemScope='_9'/>
+                        <ITEM xmi.idref='_59' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1492586377776' itemScope='_9'/>
+                        <ITEM xmi.idref='_76' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1495536909818' itemScope='_9'/>
+                        <ITEM xmi.idref='_89' itemType='RBG/ITEM-HISTORY-RECORD' itemName='1496876331992' itemScope='_9'/>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+    </XMI.content>
+</XMI>

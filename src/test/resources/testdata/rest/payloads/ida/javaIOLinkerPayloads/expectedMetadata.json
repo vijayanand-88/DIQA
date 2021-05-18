@@ -1,0 +1,81 @@
+{
+  "CIOLinker": {
+
+    "Location": "/C:\\IOLinker\\"
+  },
+  "childFile3": {
+    "Location": "/\\childFile3.file"
+  },
+  "fileChildString1": {
+    "Location": "/\\fileChildString1.txt"
+  },
+  "createFile2": {
+    "Location": "/createFile2.json"
+  },
+  "file4": {
+    "Location": "/C:/IOLinker/file4.txt"
+  },
+  "output2": {
+    "Location": "/output2.txt"
+  },
+  "output": {
+    "Location": "/output.txt"
+  },
+  "writetext2": {
+    "Location": "/C:\\IOLinker\\writetext2.txt"
+  },
+  "writetext": {
+    "Location": "/C:\\IOLinker\\writetext.txt"
+  },
+  "test2": {
+    "Location": "/test2.txt"
+  },
+  "test": {
+    "Location": "/test.txt"
+  },
+  "fos2222": {
+    "Location": "/C:\\IOLinker\\fos2222.txt"
+  },
+  "fos2": {
+    "Location": "/C:\\IOLinker\\fos2.txt"
+  },
+  "source": {
+    "Location": "/source.txt"
+  },
+  "CopyFile": {
+    "Location": "/C:\\IOLinker\\temp\\CopyFile.txt"
+  },
+  "Destination": {
+    "Location": "/C:\\IOLinker\\temp2\\Destination.txt"
+  },
+  "DummyDestination": {
+    "Location": "/C:\\DummyFolder/temp2\\Destination.txt"
+  },
+  "GetFile_f1": {
+    "Location": "/C:\\appdata/d1/d2"
+  },
+  "GetFile_f2": {
+    "Location": "/C:\\appdata/d1/d2/FileSamp"
+  },
+  "ToFile_f1": {
+    "Location": "/a/b/c/file.txt"
+  },
+  "ToFile_f2": {
+    "Location": "/C:/IOLinker/file%20name.txt"
+  },
+  "ToFile_f3": {
+    "Location": "/file:/C:/projects/workspace/testing/file%20name%20with%20spaces.txt"
+  },
+  "ToFiles_f1": {
+    "Location": "/file1.txt"
+  },
+  "ToFiles_f2": {
+    "Location": "/file:/file1_conf.txt"
+  },
+  "ToFiles_f3": {
+    "Location": "/file:/C:/IOLinker/testing/file%20name%20with%20spaces.txt"
+  },
+  "ToFiles_f4": {
+    "Location": "/a/b/c/d/e/f/file.txt"
+  }
+}

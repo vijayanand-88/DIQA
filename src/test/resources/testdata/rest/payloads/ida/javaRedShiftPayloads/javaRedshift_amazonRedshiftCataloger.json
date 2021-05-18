@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RedshiftCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "tagRedshiftJson"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "RedshiftDataSource",
+      "credential": "ValidRedshiftCredentials",
+      "businessApplicationName": "test_BA_JavaRedshiftLineage",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AmazonRedshiftCataloger",
+      "schemas": [
+        {
+          "schema": "demo",
+          "tables": [
+            {
+              "table": "category"
+            }
+          ]
+        }
+      ],
+      "incremental": false,
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

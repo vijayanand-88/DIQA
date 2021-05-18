@@ -1,0 +1,29 @@
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeDBCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "SnowflakeDBCataloger"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "businessApplicationName": "test_BA_PythonSparkSQL",
+      "tags": ["tagPythonSparkSQL"],
+      "pluginType": "cataloger",
+      "dataSource": "SnowflakeDBDataSource",
+      "credential": "SnowflakeValidCredentials",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "SnowflakeDBCataloger",
+      "schemas": [
+        {
+          "schema": "TESTSCHEMA",
+          "tables": []
+        }
+      ],
+      "type": "Cataloger",
+      "properties": []
+    }

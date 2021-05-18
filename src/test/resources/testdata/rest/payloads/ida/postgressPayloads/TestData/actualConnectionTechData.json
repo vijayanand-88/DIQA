@@ -1,0 +1,5 @@
+{
+  "MATCH_CRITERIA": "[]",
+  "SubnetId": "$.PhysicalConnectionRequirements.SubnetId",
+  "Security Group Id List": "[sg-09f705b1e67437860]"
+}

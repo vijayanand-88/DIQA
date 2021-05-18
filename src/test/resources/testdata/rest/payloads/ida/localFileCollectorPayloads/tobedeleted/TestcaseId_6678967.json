@@ -1,0 +1,44 @@
+{
+  "configurations":[
+    {
+      "class":"com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name":"OnlyParquetFiles",
+      "pluginVersion":"LATEST",
+      "label":{
+        "":"OnlyParquetFiles"
+      },
+      "catalogName":"onlyParquet",
+      "eventClass":null,
+      "eventCondition":null,
+      "nodeCondition":"type=='internal'",
+      "maxWorkSize":100,
+      "filter":{
+        "filters":[
+
+        ],
+        "deltaTime":null,
+        "extraFilters":{
+          "filefilters":[
+            {
+              "class":"com.asg.dis.common.analysis.dom.FileFilter",
+              "label":{
+                "":"Root Level"
+              },
+              "tags":null,
+              "fileMode":"include",
+              "objectType":"file",
+              "expressionType":"simple",
+              "expressions":[
+                "**.parquet"
+              ]
+            }
+          ]
+        },
+        "maxHits":null
+      },
+      "contentAnalyzerPlugin":"UnstructuredDataAnalyzer",
+      "root":"/lfc_testfiles",
+      "incrementalRun":true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "UserGroupCatalog": {
+    "label": {
+      "": "UserGroupCatalog",
+      "en":"UserGroupCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea"
+
+  }
+}

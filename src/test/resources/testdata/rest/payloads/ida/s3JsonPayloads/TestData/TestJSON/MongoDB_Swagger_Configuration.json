@@ -1,0 +1,30 @@
+{
+  "configurations": {
+    "JDBCCataloger": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "MongoDBConfig1",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": "MongoDBConfig1"
+        },
+        "catalogName": "MongoDBConfig1",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": null,
+        "database": "SampleDB",
+        "password": "password",
+        "driverBundleName": "cdata.jdbc.mongodb.MongoDBDriver",
+        "schemas": [],
+        "host": "10.33.6.130",
+        "user": "accountUser",
+        "properties": [],
+        "url": "jdbc:mongodb:Server=10.33.6.130;Port=27017;Database=SampleDB"
+      }
+    ]
+  },
+  "catalogName": "BigData"
+}

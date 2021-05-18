@@ -1,0 +1,94 @@
+{
+  "VIEW_TO_TABLE1_V15": [
+    {
+      "mode": "VIEW",
+      "source": "SNAME",
+      "dir": "->",
+      "target": "SNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    }
+  ],
+  "VIEW_TO_TABLE1": [
+    {
+      "mode": "VIEW",
+      "source": "ROLLNO",
+      "dir": "->",
+      "target": "ROLLNO"
+    },
+    {
+      "mode": "VIEW",
+      "source": "SNAME",
+      "dir": "->",
+      "target": "SNAME"
+    }
+  ],
+  "TAB_TO_FUNC1_V15": [
+    {
+      "mode": "COPY",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "COPY",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "COPY",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    }
+  ],
+  "TAB_TO_FUNC1": [
+    {
+      "mode": "COPY",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "EMPID",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ENAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ID",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ID",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    }
+  ]
+}

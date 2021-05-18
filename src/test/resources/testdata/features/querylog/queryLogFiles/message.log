@@ -1,0 +1,175 @@
+14:42:23.266 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0019: Plugin started
+14:42:23.267 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: ---
+14:42:23.267 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: name: "SC1_folderwith1subfolder"
+14:42:23.267 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: pluginVersion: "LATEST"
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: label:
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: : ""
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: catalogName: "Default"
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: eventClass: null
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: eventCondition: null
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: nodeCondition: "name==\"Cluster Demo\""
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: maxWorkSize: 100
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: tags:
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: - "SC1_folderwith1subfolder"
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: pluginType: "cataloger"
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: dataSource: "HDFSDataSource_resolveclusterfalse"
+14:42:23.268 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: credential: "hdfsDBValidCredential"
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: businessApplicationName: "HDFS_BA"
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: dryRun: false
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: schedule: null
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: filter:
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: filters:
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: - class: "com.asg.dis.common.analysis.dom.HdfsFilter"
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: label:
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: : "NewDirectory"
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: tags:
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: - "createDir"
+14:42:23.269 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: root: "/idaautomation"
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: excludeRegexp: []
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: fileMode: "include"
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: fileExtensions: []
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: deltaTime: "30"
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: extraFilters: {}
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: maxHits: "100"
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: scanHdfs: true
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: analyzeCollectedData: true
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: scanServices: false
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: pluginName: "HdfsCataloger"
+14:42:23.270 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0073: Plugin HdfsCataloger Configuration: type: "Cataloger"
+14:42:23.271 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0071: Plugin Name:HdfsCataloger, Plugin Type:cataloger, Plugin Version:1.1.0.SNAPSHOT, Node Name:Cluster Demo, Host Name:sandbox.hortonworks.com, Plugin Configuration name:SC1_folderwith1subfolder
+14:42:23.500 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-COMMON-0007: Resolved cluster name as Cluster Demo
+14:42:23.505 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0008: Start scanning process: 2020-09-27 14:42:23.
+14:42:23.508 [pool-224-thread-1] INFO  com.asg.catalog.utils.CommonUtils - CATALOG-COMMON-0003: Java runtime system properties:
+HADOOP_USER_NAME               = hdfs
+awt.toolkit                    = sun.awt.X11.XToolkit
+file.encoding                  = ANSI_X3.4-1968
+file.encoding.pkg              = sun.io
+file.separator                 = /
+java.awt.graphicsenv           = sun.awt.X11GraphicsEnvironment
+java.awt.printerjob            = sun.print.PSPrinterJob
+java.class.path                = /opt/IDANODE/IDANode.jar:/etc/hadoop/conf:/usr/hdp/current/hive-client/conf
+java.class.version             = 52.0
+java.endorsed.dirs             = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/endorsed
+java.ext.dirs                  = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+java.home                      = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre
+java.io.tmpdir                 = /tmp
+java.library.path              = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.runtime.name              = OpenJDK Runtime Environment
+java.runtime.version           = 1.8.0_111-b15
+java.specification.name        = Java Platform API Specification
+java.specification.vendor      = Oracle Corporation
+java.specification.version     = 1.8
+java.vendor                    = Oracle Corporation
+java.vendor.url                = http://java.oracle.com/
+java.vendor.url.bug            = http://bugreport.sun.com/bugreport/
+java.version                   = 1.8.0_111
+java.vm.info                   = mixed mode
+java.vm.name                   = OpenJDK 64-Bit Server VM
+java.vm.specification.name     = Java Virtual Machine Specification
+java.vm.specification.vendor   = Oracle Corporation
+java.vm.specification.version  = 1.8
+java.vm.vendor                 = Oracle Corporation
+java.vm.version                = 25.111-b15
+javax.net.ssl.trustStore       = /opt/cert/cacerts.p12
+javax.net.ssl.trustStorePassword = *****
+javax.net.ssl.trustStoreType   = pkcs12
+line.separator                 = 
+
+log4j.configurationFile        = log4j2BigData.xml
+maximum.memory                 = 3531 MB
+os.arch                        = amd64
+os.name                        = Linux
+os.version                     = 3.10.0-327.el7.x86_64
+path.separator                 = :
+sun.arch.data.model            = 64
+sun.boot.class.path            = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/classes
+sun.boot.library.path          = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-0.b15.el6_8.x86_64/jre/lib/amd64
+sun.cpu.endian                 = little
+sun.cpu.isalist                = 
+sun.io.unicode.encoding        = UnicodeLittle
+sun.java.command               = com.asg.ida.node.AnalysisApp -n Cluster Demo -u https://dechedocker02v.asg.com/DD -t /opt/IDANODE/token.txt -k /opt/cert/asg.jks -kp asgsecure -ws wss://dechedocker02v.asg.com/ -a  -p 2001 -nt bigdata -l /home/log
+sun.java.launcher              = SUN_STANDARD
+sun.jnu.encoding               = ANSI_X3.4-1968
+sun.management.compiler        = HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level             = unknown
+user.country                   = US
+user.dir                       = /opt/IDANODE
+user.home                      = /root
+user.language                  = en
+user.name                      = root
+user.timezone                  = Zulu
+14:42:23.508 [pool-224-thread-1] INFO  com.asg.catalog.utils.CommonUtils - CATALOG-COMMON-0005: System environment properties:
+NLSPATH                        = /usr/dt/lib/nls/msg/%L/%N.cat
+OLDPWD                         = *****
+PATH                           = /usr/sbin:/sbin:/usr/lib/ambari-server/*:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:*****
+PWD                            = *****
+SHLVL                          = 2
+SPARK_HOME                     = /usr/hdp/current/spark2-client
+XFILESEARCHPATH                = /usr/dt/app-defaults/%L/Dt
+_                              = /usr/bin/nohup
+14:42:23.741 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0069: HDFS connection URL: hdfs://sandbox.hortonworks.com:8020, user: hdfs
+14:42:23.742 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0054: Got scan request message, starting scanner for [/idaautomation]
+14:42:23.748 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0025: Getting HDFS directories from "Cluster Demo"
+14:42:23.753 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0065:  Starting scan for HDFS directories: [/idaautomation]
+14:42:23.753 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0027: Directory path to scan is: /idaautomation
+14:42:23.755 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0026: Start to scan directory by path: /idaautomation
+14:42:23.823 [pool-224-thread-1] WARN  org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+14:42:24.335 [pool-224-thread-1] WARN  org.apache.hadoop.hdfs.shortcircuit.DomainSocketFactory - The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+14:42:24.474 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0018: Create directory: {"type":"Directory","name":"idaautomation","type":"Directory","id":null,"tags":"createDir","others":{},"description":null,"definitions":[],"startLine":null,"endLine":null,"startColumn":null,"endColumn":null,"permission":"rwxr-xr-x","group":"hdfs","owner":"raj_ops","modified":"20200927144119","filesSize":0,"subdirsSize":151,"totalSize":151,"filesNumber":0,"subdirsNumber":0,"created":null,"deletedAt":null,"location":"/","techData":null}
+14:42:24.476 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0026: Start to scan directory by path: /idaautomation/sub1
+14:42:24.483 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0018: Create directory: {"type":"Directory","name":"sub1","type":"Directory","id":null,"tags":"createDir","others":{},"description":null,"definitions":[],"startLine":null,"endLine":null,"startColumn":null,"endColumn":null,"permission":"rwxr-xr-x","group":"hdfs","owner":"raj_ops","modified":"20200927144119","filesSize":151,"subdirsSize":0,"totalSize":151,"filesNumber":1,"subdirsNumber":0,"created":null,"deletedAt":null,"location":"/idaautomation","techData":null}
+14:42:24.485 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0019: Create file: {"type":"File","name":"testdata.csv","type":"File","id":null,"tags":"createDir","others":{},"description":null,"definitions":[],"startLine":null,"endLine":null,"startColumn":null,"endColumn":null,"permission":"rwxr-xr-x","group":"hdfs","owner":"raj_ops","modified":"20200927144119","lastAccessed":null,"created":null,"deletedAt":null,"modifier":null,"cataloguedAt":"2020-09-27T14:42:24.485+0000","location":null,"collectedAt":null,"content":null,"fileSize":151,"mimeType":"text/csv","fileName":null,"extension":null,"tree":null,"document":null,"lineage":[],"uses":[],"blockSize":null,"replicationCount":null,"table":null,"techData":null}
+14:42:24.485 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0016: Bind file testdata.csv to directory sub1
+14:42:24.486 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0056: Scanning Cluster Demo finished, returning to idle mode
+14:42:24.487 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0070: Publishing scan results to CsvAnalyzer.
+14:42:24.489 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0080: No PARQUET files to analyze found.
+14:42:24.489 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: CATALOG-HDFS-0081: No AVRO files to analyze found.
+14:42:24.490 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0072: Plugin HdfsCataloger Start Time:2020-09-27 14:42:23.261, End Time:2020-09-27 14:42:24.489, Processed Count:2, Errors:0, Warnings:0
+14:42:24.490 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin cataloger/HdfsCataloger indicated: ANALYSIS-0020: Plugin completed (elapsed time in (HH:MM:SS.ms): 00:00:01.228)
+14:42:24.626 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0019: Plugin started
+14:42:24.627 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: ---
+14:42:24.627 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: name: "SC1_CsvAnalyzer"
+14:42:24.627 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: pluginVersion: "LATEST"
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: label:
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: : ""
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: catalogName: "Default"
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: eventClass: null
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: eventCondition: null
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: nodeCondition: "name==\"Cluster Demo\""
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: maxWorkSize: 100
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: tags:
+14:42:24.628 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: - "SC1_CsvAnalyzer"
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: pluginType: "dataanalyzer"
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: dataSource: null
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: credential: null
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: businessApplicationName: "CSV_ANALYZER_BA"
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: dryRun: false
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: schedule: null
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: filter: null
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: histogramBuckets: 100
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: sparkOptions:
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: - key: "deploy.mode"
+14:42:24.629 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: value: "cluster"
+14:42:24.630 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: - key: "spark.network.timeout"
+14:42:24.630 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: value: "600s"
+14:42:24.630 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: pluginName: "CsvAnalyzer"
+14:42:24.630 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: runAfter: []
+14:42:24.630 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: dataSample:
+14:42:24.630 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: sampleSize: 10
+14:42:24.630 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: type: "Dataanalyzer"
+14:42:24.631 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0073: Plugin CsvAnalyzer Configuration: topValues: 10
+14:42:24.631 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: ANALYSIS-0071: Plugin Name:CsvAnalyzer, Plugin Type:dataanalyzer, Plugin Version:1.1.0.SNAPSHOT, Node Name:Cluster Demo, Host Name:sandbox.hortonworks.com, Plugin Configuration name:SC1_CsvAnalyzer
+14:42:24.797 [pool-224-thread-1] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0009: Import successful: Import started at 2020-09-27T14:42:22.059+0000, 120ms elapsed, 5/0/3/0 verts[+/-/=/?], 10/0/3/0 edges[+/-/=/?], 48/0/0/48 props[+/-/=/?], 0/0/6 types[+/!/=], 0/66 verts/s[curr/overall], 1279/3072/3072MB[used/total/max]
+14:42:25.058 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: CSV-ANALYZER-0003: -----------CSV ANALYZER START-------------
+14:42:25.473 [pool-224-thread-2] WARN  com.asg.catalog.beans.DataAnalyzerConfiguration - CATALOG-COMMON-0018: Property Histogram buckets count value is missing or incorrect, will use the default value 20
+14:42:25.481 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: deploy.mode = cluster
+14:42:25.481 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: spark.network.timeout = 600s
+14:42:25.481 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: CSV-ANALYZER-0006: Submitting Spark job CsvSparkAnalyzerHDFS-1601217745473, task 1 of 1
+14:42:25.484 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: SPARK-LAUNCHER-0002: Write [LOCAL] file cluster1601217745473.json
+14:42:25.706 [pool-224-thread-2] WARN  org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+14:42:26.158 [pool-224-thread-2] WARN  org.apache.hadoop.hdfs.shortcircuit.DomainSocketFactory - The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+14:42:26.170 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: SPARK-LAUNCHER-0001: Write [DFS] file cluster1601217745473.json
+14:42:26.396 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: SPARK-LAUNCHER-0002: Write [LOCAL] file config1601217745473.json
+14:42:26.402 [pool-224-thread-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: SPARK-LAUNCHER-0001: Write [DFS] file config1601217745473.json
+14:42:30.244 [LauncherServer-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: SPARK-LAUNCHER-0003: Spark job CsvSparkAnalyzerHDFS-1601217745473 changed it`s status to CONNECTED
+14:42:30.566 [LauncherServer-2] INFO  com.asg.dis.analysis.common.BaseAnalysisAPI - ANALYSIS-0005: Plugin dataanalyzer/CsvAnalyzer indicated: SPARK-LAUNCHER-0003: Spark job CsvSparkAnalyzerHDFS-1601217745473 changed it`s status to SUBMITTED

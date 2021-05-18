@@ -1,0 +1,13 @@
+
+[
+  {
+    "name": "TagX",
+    "definition": "General Classification",
+    "status": "APPROVED",
+    "type": "Structure Information Tag",
+    "userAssignable": true,
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

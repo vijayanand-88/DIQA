@@ -1,0 +1,109 @@
+{
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "ParquetAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "view":{
+        "label":"ParquetHdfsAnalyzer_SC1",
+        "value":"ParquetHdfsAnalyzer_SC1"
+      },
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "tagCategory": "ParquetHdfsPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "ParquetHdfsIPAddressPII_SC7Tag"
+        ],
+        "matchFull": true,
+        "namePattern": "",
+        "typePattern": "",
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "tagCategory": "ParquetHdfsPII",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "ParquetHdfsEmailPII_SC7Tag"
+        ],
+        "matchFull": true,
+        "namePattern": "",
+        "typePattern": "",
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "tagCategory": "ParquetHdfsPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "ParquetHdfsSSNPII_SC7Tag"
+        ],
+        "matchFull": true,
+        "namePattern": "",
+        "typePattern": "",
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "tagCategory": "ParquetHdfsPII",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "ParquetHdfsGenderPII_SC7Tag"
+        ],
+        "matchFull": true,
+        "namePattern": "",
+        "typePattern": "",
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "tagCategory": "ParquetHdfsPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "tags": [
+          "ParquetHdfsFullNamePII_SC7Tag"
+        ],
+        "matchFull": true,
+        "namePattern": "",
+        "typePattern": "",
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "tagCategory": "ParquetHdfsPII",
+        "dataPattern": "database",
+        "tags": [
+          "ParquetHdfsFullMatchPII_SC2Tag"
+        ],
+        "matchFull": false,
+        "namePattern": "",
+        "typePattern": "",
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "tagCategory": "ParquetHdfsPII",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "ParquetHdfsFullMatchPII_SC4Tag"
+        ],
+        "matchFull": false,
+        "namePattern": "",
+        "typePattern": "",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+
+}

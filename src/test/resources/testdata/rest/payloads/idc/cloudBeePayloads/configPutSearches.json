@@ -1,0 +1,299 @@
+{
+  "uri": "http://solr:8983/solr/idc-core",
+  "enabled": true,
+  "cloudUri": false,
+  "types": [
+    {
+      "exclude": [
+        "Tag",
+        "DataSample",
+        "Setting",
+        "Mobile",
+        "Recommender",
+        "Ingester",
+        "PluginStatus",
+        "Bundle",
+        "BundleType",
+        "BundleContent",
+        "Content",
+        "LineageHop",
+        "Notification",
+        "NotificationStatus",
+        "AccessLog",
+        "OrderRequest",
+        "OrderDetail",
+        "WorkflowStep"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "STRING",
+      "attributes": [
+        {
+          "include": [
+            "id"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_s",
+      "type": "STRING",
+      "facetInfo": {
+        "kind": "FIELD",
+        "fieldMinCount": 1
+      },
+      "attributes": [
+        {
+          "include": [
+            "type",
+            "name",
+            "catalog",
+            "asg.lastModifiedAt",
+            "asg.lastVertId",
+            "asg.createdBy",
+            "asg.modifiedBy",
+            "contentType",
+            "dataType",
+            "parseTree",
+            "semanticTree"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_s_lower",
+      "type": "STRING",
+      "attributes": [
+        {
+          "include": [
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_ss",
+      "type": "STRING_ARRAY",
+      "facetInfo": {
+        "kind": "PATH",
+        "pathComponentsPerElement": 2,
+        "fieldMinCount": 1
+      },
+      "attributes": [
+        {
+          "include": [
+            "asg.parentTypeNamePath",
+            "asg.parentTypeNamePathHierarchy"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_ss",
+      "type": "STRING_ARRAY",
+      "facetInfo": {
+        "kind": "FIELD",
+        "fieldMinCount": 1
+      },
+      "attributes": [
+        {
+          "include": [
+            "asg.tagNames",
+            "asg.dataSets",
+            "asg.dataSetItems",
+            "asg.access"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_ss",
+      "type": "STRING_ARRAY",
+      "facetInfo": {
+        "kind": "PATH",
+        "pathComponentsPerElement": 1,
+        "fieldMinCount": 1
+      },
+      "attributes": [
+        {
+          "include": [
+            "asg.tagPaths",
+            "asg.tagPathsHierarchy"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_ss",
+      "type": "STRING_ARRAY",
+      "attributes": [
+        {
+          "include": [
+            "asg.indexedSample",
+            "asg.indexedTopValues"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_t",
+      "type": "STRING",
+      "facetInfo": {
+        "kind": "FIELD",
+        "fieldMinCount": 1
+      },
+      "attributes": [
+        {
+          "exclude": [
+            "id",
+            "type",
+            "name",
+            "catalog",
+            "asg.parentTypeNamePath",
+            "asg.lastModifiedAt",
+            "asg.lastVertId",
+            "asg.createdBy",
+            "asg.modifiedBy",
+            "contentType",
+            "dataType",
+            "parseTree",
+            "semanticTree"
+          ],
+          "valueType": [
+            "STRING"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_l",
+      "type": "LONG",
+      "attributes": [
+        {
+          "valueType": [
+            "SHORT",
+            "INTEGER",
+            "LONG"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_d",
+      "type": "DOUBLE",
+      "attributes": [
+        {
+          "exclude": [
+            "asg.ratingAvg"
+          ],
+          "valueType": [
+            "FLOAT",
+            "DOUBLE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_d",
+      "type": "DOUBLE",
+      "facetInfo": {
+        "kind": "INTERVAL",
+        "intervals": [
+          "[1,2)",
+          "[2,3)",
+          "[3,4)",
+          "[4,5)",
+          "[5,5]"
+        ],
+        "labels": [
+          {
+            "": "1 and above"
+          },
+          {
+            "": "2 and above"
+          },
+          {
+            "": "3 and above"
+          },
+          {
+            "": "4 and above"
+          },
+          {
+            "": "5"
+          }
+        ]
+      },
+      "attributes": [
+        {
+          "include": [
+            "asg.ratingAvg"
+          ],
+          "valueType": [
+            "FLOAT",
+            "DOUBLE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_b",
+      "type": "BOOLEAN",
+      "facetInfo": {
+        "kind": "FIELD",
+        "fieldMinCount": 1
+      },
+      "attributes": [
+        {
+          "valueType": [
+            "BOOLEAN"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "${attName}_dt",
+      "type": "LOCALDATETIME",
+      "facetInfo": {
+        "kind": "INTERVAL",
+        "intervals": [
+          "(NOW-1DAY,NOW]",
+          "(NOW-7DAY,NOW-1DAY]",
+          "(NOW-1MONTH,NOW-7DAY]",
+          "(NOW-1YEAR,NOW-1MONTH]",
+          "(*,NOW-1YEAR]"
+        ],
+        "labels": [
+          {
+            "": "less than 1 day ago"
+          },
+          {
+            "": "1 day up to 1 week ago"
+          },
+          {
+            "": "1 week up to 1 month ago"
+          },
+          {
+            "": "1 month up to 1 year ago"
+          },
+          {
+            "": "more than 1 year ago"
+          }
+        ]
+      },
+      "attributes": [
+        {
+          "exclude": [
+            "asg.lastModifiedAt"
+          ],
+          "valueType": [
+            "ZONEDDATETIME",
+            "LOCALDATETIME"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HdfsMonitor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "HdfsMonitor"
+      },
+      "catalogName": "BigData",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "catalogerConfigurationName": "HdfsCataloger"
+    }
+  ]
+}

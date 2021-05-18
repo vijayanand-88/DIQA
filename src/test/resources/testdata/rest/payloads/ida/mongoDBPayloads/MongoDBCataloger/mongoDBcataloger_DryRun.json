@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MongoDBCataloger_DryRun",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "MongoDBDryRun"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "MongoDBDataSource_valid",
+      "credential": "MongoDBValidCredential",
+      "businessApplicationName": "MONGODB_BA",
+      "dryRun": true,
+      "filter": null,
+      "tables": [],
+      "pluginName": "MongoDBCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

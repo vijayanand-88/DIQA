@@ -1,0 +1,183 @@
+{
+  "TFSEntryPointCreateDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "TFSEntryPointCreateDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-17T06:47:05.327348",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-17T06:47:05.327356"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "TFSEntryPointServer",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "ORA19",
+        "DBPort": "1521"
+      }
+    ]
+  },
+  "TFSDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "TFSDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-17T06:48:50.321802",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-17T06:48:50.321812"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "TFSCredential",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "pluginName": "CAETFSDataSource",
+        "Connection": {
+          "CAEPath": "${cae.home}",
+          "SCMSDir": "gechcae-col1.asg.com:8080/tfs/DefaultCollection",
+          "SCMSExecutable": "D:\\TFS\\Common7\\Tools\\vsvars32.bat",
+          "ProjectRootFolder": "${cae.project.home}"
+        }
+      }
+    ]
+  },
+  "TFSFeedLoadDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "TFSFeedLoadDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-17T06:49:40.534601",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-17T06:49:40.534609"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "TFSEntryPoint",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "ORA19",
+        "DBPort": "1521"
+      }
+    ]
+  },
+  "TFSSQLEntryPointDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "TFSSQLEntryPointDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-17T06:47:05.327348",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-17T06:47:05.327356"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "TFSSQLEntryPointServer",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "SQLSRV_2019",
+        "DBInstance": "MSSQLSERVER",
+        "DBPort": "1433"
+      }
+    ]
+  },
+  "TFSSQLFeedLoadDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "TFSSQLFeedLoadDS",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2021-01-05T15:32:16.09722",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2021-01-05T15:32:16.09723"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "DBInstance": "MSSQLSERVER",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "SQLSRV_2019",
+        "DBPort": "1433"
+      }
+    ]
+  }
+}

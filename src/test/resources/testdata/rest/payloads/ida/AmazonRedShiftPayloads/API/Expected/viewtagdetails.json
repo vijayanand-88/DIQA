@@ -1,0 +1,7 @@
+[ {
+  "sample" : {
+    "header" : [ "email", "employee_id", "full_name", "gender", "ip_address", "phone_number", "postal_code", "ssn", "state" ],
+    "values" : [ [ "fergie@gmail.com", "10", "Alex Ferguson", "m", "255.249.255.0", "515.123.4568", "46576", "345-53-3222", "DC" ], [ "cambie@gmail.com", "11", "Jones Campbell", "f", "255.249.12.0", "515.123.4356", "46581", "345-53-3779", "TX" ], [ "lmessi@gmail.com", "12", "Lionel Messi", "m", "255.83.45.0", "515.123.6666", "78576", "315-53-3222", "NY" ], [ "ishayk@gmail.com", "13", "Irina Shayk", "f", "255.71.255.56", "515.123.2580", "48276", "345-66-3222", "VI" ] ]
+  },
+  "id" : "null"
+} ]

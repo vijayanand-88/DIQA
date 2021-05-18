@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HDFSDataSource_resolveclusterfalse",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "hdfsDBValidCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "clusterManager": {
+        "clusterManagerHost": "",
+        "clusterManagerName": "HORTONWORKS",
+        "clusterManagerPort": "",
+        "clusterManagerApiVersion": ""
+      },
+      "catalogerHdfsUser": "hdfs",
+      "resolveClusterName": false,
+      "pluginName": "HdfsDataSource",
+      "kerberos": {}
+    },
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": null,
+      "dryRun": false,
+      "nodeCondition": null,
+      "label": null,
+      "tags": null,
+      "catalogName": "Default",
+      "filter": null,
+      "credential": null,
+      "name": "HdfsDataSource_TEST_DEFAULT_CONFIGURATION",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": null,
+      "businessApplicationName": null
+    }
+  ]
+}

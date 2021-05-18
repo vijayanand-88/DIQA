@@ -1,0 +1,12 @@
+{
+  "CosmosMetadata7": {
+    "label": {
+      "": "CosmosMetadata7"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CosmosMetadata7"
+    }
+  }
+}
+

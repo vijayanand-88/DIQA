@@ -1,0 +1,79 @@
+[
+  {
+    "id": "null",
+    "sample": {
+      "values": [
+        [
+          "fergie@gmail.com",
+          "10",
+          "Alex Ferguson",
+          "m",
+          "255.249.255.0",
+          "2013-05-08 17:02:07",
+          "",
+          "100.9",
+          "515.123.4568",
+          "46576",
+          "345-53-3222",
+          "DC"
+        ],
+        [
+          "cambie@gmail.com",
+          "11",
+          "Jones Campbell",
+          "f",
+          "255.249.12.0",
+          "2015-08-05 14:05:07",
+          "",
+          "90.55",
+          "515.123.4356",
+          "46581",
+          "345-53-3779",
+          "TX"
+        ],
+        [
+          "lmessi@gmail.com",
+          "12",
+          "Lionel Messi",
+          "m",
+          "255.83.45.0",
+          "2011-09-14 16:42:57",
+          "",
+          null,
+          "515.123.6666",
+          "78576",
+          "315-53-3222",
+          "NY"
+        ],
+        [
+          "ishayk@gmail.com",
+          "13",
+          "Irina Shayk",
+          "f",
+          "255.71.255.56",
+          "2008-11-18 17:52:47",
+          "",
+          null,
+          "515.123.2580",
+          "48276",
+          "345-66-3222",
+          "VI"
+        ]
+      ],
+      "header": [
+        "EMAIL",
+        "EMPLOYEE_ID",
+        "FULL_NAME",
+        "GENDER",
+        "IP_ADDRESS",
+        "JOINING_DATE",
+        "ORACLEDB_LOCALTIME",
+        "ORACLEDB_SALARY",
+        "PHONE_NUMBER",
+        "POSTAL_CODE",
+        "SSN",
+        "STATE"
+      ]
+    }
+  }
+]

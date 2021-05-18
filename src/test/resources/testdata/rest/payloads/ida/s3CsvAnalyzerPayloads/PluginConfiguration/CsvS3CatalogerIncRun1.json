@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CsvS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CatalogCsvS3IncRun1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CsvS3DataSource",
+      "credential": "ValidCsvReadWriteCredentials",
+      "businessApplicationName": "Test_BA_CsvS3Analyzer",
+      "dryRun": false,
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "CsvS3Cataloger",
+      "delimiter": ",",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asgqacsvanalyzer"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": []
+        }
+      },
+      "firstRowAsHeader": false
+    }
+  ]
+}

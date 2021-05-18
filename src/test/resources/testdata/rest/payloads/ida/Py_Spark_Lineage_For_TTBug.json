@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SparkLineage",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "SparkLineage"
+      },
+      "catalogName": "Combination",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null
+    }
+  ]
+}

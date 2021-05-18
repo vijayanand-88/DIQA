@@ -1,0 +1,141 @@
+{
+  "ROCBOXIDataSource": {
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "BOXIDS",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "BOXICredentials",
+  "businessApplicationName": null,
+  "schedule": null,
+  "filter": null,
+  "CMS-NAME": "didbbboxi42v.did.dev.asgint.loc",
+  "CMS-AUTHENTICATION": "secEnterprise",
+  "BOXI-LOCALE": "en_US",
+  "pluginName": "ROCBoxiDataSource",
+  "RochadePath": "${rochade.home}",
+  "PropertiesAndOutputPath": "D:\\Boxi\\boxioutput",
+  "ScanBoxiSessionJarPath": "D:\\BOXI\\Boxi470sp\\java\\lib\\TranslationManagerSDK",
+  "VersionPathName": "V170"
+  },
+  "ROCBOXIExtractDataSource": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "BOXIDSExtract",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "BOXIEXTRACTCredentials",
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "CMS-NAME": "didbbboxi42v.did.dev.asgint.loc",
+    "CMS-AUTHENTICATION": "secEnterprise",
+    "BOXI-LOCALE": "en_US",
+    "pluginName": "ROCBoxiDataSource",
+    "RochadePath": "${rochade.home}",
+    "PropertiesAndOutputPath": "D:\\Boxi\\boxioutput",
+    "ScanBoxiSessionJarPath": "D:\\BOXI\\Boxi470sp\\java\\lib\\TranslationManagerSDK",
+    "VersionPathName": "V170"
+  },
+  "ROCBOXISADataSource": {
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "BOXISADS",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "BOXISACredentials",
+  "businessApplicationName": null,
+  "schedule": null,
+  "filter": null,
+  "RochadeBin": "${rochade.home}/bin",
+  "RochadeServerHost": "${rochade.server}",
+  "pluginName": "ROCBoxiSADataSource",
+  "ochadePath": "${rochade.home}",
+  "PropertiesAndOutputPath": "D:\\Boxi\\boxioutput",
+  "VersionPathName": "V170",
+  "RochadeServerPort": "${rochade.port}"
+},
+  "ROCBOXISAReconDataSource": {
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "BOXISADSRecon",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": null,
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "BOXISARECONCredentials",
+  "businessApplicationName": null,
+  "schedule": null,
+  "filter": null,
+  "RochadeBin": "${rochade.home}/bin",
+  "RochadeServerHost": "${rochade.server}",
+  "RochadePath": "${rochade.home}",
+  "PropertiesAndOutputPath": "${rochade.project.home}",
+  "VersionPathName": "V170",
+  "RochadeServerPort": "${rochade.port}"
+  },
+  "EDIBusDataSource": {
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "EDIBusDataSource",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "EDICredentials",
+  "businessApplicationName": null,
+  "schedule": null,
+  "filter": null,
+  "EDI host": "diqserver05v.diq.qa.asgint.loc",
+  "EDI subject area access roles": [
+    {
+      "role": "*"
+    }
+  ],
+  "EDI subject area name": "METAAPPS",
+  "EDI port": 8888,
+  "pluginName": "EDIBusDataSource",
+  "EDI subject area version": "PRODUCTION",
+  "EDI database": "AP-DATA"
+  }
+}

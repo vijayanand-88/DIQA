@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "resolveNameWrapper": {
+        "resolvingPluginConfiguration": "AmbariResolver",
+        "resolvingPluginName": "AmbariResolver"
+      },
+      "sparkOptions": [
+        {
+          "value": "client",
+          "key": "deploy.mode"
+        },
+        {
+          "value": "600s",
+          "key": "spark.network.timeout"
+        }
+      ],
+      "nodeCondition": null,
+      "label": {
+        "": "ParquetAnalyzer"
+      },
+      "catalogName": "ParCatalog",
+      "histogramBuckets": 100,
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "resolveClusterName": true,
+      "regExpMatchers": [],
+      "name": "ParquetAnalyzer",
+      "dataSample": {
+        "sampleSize": "25"
+      },
+      "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+      "topValues": 10
+    }
+  ]
+}

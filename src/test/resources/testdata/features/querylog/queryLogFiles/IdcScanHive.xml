@@ -1,0 +1,23 @@
+  <configuration>
+    
+    <property>
+      <name>cataloger.enable.queryLog</name>
+      <value>false</value>
+    </property>
+    
+    <property>
+      <name>cataloger.keytab</name>
+      <value>/etc/security/keytabs/cataloger.keytab</value>
+    </property>
+    
+    <property>
+      <name>cataloger.krb.conf</name>
+      <value>/etc/krb5.conf</value>
+    </property>
+    
+    <property>
+      <name>cataloger.krb.principal</name>
+      <value>hive@PRINCIPAL.COM</value>
+    </property>
+    
+  </configuration>

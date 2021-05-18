@@ -1,0 +1,52 @@
+{
+  "Automation_QA_employee": {
+    "name": {
+      "avgLength": "5.83",
+      "avgWordCount": "1",
+      "blankCount": "0",
+      "Maximum length": "7",
+      "Maximum value": "zoomer",
+      "maxWordCount": "1",
+      "Minimum length": "4",
+      "Minimum value": "Tester1",
+      "minWordCount": "1",
+      "mostFrequentWord": "zoomer",
+      "Number of non null values": "6",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "5",
+      "Percentage of unique values": "83.33"
+    },
+    "salary": {
+      "Average": "431666.67",
+      "Maximum value": "1000000",
+      "Median": "275000",
+      "Minimum value": "10000",
+      "Number of non null values": "6",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Standard deviation": "476546.6",
+      "sum": "2590000",
+      "Number of unique values": "5",
+      "Percentage of unique values": "83.33",
+      "Variance": "227096666666.67"
+    },
+    "designation": {
+      "avgLength": "9.83",
+      "avgWordCount": "2",
+      "blankCount": "0",
+      "Maximum length": "13",
+      "Maximum value": "sr developer",
+      "maxWordCount": "2",
+      "Minimum length": "7",
+      "Minimum value": "Sr manager",
+      "minWordCount": "1",
+      "Number of non null values": "6",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "6",
+      "Percentage of unique values": "100"
+    }
+  }
+}
+

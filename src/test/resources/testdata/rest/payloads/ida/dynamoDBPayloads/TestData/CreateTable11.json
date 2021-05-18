@@ -1,0 +1,29 @@
+{
+  "TableName": "TAGDETAILS_Ratiolessthan05EmptyFalse",
+  "KeySchema": [
+    {
+      "AttributeName": "EMPLOYEEID",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "FULL_NAME",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "EMPLOYEEID",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "FULL_NAME",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

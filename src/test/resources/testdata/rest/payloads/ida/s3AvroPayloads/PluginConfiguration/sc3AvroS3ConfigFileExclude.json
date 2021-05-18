@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AvroS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": ["tagSC3Avro"],
+      "pluginType": "cataloger",
+      "dataSource": "AvroS3ValidDataSource",
+      "credential": "ValidAVROCredentials",
+	  "pluginName": "AvroS3Cataloger",
+	  "type": "Cataloger",
+	  "dryRun": false,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "incremental": false,
+      "bucketFilter": {
+        "patterns": [
+          "avroasgqatestautomation1"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/AutoTestData"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/TestAvro/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [
+              "facebook.avro"
+            ],
+            "mode": "EXCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "OracleAnalyzer"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Oracle_AY",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "PDBDB19C.DIQ.QA.ASGINT.LOC",
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

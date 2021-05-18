@@ -1,0 +1,1 @@
+{"lineagetable2":[{"mode":"COPY","sourceAvailability":"YES","source":"id","dir":"<-","target":"id"},{"mode":"COPY","sourceAvailability":"YES","source":"address","dir":"<-","target":"address"},{"mode":"COPY","sourceAvailability":"YES","source":"name","dir":"<-","target":"name"},{"mode":"COPY","sourceAvailability":"YES","source":"age","dir":"<-","target":"age"}]}

@@ -1,0 +1,26 @@
+{
+  "custid": {
+    "source": ["custid"],
+    "target": ["custid"]
+  },
+  "custname": {
+    "source": ["custname"],
+    "target": ["custname"]
+  },
+  "address": {
+    "source": ["address"],
+    "target": ["address"]
+  },
+  "city": {
+    "source": ["city"],
+    "target": ["city"]
+  },
+  "custid1": {
+    "source": ["custid"],
+    "target": ["custid"]
+  },
+  "custname1": {
+    "source": ["custname"],
+    "target": ["custname"]
+  }
+}

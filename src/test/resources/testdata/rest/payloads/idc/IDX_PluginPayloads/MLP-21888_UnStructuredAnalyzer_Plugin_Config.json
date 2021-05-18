@@ -1,0 +1,40 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "UnstructuredDataAnalyzer",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "dataanalyzer",
+  "dataSource": null,
+  "credential": null,
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "UnstructuredDataAnalyzer",
+  "unstructuredBehavior": "UNPARSED",
+  "overrides": [
+    {
+      "mime": "text/x-python",
+      "detected": "application/x-sh",
+      "extension": "py"
+    },
+    {
+      "mime": "text/x-python",
+      "detected": "text/troff",
+      "extension": "py"
+    },
+    {
+      "mime": "text/x-java-source",
+      "detected": "text/html",
+      "extension": "java"
+    }
+  ],
+  "type": "Dataanalyzer"
+}

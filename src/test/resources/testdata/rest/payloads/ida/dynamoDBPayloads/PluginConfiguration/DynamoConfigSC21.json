@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DynamoCatalog10",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["SC11DynamoTags"],
+      "filter": null,
+      "tables": [
+        {
+          "table": "GlobalTable"
+        }
+      ],
+      "dataSource": "dydbInValidDataSource",
+      "credential": "IncorrectDYDBCredentials",
+      "domain": "amazonaws.com",
+      "properties": []
+    }
+  ]
+}

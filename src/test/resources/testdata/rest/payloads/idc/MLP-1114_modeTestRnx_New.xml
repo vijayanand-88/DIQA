@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE XMI SYSTEM 'http://schema.asg.com/rochade/xml/RNX_1_6.dtd'>
+<XMI timestamp='10/06/2016 17:01:11 CEST' verified='false' xmi.version='1.0'>
+	<!-- update with internally specified import modes using Rochade type and attribute names -->
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+			<XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+		</XMI.documentation>
+		<XMI.model xmi.name='RNX' xmi.version='1.6'/>
+		<XMI.model xmi.name='ORA+A' xmi.version='V0' href='rochade://gechem7berndk.asg.com:8976/ADMIN/AP-DATA/S/ORA%2bA/V0'/>
+	</XMI.header>
+	<XMI.content xmi.uuid='XMLDsp|SERVER1|AP-DATA|ADMIN|S|ORA+A|V0' uuidDel='|'>
+		<ITEM itemType='T1' itemName='x1'>
+			<ATTRIBUTES>
+				<ATTRIBUTE attrType='Txt' attrName='Rta1' >line4
+					line2</ATTRIBUTE>
+				<ATTRIBUTE attrType='Txt' attrName='Rta2' >line4
+					line2</ATTRIBUTE>
+				<ATTRIBUTE attrType='Txt' attrName='Rta3' >line4
+					line2</ATTRIBUTE>
+				<ATTRIBUTE attrType='Txt' attrName='Rta4' >line4
+					line2</ATTRIBUTE>
+				<ATTRIBUTE attrType='Lnk' attrName='Rla1' linkType='Set'>
+					<ITEMS>
+						<ITEM xmi.idref='_r4' itemType='T1' itemName='x1'/>
+						<ITEM xmi.idref='_r2' itemType='T1' itemName='x2'/>
+					</ITEMS>
+				</ATTRIBUTE>
+			</ATTRIBUTES>
+		</ITEM>
+		<ITEM xmi.id='_r2' itemType='T1' itemName='x2' />
+		<ITEM xmi.id='_r4' itemType='T1' itemName='x3' />
+	</XMI.content>
+</XMI>

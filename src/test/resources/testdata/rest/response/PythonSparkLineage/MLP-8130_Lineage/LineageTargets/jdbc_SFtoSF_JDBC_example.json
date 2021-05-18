@@ -1,0 +1,44 @@
+{
+  "SnowFlake_to_SnowFlake_jdbc": {
+    "FINANCE.PAYROLLDEPT => SF_To_SF_jdbc.PAYROLLDEPT": {
+      "mode": "COPY",
+      "lineageFrom": "PAYROLLDEPT",
+      "lineageTo": "PAYROLLDEPT"
+    },
+    "FINANCE.DEPTID => SF_To_SF_jdbc.DEPTID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPTID",
+      "lineageTo": "DEPTID"
+    },
+    "PAYROLLID => FINANCE_DUPLICATE.PAYROLLID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PAYROLLID",
+      "lineageTo": "PAYROLLID"
+    },
+    "FINANCE.SALARY => SF_To_SF_jdbc.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "DEPTID => FINANCE_DUPLICATE.DEPTID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPTID",
+      "lineageTo": "DEPTID"
+    },
+    "FINANCE.PAYROLLID => SF_To_SF_jdbc.PAYROLLID": {
+      "mode": "COPY",
+      "lineageFrom": "PAYROLLID",
+      "lineageTo": "PAYROLLID"
+    },
+    "SALARY => FINANCE_DUPLICATE.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "PAYROLLDEPT => FINANCE_DUPLICATE.PAYROLLDEPT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PAYROLLDEPT",
+      "lineageTo": "PAYROLLDEPT"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 4302,
+      "value" : "DataField"
+    }, {
+      "count" : 1224,
+      "value" : "Measure"
+    }, {
+      "count" : 1045,
+      "value" : "Report"
+    }, {
+      "count" : 739,
+      "value" : "DataType"
+    }, {
+      "count" : 285,
+      "value" : "ReportPackage"
+    }, {
+      "count" : 228,
+      "value" : "ReportSchema"
+    }, {
+      "count" : 146,
+      "value" : "Dimension"
+    }, {
+      "count" : 144,
+      "value" : "OlapSchema"
+    }, {
+      "count" : 109,
+      "value" : "AggregationLevel"
+    }, {
+      "count" : 16,
+      "value" : "Hierarchy"
+    }, {
+      "count" : 6,
+      "value" : "Analysis"
+    }, {
+      "count" : 3,
+      "value" : "OlapPackage"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

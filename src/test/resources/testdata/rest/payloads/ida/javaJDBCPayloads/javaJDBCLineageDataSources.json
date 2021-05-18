@@ -1,0 +1,45 @@
+{
+  "gitCollectorDataSource": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollectorDataSourceJJ",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollectorDataSourceJJ"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "ValidGitCredentialsJJ",
+    "filter": null,
+    "url": "https://source-team.asg.com/scm/~becubic_build/javaspark_lineage.git"
+  },
+  "oracleDBDataSource": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBDataSourceJJ",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "OracleDBDataSourceJJ"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "ValidOracleDBCredentialsJJ",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "driver": "oracle.jdbc.OracleDriver",
+    "pluginName": "OracleDBDataSource",
+    "driverBundleName": "oracle.jdbc.OracleDriver",
+    "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORACLE12C"
+  }
+}

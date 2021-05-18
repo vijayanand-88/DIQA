@@ -1,0 +1,29 @@
+{
+  "TableName": "TAGDETAILS_Ratiogreaterthan05EmptyFalseTrue_GlobalTable2017",
+  "KeySchema": [
+    {
+      "AttributeName": "EMPLOYEEID",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "IPADDRESS",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "EMPLOYEEID",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "IPADDRESS",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

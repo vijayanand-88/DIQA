@@ -1,0 +1,25 @@
+{
+  "configurations": [
+  {
+       "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DynamoCatalogDSNull",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["SC20DynamoTags"],
+      "pluginType": "cataloger",
+      "dataSource": null,
+      "credential": "ValidDYDBCredentials",
+      "dryRun": false,
+      "filter": null,
+      "tables": [],
+      "properties": []
+    }   
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rim="http://rochade.asg.com/AttTypes/1.00.000">
+    <xmi:Documentation>
+        <exporter>ASG-Rochade(R) SCANHDFS</exporter>
+        <exporterVersion>9.99.999-dev</exporterVersion>
+    </xmi:Documentation>
+    <rim:tAttType name="i1" aString="created by ASG-Rochade"
+                  aBoolean="true" aInt="4711" aLong="4711" aFloat="47.11" aDouble="47.11"
+                  aZonedDateTime="2016-11-29T14:26:28.862+01:00[Europe/Berlin]"
+                  aLocalDateTime="2016-11-29T14:26:28.862" />
+    <rim:tAttType name="i2">
+        <aString>added by ASG-Rochade</aString>
+        <aBoolean>false</aBoolean>
+        <aInt>-4711</aInt>
+        <aLong>-4711</aLong>
+        <aFloat>-47.11</aFloat>
+        <aDouble>-47.11</aDouble>
+        <aZonedDateTime>20161129142628+0100</aZonedDateTime>
+        <aLocalDateTime>20161129142628</aLocalDateTime>
+    </rim:tAttType>
+</xmi:XMI>

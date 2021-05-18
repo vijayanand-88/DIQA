@@ -1,0 +1,294 @@
+{
+  "postgreDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgreSQLDBCatalogerPSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PostgreSQLDBCatalogerPSA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_PySQLAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "PostgreSQLDBDataSourcePSA",
+    "credential": "ValidPostgresDBCredentialsPSA",
+    "businessApplicationName": "test_BA_PySQLAll",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "PostgreSQLDBCataloger",
+    "schemas": [
+      {
+        "schema": "railways",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "snowflakeDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCatalogerPSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "SnowflakeDBCatalogerPSA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags":[
+      "tag_PySQLAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeDBDataSourcePSA",
+    "credential": "ValidSnowflakeDBCredentialsPSA",
+    "businessApplicationName": "test_BA_PySQLAll",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "SEAPORT",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "teradataDBCatalgoer": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "TeradataDBCatalogerPSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "TeradataDBCatalogerPSA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags":[
+      "tag_PySQLAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "TeradataDBDataSourcePSA",
+    "credential": "ValidTeradataDBCredentialsPSA",
+    "businessApplicationName": "test_BA_PySQLAll",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "TeradataDBCataloger",
+    "databaseFilter": [
+      {
+        "database": "transport"
+      }
+    ],
+    "casesensitive": false,
+    "arguments": [],
+    "type": "Cataloger"
+  },
+  "oracleDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCatalogerPSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags":[
+      "tag_PySQLAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "OracleDBDataSourcePSA",
+    "credential": "ValidOracleDBCredentialsPSA",
+    "businessApplicationName": "test_BA_PySQLAll",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "COLLECTOR",
+        "tables": []
+      }
+    ],
+    "arguments": [],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "GitCollector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollectorPSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollectorPSA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_PySQLAll"
+    ],
+    "pluginType": "collector",
+    "dataSource": "GitCollectorDataSourcePSA",
+    "credential": "ValidGitCredentialsPSA",
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.Filter",
+          "label": null,
+          "tags": null,
+          "branch": "refs/heads/master"
+        }
+      ],
+      "deltaTime": "300",
+      "extraFilters": {
+        "filefilters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.FileFilter",
+            "label": {
+              "": "Filter1"
+            },
+            "fileMode": "include",
+            "objectType": "folder",
+            "expressionType": "simple",
+            "expressions": [
+              "**pythonODBCAllDS**", "**test_package**"
+            ]
+          }
+        ]
+      },
+      "maxHits": null
+    },
+    "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+    "dryRun": false
+  },
+  "PythonParser": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonParserPSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySQLAll"],
+    "pluginType": "parser",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PythonParser",
+    "type": "Parser"
+  },
+  "PythonPackageLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonPackageLinkerPSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonPackageLinkerPSA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySQLAll"],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PythonPackageLinker",
+    "type": "Linker"
+  },
+  "PythonLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonLinkerPSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonLinkerPSA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySQLAll"],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PythonLinker",
+    "type": "Linker"
+  },
+  "PythonSQLLineageDryRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonSQLLineagePSADryRun",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonSQLLineagePSADryRun"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySQLAll"],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": true,
+    "filter": null,
+    "pluginName": "PythonSQLLineage",
+    "type": "Lineage"
+  },
+  "PythonSQLLineageActualRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonSQLLineagePSA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PythonSQLLineagePSA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["tag_PySQLAll"],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_PySQLAll",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PythonSQLLineage",
+    "type": "Lineage"
+  }
+}

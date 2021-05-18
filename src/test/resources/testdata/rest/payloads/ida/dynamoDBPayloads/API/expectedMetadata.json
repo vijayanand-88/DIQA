@@ -1,0 +1,45 @@
+{
+  "bigintdataStat": {
+    "Statistics": {
+      "Average": "250",
+      "Length": "22",
+      "Maximum value": "300",
+      "Median": "250",
+      "Minimum value": "200",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Standard deviation": "70.71",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100",
+      "Variance": "5000"
+    },
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "FLOAT"
+    }
+  },
+  "Book_Title": {
+    "Statistics": {
+      "Length": "255",
+      "Maximum value": "Mountain B",
+      "Minimum length": "10",
+      "Minimum value": "Mountain A",
+      "Maximum length": "10",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "VARCHAR"
+    }
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "handleMultipleLineage_1": {
+    "source": ["/MultiSource.txt"],
+    "target": ["/MultiDestination.txt"]
+  },
+  "handleMultipleLineage_2": {
+    "source": ["/MulticopyFilesAPI_f1.txt"],
+    "target": ["/MulticopyFilesAPI_f2.txt"]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollectorDS_TransformationAPI",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "TransformationAPI"
+      ],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "sparkGitEDIBus",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "url": "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git"
+    }
+  ]
+}

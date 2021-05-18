@@ -1,0 +1,11 @@
+{
+  "TestCat1": {
+    "label": {
+      "": "TestCat1"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "TestCat1"
+    }
+  }
+}

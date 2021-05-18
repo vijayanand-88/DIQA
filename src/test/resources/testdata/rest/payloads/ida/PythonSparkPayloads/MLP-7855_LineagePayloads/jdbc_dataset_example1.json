@@ -1,0 +1,54 @@
+{
+  "address": {
+    "source": ["address"],
+    "target": ["address"]
+  },
+  "email": {
+    "source": ["email"],
+    "target": ["email"]
+  },
+  "empid": {
+    "source": ["empid"],
+    "target": ["empid"]
+  },
+  "emp_ad": {
+    "source": ["address"],
+    "target": ["address"]
+  },
+  "emp_id": {
+    "source": ["empid"],
+    "target": ["empid"]
+  },
+  "emp_name": {
+    "source": ["ename"],
+    "target": ["ename"]
+  },
+  "ename": {
+    "source": ["ename"],
+    "target": ["ename"]
+  },
+  "gender": {
+    "source": ["gender"],
+    "target": ["gender"]
+  },
+  "name": {
+    "source": ["name"],
+    "target": ["name"]
+  },
+  "users_email": {
+    "source": ["email"],
+    "target": ["email"]
+  },
+  "users_gender": {
+    "source": ["gender"],
+    "target": ["gender"]
+  },
+  "users_id": {
+    "source": ["id"],
+    "target": ["id"]
+  },
+  "users_name": {
+    "source": ["name"],
+    "target": ["name"]
+  }
+}

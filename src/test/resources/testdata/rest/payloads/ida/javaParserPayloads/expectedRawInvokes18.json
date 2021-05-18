@@ -1,0 +1,26 @@
+[
+  {
+    "startLine": 17,
+    "endLine": 17,
+    "startColumn": 50,
+    "endColumn": 57,
+    "methodName": "Arrays.stream().filter().count",
+    "argumentNb": 0
+  },
+  {
+    "startLine": 15,
+    "endLine": 17,
+    "startColumn": 20,
+    "endColumn": 49,
+    "methodName": "Arrays.stream().filter",
+    "argumentNb": 1
+  },
+  {
+    "startLine": 15,
+    "endLine": 15,
+    "startColumn": 20,
+    "endColumn": 45,
+    "methodName": null,
+    "argumentNb": 1
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "tableName": "dvdrental_accounts_rds",
+  "description": "Table Description",
+  "database": "accounts_rds",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "password",
+        "type": "string",
+        "comment": ""
+      }
+    ]
+  },
+  "StorageDescriptor":  {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "password",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "user_id",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "created_on",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "last_login",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "username",
+          "type": "string",
+          "comment": ""
+        }
+      ]
+    },
+    "location": "dvdrental.rds.accounts",
+    "inputFormat": "",
+    "outputFormat": "",
+    "compressed": "false",
+    "numBuckets": "-1",
+    "SerDeInfo": {
+      "name": "",
+      "serializationLib": "1",
+      "parameters": {}
+    },
+    "bucketCols": [],
+    "sortCols": [],
+    "parameters": {
+      "UPDATED_BY_CRAWLER": "rds_postgres_cr",
+      "CrawlerSchemaSerializerVersion": "1.0",
+      "CrawlerSchemaDeserializerVersion": "1.0",
+      "compressionType": "none",
+      "connectionName": "RDS-PostgreSQL",
+      "classification": "postgresql",
+      "typeOfData": "table"
+    },
+    "SkewedInfo": {},
+    "storedAsSubDirectories": "false"
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "parameters": {
+    "UPDATED_BY_CRAWLER": "rds_postgres_cr",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "connectionName": "RDS-PostgreSQL",
+    "classification": "postgresql",
+    "typeOfData": "table"
+  }
+}

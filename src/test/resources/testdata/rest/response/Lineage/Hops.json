@@ -1,0 +1,69 @@
+{
+  "LineageHops": {
+    "ds0.age => rc1.age": {
+      "lineageFrom": "",
+      "lineageTo": "",
+      "mode": ""
+    },
+    "ds0.fare => rc1.fare": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "ds0.passengerid => rc1.passengerid": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "ds0.ticket => rc1.ticket": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "rc1.age => GLUETABLE212B.AGE": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "rc1.age => gluetable21.age": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "rc1.fare => GLUETABLE212B.FARE": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "rc1.fare => gluetable21.fare": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "rc1.passengerid => GLUETABLE212B.PASSENGERID": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "rc1.passengerid => gluetable21.passengerid": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "rc1.ticket => GLUETABLE212B.TICKET": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "rc1.ticket => gluetable21.ticket": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "train_sm_s2adb_csv.age => ds0.age": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "train_sm_s2adb_csv.fare => ds0.fare": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    },
+    "train_sm_s2adb_csv.ticket => ds0.ticket": {
+      "lineageFrom": "",
+      "lineageTo": ""
+    }
+  }
+}

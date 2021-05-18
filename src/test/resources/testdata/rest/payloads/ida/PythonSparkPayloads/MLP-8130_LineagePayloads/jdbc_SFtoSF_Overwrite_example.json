@@ -1,0 +1,30 @@
+{
+  "AGE": {
+    "source": ["AGE"],
+    "target": ["AGE"]
+  },
+  "ADDRESS": {
+    "source": ["ADDRESS"],
+    "target": ["ADDRESS"]
+  },
+  "AGE1": {
+    "source": ["AGE"],
+    "target": ["AGE"]
+  },
+  "ID": {
+    "source": ["ID"],
+    "target": ["ID"]
+  },
+  "NAME": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  },
+  "ID1": {
+    "source": ["ID"],
+    "target": ["ID"]
+  },
+  "NAME1": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  }
+}

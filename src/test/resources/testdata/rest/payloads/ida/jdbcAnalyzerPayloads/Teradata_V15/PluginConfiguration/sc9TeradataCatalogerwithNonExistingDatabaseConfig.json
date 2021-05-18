@@ -1,0 +1,31 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TeradataCatalogerwithNonExistingDatabase",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [
+    "SC9TeradataCatalogerWithNonExistingDatabase"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "TeradataDataSource",
+  "credential": "TeradataCredentials",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "TeradataDBCataloger",
+  "databaseFilter": [
+    {
+      "database": "NonExistingDatabase"
+    }
+  ],
+  "casesensitive": true,
+  "arguments": [],
+  "type": "Cataloger"
+}

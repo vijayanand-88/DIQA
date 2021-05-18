@@ -1,0 +1,96 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "parallelQueryBatchSize": 10000,
+      "parallelWorkBatchSize": 100,
+      "parallelWorkPollInterval": 60,
+      "filter": null,
+      "database": "col2",
+      "password": "collector1",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "host": "gechcae-col1.asg.com",
+      "user": "collector",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:col2"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CATALOGER",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "parallelQueryBatchSize": 10000,
+      "parallelWorkBatchSize": 100,
+      "parallelWorkPollInterval": 60,
+      "filter": null,
+      "database": "NA01DC1Q",
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [],
+      "host": "mvssysq.asg.com",
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgresCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "database": "postgres",
+      "password": "postgres",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [],
+      "host": "decheqaperf01v.asg.com",
+      "user": "postgres",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "database": "collector",
+      "password": "dbc",
+      "driverBundleName": "com.teradata.jdbc.TeraDriver",
+      "schemas": [],
+      "host": "10.33.6.190",
+      "user": "dbc",
+      "properties": [],
+      "url": "jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII,database=collector"
+    }
+  ]
+}

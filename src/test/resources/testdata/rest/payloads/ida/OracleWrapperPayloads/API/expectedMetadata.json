@@ -1,0 +1,116 @@
+{
+  "OracleDefaultSystem": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Definition":"created by ASG-Rochade SCANORAC",
+      "Description": null
+    }
+  },
+  "PDBDB": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Definition":"created by ASG-Rochade SCANORAC",
+      "Storage type": "Oracle"
+    }
+  },
+  "Oracle12c_schema1": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Definition":"created by ASG-Rochade SCANORAC",
+      "Description": null
+    }
+  },
+  "city": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Table Type":"TABLE",
+      "Description": null,
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle1": ["Created","Modified"]
+  },
+  "AREA": {
+    "Description": {
+      "Description": null,
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle": ["Created","Modified"],
+    "Statistics":{
+      "Length": "126"
+    }
+  },
+  "FKEY11": {
+    "Description": {
+      "Constraint Type": "FOREIGN_KEY"
+    }
+  },
+  "PROV2T": {
+    "Description": {
+      "Definition": "created by ASG-Rochade SCANORAC",
+      "Created by":"ADMIN",
+      "routineType":"PROCEDURE"
+    },
+    "Lifecycle": ["Created","Modified"]
+  },
+  "OCPPTESTFUNCTION": {
+    "Description": {
+      "Definition": "created by ASG-Rochade SCANORAC",
+      "Created by":"ADMIN",
+      "routineType":"FUNCTION"
+    },
+    "Lifecycle": ["Created","Modified"]
+  },
+  "TRIGGER1": {
+    "Description": {
+      "Definition": "created by ASG-Rochade SCANORAC",
+      "Created by":"ADMIN"
+    },
+    "Lifecycle": ["Created","Modified"]
+  },
+  "SQLSource_OCPPTESTFUNCTION": {
+    "Description": {
+      "source": "CREATE FUNCTION                   OCPPTESTFUNCTION(in_person_id IN NUMBER) RETURN NUMBER IS person_details NUMBER; BEGIN INSERT INTO ORACLE12C_SCHEMA1.OCPPFT2T2 (PEOPLEID,FIRSTNAME, LASTNAME, AGE, CITY,ZIPCODE) SELECT PEOPLEID,FIRSTNAME, LASTNAME, AGE, CITY,ZIPCODE from ORACLE12C_SCHEMA1.OCPPFT2T1; RETURN(person_details); END OCPPTESTFUNCTION;"
+    }
+  },
+  "SQLSource_PROV2T": {
+    "Description": {
+      "source": "CREATE PROCEDURE                   PROV2T as begin insert into ORACLE12C_SCHEMA1.OCPPV2T (rollno,name,grade,schoolname) select rollno,name,grade,schoolname from ORACLE12C_SCHEMA1.OCPPVIEW; END;"
+    }
+  },
+  "SQLSource_TRIGGER1": {
+    "Description": {
+      "source": "CREATE TRIGGER ORACLE12C_SCHEMA1.TRIGGER1 AFTER  insert on ORACLE12C_SCHEMA1.TRIGGERTEST for each row  begin  insert into ORACLE12C_SCHEMA1.TRIGGERTEST1 values(:new.ID,:new.IDNAME,:new.IDADDRESS); end; "
+    }
+  },
+  "IncludeFilter": {
+    "ExpectedSchemas": [  "LBACSYS",
+      "MDSYS",
+      "ORACLE12C_SCHEMA1",
+      "ORACLE19C_LINEAGESCHEMA1",
+      "ORACLE19C_LINEAGESCHEMA2",
+      "SYS",
+      "WMSYS"
+    ]
+  },
+  "ExcludeFilter": {
+    "ExpectedSchemas": [
+      "OLAPSYS",
+      "ORACLE12C_SCHEMA1",
+      "REMOTE_SCHEDULER_AGENT"
+    ]
+  },
+  "ExcludeFilterWildcard": {
+    "ExpectedSchemas": [
+      "HR",
+      "OLAPSYS",
+      "ORACLE12C_SCHEMA1",
+      "ORACLE_TESTSCHEMA",
+      "REMOTE_SCHEDULER_AGENT",
+      "SCH_BOA",
+      "TEST_TAGGING"
+    ]
+  }
+}
+

@@ -1,0 +1,82 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "pluginName": "CassandraDBAnalyzer",
+    "technologies": [
+      ""
+    ],
+    "view":{
+      "label":"CassandraDBAnalyzer ",
+      "value":"CassandraDBAnalyzer "
+    },
+    "dataType": "STRUCTURED"
+  },
+  "outputs": [
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CassandraPII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "CassandraIPAddressPIITag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CassandraPII",
+      "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+      "tags": [
+        "CassandraEmailPIITag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CassandraPII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "CassandraSSNPIITag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CassandraPII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "CassandraGenderPIITag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "CassandraPII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "CassandraFullNamePIITag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaS3Parser",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaS3Parser"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagJavaS3Lineage"],
+      "businessApplicationName": "test_BA_JavaS3Lineage",
+      "pluginType": "parser",
+      "filter": null
+    }
+  ]
+}

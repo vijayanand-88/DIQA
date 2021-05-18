@@ -1,0 +1,31 @@
+{
+  "name": "NEW_ROLE",
+  "label": {
+    "": "NewRole",
+    "en": "NewRole"
+  },
+  "description": {
+    "": "NewRole has all the rights and is responsible for the upkeep, configuration, customization, security, and reliable operation of the system",
+    "en": "NewRole has all the rights and is responsible for the upkeep, configuration, customization, security, and reliable operation of the system"
+  },
+  "permissions": [
+    "DATA_CREATE",
+    "ADMIN_DELETION",
+    "TAG_DELETE",
+    "TAG_APPROVE",
+    "TRIGGER_ANALYSIS",
+    "DATASET_REQUEST_ACCESS",
+    "IMPORT_MODIFY",
+    "DATASET_MODIFY",
+    "ADMIN_DIAGRAM",
+    "ADMIN_SECURITY",
+    "ADMIN_NOTIFICATIONS",
+    "ADMIN_MESSAGING",
+    "IMPORT_DELETE",
+    "ADMIN_STRUCTURE",
+    "UPLOAD_APPROVE",
+    "UPLOAD_MODIFY",
+    "ADMIN_WIDGETS",
+    "DATASET_APPROVE"
+  ]
+}

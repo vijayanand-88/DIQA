@@ -1,0 +1,281 @@
+{
+  "MetaData": {
+    "totalCount": 44,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 31,
+          "value": "Column"
+        },
+        {
+          "count": 4,
+          "value": "Constraint"
+        },
+        {
+          "count": 4,
+          "value": "Table"
+        },
+        {
+          "count": 1,
+          "value": "Analysis"
+        },
+        {
+          "count": 1,
+          "value": "Cluster"
+        },
+        {
+          "count": 1,
+          "value": "Database"
+        },
+        {
+          "count": 1,
+          "value": "Host"
+        },
+        {
+          "count": 1,
+          "value": "Service"
+        }
+      ]
+    },
+    "hostMetaData": {
+      "name": "Domain=amazonaws.com;Region=NorthernVirginia;",
+      "hostID": "DynamoCatalog1.Host:::1",
+      "NumberofCores": 0,
+      "HostName": "Domain=amazonaws.com;Region=NorthernVirginia;",
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Dynamo DB"
+          },
+          {
+            "techTag": "SC1DynamoTags"
+          },
+          {
+            "techTag": "DYNAMODB_BA"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "clusterMetaData": {
+      "name": "Domain=amazonaws.com;Region=NorthernVirginia;",
+      "clusterID": "DynamoCatalog1.Cluster:::1",
+      "table": {
+        "values": [
+          {
+            "type": "Hosts",
+            "name": "Domain=amazonaws.com;Region=NorthernVirginia;"
+          },
+          {
+            "type": "Services",
+            "name": "DYNAMODB"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            },
+            {
+              "techTag": "SC1DynamoTags"
+            },
+            {
+              "techTag": "DYNAMODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "serviceMetaData": {
+      "name": "DYNAMODB",
+      "serviceID": "DynamoCatalog1.Service:::1",
+      "applicationVersion": "CData JDBC Driver for Amazon DynamoDB 201919.0.7156",
+      "table": {
+        "values": [
+          {
+            "type": "Databases",
+            "name": "DYNAMODB"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            },
+            {
+              "techTag": "SC1DynamoTags"
+            },
+            {
+              "techTag": "DYNAMODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "databaseMetaData": {
+      "name": "DYNAMODB",
+      "databaseID": "DynamoCatalog1.Database:::1",
+      "storageType": "CData JDBC Driver for Amazon DynamoDB 201919.0.7156",
+      "table": {
+        "values": [
+          {
+            "type": "Tables",
+            "name": "AllDataTypes"
+          },
+          {
+            "type": "Tables",
+            "name": "DynamicColumns"
+          },
+          {
+            "type": "Tables",
+            "name": "TestTable1"
+          },
+          {
+            "type": "Tables",
+            "name": "TestTableOnlyPK"
+          }
+
+        ],
+        "Technicaldata": {
+          "values": {
+            "jdbcURL": "jdbc:amazondynamodb:Access Key=AKIA4UIVSTNYUDHTTVT4;Secret Key=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;Domain=amazonaws.com;Region=NorthernVirginia;",
+            "dbType": "DYNAMODB",
+            "host": "Domain=amazonaws.com;Region=NorthernVirginia;",
+            "driverClass": "cdata.jdbc.amazondynamodb.AmazonDynamoDBDriver",
+            "driverName": "CData JDBC Driver for Amazon DynamoDB 2019",
+            "database": "DYNAMODB",
+            "userName": "AKIA4UIVSTNYUDHTTVT4",
+            "password": "tL0NJKxi95Swl/wQOMdYwsiXe54/wzthiwGybL/D09DNUT7Yibmy7ZOMrllBAHdF1TQp7ANDGvmq/5PesXGERQ=="
+          }
+        },
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            },
+            {
+              "techTag": "SC1DynamoTags"
+            },
+            {
+              "techTag": "DYNAMODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "tableMetaData": {
+      "name": "TestTable1",
+      "tableID": "DynamoCatalog1.Table:::1",
+      "tableType": "TABLE",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "BicycleType"
+          },
+          {
+            "type": "Columns",
+            "name": "Brand"
+          },
+          {
+            "type": "Columns",
+            "name": "Color"
+          },
+          {
+            "type": "Columns",
+            "name": "Description"
+          },
+          {
+            "type": "Columns",
+            "name": "ID"
+          },
+          {
+            "type": "Columns",
+            "name": "Price"
+          },
+          {
+            "type": "Columns",
+            "name": "ProductCategory"
+          },
+          {
+            "type": "Columns",
+            "name": "Title"
+          },
+          {
+            "type": "Constraints",
+            "name": "TESTTABLE1_PRIMARYKEY"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            },
+            {
+              "techTag": "SC1DynamoTags"
+            },
+            {
+              "techTag": "DYNAMODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "constraintMetaData": {
+      "name": "TESTTABLE1_PRIMARYKEY",
+      "constraintID": "DynamoCatalog1.Constraint:::5",
+      "constraintType": "PRIMARY_KEY",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "BicycleType"
+          },
+          {
+            "type": "Columns",
+            "name": "ID"
+          }
+
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            },
+            {
+              "techTag": "SC1DynamoTags"
+            },
+            {
+              "techTag": "DYNAMODB_BA"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    }
+  }
+}

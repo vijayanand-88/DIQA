@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CSVS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonCSVS3DataSource",
+      "credential": "Spec_AWS_CSV_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "runAfter": [],
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "CsvS3Cataloger",
+      "delimiter": ",",
+      "incremental": true,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asgredshiftworlddata"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": [
+            "/QA"
+          ]
+        }
+      },
+      "firstRowAsHeader": true
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "MetaData": {
+    "totalCount": 111,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 88,
+          "value": "Field"
+        },
+        {
+          "count": 14,
+          "value": "File"
+        },
+        {
+          "count": 6,
+          "value": "Directory"
+        },
+        {
+          "count": 1,
+          "value": "Analysis"
+        },
+        {
+          "count": 1,
+          "value": "Cluster"
+        },
+        {
+          "count": 1,
+          "value": "Service"
+        }
+      ]
+    },
+    "clusterMetaData": {
+      "name": "amazonaws.com",
+      "clusterID": "S3ParquetSC1.Cluster:::1",
+      "table": {
+        "values": {
+          "type": "Service",
+          "name": [
+            "AmazonS3"
+          ]
+        }
+      },
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Data Files"
+          },
+          {
+            "techTag": "Parquet"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "serviceMetaData": {
+      "name": "AmazonS3",
+      "serviceID": "S3AmazonSC1.Service:::1",
+      "has_Directory": [
+        {
+          "name": "asgqaparquetautomation"
+        }
+      ],
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Data Files"
+          },
+          {
+            "techTag": "Parquet"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "directoryMetaData": {
+      "directorySize": 0,
+      "numberOfFiles": 0,
+      "sizeOfFiles": 0,
+      "location": "asgqaparquetautomation/",
+      "numberOfSubDir": 1,
+      "sizeOfSubDir": 0,
+      "directoryID": "S3AmazonSC1.Directory:::3",
+      "table": {
+        "has_Directory": [
+          {
+            "name": "ParquetTestData"
+          }
+        ]
+      }
+    },
+    "subDirectoryMetaData": {
+      "directorySize": 125919,
+      "numberOfFiles": 10,
+      "sizeOfFiles": 125919,
+      "location": "asgqaparquetautomation/ParquetTestData/TestParquet/",
+      "numberOfSubDir": 1,
+      "sizeOfSubDir": 1445,
+      "directoryID": "S3AmazonSC1.Directory:::3",
+      "table": {
+        "has_Files": [
+          {
+            "name": "HiveParquet.parquet"
+          },
+          {
+            "name": "Spark.parquet"
+          },
+          {
+            "name": "nation.parquet"
+          },
+          {
+            "name": "region.parquet"
+          },
+          {
+            "name": "simple.parquet"
+          },
+          {
+            "name": "source.parquet"
+          },
+          {
+            "name": "testcomplex.parquet"
+          },
+          {
+            "name": "userDiffDataTypes.parquet"
+          },
+          {
+            "name": "userdata1.parquet"
+          },
+          {
+            "name": "version"
+          },
+          {
+            "name": "weather.parquet"
+          }
+        ]
+      }
+    },
+    "fileMetaData": {
+      "fileID": "S3AmazonSC1.File:::1",
+      "Location": "asgqaparquetautomation/ParquetTestData/TestParquet/nation.parquet",
+      "fileContentLength": 1210,
+      "table": {
+        "has_Fields": [
+          {
+            "name": "N_COMMENT"
+          },
+          {
+            "name": "N_NAME"
+          },
+          {
+            "name": "N_NATIONKEY"
+          },
+          {
+            "name": "N_REGIONKEY"
+          }
+        ]
+      }
+    },
+    "fieldMetaData": {
+      "file1": {
+        "field1": {
+          "fieldName": "a1",
+          "fieldDataType": "INT32"
+        },
+        "field2": {
+          "fieldName": "b1",
+          "fieldDataType": "FLOAT"
+        },
+        "field3": {
+          "fieldName": "c1",
+          "fieldDataType": "STRING"
+        },
+        "field4": {
+          "fieldName": "d1",
+          "fieldDataType": "DOUBLE"
+        },
+        "field5": {
+          "fieldName": "e1",
+          "fieldDataType": "BOOLEAN"
+        }
+      },
+      "file2": {
+        "field1": {
+          "fieldName": "username",
+          "fieldDataType": "STRING"
+        },
+        "field2": {
+          "fieldName": "age",
+          "fieldDataType": "INT32"
+        },
+        "field3": {
+          "fieldName": "InCity",
+          "fieldDataType": "BOOLEAN"
+        },
+        "field4": {
+          "fieldName": "doubleType",
+          "fieldDataType": "DOUBLE"
+        },
+        "field5": {
+          "fieldName": "floatType",
+          "fieldDataType": "FLOAT"
+        },
+        "field6": {
+          "fieldName": "longType",
+          "fieldDataType": "INT64"
+        },
+        "field7": {
+          "fieldName": "bytesType",
+          "fieldDataType": "BINARY"
+        },
+        "field8": {
+          "fieldName": "phone",
+          "fieldDataType": "STRING"
+        },
+        "field9": {
+          "fieldName": "object",
+          "fieldDataType": "CUSTOM"
+        },
+        "field10": {
+          "fieldName": "StringArray",
+          "fieldDataType": "LIST"
+        },
+        "field11": {
+          "fieldName": "String",
+          "fieldDataType": "STRING"
+        },
+        "field12": {
+          "fieldName": "Double",
+          "fieldDataType": "FLOAT"
+        },
+        "field13": {
+          "fieldName": "ObjectArray",
+          "fieldDataType": "LIST"
+        },
+        "field14": {
+          "fieldName": "magic",
+          "fieldDataType": "FIXED_LEN_BYTE_ARRAY"
+        },
+        "field15": {
+          "fieldName": "StringMap",
+          "fieldDataType": "MAP"
+        },
+        "field16": {
+          "fieldName": "IntMap",
+          "fieldDataType": "MAP"
+        },
+        "field17": {
+          "fieldName": "Int",
+          "fieldDataType": "INT32"
+        },
+        "field18": {
+          "fieldName": "object3",
+          "fieldDataType": "CUSTOM"
+        }
+      },
+      "file3": {
+        "field1": {
+          "fieldName": "_c0",
+          "fieldDataType": "STRING"
+        },
+        "field2": {
+          "fieldName": "_c1",
+          "fieldDataType": "STRING"
+        },
+        "field3": {
+          "fieldName": "_c2",
+          "fieldDataType": "STRING"
+        },
+        "field4": {
+          "fieldName": "_c3",
+          "fieldDataType": "STRING"
+        },
+        "field5": {
+          "fieldName": "_c4",
+          "fieldDataType": "STRING"
+        },
+        "field6": {
+          "fieldName": "_c5",
+          "fieldDataType": "STRING"
+        },
+        "field7": {
+          "fieldName": "_c6",
+          "fieldDataType": "STRING"
+        },
+        "field8": {
+          "fieldName": "_c7",
+          "fieldDataType": "STRING"
+        },
+        "field9": {
+          "fieldName": "_c8",
+          "fieldDataType": "STRING"
+        },
+        "field10": {
+          "fieldName": "_c9",
+          "fieldDataType": "STRING"
+        }
+      }
+    },
+    "analysisMetaData": {
+    }
+  }
+}

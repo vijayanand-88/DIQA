@@ -1,0 +1,17 @@
+{
+  "technologyOwners" : [ "TestSystem" ],
+  "catalog" : "Default",
+  "type" : "BusinessApplication",
+  "asg_modifiedat" : "2020-10-10T23:24:00.752+0000",
+  "asg_createdat" : "2020-10-10T23:23:58.847+0000",
+  "trustScore" : 0.1282051282051282,
+  "businessOwners" : [ "TestDataAdmin" ],
+  "asg_createdby" : "TestSystem",
+  "name" : "Item_514",
+  "relationshipOwners" : [ ],
+  "complianceOwners" : [ ],
+  "id" : "Default.BusinessApplication:::55484",
+  "securityOwners" : [ ],
+  "asg_modifiedby" : "Service",
+  "trustFactors" : "[{\"factor\":\"Authoritative Source\",\"filter\":\"authoritativeSource\",\"contribution\":0.0,\"dimension\":\"Governance\"},{\"factor\":\"Business Criticality\",\"filter\":\"businessCriticality:High=5,Medium=3,Low=1\",\"contribution\":0.0,\"dimension\":\"Governance\"},{\"factor\":\"Business Owner\",\"filter\":\"businessOwners\",\"contribution\":0.1282051282051282,\"dimension\":\"Governance\"},{\"factor\":\"Capture\",\"filter\":\"data=2,cataloger=4,dataanalyzer=5\",\"contribution\":0.0,\"dimension\":\"Technical\"},{\"factor\":\"Capture / Frequency\",\"filter\":\"annually=1,semi-annually=2,quaterly=3,monthly=4,weekly=5,daily=5\",\"contribution\":0.0,\"dimension\":\"Technical\"},{\"factor\":\"Data Classification\",\"filter\":\"dataClassification:Restricted=1,Confidential=1,Internal=1\",\"contribution\":0.0,\"dimension\":\"Governance\"},{\"factor\":\"Data Quality\",\"filter\":\"90=2,60=3,30=4,-1=5\",\"contribution\":0.0,\"dimension\":\"Intelligence\"},{\"factor\":\"Lineage\",\"filter\":null,\"contribution\":0.0,\"dimension\":\"Technical\"},{\"factor\":\"Linked Items\",\"filter\":\"name\",\"contribution\":0.0,\"dimension\":\"Governance\"},{\"factor\":\"PII\",\"filter\":\"pii\",\"contribution\":0.0,\"dimension\":\"Governance\"}]"
+}

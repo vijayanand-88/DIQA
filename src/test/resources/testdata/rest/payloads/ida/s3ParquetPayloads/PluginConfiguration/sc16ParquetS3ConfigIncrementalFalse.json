@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ParquetS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": ["testtagSC16Parquet"],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonParquetS3ValidDataSource",
+      "credential": "ValidParquetCredentials",
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+	  "pluginName": "ParquetS3Cataloger",
+      "type": "Cataloger",
+      "dryRun": false,
+      "incremental": false,
+	  "businessApplicationName": null,
+      "bucketFilter": {
+        "patterns": [
+          "asgqaparquetautomation"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/ParquetData"
+          ],
+          "dirFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

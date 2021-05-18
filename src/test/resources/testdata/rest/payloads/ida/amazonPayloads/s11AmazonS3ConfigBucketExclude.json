@@ -1,0 +1,90 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonS3Catalog",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "AWSS3"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonS3DataSource",
+      "credential": "AWS_S3Credentials",
+      "dryRun": false,
+      "filter": null,
+      "keepEmptyFolders": false,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "AmazonS3Cataloger",
+      "incremental": true,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "EXCLUDE",
+        "patterns": [
+          "asg-bigcatch",
+          "asg-bigcatch-cert",
+          "asg-bigcatch-key",
+          "asg-cloudera-hive",
+          "asg-driver",
+          "asg-edi-exports",
+          "asg-hg",
+          "asg-glue-samples",
+          "asg-ida-dev",
+          "asg-ida-dev-language",
+          "asg-ida-dev-versions",
+          "asg-ida-s3-dev-test",
+          "asg-ida-training",
+          "asg-idc-demodata",
+          "asg-training-slides",
+          "asg-training-template",
+          "asgperf",
+          "asgqacsvtestautomation",
+          "asgqaparquetautomation",
+          "asgqatestautomation3",
+          "asgqatestautomation4",
+          "asgredshiftworlddata",
+          "avroneasgqatestautomation",
+          "aws-athena-query-results-868165524337-us-east-2",
+          "aws-glue-scripts-868165524337-eu-central-1",
+          "aws-glue-scripts-868165524337-us-east-1",
+          "aws-glue-scripts-868165524337-us-east-2",
+          "aws-glue-temporary-868165524337-eu-central-1",
+          "aws-glue-temporary-868165524337-us-east-1",
+          "aws-glue-temporary-868165524337-us-east-2",
+          "aws-navigator3012",
+          "cf-templates-1ad9octrugyjw-ap-south-1",
+          "cf-templates-1ad9octrugyjw-us-east-1",
+          "cf-templates-1ad9octrugyjw-us-east-2",
+          "cloudera-aws-7120",
+          "cloudera-hive-csv",
+          "sqlspark",
+          "uploadtestautomation",
+          "asgqas3testautomationexclude"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": [
+              "*/TestFolder1/*"
+            ]
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": [
+            "/AutoTestData"
+          ]
+        }
+      }
+    }
+  ]
+}

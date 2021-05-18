@@ -1,0 +1,81 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeJDBCCataloger_Spark",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "SnowFlake_Spark"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SnowFlakeDS",
+      "credential": "SnowFlake_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "SnowflakeDBCataloger",
+      "schemas": [
+        {
+          "schema": "TESTSCHEMA",
+          "tables": [
+            {
+              "table": "CSVTOSNOWFLAKE"
+            },
+            {
+              "table": "SNOWFLAKETOORACLE"
+            },
+            {
+              "table": "PARQUETTOSNOWFLAKE"
+            },
+            {
+              "table": "EMPLOYEE_DATA_FOR_CSV"
+            },
+            {
+              "table": "EMPLOYEE_DATA_FOR_PARQUET"
+            },
+            {
+              "table": "FINANCE"
+            },
+            {
+              "table": "FINANCE_DUPLICATE"
+            },
+            {
+              "table": "CUSTOMERS"
+            },
+            {
+              "table": "CUSTOMERS_MANY"
+            },
+            {
+              "table": "NEW_CUSTOMERS"
+            },
+            {
+              "table": "STUDENT"
+            },
+            {
+              "table": "STUDENT_TWOCOLUMNS"
+            },
+            {
+              "table": "STUDENT_ONECOLUMN"
+            },
+            {
+              "table": "EMPLOYEE_DATA"
+            },
+            {
+              "table": "EMPLOYEE_DATA_GENDER_FILTER"
+            }
+          ]
+        }
+      ],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

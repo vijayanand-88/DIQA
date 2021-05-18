@@ -1,0 +1,29 @@
+{
+  "Default": {
+    "label": {
+      "": "Default"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Default"
+    }
+  },
+  "Cat1": {
+    "label": {
+      "": "Cat1"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Cat1"
+    }
+  },
+  "Cat2": {
+    "label": {
+      "": "Cat2"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Cat2"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "bigintdataStat": {
+    "Statistics": {
+      "Average": "250",
+      "Length": "22",
+      "Maximum value": "300",
+      "Median": "250",
+      "Minimum value": "200",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Standard deviation": "70.71",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100",
+      "Variance": "5000"
+    },
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "FLOAT"
+    }
+  },
+  "Book_Title": {
+    "Statistics": {
+      "Length": "255",
+      "Maximum value": "Mountain B",
+      "Minimum length": "10",
+      "Minimum value": "Mountain A",
+      "Maximum length": "10",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last analyzed at"
+    ],
+    "Description": {
+      "Data type": "VARCHAR"
+    }
+  },
+  "Servic2e": {
+    "Statistics": {
+      "Length": "255",
+      "Maximum value": "Mountain B",
+      "Minimum length": "10",
+      "Minimum value": "Mountain A",
+      "Maximum length": "10",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of null values": "0",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100"
+    },
+    "Lifecycle": [
+      "Last analyzed at"
+    ]
+
+  },
+  "ServiceMetadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition": "DIQDB211501V created by ASG-Rochade Scanner(tm) for UDB"
+    }
+  },
+  "DatabaseMetadata": {
+    "Description1": ["Description","Definition","Storage type"],
+    "Description2": {
+      "Description": null,
+      "Definition":"DIQDB211501V.SAMPLE created by ASG-Rochade Scanner(tm) for UDB",
+      "Storage type": "UDB"
+    }
+  },
+  "SchemaMetadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition":"DIQDB211501V.SAMPLE.UDBWrapperLineage created by ASG-Rochade Scanner(tm) for UDB"
+    }
+  },
+  "TableMetadata": {
+    "Description1": ["Description","Table Type","Created by","Modified by"],
+    "Description2": {
+      "Table Type":"TABLE",
+      "Description": "TABLE",
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle1": ["Created","Modified"]
+  },
+  "ColumnMetadata": {
+    "Description": {
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle": ["Created","Modified"],
+    "Statistics":{
+      "Length": "4"
+    }
+  },
+  "ConstraintMetadata": {
+    "Description": {
+      "Constraint Type": "FOREIGN_KEY"
+    }
+  },
+  "RoutineMetadata": {
+    "Description": {
+      "Definition": "DIQDB211501V.SAMPLE.DMITRYK.BONUS_INCREASE created by ASG-Rochade Scanner(tm) for UDB",
+      "Created by":"ADMIN",
+      "routineType":"PROCEDURE"
+    },
+    "Lifecycle": ["Created","Modified"]
+  },
+  "ViewSQLSource": {
+    "Description": {
+      "source": "CREATE VIEW automation_testdata_db.View_to_Table2 as select rollno,sname from automation_testdata_db.View_to_Table1;"
+    }
+  },
+  "RoutineSQLSource": {
+    "Description": {
+      "source": "create PROCEDURE  automation_testdata_db.Table_to_Table() \nbegin \n     insert into automation_testdata_db.Tab_to_Tab2(id,name,age,address)\n     select id,name,age,address from automation_testdata_db.Tab_to_Tab1;\nEND;"
+    }
+  },
+  "SQLSource_TRIGGER1": {
+    "Description": {
+      "source": "CREATE TRIGGER ORACLE12C_SCHEMA1.TRIGGER1 AFTER  insert on ORACLE12C_SCHEMA1.TRIGGERTEST for each row  begin  insert into ORACLE12C_SCHEMA1.TRIGGERTEST1 values(:new.ID,:new.IDNAME,:new.IDADDRESS); end;\\n"
+    }
+  }
+}
+

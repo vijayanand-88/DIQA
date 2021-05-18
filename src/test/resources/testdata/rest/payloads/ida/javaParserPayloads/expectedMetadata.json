@@ -1,0 +1,5 @@
+{
+  "SubClassWithSuperClass": {
+    "Data": "class SuperClass {\n int z;\n public static final int ERROR_CODE = 127;\n \n public void addition(int x, int y) {\n z = x + y;\n System.out.println(\"The sum of the given numbers:\"+z);\n }\n \n public void Subtraction(int x, int y) {\n z = x - y;\n System.out.println(\"The difference between the given numbers:\"+z);\n }\n}\n\npublic class SubClassWithSuperClass extends SuperClass {\n public void multiplication(int x, int y) {\n z = x * y;\n System.out.println(\"The product of the given numbers:\"+z);\n }\n \n public static void main(String args[]) {\n int a = 20, b = 10;\n SubClassWithSuperClass demo = new SubClassWithSuperClass();\n demo.addition(a, b);\n demo.Subtraction(a, b);\n demo.multiplication(a, b);\n }\n}"
+  }
+}

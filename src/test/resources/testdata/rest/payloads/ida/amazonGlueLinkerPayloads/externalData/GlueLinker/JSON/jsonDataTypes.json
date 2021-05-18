@@ -1,0 +1,30 @@
+{
+	"id": "59761c23b30d971669fb42ff",
+	"isActive": true,
+	"age": 36,
+	"tSmallINT":10,
+	"tINT":1000,
+	"tBigINT":536266,
+	"tDecimal":20.5,
+	"tReal":"33.45",
+	"tDoublePrecision":"110.5",
+	"tChar":"g",
+	"tTimeStamp":"2017-05-01 11:30:59.000000",
+	"name": "Dunlap Hubbard Version2",
+	"gender": "male",
+	"company": "CEDWARD",
+	"additonalInfo":["Info1","Info2","Info3"],
+	"email": "dunlaphubbard@cedward.com",
+	"loggedTime":"07:55",
+	"month":"March",
+	"day":"Tuesday",
+	"userName":null,
+	"alternatePhoneNo":[243443,545423,54545],
+	"phone": "+1 (890) 543-2508",
+	"address": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
+	"testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
+	"userObj":{
+	"object1":"TestObject1",
+	"object2":"TestObject2"
+	}
+}

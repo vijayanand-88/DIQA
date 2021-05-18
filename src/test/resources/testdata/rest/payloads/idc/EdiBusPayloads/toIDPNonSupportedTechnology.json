@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "IDA types": [],
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "bulk",
+      "dryRun": false,
+      "nodeCondition": "name==\"InternalNode\"",
+      "label": {
+        "": ""
+      },
+      "type": "Bulk",
+      "commands and flags": {
+        "run in transaction": false,
+        "function": "cleanup",
+        "batch size": 1000,
+        "incremental": false
+      },
+      "tags": [],
+      "IDA technologies": [],
+      "catalogName": "Default",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "EDI technologies": [
+        {
+          "technology": "Test"
+        }
+      ],
+      "credential": "EDIBusValidCredentials",
+      "pluginName": "EDIBus",
+      "name": "toIDPNotSupported",
+      "EDI types": [],
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "EDIBusIDPDataSource",
+      "businessApplicationName": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "configurations": {
+    "AvroAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+        "name": "AvroAnalyzer",
+        "pluginVersion": "9.9.0.SNAPSHOT",
+        "label": {
+          "": "AvroAnalyzer"
+        },
+        "catalogName": "TestAvro1",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "regExpMatchers": [],
+        "dataSample": {
+          "sampleSize": "25"
+        },
+        "histogramBuckets": "100",
+        "topValues": "10",
+        "filter": null,
+        "sparkOptions": [
+          {
+            "key": "deploy.mode",
+            "value": "cluster"
+          },
+          {
+            "key": "spark.network.timeout",
+            "value": "600s"
+          }
+        ]
+      }
+    ]
+  }
+}

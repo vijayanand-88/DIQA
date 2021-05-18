@@ -1,0 +1,124 @@
+{
+  "gluelinker": [
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "BasicdatatypesWOH.csv",
+      "target": "gluelinker"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c0",
+      "target": "employee_id"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c1",
+      "target": "full_name"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c2",
+      "target": "email"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c3",
+      "target": "phone_number"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c4",
+      "target": "gender"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c5",
+      "target": "ssn"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c6",
+      "target": "postal_code"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c7",
+      "target": "state"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "_c8",
+      "target": "ip_address"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "email",
+      "target": "_c2"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "employee_id",
+      "target": "_c0"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "full_name",
+      "target": "_c1"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "gender",
+      "target": "_c4"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "gluelinker",
+      "target": "BasicdatatypesWOH.csv"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "ip_address",
+      "target": "_c8"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "phone_number",
+      "target": "_c3"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "postal_code",
+      "target": "_c6"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "ssn",
+      "target": "_c5"
+    },
+    {
+      "dir": "->",
+      "mode": "VIEW",
+      "source": "state",
+      "target": "_c7"
+    }
+  ]
+}

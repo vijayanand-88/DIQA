@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+      "name": "Data Analyzer",
+      "label": {
+        "": "Data Analyzer"
+      },
+      "catalogName": "MLANALYZER CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "regExpMatchers": [],
+      "dataSample": {
+        "sampleSize": "25"
+      },
+      "histogramBuckets": 100,
+      "topValues": 10,
+      "filter": null,
+      "resolveNameWrapper": {
+        "resolvingPluginName": "CNavigatorCataloger",
+        "resolvingPluginConfiguration": "CNavigatorCataloger"
+      },
+      "resolveClusterName": false,
+      "sparkOptions": [
+        {
+          "key": "deploy.mode",
+          "value": "client"
+        },
+        {
+          "key": "spark.network.timeout",
+          "value": "600s"
+        }
+      ]
+    }
+  ]
+}

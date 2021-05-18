@@ -1,0 +1,29 @@
+{
+  "TableName": "CatalogTable",
+  "KeySchema": [
+    {
+      "AttributeName": "Id",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "Book Title",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "Id",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "Book Title",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

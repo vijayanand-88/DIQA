@@ -1,0 +1,13 @@
+[
+  {
+    "type": "Cluster",
+    "name": "NameMulti",
+    "@schema": {},
+    "@global": {}
+  },
+  {
+    "type": "Cluster",
+    "name": "NameMultione",
+    "@schema": {}
+  }
+]

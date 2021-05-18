@@ -1,0 +1,28 @@
+{
+  "storageClass": "STANDARD",
+  "eTag": "e279eb0ee383b8c4dd3dcb8c34a8fb40",
+  "key": "AutoTestData/sample.csv",
+  "userMetaData": {},
+  "rawMetaData": {
+    "Accept-Ranges": "bytes",
+    "Content-Length": 20325,
+    "Content-Type": "application/octet-stream",
+    "ETag": "e279eb0ee383b8c4dd3dcb8c34a8fb40",
+    "Last-Modified": "2020-01-28T06:40:48.000+0000"
+  },
+  "acl": [
+    {
+      "grantee": {
+        "displayName": "aws.saas.dev.di",
+        "identifier": "9335a9b0b90538483889c17170f749d72b190c87041c1a765c0fd1e0f1e569d7",
+        "typeIdentifier": "id"
+      },
+      "permission": "FullControl"
+    }
+  ],
+  "url": "https://asgqatestautomation2.s3.amazonaws.com/AutoTestData/sample.csv",
+  "torrent": "https://asgqatestautomation2.s3.amazonaws.com/AutoTestData/sample.csv?torrent",
+  "tagging": {
+    "tagSet": []
+  }
+}

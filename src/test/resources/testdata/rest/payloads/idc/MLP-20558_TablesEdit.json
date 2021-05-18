@@ -1,0 +1,42 @@
+[
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.2,
+    "factor": "QUALITY1",
+    "filterValue": null,
+    "dimension": null,
+    "label": null
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.3,
+    "factor": "RATINGS_AVERAGE1",
+    "filterValue": null,
+    "dimension": null,
+    "label": null
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.2,
+    "factor": "RATINGS_COUNT",
+    "filterValue": "2",
+    "dimension": null,
+    "label": null
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.3,
+    "factor": "TAGS",
+    "filterValue": "Glossary Tag",
+    "dimension": "Business",
+    "label": "Linked to Business Term"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.3,
+    "factor": "TechnologyTAGS",
+    "filterValue": "Technology Tag",
+    "dimension": "Technology",
+    "label": "Linked to Technology"
+  }
+]

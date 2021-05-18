@@ -1,0 +1,29 @@
+{
+  "TableName": "GlobalTable_2017",
+  "KeySchema": [
+    {
+      "AttributeName": "EmpId",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "EName",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "EmpId",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "EName",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

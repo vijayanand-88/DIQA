@@ -1,0 +1,87 @@
+{
+  "RocGreenplumSADataSource":{
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "ROCGreenplumSADataSource",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "RochadeBin": "${rochade.home}/bin",
+    "RochadeServerHost": "${rochade.server}",
+    "RochadePath": "${rochade.home}",
+    "PropertiesAndOutputPath": "${rochade.project.home}/greenplum",
+    "VersionPathName": "V200",
+    "RochadeServerPort": "${rochade.port}"
+  },
+  "RocGreenplumDataSource":{
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "ROCGreenplumDataSource",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "RochadeBin": "${rochade.home}/bin",
+    "RochadePath": "${rochade.home}",
+    "PropertiesAndOutputPath": "${rochade.project.home}/greenplum",
+    "Connection": {
+      "JDBCUrl": "jdbc:pivotal:greenplum://DIDGPDB01V.dev.asgint.loc;DatabaseName=tutorial",
+      "JDBCDriverPath": "D:\\JDBC_Drivers\\PROGRESS_DATADIRECT_JDBC_DRIVER_PIVOTAL_GREENPLUM_5.1.4.000275.jar"
+    },
+    "VersionPathName": "V200"
+  },
+  "EDIBusDataSource": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "EDIBusGreenplumDS",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "RochadeGreenplumSACredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "EDI host": "DIQROCHADE01V.DIQ.QA.ASGINT.LOC",
+    "EDI subject area access roles": [
+      {
+        "role": "*"
+      }
+    ],
+    "EDI subject area name": "METAAPPS",
+    "EDI port": 8888,
+    "pluginName": "EDIBusDataSource",
+    "EDI subject area version": "PRODUCTION",
+    "EDI database": "AP-DATA"
+  }
+}
+

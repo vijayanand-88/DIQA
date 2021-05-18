@@ -1,0 +1,32 @@
+{
+  "classID": 4821,
+  "functionID": 4835,
+  "hopsList": [
+    "city.csv => usersDF3",
+    "emp.csv => usersDF",
+    "rubiks.parquet => usersDF6",
+    "shapes.orc => usersDF4",
+    "students.orc => usersDF2",
+    "system.parquet => usersDF5",
+    "usersDF => \/pythonA\/automation\/load\/target1\/empTarget",
+    "usersDF2 => \/pythonA\/automation\/load\/target1\/studentsTarget",
+    "usersDF3 => \/pythonA\/automation\/load\/target1\/citytarget",
+    "usersDF4 => \/pythonA\/automation\/load\/target1\/shapesTarget",
+    "usersDF5 => \/pythonA\/automation\/load\/target1\/systemTarget",
+    "usersDF6 => \/pythonA\/automation\/load\/target1\/rubiksTarget"
+  ],
+  "hopsID": {
+    "students.orc => usersDF2": 4849,
+    "system.parquet => usersDF5": 4854,
+    "usersDF3 => \/pythonA\/automation\/load\/target1\/citytarget": 4846,
+    "usersDF => \/pythonA\/automation\/load\/target1\/empTarget": 4850,
+    "city.csv => usersDF3": 4853,
+    "rubiks.parquet => usersDF6": 4851,
+    "shapes.orc => usersDF4": 4852,
+    "usersDF6 => \/pythonA\/automation\/load\/target1\/rubiksTarget": 4845,
+    "emp.csv => usersDF": 4855,
+    "usersDF4 => \/pythonA\/automation\/load\/target1\/shapesTarget": 4856,
+    "usersDF5 => \/pythonA\/automation\/load\/target1\/systemTarget": 4847,
+    "usersDF2 => \/pythonA\/automation\/load\/target1\/studentsTarget": 4848
+  }
+}

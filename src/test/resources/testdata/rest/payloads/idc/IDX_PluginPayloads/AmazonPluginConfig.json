@@ -1,0 +1,172 @@
+{
+  "AmazonS3Cataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "AmazonS3Catalog",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 1000,
+        "tags": [
+          "AWSS3"
+        ],
+        "pluginType": "cataloger",
+        "dataSource": "AmazonS3DataSource",
+        "credential": "AWS_S3Credentials",
+        "keepEmptyFolders": false,
+        "versionMode": false,
+        "maxObjectsAmount": 1000,
+        "filter": null,
+        "pluginName": "AmazonS3Cataloger",
+        "incremental": false,
+        "type": "Cataloger",
+        "dryRun": false,
+        "bucketFilter": {
+          "patterns": [
+            "asgqas3testautomation"
+          ],
+          "mode": "INCLUDE",
+          "objectFilter": {
+            "dirPrefixes": [
+              "/AutoTestData"
+            ],
+            "dirFilter": {
+              "patterns": [
+                "*/TestFolder1/*"
+              ],
+              "mode": "INCLUDE"
+            },
+            "fileFilter": {
+              "patterns": [],
+              "mode": "INCLUDE"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "AmazonRedshiftCataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RedShiftCataloger",
+        "pluginVersion": "LATEST",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "Cataloger_filter1"
+        ],
+        "pluginType": "cataloger",
+        "dataSource": "RedshiftDataSource",
+        "credential": "Redshift_Credentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AmazonRedshiftCataloger",
+        "schemas": [
+          {
+            "schema": "testschema",
+            "tables": [
+              {
+                "table": "employee"
+              }
+            ]
+          }
+        ],
+        "incremental": false,
+        "type": "Cataloger",
+        "properties": []
+      }
+    ]
+  },
+  "AmazonRedshiftCatalogerWithTag": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RedShiftCataloger",
+        "pluginVersion": "LATEST",
+        "label": null,
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-12-14T06:22:34.454125",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-12-14T08:19:02.683869"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "Cataloger_filter1",
+          "TestTag1"
+        ],
+        "pluginType": "cataloger",
+        "dataSource": "RedshiftDataSource",
+        "credential": "Redshift_Credentials",
+        "businessApplicationName": "TestBA",
+        "schedule": null,
+        "filter": null,
+        "dryRun": false,
+        "pluginName": "AmazonRedshiftCataloger",
+        "schemas": [
+          {
+            "schema": "testschema",
+            "tables": [
+              {
+                "table": "employee"
+              }
+            ]
+          }
+        ],
+        "incremental": false,
+        "type": "Cataloger",
+        "properties": []
+      }
+    ]
+  },
+  "AmazonRedshiftAnalyzer": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RedShiftAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "batchWrite": true,
+        "database": "world",
+        "pluginName": "AmazonRedshiftAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [],
+        "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+        "incremental": false,
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  }
+}

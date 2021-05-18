@@ -1,0 +1,16 @@
+{
+  "assignedTags": [
+    {
+      "previousCardinality": "NONE",
+      "rootTagName": "BusinessApplication",
+      "name": "BLineageBA2",
+      "cardinality": "ALL"
+    }
+  ],
+  "itemIds": [
+    {
+      "name": [],
+      "id": "Default.Directory:::20556"
+    }
+  ]
+}

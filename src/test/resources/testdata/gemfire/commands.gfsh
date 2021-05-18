@@ -1,0 +1,5 @@
+start locator --name=loc1
+start server --name=serv1  --enable-time-statistics=true
+start server --name=serv2 --server-port=40411  --enable-time-statistics=true
+create region --name=employee --type=replicate_persistent --enable-statistics=true
+create region --name=berry --type=replicate_persistent --enable-statistics=true

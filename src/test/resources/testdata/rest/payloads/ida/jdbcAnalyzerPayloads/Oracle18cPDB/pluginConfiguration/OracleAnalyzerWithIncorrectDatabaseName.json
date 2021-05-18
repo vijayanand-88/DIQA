@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleAnalyzerWithIncorrectDatabaseName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Orc18cPDBAnalyzer"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginName": "OracleDBAnalyzer",
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "database": "NONEXISTINGDB",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": []
+        }
+      ],
+      "topValues": 10
+    }
+  ]
+}

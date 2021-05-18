@@ -1,0 +1,42 @@
+{
+  "address": {
+    "source": ["address"],
+    "target": ["address"]
+  },
+  "city": {
+    "source": ["city"],
+    "target": ["city"]
+  },
+  "firstname": {
+    "source": ["firstname"],
+    "target": ["firstname"]
+  },
+  "lastname": {
+    "source": ["lastname"],
+    "target": ["lastname"]
+  },
+  "personid": {
+    "source": ["personid"],
+    "target": ["personid"]
+  },
+  "address1": {
+    "source": ["address"],
+    "target": ["address"]
+  },
+  "city1": {
+    "source": ["city"],
+    "target": ["city"]
+  },
+  "firstname1": {
+    "source": ["firstname"],
+    "target": ["firstname"]
+  },
+  "lastname1": {
+    "source": ["lastname"],
+    "target": ["lastname"]
+  },
+  "personid1": {
+    "source": ["personid"],
+    "target": ["personid"]
+  }
+}

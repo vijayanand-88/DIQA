@@ -1,0 +1,33 @@
+{
+  "AllocatedCapacity": 2,
+  "Command": {
+    "Name": "glueetl",
+    "PythonVersion": 3,
+    "ScriptLocation": "s3://asgqatestautomation4/TestFiles/QATest215.py"
+  },
+  "Connections": {
+    "Connections": [
+	  "TestJDBCConnection"
+    ]
+  },
+  "DefaultArguments": {
+    "--TempDir": "s3://aws-glue-temporary-868165524337-us-east-1/QA",
+    "--job-language": "python",
+    "--job-bookmark-option": "job-bookmark-disable"
+  },
+  "Description": "aws glue qa automation",
+  "GlueVersion": "1.0",
+  "LogUri": "string",
+  "Name": "AutoGlueLineage215Job",
+  "NotificationProperty": {
+    "NotifyDelayAfter": 1
+  },
+  "NumberOfWorkers": 299,
+  "Role": "AWSSeviceRoleForGlue",
+  "SecurityConfiguration": "None",
+  "Tags": {
+    "string": "string"
+  },
+  "Timeout": 2880,
+  "WorkerType": "Standard"
+}

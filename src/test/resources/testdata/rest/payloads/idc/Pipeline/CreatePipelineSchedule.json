@@ -1,0 +1,16 @@
+{
+  "name": "TestSchedule",
+  "label": null,
+  "schedule": null,
+  "orchestration": {
+    "starts": [
+      {
+        "plugin": "GitCollector",
+        "configuration": "GitCollectorConfig"
+      }
+    ],
+    "graph": {},
+    "positions": {}
+  },
+  "description": "TestSchedule is to test schedule"
+}

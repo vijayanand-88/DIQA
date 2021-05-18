@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithNoFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["Orc18cRDSCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "Oracle18cRDSDS",
+      "credential": "Oracle18cRDSCredentials",
+      "businessApplicationName": "Oracle18C_RDS_Cat",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

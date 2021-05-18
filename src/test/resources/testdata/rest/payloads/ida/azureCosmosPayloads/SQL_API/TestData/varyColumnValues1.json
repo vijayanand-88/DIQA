@@ -1,0 +1,14 @@
+{
+  "Name": "Rajesh",
+  "Native": true,
+  "gender": "M",
+  "salary": 60000.56,
+  "age": 24,
+  "postalcode": 1234567890123456,
+  "id": "41eed833-1365-4909-8f23-5cabf27b0c74",
+  "_rid": "kShuAKb87LoBAAAAAAAAAA==",
+  "_self": "dbs/kShuAA==/colls/kShuAKb87Lo=/docs/kShuAKb87LoBAAAAAAAAAA==/",
+  "_etag": "\"45001cb8-0000-0000-0000-5c8bf2c00000\"",
+  "_attachments": "attachments/",
+  "_ts": 1552675520
+}

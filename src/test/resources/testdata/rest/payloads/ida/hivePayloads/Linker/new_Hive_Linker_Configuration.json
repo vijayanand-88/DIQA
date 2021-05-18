@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveLinker",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": ["ExplicitTag"],
+      "pluginType": "linker",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Hive_LINKER_BA",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "HiveLinker",
+      "type": "Linker"
+    }
+  ]
+}

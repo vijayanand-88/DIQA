@@ -1,0 +1,56 @@
+{
+  "widgets": [
+    {
+      "id": "Analysis",
+      "type": "catalog-widget",
+      "icon": {
+        "icon": "glyphicon-search",
+        "color": "black"
+      },
+      "layout": {
+        "width": 1,
+        "height": 1,
+        "page": 0
+      },
+      "data": {
+        "icon": {
+          "icon": "glyphicon-font",
+          "color": "black"
+        },
+        "title": "Analysis",
+        "mainLink": {
+          "value": "/search",
+          "params": {
+            "catalog": "Analysis",
+            "searchQuery": ""
+          }
+        },
+        "definition": "",
+        "description": "",
+        "links": [],
+        "availableLinks": [
+          {
+            "text": "<empty>",
+            "value": null,
+            "params": {}
+          },
+          {
+            "text": "<empty>",
+            "value": null,
+            "params": {}
+          },
+          {
+            "text": "<empty>",
+            "value": null,
+            "params": {}
+          }
+        ],
+        "recentItems": [
+
+        ]
+      },
+      "index": 0
+    }
+  ],
+  "name": "IDA"
+}

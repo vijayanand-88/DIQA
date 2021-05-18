@@ -1,0 +1,9 @@
+{
+  "nosourcetarget_example": {
+    "jdbcDF5 => df13": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "jdbcDF5",
+      "lineageTo": "df13"
+    }
+  }
+}

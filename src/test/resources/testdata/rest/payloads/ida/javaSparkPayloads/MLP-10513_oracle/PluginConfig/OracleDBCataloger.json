@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleDBCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "tagJavaSparkOracle"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "OracleDBDataSource",
+      "credential": "Oracle_Credentials",
+      "businessApplicationName": "test_BA_JavaSparkOracle",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [
+        {
+          "schema": "COLLECTOR",
+          "tables": []
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

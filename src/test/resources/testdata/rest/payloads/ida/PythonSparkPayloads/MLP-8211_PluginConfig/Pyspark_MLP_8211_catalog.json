@@ -1,0 +1,11 @@
+{
+  "Py_8211": {
+    "label": {
+      "": "Py_8211"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Py_8211"
+    }
+  }
+}

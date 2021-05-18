@@ -1,0 +1,65 @@
+{
+  "name": "Auto_Dashboard",
+  "widgets": [
+    {
+      "id": "9f1cd71c-3c97-4e6c-bc91-dd86ae60bd46",
+      "type": "count-widget",
+      "icon": {
+        "icon": "fa fa-user-circle",
+        "color": "#91AA9D"
+      },
+      "layout": {
+        "height": 0,
+        "width": 0,
+        "page": 0,
+        "x": 0,
+        "y": 0,
+        "rows": 4,
+        "cols": 2
+      },
+      "data": {
+        "title": "Data Elements Edited",
+        "icon": {
+          "icon": "fa fa-user-circle",
+          "color": "#91AA9D"
+        },
+        "widgetData": {
+          "count": 5546
+        },
+        "itemType": "BusinessApplication",
+        "storedQuery": "countDataElements",
+        "description": null
+      },
+      "subType": null
+    },
+    {
+      "id": "tagged-item-count:::ccee3924-2701-4984-9280-f407fa35b14a",
+      "type": "count-widget",
+      "icon": {
+        "icon": "fa fa-user-circle",
+        "color": "#91AA9D"
+      },
+      "layout": {
+        "height": 0,
+        "width": 0,
+        "page": 0,
+        "x": 2,
+        "y": 0,
+        "rows": 2,
+        "cols": 1
+      },
+      "data": {
+        "title": "Tagged Items",
+        "icon": {
+          "icon": "fa fa-user-circle",
+          "color": "#91AA9D"
+        },
+        "widgetData": {
+          "count": 10345
+        },
+        "itemType": "BusinessApplication",
+        "storedQuery": "countOfTaggedItem"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "DynamicIDs": {
+    "Project": {
+      "id": "2216",
+      "Directory": {
+        "Tag": {
+          "has_Analysis": {
+            "BusinessApplication": {
+              "id": "2230"
+            },
+            "id": "2215"
+          },
+          "id": "2231"
+        },
+        "id": "2243"
+      }
+    }
+  }
+}

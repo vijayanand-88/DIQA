@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DeleteLocalFile",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": null,
+      "credential": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": {
+        "filters": [],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "pluginName": "LocalFileCollector",
+      "root": "/home",
+      "incrementalRun": true,
+      "type": "Collector"
+    }
+  ]
+}

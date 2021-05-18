@@ -1,0 +1,157 @@
+{
+  "itemIds": [
+    {
+      "id": "TAGCATALOG.TestItemForTag:::1"
+    }
+  ],
+  "recommendedTags": [],
+  "assignedTags": [
+    {
+      "id": "TAGCATALOG.Tag:::3",
+      "name": "Trustworthy",
+      "rootTagName": "Data Analysis",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "type": "Structure Information Tag",
+      "subTags": [
+
+      ],
+      "cardinality": "ALL",
+      "previousCardinality": "NONE",
+      "edgeProperties": {
+
+      },
+      "isRoot": false,
+      "asg.createdBy": "TestService",
+      "root": true,
+      "asg.modifiedBy": "TestService"
+    },
+    {
+      "id": "TAGCATALOG.Tag:::7",
+      "name": "Untrusted",
+      "rootTagName": "Data Analysis",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "type": "Structure Information Tag",
+      "subTags": [
+
+      ],
+      "cardinality": "ALL",
+      "previousCardinality": "NONE",
+      "edgeProperties": {
+
+      },
+      "isRoot": false,
+      "asg.createdBy": "TestService",
+      "root": true,
+      "asg.modifiedBy": "TestService"
+    },
+    {
+      "id": "TAGCATALOG.Tag:::4",
+      "name": "Source of Truth",
+      "rootTagName": "Data Analysis",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "type": "Structure Information Tag",
+      "subTags": [
+
+      ],
+      "cardinality": "NONE",
+      "previousCardinality": "NONE",
+      "edgeProperties": {
+
+      },
+      "isRoot": false,
+      "asg.createdBy": "TestService",
+      "root": true,
+      "asg.modifiedBy": "TestService"
+    },
+    {
+      "id": "TAGCATALOG.Tag:::1",
+      "name": "Data Analysis",
+      "rootTagName": "Data Analysis",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "type": "Structure Information Tag",
+      "subTags": [
+
+      ],
+      "cardinality": "NONE",
+      "previousCardinality": "NONE",
+      "edgeProperties": {
+
+      },
+      "isRoot": true,
+      "asg.createdBy": "TestService",
+      "root": true,
+      "asg.modifiedBy": "TestService"
+    },
+    {
+      "id": "TAGCATALOG.Tag:::6",
+      "name": "Private",
+      "rootTagName": "Data Analysis",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "type": "Structure Information Tag",
+      "subTags": [
+
+      ],
+      "cardinality": "NONE",
+      "previousCardinality": "NONE",
+      "edgeProperties": {
+
+      },
+      "isRoot": false,
+      "asg.createdBy": "TestService",
+      "root": true,
+      "asg.modifiedBy": "TestService"
+    },
+    {
+      "id": "TAGCATALOG.Tag:::2",
+      "name": "Critical",
+      "rootTagName": "Data Analysis",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "type": "Structure Information Tag",
+      "subTags": [
+
+      ],
+      "cardinality": "NONE",
+      "previousCardinality": "NONE",
+      "edgeProperties": {
+
+      },
+      "isRoot": false,
+      "asg.createdBy": "TestService",
+      "root": true,
+      "asg.modifiedBy": "TestService"
+    },
+    {
+      "id": "TAGCATALOG.Tag:::5",
+      "name": "Confidential",
+      "rootTagName": "Data Analysis",
+      "parentTagName": "",
+      "definition": "",
+      "status": "APPROVED",
+      "type": "Structure Information Tag",
+      "subTags": [
+
+      ],
+      "cardinality": "NONE",
+      "previousCardinality": "NONE",
+      "edgeProperties": {
+
+      },
+      "isRoot": false,
+      "asg.createdBy": "TestService",
+      "root": true,
+      "asg.modifiedBy": "TestService"
+    }
+  ]
+}

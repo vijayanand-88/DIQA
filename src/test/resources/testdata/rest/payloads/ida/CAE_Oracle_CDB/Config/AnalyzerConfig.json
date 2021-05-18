@@ -1,0 +1,470 @@
+{
+  "WithoutSchemaTableFilter": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19c.DIQ.QA.ASGINT.LOC",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "OnlySchemaFilter": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19C.DIQ.QA.ASGINT.LOC",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [
+          {
+            "schema": "ORACLE12C_SCHEMA1",
+            "tables": []
+          }
+        ],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "SchemaTableMultipleFilter": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19C.DIQ.QA.ASGINT.LOC",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [
+          {
+            "schema": "ORACLE12C_SCHEMA1",
+            "tables": [
+              {
+                "table": "ORACLE_DIFFDATATYPES"
+              },
+              {
+                "table": "ORACLE_TABLE"
+              },
+              {
+                "table": "ORACLE_TAG_DETAILS"
+              }
+            ]
+          }
+        ],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "SameTableMultipleSchemaFilter": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19C.DIQ.QA.ASGINT.LOC",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [
+          {
+            "schema": "",
+            "tables": [
+              {
+                "table": "ORACLE_DIFFDATATYPES"
+              }
+            ]
+          }
+        ],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "SchemaTableMultipleDuplicateFilter": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19C.DIQ.QA.ASGINT.LOC",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [
+          {
+            "schema": "ORACLE12C_SCHEMA1",
+            "tables": [
+              {
+                "table": "ORACLE_DIFFDATATYPES"
+              }
+            ]
+          },
+          {
+            "schema": "ORACLE12C_SCHEMA1",
+            "tables": [
+              {
+                "table": "ORACLE_DIFFDATATYPES"
+              }
+            ]
+          },
+          {
+            "schema": "ORACLE12C_SCHEMA1",
+            "tables": [
+              {
+                "table": "ORACLE_TABLE"
+              },
+              {
+                "table": "ORACLE_TAG_DETAILS"
+              }
+            ]
+          }
+        ],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "MorethanOneDatabase": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": null,
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [
+          {
+            "schema": "ORACLE12C_SCHEMA1",
+            "tables": []
+          }
+        ],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "InInternalNode": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"InternalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19C.DIQ.QA.ASGINT.LOC",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "InIBecubicIDANode": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"BecubicIDANode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19C.DIQ.QA.ASGINT.LOC",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "InvalidDBSchemaTableFilter":  {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "PDBDB19C",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [
+          {
+            "schema": "Teradata",
+            "tables": [
+              {
+                "table": "ORACLE_DIFF"
+              }
+            ]
+          }
+        ],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "DryRun": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "CAEORACLECDBAnalyzer"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": "CAE_ORACLE_CDB_AY",
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19C.DIQ.QA.ASGINT.LOC",
+        "dryRun": true,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [
+          {
+            "schema": "ORACLE12C_SCHEMA1",
+            "tables": [
+              {
+                "table": "ORACLE_DIFFDATATYPES"
+              }
+            ]
+          }
+        ],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  },
+  "OracleDBAnalyzer_PolicyPattern": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "OracleDBAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "dataanalyzer",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "histogramBuckets": 10,
+        "database": "ORCL19C.DIQ.QA.ASGINT.LOC",
+        "dryRun": false,
+        "pluginName": "OracleDBAnalyzer",
+        "queryBatchSize": 100,
+        "sampleDataCount": 25,
+        "schemas": [
+          {
+            "schema": "C##TEST_TAGGING_CAE",
+            "tables": []
+          }
+        ],
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+    ]
+  }
+}

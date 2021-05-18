@@ -1,0 +1,84 @@
+{
+  "jdbc_dataset_example_oracletoracle_overwrite_select": {
+    "EMPLOYEE_DETAILS.LAST_NAME => oracleDF.LAST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "LAST_NAME => UPPERSALARYPEOPLES_3COLUMNS.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "EMPLOYEE_DETAILS.EMAIL => oracleDF.EMAIL": {
+      "mode": "COPY",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "EMPLOYEE_DETAILS.COMMISSION_PCT => oracleDF.COMMISSION_PCT": {
+      "mode": "COPY",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "EMPLOYEE_DETAILS.JOB_ID => oracleDF.JOB_ID": {
+      "mode": "COPY",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "EMPLOYEE_DETAILS.MANAGER_ID => oracleDF.MANAGER_ID": {
+      "mode": "COPY",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "EMPLOYEE_DETAILS.SALARY => oracleDF.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "EMPLOYEE_DETAILS.FIRST_NAME => oracleDF.FIRST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "EMPLOYEE_DETAILS.GENDER => oracleDF.GENDER": {
+      "mode": "COPY",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "EMAIL => UPPERSALARYPEOPLES_3COLUMNS.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "EMPLOYEE_DETAILS.HIRE_DATE => oracleDF.HIRE_DATE": {
+      "mode": "COPY",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.PHONE_NUMBER => oracleDF.PHONE_NUMBER": {
+      "mode": "COPY",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "EMPLOYEE_DETAILS.SSN => oracleDF.SSN": {
+      "mode": "COPY",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.EMPLOYEE_ID => oracleDF.EMPLOYEE_ID": {
+      "mode": "COPY",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "FIRST_NAME => UPPERSALARYPEOPLES_3COLUMNS.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "EMPLOYEE_DETAILS.DEPARTMENT_ID => oracleDF.DEPARTMENT_ID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    }
+  }
+}

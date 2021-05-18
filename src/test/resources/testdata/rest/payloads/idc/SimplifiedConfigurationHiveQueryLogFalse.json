@@ -1,0 +1,1 @@
+{"Clusters":{"desired_config":{"tag":"version58","type":"catalog-hive-config","properties":{"cataloger.enable.queryLog":"false","cataloger.krb.conf":"/etc/krb5.conf","cataloger.keytab":"/etc/security/keytabs/cataloger.keytab","cataloger.krb.principal":"hive@PRINCIPAL.COM"}}}}

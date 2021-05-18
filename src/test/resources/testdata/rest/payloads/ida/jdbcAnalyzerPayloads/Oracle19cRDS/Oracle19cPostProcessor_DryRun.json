@@ -1,0 +1,25 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "lineage",
+    "dryRun" : true,
+    "nodeCondition" : "name==\"InternalNode\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Lineage",
+    "tags" : [ "Orc19cRDSPostProcessor" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "pluginVersion" : "LATEST",
+    "credential" : null,
+    "pluginName" : "OracleDBPostProcessor",
+    "name" : "Oracle19cPostProcessor_DryRun",
+    "arguments" : [ ],
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : null,
+    "businessApplicationName" : null
+  } ]
+}

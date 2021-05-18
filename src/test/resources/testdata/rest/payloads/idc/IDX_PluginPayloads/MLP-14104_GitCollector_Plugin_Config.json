@@ -1,0 +1,38 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "GitCollectorConfig",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": ["Git14104"],
+  "pluginType": "collector",
+  "dataSource": "GitDS",
+  "credential": "GitCred",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": {
+    "filters": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.Filter",
+        "label": null,
+        "tags": null,
+        "branch": "refs/heads/master"
+      }
+    ],
+    "deltaTime": null,
+    "extraFilters": {
+      "filefilters": []
+    },
+    "maxHits": null
+  },
+  "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+  "pluginName": "GitCollector",
+  "contentAnalyzerPluginConfiguration": "UnstructuredDataAnalyzer",
+  "type": "Collector"
+}

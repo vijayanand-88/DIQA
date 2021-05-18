@@ -1,0 +1,26 @@
+{
+  "sybase_Feeder": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_Feeder",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "sybase_Feeder_DS",
+    "credential": "Valid_CAE_Feeder_sybase_Cred",
+    "businessApplicationName": "SYBASE_FEEDER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "CAEFeed",
+    "ProjectRootFolder": "${cae.project.home}",
+    "type": "Other"
+  }
+}

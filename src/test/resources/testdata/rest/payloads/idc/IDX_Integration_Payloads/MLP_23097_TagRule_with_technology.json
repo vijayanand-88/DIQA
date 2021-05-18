@@ -1,0 +1,30 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "dataType": "UNSTRUCTURED",
+    "technologies": [
+      "Git"
+    ],
+    "pluginName": null,
+    "view": {
+      "label": "All ",
+      "value": "All "
+    },
+    "@class": "com.asg.dis.policies.facts.DIAnalysis"
+  },
+  "outputs": [
+    {
+      "tagCategory": "PII",
+      "dataPattern": "\\d",
+      "matchEmpty": true,
+      "matchFull": false,
+      "minimumRatio": 0,
+      "namePattern": "",
+      "typePattern": "",
+      "tags": [
+        "Email Address"
+      ],
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+    }
+  ]
+}

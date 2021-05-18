@@ -1,0 +1,164 @@
+{
+  "asciidata": {
+    "Data type": "VARCHAR"
+  },
+  "bigintdata": {
+    "Data type": "BIGINT"
+  },
+  "blobdata": {
+    "Data type": "BLOB"
+  },
+  "booleandata": {
+    "Data type": "BOOLEAN"
+  },
+  "commission_pct": {
+    "Data type": "FLOAT"
+  },
+  "datedata": {
+    "Data type": "DATE"
+  },
+  "decimaldata": {
+    "Data type": "DECIMAL"
+  },
+  "department_id": {
+    "Data type": "INT"
+  },
+  "doubledata": {
+    "Data type": "DOUBLE"
+  },
+  "smallintdata": {
+    "Data type": "SMALLINT"
+  },
+  "timedata": {
+    "Data type": "TIME"
+  },
+  "timestampdata": {
+    "Data type": "TIMESTAMP"
+  },
+  "tinyintdata": {
+    "Data type": "TINYINT"
+  },
+  "bigintdataStat": {
+    "Average": "3432434232.33",
+    "Maximum value": "3432434233",
+    "Median": "3432434232",
+    "Minimum value": "3432434232",
+    "Number of non null values": "3",
+    "Percentage of non null values": "100",
+    "Number of null values": "0",
+    "Standard deviation": "0",
+    "Number of unique values": "2",
+    "Percentage of unique values": "66.67",
+    "Variance": "0"
+  },
+  "commission_pctStat": {
+    "Average": "22.73",
+    "Maximum value": "23.399999618530273",
+    "Median": "23.4",
+    "Minimum value": "21.399999618530273",
+    "Number of non null values": "3",
+    "Percentage of non null values": "100",
+    "Number of null values": "0",
+    "Standard deviation": "1.15",
+    "Number of unique values": "2",
+    "Percentage of unique values": "66.67",
+    "Variance": "1.33"
+  },
+  "decimaldataStat": {
+    "Average": "0.42",
+    "Maximum value": "0.45",
+    "Median": "0.45",
+    "Minimum value": "0.35",
+    "Number of non null values": "3",
+    "Percentage of non null values": "100",
+    "Number of null values": "0",
+    "Standard deviation": "0.05",
+    "Number of unique values": "2",
+    "Percentage of unique values": "66.67",
+    "Variance": "0"
+  },
+  "department_idStat": {
+    "Average": "22.67",
+    "Maximum value": "25",
+    "Median": "23",
+    "Minimum value": "20",
+    "Number of non null values": "3",
+    "Percentage of non null values": "100",
+    "Number of null values": "0",
+    "Standard deviation": "2.05",
+    "Number of unique values": "3",
+    "Percentage of unique values": "100",
+    "Variance": "4.22"
+  },
+  "doubledataStat": {
+    "Average": "33.47",
+    "Maximum value": "34.5",
+    "Median": "34.5",
+    "Minimum value": "31.4",
+    "Number of non null values": "3",
+    "Percentage of non null values": "100",
+    "Number of null values": "0",
+    "Standard deviation": "1.46",
+    "Number of unique values": "2",
+    "Percentage of unique values": "66.67",
+    "Variance": "2.14"
+  },
+  "smallintdataStat": {
+    "Average": "20001.67",
+    "Maximum value": "20005",
+    "Median": "20000",
+    "Minimum value": "20000",
+    "Number of non null values": "3",
+    "Percentage of non null values": "100",
+    "Number of null values": "0",
+    "Standard deviation": "2.36",
+    "Number of unique values": "2",
+    "Percentage of unique values": "66.67",
+    "Variance": "5.56"
+  },
+  "tinyintdataStat": {
+    "Average": "300",
+    "Length": "2000",
+    "Maximum value": "500",
+    "Median": "7000",
+    "Minimum value": "100",
+    "Number of non null values": "4",
+    "Percentage of non null values": "100",
+    "Number of null values": "0",
+    "Standard deviation": "158.11",
+    "Number of unique values": "4",
+    "Percentage of unique values": "100",
+    "Variance": "25000"
+  },
+  "ListDataType": {
+    "Data type": "LIST"
+  },
+  "InetDataType": {
+    "Data type": "INET"
+  },
+  "TupleDataType": {
+    "Data type": "TUPLE"
+  },
+  "FrozenDataType": {
+    "Data type": "UDT"
+  },
+  "MapDataType": {
+    "Data type": "MAP"
+  },
+  "SetDataType": {
+    "Data type": "SET"
+  },
+  "TimeUuidDataType": {
+    "Data type": "TIMEUUID"
+  },
+  "UuidDataType": {
+    "Data type": "UUID"
+  },
+  "ComplexDataTypeStat": {
+    "Length": "2000"
+  },
+  "BoolDataTypeStat": {
+    "Length": "1"
+  }
+}
+

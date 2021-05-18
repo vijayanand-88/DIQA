@@ -1,0 +1,37 @@
+{
+  "signature" : "GSKtRn1PQSonpnsH7/7vRg4QLYfCJy+sAmqf5tTGNQetfVR0pIbiC2uHGs6rLUJqXqhGAqEBANBq9RNkS04qe8BNzVqodd1gBfzY99zioxTlmQEqMMN2k9p0Z3TYs+vQi8VmYiVxXTB7vXtiUlQ51ACKUeXlhrkz7ZpW6e1QsV1bWrDCcnHIjdn0vLbrB0LJVAq5lUo5wZMl/W7x9l1lIEUFcenNf5cC+RgPEYyOF0UgiPc/nXcp9mxsnOTGH0t4v51zNy+rWchXXh3RmFrUnTvWuYIePZdaXgRbnXi56bB1IC/kIK2k4Mb+DC6Ersscec/ItNOPBwPx272Cr2Y2bA==",
+  "licenseContent" : {
+    "tenant" : "ASG Development",
+    "rules" : [ {
+      "feature" : "IDP",
+      "enabled" : true,
+      "until" : "2019-12-31",
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDA",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDC",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    } ]
+  }
+}

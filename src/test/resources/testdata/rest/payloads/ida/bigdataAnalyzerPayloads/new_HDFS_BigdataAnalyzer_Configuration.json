@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+      "name": "BigDataAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "Data Analyzer"
+      },
+      "catalogName": "BigData",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "regExpMatchers": [],
+      "dataSample": {
+        "sampleSize": "25"
+      },
+      "histogramBuckets": 100,
+      "topValues": 10,
+      "filter": null,
+      "sparkOptions": [
+        {
+          "key": "deploy.mode",
+          "value": "cluster"
+        },
+        {
+          "key": "spark.network.timeout",
+          "value": "600s"
+        }
+      ]
+    }
+  ]
+}

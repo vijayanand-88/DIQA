@@ -1,0 +1,313 @@
+{
+  "CatalogConfig": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Filter1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiolessthan05EmptyFalse"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Filter2": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiogreaterthan05EmptyFalseTrue"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Filter3": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": [
+          {
+            "table": "TAGDETAILS_ALLMATCH"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Filter4": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": [
+          {
+            "table": "TAGDETAILS_RatioEqualTo05EmptyFalse"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Filter5": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiogreaterthan05MatchFullTrue"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Filter6": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": [
+          {
+            "table": "TAGDETAILS_ALLEMPTY"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Filter7": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiolesserthan05MatchFullTrue"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "Filter8": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc19cCDBCataloger"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "Oracle19cCDBDS",
+    "credential": "Oracle19cCDBCredentials",
+    "businessApplicationName": "Oracle19C_CDB_Cat",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "C##ORACLE12C_SCHEMA2",
+        "tables": [
+          {
+            "table": "TAGDETAILS_VIEW"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  }
+}

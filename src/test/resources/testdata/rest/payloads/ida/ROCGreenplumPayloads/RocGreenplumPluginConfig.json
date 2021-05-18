@@ -1,0 +1,197 @@
+{
+  "EDIBusCleanup": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "bulk",
+      "dryRun": false,
+      "nodeCondition": "name==\"InternalNode\"",
+      "label": {
+        "": ""
+      },
+      "type": "Bulk",
+      "commands and flags": {
+        "function": "cleanup",
+        "incremental": false
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "EDI technologies": [
+        "SCANGREENPLUM"
+      ],
+      "credential": "RochadeGreenplumSACredentials",
+      "pluginName": "EDIBus",
+      "name": "EDIBus_Greenplum",
+      "EDI types": [],
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "EDIBusGreenplumDS",
+      "businessApplicationName": null
+    }
+  },
+  "GreenplumReconcile": {
+    "configurations": {
+      "ServerSeedItem": "*",
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/rrt.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar",
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "type": "Rochade",
+      "ReconcileCategory": "system",
+      "credential": "RochadeGreenplumSACredentials",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "DatabaseSeedItem": "*",
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "rochade",
+      "ThreadsUsed": "4",
+      "label": {
+        "": ""
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "JavaMemory": "4096m",
+      "pluginName": "GreenplumReconcile",
+      "name": "RochadeGreenplumReconcile",
+      "dataSource": "ROCGreenplumSADataSource"
+    }
+  },
+  "GreenplumPostprocess": {
+    "configurations": {
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/scangreenplum.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/json.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/SQL2XML.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/ds-utils.jar",
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "type": "Rochade",
+      "LogLevel": "CONFIG",
+      "credential": "RochadeGreenplumSACredentials",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "rochade",
+      "label": {
+        "": ""
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "JavaMemory": "4096m",
+      "pluginName": "GreenplumPostprocess",
+      "LogSuspiciousSql": false,
+      "name": "RochadeGreenplumPostprocess",
+      "arguments": [],
+      "LogSuspiciousSqlPath": "",
+      "dataSource": "ROCGreenplumSADataSource"
+    }
+  },
+  "GreenplumScan": {
+    "configurations": {
+      "ClassPath": "${driver.path};${rochade.home}/scangreenplum/${VersionPathName}/bin/scangreenplum.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/scangreenplum/${VersionPathName}/bin/SQL2XML.jar",
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "ScanSystemColumns": false,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "UseWildcards": false,
+      "type": "Rochade",
+      "LogLevel": "CONFIG",
+      "ExcludeFilter": [],
+      "credential": "RochadeGreenplumCredentials",
+      "IncludeSubobjects": false,
+      "UseRegex": false,
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "ServerNameMapping": "",
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "rochade",
+      "label": {
+        "": ""
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "JavaMemory": "2048m",
+      "pluginName": "GreenplumScan",
+      "ServerName": "",
+      "name": "RochadeGreenplumScan",
+      "arguments": [],
+      "OmitPartitionTables": false,
+      "dataSource": "ROCGreenplumDataSource",
+      "IncludeFilter": []
+    }
+  },
+  "EDIBus": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "bulk",
+      "dryRun": false,
+      "nodeCondition": "name==\"InternalNode\"",
+      "label": {
+        "": ""
+      },
+      "type": "Bulk",
+      "commands and flags": {
+        "function": "replicate",
+        "incremental": false
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "EDI technologies": [
+        "SCANGREENPLUM"
+      ],
+      "credential": "RochadeGreenplumSACredentials",
+      "pluginName": "EDIBus",
+      "name": "EDIBus_Greenplum",
+      "EDI types": [],
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "EDIBusGreenplumDS",
+      "businessApplicationName": null
+    }
+  },
+  "GreenplumImport": {
+    "configurations": {
+      "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "rochade",
+      "dryRun": false,
+      "nodeCondition": "name==\"ROCIDANode\"",
+      "label": {
+        "": ""
+      },
+      "type": "Rochade",
+      "LogLevel": "INFO",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "RochadeGreenplumSACredentials",
+      "JavaMemory": "1536m",
+      "pluginName": "GreenplumImport",
+      "name": "RochadeGreenplumImport",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "ROCGreenplumSADataSource",
+      "businessApplicationName": null,
+      "ResetDependencyLinks": false
+    }
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "SVNEntryPoint": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNCreateEntryPoint",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T07:44:55.729316",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T07:44:55.72934"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "tools",
+      "dataSource": "SVNEntryPointDataSource",
+      "credential": "CAEOracleServer",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "Overwrite": true,
+      "dryRun": false,
+      "DBUserPassword": "SVNEntryPoint",
+      "pluginName": "CAECreateEntryPoint",
+      "DBUserName": "SVNEntryPoint",
+      "type": "Tools"
+    }
+  },
+  "SVNCollector": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:01:23.142236",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:01:23.142241"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "SVNDataSource",
+      "credential": "SVNCredentials",
+      "businessApplicationName": "CAE_SVN_BA",
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "SVNCollector",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "SVN.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar;${cae.home}/lib/caeextr/rtc/*",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "CAE",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "SVN,trunk/caeextr/dev/com/asg/cae/source/collector/caeextr/helper,TYPE=JAVA,PROCESS=LOAD,SUBF=Y,RINCM=.*\\.java"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "SVNFeed": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNFeed",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:45:26.87066",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:45:26.870666"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "SVNFeedLoadDS",
+      "credential": "SVNEntryPoint",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "pluginName": "CAEFeed",
+      "ProjectRootFolder": "${cae.project.home}",
+      "type": "CAE"
+    }
+  },
+  "SVNDDLoader": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNDDLoader",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:50:07.604263",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:50:07.604269"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "SVNFeedLoadDS",
+      "credential": "SVNEntryPoint",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "Advanced": {
+        "multi-env": false,
+        "LoaderPath": "",
+        "technologies": [
+          "Java",
+          "Oracle",
+          "SqlServer"
+        ],
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": "",
+        "tfmSystemPolicyValue": "",
+        "technologyRestriction": false
+      },
+      "checkAll": false,
+      "clear": true,
+      "onDemandLineage": true,
+      "incremental": false,
+      "type": "Bulk",
+      "restrict": "",
+      "Contextuality": {
+        "inputSetName": "",
+        "inputSetPrivate": ""
+      },
+      "negative": false,
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "pluginName": "CAEDDLoader"
+    }
+  },
+  "SVNCollectorSingleFile": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNCollectorSingleFile",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:01:23.142236",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:01:23.142241"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "SVNDataSource",
+      "credential": "SVNCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "SVNCollector",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "SVN.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar;${cae.home}/lib/caeextr/rtc/*",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "CAE",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "SVN,trunk/caeextr/dev/com/asg/cae/source/collector/caeextr/helper,TYPE=JAVA,PROCESS=LOAD,SUBF=Y,RINCM=CollectorFactory.java"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "SVNCollectorProcessAuto": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNCollectorSingleFile",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:01:23.142236",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:01:23.142241"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "SVNDataSource",
+      "credential": "SVNCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "SVNCollector",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "SVN.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar;${cae.home}/lib/caeextr/rtc/*",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "CAE",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "SVN,trunk/caeextr/dev/com/asg/cae/source/collector/caeextr/helper,TYPE=JAVA,PROCESS=AUTO,SUBF=Y,RINCM=DESFactory.java"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "SVNCollectorSubFolderNo": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNCollectorSubFolderNo",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:01:23.142236",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:01:23.142241"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "SVNDataSource",
+      "credential": "SVNCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "SVNCollector",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "SVN.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar;${cae.home}/lib/caeextr/rtc/*",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "CAE",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "SVN,trunk/caeextr/dev/com/asg/cae/source/collector/caeextr,TYPE=JAVA,PROCESS=LOAD,SUBF=N,RINCM=.*\\.java"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "SVNCollectorProcessDelete": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNCollectorProcessDelete",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:01:23.142236",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:01:23.142241"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "CAE",
+      "dataSource": "SVNDataSource",
+      "credential": "SVNCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "pluginName": "SVNCollector",
+      "General Environment": {
+        "CAEPath": "${cae.home}",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "DES_FILE": "",
+        "LOG_FILE": "SVN.log",
+        "VSO_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar;${cae.home}/lib/caeextr/rtc/*",
+        "JAVA_TRACE": "on",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "JAVA_TRACE_FILE": "",
+        "LOCALE_OVERRIDE": "",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "type": "CAE",
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "SVN,trunk/caeextr/dev/com/asg/cae/source/collector/caeextr/helper,TYPE=JAVA,PROCESS=DELETE,SUBF=Y,RINCM=CollectorFactory.java"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "SVNDDLoaderIncremental": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNDDLoaderIncremental",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:50:07.604263",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:50:07.604269"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "SVNFeedLoadDS",
+      "credential": "SVNEntryPoint",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "Advanced": {
+        "multi-env": false,
+        "LoaderPath": "",
+        "technologies": [
+          "Java",
+          "Oracle",
+          "SqlServer"
+        ],
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": "",
+        "tfmSystemPolicyValue": "",
+        "technologyRestriction": false
+      },
+      "checkAll": false,
+      "clear": false,
+      "onDemandLineage": true,
+      "incremental": true,
+      "type": "Bulk",
+      "restrict": "",
+      "Contextuality": {
+        "inputSetName": "",
+        "inputSetPrivate": ""
+      },
+      "negative": false,
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "pluginName": "CAEDDLoader"
+    }
+  },
+  "SVNDDLoaderNegativeDelta": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNDDLoaderNegativeDelta",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T08:50:07.604263",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T08:50:07.604269"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "SVNFeedLoadDS",
+      "credential": "SVNEntryPoint",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "Advanced": {
+        "multi-env": false,
+        "LoaderPath": "",
+        "technologies": [
+          "Java",
+          "Oracle",
+          "SqlServer"
+        ],
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": "",
+        "tfmSystemPolicyValue": "",
+        "technologyRestriction": false
+      },
+      "checkAll": false,
+      "clear": false,
+      "onDemandLineage": true,
+      "incremental": true,
+      "type": "Bulk",
+      "restrict": "",
+      "Contextuality": {
+        "inputSetName": "",
+        "inputSetPrivate": ""
+      },
+      "negative": true,
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "pluginName": "CAEDDLoader"
+    }
+  },
+  "SVNDeleteEntryPoint": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNDeleteEntryPoint",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T12:27:11.460456",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T12:27:11.460464"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "tools",
+      "dataSource": "SVNEntryPointDataSource",
+      "credential": "CAEOracleServer",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "dryRun": false,
+      "pluginName": "CAEDeleteEntryPoint",
+      "DBUserName": "SVNEntryPoint",
+      "type": "Tools"
+    }
+  },
+  "SVNSQLEntryPoint": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SVNCreateEntryPoint",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-09T07:44:55.729316",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-09T07:44:55.72934"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "tools",
+      "dataSource": "SVNEntryPointDataSource",
+      "credential": "CAESQLServer",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "Overwrite": true,
+      "dryRun": false,
+      "DBUserPassword": "SVNEntryPoint",
+      "pluginName": "CAECreateEntryPoint",
+      "DBUserName": "SVNEntryPoint",
+      "type": "Tools"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "columnMetaData": {
+    "Table2": {
+      "field1": {
+        "fieldDataType": "ARRAY",
+        "fieldName": "ARRAY1"
+      },
+      "field3": {
+        "fieldDataType": "OBJECT",
+        "fieldName": "OBJECT1"
+      },
+      "field2": {
+        "fieldDataType": "VARIANT",
+        "fieldName": "VARIANT1"
+      }
+    },
+    "Table1": {
+      "field19": {
+        "fieldDataType": "BINARY",
+        "fieldName": "BINARYTYPE"
+      },
+      "field17": {
+        "fieldDataType": "VARCHAR",
+        "fieldName": "STRINGTYPE"
+      },
+      "field18": {
+        "fieldDataType": "VARCHAR",
+        "fieldName": "TEXTTYPE"
+      },
+      "field22": {
+        "fieldDataType": "DATE",
+        "fieldName": "DATETYPE"
+      },
+      "field23": {
+        "fieldDataType": "TIMESTAMP_NTZ",
+        "fieldName": "DATETIMETYPE"
+      },
+      "field20": {
+        "fieldDataType": "BINARY",
+        "fieldName": "VARBINARYTYPE"
+      },
+      "field21": {
+        "fieldDataType": "BOOLEAN",
+        "fieldName": "BOOLEANTYPE"
+      },
+      "field26": {
+        "fieldDataType": "TIMESTAMP_LTZ",
+        "fieldName": "TIMESTAMPLTZTYPE"
+      },
+      "field27": {
+        "fieldDataType": "TIMESTAMP_NTZ",
+        "fieldName": "TIMESTAMPNTZTYPE"
+      },
+      "field24": {
+        "fieldDataType": "TIME",
+        "fieldName": "TIMETYPE"
+      },
+      "field25": {
+        "fieldDataType": "TIMESTAMP_NTZ",
+        "fieldName": "TIMESTAMPTYPE"
+      },
+      "field28": {
+        "fieldDataType": "TIMESTAMP_TZ",
+        "fieldName": "TIMESTAMPTZTYPE"
+      },
+      "field11": {
+        "fieldDataType": "FLOAT",
+        "fieldName": "DOUBLETYPE"
+      },
+      "field12": {
+        "fieldDataType": "FLOAT",
+        "fieldName": "DOUBLEPRECISIONTYPE"
+      },
+      "field1": {
+        "fieldDataType": "NUMBER",
+        "fieldName": "NUMBERTYPE"
+      },
+      "field10": {
+        "fieldDataType": "FLOAT",
+        "fieldName": "FLOAT8TYPE"
+      },
+      "field15": {
+        "fieldDataType": "VARCHAR",
+        "fieldName": "CHARTYPE"
+      },
+      "field16": {
+        "fieldDataType": "VARCHAR",
+        "fieldName": "CHARACTERTYPE"
+      },
+      "field13": {
+        "fieldDataType": "FLOAT",
+        "fieldName": "REALTYPE"
+      },
+      "field14": {
+        "fieldDataType": "VARCHAR",
+        "fieldName": "VARCHARTYPE"
+      },
+      "field7": {
+        "fieldDataType": "NUMBER",
+        "fieldName": "SMALLINTTYPE"
+      },
+      "field6": {
+        "fieldDataType": "NUMBER",
+        "fieldName": "BIGINTTYPE"
+      },
+      "field9": {
+        "fieldDataType": "FLOAT",
+        "fieldName": "FLOAT4TYPE"
+      },
+      "field8": {
+        "fieldDataType": "FLOAT",
+        "fieldName": "FLOATTYPE"
+      },
+      "field3": {
+        "fieldDataType": "NUMBER",
+        "fieldName": "NUMERICTYPE"
+      },
+      "field2": {
+        "fieldDataType": "NUMBER",
+        "fieldName": "DECIMALTYPE"
+      },
+      "field5": {
+        "fieldDataType": "NUMBER",
+        "fieldName": "INTEGERTYPE"
+      },
+      "field4": {
+        "fieldDataType": "NUMBER",
+        "fieldName": "INTTYPE"
+      }
+    }
+  }
+}

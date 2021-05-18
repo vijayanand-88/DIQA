@@ -1,0 +1,20 @@
+{
+  "NewOne": {
+    "label": {
+      "": "NewOne"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "NewOne"
+    }
+  },
+  "NewTwo": {
+    "label": {
+      "": "NewTwo"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "NewTwo"
+    }
+  }
+}

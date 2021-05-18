@@ -1,0 +1,21 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "PostgresCatalogerWithNodeCondition",
+  "label": {
+    "": ""
+  },
+  "catalogName": "POSTGRES CATALOG",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "type=='java'",
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "cataloger",
+  "dataSource": "SampleDataSource",
+  "credential": "SampleCredentials",
+  "filter": null,
+  "pluginName": "PostgreSQLDBCataloger",
+  "schemas": [],
+  "type": "Cataloger",
+  "properties": []
+}

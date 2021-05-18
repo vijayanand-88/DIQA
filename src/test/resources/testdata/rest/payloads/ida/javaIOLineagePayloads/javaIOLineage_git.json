@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaIOLineageGit",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaIOLineageGit"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagJavaIOLineage"],
+      "businessApplicationName": "test_BA_JavaIOLineage",
+      "pluginType": "collector",
+      "dataSource": "GitCollectorDataSource",
+      "credential": "ValidGitCredentials",
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "300",
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "L1"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+                "**/iolinker/**"
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "dryRun": false,
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+    }
+  ]
+}

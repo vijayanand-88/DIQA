@@ -1,0 +1,11 @@
+{
+  "CatalogSC1": {
+    "label": {
+      "": "CatalogSC1"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CatalogSC1"
+    }
+  }
+}

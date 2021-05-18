@@ -1,0 +1,515 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithSchemaFilterSC1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithSchemaFilterSC1"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC1UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": "UDB_BA",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": []
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithSchemaAndTableFilter"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC2UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithSchemaFilter"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC4UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithMultipleSchemasInFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithMultipleSchemasInFilter"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC6UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": []
+        },
+        {
+          "schema": "DB2ADMIN",
+          "tables": []
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerwithSchemaAndMultipleTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerwithSchemaAndMultipleTableFilter"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC7UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            },
+            {
+              "table": "TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithMultipleSchemaFilterWithTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithMultipleSchemaFilterWithTables"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC8UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        },
+        {
+          "schema": "DB2ADMIN",
+          "tables": [
+            {
+              "table": "UDBTEST1"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerwithNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerwithNonExistingSchemaAndTableFilter"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC9UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "DB2NONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "DB2NONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithIncorrectCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithIncorrectCredentials"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC11UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_InvalidCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "DB2NONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "DB2NONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithIncorrectURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithIncorrectURL"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC12UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "DB2NONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "DB2NONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithNOFilters",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithNOFilters"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC13UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithTimeStamp",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithTimeStamp"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC14UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_EMPTY"
+            },
+            {
+              "table": "DB2_TABLE"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithNoUsernameAndPassword",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithNoUsernameAndPassword"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC16UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_EmptyCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithOracleDatabaseURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithOracleDatabaseURL"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC17UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithPostgresDatabaseURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithPostgresDatabaseURL"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC18UDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithDryRun",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerWithDryRun"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "DryUDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": true,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    }
+  ]
+}

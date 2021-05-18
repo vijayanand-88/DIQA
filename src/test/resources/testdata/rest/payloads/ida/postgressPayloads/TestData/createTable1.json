@@ -1,0 +1,62 @@
+{
+  "tableName": "samples",
+  "description": "sample Table Description",
+  "database": "testdatabase",
+   "cols": {
+    "PartitionKeys": [
+      {
+        "name": "name",
+        "type": "varchar(256)",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asg-glue-samples/samples/",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "Id",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "age",
+          "type": "bigint",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+}

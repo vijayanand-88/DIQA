@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureCosmosSql11",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AzureCosmosSql11",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "databases": [],
+      "database": "testSqlDB",
+      "driverBundleName": "cdata.jdbc.cosmosdb.CosmosDBDriver",
+      "host": "asgsqlcosmos.documents.azure.com",
+      "user": "Devi.Niranjani@asg.com",
+      "primarykey": "m2FVxxoa21Th6DJBnIq9GTAPwtGOZWmVGcWzaNKoWI0Y0kmYpyqx3XIQZZSIZG3SSE21qBoiVUkbZ1AMgCDhPg=="
+    }
+  ]
+}

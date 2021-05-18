@@ -1,0 +1,28 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 88,
+      "value" : "Field"
+    }, {
+      "count" : 14,
+      "value" : "File"
+    }, {
+      "count" : 6,
+      "value" : "Directory"
+    }, {
+      "count" : 1,
+      "value" : "Analysis"
+    }, {
+      "count" : 1,
+      "value" : "Cluster"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

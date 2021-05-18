@@ -1,0 +1,341 @@
+{
+  "AnalyzerConfig": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiolessthan05EmptyFalse"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter2": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiogreaterthan05EmptyFalseTrue"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter3": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_ALLMATCH"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter4": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_RatioEqualTo05EmptyFalse"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter5": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiogreaterthan05MatchFullTrue"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter6": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_ALLEMPTY"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter7": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_Ratiolesserthan05MatchFullTrue"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  },
+  "Filter8": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "Orc12cRDSAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Oracle12C_RDS_AY",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 10,
+    "database": "IDADB12C",
+    "pluginName": "OracleDBAnalyzer",
+    "sampleDataCount": 25,
+    "schemas": [
+      {
+        "schema": "TEST_TAGGING",
+        "tables": [
+          {
+            "table": "TAGDETAILS_VIEW"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 30
+  }
+}

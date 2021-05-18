@@ -1,0 +1,93 @@
+{
+  "MetaData": {
+    "totalCount": 14,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 10,
+          "value": "Column"
+        },
+        {
+          "count": 1,
+          "value": "Constraint"
+        },
+        {
+          "count": 1,
+          "value": "Table"
+        },
+        {
+          "count": 1,
+          "value": "Analysis"
+        },
+        {
+          "count": 1,
+          "value": "Host"
+        }
+
+      ]
+    },
+
+    "tableMetaData": {
+      "name": "DynamicColumns",
+      "tableID": "DynamoCatalog7.Table:::1",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "Book Title"
+          },
+          {
+            "type": "Columns",
+            "name": "Id"
+          },
+          {
+            "type": "Columns",
+            "name": "Book Binary"
+          },
+          {
+            "type": "Columns",
+            "name": "Book BS"
+          },
+          {
+            "type": "Columns",
+            "name": "Book NS"
+          },
+          {
+            "type": "Columns",
+            "name": "Book NULL"
+          },
+          {
+            "type": "Columns",
+            "name": "Book SS"
+          },
+          {
+            "type": "Columns",
+            "name": "Color"
+          },
+          {
+            "type": "Columns",
+            "name": "In Publication"
+          },
+          {
+            "type": "Columns",
+            "name": "ItemsOnMyDesk"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    }
+
+  }
+}

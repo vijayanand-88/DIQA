@@ -1,0 +1,745 @@
+{
+  "properties" : [ {
+    "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+    "value" : {
+      "headers" : [ {
+        "label" : "Configuration name",
+        "valuePath" : [ "properties", "0", "value" ]
+      } ],
+      "rows" : [ ],
+      "prototype" : {
+        "properties" : [ {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Cataloger",
+              "label" : "Cataloger"
+            } ],
+            "availableValues" : [ {
+              "value" : "Bulk",
+              "label" : "Bulk"
+            }, {
+              "value" : "Cataloger",
+              "label" : "Cataloger"
+            }, {
+              "value" : "Collector",
+              "label" : "Collector"
+            }, {
+              "value" : "Dataanalyzer",
+              "label" : "Dataanalyzer"
+            }, {
+              "value" : "Lineage",
+              "label" : "Lineage"
+            }, {
+              "value" : "Linker",
+              "label" : "Linker"
+            }, {
+              "value" : "Monitor",
+              "label" : "Monitor"
+            }, {
+              "value" : "Other",
+              "label" : "Other"
+            }, {
+              "value" : "Parser",
+              "label" : "Parser"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "type",
+          "widget" : "select",
+          "label" : "Type",
+          "tooltip" : "Type of the plugin",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Type should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "SQLServerDBCataloger",
+              "label" : "SQLServerDBCataloger"
+            } ],
+            "availableValues" : [ {
+              "value" : "AmazonRedshiftCataloger",
+              "label" : "AmazonRedshiftCataloger"
+            }, {
+              "value" : "AmazonS3Cataloger",
+              "label" : "AmazonS3Cataloger"
+            }, {
+              "value" : "AmazonSpectrumCataloger",
+              "label" : "AmazonSpectrumCataloger"
+            }, {
+              "value" : "AvroS3Cataloger",
+              "label" : "AvroS3Cataloger"
+            }, {
+              "value" : "AWSGlueCataloger",
+              "label" : "AWSGlueCataloger"
+            }, {
+              "value" : "CassandraDBCataloger",
+              "label" : "CassandraDBCataloger"
+            }, {
+              "value" : "CNavigatorCataloger",
+              "label" : "CNavigatorCataloger"
+            }, {
+              "value" : "CsvS3Cataloger",
+              "label" : "CsvS3Cataloger"
+            }, {
+              "value" : "DynamoDBCataloger",
+              "label" : "DynamoDBCataloger"
+            }, {
+              "value" : "HBaseCataloger",
+              "label" : "HBaseCataloger"
+            }, {
+              "value" : "HdfsCataloger",
+              "label" : "HdfsCataloger"
+            }, {
+              "value" : "HiveCataloger",
+              "label" : "HiveCataloger"
+            }, {
+              "value" : "JsonS3Cataloger",
+              "label" : "JsonS3Cataloger"
+            }, {
+              "value" : "MongoDBCataloger",
+              "label" : "MongoDBCataloger"
+            }, {
+              "value" : "OracleDBCataloger",
+              "label" : "OracleDBCataloger"
+            }, {
+              "value" : "OrcS3Cataloger",
+              "label" : "OrcS3Cataloger"
+            }, {
+              "value" : "ParquetS3Cataloger",
+              "label" : "ParquetS3Cataloger"
+            }, {
+              "value" : "PostgreSQLDBCataloger",
+              "label" : "PostgreSQLDBCataloger"
+            }, {
+              "value" : "SnowflakeDBCataloger",
+              "label" : "SnowflakeDBCataloger"
+            }, {
+              "value" : "SQLServerDBCataloger",
+              "label" : "SQLServerDBCataloger"
+            }, {
+              "value" : "TeradataDBCataloger",
+              "label" : "TeradataDBCataloger"
+            }, {
+              "value" : "UDBCataloger",
+              "label" : "UDBCataloger"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginName",
+          "widget" : "select",
+          "label" : "Plugin",
+          "tooltip" : "Name of the plugin",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Plugin should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "name",
+          "widget" : "string",
+          "label" : "Name",
+          "tooltip" : "Plugin configuration name",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "required",
+            "message" : " Name field should not be empty"
+          }, {
+            "name" : "uniqueTableKey",
+            "message" : " Name contains duplicated values"
+          }, {
+            "name" : "pattern",
+            "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+            "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+          }, {
+            "name" : "uniqueValue",
+            "config" : [ "SqlServerCataloger" ],
+            "message" : "Name already exists. Please enter a different name."
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "availableValues" : [ {
+              "value" : "1.1.0",
+              "label" : "1.1.0"
+            }, {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginVersion",
+          "widget" : "select",
+          "label" : "Plugin version",
+          "tooltip" : "Required plugin version",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "label",
+          "widget" : "label",
+          "label" : "Label",
+          "tooltip" : "Plugin configuration extended label and description",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventCondition",
+          "widget" : "string",
+          "label" : "Event condition",
+          "tooltip" : "Condition an event must match to trigger this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : false,
+          "name" : "dryRun",
+          "widget" : "checkbox",
+          "label" : "Dry Run",
+          "tooltip" : "Option to enable/disable the plugin execution on dry run mode without writing objects into the repository",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventClass",
+          "widget" : "string",
+          "label" : "Event class",
+          "tooltip" : "Event Class name to trigger current plugin configuration",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 100,
+          "name" : "maxWorkSize",
+          "widget" : "number",
+          "label" : "Maximum work size",
+          "tooltip" : "Maximum number of items the plugin can process before delegating to other nodes",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "pluginType",
+          "widget" : "string",
+          "label" : "pluginType",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "nodeCondition",
+          "widget" : "string",
+          "label" : "Node condition",
+          "tooltip" : "Condition an node must match to be able to run this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "name" : "autoStart",
+          "widget" : "checkbox",
+          "label" : "Auto start",
+          "tooltip" : "Option to enable/disable the automatic execution of the plugin configuration after node startup",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "Backward Lineage Candidate",
+              "label" : "Backward Lineage Candidate"
+            }, {
+              "value" : "Forward Lineage Candidate",
+              "label" : "Forward Lineage Candidate"
+            } ],
+            "singleSelection" : false,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "tags",
+          "widget" : "multi-select",
+          "label" : "Tags",
+          "tooltip" : "Add custom tag(s) to define your data item",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "availableValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : true
+          },
+          "name" : "catalogName",
+          "widget" : "select",
+          "label" : "Catalog name",
+          "tooltip" : "Catalog name",
+          "hidden" : true,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Catalog name should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "SqlServerValidDataSource",
+              "label" : "SqlServerValidDataSource"
+            }, {
+              "value" : "SqlServerValidDataSource_TEST_DEFAULT_CONFIGURATION",
+              "label" : "SqlServerValidDataSource_TEST_DEFAULT_CONFIGURATION"
+            }, {
+              "value" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "name",
+                  "widget" : "string",
+                  "label" : "Name",
+                  "tooltip" : "Plugin configuration name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Name field should not be empty"
+                  }, {
+                    "name" : "uniqueTableKey",
+                    "message" : " Name contains duplicated values"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+                    "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+                  }, {
+                    "name" : "uniqueValue",
+                    "config" : [ "SqlServerValidDataSource", "SqlServerValidDataSource_TEST_DEFAULT_CONFIGURATION" ],
+                    "message" : "Name already exists. Please enter a different name."
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "label",
+                  "widget" : "label",
+                  "label" : "Label",
+                  "tooltip" : "Plugin configuration extended label and description",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : null,
+                  "name" : "pluginType",
+                  "widget" : "string",
+                  "label" : "pluginType",
+                  "hidden" : true,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                  "value" : {
+                    "selectedValues" : [ {
+                      "value" : "Default",
+                      "label" : "Default"
+                    } ],
+                    "availableValues" : [ {
+                      "value" : "Default",
+                      "label" : "Default"
+                    } ],
+                    "singleSelection" : true,
+                    "reload" : false,
+                    "allowUserInput" : true
+                  },
+                  "name" : "catalogName",
+                  "widget" : "select",
+                  "label" : "Catalog name",
+                  "tooltip" : "Catalog name",
+                  "hidden" : true,
+                  "validators" : [ {
+                    "name" : "requiredSelection",
+                    "message" : " Catalog name should have at least one value selected"
+                  } ],
+                  "advanced" : false,
+                  "constant" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+                  "name" : "class",
+                  "widget" : "string",
+                  "label" : "class",
+                  "hidden" : true,
+                  "validators" : [ ],
+                  "advanced" : false,
+                  "constant" : true
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "url",
+                  "widget" : "string",
+                  "label" : "URL",
+                  "tooltip" : "Connection URL",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " URL field should not be empty"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^(jdbc:sqlserver://).*(;databaseName=|;database=){1}.*$",
+                    "message" : "UnSupported SQLServerDB JDBC URL Format. Sample Format : jdbc:sqlserver://<<serverName>>\\<<instancename>>:<<port>>;databaseName(or database)=<<databaseName>> "
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+                  "name" : "driverBundleName",
+                  "widget" : "string",
+                  "label" : "Driver Bundle Name",
+                  "tooltip" : "Name of the bundle providing the driver",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Driver Bundle Name field should not be empty"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "driverBundleVersion",
+                  "widget" : "string",
+                  "label" : "Driver Bundle Version",
+                  "tooltip" : "Version of the bundle providing the driver",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value" : "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+                  "name" : "driver",
+                  "widget" : "string",
+                  "label" : "Driver Name",
+                  "tooltip" : "Name of the JDBC driver",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                } ],
+                "name" : "Plugin Configuration",
+                "metadata" : {
+                  "description" : {
+                    "" : "SQLServerDB DataSource"
+                  },
+                  "analysis.type" : "datasource",
+                  "analysis.supportedCredentialTypes" : [ "basic" ]
+                },
+                "validators" : [ ],
+                "label" : "SQL Server DB Data Source",
+                "empty" : false
+              },
+              "label" : "Add data source"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "dataSource",
+          "widget" : "childProperties",
+          "label" : "Data Source",
+          "tooltip" : "Data source connection to be used",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+          "name" : "class",
+          "widget" : "string",
+          "label" : "class",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "IncorrectSqlServerCredentials",
+              "label" : "IncorrectSqlServerCredentials"
+            }, {
+              "value" : "hdfsDBValidCredential",
+              "label" : "hdfsDBValidCredential"
+            }, {
+              "value" : "ValidSqlServerAdminCredentials",
+              "label" : "ValidSqlServerAdminCredentials"
+            }, {
+              "value" : "EmptySqlServerCredentials",
+              "label" : "EmptySqlServerCredentials"
+            }, {
+              "value" : "ValidSqlServerCredentials",
+              "label" : "ValidSqlServerCredentials"
+            }, {
+              "value" : "SnowflakeValidCredentials",
+              "label" : "SnowflakeValidCredentials"
+            }, {
+              "value" : "ValidGitCredentials",
+              "label" : "ValidGitCredentials"
+            }, {
+              "value" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "name",
+                  "widget" : "string",
+                  "label" : "Name",
+                  "tooltip" : "Credential Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Name field should not be empty"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+                    "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+                  }, {
+                    "name" : "uniqueValue",
+                    "config" : [ "IncorrectSqlServerCredentials", "hdfsDBValidCredential", "ValidSqlServerAdminCredentials", "EmptySqlServerCredentials", "ValidSqlServerCredentials", "SnowflakeValidCredentials", "ValidGitCredentials" ],
+                    "message" : "Name already exists. Please enter a different name."
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "userName",
+                  "widget" : "string",
+                  "label" : "User Name",
+                  "tooltip" : "User Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "User Name field should not be empty"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "password",
+                  "widget" : "password",
+                  "label" : "Password",
+                  "tooltip" : "Password",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "Password field should not be empty"
+                  } ],
+                  "advanced" : false
+                } ],
+                "metadata" : { },
+                "validators" : [ ],
+                "empty" : false
+              },
+              "label" : "Add credential"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "credential",
+          "widget" : "childProperties",
+          "label" : "Credential",
+          "tooltip" : "Credential to be used",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "AVRO_ANALYZER_BA",
+              "label" : "AVRO_ANALYZER_BA"
+            }, {
+              "value" : "HDFS_BA",
+              "label" : "HDFS_BA"
+            }, {
+              "value" : "SqlServer_BA",
+              "label" : "SqlServer_BA"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "businessApplicationName",
+          "widget" : "select",
+          "label" : "Business Application",
+          "tooltip" : "Business Application",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+          "value" : {
+            "headers" : [ {
+              "label" : "SQLServer DB Schema/Table filters",
+              "valuePath" : [ "properties", "0", "value" ]
+            } ],
+            "rows" : [ ],
+            "prototype" : {
+              "properties" : [ {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "name" : "schema",
+                "widget" : "string",
+                "label" : "Schema Name",
+                "tooltip" : "Database Schema Name",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              }, {
+                "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+                "value" : {
+                  "headers" : [ {
+                    "label" : "SQLServer DB Table filters",
+                    "valuePath" : [ "properties", "0", "value" ]
+                  } ],
+                  "rows" : [ ],
+                  "prototype" : {
+                    "properties" : [ {
+                      "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                      "name" : "table",
+                      "widget" : "string",
+                      "label" : "Table Name",
+                      "tooltip" : "Database Table Name",
+                      "hidden" : false,
+                      "validators" : [ ],
+                      "advanced" : false
+                    } ],
+                    "name" : "tables",
+                    "metadata" : { },
+                    "validators" : [ ],
+                    "empty" : false
+                  }
+                },
+                "name" : "tables",
+                "widget" : "table",
+                "label" : "Table Filters",
+                "tooltip" : "Filter on SQLServer DB Tables",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              } ],
+              "name" : "schemas",
+              "metadata" : { },
+              "validators" : [ ],
+              "empty" : false
+            }
+          },
+          "name" : "schemas",
+          "widget" : "table",
+          "label" : "Schema/Table Filters",
+          "tooltip" : "Filter on SQLServer DB Schema/Table",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+          "value" : {
+            "headers" : [ {
+              "label" : "SQLServer Cataloger Argument",
+              "valuePath" : [ "properties", "0", "value" ]
+            } ],
+            "rows" : [ ],
+            "prototype" : {
+              "properties" : [ {
+                "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                "name" : "argument",
+                "widget" : "string",
+                "label" : "Argument",
+                "tooltip" : "SQLServer Cataloger Argument",
+                "hidden" : false,
+                "validators" : [ ],
+                "advanced" : false
+              } ],
+              "name" : "arguments",
+              "metadata" : { },
+              "validators" : [ ],
+              "empty" : false
+            }
+          },
+          "name" : "arguments",
+          "widget" : "table",
+          "label" : "SQLServer Cataloger Arguments",
+          "tooltip" : "SQLServer Cataloger Arguments",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        } ],
+        "name" : "Plugin Configuration",
+        "metadata" : {
+          "analysis.technologies" : [ "SQL Server" ],
+          "analysis.itemtypes" : [ "Cluster", "Service", "Database", "User", "Table", "Column", "Constraint", "Index", "Routine" ],
+          "description" : {
+            "" : "SQLServer Cataloger"
+          },
+          "analysis.type" : "cataloger",
+          "analysis.supportedDataSourceTypes" : [ "SQLServerDBDataSource" ],
+          "analysis.supportedCredentialTypes" : [ "basic" ]
+        },
+        "validators" : [ ],
+        "label" : "SQL Server DB Cataloger",
+        "empty" : false
+      }
+    },
+    "name" : "configurations",
+    "widget" : "table",
+    "label" : "SQLServerDBCataloger",
+    "hidden" : false,
+    "validators" : [ ],
+    "advanced" : false
+  } ],
+  "name" : "SQLServerDBCataloger",
+  "metadata" : { },
+  "validators" : [ ],
+  "label" : "SQLServerDBCataloger",
+  "empty" : false
+}

@@ -1,0 +1,808 @@
+{
+  "properties" : [ {
+    "type" : "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+    "value" : {
+      "headers" : [ {
+        "label" : "Configuration name",
+        "valuePath" : [ "properties", "0", "value" ]
+      } ],
+      "rows" : [ ],
+      "prototype" : {
+        "properties" : [ {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "HBaseDataSource",
+              "label" : "HBaseDataSource"
+            } ],
+            "availableValues" : [ {
+              "value" : "AmazonRedshiftDataSource",
+              "label" : "AmazonRedshiftDataSource"
+            }, {
+              "value" : "AmazonS3DataSource",
+              "label" : "AmazonS3DataSource"
+            }, {
+              "value" : "AmazonSpectrumDataSource",
+              "label" : "AmazonSpectrumDataSource"
+            }, {
+              "value" : "AvroS3DataSource",
+              "label" : "AvroS3DataSource"
+            }, {
+              "value" : "AWSCollectorDataSource",
+              "label" : "AWSCollectorDataSource"
+            }, {
+              "value" : "AWSGlueDataSource",
+              "label" : "AWSGlueDataSource"
+            }, {
+              "value" : "CAEDataSource",
+              "label" : "CAEDataSource"
+            }, {
+              "value" : "CassandraDBDataSource",
+              "label" : "CassandraDBDataSource"
+            }, {
+              "value" : "CNavigatorDataSource",
+              "label" : "CNavigatorDataSource"
+            }, {
+              "value" : "CsvS3DataSource",
+              "label" : "CsvS3DataSource"
+            }, {
+              "value" : "DataSource_for_MySQL_Scan",
+              "label" : "DataSource_for_MySQL_Scan"
+            }, {
+              "value" : "DataSource_for_Oracle",
+              "label" : "DataSource_for_Oracle"
+            }, {
+              "value" : "DataSource_for_SQLServer",
+              "label" : "DataSource_for_SQLServer"
+            }, {
+              "value" : "DataSource_for_Sybase",
+              "label" : "DataSource_for_Sybase"
+            }, {
+              "value" : "DataSource_for_zOS_DB2",
+              "label" : "DataSource_for_zOS_DB2"
+            }, {
+              "value" : "DataSource_for_zOS_PDS",
+              "label" : "DataSource_for_zOS_PDS"
+            }, {
+              "value" : "DynamoDBDataSource",
+              "label" : "DynamoDBDataSource"
+            }, {
+              "value" : "EDIBusDataSource",
+              "label" : "EDIBusDataSource"
+            }, {
+              "value" : "GitCollectorDataSource",
+              "label" : "GitCollectorDataSource"
+            }, {
+              "value" : "HBaseDataSource",
+              "label" : "HBaseDataSource"
+            }, {
+              "value" : "HdfsDataSource",
+              "label" : "HdfsDataSource"
+            }, {
+              "value" : "HiveDataSource",
+              "label" : "HiveDataSource"
+            }, {
+              "value" : "JsonS3DataSource",
+              "label" : "JsonS3DataSource"
+            }, {
+              "value" : "MongoDBDataSource",
+              "label" : "MongoDBDataSource"
+            }, {
+              "value" : "OracleDBDataSource",
+              "label" : "OracleDBDataSource"
+            }, {
+              "value" : "OrcS3DataSource",
+              "label" : "OrcS3DataSource"
+            }, {
+              "value" : "ParquetS3DataSource",
+              "label" : "ParquetS3DataSource"
+            }, {
+              "value" : "PostgreSQLDBDataSource",
+              "label" : "PostgreSQLDBDataSource"
+            }, {
+              "value" : "SnowflakeDBDataSource",
+              "label" : "SnowflakeDBDataSource"
+            }, {
+              "value" : "SQLServerDBDataSource",
+              "label" : "SQLServerDBDataSource"
+            }, {
+              "value" : "TeradataDBDataSource",
+              "label" : "TeradataDBDataSource"
+            }, {
+              "value" : "UDBDataSource",
+              "label" : "UDBDataSource"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginName",
+          "widget" : "select",
+          "label" : "Data Source Type",
+          "tooltip" : "Type of the data source",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Data Source Type should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "name",
+          "widget" : "string",
+          "label" : "Name",
+          "tooltip" : "Plugin configuration name",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "required",
+            "message" : " Name field should not be empty"
+          }, {
+            "name" : "uniqueTableKey",
+            "message" : " Name contains duplicated values"
+          }, {
+            "name" : "pattern",
+            "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+            "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+          }, {
+            "name" : "uniqueValue",
+            "config" : [ "HbaseDataSource_Valid" ],
+            "message" : "Name already exists. Please enter a different name."
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "availableValues" : [ {
+              "value" : "1.1.0",
+              "label" : "1.1.0"
+            }, {
+              "value" : "LATEST",
+              "label" : "LATEST"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "pluginVersion",
+          "widget" : "select",
+          "label" : "Plugin version",
+          "tooltip" : "Required plugin version",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "label",
+          "widget" : "label",
+          "label" : "Label",
+          "tooltip" : "Plugin configuration extended label and description",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventCondition",
+          "widget" : "string",
+          "label" : "Event condition",
+          "tooltip" : "Condition an event must match to trigger this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : false,
+          "name" : "dryRun",
+          "widget" : "checkbox",
+          "label" : "Dry Run",
+          "tooltip" : "Option to enable/disable the plugin execution on dry run mode without writing objects into the repository",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "eventClass",
+          "widget" : "string",
+          "label" : "Event class",
+          "tooltip" : "Event Class name to trigger current plugin configuration",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : 100,
+          "name" : "maxWorkSize",
+          "widget" : "number",
+          "label" : "Maximum work size",
+          "tooltip" : "Maximum number of items the plugin can process before delegating to other nodes",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "pluginType",
+          "widget" : "string",
+          "label" : "pluginType",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : null,
+          "name" : "nodeCondition",
+          "widget" : "string",
+          "label" : "Node condition",
+          "tooltip" : "Condition an node must match to be able to run this configuration. Expressed in Groovy",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "name" : "autoStart",
+          "widget" : "checkbox",
+          "label" : "Auto start",
+          "tooltip" : "Option to enable/disable the automatic execution of the plugin configuration after node startup",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "Backward Lineage Candidate",
+              "label" : "Backward Lineage Candidate"
+            }, {
+              "value" : "Email Address",
+              "label" : "Email Address"
+            }, {
+              "value" : "Email Address1",
+              "label" : "Email Address1"
+            }, {
+              "value" : "Email Address2",
+              "label" : "Email Address2"
+            }, {
+              "value" : "Email Address3",
+              "label" : "Email Address3"
+            }, {
+              "value" : "Forward Lineage Candidate",
+              "label" : "Forward Lineage Candidate"
+            }, {
+              "value" : "Full Name",
+              "label" : "Full Name"
+            }, {
+              "value" : "Full Name1",
+              "label" : "Full Name1"
+            }, {
+              "value" : "Full Name2",
+              "label" : "Full Name2"
+            }, {
+              "value" : "Full Name3",
+              "label" : "Full Name3"
+            }, {
+              "value" : "FullMatchTag",
+              "label" : "FullMatchTag"
+            }, {
+              "value" : "FullMatchTag1",
+              "label" : "FullMatchTag1"
+            }, {
+              "value" : "FullMatchTag2",
+              "label" : "FullMatchTag2"
+            }, {
+              "value" : "FullMatchTag3",
+              "label" : "FullMatchTag3"
+            }, {
+              "value" : "Gender",
+              "label" : "Gender"
+            }, {
+              "value" : "Gender1",
+              "label" : "Gender1"
+            }, {
+              "value" : "Gender2",
+              "label" : "Gender2"
+            }, {
+              "value" : "Gender3",
+              "label" : "Gender3"
+            }, {
+              "value" : "HBASE_EmailPII_SC10Tag",
+              "label" : "HBASE_EmailPII_SC10Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC11Tag",
+              "label" : "HBASE_EmailPII_SC11Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC12Tag",
+              "label" : "HBASE_EmailPII_SC12Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC13Tag",
+              "label" : "HBASE_EmailPII_SC13Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC14Tag",
+              "label" : "HBASE_EmailPII_SC14Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC1Tag",
+              "label" : "HBASE_EmailPII_SC1Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC2Tag",
+              "label" : "HBASE_EmailPII_SC2Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC3Tag",
+              "label" : "HBASE_EmailPII_SC3Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC4Tag",
+              "label" : "HBASE_EmailPII_SC4Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC5Tag",
+              "label" : "HBASE_EmailPII_SC5Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC6Tag",
+              "label" : "HBASE_EmailPII_SC6Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC7Tag",
+              "label" : "HBASE_EmailPII_SC7Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC8Tag",
+              "label" : "HBASE_EmailPII_SC8Tag"
+            }, {
+              "value" : "HBASE_EmailPII_SC9Tag",
+              "label" : "HBASE_EmailPII_SC9Tag"
+            }, {
+              "value" : "HBASE_FullMatchPII_SC1Tag",
+              "label" : "HBASE_FullMatchPII_SC1Tag"
+            }, {
+              "value" : "HBASE_FullMatchPII_SC2Tag",
+              "label" : "HBASE_FullMatchPII_SC2Tag"
+            }, {
+              "value" : "HBASE_FullMatchPII_SC3Tag",
+              "label" : "HBASE_FullMatchPII_SC3Tag"
+            }, {
+              "value" : "HBASE_FullMatchPII_SC4Tag",
+              "label" : "HBASE_FullMatchPII_SC4Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC10Tag",
+              "label" : "HBASE_FullNamePII_SC10Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC11Tag",
+              "label" : "HBASE_FullNamePII_SC11Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC12Tag",
+              "label" : "HBASE_FullNamePII_SC12Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC13Tag",
+              "label" : "HBASE_FullNamePII_SC13Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC14Tag",
+              "label" : "HBASE_FullNamePII_SC14Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC1Tag",
+              "label" : "HBASE_FullNamePII_SC1Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC2Tag",
+              "label" : "HBASE_FullNamePII_SC2Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC3Tag",
+              "label" : "HBASE_FullNamePII_SC3Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC4Tag",
+              "label" : "HBASE_FullNamePII_SC4Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC5Tag",
+              "label" : "HBASE_FullNamePII_SC5Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC6Tag",
+              "label" : "HBASE_FullNamePII_SC6Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC7Tag",
+              "label" : "HBASE_FullNamePII_SC7Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC8Tag",
+              "label" : "HBASE_FullNamePII_SC8Tag"
+            }, {
+              "value" : "HBASE_FullNamePII_SC9Tag",
+              "label" : "HBASE_FullNamePII_SC9Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC10Tag",
+              "label" : "HBASE_GenderPII_SC10Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC11Tag",
+              "label" : "HBASE_GenderPII_SC11Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC12Tag",
+              "label" : "HBASE_GenderPII_SC12Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC13Tag",
+              "label" : "HBASE_GenderPII_SC13Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC14Tag",
+              "label" : "HBASE_GenderPII_SC14Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC1Tag",
+              "label" : "HBASE_GenderPII_SC1Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC2Tag",
+              "label" : "HBASE_GenderPII_SC2Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC3Tag",
+              "label" : "HBASE_GenderPII_SC3Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC4Tag",
+              "label" : "HBASE_GenderPII_SC4Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC5Tag",
+              "label" : "HBASE_GenderPII_SC5Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC6Tag",
+              "label" : "HBASE_GenderPII_SC6Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC7Tag",
+              "label" : "HBASE_GenderPII_SC7Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC8Tag",
+              "label" : "HBASE_GenderPII_SC8Tag"
+            }, {
+              "value" : "HBASE_GenderPII_SC9Tag",
+              "label" : "HBASE_GenderPII_SC9Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC10Tag",
+              "label" : "HBASE_IPAddressPII_SC10Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC11Tag",
+              "label" : "HBASE_IPAddressPII_SC11Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC12Tag",
+              "label" : "HBASE_IPAddressPII_SC12Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC13Tag",
+              "label" : "HBASE_IPAddressPII_SC13Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC14Tag",
+              "label" : "HBASE_IPAddressPII_SC14Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC1Tag",
+              "label" : "HBASE_IPAddressPII_SC1Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC2Tag",
+              "label" : "HBASE_IPAddressPII_SC2Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC3Tag",
+              "label" : "HBASE_IPAddressPII_SC3Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC4Tag",
+              "label" : "HBASE_IPAddressPII_SC4Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC5Tag",
+              "label" : "HBASE_IPAddressPII_SC5Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC6Tag",
+              "label" : "HBASE_IPAddressPII_SC6Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC7Tag",
+              "label" : "HBASE_IPAddressPII_SC7Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC8Tag",
+              "label" : "HBASE_IPAddressPII_SC8Tag"
+            }, {
+              "value" : "HBASE_IPAddressPII_SC9Tag",
+              "label" : "HBASE_IPAddressPII_SC9Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC10Tag",
+              "label" : "HBASE_SSNPII_SC10Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC11Tag",
+              "label" : "HBASE_SSNPII_SC11Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC12Tag",
+              "label" : "HBASE_SSNPII_SC12Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC13Tag",
+              "label" : "HBASE_SSNPII_SC13Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC14Tag",
+              "label" : "HBASE_SSNPII_SC14Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC1Tag",
+              "label" : "HBASE_SSNPII_SC1Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC2Tag",
+              "label" : "HBASE_SSNPII_SC2Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC3Tag",
+              "label" : "HBASE_SSNPII_SC3Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC4Tag",
+              "label" : "HBASE_SSNPII_SC4Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC5Tag",
+              "label" : "HBASE_SSNPII_SC5Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC6Tag",
+              "label" : "HBASE_SSNPII_SC6Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC7Tag",
+              "label" : "HBASE_SSNPII_SC7Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC8Tag",
+              "label" : "HBASE_SSNPII_SC8Tag"
+            }, {
+              "value" : "HBASE_SSNPII_SC9Tag",
+              "label" : "HBASE_SSNPII_SC9Tag"
+            }, {
+              "value" : "IP Address",
+              "label" : "IP Address"
+            }, {
+              "value" : "IP Address1",
+              "label" : "IP Address1"
+            }, {
+              "value" : "IP Address2",
+              "label" : "IP Address2"
+            }, {
+              "value" : "IP Address3",
+              "label" : "IP Address3"
+            }, {
+              "value" : "SSN",
+              "label" : "SSN"
+            }, {
+              "value" : "SSN1",
+              "label" : "SSN1"
+            }, {
+              "value" : "SSN2",
+              "label" : "SSN2"
+            }, {
+              "value" : "SSN3",
+              "label" : "SSN3"
+            } ],
+            "singleSelection" : false,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "tags",
+          "widget" : "multi-select",
+          "label" : "Tags",
+          "tooltip" : "Add custom tag(s) to define your data item",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : true,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "availableValues" : [ {
+              "value" : "Default",
+              "label" : "Default"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : true
+          },
+          "name" : "catalogName",
+          "widget" : "select",
+          "label" : "Catalog name",
+          "tooltip" : "Catalog name",
+          "hidden" : true,
+          "validators" : [ {
+            "name" : "requiredSelection",
+            "message" : " Catalog name should have at least one value selected"
+          } ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+          "value" : {
+            "selectedValues" : [ ],
+            "availableValues" : [ {
+              "value" : "hbaseDBInValidCredential",
+              "label" : "hbaseDBInValidCredential"
+            }, {
+              "value" : "hbaseDBEmptyCredential",
+              "label" : "hbaseDBEmptyCredential"
+            }, {
+              "value" : "hbaseDBValidCredential",
+              "label" : "hbaseDBValidCredential"
+            }, {
+              "value" : {
+                "properties" : [ {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "name",
+                  "widget" : "string",
+                  "label" : "Name",
+                  "tooltip" : "Credential Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " Name field should not be empty"
+                  }, {
+                    "name" : "pattern",
+                    "config" : "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+                    "message" : " Invalid name. Leading/trailing blanks and special characters are forbidden"
+                  }, {
+                    "name" : "uniqueValue",
+                    "config" : [ "hbaseDBInValidCredential", "hbaseDBEmptyCredential", "hbaseDBValidCredential" ],
+                    "message" : "Name already exists. Please enter a different name."
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "userName",
+                  "widget" : "string",
+                  "label" : "User Name",
+                  "tooltip" : "User Name",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "User Name field should not be empty"
+                  } ],
+                  "advanced" : false
+                }, {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "password",
+                  "widget" : "password",
+                  "label" : "Password",
+                  "tooltip" : "Password",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : "Password field should not be empty"
+                  } ],
+                  "advanced" : false
+                } ],
+                "metadata" : { },
+                "validators" : [ ],
+                "empty" : false
+              },
+              "label" : "Add credential"
+            } ],
+            "singleSelection" : true,
+            "reload" : false,
+            "allowUserInput" : false
+          },
+          "name" : "credential",
+          "widget" : "childProperties",
+          "label" : "Credential",
+          "tooltip" : "Credential to be used",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+          "name" : "class",
+          "widget" : "string",
+          "label" : "class",
+          "hidden" : true,
+          "validators" : [ ],
+          "advanced" : false,
+          "constant" : true
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : "",
+          "name" : "hbaseRestUrl",
+          "widget" : "string",
+          "label" : "HBase Rest API base URL",
+          "tooltip" : "URL to connect to HBase Rest API",
+          "hidden" : false,
+          "validators" : [ {
+            "name" : "required",
+            "message" : " HBase Rest API base URL field should not be empty"
+          }, {
+            "name" : "pattern",
+            "config" : "^(http://).*(:).*(/)$",
+            "message" : "UnSupported HBase Rest API base URL Format. Sample Format : http://<<hostname>>:<<port>>/"
+          } ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : false,
+          "name" : "resolveClusterName",
+          "widget" : "checkbox",
+          "label" : "Resolve cluster name",
+          "tooltip" : "Disabled by default. Enable it to resolve the cluster name.",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        }, {
+          "type" : "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+          "value" : [ {
+            "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+            "value" : {
+              "selectedValues" : [ {
+                "value" : "HORTONWORKS",
+                "label" : "HORTONWORKS"
+              } ],
+              "availableValues" : [ {
+                "value" : "HORTONWORKS",
+                "label" : "HORTONWORKS"
+              }, {
+                "value" : "CLOUDERA",
+                "label" : "CLOUDERA"
+              } ],
+              "singleSelection" : true,
+              "reload" : false,
+              "allowUserInput" : false
+            },
+            "name" : "clusterManagerName",
+            "widget" : "select",
+            "label" : "Cluster manager name",
+            "tooltip" : "Name of the cluster manager (CLOUDERA or HORTONWORKS) to which the HBase Data Source plugin should connect.",
+            "hidden" : true,
+            "validators" : [ ],
+            "advanced" : false,
+            "constant" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "clusterManagerHost",
+            "widget" : "string",
+            "label" : "Cluster manager hostname",
+            "tooltip" : "Hostname of HORTONWORKS cluster manager to which the HBase Data Source plugin should connect.",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "clusterManagerPort",
+            "widget" : "string",
+            "label" : "Cluster manager port",
+            "tooltip" : "Port number of HORTONWORKS cluster manager to which the HBase Data Source plugin should connect.",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          }, {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "clusterManagerApiVersion",
+            "widget" : "string",
+            "label" : "Cluster manager API version",
+            "tooltip" : "Version of HORTONWORKS cluster manager REST API to which the HBase Data Source plugin should connect. For example, api/v1.",
+            "hidden" : false,
+            "validators" : [ ],
+            "advanced" : false
+          } ],
+          "name" : "clusterManager",
+          "widget" : "properties",
+          "label" : "Cluster name configuration settings",
+          "tooltip" : "Configuration settings for the HORTONWORKS cluster manager, it will be used only if Resolve cluster name is enabled.",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false,
+          "collapsed" : true
+        } ],
+        "name" : "Plugin Configuration",
+        "metadata" : {
+          "description" : {
+            "" : "Validates HBase and Cluster Manager connection"
+          },
+          "analysis.type" : "datasource",
+          "analysis.technologies" : [ "HBase" ],
+          "analysis.supportedCredentialTypes" : [ "basic" ]
+        },
+        "validators" : [ ],
+        "label" : "H Base Data Source",
+        "empty" : false
+      }
+    },
+    "name" : "configurations",
+    "widget" : "table",
+    "label" : "HBaseDataSource",
+    "hidden" : false,
+    "validators" : [ ],
+    "advanced" : false
+  } ],
+  "name" : "HBaseDataSource",
+  "metadata" : { },
+  "validators" : [ ],
+  "label" : "HBaseDataSource",
+  "empty" : false
+}

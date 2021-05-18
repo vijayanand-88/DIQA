@@ -1,0 +1,1 @@
+{"tagdetails_parquet":[{"mode":"VIEW","source":"PARQUET","dir":"->","target":"tagdetails_parquet"},{"mode":"VIEW","source":"tagdetails_parquet","dir":"->","target":"PARQUET"}]}

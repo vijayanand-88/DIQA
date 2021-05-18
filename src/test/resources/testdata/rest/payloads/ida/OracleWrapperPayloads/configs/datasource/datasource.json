@@ -1,0 +1,140 @@
+{
+  "oracleScanDS": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "RochadeOracleScanDS",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "RochadeOraclePDBCredentials",
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "RochadeBin": "${rochade.home}/bin",
+    "RochadePath": "${rochade.home}",
+    "PropertiesAndOutputPath": "${rochade.project.home}",
+    "Connection": {
+      "JDBCUrl": "jdbc:oracle:thin:@diqscanora01v.diq.qa.asgint.loc:1522/pdbdb19c.DIQ.QA.ASGINT.LOC",
+      "JDBCDriverPath": "D:\\JDBC_Drivers\\ojdbc8.jar"
+    },
+    "VersionPathName": "V403"
+  },
+  "oracleImportDS": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "RochadeOracleImportDS",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "RochadeCredentials",
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "RochadeBin": "${rochade.home}/bin",
+    "RochadeServerHost": "${rochade.server}",
+    "RochadePath": "${rochade.home}",
+    "PropertiesAndOutputPath": "${rochade.project.home}",
+    "VersionPathName": "V403",
+    "RochadeServerPort": "${rochade.port}"
+  },
+  "ediBusOracleDS": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "EDIBusOracleDS",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "RochadeCredentials",
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "EDI host": "DIQROCHADE01V.DIQ.QA.ASGINT.LOC",
+    "EDI subject area access roles": [
+      {
+        "role": "*"
+      }
+    ],
+    "dryRun": false,
+    "EDI subject area name": "METAAPPS",
+    "EDI port": 8888,
+    "pluginName": "EDIBusDataSource",
+    "EDI subject area version": "PRODUCTION",
+    "EDI database": "AP-DATA"
+  },
+  "oracleScanCDBDS": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "RochadeOracleScanDS",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "RochadeOracleCDBCredentials",
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "RochadeBin": "${rochade.home}/bin",
+    "RochadePath": "${rochade.home}",
+    "PropertiesAndOutputPath": "${rochade.project.home}",
+    "Connection": {
+      "JDBCUrl": "jdbc:oracle:thin:@diqscanora01v.diq.qa.asgint.loc:1522:orcl19c",
+      "JDBCDriverPath": "D:\\JDBC_Drivers\\ojdbc8.jar"
+    },
+    "VersionPathName": "V403"
+  },
+  "oracleScanFilterDS": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "oracleScanFilterDS",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "RochadeOracleCDBCredentials",
+    "businessApplicationName": null,
+    "schedule": null,
+    "filter": null,
+    "RochadeBin": "${rochade.home}/bin",
+    "RochadePath": "${rochade.home}",
+    "PropertiesAndOutputPath": "${rochade.project.home}",
+    "Connection": {
+      "JDBCUrl": "jdbc:oracle:thin:@diqscanora01v.diq.qa.asgint.loc:1522:orcl19c",
+      "JDBCDriverPath": "D:\\JDBC_Drivers\\ojdbc8.jar"
+    },
+    "VersionPathName": "V403"
+  }
+}

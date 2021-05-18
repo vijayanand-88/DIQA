@@ -1,0 +1,16 @@
+[{
+
+  "catalog": "Default",
+  "name": "GraphQLDirectory",
+  "permission": "rwxx--rr-w",
+  "type": "Directory"
+
+},
+  {
+
+    "catalog": "Default",
+    "name": "GraphQLFile",
+    "permission": "rwxx--rr-w",
+    "type": "File"
+
+  }]

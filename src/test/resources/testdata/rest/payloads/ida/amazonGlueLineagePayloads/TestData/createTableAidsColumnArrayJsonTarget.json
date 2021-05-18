@@ -1,0 +1,95 @@
+{
+  "tableName": "aidscolumnarrayjsontarget",
+  "description": "Table Description",
+  "database": "linkertargetdb",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "snno",
+        "type": "bigint",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqatestautomation4/SourceFiles/s3FileSupportWithGlueTable/GlueTarget/JsonFileOp/",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "snno",
+          "type": "array<int>",
+          "comment": ""
+        },
+        {
+          "name": "year",
+          "type": "array<int>",
+          "comment": ""
+        },
+        {
+          "name": "quarter",
+          "type": "array<int>",
+          "comment": ""
+        },
+        {
+          "name": "delay",
+          "type": "array<int>",
+          "comment": ""
+        },
+        {
+          "name": "dud",
+          "type": "array<int>",
+          "comment": ""
+        },
+        {
+          "name": "time",
+          "type": "array<int>",
+          "comment": ""
+        },
+        {
+          "name": "y",
+          "type": "array<int>",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.openx.data.jsonserde.JsonSerDe",
+    "parameters": {
+      "paths": "delay,dud,quarter,snno,time,y,year"
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {
+    "sizeKey": "278",
+    "objectCount": "1",
+    "UPDATED_BY_CRAWLER": "json",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "1",
+    "averageRecordSize": "278",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "json",
+    "typeOfData": "file"
+  },
+  "SkewedInfo": {},
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "sizeKey": "278",
+    "objectCount": "1",
+    "UPDATED_BY_CRAWLER": "json",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "1",
+    "averageRecordSize": "278",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "json",
+    "typeOfData": "file"
+}
+}

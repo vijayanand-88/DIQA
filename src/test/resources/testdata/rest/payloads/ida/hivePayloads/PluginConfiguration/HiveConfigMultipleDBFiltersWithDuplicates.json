@@ -1,0 +1,74 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "HiveTag3"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "HiveDataSource_Valid",
+      "credential": "hiveValidCredential",
+      "businessApplicationName": "Hive_BA",
+      "dryRun": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+            "label": {
+              "": "filter1"
+            },
+            "tags": [
+              "HiveTag1",
+              "HiveTag4"
+            ],
+            "dbRegexList": [
+              "hivesample"
+            ]
+          },
+          {
+            "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+            "label": {
+              "": "filter2"
+            },
+            "tags": [
+              "HiveTag2"
+            ],
+            "dbRegexList": [
+              "default",
+              "hivesample"
+            ]
+          },
+          {
+            "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+            "label": {
+              "": "filter3"
+            },
+            "tags": [
+              "HiveTag1",
+              "HiveTag4"
+            ],
+            "dbRegexList": [
+              "hivesample"
+            ]
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "analyzeCollectedData": true,
+      "pluginName": "HiveCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

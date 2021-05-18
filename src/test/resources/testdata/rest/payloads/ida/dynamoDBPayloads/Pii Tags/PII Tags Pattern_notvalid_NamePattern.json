@@ -1,0 +1,161 @@
+{
+  "type/validtdatapattern_valid_0_2_Emptytrue": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.5,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR1",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "PII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.5,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR1",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "PII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.5,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "PII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.5,
+        "namePattern": "gender",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "PII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.5,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },"type/Invalidtypepattern_valid_0_2_allfalse": {
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "dataType": "STRUCTURED",
+    "technologies": [],
+    "pluginName": "DynamoDBAnalyzer",
+    "view": {
+      "label": "DynamoDBAnalyzer ",
+      "value": "DynamoDBAnalyzer "
+    },
+    "@class": "com.asg.dis.policies.facts.DIAnalysis"
+  },
+  "outputs": [
+    {
+      "tagCategory": "PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+      "matchEmpty": false,
+      "matchFull": false,
+      "minimumRatio": 0.2,
+      "namePattern": "IPADDRESS",
+      "typePattern": "VARCHAR1",
+      "tags": [
+        "IP Address"
+      ],
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+    },
+    {
+      "tagCategory": "PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "matchEmpty": false,
+      "matchFull": false,
+      "minimumRatio": 0.2,
+      "namePattern": "SSN",
+      "typePattern": "VARCHAR1",
+      "tags": [
+        "Social Security Number"
+      ],
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+    },
+    {
+      "tagCategory": "PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "matchEmpty": false,
+      "matchFull": false,
+      "minimumRatio": 0.2,
+      "namePattern": ".*FULL.*",
+      "typePattern": ".*VAR1.*",
+      "tags": [
+        "Full Name"
+      ],
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+    },
+    {
+      "tagCategory": "PII",
+      "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+      "matchEmpty": false,
+      "matchFull": false,
+      "minimumRatio": 0.2,
+      "namePattern": "gender",
+      "typePattern": ".*VAR1.*",
+      "tags": [
+        "Gender"
+      ],
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+    },
+    {
+      "tagCategory": "PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "matchEmpty": false,
+      "matchFull": false,
+      "minimumRatio": 0.2,
+      "namePattern": ".*email.*",
+      "typePattern": ".*VAR1.*",
+      "tags": [
+        "Email Address"
+      ],
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+    }
+  ]
+}
+}

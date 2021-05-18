@@ -1,0 +1,662 @@
+{
+  "caption" : {
+    "name" : "boo3",
+    "type" : "SourceTree",
+    "id" : "Default.SourceTree:::3064",
+    "actions" : [ {
+      "class" : "com.asg.dis.platform.data.component.itemview.dom.ItemAction",
+      "name" : "create-assign-item",
+      "requiredPermissions" : [ "DATA_MODIFY" ],
+      "label" : "Assign to Data Set",
+      "icon" : "fa fa-database",
+      "disabled" : false,
+      "requiredUsers" : [ ],
+      "requiredRoles" : [ ],
+      "params" : {
+        "historyItemId" : null,
+        "scopeid" : "Default.File%3A%3A%3A2995",
+        "catalog" : "Default",
+        "name" : "boo3",
+        "id" : "Default.SourceTree%3A%3A%3A3064",
+        "type" : "SourceTree"
+      }
+    }, {
+      "class" : "com.asg.dis.platform.data.component.itemview.dom.ItemAction",
+      "name" : "refresh-async",
+      "endpoint" : "/trustscores/{catalog}",
+      "requiredPermissions" : [ ],
+      "label" : "Refresh Trust",
+      "icon" : "fa fa-refresh",
+      "disabled" : false,
+      "requiredUsers" : [ ],
+      "requiredRoles" : [ ],
+      "params" : {
+        "historyItemId" : null,
+        "scopeid" : "Default.File%3A%3A%3A2995",
+        "catalog" : "Default",
+        "name" : "boo3",
+        "id" : "Default.SourceTree%3A%3A%3A3064",
+        "type" : "SourceTree"
+      }
+    } ],
+    "editableIcon" : false,
+    "breadCrumbs" : [ {
+      "name" : "pythonanalyzerdemo",
+      "tooltip" : "pythonanalyzerdemo [Project]",
+      "id" : "Default.Project:::2897"
+    }, {
+      "name" : "python",
+      "tooltip" : "python [Directory]",
+      "id" : "Default.Directory:::2899"
+    }, {
+      "name" : "simple",
+      "tooltip" : "simple [Directory]",
+      "id" : "Default.Directory:::2901"
+    }, {
+      "name" : "level1",
+      "tooltip" : "level1 [Directory]",
+      "id" : "Default.Directory:::2942"
+    }, {
+      "name" : "boo3.py",
+      "tooltip" : "boo3.py [File]",
+      "id" : "Default.File:::2995"
+    }, {
+      "name" : "boo3",
+      "tooltip" : "boo3 [SourceTree]",
+      "id" : "Default.SourceTree:::3064"
+    } ],
+    "historyVersion" : null,
+    "editableName" : false,
+    "refreshItemOnChangeEndpoint" : "/websocket/events/broadcast",
+    "quality" : {
+      "message" : "Not applicable",
+      "color" : "#A59C9C",
+      "value" : 0.0
+    }
+  },
+  "data" : [ {
+    "category" : "Overview",
+    "preview" : true,
+    "data" : [ {
+      "type" : "multi-properties",
+      "caption" : "Description",
+      "data" : {
+        "attributes" : [ {
+          "type" : "string",
+          "caption" : "rawImports",
+          "data" : {
+            "value" : "[{\"name\":\"...doo\",\"start\":{\"lineNumber\":1,\"position\":1},\"stop\":{\"lineNumber\":1,\"position\":17},\"resolved\":[\"Default.SourceTree:::3055\"]}]",
+            "attributeName" : "rawImports",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.SourceTree%3A%3A%3A3064",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "errorDetails",
+          "data" : {
+            "value" : "[]",
+            "attributeName" : "errorDetails",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.SourceTree%3A%3A%3A3064",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Lifecycle",
+      "data" : {
+        "attributes" : [ {
+          "type" : "date",
+          "caption" : "Last parsed at",
+          "data" : {
+            "value" : "2020-05-13T07:05:54.788+0000",
+            "attributeName" : "parsedAt",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.SourceTree%3A%3A%3A3064",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "date",
+          "caption" : "Last linked date",
+          "data" : {
+            "value" : "2020-05-13T07:07:05.161+0000",
+            "attributeName" : "linkedAt",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.SourceTree%3A%3A%3A3064",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Statistics",
+      "data" : {
+        "attributes" : [ {
+          "type" : "number",
+          "caption" : "Number of imports",
+          "data" : {
+            "value" : 1,
+            "attributeName" : "importCount",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.SourceTree%3A%3A%3A3064",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "number",
+          "caption" : "Number of unresolved references",
+          "data" : {
+            "value" : 0,
+            "attributeName" : "unresolvedCount",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.SourceTree%3A%3A%3A3064",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "table",
+      "caption" : "Classes",
+      "data" : {
+        "headers" : [ {
+          "colId" : "name",
+          "colLabel" : "Name",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "type",
+          "colLabel" : "Type",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "description",
+          "colLabel" : "Description",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        } ],
+        "data" : [ {
+          "name" : "boo3",
+          "type" : "Class",
+          "description" : null,
+          "id" : "Default.Class:::3184",
+          "catalog" : "Default"
+        } ],
+        "pagination" : {
+          "endpoint" : "/searches/Default/query/pagingQuery/Default.SourceTree%3A%3A%3A3064?param=originQuerySource=select+*+from+%24%7Btable_items%7D+where+id+in+%28select+target+from+%24%7Btable_links%7D+where+type%3D%27attribute%27+and+source+in+%24%7Bitems%7D%29&what=name,type,description,id,catalog&param=id=Default.SourceTree:::3064&param=attribute=definitions&param=sortfield=type&param=pageSize=14&param=pageNumber=",
+          "pageSize" : 14,
+          "maxSize" : 1
+        },
+        "editable" : false,
+        "loadAllIdsUrl" : "services/searches/Default?query=select+*+from+%24%7Btable_items%7D+where+id+in+%28select+target+from+%24%7Btable_links%7D+where+type%3D%27attribute%27+and+source+in+%24%7Bitems%7D%29.id()&param=id=Default.SourceTree%3A%3A%3A3064&param=attribute=definitions",
+        "modified" : false,
+        "filterEnabled" : false,
+        "namespaceLinkAttributeWidget" : false,
+        "attributeName" : "definitions"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "table",
+      "caption" : "imports",
+      "data" : {
+        "headers" : [ {
+          "colId" : "name",
+          "colLabel" : "Name",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "type",
+          "colLabel" : "Type",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "description",
+          "colLabel" : "Description",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        } ],
+        "data" : [ {
+          "id" : "Default.SourceTree:::3055",
+          "catalog" : "Default",
+          "name" : "doo",
+          "type" : "SourceTree",
+          "description" : null
+        } ],
+        "pagination" : {
+          "endpoint" : "/searches/Default/query/pagingQuery/Default.SourceTree%3A%3A%3A3064?param=originQuerySource=select+*+from+%24%7Btable_items%7D+where+id+in+%28select+target+from+%24%7Btable_links%7D+where+type%3D%27attribute%27+and+source+in+%24%7Bitems%7D%29&what=id,catalog,name,type,description&param=id=Default.SourceTree:::3064&param=attribute=imports&param=sortfield=name&param=pageSize=14&param=pageNumber=",
+          "pageSize" : 14,
+          "maxSize" : 1
+        },
+        "editable" : false,
+        "loadAllIdsUrl" : "services/searches/Default?query=select+*+from+%24%7Btable_items%7D+where+id+in+%28select+target+from+%24%7Btable_links%7D+where+type%3D%27attribute%27+and+source+in+%24%7Bitems%7D%29.id()&param=id=Default.SourceTree%3A%3A%3A3064&param=attribute=imports",
+        "modified" : false,
+        "filterEnabled" : false,
+        "namespaceLinkAttributeWidget" : false,
+        "attributeName" : "imports"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "table",
+      "caption" : "parseTree",
+      "data" : {
+        "headers" : [ {
+          "colId" : "name",
+          "colLabel" : "Name",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "type",
+          "colLabel" : "Type",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "description",
+          "colLabel" : "Description",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        } ],
+        "data" : [ {
+          "id" : "Default.Content:::3186",
+          "catalog" : "Default",
+          "name" : "ParseTree",
+          "type" : "Content",
+          "description" : null
+        } ],
+        "pagination" : {
+          "endpoint" : "/searches/Default/query/pagingQuery/Default.SourceTree%3A%3A%3A3064?param=originQuerySource=select+*+from+%24%7Btable_items%7D+where+id+in+%28select+target+from+%24%7Btable_links%7D+where+type%3D%27attribute%27+and+source+in+%24%7Bitems%7D%29&what=id,catalog,name,type,description&param=id=Default.SourceTree:::3064&param=attribute=parseTree&param=sortfield=name&param=pageSize=14&param=pageNumber=",
+          "pageSize" : 14,
+          "maxSize" : 1
+        },
+        "editable" : false,
+        "loadAllIdsUrl" : "services/searches/Default?query=select+*+from+%24%7Btable_items%7D+where+id+in+%28select+target+from+%24%7Btable_links%7D+where+type%3D%27attribute%27+and+source+in+%24%7Bitems%7D%29.id()&param=id=Default.SourceTree%3A%3A%3A3064&param=attribute=parseTree",
+        "modified" : false,
+        "filterEnabled" : false,
+        "namespaceLinkAttributeWidget" : false,
+        "attributeName" : "parseTree"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "table",
+      "caption" : "semanticTree",
+      "data" : {
+        "headers" : [ {
+          "colId" : "name",
+          "colLabel" : "Name",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "type",
+          "colLabel" : "Type",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "description",
+          "colLabel" : "Description",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        } ],
+        "data" : [ {
+          "id" : "Default.Content:::3185",
+          "catalog" : "Default",
+          "name" : "SemanticTree",
+          "type" : "Content",
+          "description" : null
+        } ],
+        "pagination" : {
+          "endpoint" : "/searches/Default/query/pagingQuery/Default.SourceTree%3A%3A%3A3064?param=originQuerySource=select+*+from+%24%7Btable_items%7D+where+id+in+%28select+target+from+%24%7Btable_links%7D+where+type%3D%27attribute%27+and+source+in+%24%7Bitems%7D%29&what=id,catalog,name,type,description&param=id=Default.SourceTree:::3064&param=attribute=semanticTree&param=sortfield=name&param=pageSize=14&param=pageNumber=",
+          "pageSize" : 14,
+          "maxSize" : 1
+        },
+        "editable" : false,
+        "loadAllIdsUrl" : "services/searches/Default?query=select+*+from+%24%7Btable_items%7D+where+id+in+%28select+target+from+%24%7Btable_links%7D+where+type%3D%27attribute%27+and+source+in+%24%7Bitems%7D%29.id()&param=id=Default.SourceTree%3A%3A%3A3064&param=attribute=semanticTree",
+        "modified" : false,
+        "filterEnabled" : false,
+        "namespaceLinkAttributeWidget" : false,
+        "attributeName" : "semanticTree"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Relationships",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lineage",
+      "caption" : "DataLineage",
+      "data" : {
+        "theme" : "relationships",
+        "id" : "Default.SourceTree:::3064"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Lineage",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lineage",
+      "caption" : "DataLineage",
+      "data" : {
+        "theme" : "lineage",
+        "id" : "Default.SourceTree:::3064"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  } ],
+  "sideBar" : {
+    "widgets" : [ {
+      "type" : "rating",
+      "caption" : "Rating",
+      "data" : {
+        "content" : {
+          "ratingCount" : 0,
+          "averageRating" : 0.0,
+          "userRating" : 0,
+          "ratings" : [ ],
+          "maxValue" : 5
+        },
+        "links" : {
+          "add" : {
+            "value" : "/ratings/Default/Default.SourceTree:::3064/",
+            "params" : { }
+          },
+          "get" : {
+            "value" : "/ratings/Default/Default.SourceTree:::3064/",
+            "params" : { }
+          },
+          "delete" : {
+            "value" : "/ratings/Default/Default.SourceTree:::3064/",
+            "params" : { }
+          }
+        }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "taglist",
+      "caption" : "Tags",
+      "data" : [ {
+        "id" : "Default.Tag:::2888",
+        "name" : "BA_PY",
+        "rootTagName" : "BusinessApplication",
+        "parentTagName" : "",
+        "definition" : "BusinessApplication: BA_PY",
+        "status" : "APPROVED",
+        "type" : "Business Application Tag",
+        "image" : {
+          "icon" : "icon-business",
+          "color" : "#004ea8"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-05-13T07:05:11.404+0000",
+        "asg_createdat" : "2020-05-13T07:05:11.404+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "originItemID" : "Default.BusinessApplication:::2887",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service",
+        "originItemCatalog" : "Default"
+      }, {
+        "id" : "Default.Tag:::2425",
+        "name" : "CommonLinker",
+        "rootTagName" : "CommonLinker",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-05-13T07:05:11.404+0000",
+        "asg_createdat" : "2020-05-13T06:43:08.343+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::479",
+        "name" : "Python",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-05-13T07:05:11.404+0000",
+        "asg_createdat" : "2020-05-12T17:49:41.464+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "topBar" : {
+    "widgets" : [ ]
+  },
+  "hierarchy" : [ {
+    "label" : "pythonanalyzerdemo",
+    "children" : [ {
+      "label" : "python",
+      "children" : [ {
+        "label" : "simple",
+        "children" : [ {
+          "label" : "level1",
+          "children" : [ {
+            "label" : "boo3.py",
+            "children" : [ {
+              "label" : "boo3",
+              "children" : [ ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}

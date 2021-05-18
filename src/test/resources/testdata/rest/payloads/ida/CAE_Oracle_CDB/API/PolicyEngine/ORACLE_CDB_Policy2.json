@@ -1,0 +1,108 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "pluginName": "OracleDBAnalyzer",
+    "technologies": [
+      ""
+    ],
+    "view": {
+      "label": "OracleDBAnalyzer",
+      "value": "OracleDBAnalyzer"
+    },
+    "dataType": "STRUCTURED"
+  },
+  "outputs": [
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_CDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_CDB_IPAddressPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_CDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_CDB_EmailPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_CDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_CDB_SSNPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_CDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_CDB_GenderPII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_CDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_CDB_FullNamePII_SC7Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_CDB_PII",
+      "dataPattern": "database",
+      "tags": [
+        "ORACLE_CDB_FullMatchPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_CDB_PII",
+      "dataPattern": "GRANTS.",
+      "tags": [
+        "ORACLE_CDB_FullMatchPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="2.0.3">
+  <bpmn:collaboration id="Collaboration_1yn117s">
+    <bpmn:participant id="Participant_0hyu7n7" name="Process Engine" processRef="wait-for-event" />
+  </bpmn:collaboration>
+  <bpmn:process id="wait-for-event" name="wait-for-event" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>SequenceFlow_1i2372i</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="EndEvent_1mazb73">
+      <bpmn:incoming>SequenceFlow_0gipuz9</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1i2372i" sourceRef="StartEvent_1" targetRef="ServiceTask_14f3e5n" />
+    <bpmn:sequenceFlow id="SequenceFlow_1gh3ix2" sourceRef="ServiceTask_14f3e5n" targetRef="ServiceTask_0wiqw3l" />
+    <bpmn:serviceTask id="ServiceTask_14f3e5n" name="WaitCreateEvent" camunda:class="com.asg.dis.platform.workflow.delegates.ReceiveEventDelegate">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="eventClass">ItemCreatedEvent</camunda:inputParameter>
+          <camunda:inputParameter name="timeout">PT2M</camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1i2372i</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1gh3ix2</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0wiqw3l" name="WaitDeleteEvent" camunda:class="com.asg.dis.platform.workflow.delegates.ReceiveEventDelegate">
+      <bpmn:extensionElements>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="eventClass">ItemDeletedEvent</camunda:inputParameter>
+          <camunda:inputParameter name="timeout">PT2M</camunda:inputParameter>
+         </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1gh3ix2</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0gipuz9</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0gipuz9" sourceRef="ServiceTask_0wiqw3l" targetRef="EndEvent_1mazb73" />
+  </bpmn:process>
+  <bpmn:signal id="Signal_10ft5p3" name="EventStop" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1yn117s">
+      <bpmndi:BPMNShape id="Participant_0hyu7n7_di" bpmnElement="Participant_0hyu7n7">
+        <dc:Bounds x="128" y="59" width="603" height="250" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="178" y="101" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="151" y="137" width="90" height="20" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_14f3e5n_di" bpmnElement="ServiceTask_14f3e5n">
+        <dc:Bounds x="281" y="79" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_1mazb73_di" bpmnElement="EndEvent_1mazb73">
+        <dc:Bounds x="675" y="101" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="648" y="137" width="90" height="20" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1i2372i_di" bpmnElement="SequenceFlow_1i2372i">
+        <di:waypoint x="214" y="119" />
+        <di:waypoint x="281" y="119" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="215" y="109" width="90" height="20" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1gh3ix2_di" bpmnElement="SequenceFlow_1gh3ix2">
+        <di:waypoint x="381" y="119" />
+        <di:waypoint x="449" y="119" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="399" y="109" width="90" height="20" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0wiqw3l_di" bpmnElement="ServiceTask_0wiqw3l">
+        <dc:Bounds x="449" y="79" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0gipuz9_di" bpmnElement="SequenceFlow_0gipuz9">
+        <di:waypoint x="549" y="119" />
+        <di:waypoint x="675" y="119" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

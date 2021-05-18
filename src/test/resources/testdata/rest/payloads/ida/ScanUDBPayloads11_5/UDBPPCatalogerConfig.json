@@ -1,0 +1,35 @@
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerPostProcessor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "DB2CatalogerPostProcessor"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC1PPUDB"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "UDBDataSource",
+      "credential": "UDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "UDBCataloger",
+      "schemas": [
+        {
+          "schema": "TC",
+          "tables": []
+        },
+        {
+          "schema": "UDBTEST1",
+          "tables": []
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger"
+    }

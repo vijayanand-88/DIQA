@@ -1,0 +1,25 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "lineage",
+    "dryRun" : true,
+    "nodeCondition" : "name==\"InternalNode\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Lineage",
+    "tags" : [ "Orc12cCDBPostProcessor" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "pluginVersion" : "LATEST",
+    "credential" : null,
+    "pluginName" : "OracleDBPostProcessor",
+    "name" : "Oracle12cPostProcessor_DryRun",
+    "arguments" : [ ],
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : null,
+    "businessApplicationName" : null
+  } ]
+}

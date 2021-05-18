@@ -1,0 +1,21 @@
+{
+  "name": "DeleteRestrictPipeline",
+  "label": null,
+  "schedule": null,
+  "orchestration": {
+    "starts": [
+      {
+        "plugin": "LocalFileCollector",
+        "configuration": "DeleteLocalFile"
+      }
+    ],
+    "graph": {},
+    "positions": {}
+  },
+  "description": null,
+  "auditFields": {
+    "createdBy": "TestSystem",
+    "modifiedBy": "TestSystem"
+
+  }
+}

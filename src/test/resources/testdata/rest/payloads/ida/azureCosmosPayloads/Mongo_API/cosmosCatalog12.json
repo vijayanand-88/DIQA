@@ -1,0 +1,12 @@
+{
+  "CosmosMetadata12": {
+    "label": {
+      "": "CosmosMetadata12"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CosmosMetadata12"
+    }
+  }
+}
+

@@ -1,0 +1,127 @@
+{
+  "configurations": {
+
+  "HdfsMonitor": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HdfsMonitor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "HdfsMonitor",
+        "en": "HdfsMonitor"
+      },
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "filter": null,
+      "catalogerConfigurationName": "HdfsCataloger"
+    }
+  ],
+  "HdfsCataloger": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.HdfsConfiguration",
+      "name": "HdfsCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "HdfsCataloger",
+        "en": "HdfsCataloger"
+      },
+      "eventClass": null,
+      "eventCondition": null,
+      "catalogerHdfsUser": "hdfs",
+      "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+      "kerberosKrb5location": "/etc/krb5.conf",
+        "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+      "clusterManagerName": "HORTONWORKS",
+      "clusterManagerHost": "http://10.33.10.138",
+      "clusterManagerPort": "8080",
+        "clusterManagerLogin": "raj_ops",
+      "clusterManagerPassword": "rdX7heWAVn6gvz3PoOHHpw==",
+      "clusterManagerApiVersion": "api/v1",
+      "scanHdfs": true,
+      "scanServices": false,
+      "analyzeCollectedData": false,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+            "label": {
+              "": "PythonSpark"
+            },
+            "tags": [
+              "PythonSpark"
+            ],
+            "root": "/PythonSparkTest",
+            "excludeRegexp": [],
+            "fileMode": "include",
+            "fileExtensions": [
+              "*"
+            ]
+          }
+        ],
+        "maxHits": "100",
+        "deltaTime": "3"
+      }
+    }
+  ],
+    "GitCollector": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Bitbucket AnalysisDemoData",
+        "label": {
+          "": "Git Collector",
+          "en": "Git Collector"
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.Filter",
+              "label": null,
+              "tags": null,
+              "branch": "PythonSparkRepo"
+            }
+          ],
+          "maxHits": null,
+          "deltaTime": "300"
+        },
+        "repositoryUser": "becubic_build",
+        "repositoryPassword": "laguna-2012",
+        "projectDepth": 1,
+        "repositoryURL": "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git"
+      }
+    ],
+    "PythonParser": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Python Parser",
+        "label": {
+          "": "Python Parser",
+          "en": "Python Parser"
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "filter": null
+      }
+    ],
+    "PythonSparkLineage": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "python Spark Lineage",
+        "label": {
+          "": "Spark Lineage",
+          "en": "Spark Lineage"
+        },
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 10,
+        "filter": null,
+        "pathPrefix": "/PythonSparkTest"
+      }
+    ]
+  },
+  "catalogName": "PythonSingleLevelLineage1"
+}

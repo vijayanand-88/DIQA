@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/Analyzer/1.0.0">
+<xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+<Cluster xmi:id="Cluster_6" xsi:type="Cluster" name="LineageCluster"  tags="ImporterTag">
+	<definitions xmi:id="Service_6" xsi:type="Service" name="LineageService" tags="ImporterTag">
+		<definitions xmi:id="Database_6" xsi:type="Database" name="DBEnd" tags="ImporterTag">
+			<definitions xmi:id="Table_11" xsi:type="Table" name="SeedTabOne" tags="ImporterTag">
+				<definitions xmi:id="Column_45" xsi:type="Column" name="ColThree" tags="ImporterTag">
+				</definitions>
+			</definitions>
+			<definitions xmi:id="Table_12" xsi:type="Table" name="ForwTabOne" createdAt="2014-01-02T11:42:13.510" tags="ImporterTag">
+			</definitions>
+			<definitions xmi:id="Table_13" xsi:type="Table" name="ForwTabTwo" createdAt="20161006020520" tags="ImporterTag">
+			</definitions>
+			<definitions xmi:id="Table_14" xsi:type="Table" name="ForwTabThree" createdAt="20161006020530+0100" tags="ImporterTag">
+			</definitions>
+
+
+
+		</definitions>
+	</definitions>
+</Cluster>
+</xmi:XMI>
+

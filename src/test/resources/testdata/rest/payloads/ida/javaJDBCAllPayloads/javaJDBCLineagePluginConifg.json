@@ -1,0 +1,346 @@
+{
+  "postgreDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgreSQLDBCatalogerJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PostgreSQLDBCatalogerJJA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "PostgreSQLDBDataSourceJJA",
+    "credential": "ValidPostgreDBCredentialsJJA",
+    "businessApplicationName": "test_BA_JavaJDBCAll",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "PostgreSQLDBCataloger",
+    "schemas": [
+      {
+        "schema": "empdbp",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "snowflakeDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCatalogerJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "SnowflakeDBCatalogerJJA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags":[
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeDBDataSourceJJA",
+    "credential": "ValidSnowflakeDBCredentialsJJA",
+    "businessApplicationName": "test_BA_JavaJDBCAll",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [
+      {
+        "schema": "EMPDBS",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "cassandraDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "CassandraDBCatalogerJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "CassandraDBDataSourceJJA",
+    "credential": "ValidCassandraDBCredentialsJJA",
+    "businessApplicationName": "test_BA_JavaJDBCAll",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "databases": [
+      {
+        "tables": [],
+        "database": "jdbckeyspace"
+      }
+    ],
+    "pluginName": "CassandraDBCataloger",
+    "type": "Cataloger"
+  },
+  "dynamoDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "DynamoDBCatalogerJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "DynamoDBDataSourceJJA",
+    "credential": "ValidAWSCredentialsJJA",
+    "businessApplicationName": "test_BA_JavaJDBCAll",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "tables": [
+      {
+        "table": "QAEMP5D"
+      },
+      {
+        "table": "QAEMPFILE3D"
+      },
+      {
+        "table": "QAEMPFILE5D"
+      },
+      {
+        "table": "QAEMPIDD"
+      }
+    ],
+    "pluginName": "DynamoDBCataloger",
+    "type": "cataloger"
+  },
+  "mongoDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "MongoDBCatalogerJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "MongoDBDataSourceJJA",
+    "credential": "ValidMongoDBCredentialsJJA",
+    "businessApplicationName": "test_BA_JavaJDBCAll",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "tables": [
+      {
+        "table": "QAEMP1M"
+      },
+      {
+        "table": "QAEMPM"
+      },
+      {
+        "table": "QAJOIN1M"
+      },
+      {
+        "table": "QAJOIN2M"
+      },
+      {
+        "table": "QAJOIN3M"
+      }
+    ],
+    "pluginName": "MongoDBCataloger",
+    "type": "Cataloger"
+  },
+  "GitCollector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollectorJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollectorJJA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "collector",
+    "dataSource": "GitCollectorDataSourceJJA",
+    "credential": "ValidGitCredentialsJJA",
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.Filter",
+          "label": null,
+          "tags": null,
+          "branch": "refs/heads/master"
+        }
+      ],
+      "deltaTime": "300",
+      "extraFilters": {
+        "filefilters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.FileFilter",
+            "label": {
+              "": "Filter1"
+            },
+            "fileMode": "include",
+            "objectType": "folder",
+            "expressionType": "simple",
+            "expressions": [
+              "**javajdbclineage/alldatasource**"
+            ]
+          }
+        ]
+      },
+      "maxHits": null
+    },
+    "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+    "dryRun": false
+  },
+  "JavaParser": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaParserJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaParserJJA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "filter": null,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "parser",
+    "pluginName": "JavaParser",
+    "dryRun": false,
+    "businessApplicationName": "test_BA_JavaJDBCAll"
+  },
+  "JavaLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaLinkerJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaLinkerJJA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_JavaJDBCAll",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "JavaLinker",
+    "type": "Linker"
+  },
+  "JavaIOLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaIOLinkerJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaIOLinkerJJA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_JavaJDBCAll",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "JavaIOLinker",
+    "type": "Linker"
+  },
+  "JavaJDBCLineageDryRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaJDBCLineageJJADryRun",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaJDBCLineageJJADryRun"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": true,
+    "filter": null,
+    "pluginName": "JavaJDBCLineage",
+    "type": "Lineage"
+  },
+  "JavaJDBCLineageActualRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JavaJDBCLineageJJA",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JavaJDBCLineageJJA"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tag_JavaJDBCAll"
+    ],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_JavaJDBCAll",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "JavaJDBCLineage",
+    "type": "Lineage"
+  }
+}

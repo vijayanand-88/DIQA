@@ -1,0 +1,55 @@
+{
+  "count" : 0,
+  "results" : [ ],
+  "configs" : {
+    "defaultListView" : [ {
+      "value" : "asg.parentTypeNamePath",
+      "label" : "Hierarchy"
+    }, {
+      "value" : "asg.tagNames",
+      "label" : "Tags"
+    } ]
+  },
+  "configsMap" : {
+    "*" : {
+      "*" : "defaultListView"
+    }
+  },
+  "facets" : {
+    "asg.tagPathsHierarchy_ss" : {
+      "label" : "Tags",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 1,
+        "value" : "Git_BA",
+        "label" : "Git_BA",
+        "checked" : false,
+        "childValues" : [ ]
+      }, {
+        "count" : 1,
+        "value" : "Technology",
+        "label" : "Technology",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 1,
+          "value" : "Technology/Enterprise Data",
+          "label" : "Enterprise Data",
+          "checked" : false,
+          "childValues" : [ {
+            "count" : 1,
+            "value" : "Technology/Enterprise Data/Source Control",
+            "label" : "Source Control",
+            "checked" : false,
+            "childValues" : [ {
+              "count" : 1,
+              "value" : "Technology/Enterprise Data/Source Control/Git",
+              "label" : "Git",
+              "checked" : false,
+              "childValues" : [ ]
+            } ]
+          } ]
+        } ]
+      } ]
+    }
+  }
+}

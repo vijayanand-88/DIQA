@@ -1,0 +1,60 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "maxWorkSize" : 100,
+    "dryRun" : false,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "type" : "Dataanalyzer",
+    "batchWrite" : true,
+    "database" : "world",
+    "credential" : null,
+    "host" : "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "eventClass" : null,
+    "pluginType" : "dataanalyzer",
+    "label" : null,
+    "incremental" : true,
+    "tags" : [ ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "histogramBuckets" : 10,
+    "pluginVersion" : "LATEST",
+    "pluginName" : "AmazonRedshiftAnalyzer",
+    "sampleDataCount" : 25,
+    "queryBatchSize" : 100,
+    "schemas" : [ {
+      "schema" : "testschema",
+      "mode" : "INCLUDE",
+      "tables" : [ {
+        "table" : "diffdatatypes"
+      } ]
+    }, {
+      "schema" : "testschema",
+      "mode" : "EXCLUDE",
+      "tables" : [ {
+        "table" : "department"
+      } ]
+    }, {
+      "schema" : "testschema",
+      "mode" : "INCLUDE",
+      "tables" : [ {
+        "table" : "employee"
+      } ]
+    }, {
+      "schema" : "testschema",
+      "mode" : "INCLUDE",
+      "tables" : [ {
+        "table" : "persons"
+      } ]
+    }, {
+      "schema" : "testschema",
+      "mode" : "EXCLUDE",
+      "tables" : [ {
+        "table" : "incrementtesttable"
+      } ]
+    } ],
+    "name" : "RedshiftAnalyzer",
+    "dataSource" : null,
+    "topValues" : 10
+  } ]
+}

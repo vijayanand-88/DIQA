@@ -1,0 +1,32 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "OracleDBCatalogerJJ",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": "OracleDBCatalogerJJ"
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [
+    "tagJavaJDBCLinOracle"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "OracleDBDataSourceJJ",
+  "credential": "ValidOracleDBCredentialsJJ",
+  "businessApplicationName": "test_BA_JavaJDBCOracle",
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "OracleDBCataloger",
+  "schemas": [
+    {
+      "schema": "COLLECTOR",
+      "tables": []
+    }
+  ],
+  "arguments": [],
+  "type": "Cataloger",
+  "properties": []
+}

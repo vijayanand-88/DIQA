@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServer_Cataloger_RDS",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SQLServerCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "SQLServer_DataSource_RDS",
+      "credential": "SqlServer_Credentials",
+      "businessApplicationName": "SQL_Server_Cat",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "SQLServerDBCataloger",
+      "schemas": [],
+      "arguments": [],
+      "type": "Cataloger"
+    }
+  ]
+}

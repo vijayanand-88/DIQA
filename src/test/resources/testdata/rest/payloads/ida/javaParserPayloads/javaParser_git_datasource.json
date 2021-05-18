@@ -1,0 +1,20 @@
+{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollectorDataSourceJ1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "ValidGitCredentialsJ1",
+      "filter": null,
+      "url": "https://source-team.asg.com/scm/~becubic_build/javaspark_lineage.git"
+}
+

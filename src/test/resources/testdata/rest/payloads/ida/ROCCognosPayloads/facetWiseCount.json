@@ -1,0 +1,31 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 5940,
+      "value" : "Measure"
+    }, {
+      "count" : 4057,
+      "value" : "Column"
+    }, {
+      "count" : 512,
+      "value" : "AggregationLevel"
+    }, {
+      "count" : 343,
+      "value" : "Dimension"
+    }, {
+      "count" : 62,
+      "value" : "Hierarchy"
+    }, {
+      "count" : 14,
+      "value" : "OlapSchema"
+    }, {
+      "count" : 12,
+      "value" : "Analysis"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

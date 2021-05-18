@@ -1,0 +1,18 @@
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaParserJ2",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaParserJ2"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "tags": ["tagJavaParser"],
+      "pluginType": "parser",
+      "businessApplicationName": "test_BA_JavaParser",
+          "dryRun": true
+    }

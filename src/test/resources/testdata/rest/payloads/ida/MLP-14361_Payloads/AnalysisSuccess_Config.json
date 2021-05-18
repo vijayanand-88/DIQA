@@ -1,0 +1,24 @@
+{
+  "configurations": [
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "Success",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "AmazonSpectrum",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "Spectrum_Credentials",
+  "filter": null,
+  "driver": "com.amazon.redshift.jdbc.Driver",
+  "url": "jdbc:redshift://redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com:5439/world"
+}
+  ]
+}

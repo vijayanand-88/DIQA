@@ -1,0 +1,11 @@
+{
+  "DB2 CATALOG": {
+    "label": {
+      "": "DB2 CATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "DB2 CATALOG"
+    }
+  }
+}

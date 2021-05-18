@@ -1,0 +1,293 @@
+{
+  "sybase_DDLoader":{
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_DDLoader",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_Feeder_DS",
+    "credential": "Valid_CAE_Feeder_sybase_Cred",
+    "businessApplicationName": "SYBASE_LOADER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Contextuality": {
+      "inputSetName": "",
+      "inputSetPrivate": ""
+    },
+    "negative": false,
+    "Advanced": {
+      "multi-env": false,
+      "LoaderPath": "",
+      "technologies": [
+        "Java",
+        "Oracle",
+        "SqlServer",
+        "DB2"
+      ],
+      "tfmSystemPolicy": "DefaultOnly",
+      "renamingPropertyFile": "",
+      "tfmSystemPolicyValue": "",
+      "technologyRestriction": false
+    },
+    "checkAll": false,
+    "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+    "parallel": false,
+    "pluginName": "CAEDDLoader",
+    "clear": true,
+    "onDemandLineage": true,
+    "incremental": false,
+    "type": "Collector",
+    "restrict": ""
+  },
+  "sybase_DDLoader_1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_DDLoader_1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_Feeder_DS",
+    "credential": "Valid_CAE_Feeder_sybase_Cred",
+    "businessApplicationName": "SYBASE_LOADER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Contextuality": {
+      "inputSetName": "",
+      "inputSetPrivate": ""
+    },
+    "negative": false,
+    "Advanced": {
+      "multi-env": false,
+      "LoaderPath": "",
+      "technologies": [
+        "Java",
+        "Oracle",
+        "SqlServer",
+        "DB2"
+      ],
+      "tfmSystemPolicy": "DefaultOnly",
+      "renamingPropertyFile": "",
+      "tfmSystemPolicyValue": "",
+      "technologyRestriction": false
+    },
+    "checkAll": false,
+    "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+    "parallel": false,
+    "pluginName": "CAEDDLoader",
+    "clear": false,
+    "onDemandLineage": true,
+    "incremental": true,
+    "type": "Collector",
+    "restrict": ""
+  },
+  "sybase_DDLoader_2": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_DDLoader_2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_Feeder_DS",
+    "credential": "Valid_CAE_Feeder_sybase_Cred",
+    "businessApplicationName": "SYBASE_LOADER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Contextuality": {
+      "inputSetName": "",
+      "inputSetPrivate": ""
+    },
+    "negative": true,
+    "Advanced": {
+      "multi-env": false,
+      "LoaderPath": "",
+      "technologies": [
+        "Java",
+        "Oracle",
+        "SqlServer",
+        "DB2"
+      ],
+      "tfmSystemPolicy": "DefaultOnly",
+      "renamingPropertyFile": "",
+      "tfmSystemPolicyValue": "",
+      "technologyRestriction": false
+    },
+    "checkAll": false,
+    "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+    "parallel": false,
+    "pluginName": "CAEDDLoader",
+    "clear": false,
+    "onDemandLineage": true,
+    "incremental": true,
+    "type": "Collector",
+    "restrict": ""
+  },
+  "sybase_DDLoader_3": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_DDLoader_3",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_Feeder_DS",
+    "credential": "Valid_CAE_Feeder_sybase_Cred",
+    "businessApplicationName": "SYBASE_LOADER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Contextuality": {
+      "inputSetName": "",
+      "inputSetPrivate": ""
+    },
+    "negative": false,
+    "Advanced": {
+      "multi-env": false,
+      "LoaderPath": "",
+      "technologies": [
+        "Java",
+        "Oracle",
+        "SqlServer",
+        "DB2"
+      ],
+      "tfmSystemPolicy": "DefaultOnly",
+      "renamingPropertyFile": "",
+      "tfmSystemPolicyValue": "",
+      "technologyRestriction": false
+    },
+    "checkAll": false,
+    "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+    "parallel": false,
+    "pluginName": "CAEDDLoader",
+    "clear": false,
+    "onDemandLineage": true,
+    "incremental": false,
+    "type": "Collector",
+    "restrict": ""
+  },
+  "sybase_DDLoader_4": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_DDLoader_4",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_Feeder_DS",
+    "credential": "Valid_CAE_Feeder_sybase_Cred",
+    "businessApplicationName": "SYBASE_LOADER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Contextuality": {
+      "inputSetName": "",
+      "inputSetPrivate": ""
+    },
+    "negative": true,
+    "Advanced": {
+      "multi-env": false,
+      "LoaderPath": "",
+      "technologies": [
+        "Java",
+        "Oracle",
+        "SqlServer",
+        "DB2"
+      ],
+      "tfmSystemPolicy": "DefaultOnly",
+      "renamingPropertyFile": "",
+      "tfmSystemPolicyValue": "",
+      "technologyRestriction": false
+    },
+    "checkAll": false,
+    "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+    "parallel": false,
+    "pluginName": "CAEDDLoader",
+    "clear": false,
+    "onDemandLineage": true,
+    "incremental": false,
+    "type": "Collector",
+    "restrict": ""
+  },
+  "sybase_DDLoader_Technology_Restriction": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_DDLoader_Technology_Restriction",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "sybase_Feeder_DS",
+    "credential": "Valid_CAE_Feeder_sybase_Cred",
+    "businessApplicationName": "SYBASE_LOADER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Contextuality": {
+      "inputSetName": "",
+      "inputSetPrivate": ""
+    },
+    "negative": false,
+    "Advanced": {
+      "multi-env": false,
+      "LoaderPath": "",
+      "technologies": [
+        "Sybase"
+      ],
+      "tfmSystemPolicy": "DefaultOnly",
+      "renamingPropertyFile": "",
+      "tfmSystemPolicyValue": "",
+      "technologyRestriction": true
+    },
+    "checkAll": false,
+    "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+    "parallel": false,
+    "pluginName": "CAEDDLoader",
+    "clear": true,
+    "onDemandLineage": true,
+    "incremental": false,
+    "type": "Collector",
+    "restrict": ""
+  }
+}

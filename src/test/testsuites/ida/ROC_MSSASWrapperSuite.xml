@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DIautomationBDD" parallel="none">
+    <test name="FunctionalTestCases">
+        <classes>
+            <class name="com.asg.automation.testrunner.ida.ROC_MSSASWrapperTestRunner"/>
+        </classes>
+    </test>
+
+</suite>

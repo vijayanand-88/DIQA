@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "class": "com.asg.dis.platform.config.dom.LicenseManagementEntityResponse",
+      "name": "DATASOURCE",
+      "type": "number",
+      "limit": 100,
+      "active": false,
+      "currentUsage": 4,
+      "localizedLabel": "Data sources",
+      "hidden": false
+    },
+    {
+      "class": "com.asg.dis.platform.config.dom.LicenseManagementEntityResponse",
+      "name": "LINEAGE_PLUGINS",
+      "type": "list",
+      "limit": [
+        "SQLServerDBPostProcessor",
+        "AmazonRedshiftPostProcessor",
+        "PythonSparkLineage",
+        "TeradataDBPostProcessor",
+        "CAELineage",
+        "AWSGluePythonSparkLineage",
+        "JavaRedshiftLineage",
+        "OracleDBPostProcessor",
+        "SQLServerDBPostProcessor",
+        "JavaIOLineage",
+        "JavaJDBCLineage",
+        "JavaSparkLineage",
+        "JavaS3Lineage",
+        "PostgreSQLDBPostProcessor",
+        "SnowflakeDBPostProcessor",
+        "PythonSQLLineage"
+      ],
+      "active": true,
+      "currentUsage": [
+        "AmazonRedshiftPostProcessor",
+        "PythonSparkLineage",
+        "TeradataDBPostProcessor",
+        "CAELineage",
+        "AWSGluePythonSparkLineage",
+        "JavaRedshiftLineage",
+        "OracleDBPostProcessor",
+        "SQLServerDBPostProcessor",
+        "JavaIOLineage",
+        "JavaJDBCLineage",
+        "JavaSparkLineage",
+        "JavaS3Lineage",
+        "PostgreSQLDBPostProcessor",
+        "SnowflakeDBPostProcessor",
+        "PythonSQLLineage"
+      ],
+      "allAvailableValues": [
+        "AmazonRedshiftPostProcessor",
+        "PythonSparkLineage",
+        "TeradataDBPostProcessor",
+        "CAELineage",
+        "AWSGluePythonSparkLineage",
+        "JavaRedshiftLineage",
+        "OracleDBPostProcessor",
+        "SQLServerDBPostProcessor",
+        "JavaIOLineage",
+        "JavaJDBCLineage",
+        "JavaSparkLineage",
+        "JavaS3Lineage",
+        "PostgreSQLDBPostProcessor",
+        "SnowflakeDBPostProcessor",
+        "PythonSQLLineage"
+      ],
+      "localizedLabel": "Lineage Transformations",
+      "hidden": false
+    },
+    {
+      "class": "com.asg.dis.platform.config.dom.LicenseManagementEntityResponse",
+      "name": "NAMED_USERS",
+      "type": "number",
+      "limit": 100,
+      "active": false,
+      "currentUsage": 4,
+      "localizedLabel": "Named Users",
+      "hidden": false
+    },
+    {
+      "class": "com.asg.dis.platform.config.dom.LicenseManagementEntityResponse",
+      "name": "NODES",
+      "type": "number",
+      "limit": 5,
+      "active": false,
+      "currentUsage": 3,
+      "localizedLabel": "Nodes",
+      "hidden": false
+    }
+  ]
+}

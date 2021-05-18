@@ -1,0 +1,31 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TeradataCatalogerwithIncorrectBundleName",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [
+    "SC10TeradataCatalogerWithIncorrectBundleName"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "TeradataDataSourceWithWrongBundleName",
+  "credential": "TeradataCredentials",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "TeradataDBCataloger",
+  "databaseFilter": [
+    {
+      "database": "automation_test_db"
+    }
+  ],
+  "casesensitive": true,
+  "arguments": [],
+  "type": "Cataloger"
+}

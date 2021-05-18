@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Cassandra_Cataloger_InvalidTable",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "InvalidKeyspace"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CassandraDS",
+      "credential": "CassandraCredentials",
+      "businessApplicationName": "CassandraCatalogerBA",
+      "dryRun": false,
+      "filter": null,
+      "databases": [
+        {
+          "tables": [
+            {
+              "table": "invalidtable"
+            }
+          ],
+          "database": "keyspace3"
+        }
+      ],
+      "pluginName": "CassandraDBCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

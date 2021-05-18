@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/Analyzer/10.0.0">
+	<xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+	<Cluster xmi:id="Cluster_1" xsi:type="Cluster" name="LineageDemo Cluster">
+		<definitions xmi:id="DbSystem_1" xsi:type="Database" name="Production">
+			<definitions xmi:id="Database_1" xsi:type="Database" name="Accounting">
+				<definitions xmi:id="Table_4" xsi:type="Table" name="AccountTypes">
+					<definitions xmi:id="Column_21" xsi:type="Column" name="typeID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_22" xsi:type="Column" name="typeName" dataType="varchar">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_5" xsi:type="Table" name="Accounts">
+					<definitions xmi:id="Column_1" xsi:type="Column" name="accountID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_2" xsi:type="Column" name="accountType" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_3" xsi:type="Column" name="customerID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_4" xsi:type="Column" name="accountName" dataType="varchar">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_6" xsi:type="Table" name="Customers">
+					<definitions xmi:id="Column_19" xsi:type="Column" name="customerName" dataType="varchar">
+					</definitions>
+					<definitions xmi:id="Column_20" xsi:type="Column" name="customerID" dataType="long">
+					</definitions>
+				</definitions>
+			</definitions>
+			<definitions xmi:id="Database_2" xsi:type="Database" name="Reporting">
+				<definitions xmi:id="Table_1" xsi:type="Table" name="AccountReports">
+					<definitions xmi:id="Column_5" xsi:type="Column" name="customerID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_6" xsi:type="Column" name="accountName" dataType="varchar">
+					</definitions>
+				</definitions>
+			</definitions>
+			<definitions xmi:id="Database_3" xsi:type="Database" name="Marketplace">
+				<definitions xmi:id="Table_2" xsi:type="Table" name="Transactions">
+					<definitions xmi:id="Column_7" xsi:type="Column" name="fromAccountID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_8" xsi:type="Column" name="fromAccountType" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_9" xsi:type="Column" name="toCustomerID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_10" xsi:type="Column" name="fromCustomerID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_11" xsi:type="Column" name="toAccountID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_12" xsi:type="Column" name="toAccountType" dataType="long">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_3" xsi:type="Table" name="TopSellers">
+					<definitions xmi:id="Column_13" xsi:type="Column" name="customerID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_14" xsi:type="Column" name="amount" dataType="float">
+					</definitions>
+				</definitions>
+			</definitions>
+			<definitions xmi:id="Database_4" xsi:type="Database" name="Loyalty">
+				<definitions xmi:id="Table_7" xsi:type="Table" name="MarketingCampaigns">
+					<definitions xmi:id="Column_17" xsi:type="Column" name="customerID" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_18" xsi:type="Column" name="message" dataType="nclob">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_8" xsi:type="Table" name="Rewards">
+					<definitions xmi:id="Column_15" xsi:type="Column" name="reward" dataType="float">
+					</definitions>
+					<definitions xmi:id="Column_16" xsi:type="Column" name="customerID" dataType="long">
+					</definitions>
+				</definitions>
+			</definitions>
+		</definitions>
+	</Cluster>
+
+	<Analysis xmi:id="Analysis_1" xsi:type="Analysis" name="other/TestPlugin/testConfig/2018-01-26T16:42:38.388+0100" configurationName="testConfig" def="{&quot;class&quot;:&quot;com.asg.dis.common.analysis.dom.PluginConfiguration&quot;,&quot;name&quot;:&quot;testConfig&quot;,&quot;label&quot;:null,&quot;catalogName&quot;:&quot;lineageTest&quot;,&quot;eventClass&quot;:null,&quot;eventCondition&quot;:null,&quot;filter&quot;:null}" ended="2018-01-26T16:42:41.424+01:00" errors="0" pluginName="TestPlugin" pluginType="other" pluginVersion="Unknown" started="2018-01-26T16:42:38.388+01:00" warnings="0">
+	</Analysis>
+
+	<Analysis xmi:id="Analysis_2" xsi:type="Analysis" name="other/TestPlugin/testConfig/2018-01-26T16:42:52.440+0100" configurationName="testConfig" def="{&quot;class&quot;:&quot;com.asg.dis.common.analysis.dom.PluginConfiguration&quot;,&quot;name&quot;:&quot;testConfig&quot;,&quot;label&quot;:null,&quot;catalogName&quot;:&quot;lineageTest&quot;,&quot;eventClass&quot;:null,&quot;eventCondition&quot;:null,&quot;filter&quot;:null}" ended="2018-01-26T16:42:52.605+01:00" errors="0" pluginName="TestPlugin" pluginType="other" pluginVersion="Unknown" started="2018-01-26T16:42:52.44+01:00" warnings="4">
+	</Analysis>
+
+	<Analysis xmi:id="Analysis_3" xsi:type="Analysis" name="other/TestPlugin/testConfig/2018-01-26T16:42:53.048+0100" configurationName="testConfig" def="{&quot;class&quot;:&quot;com.asg.dis.common.analysis.dom.PluginConfiguration&quot;,&quot;name&quot;:&quot;testConfig&quot;,&quot;label&quot;:null,&quot;catalogName&quot;:&quot;lineageTest&quot;,&quot;eventClass&quot;:null,&quot;eventCondition&quot;:null,&quot;filter&quot;:null}" ended="2018-01-26T16:42:53.088+01:00" errors="0" pluginName="TestPlugin" pluginType="other" pluginVersion="Unknown" started="2018-01-26T16:42:53.048+01:00" warnings="0">
+	</Analysis>
+
+	<Analysis xmi:id="Analysis_4" xsi:type="Analysis" name="other/TestPlugin/testConfig/2018-01-26T16:42:53.560+0100" configurationName="testConfig" def="{&quot;class&quot;:&quot;com.asg.dis.common.analysis.dom.PluginConfiguration&quot;,&quot;name&quot;:&quot;testConfig&quot;,&quot;label&quot;:null,&quot;catalogName&quot;:&quot;lineageTest&quot;,&quot;eventClass&quot;:null,&quot;eventCondition&quot;:null,&quot;filter&quot;:null}" ended="2018-01-26T16:42:54.676+01:00" errors="0" pluginName="TestPlugin" pluginType="other" pluginVersion="Unknown" started="2018-01-26T16:42:53.56+01:00" warnings="66">
+	</Analysis>
+
+	<Analysis xmi:id="Analysis_5" xsi:type="Analysis" name="other/TestPlugin/testConfig/2018-01-26T16:42:55.063+0100" configurationName="testConfig" def="{&quot;class&quot;:&quot;com.asg.dis.common.analysis.dom.PluginConfiguration&quot;,&quot;name&quot;:&quot;testConfig&quot;,&quot;label&quot;:null,&quot;catalogName&quot;:&quot;lineageTest&quot;,&quot;eventClass&quot;:null,&quot;eventCondition&quot;:null,&quot;filter&quot;:null}" ended="2018-01-26T16:42:55.112+01:00" errors="0" pluginName="TestPlugin" pluginType="other" pluginVersion="Unknown" started="2018-01-26T16:42:55.063+01:00" warnings="0">
+	</Analysis>
+
+</xmi:XMI>

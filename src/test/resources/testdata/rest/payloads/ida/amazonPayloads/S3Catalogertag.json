@@ -1,0 +1,117 @@
+{
+  "S3CatalogConfig":
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["S3tag"],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonS3DataSource",
+      "credential": "AWS_Amazon_Credentials",
+      "filter": null,
+      "keepEmptyFolders": false,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "AmazonS3Cataloger",
+      "type": "Cataloger",
+      "incremental": false,
+      "bucketFilter": {
+        "patterns": [
+          "asgredshiftworlddata"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": ["/QA"],
+          "dirFilter": {
+            "patterns": ["*/RedshiftTag/*"],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    },
+  "S3CatalogConfigext":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonS3Cataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": ["S3tag"],
+    "pluginType": "cataloger",
+    "dataSource": "AmazonS3DataSource",
+    "credential": "AWS_Amazon_Credentials",
+    "filter": null,
+    "keepEmptyFolders": false,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "pluginName": "AmazonS3Cataloger",
+    "type": "Cataloger",
+    "incremental": false,
+    "bucketFilter": {
+      "patterns": [
+        "asgredshiftworlddata"
+      ],
+      "mode": "INCLUDE",
+      "objectFilter": {
+        "dirPrefixes": [],
+        "dirFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        },
+        "fileFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        }
+      }
+    }
+  },
+  "AmazonRedshiftCataloger":
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonRedshiftCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["RedCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "RedshiftDS",
+      "credential": "Redshift_Credentials",
+      "filter": null,
+      "pluginName": "AmazonRedshiftCataloger",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "redshifttagequalto05view"
+            }
+          ]
+        }
+      ],
+      "incremental": false,
+      "type": "Cataloger",
+      "properties": []
+    }
+}

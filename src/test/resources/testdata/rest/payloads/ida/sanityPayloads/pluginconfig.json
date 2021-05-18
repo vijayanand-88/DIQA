@@ -1,0 +1,1301 @@
+{
+  "AmazonS3Sanity": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "S3SanityConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 1000,
+      "tags": [
+        "AmazonS3Explicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "S3SanityDataSource",
+      "credential": "sanityS3Credential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "keepEmptyFolders": false,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "AmazonS3Cataloger",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asg-ida-dev",
+          "asg-ida-dev-versions"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": [
+              "*/testFiles/CSV/*"
+            ]
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": [
+            "/S3Cataloger"
+          ]
+        }
+      }
+    }
+  },
+  "CSVS3Sanity": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CSVS3SanityConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CsvS3Explicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CSVS3SanityDataSource",
+      "credential": "sanityCSVRWCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "CsvS3Cataloger",
+      "delimiter": ",",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asg-ida-dev-versions"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": [
+              "*/demo/CSV/*"
+            ]
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": [
+            "/S3Cataloger"
+          ]
+        }
+      },
+      "firstRowAsHeader": false
+    }
+  },
+  "JSONS3Sanity": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JSONS3SanityConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 1000,
+      "tags": [
+        "JsonS3Explicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "JSONS3SanityDataSource",
+      "credential": "sanityJSONRWCredential",
+      "versionMode": false,
+      "businessApplicationName": null,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "incremental": false,
+      "bucketFilter": {
+        "patterns": [
+          "asg-ida-dev"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/S3Cataloger"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/testFiles/JSON/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  },
+  "AVROS3Sanity": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AVROS3SanityConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "businessApplicationName": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "AvroS3Explicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "AVROS3SanityDataSource",
+      "credential": "sanityAVRORWCredential",
+      "dryRun": false,
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "AvroS3Cataloger",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "patterns": [
+          "asg-ida-dev"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/S3Cataloger"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/testFiles/AVRO/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  },
+  "PARQUETS3Sanity": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PARQUETS3SanityConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 1000,
+      "tags": [
+        "ParquetS3Explicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "PARQUETS3SanityDataSource",
+      "credential": "sanityParquetRWCredential",
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "incremental": false,
+      "dryRun": false,
+      "pluginName": "ParquetS3Cataloger",
+      "businessApplicationName": null,
+      "bucketFilter": {
+        "patterns": [
+          "asg-ida-dev-versions",
+          "asg-ida-dev"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [
+            "/S3Cataloger"
+          ],
+          "dirFilter": {
+            "patterns": [
+              "*/testFiles/Parquet/*"
+            ],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  },
+  "RedshiftDataConfig": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityRedShiftCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "RedshiftExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "sanityRedshiftDataSource",
+      "credential": "sanityRedshiftCredential",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AmazonRedshiftCataloger",
+      "schemas": [
+        {
+          "schema": "demo",
+          "mode": "INCLUDE",
+          "tables": []
+        },
+        {
+          "schema": "schematest",
+          "mode": "INCLUDE",
+          "tables": []
+        },
+        {
+          "schema": "public",
+          "mode": "INCLUDE",
+          "tables": []
+        }
+      ],
+      "incremental": false,
+      "type": "Cataloger",
+      "properties": []
+    }
+  },
+  "RedshiftALDataConfig": {
+    "configurations":
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SanityRedshiftAnalyzer",
+        "pluginVersion": "LATEST",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "RedshiftExplicit"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": "sanityRedshiftDataSource",
+        "credential": "sanityRedshiftCredential",
+        "filter": null,
+        "dryRun": false,
+        "histogramBuckets": 10,
+        "batchWrite": true,
+        "database": "world",
+        "pluginName": "AmazonRedshiftAnalyzer",
+        "sampleDataCount": 25,
+        "queryBatchSize": 100,
+        "schemas": [
+          {
+            "schema": "demo",
+            "tables": [
+              {
+                "table": "citycomplexview"
+              }
+            ]
+          }
+        ],
+        "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+        "incremental": false,
+        "type": "Dataanalyzer",
+        "topValues": 10
+      }
+  },
+  "RedshiftPostProcessor": {
+    "configurations":
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SanityRedshiftPP",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [
+          "RedshiftExplicit"
+        ],
+        "pluginType": "dataanalyzer",
+        "dataSource": "sanityRedshiftDataSource",
+        "credential": "sanityRedshiftCredential",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AmazonRedshiftPostProcessor",
+        "arguments": [],
+        "type": "Lineage"
+      }
+  },
+  "SpectrumConfig": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanitySpectrumCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SpectrumExplicit"
+      ],
+      "pluginType": "linker",
+      "dataSource": "SanitySpectrumDataSource",
+      "credential": "sanitySpectrumCredential",
+      "dryRun": false,
+      "filter": null,
+      "database": "world",
+      "queryBatchSize": 100,
+      "schemas": [
+        {
+          "schema": "spectrum",
+          "mode": "INCLUDE",
+          "tables": []
+        },
+        {
+          "schema": "exttagdetails",
+          "mode": "INCLUDE",
+          "tables": []
+        },
+        {
+          "schema": "spectrumtest",
+          "mode": "INCLUDE",
+          "tables": []
+        },
+        {
+          "schema": "spectrum_demo",
+          "mode": "INCLUDE",
+          "tables": []
+        }
+      ],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Linker",
+      "pluginName": "AmazonSpectrumCataloger",
+      "region": "us-east-1"
+    }
+  },
+  "SpectrumALConfig": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanitySpectrumAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SpectrumExplicit"
+      ],
+      "pluginType": "dataanalyzer",
+      "businessApplicationName": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "batchWrite": true,
+      "database": "world",
+      "sampleDataCount": 25,
+      "queryBatchSize": 100,
+      "schemas": [
+        {
+          "schema": "spectrumtest",
+          "mode": "INCLUDE",
+          "tables": [
+            {
+              "table": "exttagdetails"
+            }
+          ]
+        }
+      ],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Dataanalyzer",
+      "pluginName": "AmazonSpectrumAnalyzer",
+      "topValues": 10
+    }
+  },
+  "spectrumcsvConfig": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanitySpecCSVS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SpectrumExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "spectrumcsvdatasource",
+      "credential": "SpecCSVCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "CsvS3Cataloger",
+      "delimiter": ",",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asgredshiftworlddata"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": [
+            "/Redshift-Data"
+          ]
+        }
+      },
+      "firstRowAsHeader": true
+    }
+  },
+  "SpectrumLinker": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanitySpectrumCSVLinker",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": "name==\"LocalNode\"",
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "linker",
+      "dataSource": "spectrumcsvdatasource",
+      "credential": "SpecCSVCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "database": "world",
+      "pluginName": "AmazonSpectrumLinker",
+      "queryBatchSize": 100,
+      "schemas": [],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Linker",
+      "region": "us-east-1"
+    }
+  },
+  "AWSGlueCatalogerGC": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GCConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLineageExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SanityGCDS",
+      "credential": "sanityGCCredential",
+      "businessApplicationName": null,
+      "filter": null,
+      "dryRun": false,
+      "includeItems": {
+        "includeDatabases": [
+          "gwdb",
+          "gwdb2",
+          "asgdevdb",
+          "spectrum_demodb",
+          "demodb"
+        ],
+        "includeJobs": []
+      }
+    }
+  },
+  "AWSCollector": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityGCC",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLineageExplicit"
+      ],
+      "pluginType": "collector",
+      "dataSource": "SanityGCCDS",
+      "credential": "sanityGCCredential",
+      "dryRun": false,
+      "businessApplicationName": null,
+      "filter": null
+    }
+  },
+  "GluePythonParser": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityGlueParser",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "SanityGlueParser"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLineageExplicit"
+      ],
+      "pluginType": "parser",
+      "dataSource": null,
+      "credential": null,
+      "dryRun": false,
+      "filter": null,
+      "businessApplicationName": null
+    }
+  },
+  "GluePythonLineage": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityGlueLineage",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "SanityGlueLineage"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLineageExplicit"
+      ],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "dryRun": false,
+      "filter": null,
+      "businessApplicationName": null
+    }
+  },
+  "gluelinkercsvConfig": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityGlueCSVS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLinkerExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "Gluecsvdatasource",
+      "credential": "GlueCSVCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "CsvS3Cataloger",
+      "delimiter": ",",
+      "incremental": false,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asgredshiftworlddata",
+          "asg-ida-s3-glue",
+          "asg-gwtest"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": []
+        }
+      },
+      "firstRowAsHeader": true
+    }
+  },
+  "AWSGLCatalogerGC": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityGLConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLinkerExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SanityGLDS",
+      "credential": "sanityGLCredential",
+      "businessApplicationName": null,
+      "filter": null,
+      "dryRun": false,
+      "includeItems": {
+        "includeDatabases": [
+          "gwdb",
+          "gwdb2",
+          "asgdevdb"
+        ],
+        "includeJobs": []
+      }
+    }
+  },
+  "AWSGLCollector": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityGLC",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLinkerExplicit"
+      ],
+      "pluginType": "collector",
+      "dataSource": "SanityGLCDS",
+      "credential": "sanityGLCredential",
+      "dryRun": false,
+      "businessApplicationName": null,
+      "filter": null
+    }
+  },
+  "GLPythonParser": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SanityGLParser",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": "SanityGLParser"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "GlueLinkerExplicit"
+        ],
+        "pluginType": "parser",
+        "dataSource": null,
+        "credential": null,
+        "dryRun": false,
+        "filter": null,
+        "businessApplicationName": null
+      }
+    ]
+  },
+  "GLPythonLineage": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SanityGLLineage",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": "SanityGlueLineage"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "GlueLinkerExplicit"
+        ],
+        "pluginType": "lineage",
+        "dataSource": null,
+        "credential": null,
+        "dryRun": false,
+        "filter": null,
+        "businessApplicationName": null
+      }
+    ]
+  },
+  "AWSGlueLinker": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityGlueLinker",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLinkerExplicit"
+      ],
+      "pluginType": "linker",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AWSGlueLinker",
+      "type": "Linker",
+      "region": "us-east-1"
+    }
+  },
+  "GLRedshiftDataConfig": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityRedShiftGLCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "GlueLinkerExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "sanityGLRedshiftDS",
+      "credential": "sanityRedshiftCredential",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AmazonRedshiftCataloger",
+      "schemas": [
+        {
+          "schema": "dd_demo",
+          "mode": "INCLUDE",
+          "tables": []
+        }
+      ],
+      "incremental": false,
+      "type": "Cataloger",
+      "properties": []
+    }
+  },
+  "DynamoDBCataloger": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityDynamoConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "DynamoDBExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SanityDynamoDBDS",
+      "credential": "dynamoDBCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "tables": [],
+      "properties": []
+    }
+  },
+  "DynamoDBAnalyzer": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityDynamoDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "tables": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "snowFlakeCataloger": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanitySnowflakeDBConfig",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SnowflakeExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "sanitySnowflakeDS",
+      "credential": "snowflakeCredentials",
+      "businessApplicationName": "",
+      "dryRun": false,
+      "database": "TEST_DB",
+      "filter": null,
+      "pluginName": "SnowflakeDBCataloger",
+      "schemas": [
+        {
+          "schema": "TESTSCHEMA",
+          "tables": []
+        }
+      ],
+      "type": "Cataloger",
+      "properties": []
+    }
+  },
+  "snowflakeAnalyzer": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanitySnowflakeAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SnowflakeExplicit"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": "sanitySnowflakeDS",
+      "credential": "snowflakeCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "TEST_DB",
+      "pluginName": "SnowflakeDBAnalyzer",
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "TESTSCHEMA",
+          "tables": [
+            {
+              "table": "EMPLOYEE_DATA"
+            },
+            {
+              "table": "EXT_CITY"
+            }
+          ]
+        },
+        {
+          "schema": "TEST_SNOWSchemaAuto",
+          "tables": [
+            {
+              "table": "DiffDataTypes"
+            }
+          ]
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "snowFlakePostProcessor": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "sanitySnowflakePP",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SnowflakeExplicit"
+      ],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": "snowflakeCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "SnowflakeDBPostProcessor",
+      "arguments": [],
+      "type": "Lineage"
+    }
+  },
+  "oracle12CRDSCataloger": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityOracle12RDSCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Oracle12CRDSExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "sanityOracle12RDSDS",
+      "credential": "oracleRDSCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  },
+  "oracle12CRDSAnalyzer": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityOracleAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Oracle12CRDSExplicit"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "IDADB12C",
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "oracle12CRDSPP": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityOracle12cRDSPP",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Oracle12CRDSExplicit"
+      ],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBPostProcessor",
+      "arguments": [],
+      "type": "Lineage"
+    }
+  },
+  "oracle19CRDSCataloger": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityOracle19RDSCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Oracle19CRDSExplicit"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "sanityOracle19RDSDS",
+      "credential": "oracleRDSCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  },
+  "oracle19CRDSAnalyzer": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityOracle19CAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Oracle19CRDSExplicit"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "IDADB",
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "HR",
+          "tables": [
+            {
+              "table": "EMPLOYEES"
+            },
+            {
+              "table": "LOCATIONS"
+            }
+          ]
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "oracle19CRDSPP": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SanityOracle19cRDSPP",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Oracle19CRDSExplicit"
+      ],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBPostProcessor",
+      "arguments": [],
+      "type": "Lineage"
+    }
+  },
+  "GitColConfig": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "collector",
+      "dryRun": false,
+      "nodeCondition": "name==\"LocalNode\"",
+      "label": {
+        "": ""
+      },
+      "type": "Collector",
+      "tags": [
+        "GitCollectorExplicit"
+      ],
+      "catalogName": "Default",
+      "filter": {
+        "deltaTime": "300",
+        "filters": [
+          {
+            "label": null,
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "branch": "master",
+            "tags": null
+          }
+        ],
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "pluginVersion": "LATEST",
+      "credential": "GitHubCredentials",
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "pluginName": "GitCollector",
+      "name": "SanityGitConfig",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "SanityGitDataSource",
+      "businessApplicationName": null
+    }
+  },
+  "LFC": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "LocalFileCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "BasicFunctionality",
+        "en": "Demo Local Files"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "tags": [
+        "LocalFileCollectorExplicit"
+      ],
+      "pluginType": "COLLECTOR",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "DemoFilter"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "file",
+              "expressionType": "simple",
+              "expressions": [
+                ""
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "root": "/home",
+      "incrementalRun": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "TableName": "GlobalTable_2017_Ratiolessthan05EmptyFalse",
+  "KeySchema": [
+    {
+      "AttributeName": "EMPLOYEEID",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "IPADDRESS",
+      "KeyType": "RANGE"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "EMPLOYEEID",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "IPADDRESS",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": [
+    {
+      "ReadCapacityUnits": "5",
+      "WriteCapacityUnits": "5"
+    }
+  ]
+}

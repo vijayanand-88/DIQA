@@ -1,0 +1,68 @@
+{
+  "label": {
+    "": "Sample Theme"
+  },
+  "subthemes": [
+    {
+      "label": {
+        "": "Box only"
+      },
+      "config": {
+        "include": [ "Custom_h"
+          
+		
+          ],
+        "label": "${name}${type}",
+        "distance": 60,
+        "nogroup": true,
+        "shape": "box",
+		"tooltip": "${name}${type}"
+		}
+    }
+	],
+  "queries": [
+    {
+      "label": {
+        "": "Detailed Forward Lineage"
+      },
+      "query": "queryForwCol",
+      "default": true,
+      "qualifier": "forw"
+    },
+    {
+      "label": {
+        "": "Highlevel Forward Lineage "
+      },
+      "query": "queryForwTab",
+      "qualifier": "forw"
+    },
+    {
+      "label": {
+        "": "Detailed Backward Lineage"
+      },
+      "query": "queryBackCol",
+      "qualifier": "back"
+    },
+    {
+      "label": {
+        "": "Highlevel Backward Lineage"
+      },
+      "query": "queryBackTab",
+      "qualifier": "back"
+    },
+    {
+      "label": {
+        "": "Usages"
+      },
+      "query": "queryDiagramIn",
+      "qualifier": "back"
+    },
+    {
+      "label": {
+        "": "References"
+      },
+      "query": "queryDiagramOut",
+      "qualifier": "forw"
+    }
+  ]
+}

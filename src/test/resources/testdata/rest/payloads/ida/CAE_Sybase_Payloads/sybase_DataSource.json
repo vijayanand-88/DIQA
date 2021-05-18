@@ -1,0 +1,92 @@
+{
+  "sybase_DataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "sybase_DataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": "sybase_DataSource"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "Valid_sybase_Cred",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "pluginName": "DataSource_for_Sybase",
+        "Connection": {
+          "CAEPath": "${cae.home}",
+          "SybaseUrl": "jdbc:sybase:Tds:gechcae-col1.asg.com:5000/jdbc"
+        }
+      }
+    ]
+  },
+  "sybase_DataSource_Testing_DB": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybase_DataSource_Testing_DB",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "sybase_DataSource_Testing_DB"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "Valid_sybase_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "DataSource_for_Sybase",
+    "Connection": {
+      "CAEPath": "${cae.home}",
+      "SybaseUrl": "jdbc:sybase:Tds:gechcae-col1.asg.com:5000/TESTING"
+    }
+  },
+  "zOS_DB2_DS":  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_DS",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "Valid_zOS_DB2_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "DataSource_for_zOS_DB2",
+    "Connection": {
+      "url": "jdbc:db2://mvssysa.asg.com:6203/NA01DC1A",
+      "subsystem": "DC1A",
+      "DBApplicationId": "",
+      "DBAccountUtilityFile": ""
+    },
+    "Datasource General Environment": {
+      "CAEPath": "${cae.home}",
+      "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m"
+    }
+  }
+}

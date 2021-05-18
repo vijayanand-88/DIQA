@@ -1,0 +1,1 @@
+{"FK_PERSON_INFO":[{"level":1,"back":false,"id":"","source":"FK_PERSON_INFO","type":"linkColumn","target":"PERSON_ID"},{"level":1,"back":false,"id":"","source":"FK_PERSON_INFO","type":"parent","target":"ORACLE_PERSON_ADDRESS_DETAILS"},{"level":1,"back":false,"id":"","source":"FK_PERSON_INFO","type":"parent","target":"PERSON_INFO_PK"}]}

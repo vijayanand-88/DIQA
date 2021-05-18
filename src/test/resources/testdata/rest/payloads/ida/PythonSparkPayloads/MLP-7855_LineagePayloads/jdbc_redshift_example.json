@@ -1,0 +1,30 @@
+{
+  "oracleDF_countrycode": {
+    "source": ["countrycode"],
+    "target": ["countrycode"]
+  },
+  "oracleDF_district": {
+    "source": ["district"],
+    "target": ["district"]
+  },
+  "oracleDF_id": {
+    "source": ["id"],
+    "target": ["id"]
+  },
+  "oracleDF_name": {
+    "source": ["name"],
+    "target": ["name"]
+  },
+  "oracleDF_population": {
+    "source": ["population"],
+    "target": ["population"]
+  },
+  "countrycode1": {
+    "source": ["countrycode"],
+    "target": ["countrycode"]
+  },
+  "name1": {
+    "source": ["name"],
+    "target": ["name"]
+  }
+}

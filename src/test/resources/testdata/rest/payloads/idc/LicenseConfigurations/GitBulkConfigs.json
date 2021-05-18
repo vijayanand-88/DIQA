@@ -1,0 +1,173 @@
+{
+  "Config_1": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource1",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  },
+  "Config_2": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource2",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  },
+  "Config_3": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource3",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  },
+  "Config_4": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource4",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  },
+  "Config_5": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource5",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  },
+  "Config_6": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource6",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  },
+  "Config_7": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource7",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  },
+  "Config_8": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource8",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  },
+  "Config_9": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/diqa/git-collector.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "pluginVersion": "LATEST",
+    "credential": "GitCredentials",
+    "name": "GitCollectorDataSource9",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null
+  }
+}

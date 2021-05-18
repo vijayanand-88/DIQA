@@ -1,0 +1,1177 @@
+{
+  "GetWithConstants_1": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "AGE => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "LNAME => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "FNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "GetWithConstants_2": {
+    "set_3 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  },
+  "DirectLineagePrep": {
+    "EMPID => EMPID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "EMP"
+      ],
+      "lineageTo": [
+        "EMPID"
+      ]
+    },
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "main_SQL_U_PSTMT_1_[QAEMPID, QAEMP5] => CONTROL": {
+      "mode": "CONTROL",
+      "lineageFrom": [
+        "EMP"
+      ],
+      "lineageTo": [
+        "EMPID => EMPID",
+        "FNAME => FNAME",
+        "LNAME => LNAME"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    }
+  },
+  "RowsetWithDiffFunction": {
+    "LNAME => get2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "get2"
+      ]
+    },
+    "FNAME => get1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "get1"
+      ]
+    },
+    "EMPID => get3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "EMPID"
+      ],
+      "lineageTo": [
+        "get3"
+      ]
+    }
+  },
+  "SeparateGetAndSet": {
+    "EMPID => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "EMPID"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "EMPID => EMPID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "EMPID"
+      ],
+      "lineageTo": [
+        "EMPID"
+      ]
+    },
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "FNAME,LNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME",
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    }
+  },
+  "DirLineagePrepwithRes": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "main_SQL_U_PSTMT_1_[qasmalltarget, qasmallsource] => CONTROL": {
+      "mode": "CONTROL",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "AGE => AGE",
+        "FNAME => FNAME",
+        "LNAME => LNAME"
+      ]
+    }
+  },
+  "RowsetWithMain": {
+    "LNAME => get2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "get2"
+      ]
+    },
+    "FNAME => get1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "get1"
+      ]
+    },
+    "AGE => get3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "get3"
+      ]
+    }
+  },
+  "AliasProg9_1": {
+    "AGE => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "LNAME => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "FNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "SeparateGetWithDifferentNames_1": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "AGE => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "LNAME => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "FNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "AliasProg9_2": {
+    "set_3 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  },
+  "SeparateGetWithDifferentNames_2": {
+    "set_3 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  },
+  "SynonymProg8_2": {
+    "set_3 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  },
+  "SynonymProg8_1": {
+    "AGE => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "LNAME => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "FNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "InsertFunction1_2": {
+    "set_3 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  },
+  "InsertFunction1_1": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "AGE => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "LNAME => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "FNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "InsertFunction3_2": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "FNAME,LNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME",
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    }
+  },
+  "InsertFunction3_1": {
+    "set_1 => NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "NAME"
+      ]
+    }
+  },
+  "DirectLineageSt": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    }
+  },
+  "CaseSensitivity1_2": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "age => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "FNAME,LNAME,AGE => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE",
+        "FNAME",
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "CaseSensitivity2_1": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "AGE => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "LNAME => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "FNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "CaseSensitivity1_1": {
+    "set_1 => NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "NAME"
+      ]
+    }
+  },
+  "UpdateProg5_2": {
+    "main_SQL_U_PSTMT_1_[QAEMP5] => CONTROL": {
+      "mode": "CONTROL",
+      "lineageFrom": [
+        "EMPID"
+      ],
+      "lineageTo": [
+        "set_1 => FNAME",
+        "set_2 => LNAME"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  },
+  "DeleteProg6": {
+    "EMPID => EMPID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "EMPID"
+      ],
+      "lineageTo": [
+        "EMPID"
+      ]
+    },
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "EMPID => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "EMPID"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "CaseSensitivity2_2": {
+    "set_3 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  },
+  "UpdateProg5_1": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "LNAME => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "FNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "InsertSubQuery_2": {
+    "set_3 => ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "ID"
+      ]
+    },
+    "set_1 => NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "NAME"
+      ]
+    },
+    "set_2 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    }
+  },
+  "InsertSubQuery_1": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "ID => ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "EMP"
+      ],
+      "lineageTo": [
+        "ID"
+      ]
+    },
+    "FNAME,LNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME",
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "main_SQL_Q_STMT_1_[QAEMP, QAEMPID] => CONTROL": {
+      "mode": "CONTROL",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "AGE => AGE",
+        "FNAME => FNAME",
+        "ID => ID",
+        "LNAME => LNAME"
+      ]
+    },
+    "AGE => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "ID => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "ID"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "ID => CONTROL": {
+      "mode": "CONTROL",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "ID => ID"
+      ]
+    }
+  },
+  "DirLinWildCard": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    }
+  },
+  "SeparateGetWithSameNames_1": {
+    "FNAME => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    },
+    "AGE => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "LNAME => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "AGE => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "LNAME => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "FNAME => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "RowsetInsert_1": {
+    "LNAME => get2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "LNAME"
+      ],
+      "lineageTo": [
+        "get2"
+      ]
+    },
+    "FNAME => get1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "FNAME"
+      ],
+      "lineageTo": [
+        "get1"
+      ]
+    },
+    "get2 => set_2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "get2"
+      ],
+      "lineageTo": [
+        "set_2"
+      ]
+    },
+    "AGE => get3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "AGE"
+      ],
+      "lineageTo": [
+        "get3"
+      ]
+    },
+    "get3 => set_3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "get3"
+      ],
+      "lineageTo": [
+        "set_3"
+      ]
+    },
+    "get1 => set_1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "get1"
+      ],
+      "lineageTo": [
+        "set_1"
+      ]
+    }
+  },
+  "SeparateGetWithSameNames_2": {
+    "set_3 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  },
+  "RowsetInsert_2": {
+    "set_3 => AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_3"
+      ],
+      "lineageTo": [
+        "AGE"
+      ]
+    },
+    "set_2 => LNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_2"
+      ],
+      "lineageTo": [
+        "LNAME"
+      ]
+    },
+    "set_1 => FNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": [
+        "set_1"
+      ],
+      "lineageTo": [
+        "FNAME"
+      ]
+    }
+  }
+}

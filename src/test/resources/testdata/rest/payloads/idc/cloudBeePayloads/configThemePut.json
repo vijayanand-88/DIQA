@@ -1,0 +1,158 @@
+{
+  "label": {
+    "": "Lineage Theme1"
+  },
+  "subthemes": [
+    {
+      "label": {
+        "": "Icons only"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "icons_h",
+          "lineage_h",
+          "default_h"
+        ],
+        "label": "",
+        "distance": 60,
+        "nogroup": true,
+        "shape": "icon"
+      }
+    },
+    {
+      "label": {
+        "": "Icons with item names"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "icons_h",
+          "lineage_h",
+          "default_h"
+        ],
+        "label": "${name}",
+        "distance": 60,
+        "nogroup": true,
+        "shape": "icon"
+      }
+    },
+    {
+      "label": {
+        "": "Items with type names"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "lineage_h",
+          "default_h"
+        ],
+        "nogroup": true,
+        "shape": "box",
+        "boxpadding": 0,
+        "boxparents": 0
+      }
+    },
+    {
+      "label": {
+        "": "Boxes with type names"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "icons_h",
+          "lineage_h",
+          "default_h"
+        ],
+        "shape": "box+icon",
+        "boxpadding": 0,
+        "boxparents": 0
+      },
+      "default": true
+    },
+    {
+      "label": {
+        "": "Boxes with 1 namespaces"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "icons_h",
+          "lineage_h",
+          "default_h"
+        ],
+        "shape": "box+icon",
+        "boxparents": 1
+      }
+    },
+    {
+      "label": {
+        "": "Boxes with 2 namespaces"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "icons_h",
+          "lineage_h",
+          "default_h"
+        ],
+        "shape": "box+icon",
+        "boxparents": 2
+      }
+    },
+    {
+      "label": {
+        "": "Boxes with all namespaces"
+      },
+      "config": {
+        "include": [
+          "colors_h",
+          "icons_h",
+          "lineage_h",
+          "default_h"
+        ],
+        "shape": "box+icon"
+      }
+    }
+  ],
+  "queries": [
+    {
+      "label": {
+        "": "Forward Lineage"
+      },
+      "queryType": "lineage",
+      "query": "OUT",
+      "qualifier": "forw"
+    },
+    {
+      "label": {
+        "": "Backward Lineage"
+      },
+      "queryType": "lineage",
+      "query": "IN",
+      "qualifier": "back"
+    },
+    {
+      "label": {
+        "": "End-to-end Lineage"
+      },
+      "queryType": "lineage",
+      "query": "BOTH",
+      "qualifier": "both"
+    }
+  ],
+  "semanticzoom": {
+    "20": 0,
+    "40": 1,
+    "60": 2,
+    "80": 3,
+    "101": 4,
+    "120": 5,
+    "999": 6
+  },
+  "initialzoom": {
+    "100": 100,
+    "400": 50,
+    "1000000": 25
+  }
+}

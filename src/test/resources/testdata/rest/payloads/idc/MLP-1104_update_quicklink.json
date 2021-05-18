@@ -1,0 +1,23 @@
+{
+  "id": "1",
+  "data": "File",
+  "advanced":"false",
+  "post": {
+    "selections": {
+      "dataType_t": [],
+      "schema_s": [],
+      "asg.modifiedBy_s": [],
+      "type_s": ["File"],
+      "asg.parentTypeNamePathHierarchy_ss": ["/user/test[Directory]"],
+      "asg.modifiedAt_dt": []
+    }
+
+  },
+  "name": "list of Files",
+  "description": "List of File in HDFS",
+  "widgets": [
+    "BigData"
+  ],
+  "value": "/search",
+  "area": "BigData"
+}

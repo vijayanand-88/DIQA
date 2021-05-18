@@ -1,0 +1,12 @@
+{
+
+  "Cat9": {
+    "label": {
+      "": "Cat9"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Cat9"
+    }
+  }
+}

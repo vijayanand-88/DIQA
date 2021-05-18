@@ -1,0 +1,15 @@
+{
+  "selections": {
+    "catalog_s": [
+      "REDSHIFTCATALOG"
+    ],
+    "asg.tagPathsHierarchy_ss": [],
+    "type_s": [],
+    "asg.parentTypeNamePathHierarchy_ss": [
+      "Cluster/redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com/Service/AmazonRedshift/Database/world/Schema/testschema"
+    ],
+    "asg.modifiedAt_dt": [],
+    "asg.modifiedBy_s": []
+  },
+  "sorting": []
+}

@@ -1,0 +1,52 @@
+{
+  "zOS_DB2_Creator": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Creator",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "zOS_DB2_Creator_Deletor_DS",
+    "credential": "Valid_CAE_Creator_Deletor_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_CREATOR_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Overwrite": true,
+    "DBUserPassword": "EP_DB2",
+    "pluginName": "CAECreateEntryPoint",
+    "DBUserName": "EP_DB2",
+    "type": "Other"
+  },
+  "zOS_DB2_Deletor": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "zOS_DB2_Deletor",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "zOS_DB2_Creator_Deletor_DS",
+    "credential": "Valid_CAE_Creator_Deletor_zOS_DB2_Cred",
+    "businessApplicationName": "zOS_DB2_DELETOR_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "CAEDeleteEntryPoint",
+    "DBUserName": "EP_DB2",
+    "type": "Other"
+  }
+}

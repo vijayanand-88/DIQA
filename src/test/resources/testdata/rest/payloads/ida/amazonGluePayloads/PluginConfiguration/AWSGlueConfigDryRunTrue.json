@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GlueCatalog1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagGlueDryRunTrue"],
+      "pluginType": "cataloger",
+      "dataSource": "AWSGlueValidDataSource",
+      "credential": "ValidGlueCredentials",
+	  "dryRun":true,
+      "filter": null,
+	   "pluginName": "AWSGlueCataloger",
+	   "businessApplicationName": null,
+       "type": "Cataloger",
+      "includeItems": {
+        "includeDatabases": [],
+        "includeJobs": []
+      }
+    }
+  ]
+}

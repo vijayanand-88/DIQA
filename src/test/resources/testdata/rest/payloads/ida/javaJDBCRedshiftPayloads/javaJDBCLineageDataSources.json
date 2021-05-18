@@ -1,0 +1,82 @@
+{
+  "gitCollectorDataSource": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollectorDataSourceJJR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollectorDataSourceJJR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "ValidGitCredentialsJJR",
+    "filter": null,
+    "url": "https://source-team.asg.com/scm/~becubic_build/javaspark_lineage.git"
+  },
+  "redshiftDBDataSource": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonRedshiftDataSourceJJR",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AmazonRedshiftDataSourceJJR"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "ValidRedshiftDBCredentialsJJR",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "AmazonRedshiftDataSource",
+    "driverBundleName": "com.amazon.redshift.jdbc.Driver",
+    "url": "jdbc:redshift://redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com:5439/world"
+  },
+  "gitCollectorDataSource_default": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollectorDataSource_TEST_DEFAULT_CONFIGURATION",
+    "pluginVersion": null,
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": null,
+    "dataSource": null,
+    "credential": null,
+    "filter": null,
+    "url": null
+  },
+  "redshiftDBDataSource_default": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonRedshiftDataSource_TEST_DEFAULT_CONFIGURATION",
+    "pluginVersion":null,
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": null,
+    "pluginType": null,
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": null,
+    "driverBundleName": null,
+    "url": null
+  }
+}

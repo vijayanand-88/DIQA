@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "datasource",
+      "nodeCondition": null,
+      "label": {
+        "": ""
+      },
+      "url": "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git",
+      "tags": [],
+      "catalogName": "Analysis",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "credential": "gitCredentials",
+      "name": "GitCollectorDataSource",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": null
+    }
+  ]
+}

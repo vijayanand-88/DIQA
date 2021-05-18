@@ -1,0 +1,478 @@
+{
+  "rochName" : "RBD_STAGE",
+  "sqlgName" : null,
+  "xmiName" : null,
+  "nsUri" : "http://www.asg.com/DataAnalyzer/1.0.0",
+  "objectDefs" : [  {
+    "rochName" : "RBD_DATASAMPLE",
+    "sqlgName" : "DataSample",
+    "xmiName" : "DataSample",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_SAMPLE",
+      "sqlgName" : "sample",
+      "xmiName" : "sample",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+   },{
+    "rochName" : "RBD_COLUMN",
+    "sqlgName" : "Column",
+    "xmiName" : "Column",
+    "propertyDefs" : [{
+      "sqlgName" : "minValue",
+      "xmiName" : "minValue",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "minLength",
+      "xmiName" : "minLength",
+      "valueType" : "INT",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "maxValue",
+      "xmiName" : "maxValue",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "maxLength",
+      "xmiName" : "maxLength",
+      "valueType" : "INT",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "notNullAmount",
+      "xmiName" : "notNullAmount",
+      "valueType" : "LONG",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "nullAmount",
+      "xmiName" : "nullAmount",
+      "valueType" : "LONG",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "notNullPercentage",
+      "xmiName" : "notNullPercentage",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "uniqueAmount",
+      "xmiName" : "uniqueAmount",
+      "valueType" : "LONG",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "uniquePercentage",
+      "xmiName" : "uniquePercentage",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "variance",
+      "xmiName" : "variance",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "standardDeviation",
+      "xmiName" : "standardDeviation",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "average",
+      "xmiName" : "average",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "median",
+      "xmiName" : "median",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "histogram",
+      "xmiName" : "histogram",
+      "valueType" : "JSON",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "topValues",
+      "xmiName" : "topValues",
+      "valueType" : "JSON",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "tags",
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }]
+  }, {
+    "rochName" : "RBD_CLUSTER",
+    "sqlgName" : "Cluster",
+    "xmiName" : "cluster",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_HAS_DBSYSTEMS",
+      "sqlgName" : "dbSystems",
+      "xmiName" : "dbSystem",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "DbSystem" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "RBD_HAS-DIRECTORIES",
+      "sqlgName" : "directories",
+      "xmiName" : "directory",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "Directory" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    } ]
+  }, {
+    "rochName" : "RBD_CONNECTION",
+    "sqlgName" : "DbSystem",
+    "xmiName" : "DbSystem",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_HAS-STORAGE",
+      "sqlgName" : "databases",
+      "xmiName" : "database",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "Database" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    },{
+      "sqlgName" : "tags",
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "RBD_DATABASE",
+    "sqlgName" : "Database",
+    "xmiName" : "Database",
+    "propertyDefs" : [  {
+      "rochName" : "RBD_HAS-STORAGE-UNIT",
+      "sqlgName" : "tables",
+      "xmiName" : "table",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "Table" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    },{
+      "sqlgName" : "tags",
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }]
+  }, {
+    "rochName" : "RBD_TABLE",
+    "sqlgName" : "Table",
+    "xmiName" : "Table",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_HAS-COLUMNS",
+      "sqlgName" : "columns",
+      "xmiName" : "column",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "Column" ],
+      "namespace" : true,
+      "qualified" : null,
+      "ordered" : false
+    },{
+      "rochName" : "RBD_HAS-DATASAMPLES",
+      "sqlgName" : "dataSamples",
+      "xmiName" : "dataSample",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "DataSample" ],
+      "namespace" : true,
+      "qualified" : null,
+      "ordered" : false
+    },{
+      "sqlgName" : "tags",
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "rowNumber",
+      "xmiName" : "rowNumber",
+      "valueType" : "LONG",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "notNullPercentage",
+      "xmiName" : "notNullPercentage",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }]
+  },{
+    "rochName" : "RBD_DIRECTORY",
+    "sqlgName" : "Directory",
+    "xmiName" : "Directory",
+    "propertyDefs" : [  {
+      "rochName" : "RBD_HAS-FILES",
+      "sqlgName" : "files",
+      "xmiName" : "file",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "File" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    },{
+      "sqlgName" : "tags",
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }]
+  }, {
+    "rochName" : "RBD_FILE",
+    "sqlgName" : "File",
+    "xmiName" : "File",
+    "propertyDefs" : [ {
+      "rochName" : "RBD_HAS-FIELDS",
+      "sqlgName" : "fields",
+      "xmiName" : "field",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "Field" ],
+      "namespace" : true,
+      "qualified" : null,
+      "ordered" : false
+    },{
+      "rochName" : "RBD_HAS-DATASAMPLES",
+      "sqlgName" : "dataSamples",
+      "xmiName" : "dataSample",
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "DataSample" ],
+      "namespace" : true,
+      "qualified" : null,
+      "ordered" : false
+    },{
+      "sqlgName" : "tags",
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "rowNumber",
+      "xmiName" : "rowNumber",
+      "valueType" : "LONG",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "notNullPercentage",
+      "xmiName" : "notNullPercentage",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }]
+  }, {
+    "rochName" : "RBD_FIELD",
+    "sqlgName" : "Field",
+    "xmiName" : "Field",
+    "propertyDefs" : [{
+      "sqlgName" : "dataType",
+      "xmiName" : "dataType",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "minValue",
+      "xmiName" : "minValue",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "minLength",
+      "xmiName" : "minLength",
+      "valueType" : "INT",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "maxValue",
+      "xmiName" : "maxValue",
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "maxLength",
+      "xmiName" : "maxLength",
+      "valueType" : "INT",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "notNullAmount",
+      "xmiName" : "notNullAmount",
+      "valueType" : "LONG",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "nullAmount",
+      "xmiName" : "nullAmount",
+      "valueType" : "LONG",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "notNullPercentage",
+      "xmiName" : "notNullPercentage",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "uniqueAmount",
+      "xmiName" : "uniqueAmount",
+      "valueType" : "LONG",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "uniquePercentage",
+      "xmiName" : "uniquePercentage",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "variance",
+      "xmiName" : "variance",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "standardDeviation",
+      "xmiName" : "standardDeviation",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "average",
+      "xmiName" : "average",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "median",
+      "xmiName" : "median",
+      "valueType" : "DOUBLE",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "histogram",
+      "xmiName" : "histogram",
+      "valueType" : "JSON",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "topValues",
+      "xmiName" : "topValues",
+      "valueType" : "JSON",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    },{
+      "sqlgName" : "tags",
+      "xmiName" : "tags",
+      "valueType" : "TAGS",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }]
+  }]
+}

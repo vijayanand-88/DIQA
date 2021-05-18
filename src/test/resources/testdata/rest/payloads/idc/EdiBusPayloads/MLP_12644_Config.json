@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "IDA types": [],
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "bulk",
+      "dryRun": false,
+      "nodeCondition": "name==\"InternalNode\"",
+      "label": {
+        "": ""
+      },
+      "type": "Bulk",
+      "commands and flags": {
+        "run in transaction": false,
+        "function": "replicate",
+        "batch size": 1000,
+        "incremental": false
+      },
+      "tags": [],
+      "IDA technologies": [],
+      "catalogName": "Default",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "EDI technologies": [],
+      "credential": "EDIBusValidCredentials",
+      "pluginName": "EDIBus",
+      "name": "EDILineage",
+      "EDI types": [
+        "DWR_TFM_SYSTEM",
+        "DWR_TFM_TASK",
+        "DWR_TFM_TRANSFORMATION",
+        "DWR_TFM_TRANSFORMATION_MAP",
+        "DWR_ANL_DIMENSION_MAP",
+        "DWR_ANL_DIMENSION",
+        "DWR_ANL_CUBE",
+        "DWR_ANL_RPT_MAP",
+        "STI_FIELD_LINK",
+        "DWR_ANL_RPT_PACKAGE",
+        "DWR_ANL_RPT_SCHEMA",
+        "DWR_ANL_OLAP_PACKAGE",
+        "DWR_ANL_OLAP_SCHEMA",
+        "DWR_ANL_RPT_STRUCTURE",
+        "STI_CONTAINER",
+        "STI_STRUCTURE_LINK"
+      ],
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "EDIBusLineageDataSource",
+      "businessApplicationName": null
+    }
+  ]
+}

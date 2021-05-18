@@ -1,0 +1,66 @@
+{
+  "LineageHop_1": {
+    "source": ["ADDRESS"],
+    "target": ["ADDRESS"]
+  },
+  "LineageHop_2": {
+    "source": ["AGE"],
+    "target": ["AGE"]
+  },
+  "LineageHop_3": {
+    "source": ["ID"],
+    "target": ["ID"]
+  },
+  "LineageHop_4": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  },
+  "LineageHop_5": {
+  "source": ["ADDRESS"],
+  "target": ["ADDRESS"]
+  },
+  "LineageHop_6": {
+    "source": ["AGE"],
+    "target": ["AGE"]
+  },
+  "LineageHop_7": {
+    "source": ["ID"],
+    "target": ["ID"]
+  },
+  "LineageHop_8": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  },
+  "LineageHop_9": {
+    "source": ["ADDRESS"],
+    "target": ["ADDRESS"]
+  },
+  "LineageHop_10": {
+    "source": ["AGE"],
+    "target": ["AGE"]
+  },
+  "LineageHop_11": {
+    "source": ["ID"],
+    "target": ["ID"]
+  },
+  "LineageHop_12": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  },
+  "LineageHop_13": {
+    "source": ["ADDRESS"],
+    "target": ["ADDRESS"]
+  },
+  "LineageHop_14": {
+    "source": ["AGE"],
+    "target": ["AGE"]
+  },
+  "LineageHop_15": {
+    "source": ["ID"],
+    "target": ["ID"]
+  },
+  "LineageHop_16": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerwithSchemaAndMultipleTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["Orc18cCDBCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "Oracle18cCDBDS",
+      "credential": "Oracle18cCDBCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

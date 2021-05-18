@@ -1,0 +1,56 @@
+{
+  "db2_creator": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "zOS_DB2_CREATOR_BA"
+    }
+  ],
+  "db2_collector": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "zOS_DB2_BA"
+    }
+  ],
+  "db2_feeder": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "zOS_DB2_FEEDER_BA"
+    }
+  ],
+  "db2_ddloader": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "zOS_DB2_LOADER_BA"
+    }
+  ],
+  "db2_lineage": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "zOS_DB2_LINEAGE_BA"
+    }
+  ],
+  "db2_deletor": [
+    {
+      "id": null,
+      "scopeId": null,
+      "scopeAttrName": null,
+      "type": "BusinessApplication",
+      "name": "zOS_DB2_DELETOR_BA"
+    }
+  ]
+}

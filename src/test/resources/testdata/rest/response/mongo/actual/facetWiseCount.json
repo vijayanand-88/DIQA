@@ -1,0 +1,192 @@
+{
+  "count" : 6,
+  "result" : [ {
+    "id" : "Default.Table:::4229",
+    "type" : "Table",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::4292",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::4294",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::4293",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Column:::4295",
+    "type" : "Column",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Constraint:::4296",
+    "type" : "Constraint",
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  } ],
+  "facetCounts" : {
+    "asg.tagPathsHierarchy_ss" : [ {
+      "count" : 6,
+      "value" : "BusinessApplication"
+    }, {
+      "count" : 6,
+      "value" : "BusinessApplication/MONGODB_BA"
+    }, {
+      "count" : 6,
+      "value" : "MongoDBCatalog"
+    }, {
+      "count" : 6,
+      "value" : "Technology"
+    }, {
+      "count" : 6,
+      "value" : "Technology/Enterprise Data"
+    }, {
+      "count" : 6,
+      "value" : "Technology/Enterprise Data/NoSQL Databases"
+    }, {
+      "count" : 6,
+      "value" : "Technology/Enterprise Data/NoSQL Databases/MongoDB"
+    } ],
+    "type_s" : [ {
+      "count" : 4,
+      "value" : "Column"
+    }, {
+      "count" : 1,
+      "value" : "Constraint"
+    }, {
+      "count" : 1,
+      "value" : "Table"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ {
+      "count" : 205,
+      "value" : "Cluster/10.33.6.130"
+    }, {
+      "count" : 203,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB"
+    }, {
+      "count" : 202,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB"
+    }, {
+      "count" : 25,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/allDataTypes"
+    }, {
+      "count" : 18,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/northwind"
+    }, {
+      "count" : 18,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/orders"
+    }, {
+      "count" : 16,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/suppliers"
+    }, {
+      "count" : 15,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/customers"
+    }, {
+      "count" : 13,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/products"
+    }, {
+      "count" : 11,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/categories"
+    }, {
+      "count" : 10,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/qainventory"
+    }, {
+      "count" : 8,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/orderdetails"
+    }, {
+      "count" : 7,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/QAJOIN3M"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/QAEMP1M"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/QAEMPM"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/QAJOIN1M"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/Table1"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/Table2"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/shippers"
+    }, {
+      "count" : 6,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/territories"
+    }, {
+      "count" : 5,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/QAJOIN2M"
+    }, {
+      "count" : 5,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/employeeterritories"
+    }, {
+      "count" : 5,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/regions"
+    }, {
+      "count" : 3,
+      "value" : "Cluster/10.33.6.130/Service/MONGODB/Database/SampleDB/Table/students"
+    } ],
+    "dataType_s" : [ {
+      "count" : 2,
+      "value" : "VARCHAR"
+    }, {
+      "count" : 1,
+      "value" : "INT"
+    }, {
+      "count" : 1,
+      "value" : "UUID"
+    } ],
+    "asg_modifiedat_dt" : [ {
+      "count" : 0,
+      "value" : "(*,NOW-1YEAR]",
+      "label" : "1 year and older"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1YEAR,NOW-6MONTH]",
+      "label" : "6 months up to 1 year"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-6MONTH,NOW-1MONTH]",
+      "label" : "1 month up to 6 months"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-1MONTH,NOW-7DAY]",
+      "label" : "1 week up to 1 month"
+    }, {
+      "count" : 0,
+      "value" : "(NOW-7DAY,NOW-1DAY]",
+      "label" : "1 day up to 1 week"
+    }, {
+      "count" : 6,
+      "value" : "(NOW-1DAY,NOW]",
+      "label" : "past 24 hours"
+    } ],
+    "asg_modifiedby_s" : [ {
+      "count" : 6,
+      "value" : "Service"
+    } ]
+  }
+}

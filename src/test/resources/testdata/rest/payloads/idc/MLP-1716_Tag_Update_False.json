@@ -1,0 +1,29 @@
+{
+  "name": null,
+  "definition": null,
+  "rootTags": [
+    {
+      "name": "Database",
+      "definition": " ",
+      "status": "SUGGESTED",
+      "subTags": [
+        {
+          "name": "northwind",
+          "definition": "",
+          "status": "APPROVED",
+          "subTags": [],
+          "root": true,
+          "facet": true
+        },
+        {
+          "name": "inventory_fact",
+          "definition": "",
+          "status": "APPROVED",
+          "subTags": [],
+          "root": true,
+          "facet": true
+        }
+      ]
+    }
+  ]
+}

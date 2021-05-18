@@ -1,0 +1,609 @@
+{
+  "OracleImport": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeOracleImport_PDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:53:50.228693",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T14:53:50.228707"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+      "dryRun": false,
+      "JavaMemory": "512m",
+      "pluginName": "OracleImport",
+      "type": "Rochade",
+      "LogLevel": "WARNING",
+      "ResetDependencyLinks": false
+    }
+  },
+  "OraclePostprocess": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OraclePostProcess_CDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:54:36.048247",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T14:54:36.048252"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/scanorac.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/json.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/SQL2XML.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/ds-utils.jar",
+      "dryRun": false,
+      "JavaMemory": "4096m",
+      "pluginName": "OraclePostprocess",
+      "LogSuspiciousSql": false,
+      "arguments": [],
+      "LogSuspiciousSqlPath": "",
+      "type": "Rochade",
+      "LogLevel": "CONFIG"
+    }
+  },
+  "OracleReconcile": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeOracleReconcile_PDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:55:19.836641",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T14:55:19.836657"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "RochadeDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/rrt.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar",
+      "dryRun": false,
+      "ReconcileCategory": "database",
+      "JavaMemory": "4096m",
+      "pluginName": "OracleReconcile",
+      "ThreadsUsed": "4",
+      "type": "Rochade",
+      "DatabaseSeedItem": "*"
+    }
+  },
+  "OracleScan": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RochadeOracleScan_PDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2021-01-09T15:28:59.293269",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2021-01-09T16:12:54.654219"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "rochade",
+      "dataSource": "Oracle19PDB",
+      "credential": "Oracle19Credentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${driver.path};${rochade.home}/scanoracle/${VersionPathName}/bin/scanorac.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/ScannerUtils.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/SQLPostProcess.jar;${rochade.home}/scanoracle/${VersionPathName}/bin/json.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "FilterSinceUpdate": true,
+      "type": "Rochade",
+      "LogLevel": "CONFIG",
+      "ExcludeFilter": [],
+      "SkipInaccessiblePDB": true,
+      "FilterType": "WILDCARD",
+      "FilterSince": "yyyy-MM-dd",
+      "ProcessPDBinCDB": true,
+      "JavaMemory": "2048m",
+      "pluginName": "OracleScan",
+      "pathSeparatorCharacter": "dot(.)",
+      "arguments": [],
+      "LimitToIncludeFilter": false,
+      "IncludeFilter": []
+    }
+  },
+
+  "OracleDBAnalyzer": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ROCHADE_ORACLE_PDB_ANLAYZER",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T20:30:41.517173",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T20:30:41.517178"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": []
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "OracleDBAnalyzer_multipleTables": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ROCHADE_ORACLE_PDB_ANLAYZER_MultipleTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T20:30:41.517173",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T20:30:41.517178"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_DIFFDATATYPES_VIEW"
+            },
+            {
+              "table": "ORACLE_DIFFDATATYPES"
+            },
+            {
+              "table": "ORACLE_DIFFDATATYPES_VIEW"
+            }
+          ]
+        },
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            },
+            {
+              "table": "ORACLE_TABLE"
+            }
+          ]
+        },
+        {
+          "schema": "C##ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        },
+        {
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "OracleDBAnalyzer_DatabasewithTables": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ROCHADE_ORACLE_PDB_ANLAYZER_DatabasewithTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T20:30:41.517173",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T20:30:41.517178"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "PDBDB19C.DIQ.QA.ASGINT.LOC",
+      "dryRun": false,
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_DIFFDATATYPES"
+            },
+            {
+              "table": "ORACLE_DIFFDATATYPES_VIEW"
+            }
+          ]
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "OracleDBAnalyzer_PolicyPattern": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ROCHADE_ORACLE_PDB_ANLAYZER_PolicyPatternTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T20:30:41.517173",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T20:30:41.517178"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "PDBDB19C.DIQ.QA.ASGINT.LOC",
+      "dryRun": false,
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "TEST_TAGGING",
+          "tables": []
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "OracleDBAnalyzer_DryRun": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ROCHADE_ORACLE_PDB_ANLAYZER_DryRun",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T20:30:41.517173",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T20:30:41.517178"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "PDBDB19C.DIQ.QA.ASGINT.LOC",
+      "dryRun": true,
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "C##ORACLE12C_SCHEMA2",
+          "tables": []
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "OracleDBAnalyzer_InvalidDatabase": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ROCHADE_ORACLE_PDB_ANLAYZER_InvalidDatabase",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T20:30:41.517173",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T20:30:41.517178"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "PDBDB19C.DIQ.QA.ASGINT.LOC12345",
+      "dryRun": false,
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "C##ORACLE12C_SCHEMA2",
+          "tables": []
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "OracleDBAnalyzer_InternalNode": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ROCHADE_ORACLE_PDB_ANLAYZER_InternalNode",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T20:30:41.517173",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T20:30:41.517178"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "PDBDB19C.DIQ.QA.ASGINT.LOC",
+      "dryRun": false,
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "TEST_TAGGING",
+          "tables": []
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "OracleDBAnalyzer_RochadeNode": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ROCHADE_ORACLE_PDB_ANLAYZER_RochadeNode",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T20:30:41.517173",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-19T20:30:41.517178"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "PDBDB19C.DIQ.QA.ASGINT.LOC",
+      "dryRun": false,
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+        {
+          "schema": "TEST_TAGGING",
+          "tables": []
+        }
+      ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  },
+  "EDIBus_Replicate": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusOracleReplicate_PDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:59:41.254737",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-20T04:03:42.746346"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusOracleDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        "ORACLE"
+      ],
+      "dryRun": false,
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "replicate",
+        "incremental": false
+      }
+    }
+  },
+  "EDIBus_Cleanup": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusOracleCleanup_PDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-11-19T14:59:41.254737",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-11-20T04:03:42.746346"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusOracleDS",
+      "credential": "RochadeCredentials",
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        "ORACLE"
+      ],
+      "dryRun": false,
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "cleanup",
+        "incremental": false
+      }
+    }
+  }
+}

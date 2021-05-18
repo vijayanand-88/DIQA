@@ -1,0 +1,99 @@
+{
+  "AWSGlueCataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "GlueLinkerCataloger",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [
+          "SC1GlueLinkerCataloger"
+        ],
+        "pluginType": "cataloger",
+        "dataSource": "AWSGlueDataSource",
+        "credential": "ValidGlueLinkerCredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AWSGlueCataloger",
+        "type": "Cataloger",
+        "includeItems": {
+          "includeJobs": [],
+          "includeDatabases": [
+            "qagluelinkerdatabase"
+          ]
+        }
+      }
+    ]
+  },
+  "RedshiftGlueCataloger": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RedShiftGlueCataloger",
+        "pluginVersion": "LATEST",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "cataloger",
+        "dataSource": "RedshiftGlueDataSource",
+        "credential": "ValidRedshiftGlueCredentials",
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AmazonRedshiftCataloger",
+        "schemas": [
+          {
+            "schema": "schematest",
+            "mode": "INCLUDE",
+            "tables": [
+              {
+                "table": "customers"
+              }
+            ]
+          }
+        ],
+        "incremental": false,
+        "type": "Cataloger",
+        "properties": []
+      }
+    ]
+  },
+  "AWSGlueLinker": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "GlueLinker",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"LocalNode\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "linker",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null,
+        "pluginName": "AWSGlueLinker",
+        "type": "Linker",
+        "region": "us-east-1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "start": {
+            "lineNumber": 8,
+            "position": 9
+        },
+        "staticVar": "myClassVariable=0"
+    }
+]

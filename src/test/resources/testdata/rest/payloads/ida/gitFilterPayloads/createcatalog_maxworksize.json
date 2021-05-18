@@ -1,0 +1,10 @@
+{
+  "LCLSplit1": {
+    "label": {
+      "": "LCLSplit1",
+      "en":"LCLSplit1"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea"
+
+  }
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "name": "PostgressDBPII",
+    "definition": "PII Classification",
+    "status": "APPROVED",
+    "type": "PostgressDBPII Tag",
+    "userAssignable": true,
+    "subTags": [
+      
+      {
+        "name": "Email Address",
+        "parentTagName": "PostgressDBPII",
+        "definition": "",
+        "status": "APPROVED",
+        "type": "PostgressDBPII Tag",
+        "userAssignable": true,
+        "subTags": [],
+        "isExpand": false,
+        "isRoot": false,
+        "catalog": null,
+        "asg_createdby": "TestSystem",
+        "asg_modifiedby": "TestSystem"
+      },
+      {
+        "name": "Full Name",
+        "parentTagName": "PostgressDBPII",
+        "definition": "",
+        "status": "APPROVED",
+        "type": "PostgressDBPII Tag",
+        "userAssignable": true,
+        "subTags": [],
+        "isExpand": false,
+        "isRoot": false,
+        "catalog": null,
+        "asg_createdby": "TestSystem",
+        "asg_modifiedby": "TestSystem"
+      },
+      {
+        "name": "Gender",
+        "parentTagName": "PostgressDBPII",
+        "definition": "",
+        "status": "APPROVED",
+        "type": "PostgressDBPII Tag",
+        "userAssignable": true,
+        "subTags": [],
+        "isExpand": false,
+        "isRoot": false,
+        "catalog": "Default",
+        "asg_createdby": "TestSystem",
+        "asg_modifiedby": "TestSystem"
+      },
+      {
+        "name": "IP Address",
+        "parentTagName": "PostgressDBPII",
+        "definition": "",
+        "status": "APPROVED",
+        "type": "PostgressDBPII Tag",
+        "userAssignable": true,
+        "subTags": [],
+        "isExpand": false,
+        "isRoot": false,
+        "catalog": null,
+        "asg_createdby": "TestSystem",
+        "asg_modifiedby": "TestSystem"
+      },
+      {
+        "name": "SSN",
+        "parentTagName": "PostgressDBPII",
+        "definition": "",
+        "status": "APPROVED",
+        "type": "PostgressDBPII Tag",
+        "userAssignable": true,
+        "subTags": [],
+        "isExpand": false,
+        "isRoot": false,
+        "catalog": null,
+        "asg_createdby": "TestSystem",
+        "asg_modifiedby": "TestSystem"
+      },
+      {
+        "name": "Fullmatch PII",
+        "parentTagName": "PostgressDBPII",
+        "definition": "",
+        "status": "APPROVED",
+        "type": "PostgressDBPII Tag",
+        "userAssignable": true,
+        "subTags": [],
+        "isExpand": false,
+        "isRoot": false,
+        "catalog": null,
+        "asg_createdby": "TestSystem",
+        "asg_modifiedby": "TestSystem"
+      },
+	  {
+        "name": "Fullmatch PII1",
+        "parentTagName": "PostgressDBPII",
+        "definition": "",
+        "status": "APPROVED",
+        "type": "PostgressDBPII Tag",
+        "userAssignable": true,
+        "subTags": [],
+        "isExpand": false,
+        "isRoot": false,
+        "catalog": null,
+        "asg_createdby": "TestSystem",
+        "asg_modifiedby": "TestSystem"
+      }
+    ],
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

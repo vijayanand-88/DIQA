@@ -1,0 +1,243 @@
+{
+  "id" : "ASG.DI.DataAnalysisTable",
+  "name" : "DataAnalysisTable",
+  "displayName" : "Data Analysis Table",
+  "description" : "Rules for data pattern analysis",
+  "input" : [ {
+    "itemDefinitionId" : "ASG.DI.DIAnalysis",
+    "inputExpression" : {
+      "text" : "DIAnalysis",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    },
+    "inputValues" : null,
+    "parentId" : "ASG.DI.DIAnalysis",
+    "typeRef" : "DIAnalysis",
+    "groupLabel" : "DIAnalysis",
+    "groupDescription" : "The data analysis information",
+    "explicit" : false,
+    "allowedAttributes" : [ {
+      "links" : null,
+      "namespace" : null,
+      "id" : "ASG.DI.DIAnalysis.plugin",
+      "name" : "plugin",
+      "displayName" : "Plugin",
+      "description" : "Plugin name",
+      "typeLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "isCollection" : false,
+      "typeRef" : "string",
+      "allowedValues" : null,
+      "domainReference" : null,
+      "itemComponent" : [ ]
+    }, {
+      "links" : null,
+      "namespace" : null,
+      "id" : "ASG.DI.DIAnalysis.dataType",
+      "name" : "dataType",
+      "displayName" : "Data Type",
+      "description" : "Data Type",
+      "typeLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "isCollection" : false,
+      "typeRef" : "string",
+      "allowedValues" : {
+        "text" : "STRUCTURED,UNSTRUCTURED",
+        "domainName" : null
+      },
+      "domainReference" : null,
+      "itemComponent" : [ ]
+    }, {
+      "links" : null,
+      "namespace" : null,
+      "id" : "ASG.DI.DIAnalysis.technologies",
+      "name" : "technologies",
+      "displayName" : "Technologies",
+      "description" : "The technologies describing the data being analyzed",
+      "typeLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "isCollection" : true,
+      "typeRef" : "string",
+      "allowedValues" : null,
+      "domainReference" : null,
+      "itemComponent" : [ ]
+    } ]
+  } ],
+  "output" : [ {
+    "itemDefinitionId" : "ASG.DI.DataAnalysis.dataPattern",
+    "outputValues" : null,
+    "defaultOutputEntry" : {
+      "text" : null,
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    },
+    "name" : "dataPattern",
+    "groupLabel" : "DataAnalysis",
+    "groupDescription" : "The data pattern analysis rules",
+    "typeRef" : "string",
+    "parentId" : "ASG.DI.DataAnalysis",
+    "explicit" : true,
+    "allowedAttributes" : [ ]
+  }, {
+    "itemDefinitionId" : "ASG.DI.DataAnalysis.tags",
+    "outputValues" : null,
+    "defaultOutputEntry" : {
+      "text" : null,
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    },
+    "name" : "tags",
+    "groupLabel" : "DataAnalysis",
+    "groupDescription" : "The data pattern analysis rules",
+    "typeRef" : "string",
+    "parentId" : "ASG.DI.DataAnalysis",
+    "explicit" : true,
+    "allowedAttributes" : [ ]
+  }, {
+    "itemDefinitionId" : "ASG.DI.DataAnalysis.matchFull",
+    "outputValues" : null,
+    "defaultOutputEntry" : {
+      "text" : "false",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    },
+    "name" : "matchFull",
+    "groupLabel" : "DataAnalysis",
+    "groupDescription" : "The data pattern analysis rules",
+    "typeRef" : "boolean",
+    "parentId" : "ASG.DI.DataAnalysis",
+    "explicit" : true,
+    "allowedAttributes" : [ ]
+  }, {
+    "itemDefinitionId" : "ASG.DI.DataAnalysis.namePattern",
+    "outputValues" : null,
+    "defaultOutputEntry" : {
+      "text" : "",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    },
+    "name" : "namePattern",
+    "groupLabel" : "DataAnalysis",
+    "groupDescription" : "The data pattern analysis rules",
+    "typeRef" : "string",
+    "parentId" : "ASG.DI.DataAnalysis",
+    "explicit" : true,
+    "allowedAttributes" : [ ]
+  }, {
+    "itemDefinitionId" : "ASG.DI.DataAnalysis.typePattern",
+    "outputValues" : null,
+    "defaultOutputEntry" : {
+      "text" : "",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    },
+    "name" : "typePattern",
+    "groupLabel" : "DataAnalysis",
+    "groupDescription" : "The data pattern analysis rules",
+    "typeRef" : "string",
+    "parentId" : "ASG.DI.DataAnalysis",
+    "explicit" : true,
+    "allowedAttributes" : [ ]
+  }, {
+    "itemDefinitionId" : "ASG.DI.DataAnalysis.matchEmpty",
+    "outputValues" : null,
+    "defaultOutputEntry" : {
+      "text" : "false",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    },
+    "name" : "matchEmpty",
+    "groupLabel" : "DataAnalysis",
+    "groupDescription" : "The data pattern analysis rules",
+    "typeRef" : "boolean",
+    "parentId" : "ASG.DI.DataAnalysis",
+    "explicit" : true,
+    "allowedAttributes" : [ ]
+  }, {
+    "itemDefinitionId" : "ASG.DI.DataAnalysis.minimumRatio",
+    "outputValues" : null,
+    "defaultOutputEntry" : {
+      "text" : "1.0",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    },
+    "name" : "minimumRatio",
+    "groupLabel" : "DataAnalysis",
+    "groupDescription" : "The data pattern analysis rules",
+    "typeRef" : "number",
+    "parentId" : "ASG.DI.DataAnalysis",
+    "explicit" : true,
+    "allowedAttributes" : [ ]
+  } ],
+  "rules" : [ {
+    "comments" : "Default PII patterns",
+    "inputEntry" : [ {
+      "text" : "DIAnalysis[  true ]",
+      "domainName" : "DIAnalysis"
+    } ],
+    "outputEntry" : [ {
+      "text" : "\"55555\"",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "\"Anonymized\"",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "true",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "\".*post.*\"",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "true",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "1.0",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    } ]
+  }, {
+    "comments" : "Default PII patterns",
+    "inputEntry" : [ {
+      "text" : "DIAnalysis[  true ]",
+      "domainName" : "DIAnalysis"
+    } ],
+    "outputEntry" : [ {
+      "text" : "\"-555-\"",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "\"Anonymized\"",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "false",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "\"((.*phone.*)|(.*fax.*))\"",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "true",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    }, {
+      "text" : "1.0",
+      "expressionLanguage" : "http://www.omg.org/spec/DMN/20180521/FEEL/",
+      "attributeName" : null
+    } ]
+  } ],
+  "hitPolicy" : "COLLECT",
+  "preferredOrientation" : "RULE_AS_ROW",
+  "outputLabel" : null
+}

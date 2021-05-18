@@ -1,0 +1,925 @@
+{
+  "DDLoader_Scenarios": {
+    "SC": {
+      "Analysis": {
+        "Description": {
+          "Number of processed items": "828",
+          "Number of errors": "0"
+        },
+        "Processed Items": "828"
+      },
+      "Data Element Count": 828
+    },
+    "SC17": {
+      "Analysis": {
+        "Description": {
+          "Number of processed items": "2096",
+          "Number of errors": "0"
+        },
+        "Processed Items": "2096"
+      }
+    },
+    "SC13": {
+      "Table": {
+        "Description": {
+          "Data type": "INTEGER"
+        },
+        "Statistics": {
+          "Length": "10"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      }
+    },
+    "SC14": {
+      "userdefinedtypedomaintable": {
+        "Description": {
+          "Data type": "DISTINCT"
+        },
+        "Statistics": {
+          "Length": "2147483647"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      },
+      "bug": {
+        "Description": {
+          "Data type": "UDT"
+        },
+        "Statistics": {
+          "Length": "2147483647"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      }
+    },
+    "SC16": {
+      "SCHOOL": {
+        "pkey1": {
+          "constraint": {
+            "Constraint Type": "PRIMARY_KEY"
+          }
+        },
+        "fkey1": {
+          "constraint": {
+            "Constraint Type": "FOREIGN_KEY"
+          }
+        }
+      },
+      "employee": {
+        "ukey": {
+          "constraint": {
+            "Constraint Type": "UNIQUE"
+          }
+        }
+      },
+      "table_primary": {
+        "postgres_testindex": {
+          "constraint": {
+            "Constraint Type": "INDEX"
+          }
+        }
+      }
+    },
+    "SC20": {
+      "Analysis": {
+        "Description": {
+          "Number of processed items": "897"
+        },
+        "Processed_Items": [
+          "dechewindock01v.asg.com",
+          "postgres"
+        ]
+      }
+    },
+    "SC22": {
+      "DiffDataTypesMinimizedView": {
+        "Description": {
+          "Table Type": "VIEW",
+          "Created by": "postgres"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      },
+      "customerviewwithjoin": {
+        "Description": {
+          "Table Type": "VIEW",
+          "Created by": "postgres"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      },
+      "updatablecityview": {
+        "Description": {
+          "Table Type": "VIEW",
+          "Created by": "postgres"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      },
+      "cityviewwithcheckoption": {
+        "Description": {
+          "Table Type": "VIEW",
+          "Created by": "postgres"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      },
+      "childcityview": {
+        "Description": {
+          "Table Type": "VIEW",
+          "Created by": "postgres"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      },
+      "childcityviewwithlocal": {
+        "Description": {
+          "Table Type": "VIEW",
+          "Created by": "postgres"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      },
+      "materializedviewwithdata": {
+        "Description": {
+          "Table Type": "MATERIALIZED",
+          "Created by": "postgres"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      },
+      "managertreerecursive": {
+        "Description": {
+          "Table Type": "VIEW",
+          "Created by": "postgres"
+        },
+        "Lifecycle": [
+          "Last catalogued at"
+        ]
+      }
+    },
+    "SC23": {
+      "DiffDataTypesMinimizedView": {
+        "Data": {
+          "Data": "Q1JFQVRFIFZJRVcgcG9zdGdyZXNzdGVzdHNjaGVtYS5EaWZmRGF0YVR5cGVzTWluaW1pemVkVmlldyBBUyAgU0VMRUNUICJEaWZmRGF0YVR5cGVzTWluaW1pemVkIi5iaWdpbnR0eXBlLAogICAgIkRpZmZEYXRhVHlwZXNNaW5pbWl6ZWQiLmJvb2xlYW50eXBlLAogICAgIkRpZmZEYXRhVHlwZXNNaW5pbWl6ZWQiLmNoYXJhY3RlcnR5cGUsCiAgICAiRGlmZkRhdGFUeXBlc01pbmltaXplZCIudmFyY2hhcnR5cGUsCiAgICAiRGlmZkRhdGFUeXBlc01pbmltaXplZCIuZGF0ZXR5cGUsCiAgICAiRGlmZkRhdGFUeXBlc01pbmltaXplZCIuZmxvYXR0eXBlLAogICAgIkRpZmZEYXRhVHlwZXNNaW5pbWl6ZWQiLmludGVnZXJ0eXBlLAogICAgIkRpZmZEYXRhVHlwZXNNaW5pbWl6ZWQiLm51bWVyaWN0eXBlLAogICAgIkRpZmZEYXRhVHlwZXNNaW5pbWl6ZWQiLnJlYWx0eXBlLAogICAgIkRpZmZEYXRhVHlwZXNNaW5pbWl6ZWQiLnNtYWxsaW50dHlwZSwKICAgICJEaWZmRGF0YVR5cGVzTWluaW1pemVkIi50ZXh0dHlwZSwKICAgICJEaWZmRGF0YVR5cGVzTWluaW1pemVkIi50aW1ldHlwZSwKICAgICJEaWZmRGF0YVR5cGVzTWluaW1pemVkIi50aW1ldHp0eXBlLAogICAgIkRpZmZEYXRhVHlwZXNNaW5pbWl6ZWQiLnRpbWVzdGFtcHR5cGUsCiAgICAiRGlmZkRhdGFUeXBlc01pbmltaXplZCIudGltZXN0YW1wdHp0eXBlCiAgIEZST00gcG9zdGdyZXNzdGVzdHNjaGVtYS4iRGlmZkRhdGFUeXBlc01pbmltaXplZCI7"
+        },
+        "SQLSource": [
+          "DiffDataTypesMinimizedView"
+        ]
+      },
+      "customerviewwithjoin": {
+        "Data": {
+          "Data": "Q1JFQVRFIFZJRVcgcG9zdGdyZXNzdGVzdHNjaGVtYS5jdXN0b21lcnZpZXd3aXRoam9pbiBBUyAgU0VMRUNUIGN1LmN1c3RvbWVyaWQgQVMgaWQsCiAgICAoKChjdS5maXJzdG5hbWUpOjp0ZXh0IHx8ICcgJzo6dGV4dCkgfHwgKGN1Lmxhc3RuYW1lKTo6dGV4dCkgQVMgbmFtZSwKICAgIGEuYWRkcmVzcywKICAgIGEucG9zdGFsY29kZSBBUyAiemlwIGNvZGUiLAogICAgYS5waG9uZSwKICAgIGNpdHkuY2l0eSwKICAgIGNvdW50cnkuY291bnRyeSwKICAgIGN1LmFkZHJlc3NpZCBBUyBzaWQKICAgRlJPTSAoKChwb3N0Z3Jlc3N0ZXN0c2NoZW1hLmN1c3RvbWVyIGN1CiAgICAgSk9JTiBwb3N0Z3Jlc3N0ZXN0c2NoZW1hLmFkZHJlc3MgYSBVU0lORyAoYWRkcmVzc2lkKSkKICAgICBKT0lOIHBvc3RncmVzc3Rlc3RzY2hlbWEuY2l0eSBVU0lORyAoY2l0eWlkKSkKICAgICBKT0lOIHBvc3RncmVzc3Rlc3RzY2hlbWEuY291bnRyeSBVU0lORyAoY291bnRyeWlkKSk7"
+        },
+        "SQLSource": [
+          "customerviewwithjoin"
+        ]
+      },
+      "updatablecityview": {
+        "Data": {
+          "Data": "Q1JFQVRFIFZJRVcgcG9zdGdyZXNzdGVzdHNjaGVtYS51cGRhdGFibGVjaXR5dmlldyBBUyAgU0VMRUNUIGNpdHkuY2l0eSwKICAgIGNpdHkuY291bnRyeWlkCiAgIEZST00gcG9zdGdyZXNzdGVzdHNjaGVtYS5jaXR5CiAgV0hFUkUgKChjaXR5LmNpdHlpZCk6OnRleHQgPSAnMTAwJzo6dGV4dCk7"
+        },
+        "SQLSource": [
+          "updatablecityview"
+        ]
+      },
+      "cityviewwithcheckoption": {
+        "Data": {
+          "Data": "Q1JFQVRFIFZJRVcgcG9zdGdyZXNzdGVzdHNjaGVtYS5jaXR5dmlld3dpdGhjaGVja29wdGlvbiBBUyAgU0VMRUNUIGNpdHkuY2l0eWlkLAogICAgY2l0eS5jaXR5LAogICAgY2l0eS5jb3VudHJ5aWQKICAgRlJPTSBwb3N0Z3Jlc3N0ZXN0c2NoZW1hLmNpdHkKICBXSEVSRSAoKGNpdHkuY2l0eWlkKTo6dGV4dCA9ICcyMDAnOjp0ZXh0KQogIE9SREVSIEJZIGNpdHkuY2l0eTs="
+        },
+        "SQLSource": [
+          "cityviewwithcheckoption"
+        ]
+      },
+      "childcityview": {
+        "Data": {
+          "Data": "Q1JFQVRFIFZJRVcgcG9zdGdyZXNzdGVzdHNjaGVtYS5jaGlsZGNpdHl2aWV3IEFTICBTRUxFQ1QgYmFzZWNpdHl2aWV3LmNpdHlpZCwKICAgIGJhc2VjaXR5dmlldy5jaXR5LAogICAgYmFzZWNpdHl2aWV3LmNvdW50cnlpZAogICBGUk9NIHBvc3RncmVzc3Rlc3RzY2hlbWEuYmFzZWNpdHl2aWV3CiAgV0hFUkUgKChiYXNlY2l0eXZpZXcuY291bnRyeWlkKTo6dGV4dCA9ICdjb3VudHJ5NSc6OnRleHQpOw=="
+        },
+        "SQLSource": [
+          "childcityview"
+        ]
+      },
+      "childcityviewwithlocal": {
+        "Data": {
+          "Data": "Q1JFQVRFIFZJRVcgcG9zdGdyZXNzdGVzdHNjaGVtYS5jaGlsZGNpdHl2aWV3d2l0aGxvY2FsIEFTICBTRUxFQ1QgYmFzZWNpdHl2aWV3LmNpdHlpZCwKICAgIGJhc2VjaXR5dmlldy5jaXR5LAogICAgYmFzZWNpdHl2aWV3LmNvdW50cnlpZAogICBGUk9NIHBvc3RncmVzc3Rlc3RzY2hlbWEuYmFzZWNpdHl2aWV3CiAgV0hFUkUgKChiYXNlY2l0eXZpZXcuY291bnRyeWlkKTo6dGV4dCA9ICdjb3VudHJ5NCc6OnRleHQpOw=="
+        },
+        "SQLSource": [
+          "childcityviewwithlocal"
+        ]
+      },
+      "materializedviewwithdata": {
+        "Data": {
+          "Data": "Q1JFQVRFIE1BVEVSSUFMSVpFRCBWSUVXIHBvc3RncmVzc3Rlc3RzY2hlbWEubWF0ZXJpYWxpemVkdmlld3dpdGhkYXRhIEFTICBTRUxFQ1QgcDEucHJvZHVjdG5hbWUsCiAgICBzdW0ocDIucGVyY2VudGFnZSkgQVMgcGVyY2VudGFnZSwKICAgIHN1bShwMS5wcm9kdWN0aWQpIEFTIHByb2R1Y3RpZAogICBGUk9NICgocG9zdGdyZXNzdGVzdHNjaGVtYS5wcm9kdWN0IHAxCiAgICAgSk9JTiBwb3N0Z3Jlc3N0ZXN0c2NoZW1hLnNhbGVzIHMxIE9OICgocDEucHJvZHVjdGlkID0gczEucHJvZHVjdGlkKSkpCiAgICAgSk9JTiBwb3N0Z3Jlc3N0ZXN0c2NoZW1hLnByb2ZpdCBwMiBPTiAoKHAxLnByb2R1Y3RpZCA9IHAyLnByb2R1Y3RpZCkpKQogIEdST1VQIEJZIHAxLnByb2R1Y3RuYW1lCiAgT1JERVIgQlkgKHN1bShwMi5wZXJjZW50YWdlKSkgREVTQzs="
+        },
+        "SQLSource": [
+          "materializedviewwithdata"
+        ]
+      },
+      "managertreerecursive": {
+        "Data": {
+          "Data": "Q1JFQVRFIFZJRVcgcG9zdGdyZXNzdGVzdHNjaGVtYS5tYW5hZ2VydHJlZXJlY3Vyc2l2ZSBBUyAgV0lUSCBSRUNVUlNJVkUgbWFuYWdlcnRyZWVyZWN1cnNpdmUoaWQsIG5hbWUpIEFTICgKICAgICAgICAgU0VMRUNUIGVtcGxveWVlcy5pZCwKICAgICAgICAgICAgZW1wbG95ZWVzLm5hbWUsCiAgICAgICAgICAgIGVtcGxveWVlcy5tYW5hZ2VyX2lkCiAgICAgICAgICAgRlJPTSBlbXBsb3llZXMKICAgICAgICAgIFdIRVJFIChlbXBsb3llZXMuaWQgPSAyKQogICAgICAgIFVOSU9OIEFMTAogICAgICAgICBTRUxFQ1QgZS5pZCwKICAgICAgICAgICAgZS5uYW1lLAogICAgICAgICAgICBlLm1hbmFnZXJfaWQKICAgICAgICAgICBGUk9NIChlbXBsb3llZXMgZQogICAgICAgICAgICAgSk9JTiBtYW5hZ2VydHJlZXJlY3Vyc2l2ZSBtdHJlZSBPTiAoKG10cmVlLmlkID0gZS5tYW5hZ2VyX2lkKSkpCiAgICAgICAgKQogU0VMRUNUIG1hbmFnZXJ0cmVlcmVjdXJzaXZlLmlkLAogICAgbWFuYWdlcnRyZWVyZWN1cnNpdmUubmFtZSwKICAgIG1hbmFnZXJ0cmVlcmVjdXJzaXZlLm1hbmFnZXJfaWQKICAgRlJPTSBtYW5hZ2VydHJlZXJlY3Vyc2l2ZTs="
+        },
+        "SQLSource": [
+          "managertreerecursive"
+        ]
+      }
+    },
+    "SC29": {
+      "postgres_database": {
+        "postgresstestschema": {
+          "Tables": [
+            "employee",
+            "childcityview"
+          ]
+        },
+        "postgresslineage": {
+          "Tables": [
+            "employee",
+            "childcityview"
+          ]
+        },
+        "Schemas": [
+          "public",
+          "postgresstestschema"
+        ]
+      }
+    },
+    "SC30": {
+      "postgres_database": {
+        "postgresstestschema": {
+          "Tables": [
+            "employee",
+            "childcityview"
+          ]
+        },
+        "postgresslineage": {
+          "Tables": [
+            "employee",
+            "childcityview"
+          ]
+        },
+        "Schemas": [
+          "public",
+          "postgresstestschema"
+        ]
+      }
+    },
+    "SC31": {
+      "Analysis": {
+        "Description": {
+          "Number of processed items": "0",
+          "Number of errors": "0"
+        },
+        "Widgets": [
+          "Processed Items"
+        ]
+      }
+    },
+    "SC35": {
+      "Analysis": {
+        "Description": {
+          "Number of processed items": "0",
+          "Number of errors": "0"
+        },
+        "Widgets": [
+          "Processed Items"
+        ]
+      }
+    }
+  },
+  "Analyzer_Scenarios": {
+    "DiffDataTypesMinimizedView": {
+      "Columns": {
+        "varchartype": {
+          "Statistics": {
+            "Length": "30",
+            "Maximum value": "test",
+            "Minimum length": "4",
+            "Minimum value": "data types1",
+            "Maximum length": "11",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "VARCHAR"
+          }
+        },
+        "biginttype": {
+          "Statistics": {
+            "Average": "3000",
+            "Length": "19",
+            "Maximum value": "5000",
+            "Median": "3000",
+            "Minimum value": "1000",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "1581.14",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "2500000"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "BIGINT"
+          }
+        },
+        "integertype": {
+          "Statistics": {
+            "Average": "45767",
+            "Length": "10",
+            "Maximum value": "86567",
+            "Median": "44567",
+            "Minimum value": "16567",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "25713.81",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "661200000"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "INTEGER"
+          }
+        },
+        "floattype": {
+          "Statistics": {
+            "Average": 35.50,
+            "Length": "17",
+            "Maximum value": "63.5",
+            "Median": 33.50,
+            "Minimum value": "13.5",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "19.24",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "370"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "DOUBLE"
+          }
+        },
+        "numerictype": {
+          "Statistics": {
+            "Average": 56.50,
+            "Length": "5",
+            "Maximum value": "84.5",
+            "Median": 54.50,
+            "Minimum value": 34.50,
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "19.24",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "370"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "NUMERIC"
+          }
+        },
+        "smallinttype": {
+          "Statistics": {
+            "Average": 409,
+            "Length": "5",
+            "Maximum value": "865",
+            "Median": "335",
+            "Minimum value": "235",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "261.02",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "68130"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "SMALLINT"
+          },
+          "HistoricValues": [
+            "Most frequent values"
+          ],
+          "Graph": [
+            "Data Distribution"
+          ]
+        },
+        "datetype": {
+          "Statistics": {
+            "Length": "13",
+            "Maximum value": "2001-02-11",
+            "Minimum value": "1990-12-03",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "DATE"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        },
+        "timetype": {
+          "Statistics": {
+            "Length": "15",
+            "Maximum value": "22:10:10",
+            "Minimum value": "05:19:20",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "TIME"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        },
+        "timetztype": {
+          "Statistics": {
+            "Length": "21",
+            "Maximum value": "19:10:25-07",
+            "Minimum value": "16:15:15-07",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "2",
+            "Percentage of unique values": "40"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "TIME"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        },
+        "timestamptype": {
+          "Statistics": {
+            "Length": "29",
+            "Maximum value": "2016-06-22 19:10:25",
+            "Minimum value": "1990-06-12 19:10:25",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "TIMESTAMP"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        },
+        "timestamptztype": {
+          "Statistics": {
+            "Length": "35",
+            "Maximum value": "2016-06-23 02:10:25+00",
+            "Minimum value": "1977-02-13 19:09:23+00",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "TIMESTAMP"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        }
+      }
+    },
+    "DiffDataTypesMinimized": {
+      "Columns": {
+        "varchartype": {
+          "Statistics": {
+            "Length": "30",
+            "Maximum value": "test",
+            "Minimum length": "4",
+            "Minimum value": "data types1",
+            "Maximum length": "11",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "VARCHAR"
+          }
+        },
+        "biginttype": {
+          "Statistics": {
+            "Average": "3000",
+            "Length": "19",
+            "Maximum value": "5000",
+            "Median": "3000",
+            "Minimum value": "1000",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "1581.14",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "2500000"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "BIGINT"
+          }
+        },
+        "integertype": {
+          "Statistics": {
+            "Average": "45767",
+            "Length": "10",
+            "Maximum value": "86567",
+            "Median": "44567",
+            "Minimum value": "16567",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "25713.81",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "661200000"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "INTEGER"
+          }
+        },
+        "floattype": {
+          "Statistics": {
+            "Average": 35.50,
+            "Length": "17",
+            "Maximum value": "63.5",
+            "Median": 33.50,
+            "Minimum value": "13.5",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "19.24",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "370"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "DOUBLE"
+          }
+        },
+        "numerictype": {
+          "Statistics": {
+            "Average": 56.50,
+            "Length": "5",
+            "Maximum value": "84.5",
+            "Median": 54.50,
+            "Minimum value": 34.50,
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "19.24",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "370"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "NUMERIC"
+          }
+        },
+        "smallinttype": {
+          "Statistics": {
+            "Average": 409,
+            "Length": "5",
+            "Maximum value": "865",
+            "Median": "335",
+            "Minimum value": "235",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Standard deviation": "261.02",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100",
+            "Variance": "68130"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "SMALLINT"
+          },
+          "HistoricValues": [
+            "Most frequent values"
+          ],
+          "Graph": [
+            "Data Distribution"
+          ]
+        },
+        "datetype": {
+          "Statistics": {
+            "Length": "13",
+            "Maximum value": "2001-02-11",
+            "Minimum value": "1990-12-03",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "DATE"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        },
+        "timetype": {
+          "Statistics": {
+            "Length": "15",
+            "Maximum value": "22:10:10",
+            "Minimum value": "05:19:20",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "TIME"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        },
+        "timetztype": {
+          "Statistics": {
+            "Length": "21",
+            "Maximum value": "19:10:25-07",
+            "Minimum value": "16:15:15-07",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "2",
+            "Percentage of unique values": "40"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "TIME"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        },
+        "timestamptype": {
+          "Statistics": {
+            "Length": "29",
+            "Maximum value": "2016-06-22 19:10:25",
+            "Minimum value": "1990-06-12 19:10:25",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "TIMESTAMP"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        },
+        "timestamptztype": {
+          "Statistics": {
+            "Length": "35",
+            "Maximum value": "2016-06-23 02:10:25+00",
+            "Minimum value": "1977-02-13 19:09:23+00",
+            "Number of non null values": "5",
+            "Percentage of non null values": "100",
+            "Number of null values": "0",
+            "Number of unique values": "5",
+            "Percentage of unique values": "100"
+          },
+          "Lifecycle": [
+            "Last analyzed at"
+          ],
+          "Description": {
+            "Data type": "TIMESTAMP"
+          },
+          "Statistics_Attributes": [
+            "Maximum value",
+            "Minimum value"
+          ]
+        }
+      }
+    },
+    "SC59": {
+      "Analysis": {
+        "Description": {
+          "Number of processed items": "0",
+          "Number of errors": "0"
+        },
+        "Widgets": [
+          "Processed Items"
+        ]
+      }
+    },
+    "SC64": {
+      "Analysis": {
+        "Description": {
+          "Number of processed items": "1",
+          "Number of errors": "0"
+        },
+        "Widgets": [
+          "Processed Items"
+        ]
+      }
+    },
+    "SC78": {
+      "postgres": {
+        "DiffDataTypes": {
+          "Lifecycle": [
+            "Last analyzed at",
+            "Last catalogued at"
+          ],
+          "columns": {
+            "biginttype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            },
+            "charactertype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            }
+          }
+        },
+        "DiffDataTypesMinimized": {
+          "Lifecycle": [
+            "Last catalogued at"
+          ],
+          "columns": {
+            "datetype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            },
+            "booleantype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            },
+            "integertype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            },
+            "numerictype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            },
+            "timetype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            },
+            "timestamptype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            },
+            "smallinttype": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            }
+          }
+        }
+      },
+      "dvdrental": {
+        "city": {
+          "columns": {
+            "country_id": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            },
+            "last_update": {
+              "Lifecycle": [
+                "Last analyzed at",
+                "Last catalogued at"
+              ]
+            }
+          }
+        },
+        "country": {
+          "Lifecycle": [
+            "Last catalogued at"
+          ]
+        }
+      }
+    }
+  }
+}
+
+
+
+

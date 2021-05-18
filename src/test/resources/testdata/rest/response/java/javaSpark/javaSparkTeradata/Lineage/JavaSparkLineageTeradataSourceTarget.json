@@ -1,0 +1,101 @@
+{
+  "Spark_TeradataSC1": {
+    "SPARK_SOURCE_SC1.postalcode => jdbcDF_td1.postalcode": {
+      "mode": "COPY",
+      "lineageFrom": "postalcode",
+      "lineageTo": "postalcode"
+    },
+    "SSN => SPARK_TARGET_SC1_1.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "SPARK_SOURCE_SC1.SSN => jdbcDF_td1.SSN": {
+      "mode": "COPY",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEEID => SPARK_TARGET_SC1_1.EMPLOYEEID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEEID",
+      "lineageTo": "EMPLOYEEID"
+    },
+    "SPARK_SOURCE_SC1.phonenumber => jdbcDF_td1.phonenumber": {
+      "mode": "COPY",
+      "lineageFrom": "phonenumber",
+      "lineageTo": "phonenumber"
+    },
+    "SSN => SPARK_TARGET_SC1_2.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "SPARK_SOURCE_SC1.state => jdbcDF_td1.state": {
+      "mode": "COPY",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    },
+    "SPARK_SOURCE_SC1.EMPLOYEEID => jdbcDF_td1.EMPLOYEEID": {
+      "mode": "COPY",
+      "lineageFrom": "EMPLOYEEID",
+      "lineageTo": "EMPLOYEEID"
+    },
+    "SPARK_SOURCE_SC1.FULL_NAME => jdbcDF_td1.FULL_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "FULL_NAME",
+      "lineageTo": "FULL_NAME"
+    },
+    "EMPLOYEEID => SPARK_TARGET_SC1_2.EMPLOYEEID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEEID",
+      "lineageTo": "EMPLOYEEID"
+    },
+    "SPARK_SOURCE_SC1.GENDER => jdbcDF_td1.GENDER": {
+      "mode": "COPY",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "SPARK_SOURCE_SC1.EMAIL => jdbcDF_td1.EMAIL": {
+      "mode": "COPY",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "SPARK_SOURCE_SC1.IPADDRESS => jdbcDF_td1.IPADDRESS": {
+      "mode": "COPY",
+      "lineageFrom": "IPADDRESS",
+      "lineageTo": "IPADDRESS"
+    }
+  },
+  "Spark_Teradata_JDBC": {
+    "SPARK_SOURCE_SC2.loc_name => jdbcDF_td2.loc_name": {
+      "mode": "COPY",
+      "lineageFrom": "loc_name",
+      "lineageTo": "loc_name"
+    },
+    "SPARK_SOURCE_SC2.dept_no => jdbcDF_td2.dept_no": {
+      "mode": "COPY",
+      "lineageFrom": "dept_no",
+      "lineageTo": "dept_no"
+    },
+    "loc_name => SPARK_TARGET_SC2.loc_name": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "loc_name",
+      "lineageTo": "loc_name"
+    },
+    "SPARK_SOURCE_SC2.department_name => jdbcDF_td2.department_name": {
+      "mode": "COPY",
+      "lineageFrom": "department_name",
+      "lineageTo": "department_name"
+    },
+    "dept_no => SPARK_TARGET_SC2.dept_no": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "dept_no",
+      "lineageTo": "dept_no"
+    },
+    "department_name => SPARK_TARGET_SC2.department_name": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "department_name",
+      "lineageTo": "department_name"
+    }
+  }
+}

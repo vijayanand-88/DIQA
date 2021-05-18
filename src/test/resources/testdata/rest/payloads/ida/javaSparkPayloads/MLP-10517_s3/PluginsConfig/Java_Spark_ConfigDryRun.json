@@ -1,0 +1,18 @@
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaSparkLineageJS1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaSparkLineageJS1"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaSpS3"],
+      "filter": null,
+      "pluginType": "lineage",
+      "businessApplicationName": "test_BA_JavaSpS3",
+      "dryRun": "true"
+    }

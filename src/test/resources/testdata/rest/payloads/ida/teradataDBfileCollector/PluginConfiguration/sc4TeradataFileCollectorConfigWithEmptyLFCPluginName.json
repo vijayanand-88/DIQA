@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataFileCollectorEmptyPluginName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "TeradataFileCollectorEmptyPluginName"
+      ],
+      "pluginType": "collector",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "TeradataDBFileCollector",
+      "collectorPlugin": null,
+      "collectorPluginConfiguration": "Teradata_LFC",
+      "type": "Collector"
+    }
+  ]
+}

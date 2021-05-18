@@ -1,0 +1,14 @@
+{
+  "name": "GUEST_USER",
+  "label": {
+    "": "Guest User",
+    "en": "Guest User"
+  },
+  "description": {
+    "": "Guest User has limited privileges and can rate, comment on the data",
+    "en": "Guest User has limited privileges and can rate, comment on the data"
+  },
+  "permissions": [
+    "BASE_PERMISSION"
+  ]
+}

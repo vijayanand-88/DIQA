@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+      "name": "HiveMonitor",
+      "label": {
+        "": "HiveMonitor"
+      },
+      "catalogName": "MLANALYZER CATALOG",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "enableQueryParser": true,
+      "kerberosKeytabLocation": null,
+      "kerberosKrb5location": null,
+      "kerberosPrincipalName": null,
+      "analyzeCollectedData": true,
+      "filter": null,
+      "catalogerConfigurationName": "HiveCataloger"
+    }
+  ]
+}

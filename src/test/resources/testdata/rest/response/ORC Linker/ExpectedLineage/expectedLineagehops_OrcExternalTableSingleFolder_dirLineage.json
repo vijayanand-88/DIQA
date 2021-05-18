@@ -1,0 +1,16 @@
+{
+  "OrcExternalTableSingleFolder": [
+    {
+      "mode": "VIEW",
+      "source": "ORCFilesinSingleFolder",
+      "dir": "->",
+      "target": "OrcExternalTableSingleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "OrcExternalTableSingleFolder",
+      "dir": "->",
+      "target": "ORCFilesinSingleFolder"
+    }
+  ]
+}

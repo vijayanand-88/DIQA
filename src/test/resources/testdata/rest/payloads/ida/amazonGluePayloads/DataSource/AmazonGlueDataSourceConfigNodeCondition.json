@@ -1,0 +1,22 @@
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AWSGlueValidDataSourceNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "ValidGlueCredentials",
+	  "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "region": "us-east-1"
+    }

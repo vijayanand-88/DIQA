@@ -1,0 +1,22 @@
+{
+    "firstName": "sasi",
+    "lastName": "Krishnan",
+    "gender": "female",
+    "age": 30,
+    "address": {
+        "streetAddress": "125 street",
+        "city": "chennai",
+        "state": "TN",
+        "postalCode": "684221"
+    },
+    "phoneNumbers": {
+        "type": "home",
+        "number": "8383627627"
+    },
+    "id": "dcdd3b1f-b6c0-4844-81a9-76b2d60e8ce6",
+    "_rid": "kShuAPFa9xwEAAAAAAAAAA==",
+    "_self": "dbs/kShuAA==/colls/kShuAPFa9xw=/docs/kShuAPFa9xwEAAAAAAAAAA==/",
+    "_etag": "\"0800a220-0000-0000-0000-5c87a0270000\"",
+    "_attachments": "attachments/",
+    "_ts": 1552392231
+}

@@ -1,0 +1,999 @@
+{
+  "typeanddatapattern1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR1.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR1.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR1.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR1.*",
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "nameanddatapattern1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "ipaddress",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*email.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "ssn",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "gender",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*full.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS1",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAILS.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN1",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER1",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL1.*",
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "datapatternandratio1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "datapatternandratio2": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "datapatternandratio3": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address1"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address1"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN1"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender1"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name1"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "namedatatypepatternandratio1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "ipaddress",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*email.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "ssn",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "gender",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*full.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS1",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAIL1.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN1",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER1",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL1.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAIL.*",
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN",
+        "typePattern": ".*VARS.*",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER",
+        "typePattern": ".*VARS.*",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL.*",
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}.\\d{5}",
+        "tags": [
+          "IP Address3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+*([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAIL.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4} \\d{6}",
+        "tags": [
+          "SSN3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(male|Male|female|Female)",
+        "tags": [
+          "Gender3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+\\d{3}",
+        "tags": [
+          "Full Name3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "matchempty": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "matchfullcase1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "database",
+        "tags": [
+          "FullMatchTag",
+          "FullMatchTag1"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "matchfullcase2": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "database",
+        "tags": [
+          "FullMatchTag2",
+          "FullMatchTag3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "matchfullcase3": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "FullMatchTag",
+          "FullMatchTag1"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "matchfullcase4": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "FullMatchTag2",
+          "FullMatchTag3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  }
+}

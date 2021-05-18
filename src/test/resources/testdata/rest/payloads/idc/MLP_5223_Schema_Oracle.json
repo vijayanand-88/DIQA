@@ -1,0 +1,5327 @@
+{
+  "rochName" : "ORACLE",
+  "sqlgName" : null,
+  "xmiName" : null,
+  "nsUri" : "http://rochade.asg.com/ScanOracle/2.00.0",
+  "objectDefs" : [ {
+    "rochName" : "ORA_SERVICE",
+    "sqlgName" : "Service",
+    "xmiName" : "service",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-DATABASE",
+      "sqlgName" : "has_Database",
+      "xmiName" : "HasDatabase",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "db" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : true
+    } ]
+  }, {
+    "rochName" : "ORA_ARGUMENT",
+    "sqlgName" : "Argument",
+    "xmiName" : "arg",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEFAULTED",
+      "sqlgName" : "defaulted",
+      "xmiName" : "Defaulted",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATATYPE-OWNER",
+      "sqlgName" : "datatypeOwner",
+      "xmiName" : "DtOwner",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "schema" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_DATATYPE",
+      "sqlgName" : "datatype",
+      "xmiName" : "Dtype",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IN-OUT",
+      "sqlgName" : "inOut",
+      "xmiName" : "InOut",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PLS-TYPE",
+      "sqlgName" : "plsType",
+      "xmiName" : "PlsType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_OF-TYPE",
+      "sqlgName" : "ofType",
+      "xmiName" : "ofType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "syn", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_ATTRIBUTE",
+    "sqlgName" : "Attribute",
+    "xmiName" : "attr",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_ATTR-NO",
+      "sqlgName" : "attributeNumber",
+      "xmiName" : "AttrNo",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATA-LENGTH",
+      "sqlgName" : "dataLength",
+      "xmiName" : "DaLen",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATA-PRECISION",
+      "sqlgName" : "dataPrecision",
+      "xmiName" : "DaPrec",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATA-SCALE",
+      "sqlgName" : "dataScale",
+      "xmiName" : "DaScale",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATATYPE-MOD",
+      "sqlgName" : "datatypeMod",
+      "xmiName" : "DtMod",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATATYPE-NAME",
+      "sqlgName" : "datatypeName",
+      "xmiName" : "DtName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATATYPE-OWNER",
+      "sqlgName" : "datatypeOwner",
+      "xmiName" : "DtOwner",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "schema" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_DATATYPE",
+      "sqlgName" : "datatype",
+      "xmiName" : "Dtype",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INHERITED",
+      "sqlgName" : "inherited",
+      "xmiName" : "Inherited",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_OF-TYPE",
+      "sqlgName" : "ofType",
+      "xmiName" : "ofType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "syn", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_CLUSTER",
+    "sqlgName" : "Cluster",
+    "xmiName" : "clu",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_BUFFER-POOL",
+      "sqlgName" : "bufferPool",
+      "xmiName" : "BufferPool",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BYTES",
+      "sqlgName" : "bytes",
+      "xmiName" : "Bytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-COLUMN",
+      "sqlgName" : "hasColumn",
+      "xmiName" : "HasCols",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_INITIAL-EXTENT",
+      "sqlgName" : "initialExtent",
+      "xmiName" : "IniExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-EXTENTS",
+      "sqlgName" : "maxExtents",
+      "xmiName" : "MaxExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MIN-EXTENTS",
+      "sqlgName" : "minExtents",
+      "xmiName" : "MinExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NEXT-EXTENT",
+      "sqlgName" : "nextExtent",
+      "xmiName" : "NxtExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCTFREE",
+      "sqlgName" : "pctFree",
+      "xmiName" : "PctF",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCT-INCREASE",
+      "sqlgName" : "pctIncrease",
+      "xmiName" : "PctIncr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCTUSED",
+      "sqlgName" : "pctUsed",
+      "xmiName" : "PctU",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INDEX",
+      "sqlgName" : "index",
+      "xmiName" : "TabIdx",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "idx" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_IN-TABLESPACE",
+      "sqlgName" : "inTablespace",
+      "xmiName" : "Tabsp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tabsp" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_CACHE",
+      "sqlgName" : "cache",
+      "xmiName" : "cache",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CLUSTER-TYPE",
+      "sqlgName" : "clusterType",
+      "xmiName" : "cluType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEGREE",
+      "sqlgName" : "degree",
+      "xmiName" : "degree",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FREELIST-GROUPS",
+      "sqlgName" : "freeListGroups",
+      "xmiName" : "freelistGrp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FREELISTS",
+      "sqlgName" : "freeLists",
+      "xmiName" : "freelists",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HASH-EXPRESSION",
+      "sqlgName" : "hashExpression",
+      "xmiName" : "hashExpr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HASH-FUNCTION",
+      "sqlgName" : "hashFunction",
+      "xmiName" : "hashFct",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HASH-KEYS",
+      "sqlgName" : "hashKeys",
+      "xmiName" : "hashKeys",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INSTANCES",
+      "sqlgName" : "instances",
+      "xmiName" : "instances",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_KEY-SIZE",
+      "sqlgName" : "keySize",
+      "xmiName" : "keySize",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_ROWDEPENDENCIES",
+      "sqlgName" : "rowDependendcies",
+      "xmiName" : "rowDepend",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SINGLE-TABLE",
+      "sqlgName" : "singleTable",
+      "xmiName" : "singleTable",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INI-TRANSACTIONS",
+      "sqlgName" : "iniTransactions",
+      "xmiName" : "transactIni",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-TRANSACTIONS",
+      "sqlgName" : "maxTransactions",
+      "xmiName" : "transactMax",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_CONSTRAINT",
+    "sqlgName" : "Constraint",
+    "xmiName" : "cns",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_CHECK-CONDITION",
+      "sqlgName" : "checkCondition",
+      "xmiName" : "CheckC",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CONSTRAINT-TYPE",
+      "sqlgName" : "constraintType",
+      "xmiName" : "CnstrntType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_USES-COLUMN",
+      "sqlgName" : "usedColumn",
+      "xmiName" : "Col",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEFERRABLE",
+      "sqlgName" : "deferrable",
+      "xmiName" : "Deferrable",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEFERRED",
+      "sqlgName" : "deferred",
+      "xmiName" : "Deferred",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DELETE-RULE",
+      "sqlgName" : "deleteRule",
+      "xmiName" : "DeleteRule",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DISABLED",
+      "sqlgName" : "disabled",
+      "xmiName" : "Disabled",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_GENERATED-NAME",
+      "sqlgName" : "generatedName",
+      "xmiName" : "GeneratedName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PARENT",
+      "sqlgName" : "parent",
+      "xmiName" : "Parent",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "cns", "col", "tab" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RELY",
+      "sqlgName" : "rely",
+      "xmiName" : "Rely",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INDEX",
+      "sqlgName" : "index",
+      "xmiName" : "TabIdx",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "idx" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_VALIDATED",
+      "sqlgName" : "validated",
+      "xmiName" : "Validated",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_COLUMN",
+    "sqlgName" : "Column",
+    "xmiName" : "col",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_CHAR-LENGTH",
+      "sqlgName" : "characterLength",
+      "xmiName" : "CharLen",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CHECK-CONDITION",
+      "sqlgName" : "checkCondition",
+      "xmiName" : "CheckC",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_COMMENT",
+      "sqlgName" : "comment",
+      "xmiName" : "Cmmt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_COLUMN-ID",
+      "sqlgName" : "columnId",
+      "xmiName" : "ColId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_COLUMN-TYPE",
+      "sqlgName" : "columnType",
+      "xmiName" : "ColType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATA-LENGTH",
+      "sqlgName" : "dataLength",
+      "xmiName" : "DaLen",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATA-PRECISION",
+      "sqlgName" : "dataPrecision",
+      "xmiName" : "DaPrec",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATA-SCALE",
+      "sqlgName" : "dataScale",
+      "xmiName" : "DaScale",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEPENDENCIES",
+      "sqlgName" : "dependencies",
+      "xmiName" : "Depends",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col", "dbl", "func", "pack", "proc", "seq", "syn", "tab", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFAULT",
+      "sqlgName" : "default",
+      "xmiName" : "Dflt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATATYPE-MOD",
+      "sqlgName" : "datatypeMod",
+      "xmiName" : "DtMod",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATATYPE-NAME",
+      "sqlgName" : "datatypeName",
+      "xmiName" : "DtName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATATYPE-OWNER",
+      "sqlgName" : "datatypeOwner",
+      "xmiName" : "DtOwner",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "schema" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_DATATYPE",
+      "sqlgName" : "datatype",
+      "xmiName" : "Dtype",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_ELEMENT-SUBSTITUTABLE",
+      "sqlgName" : "dlemSubstitutable",
+      "xmiName" : "ElemSubst",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_ENCRYPTION-ALGORITHM",
+      "sqlgName" : "encryptionAlgorithm",
+      "xmiName" : "EncrypAlgorithm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_ENCRYPTION-SALT",
+      "sqlgName" : "encryptionSalt",
+      "xmiName" : "EncrypSalt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOBS",
+      "sqlgName" : "hasLob",
+      "xmiName" : "HasLob",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "lob" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_NESTED-TABLE",
+      "sqlgName" : "nestedTable",
+      "xmiName" : "HasNested",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tab" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_VARRAYS",
+      "sqlgName" : "hasVArray",
+      "xmiName" : "HasVarray",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "varray" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_IS-ENCRYPTED",
+      "sqlgName" : "isEncrypted",
+      "xmiName" : "IsEncrypted",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOGGING-PROPERTY",
+      "sqlgName" : "logggingProperty",
+      "xmiName" : "LogProperty",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_COLUMN-USED",
+      "sqlgName" : "columnUsed",
+      "xmiName" : "NoRows",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NULLS-ALLOWED",
+      "sqlgName" : "nullsAllowed",
+      "xmiName" : "Nullable",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RETURN-TYPE",
+      "sqlgName" : "returnType",
+      "xmiName" : "ReturnType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DETAIL-COLUMN",
+      "sqlgName" : "detailColumn",
+      "xmiName" : "detailCol",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_OF-TYPE",
+      "sqlgName" : "ofType",
+      "xmiName" : "ofType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "syn", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_COLUMN-EXPRESSION",
+    "sqlgName" : "ColumnExpression",
+    "xmiName" : "colexp",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_USES-COLUMN",
+      "sqlgName" : "usedColumn",
+      "xmiName" : "Col",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_COLUMN-ID",
+      "sqlgName" : "columnId",
+      "xmiName" : "ColId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SOURCE-CODE",
+      "sqlgName" : "sourceCode",
+      "xmiName" : "SQLSrc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_DATABASE",
+    "sqlgName" : "Database",
+    "xmiName" : "db",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_BYTES",
+      "sqlgName" : "bytes",
+      "xmiName" : "Bytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CONTAINER-NAME",
+      "sqlgName" : "containerName",
+      "xmiName" : "CdbName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CHARACTER-SET",
+      "sqlgName" : "characterSet",
+      "xmiName" : "CharSet",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATABASE-ID",
+      "sqlgName" : "databaseId",
+      "xmiName" : "DbId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DB-TYPE",
+      "sqlgName" : "databaseType",
+      "xmiName" : "DbType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEFAULT-TABSP-TYPE",
+      "sqlgName" : "defaultTablespaceType",
+      "xmiName" : "DefTabspType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FORCE-LOGGING",
+      "sqlgName" : "forceLogging",
+      "xmiName" : "ForceLggng",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-DATAFILES",
+      "sqlgName" : "hasFile",
+      "xmiName" : "HasFile",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "file" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-PARM-CONTAINER",
+      "sqlgName" : "hasParameterContainer",
+      "xmiName" : "HasInitParm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "iprm" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_ROLES",
+      "sqlgName" : "hasRole",
+      "xmiName" : "HasRoles",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "role" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-SCHEMA",
+      "sqlgName" : "hasSchema",
+      "xmiName" : "HasSchemas",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "schema" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-TABLESPACE",
+      "sqlgName" : "hasTablespace",
+      "xmiName" : "HasTabsp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tabsp" ],
+      "namespace" : true,
+      "qualified" : true,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-USER",
+      "sqlgName" : "hasUser",
+      "xmiName" : "HasUsers",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "user" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HOST-NAME",
+      "sqlgName" : "hostname",
+      "xmiName" : "Hostname",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LISTENER",
+      "sqlgName" : "listener",
+      "xmiName" : "Lstnr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NCHAR-CHARACTER-SET",
+      "sqlgName" : "nCharCharacterSet",
+      "xmiName" : "NCharCharSet",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PDBS",
+      "sqlgName" : "pdbs",
+      "xmiName" : "PDBs",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "db" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_PHYSICAL-NAME",
+      "sqlgName" : "physicalName",
+      "xmiName" : "PhysName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PSU-VERSION",
+      "sqlgName" : "psuVer",
+      "xmiName" : "PsuVer",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RELEASE-NUMBER",
+      "sqlgName" : "peleaseNumber",
+      "xmiName" : "ReleaseNo",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SERVICES",
+      "sqlgName" : "services",
+      "xmiName" : "Services",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FIRES-TRIGGER",
+      "sqlgName" : "firesTrigger",
+      "xmiName" : "firesTrigger",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "trgg" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SERVER-VERSION",
+      "sqlgName" : "version",
+      "xmiName" : "version",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_DB_LINK",
+    "sqlgName" : "DatabaseLink",
+    "xmiName" : "dbl",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HOST",
+      "sqlgName" : "host",
+      "xmiName" : "host",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LINKS-TO",
+      "sqlgName" : "linksTo",
+      "xmiName" : "linksTo",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "db", "user" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_USERNAME",
+      "sqlgName" : "userName",
+      "xmiName" : "userName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_DATA-FILE",
+    "sqlgName" : "File",
+    "xmiName" : "file",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_AUTOEXTENSIBLE",
+      "sqlgName" : "autoExtensible",
+      "xmiName" : "AutoExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BLOCKS",
+      "sqlgName" : "blocks",
+      "xmiName" : "Blocks",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BYTES",
+      "sqlgName" : "bytes",
+      "xmiName" : "Bytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FILE-ID",
+      "sqlgName" : "fileId",
+      "xmiName" : "FileId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAXBLOCKS",
+      "sqlgName" : "maxBlocks",
+      "xmiName" : "MaxBlocks",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAXBYTES",
+      "sqlgName" : "maxBytes",
+      "xmiName" : "MaxBytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TABLESPACE",
+      "sqlgName" : "tablespace",
+      "xmiName" : "ToTabsp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tabsp" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_USER-BLOCKS",
+      "sqlgName" : "userBlocks",
+      "xmiName" : "UserBlocks",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_USER-BYTES",
+      "sqlgName" : "userBytes",
+      "xmiName" : "UserBytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INCREMENT-BY",
+      "sqlgName" : "incrementBy",
+      "xmiName" : "incrementBy",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STATUS",
+      "sqlgName" : "status",
+      "xmiName" : "status",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_FUNCTION",
+    "sqlgName" : "Function",
+    "xmiName" : "func",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_AGGREGATE",
+      "sqlgName" : "aggregate",
+      "xmiName" : "Aggregate",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_AUTHID",
+      "sqlgName" : "authenticationId",
+      "xmiName" : "AuthId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEPENDENCIES",
+      "sqlgName" : "dependencies",
+      "xmiName" : "Depends",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col", "dbl", "func", "pack", "proc", "seq", "syn", "tab", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DETERMINISTIC",
+      "sqlgName" : "deterministic",
+      "xmiName" : "Deterministic",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-ARGUMENT",
+      "sqlgName" : "hasArgument",
+      "xmiName" : "HasArg",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "arg" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_INTERFACE",
+      "sqlgName" : "interface",
+      "xmiName" : "Interface",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_POSTPROCRESULTS",
+      "sqlgName" : null,
+      "xmiName" : "JSONPPRes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PARALLEL",
+      "sqlgName" : "parallel",
+      "xmiName" : "Parallel",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PIPELINED",
+      "sqlgName" : "pipelined",
+      "xmiName" : "Pipelined",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PROCEDURE-TYPE",
+      "sqlgName" : "procedureType",
+      "xmiName" : "ProcType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SOURCE-CODE",
+      "sqlgName" : "sourceCode",
+      "xmiName" : "SQLSrc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PARM-SIGNATURE",
+      "sqlgName" : null,
+      "xmiName" : "prmSig",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STATUS",
+      "sqlgName" : "status",
+      "xmiName" : "status",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_INDEX",
+    "sqlgName" : "Index",
+    "xmiName" : "idx",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_BUFFER-POOL",
+      "sqlgName" : "bufferPool",
+      "xmiName" : "BufferPool",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BYTES",
+      "sqlgName" : "bytes",
+      "xmiName" : "Bytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CONSTRAINT-TYPE",
+      "sqlgName" : "constraintType",
+      "xmiName" : "CnstrntType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_USES-COLUMN",
+      "sqlgName" : "usedColumn",
+      "xmiName" : "Col",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col", "colexp" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_GENERATED-NAME",
+      "sqlgName" : "generatedName",
+      "xmiName" : "GeneratedName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-COLUMN-EXPRESSION",
+      "sqlgName" : "hasColumnExpression",
+      "xmiName" : "HasColExp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "colexp" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_INDEX-TYPE",
+      "sqlgName" : "indexType",
+      "xmiName" : "IdxType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INCLUDE-COLUMN",
+      "sqlgName" : "includeColumn",
+      "xmiName" : "InclCol",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INITIAL-EXTENT",
+      "sqlgName" : "initialExtent",
+      "xmiName" : "IniExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOGGING",
+      "sqlgName" : "logging",
+      "xmiName" : "Logging",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-EXTENTS",
+      "sqlgName" : "maxExtents",
+      "xmiName" : "MaxExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MIN-EXTENTS",
+      "sqlgName" : "minExtents",
+      "xmiName" : "MinExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NEXT-EXTENT",
+      "sqlgName" : "nextExtent",
+      "xmiName" : "NxtExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PARTITION-KEY-COLUMNS",
+      "sqlgName" : "partitionKeyColumns",
+      "xmiName" : "PartKeyCols",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_PARTITIONING-TYPE",
+      "sqlgName" : "partitionType",
+      "xmiName" : "PartitionType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCTFREE",
+      "sqlgName" : "pctFree",
+      "xmiName" : "PctF",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCT-INCREASE",
+      "sqlgName" : "pctIncrease",
+      "xmiName" : "PctIncr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCT-THRESHOLD",
+      "sqlgName" : "pctThreshold",
+      "xmiName" : "PctThreshold",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PREFIX-LENGTH",
+      "sqlgName" : "prefixLength",
+      "xmiName" : "PrefLength",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_REFERENCED-TABLE",
+      "sqlgName" : "referencedTable",
+      "xmiName" : "RefTab",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "clu", "tab" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_IN-TABLESPACE",
+      "sqlgName" : "inTablespace",
+      "xmiName" : "Tabsp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tabsp" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_BYTES-TOTAL",
+      "sqlgName" : "totalBytes",
+      "xmiName" : "TotalBytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_UNIQUE",
+      "sqlgName" : "unique",
+      "xmiName" : "Unique",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_COMPRESSION",
+      "sqlgName" : "compression",
+      "xmiName" : "compression",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FREELIST-GROUPS",
+      "sqlgName" : "freeListGroups",
+      "xmiName" : "freelistGrp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FREELISTS",
+      "sqlgName" : "freeLists",
+      "xmiName" : "freelists",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PARTITIONS",
+      "sqlgName" : "hasPartition",
+      "xmiName" : "parts",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "part" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INI-TRANSACTIONS",
+      "sqlgName" : "iniTransactions",
+      "xmiName" : "transactIni",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-TRANSACTIONS",
+      "sqlgName" : "maxTransactions",
+      "xmiName" : "transactMax",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_PARAMETER-CONTAINER",
+    "sqlgName" : "ParameterContainer",
+    "xmiName" : "iprm",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-PARAMETER",
+      "sqlgName" : "hasParameter",
+      "xmiName" : "HasParm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "prm" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_LOB",
+    "sqlgName" : "LOB",
+    "xmiName" : "lob",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_BYTES",
+      "sqlgName" : "bytes",
+      "xmiName" : "Bytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CHUNK",
+      "sqlgName" : "chunk",
+      "xmiName" : "Chunk",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FREEPOOLS",
+      "sqlgName" : "freePools",
+      "xmiName" : "FreePools",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IN-ROW",
+      "sqlgName" : "inRow",
+      "xmiName" : "InRow",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BELONGS-TO-ATTRIBUTE",
+      "sqlgName" : "belongsToAttribute",
+      "xmiName" : "LobAttr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "attr" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_LOB-LOGGING",
+      "sqlgName" : "lobLogging",
+      "xmiName" : "LobLggng",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOB-RETENTION",
+      "sqlgName" : "lobRetention",
+      "xmiName" : "LobRetention",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCTVERSION",
+      "sqlgName" : "pctVersion",
+      "xmiName" : "PctVersion",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INDEX",
+      "sqlgName" : "index",
+      "xmiName" : "TabIdx",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "idx" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_IN-TABLESPACE",
+      "sqlgName" : "inTablespace",
+      "xmiName" : "Tabsp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tabsp" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_CACHE",
+      "sqlgName" : "cache",
+      "xmiName" : "cache",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_PACKAGE",
+    "sqlgName" : "Package",
+    "xmiName" : "pack",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_AUTHID",
+      "sqlgName" : "authenticationId",
+      "xmiName" : "AuthId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEPENDENCIES",
+      "sqlgName" : "dependencies",
+      "xmiName" : "Depends",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col", "dbl", "func", "pack", "proc", "seq", "syn", "tab", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-PROCEDURE",
+      "sqlgName" : "hasProcedure",
+      "xmiName" : "HasProc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "func", "pack", "proc" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PROCEDURE-TYPE",
+      "sqlgName" : "procedureType",
+      "xmiName" : "ProcType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SOURCE-CODE",
+      "sqlgName" : "sourceCode",
+      "xmiName" : "SQLSrc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STATUS",
+      "sqlgName" : "status",
+      "xmiName" : "status",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_PARTITION",
+    "sqlgName" : "Partition",
+    "xmiName" : "part",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_BUFFER-POOL",
+      "sqlgName" : "bufferPool",
+      "xmiName" : "BufferPool",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BYTES",
+      "sqlgName" : "bytes",
+      "xmiName" : "Bytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INITIAL-EXTENT",
+      "sqlgName" : "initialExtent",
+      "xmiName" : "IniExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOGGING",
+      "sqlgName" : "logging",
+      "xmiName" : "Logging",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-EXTENTS",
+      "sqlgName" : "maxExtents",
+      "xmiName" : "MaxExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MIN-EXTENTS",
+      "sqlgName" : "minExtents",
+      "xmiName" : "MinExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NEXT-EXTENT",
+      "sqlgName" : "nextExtent",
+      "xmiName" : "NxtExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCTFREE",
+      "sqlgName" : "pctFree",
+      "xmiName" : "PctF",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCT-INCREASE",
+      "sqlgName" : "pctIncrease",
+      "xmiName" : "PctIncr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCTUSED",
+      "sqlgName" : "pctUsed",
+      "xmiName" : "PctU",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IN-TABLESPACE",
+      "sqlgName" : "inTablespace",
+      "xmiName" : "Tabsp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tabsp" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_COMPRESSION",
+      "sqlgName" : "compression",
+      "xmiName" : "compression",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FREELIST-GROUPS",
+      "sqlgName" : "freeListGroups",
+      "xmiName" : "freelistGrp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FREELISTS",
+      "sqlgName" : "freeLists",
+      "xmiName" : "freelists",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HIGH_VALUE",
+      "sqlgName" : "highValue",
+      "xmiName" : "highValue",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INI-TRANSACTIONS",
+      "sqlgName" : "iniTransactions",
+      "xmiName" : "transactIni",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-TRANSACTIONS",
+      "sqlgName" : "maxTransactions",
+      "xmiName" : "transactMax",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_PARAMETER",
+    "sqlgName" : "Parameter",
+    "xmiName" : "prm",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DISPLAY-VALUE",
+      "sqlgName" : "displayValue",
+      "xmiName" : "DispValue",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IS-DEFAULT-VALUE",
+      "sqlgName" : "isDefaultValue",
+      "xmiName" : "IsDefault",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_VALUE-TYPE",
+      "sqlgName" : "valueType",
+      "xmiName" : "ValType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_VALUE",
+      "sqlgName" : "value",
+      "xmiName" : "Value",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_PROCEDURE",
+    "sqlgName" : "Procedure",
+    "xmiName" : "proc",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_AUTHID",
+      "sqlgName" : "authenticationId",
+      "xmiName" : "AuthId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEPENDENCIES",
+      "sqlgName" : "dependencies",
+      "xmiName" : "Depends",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col", "dbl", "func", "pack", "proc", "seq", "syn", "tab", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-ARGUMENT",
+      "sqlgName" : "hasArgument",
+      "xmiName" : "HasArg",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "arg" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PROCEDURE-TYPE",
+      "sqlgName" : "procedureType",
+      "xmiName" : "ProcType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SOURCE-CODE",
+      "sqlgName" : "sourceCode",
+      "xmiName" : "SQLSrc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PARM-SIGNATURE",
+      "sqlgName" : null,
+      "xmiName" : "prmSig",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STATUS",
+      "sqlgName" : "status",
+      "xmiName" : "status",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_ROLE",
+    "sqlgName" : "Role",
+    "xmiName" : "role",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_DATABASE-PERMISSION",
+      "sqlgName" : "databasePermissions",
+      "xmiName" : "DbPerm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "db" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_GRANTED-ROLES",
+      "sqlgName" : "grantedRoles",
+      "xmiName" : "GrRole",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "role" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_PASSWORD-REQUIRED",
+      "sqlgName" : "passwordRequired",
+      "xmiName" : "PasswdReq",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PROCEDURE-PERMISSION",
+      "sqlgName" : "procedurePermission",
+      "xmiName" : "ProcPerm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "func", "pack", "proc" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_TABLE-PERMISSION",
+      "sqlgName" : "tablePermissions",
+      "xmiName" : "TabPerm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tab" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_SCHEMA",
+    "sqlgName" : "Schema",
+    "xmiName" : "schema",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-CLUSTER",
+      "sqlgName" : "hasCluster",
+      "xmiName" : "HasClu",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "clu" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-CONSTRAINT",
+      "sqlgName" : "hasConstraint",
+      "xmiName" : "HasCnstrnt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "cns" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-DB-LINK",
+      "sqlgName" : "hasDatabaseLink",
+      "xmiName" : "HasDbLink",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "dbl" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-INDEX",
+      "sqlgName" : "hasIndex",
+      "xmiName" : "HasIdx",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "idx" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-PROCEDURE",
+      "sqlgName" : "hasProcedure",
+      "xmiName" : "HasProc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "func", "pack", "proc" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-SEQUENCE",
+      "sqlgName" : "hasSequence",
+      "xmiName" : "HasSeq",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "seq" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-SYNONYM",
+      "sqlgName" : "hasSynonym",
+      "xmiName" : "HasSyn",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "syn" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-TABLE",
+      "sqlgName" : "hasTable",
+      "xmiName" : "HasTab",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tab" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-TRIGGER",
+      "sqlgName" : "hasTrigger",
+      "xmiName" : "HasTrgg",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "trgg" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-TYPE",
+      "sqlgName" : "hasType",
+      "xmiName" : "HasType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "type" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_FIRES-TRIGGER",
+      "sqlgName" : "firesTrigger",
+      "xmiName" : "firesTrigger",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "trgg" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_SEQUENCE",
+    "sqlgName" : "Sequence",
+    "xmiName" : "seq",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_START-VALUE",
+      "sqlgName" : "startValue",
+      "xmiName" : "SeqStartVal",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CACHE-SIZE",
+      "sqlgName" : "cacheSize",
+      "xmiName" : "cacheSize",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CYCLE-FLAG",
+      "sqlgName" : "cycleFlag",
+      "xmiName" : "cycleFlag",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INCREMENT-BY",
+      "sqlgName" : "incrementBy",
+      "xmiName" : "incrementBy",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-VALUE",
+      "sqlgName" : "maxValue",
+      "xmiName" : "maxValue",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MIN-VALUE",
+      "sqlgName" : "minValue",
+      "xmiName" : "minValue",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_ORDER-FLAG",
+      "sqlgName" : "orderFlag",
+      "xmiName" : "orderFlag",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STATUS",
+      "sqlgName" : "status",
+      "xmiName" : "status",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_SYNONYM",
+    "sqlgName" : "Synonym",
+    "xmiName" : "syn",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_REFERENCED-OBJECT",
+      "sqlgName" : "referencedObject",
+      "xmiName" : "RefObj",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IS-SYNONYM-OF",
+      "sqlgName" : "isSynonymOf",
+      "xmiName" : "SynOf",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "func", "pack", "proc", "seq", "syn", "tab", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_USES-DB-LINK",
+      "sqlgName" : "usesDatabaseLink",
+      "xmiName" : "usesDBLnk",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "dbl" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    } ]
+  }, {
+    "rochName" : "ORA_TABLE",
+    "sqlgName" : "Table",
+    "xmiName" : "tab",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_BUFFER-POOL",
+      "sqlgName" : "bufferPool",
+      "xmiName" : "BufferPool",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BUILD-MODE",
+      "sqlgName" : "buildMode",
+      "xmiName" : "BuildMode",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BYTES",
+      "sqlgName" : "bytes",
+      "xmiName" : "Bytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_COMMENT",
+      "sqlgName" : "comment",
+      "xmiName" : "Cmmt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEPENDENCIES",
+      "sqlgName" : "dependencies",
+      "xmiName" : "Depends",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col", "dbl", "func", "pack", "proc", "seq", "syn", "tab", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DURATION",
+      "sqlgName" : "duration",
+      "xmiName" : "Duration",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_HAS-COLUMN",
+      "sqlgName" : "hasColumn",
+      "xmiName" : "HasCols",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_INITIAL-EXTENT",
+      "sqlgName" : "initialExtent",
+      "xmiName" : "IniExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_UPDATABLE",
+      "sqlgName" : "IsUpdatable",
+      "xmiName" : "IsUpdatable",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-ANALYZED",
+      "sqlgName" : "lastAnalyzed",
+      "xmiName" : "LastAnalyzed",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOG-ALWAYS",
+      "sqlgName" : "logAlways",
+      "xmiName" : "LogAlways",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOG-COLUMNS",
+      "sqlgName" : "logColumns",
+      "xmiName" : "LogCols",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_LOG-GROUP-NAME-GENERATED",
+      "sqlgName" : "logGroupNameGenerated",
+      "xmiName" : "LogGrpGenName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOG-GROUP-NAME",
+      "sqlgName" : "logGroupName",
+      "xmiName" : "LogGrpName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOG-GROUP-TYPE",
+      "sqlgName" : "logGroupType",
+      "xmiName" : "LogGrpType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-EXTENTS",
+      "sqlgName" : "maxExtents",
+      "xmiName" : "MaxExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MIN-EXTENTS",
+      "sqlgName" : "minExtents",
+      "xmiName" : "MinExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NUMBER-OF-ROWS",
+      "sqlgName" : "numberOfRows",
+      "xmiName" : "NumRows",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NEXT-EXTENT",
+      "sqlgName" : "nextExtent",
+      "xmiName" : "NxtExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PARENT",
+      "sqlgName" : "parent",
+      "xmiName" : "Parent",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "cns", "col", "tab" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_PARTITION-KEY-COLUMNS",
+      "sqlgName" : "partitionKeyColumns",
+      "xmiName" : "PartKeyCols",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_PARTITIONING-TYPE",
+      "sqlgName" : "partitionType",
+      "xmiName" : "PartitionType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCTFREE",
+      "sqlgName" : "pctFree",
+      "xmiName" : "PctF",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCT-INCREASE",
+      "sqlgName" : "pctIncrease",
+      "xmiName" : "PctIncr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCTUSED",
+      "sqlgName" : "pctUsed",
+      "xmiName" : "PctU",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_REFRESH-METHOD",
+      "sqlgName" : "pefreshMethod",
+      "xmiName" : "RefreshMethod",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_REFRESH-MODE",
+      "sqlgName" : "pefreshMode",
+      "xmiName" : "RefreshMode",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_REWRITE-CAPABILITY",
+      "sqlgName" : "rewriteCapability",
+      "xmiName" : "RwrCapability",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_REWRITE-ENABLED",
+      "sqlgName" : "rewriteEnabled",
+      "xmiName" : "RwrEnabled",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SOURCE-CODE",
+      "sqlgName" : "sourceCode",
+      "xmiName" : "SQLSrc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INDEX",
+      "sqlgName" : "index",
+      "xmiName" : "TabIdx",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "idx" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_TABLE-OR-VIEW",
+      "sqlgName" : "tableType",
+      "xmiName" : "TabType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IN-TABLESPACE",
+      "sqlgName" : "inTablespace",
+      "xmiName" : "Tabsp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tabsp" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_BYTES-TOTAL",
+      "sqlgName" : "totalBytes",
+      "xmiName" : "TotalBytes",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_USE-NO-INDEX",
+      "sqlgName" : "useNoIndex",
+      "xmiName" : "UseNoIndex",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BELONGS-TO",
+      "sqlgName" : "belongsTo",
+      "xmiName" : "belongsTo",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "clu" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_CACHE",
+      "sqlgName" : "cache",
+      "xmiName" : "cache",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_COMPRESSION",
+      "sqlgName" : "compression",
+      "xmiName" : "compression",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEGREE",
+      "sqlgName" : "degree",
+      "xmiName" : "degree",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FIRES-TRIGGER",
+      "sqlgName" : "firesTrigger",
+      "xmiName" : "firesTrigger",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "trgg" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_FREELIST-GROUPS",
+      "sqlgName" : "freeListGroups",
+      "xmiName" : "freelistGrp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FREELISTS",
+      "sqlgName" : "freeLists",
+      "xmiName" : "freelists",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INSTANCES",
+      "sqlgName" : "instances",
+      "xmiName" : "instances",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IOT-TYPE",
+      "sqlgName" : "iotType",
+      "xmiName" : "iotType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MONITORING",
+      "sqlgName" : "monitoring",
+      "xmiName" : "monitoring",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NESTED",
+      "sqlgName" : "nested",
+      "xmiName" : "nested",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_OF-TYPE",
+      "sqlgName" : "ofType",
+      "xmiName" : "ofType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "syn", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_PARTITIONS",
+      "sqlgName" : "hasPartition",
+      "xmiName" : "parts",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "part" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_ROWDEPENDENCIES",
+      "sqlgName" : "rowDependendcies",
+      "xmiName" : "rowDepend",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_ROW-MOVEMENT",
+      "sqlgName" : "rowMovement",
+      "xmiName" : "rowMove",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STATUS",
+      "sqlgName" : "status",
+      "xmiName" : "status",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SUBQUERY-RESTRICTION",
+      "sqlgName" : "subqueryRestrictions",
+      "xmiName" : "subquery",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CONSTRAINT",
+      "sqlgName" : "constraint",
+      "xmiName" : "tabCnstrnt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "cns" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_FOREIGN-KEY",
+      "sqlgName" : "foreingKey",
+      "xmiName" : "tabFoKey",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "cns" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_TABLE-LOCK",
+      "sqlgName" : "tableLock",
+      "xmiName" : "tabLock",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INI-TRANSACTIONS",
+      "sqlgName" : "iniTransactions",
+      "xmiName" : "transactIni",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-TRANSACTIONS",
+      "sqlgName" : "maxTransactions",
+      "xmiName" : "transactMax",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_TABLESPACE",
+    "sqlgName" : "Tablespace",
+    "xmiName" : "tabsp",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_ALLOCATION-TYPE",
+      "sqlgName" : "allocationType",
+      "xmiName" : "AllocType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BIGFILE",
+      "sqlgName" : "bigfile",
+      "xmiName" : "Bigfile",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_BLOCK-SIZE",
+      "sqlgName" : "blocksize",
+      "xmiName" : "Blcksz",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CONTENTS",
+      "sqlgName" : "contents",
+      "xmiName" : "Contents",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATA-FILES",
+      "sqlgName" : "dataFiles",
+      "xmiName" : "DatFiles",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "file" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEF-TAB-COMPRESSION",
+      "sqlgName" : "defaultTableCompression",
+      "xmiName" : "DefTabCmpr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_EXTENT-MANAGEMENT",
+      "sqlgName" : "extentManagment",
+      "xmiName" : "ExtMngmnt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FLASHBACK",
+      "sqlgName" : "flashback",
+      "xmiName" : "Flashback",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FORCE-LOGGING",
+      "sqlgName" : "forceLogging",
+      "xmiName" : "ForceLggng",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_GROUP",
+      "sqlgName" : "group",
+      "xmiName" : "Group",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INITIAL-EXTENT",
+      "sqlgName" : "initialExtent",
+      "xmiName" : "IniExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LOGGING",
+      "sqlgName" : "logging",
+      "xmiName" : "Logging",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MAX-EXTENTS",
+      "sqlgName" : "maxExtents",
+      "xmiName" : "MaxExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MIN-EXTENTS",
+      "sqlgName" : "minExtents",
+      "xmiName" : "MinExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_MIN-EXTLEN",
+      "sqlgName" : "minExtlen",
+      "xmiName" : "MinExtlen",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NEXT-EXTENT",
+      "sqlgName" : "nextExtent",
+      "xmiName" : "NxtExt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PCT-INCREASE",
+      "sqlgName" : "pctIncrease",
+      "xmiName" : "PctIncr",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PLUGGED-IN",
+      "sqlgName" : "pluggedIn",
+      "xmiName" : "PluggedIn",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RETENTION",
+      "sqlgName" : "retention",
+      "xmiName" : "Retention",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SEGMENT-SPACE-MANAGEMENT",
+      "sqlgName" : "segmentSpaceManagment",
+      "xmiName" : "SegSpcMng",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TABLES-IN-TABLESPACE",
+      "sqlgName" : "tablesInTablespace",
+      "xmiName" : "TabInTS",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tab" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_TABLESPACES",
+      "sqlgName" : "tablespaces",
+      "xmiName" : "TabspGrp",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tabsp" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TECHDATA",
+      "sqlgName" : "techData",
+      "xmiName" : "techData",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_TRIGGER",
+    "sqlgName" : "Trigger",
+    "xmiName" : "trgg",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_ACTION-TYPE",
+      "sqlgName" : "actionType",
+      "xmiName" : "ActionType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEPENDENCIES",
+      "sqlgName" : "dependencies",
+      "xmiName" : "Depends",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col", "dbl", "func", "pack", "proc", "seq", "syn", "tab", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SOURCE-CODE",
+      "sqlgName" : "sourceCode",
+      "xmiName" : "SQLSrc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_TRIGGER-TYPE",
+      "sqlgName" : "triggerType",
+      "xmiName" : "TrggType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_WHEN-CLAUSE",
+      "sqlgName" : "whenClause",
+      "xmiName" : "WhenClause",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STATUS",
+      "sqlgName" : "status",
+      "xmiName" : "status",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_TYPE",
+    "sqlgName" : "Type",
+    "xmiName" : "type",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DEPENDENCIES",
+      "sqlgName" : "dependencies",
+      "xmiName" : "Depends",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "col", "dbl", "func", "pack", "proc", "seq", "syn", "tab", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-ATTRIBUTES",
+      "sqlgName" : "hasAttribute",
+      "xmiName" : "HasAttrs",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "attr" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_LAST-DDL-TIME",
+      "sqlgName" : "lastDDLTyme",
+      "xmiName" : "Modified",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_FINAL",
+      "sqlgName" : "final",
+      "xmiName" : "final",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INCOMPLETE",
+      "sqlgName" : "incomplete",
+      "xmiName" : "incomplete",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_INSTANTIABLE",
+      "sqlgName" : "instantiable",
+      "xmiName" : "instantiable",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PREDEFINED",
+      "sqlgName" : "predefined",
+      "xmiName" : "predefined",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STATUS",
+      "sqlgName" : "status",
+      "xmiName" : "status",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_SUPERTYPE",
+      "sqlgName" : "superType",
+      "xmiName" : "superType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_TYPECODE",
+      "sqlgName" : "typecode",
+      "xmiName" : "typecode",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_USER",
+    "sqlgName" : "User",
+    "xmiName" : "user",
+    "propertyDefs" : [ {
+      "rochName" : "ORA_ACCOUNT-STATUS",
+      "sqlgName" : "accountStatus",
+      "xmiName" : "AccountStatus",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_COMMON-USER",
+      "sqlgName" : "common",
+      "xmiName" : "Common",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_CREATED",
+      "sqlgName" : "created",
+      "xmiName" : "Created",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_DATABASE-PERMISSION",
+      "sqlgName" : "databasePermissions",
+      "xmiName" : "DbPerm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "db" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_EXPIRY-DATE",
+      "sqlgName" : "expiryDate",
+      "xmiName" : "ExpiryDate",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_GRANTED-ROLES",
+      "sqlgName" : "grantedRoles",
+      "xmiName" : "GrRole",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "role" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-CONSTRAINT",
+      "sqlgName" : "hasConstraint",
+      "xmiName" : "HasCnstrnt",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "cns" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-INDEX",
+      "sqlgName" : "hasIndex",
+      "xmiName" : "HasIdx",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "idx" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-PROCEDURE",
+      "sqlgName" : "hasProcedure",
+      "xmiName" : "HasProc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "func", "pack", "proc" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-SEQUENCE",
+      "sqlgName" : "hasSequence",
+      "xmiName" : "HasSeq",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "seq" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-SYNONYM",
+      "sqlgName" : "hasSynonym",
+      "xmiName" : "HasSyn",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "syn" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-TABLE",
+      "sqlgName" : "hasTable",
+      "xmiName" : "HasTab",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tab" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-TRIGGER",
+      "sqlgName" : "hasTrigger",
+      "xmiName" : "HasTrgg",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "trgg" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_HAS-TYPE",
+      "sqlgName" : "hasType",
+      "xmiName" : "HasType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "type" ],
+      "namespace" : true,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_LOCK-DATE",
+      "sqlgName" : "lockDate",
+      "xmiName" : "LockDate",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_PROCEDURE-PERMISSION",
+      "sqlgName" : "procedurePermission",
+      "xmiName" : "ProcPerm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "func", "pack", "proc" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_TABLE-PERMISSION",
+      "sqlgName" : "tablePermissions",
+      "xmiName" : "TabPerm",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "tab" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : true
+    }, {
+      "rochName" : "ORA_FIRES-TRIGGER",
+      "sqlgName" : "firesTrigger",
+      "xmiName" : "firesTrigger",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "trgg" ],
+      "namespace" : false,
+      "qualified" : true,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  }, {
+    "rochName" : "ORA_VARRAY",
+    "sqlgName" : "VArray",
+    "xmiName" : "varray",
+    "propertyDefs" : [ {
+      "rochName" : "DEFINITION",
+      "sqlgName" : "definition",
+      "xmiName" : "Def",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "DESCRIPTION",
+      "sqlgName" : "description",
+      "xmiName" : "Desc",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_ELEMENT-SUBSTITUTABLE",
+      "sqlgName" : "dlemSubstitutable",
+      "xmiName" : "ElemSubst",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_STORED-IN-LOB",
+      "sqlgName" : "storedInLob",
+      "xmiName" : "InLob",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "lob" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_STORAGE-SPEC",
+      "sqlgName" : "storageSpec",
+      "xmiName" : "StorageSpec",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_OF-TYPE",
+      "sqlgName" : "ofType",
+      "xmiName" : "ofType",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "OBJECT",
+      "refTypeNames" : [ "syn", "type" ],
+      "namespace" : false,
+      "qualified" : false,
+      "ordered" : false
+    }, {
+      "rochName" : "ORA_RDBID",
+      "sqlgName" : "rdbID",
+      "xmiName" : "rdbID",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_IDENTIFICATION",
+      "sqlgName" : "identification",
+      "xmiName" : "rocId",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    }, {
+      "rochName" : "ORA_NAME",
+      "sqlgName" : "name",
+      "xmiName" : "rocName",
+      "edgePropertyDefs" : [ ],
+      "valueType" : "STRING",
+      "refTypeNames" : null,
+      "namespace" : null,
+      "qualified" : null,
+      "ordered" : null
+    } ]
+  } ]
+}

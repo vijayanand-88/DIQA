@@ -1,0 +1,11 @@
+{
+  "JavaSparkSQL": {
+    "label": {
+      "": "JavaSparkSQL"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "JavaSparkSQL"
+    }
+  }
+}

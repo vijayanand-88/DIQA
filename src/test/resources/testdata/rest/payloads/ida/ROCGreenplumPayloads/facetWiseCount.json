@@ -1,0 +1,40 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 2744,
+      "value" : "Column"
+    }, {
+      "count" : 2474,
+      "value" : "Routine"
+    }, {
+      "count" : 338,
+      "value" : "Table"
+    }, {
+      "count" : 40,
+      "value" : "DataType"
+    }, {
+      "count" : 11,
+      "value" : "DataField"
+    }, {
+      "count" : 8,
+      "value" : "DataPackage"
+    }, {
+      "count" : 8,
+      "value" : "Schema"
+    }, {
+      "count" : 5,
+      "value" : "Analysis"
+    }, {
+      "count" : 1,
+      "value" : "Database"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

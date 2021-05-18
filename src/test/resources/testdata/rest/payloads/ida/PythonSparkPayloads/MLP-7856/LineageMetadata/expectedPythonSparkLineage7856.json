@@ -1,0 +1,397 @@
+{
+  "mssql_jdbc": {
+    "mssqlDF2.price => business_tag.price": {
+      "mode": "COPY",
+      "lineageFrom": "price",
+      "lineageTo": "price"
+    },
+    "titles.pubdate => mssqlDF2.pubdate": {
+      "mode": "COPY",
+      "lineageFrom": "pubdate",
+      "lineageTo": "pubdate"
+    },
+    "titles.advance => mssqlDF2.advance": {
+      "mode": "COPY",
+      "lineageFrom": "advance",
+      "lineageTo": "advance"
+    },
+    "titles.royalty => mssqlDF2.royalty": {
+      "mode": "COPY",
+      "lineageFrom": "royalty",
+      "lineageTo": "royalty"
+    },
+    "titles.title_id => mssqlDF2.title_id": {
+      "mode": "COPY",
+      "lineageFrom": "title_id",
+      "lineageTo": "title_id"
+    },
+    "mssqlDF2.advance => business_tag.advance": {
+      "mode": "COPY",
+      "lineageFrom": "advance",
+      "lineageTo": "advance"
+    },
+    "titles.type => mssqlDF2.type": {
+      "mode": "COPY",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "mssqlDF2.pubdate => business_tag.pubdate": {
+      "mode": "COPY",
+      "lineageFrom": "pubdate",
+      "lineageTo": "pubdate"
+    },
+    "titles.ytd_sales => mssqlDF2.ytd_sales": {
+      "mode": "COPY",
+      "lineageFrom": "ytd_sales",
+      "lineageTo": "ytd_sales"
+    },
+    "mssqlDF2.notes => business_tag.notes": {
+      "mode": "COPY",
+      "lineageFrom": "notes",
+      "lineageTo": "notes"
+    },
+    "mssqlDF2.type => business_tag.type": {
+      "mode": "COPY",
+      "lineageFrom": "type",
+      "lineageTo": "type"
+    },
+    "titles.notes => mssqlDF2.notes": {
+      "mode": "COPY",
+      "lineageFrom": "notes",
+      "lineageTo": "notes"
+    },
+    "mssqlDF2.royalty => business_tag.royalty": {
+      "mode": "COPY",
+      "lineageFrom": "royalty",
+      "lineageTo": "royalty"
+    },
+    "mssqlDF2.title => business_tag.title": {
+      "mode": "COPY",
+      "lineageFrom": "title",
+      "lineageTo": "title"
+    },
+    "titles.title => mssqlDF2.title": {
+      "mode": "COPY",
+      "lineageFrom": "title",
+      "lineageTo": "title"
+    },
+    "mssqlDF2.pub_id => business_tag.pub_id": {
+      "mode": "COPY",
+      "lineageFrom": "pub_id",
+      "lineageTo": "pub_id"
+    },
+    "mssqlDF2.ytd_sales => business_tag.ytd_sales": {
+      "mode": "COPY",
+      "lineageFrom": "ytd_sales",
+      "lineageTo": "ytd_sales"
+    },
+    "titles.pub_id => mssqlDF2.pub_id": {
+      "mode": "COPY",
+      "lineageFrom": "pub_id",
+      "lineageTo": "pub_id"
+    },
+    "titles.price => mssqlDF2.price": {
+      "mode": "COPY",
+      "lineageFrom": "price",
+      "lineageTo": "price"
+    },
+    "mssqlDF2.title_id => business_tag.title_id": {
+      "mode": "COPY",
+      "lineageFrom": "title_id",
+      "lineageTo": "title_id"
+    }
+  },
+  "mssql_overwriteandselect": {
+    "authors.zip => mssqlDF6.zip": {
+      "mode": "COPY",
+      "lineageFrom": "zip",
+      "lineageTo": "zip"
+    },
+    "authors.au_lname => mssqlDF6.au_lname": {
+      "mode": "COPY",
+      "lineageFrom": "au_lname",
+      "lineageTo": "au_lname"
+    },
+    "authors.state => mssqlDF6.state": {
+      "mode": "COPY",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    },
+    "authors.address => mssqlDF6.address": {
+      "mode": "COPY",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "mssqlDF6.address => authors_toronto.address": {
+      "mode": "COPY",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "mssqlDF6.state => authors_toronto.state": {
+      "mode": "COPY",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    },
+    "mssqlDF6.au_fname => authors_toronto.au_fname": {
+      "mode": "COPY",
+      "lineageFrom": "au_fname",
+      "lineageTo": "au_fname"
+    },
+    "authors.au_fname => mssqlDF6.au_fname": {
+      "mode": "COPY",
+      "lineageFrom": "au_fname",
+      "lineageTo": "au_fname"
+    },
+    "authors.city => mssqlDF6.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "authors.contract => mssqlDF6.contract": {
+      "mode": "COPY",
+      "lineageFrom": "contract",
+      "lineageTo": "contract"
+    },
+    "authors.au_id => mssqlDF6.au_id": {
+      "mode": "COPY",
+      "lineageFrom": "au_id",
+      "lineageTo": "au_id"
+    },
+    "authors.phone => mssqlDF6.phone": {
+      "mode": "COPY",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "mssqlDF6.au_lname => authors_toronto.au_lname": {
+      "mode": "COPY",
+      "lineageFrom": "au_lname",
+      "lineageTo": "au_lname"
+    }
+  },
+  "mssql_with_select": {
+    "titleauthor.royaltyper => mssqlDF7.royaltyper": {
+      "mode": "COPY",
+      "lineageFrom": "royaltyper",
+      "lineageTo": "royaltyper"
+    },
+    "mssqlDF7.title_id => titleauthor_created.title_id": {
+      "mode": "COPY",
+      "lineageFrom": "title_id",
+      "lineageTo": "title_id"
+    },
+    "titleauthor.title_id => mssqlDF7.title_id": {
+      "mode": "COPY",
+      "lineageFrom": "title_id",
+      "lineageTo": "title_id"
+    },
+    "titleauthor.au_id => mssqlDF7.au_id": {
+      "mode": "COPY",
+      "lineageFrom": "au_id",
+      "lineageTo": "au_id"
+    },
+    "titleauthor.au_ord => mssqlDF7.au_ord": {
+      "mode": "COPY",
+      "lineageFrom": "au_ord",
+      "lineageTo": "au_ord"
+    },
+    "mssqlDF7.au_id => titleauthor_created.au_id": {
+      "mode": "COPY",
+      "lineageFrom": "au_id",
+      "lineageTo": "au_id"
+    },
+    "mssqlDF7.au_ord => titleauthor_created.au_ord": {
+      "mode": "COPY",
+      "lineageFrom": "au_ord",
+      "lineageTo": "au_ord"
+    }
+  },
+  "mssql_jdbc_df_multiple_write": {
+    "publishers.pub_name => mssqlDF3_m2.pub_name": {
+      "mode": "COPY",
+      "lineageFrom": "pub_name",
+      "lineageTo": "pub_name"
+    },
+    "mssqlDF3_m2.city => jobs_all.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "mssqlDF3_m2.pub_id => jobs_all.pub_id": {
+      "mode": "COPY",
+      "lineageFrom": "pub_id",
+      "lineageTo": "pub_id"
+    },
+    "mssqlDF3_m2.state => jobs_all.state": {
+      "mode": "COPY",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    },
+    "jobs.job_desc => mssqlDF3.job_desc": {
+      "mode": "COPY",
+      "lineageFrom": "job_desc",
+      "lineageTo": "job_desc"
+    },
+    "mssqlDF3.job_id => jobs_onlytwocolumns.job_id": {
+      "mode": "COPY",
+      "lineageFrom": "job_id",
+      "lineageTo": "job_id"
+    },
+    "jobs.min_lvl => mssqlDF3.min_lvl": {
+      "mode": "COPY",
+      "lineageFrom": "min_lvl",
+      "lineageTo": "min_lvl"
+    },
+    "mssqlDF3.job_desc => jobs_onlytwocolumns.job_desc": {
+      "mode": "COPY",
+      "lineageFrom": "job_desc",
+      "lineageTo": "job_desc"
+    },
+    "jobs.max_lvl => mssqlDF3.max_lvl": {
+      "mode": "COPY",
+      "lineageFrom": "max_lvl",
+      "lineageTo": "max_lvl"
+    },
+    "publishers.city => mssqlDF3_m2.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "mssqlDF3.job_id => jobs_min.job_id": {
+      "mode": "COPY",
+      "lineageFrom": "job_id",
+      "lineageTo": "job_id"
+    },
+    "mssqlDF3_m2.pub_name => jobs_all.pub_name": {
+      "mode": "COPY",
+      "lineageFrom": "pub_name",
+      "lineageTo": "pub_name"
+    },
+    "publishers.state => mssqlDF3_m2.state": {
+      "mode": "COPY",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    },
+    "mssqlDF3.job_desc => jobs_min.job_desc": {
+      "mode": "COPY",
+      "lineageFrom": "job_desc",
+      "lineageTo": "job_desc"
+    },
+    "mssqlDF3_m2.country => jobs_all.country": {
+      "mode": "COPY",
+      "lineageFrom": "country",
+      "lineageTo": "country"
+    },
+    "jobs.job_id => mssqlDF3.job_id": {
+      "mode": "COPY",
+      "lineageFrom": "job_id",
+      "lineageTo": "job_id"
+    },
+    "mssqlDF3.min_lvl => jobs_min.min_lvl": {
+      "mode": "COPY",
+      "lineageFrom": "min_lvl",
+      "lineageTo": "min_lvl"
+    },
+    "publishers.country => mssqlDF3_m2.country": {
+      "mode": "COPY",
+      "lineageFrom": "country",
+      "lineageTo": "country"
+    },
+    "publishers.pub_id => mssqlDF3_m2.pub_id": {
+      "mode": "COPY",
+      "lineageFrom": "pub_id",
+      "lineageTo": "pub_id"
+    }
+  },
+  "mssql_overwrite": {
+    "authors.state => mssqlDF5.state": {
+      "mode": "COPY",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    },
+    "mssqlDF5.address => canada_author.address": {
+      "mode": "COPY",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "authors.city => mssqlDF5.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "mssqlDF5.contract => canada_author.contract": {
+      "mode": "COPY",
+      "lineageFrom": "contract",
+      "lineageTo": "contract"
+    },
+    "mssqlDF5.zip => canada_author.zip": {
+      "mode": "COPY",
+      "lineageFrom": "zip",
+      "lineageTo": "zip"
+    },
+    "authors.address => mssqlDF5.address": {
+      "mode": "COPY",
+      "lineageFrom": "address",
+      "lineageTo": "address"
+    },
+    "mssqlDF5.phone => canada_author.phone": {
+      "mode": "COPY",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "mssqlDF5.au_fname => canada_author.au_fname": {
+      "mode": "COPY",
+      "lineageFrom": "au_fname",
+      "lineageTo": "au_fname"
+    },
+    "mssqlDF5.city => canada_author.city": {
+      "mode": "COPY",
+      "lineageFrom": "city",
+      "lineageTo": "city"
+    },
+    "authors.au_lname => mssqlDF5.au_lname": {
+      "mode": "COPY",
+      "lineageFrom": "au_lname",
+      "lineageTo": "au_lname"
+    },
+    "authors.phone => mssqlDF5.phone": {
+      "mode": "COPY",
+      "lineageFrom": "phone",
+      "lineageTo": "phone"
+    },
+    "authors.zip => mssqlDF5.zip": {
+      "mode": "COPY",
+      "lineageFrom": "zip",
+      "lineageTo": "zip"
+    },
+    "mssqlDF5.au_id => canada_author.au_id": {
+      "mode": "COPY",
+      "lineageFrom": "au_id",
+      "lineageTo": "au_id"
+    },
+    "authors.au_id => mssqlDF5.au_id": {
+      "mode": "COPY",
+      "lineageFrom": "au_id",
+      "lineageTo": "au_id"
+    },
+    "authors.au_fname => mssqlDF5.au_fname": {
+      "mode": "COPY",
+      "lineageFrom": "au_fname",
+      "lineageTo": "au_fname"
+    },
+    "authors.contract => mssqlDF5.contract": {
+      "mode": "COPY",
+      "lineageFrom": "contract",
+      "lineageTo": "contract"
+    },
+    "mssqlDF5.au_lname => canada_author.au_lname": {
+      "mode": "COPY",
+      "lineageFrom": "au_lname",
+      "lineageTo": "au_lname"
+    },
+    "mssqlDF5.state => canada_author.state": {
+      "mode": "COPY",
+      "lineageFrom": "state",
+      "lineageTo": "state"
+    }
+  }
+}

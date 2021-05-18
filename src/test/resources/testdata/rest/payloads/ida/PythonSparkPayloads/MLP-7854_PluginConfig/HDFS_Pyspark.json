@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.HdfsConfiguration",
+      "name": "HdfsCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "7854_OracleAPI",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "catalogerHdfsUser": "hdfs",
+      "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+      "kerberosKrb5location": "/etc/krb5.conf",
+      "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+      "clusterManagerName": "HORTONWORKS",
+      "clusterManagerHost": "http://10.33.10.138",
+      "clusterManagerPort": "8080",
+      "clusterManagerLogin": "raj_ops",
+      "clusterManagerPassword": "raj_ops",
+      "clusterManagerApiVersion": "api/v1",
+      "scanHdfs": true,
+      "scanServices": false,
+      "analyzeCollectedData": true,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+            "label": {
+              "": "files"
+            },
+            "tags": [],
+            "root": "/python",
+            "excludeRegexp": [],
+            "fileMode": "include",
+            "fileExtensions": []
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {},
+        "maxHits": "100"
+      },
+      "resolveNameWrapper": {
+        "resolvingPluginName": "CNavigatorCataloger",
+        "resolvingPluginConfiguration": "CNavigatorCataloger"
+      },
+      "resolveClusterName": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "collector",
+      "dryRun": "false",
+      "nodeCondition": null,
+      "label": {
+        "": "Git Collector",
+        "en": "Git Collector"
+      },
+      "tags": [
+        "GitSC1"
+      ],
+      "catalogName": "Default",
+      "filter": {
+        "deltaTime": "300",
+        "filters": [
+          {
+            "label": null,
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "branch": "refs/heads/master",
+            "tags": null
+          }
+        ],
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "pluginVersion": "LATEST",
+      "credential": "GitValidCredentials",
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "projectDepth": "1",
+      "name": "Bitbucket AnalysisDemoData",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "GitCollectorDataSource"
+    }
+  ]
+}

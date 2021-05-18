@@ -1,0 +1,11 @@
+{
+  "NewEDIData": {
+    "label": {
+      "": "NewEDIData"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "NewEDIData"
+    }
+  }
+}

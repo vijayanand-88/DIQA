@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeDBCataloger_PP",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "snowflakeTag1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SnowflakeDataSourcePostprocessor",
+      "credential": "SnowflakeCredentialsPostprocessor",
+      "businessApplicationName": "",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "SnowflakeDBCataloger",
+      "schemas": [{
+        "schema": "SnowflakePostProcessor",
+        "tables": []
+      }],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

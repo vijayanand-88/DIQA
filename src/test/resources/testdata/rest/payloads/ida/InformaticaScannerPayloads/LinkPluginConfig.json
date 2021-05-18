@@ -1,0 +1,362 @@
+{
+  "LoggingLevel_Severe": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_Severe",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "SEVERE",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  },
+  "LoggingLevel_Warning": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_Warning",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "WARNING",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  },
+  "LoggingLevel_Info": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_Info",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "INFO",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  },
+  "LoggingLevel_Config": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_Config",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "CONFIG",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  },
+  "LoggingLevel_Fine": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_Fine",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "FINE",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  },
+  "LoggingLevel_Finer": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_Finer",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "FINER",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  },
+  "LoggingLevel_Finest": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_Finest",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "FINEST",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  },
+  "LoggingLevel_Off": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_Off",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "OFF",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  },
+  "LoggingLevel_All": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Link_All",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/scaninformatica/V226/lib/ds-utils.jar;${rochade.home}/scaninformatica/V226/lib/linker-common.jar;${rochade.home}/scaninformatica/V226/lib/SQL2XML.jar;${rochade.home}/scaninformatica/V226/lib/InformaticaLinker.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/rochade.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "type": "Other",
+        "LogLevel": "ALL",
+        "DB2CLIfile": "",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Link",
+        "ODBCfile": "",
+        "ScannerBin": "${rochade.home}/scaninformatica/V226/binSQL",
+        "ScannerLib": "${rochade.home}/scaninformatica/V226/lib",
+        "arguments": [],
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "LineageHop_1": {
+    "source": ["catname"],
+    "target": ["catname"]
+  },
+  "LineageHop_2": {
+    "source": ["catid"],
+    "target": ["catid"]
+  },
+  "LineageHop_3": {
+    "source": ["catdesc"],
+    "target": ["catdesc"]
+  },
+  "LineageHop_4": {
+    "source": ["catgroup"],
+    "target": ["catgroup"]
+  },
+  "LineageHop1_1": {
+    "source": ["catgroup"],
+    "target": ["catname"]
+  },
+  "LineageHop1_2": {
+    "source": ["catid"],
+    "target": ["catgroup"]
+  },
+  "LineageHop1_3": {
+    "source": ["catname"],
+    "target": ["catid"]
+  }
+}

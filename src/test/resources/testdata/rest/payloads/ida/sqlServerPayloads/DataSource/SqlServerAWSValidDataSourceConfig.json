@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SqlServerValidDataSource",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "ValidSqlServerCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+      "pluginName": "SQLServerDBDataSource",
+      "driverBundleName": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+      "url": "jdbc:sqlserver://ddsqlserver.cshey0cobobn.us-east-1.rds.amazonaws.com:1521;databaseName=TestDatabase;"
+    },
+	{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SqlServerValidDataSource_TEST_DEFAULT_CONFIGURATION",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": null,
+      "filter": null,
+      "driver": null,
+	  "pluginName": "SQLServerDBDataSource",
+	  "driverBundleName": null,
+      "url": null
+    }
+  ]
+}

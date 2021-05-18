@@ -1,0 +1,76 @@
+{
+  "glueredshifttable": [
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactname",
+      "dir": "->",
+      "target": "contactname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactname",
+      "dir": "->",
+      "target": "contactname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customername",
+      "dir": "->",
+      "target": "customername"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customername",
+      "dir": "->",
+      "target": "customername"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customers",
+      "dir": "->",
+      "target": "glueredshifttable"
+    },
+    {
+      "mode": "VIEW",
+      "source": "glueredshifttable",
+      "dir": "->",
+      "target": "customers"
+    },
+    {
+      "mode": "VIEW",
+      "source": "postalcode",
+      "dir": "->",
+      "target": "postalcode"
+    },
+    {
+      "mode": "VIEW",
+      "source": "postalcode",
+      "dir": "->",
+      "target": "postalcode"
+    }
+  ]
+}

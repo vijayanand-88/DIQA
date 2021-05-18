@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DryRun_DDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "DryRun_Anlayzer"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "DYNAMODB_BA",
+      "dryRun": true,
+      "filter": null,
+      "histogramBuckets": 10,
+      "tables": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

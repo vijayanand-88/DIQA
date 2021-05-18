@@ -1,0 +1,203 @@
+{
+  "DefaultTestConnectionConfig": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgressValidDataSource_TEST_DEFAULT_CONFIGURATION",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": null,
+    "filter": null,
+    "driver": null,
+    "pluginName": "PostgreSQLDBDataSource",
+    "driverBundleName": null,
+    "url": null
+  },
+  "PostgresDS1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgresDS1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "ValidPostgressCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "driver": "org.postgresql.Driver",
+    "pluginName": "PostgreSQLDBDataSource",
+    "driverBundleName": "org.postgresql.jdbc",
+    "url": "jdbc:postgresql://dechewindock01v.asg.com:5433/postgres"
+  },
+  "PostgresDS2": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgresDS2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "datasource",
+    "dataSource": null,
+    "credential": "ValidPostgressCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "driver": "org.postgresql.Driver",
+    "pluginName": "PostgreSQLDBDataSource",
+    "driverBundleName": "org.postgresql.jdbc",
+    "url": "jdbc:postgresql://dechewindock01v.asg.com:5433/dvdrental"
+  },
+  "PostgressPlugin_postgres_DB": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgressPlugin_postgres_DB",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "PostgressPlugin_postgres_DB"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "PostgresDS1",
+    "credential": "ValidPostgressCredentials",
+    "businessApplicationName": "Postgress_BA",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PostgreSQLDBCataloger",
+    "schemas": [
+      {
+        "schema": "postgresstestschema",
+        "tables": [
+          {
+            "table": "DiffDataTypesMinimized"
+          },
+          {
+            "table": "DiffDataTypes"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "PostgressPlugin_DVDRENTAL_DB": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgressPlugin_DVDRENTAL_DB",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "PostgressPlugin_DVDRENTAL_DB"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "PostgresDS2",
+    "credential": "ValidPostgressCredentials",
+    "businessApplicationName": "Postgress_BA",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "PostgreSQLDBCataloger",
+    "schemas": [
+      {
+        "schema": "public",
+        "tables": [
+          {
+            "table": "city"
+          },
+          {
+            "table": "country"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "PostgressAnalyzerDiffDatabaseTableFilter": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgressAnalyzerDiffDatabaseTableFilter",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "PostgressAnalyzerDiffDatabaseTableFilter"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "PostgressBA",
+    "dryRun": false,
+    "filter": null,
+    "histogramBuckets": 100,
+    "database": null,
+    "pluginName": "PostgreSQLDBAnalyzer",
+    "queryBatchSize": 1,
+    "sampleDataCount": 10,
+    "schemas": [
+      {
+        "schema": "public",
+        "tables": [
+          {
+            "table": "city"
+          },
+          {
+            "table": "country"
+          }
+        ]
+      },
+      {
+        "schema": "postgresstestschema",
+        "tables": [
+          {
+            "table": "DiffDataTypesMinimized"
+          },
+          {
+            "table": "DiffDataTypes"
+          }
+        ]
+      }
+    ],
+    "type": "Dataanalyzer",
+    "topValues": 10
+  }
+}

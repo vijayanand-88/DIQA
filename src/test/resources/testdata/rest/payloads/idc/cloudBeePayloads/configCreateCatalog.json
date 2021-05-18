@@ -1,0 +1,11 @@
+{
+  "TESTCLOUDBEE CATALOG": {
+    "label": {
+      "": "TESTCLOUDBEE CATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "TESTCLOUDBEE CATALOG"
+    }
+  }
+}

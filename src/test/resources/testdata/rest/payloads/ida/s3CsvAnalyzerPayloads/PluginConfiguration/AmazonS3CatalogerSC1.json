@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CatalogAmazonS3"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonS3DataSource",
+      "credential": "ValidCsvReadWriteCredentials",
+      "businessApplicationName": "Test_BA_CsvS3Analyzer",
+      "dryRun": false,
+      "filter": null,
+      "keepEmptyFolders": false,
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "pluginName": "AmazonS3Cataloger",
+      "incremental": true,
+      "type": "Cataloger",
+      "bucketFilter": {
+        "mode": "INCLUDE",
+        "patterns": [
+          "asgqacsvanalyzer",
+          "asgqacsvanalyzerb2"
+        ],
+        "objectFilter": {
+          "dirFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "fileFilter": {
+            "mode": "INCLUDE",
+            "patterns": []
+          },
+          "dirPrefixes": []
+        }
+      }
+    }
+  ]
+}

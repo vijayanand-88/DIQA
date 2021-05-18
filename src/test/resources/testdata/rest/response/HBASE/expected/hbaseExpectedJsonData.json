@@ -1,0 +1,294 @@
+{
+  "MetaData": {
+    "totalCount": 8,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 7,
+          "value": "Column"
+        },
+        {
+          "count": 1,
+          "value": "Table"
+        }
+      ]
+    },
+    "hostMetaData": {
+      "name": "10.33.6.130",
+      "NumberofCores": 0,
+      "HostName": "10.33.6.130",
+      "taglist": {
+        "values": [
+          {
+            "techTag": "HBase"
+          },
+          {
+            "techTag": "SC1_Hbase"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "clusterMetaData": {
+      "name": "LocalNodel",
+      "table": {
+        "values": [
+          {
+            "type": "Hosts",
+            "name": ""
+          },
+          {
+            "type": "Services",
+            "name": "HBASE"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "HBase"
+            },
+            {
+              "techTag": "SC1_Hbase"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "serviceMetaData": {
+      "name": "HBASE",
+      "applicationVersion": "",
+      "table": {
+        "values": [
+          {
+            "type": "Databases",
+            "name": "default"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "HBase"
+            },
+            {
+              "techTag": "SC1_Hbase"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "databaseMetaData": {
+      "name": "default",
+      "storageType": "",
+      "table": {
+        "values": [
+          {"ATLAS_ENTITY_AUDIT_EVENTS": {
+            "type": "Tables",
+            "name": "ATLAS_ENTITY_AUDIT_EVENTS"
+          }
+          },
+          {"atlas_titan": {
+            "type": "Tables",
+            "name": "atlas_titan"
+          }
+          },
+          {"employee": {
+            "type": "Tables",
+            "name": "employee"
+          }
+          },
+          {"iemployee": {
+            "type": "Tables",
+            "name": "iemployee"
+          }
+          },
+          {"information": {
+            "type": "Tables",
+            "name": "information"
+          }
+          },
+          {"products": {
+            "type": "Tables",
+            "name": "products"
+          }
+          },
+          {"qa_emp": {
+            "type": "Tables",
+            "name": "qa_emp"
+          }
+          },
+          {"qa_emp_filter": {
+            "type": "Tables",
+            "name": "qa_emp_filter"
+          }
+          },
+          {"qa_emp_wr1": {
+            "type": "Tables",
+            "name": "qa_emp_wr1"
+          }
+          },
+          {"qa_emp_wr2": {
+            "type": "Tables",
+            "name": "qa_emp_wr2"
+          }
+          },
+          {"qa_overwrite": {
+            "type": "Tables",
+            "name": "qa_overwrite"
+          }
+          },
+          {"sample_namespace_employee": {
+            "type": "Tables",
+            "name": "sample_namespace_employee"
+          }
+          },
+          {"table": {
+            "type": "Tables",
+            "name": "table"
+          }
+          },
+          {"testemployee": {
+            "type": "Tables",
+            "name": "testemployee"
+          }
+          }, {"testtable": {
+            "type": "Tables",
+            "name": "testtable"
+          }
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "HBase"
+            },
+            {
+              "techTag": "SC1_Hbase"
+            }
+          ]
+        }
+      }
+    },
+    "tableMetaData": {
+      "name": "Table1",
+      "tableType": "TABLE",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "_id"
+          },
+          {
+            "type": "Columns",
+            "name": "collectionName"
+          },
+          {
+            "type": "Columns",
+            "name": "emailId"
+          },
+          {
+            "type": "Columns",
+            "name": "phoneNo"
+          },
+          {
+            "type": "Constraints",
+            "name": "TABLE1_PRIMARYKEY"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "HBase"
+            },
+            {
+              "techTag": "SC1_Hbase"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "constraintMetaData": {
+      "name": "TABLE1_PRIMARYKEY",
+      "constraintType": "PRIMARY_KEY",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "_id"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "HBase"
+            },
+            {
+              "techTag": "SC1_Hbase"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    },
+    "columnMetaData": {
+      "name": "emailId",
+      "breadCrumbs": {
+        "values": [
+          {
+            "name": "10.33.6.130",
+            "tooltip": "10.33.6.130 [Cluster]"
+          },
+          {
+            "name": "MONGODB",
+            "tooltip": "MONGODB [Service]"
+          },
+          {
+            "name": "SampleDB",
+            "tooltip": "SampleDB [Database]"
+          },
+          {
+            "name": "Table1",
+            "tooltip": "Table1 [Table]"
+          },
+          {
+            "name": "emailId",
+            "tooltip": "emailId [Column]"
+          }
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "HBase"
+            },
+            {
+              "techTag": "SC1_Hbase"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    }
+  }
+}

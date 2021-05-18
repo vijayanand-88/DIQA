@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitSpark_SnowflakeDS",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "GitSparkCredentials",
+      "filter": null,
+      "url": "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git"
+    }
+  ]
+}

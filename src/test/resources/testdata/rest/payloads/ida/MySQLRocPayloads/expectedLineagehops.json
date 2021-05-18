@@ -1,0 +1,706 @@
+{
+  "mysqlviewtomultipletable": [
+    {
+      "mode": "VIEW",
+      "source": "orderDate",
+      "dir": "<-",
+      "target": "orderDate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "<-",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "paymentDate",
+      "dir": "<-",
+      "target": "paymentDate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "<-",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "paymentDate",
+      "dir": "<-",
+      "target": "paymentDate"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "orderNumber",
+      "dir": "<-",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "amount",
+      "dir": "<-",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "<-",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "<-",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderDate",
+      "dir": "<-",
+      "target": "orderDate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderDate",
+      "dir": "->",
+      "target": "orderDate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "->",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "paymentDate",
+      "dir": "->",
+      "target": "paymentDate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "->",
+      "target": "amount"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "orderNumber",
+      "dir": "->",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "paymentDate",
+      "dir": "->",
+      "target": "paymentDate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "->",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "->",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderDate",
+      "dir": "->",
+      "target": "orderDate"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "amount",
+      "dir": "->",
+      "target": "amount"
+    }
+  ],
+  "mysqlviewtosingletable": [
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "<-",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "creditLimit",
+      "dir": "<-",
+      "target": "creditLimit"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactFirstName",
+      "dir": "<-",
+      "target": "contactFirstName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactLastName",
+      "dir": "<-",
+      "target": "contactLastName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "addressLine2",
+      "dir": "<-",
+      "target": "addressLine2"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "<-",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "addressLine1",
+      "dir": "<-",
+      "target": "addressLine1"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "<-",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customerName",
+      "dir": "<-",
+      "target": "customerName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customerNumber",
+      "dir": "<-",
+      "target": "customerNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "creditLimit",
+      "dir": "<-",
+      "target": "creditLimit"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactLastName",
+      "dir": "<-",
+      "target": "contactLastName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "<-",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "<-",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactFirstName",
+      "dir": "<-",
+      "target": "contactFirstName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "addressLine1",
+      "dir": "<-",
+      "target": "addressLine1"
+    },
+    {
+      "mode": "VIEW",
+      "source": "addressLine2",
+      "dir": "<-",
+      "target": "addressLine2"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "<-",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customerName",
+      "dir": "<-",
+      "target": "customerName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customerNumber",
+      "dir": "<-",
+      "target": "customerNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "creditLimit",
+      "dir": "->",
+      "target": "creditLimit"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactFirstName",
+      "dir": "->",
+      "target": "contactFirstName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactLastName",
+      "dir": "->",
+      "target": "contactLastName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "addressLine2",
+      "dir": "->",
+      "target": "addressLine2"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "addressLine1",
+      "dir": "->",
+      "target": "addressLine1"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customerName",
+      "dir": "->",
+      "target": "customerName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customerNumber",
+      "dir": "->",
+      "target": "customerNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customerName",
+      "dir": "->",
+      "target": "customerName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "customerNumber",
+      "dir": "->",
+      "target": "customerNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "creditLimit",
+      "dir": "->",
+      "target": "creditLimit"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactLastName",
+      "dir": "->",
+      "target": "contactLastName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "contactFirstName",
+      "dir": "->",
+      "target": "contactFirstName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "addressLine1",
+      "dir": "->",
+      "target": "addressLine1"
+    },
+    {
+      "mode": "VIEW",
+      "source": "addressLine2",
+      "dir": "->",
+      "target": "addressLine2"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "state"
+    }
+  ],
+  "mysqlviewtoviewandviewtotable": [
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "<-",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "schoolname",
+      "dir": "<-",
+      "target": "schoolname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "schoolid",
+      "dir": "<-",
+      "target": "schoolid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "<-",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "studentid",
+      "dir": "<-",
+      "target": "studentid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "<-",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "<-",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "<-",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "schoolid",
+      "dir": "<-",
+      "target": "schoolid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "schoolname",
+      "dir": "<-",
+      "target": "schoolname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "<-",
+      "target": "name"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "orderNumber",
+      "dir": "<-",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "studentid",
+      "dir": "<-",
+      "target": "studentid"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "amount",
+      "dir": "<-",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "<-",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "<-",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "->",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "schoolname",
+      "dir": "->",
+      "target": "schoolname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "schoolid",
+      "dir": "->",
+      "target": "schoolid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "->",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "studentid",
+      "dir": "->",
+      "target": "studentid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "->",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "->",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "orderNumber",
+      "dir": "->",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "VIEW",
+      "source": "schoolid",
+      "dir": "->",
+      "target": "schoolid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "schoolname",
+      "dir": "->",
+      "target": "schoolname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "studentid",
+      "dir": "->",
+      "target": "studentid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "amount",
+      "dir": "->",
+      "target": "amount"
+    },
+    {
+      "mode": "VIEW",
+      "source": "orderNumber",
+      "dir": "->",
+      "target": "orderNumber"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "amount",
+      "dir": "->",
+      "target": "amount"
+    }
+  ],
+  "childcityview": [
+    {
+      "mode": "VIEW",
+      "source": "countryid",
+      "dir": "<-",
+      "target": "countryid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "<-",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cityid",
+      "dir": "<-",
+      "target": "cityid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "countryid",
+      "dir": "<-",
+      "target": "countryid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "<-",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cityid",
+      "dir": "<-",
+      "target": "cityid"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "cityid",
+      "dir": "<-",
+      "target": "cityid"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "countryid",
+      "dir": "<-",
+      "target": "countryid"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "city",
+      "dir": "<-",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "countryid",
+      "dir": "<-",
+      "target": "countryid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "<-",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cityid",
+      "dir": "<-",
+      "target": "cityid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "countryid",
+      "dir": "->",
+      "target": "countryid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cityid",
+      "dir": "->",
+      "target": "cityid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "countryid",
+      "dir": "->",
+      "target": "countryid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cityid",
+      "dir": "->",
+      "target": "cityid"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "cityid",
+      "dir": "->",
+      "target": "cityid"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "countryid",
+      "dir": "->",
+      "target": "countryid"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "countryid",
+      "dir": "->",
+      "target": "countryid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cityid",
+      "dir": "->",
+      "target": "cityid"
+    }
+  ]
+}

@@ -1,0 +1,1918 @@
+{
+  "caption" : {
+    "name" : "onlyPython",
+    "type" : "BusinessApplication",
+    "id" : "Default.BusinessApplication:::3401",
+    "actions" : [ {
+      "class" : "com.asg.dis.platform.data.component.itemview.dom.ItemAction",
+      "name" : "edit-item",
+      "requiredPermissions" : [ "DATA_MODIFY" ],
+      "label" : "Edit",
+      "disabled" : false,
+      "requiredUsers" : [ ],
+      "requiredRoles" : [ ],
+      "params" : {
+        "historyItemId" : null,
+        "catalog" : "Default",
+        "name" : "onlyPython",
+        "id" : "Default.BusinessApplication%3A%3A%3A3401",
+        "type" : "BusinessApplication"
+      }
+    }, {
+      "class" : "com.asg.dis.platform.data.component.itemview.dom.DeleteItemAction",
+      "name" : "delete-item",
+      "localizedLabel" : {
+        "" : "Delete"
+      },
+      "endpoint" : "/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+      "requiredPermissions" : [ "DATA_DELETE" ],
+      "label" : "Delete",
+      "icon" : "fa fa-trash-o",
+      "disabled" : false,
+      "requiredUsers" : [ ],
+      "requiredRoles" : [ ],
+      "params" : {
+        "historyItemId" : null,
+        "catalog" : "Default",
+        "name" : "onlyPython",
+        "id" : "Default.BusinessApplication%3A%3A%3A3401",
+        "type" : "BusinessApplication"
+      }
+    } ],
+    "editableIcon" : false,
+    "editURL" : "services/items/Default/root?allowUpdate=true",
+    "breadCrumbs" : [ {
+      "name" : "onlyPython",
+      "tooltip" : "onlyPython [BusinessApplication]",
+      "id" : "Default.BusinessApplication:::3401"
+    } ],
+    "historyVersion" : null,
+    "editableName" : true,
+    "refreshItemOnChangeEndpoint" : null,
+    "quality" : {
+      "message" : "Not applicable",
+      "color" : "#A59C9C",
+      "value" : 0.0
+    }
+  },
+  "data" : [ {
+    "category" : "Business",
+    "preview" : true,
+    "data" : [ {
+      "type" : "user-with-avatar",
+      "caption" : "Business Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "businessOwners" : [ ],
+            "clickable" : true
+          }
+        },
+        "attributeName" : "businessOwners",
+        "editable" : true,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::3401",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Details",
+      "data" : {
+        "attributes" : [ {
+          "type" : "string",
+          "caption" : "Application ID",
+          "data" : {
+            "value" : null,
+            "attributeName" : "applicationId",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Acronym",
+          "data" : {
+            "value" : null,
+            "attributeName" : "acronym",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "date",
+          "caption" : "Profile Date",
+          "data" : {
+            "value" : "2020-08-20T07:33:28.994+0000",
+            "attributeName" : "profileDate",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Business Criticality",
+          "data" : {
+            "value" : null,
+            "attributeName" : "businessCriticality",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "High", "Medium", "Low" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "# of Users",
+          "data" : {
+            "value" : null,
+            "attributeName" : "usersCount",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Location",
+          "data" : {
+            "value" : null,
+            "attributeName" : "location",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Data Center", "None" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Data Source Origin",
+          "data" : {
+            "value" : null,
+            "attributeName" : "dataSourceOrigin",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Internal", "External" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Internal/External (Third Party)",
+          "data" : {
+            "value" : null,
+            "attributeName" : "intExt",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Internal", "External" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Authoritative Source",
+          "data" : {
+            "value" : null,
+            "attributeName" : "authoritativeSource",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Data Domain",
+          "data" : {
+            "value" : null,
+            "attributeName" : "dataDomain",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Data Classification",
+          "data" : {
+            "value" : null,
+            "attributeName" : "dataClassification",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Restricted", "Confidential", "Internal", "Public" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Personal Data",
+          "data" : {
+            "value" : null,
+            "attributeName" : "pii",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No", "Unknown" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Tier Level",
+          "data" : {
+            "value" : null,
+            "attributeName" : "tierLevel",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ 1, 2, 3, 4 ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Department",
+          "data" : {
+            "value" : null,
+            "attributeName" : "businessDepartment",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Business Line",
+          "data" : {
+            "value" : null,
+            "attributeName" : "businessSection",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "html",
+      "caption" : "Description",
+      "data" : {
+        "value" : null,
+        "attributeName" : "description",
+        "editable" : true,
+        "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 3,
+        "width" : 4,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Architecture",
+    "preview" : false,
+    "data" : [ {
+      "type" : "user-with-avatar",
+      "caption" : "Technology Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "technologyOwners" : [ ],
+            "clickable" : true
+          }
+        },
+        "attributeName" : "technologyOwners",
+        "editable" : true,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::3401",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Details",
+      "data" : {
+        "attributes" : [ {
+          "type" : "date",
+          "caption" : "Last Certified",
+          "data" : {
+            "value" : null,
+            "attributeName" : "lastCertified",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Status",
+          "data" : {
+            "value" : null,
+            "attributeName" : "applicationStatus",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Active", "Inactive" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Technical Environment",
+      "data" : {
+        "attributes" : [ {
+          "type" : "multi-select-list",
+          "caption" : "Environment",
+          "data" : {
+            "value" : null,
+            "attributeName" : "environment",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "On Prem", "Cloud", "Hybrid", "Other" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "multi-select-list",
+          "caption" : "Environment Type",
+          "data" : {
+            "value" : null,
+            "attributeName" : "environmentType",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "AWS", "Azure", "Google", "Multi-Cloud" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Deployment Style",
+          "data" : {
+            "value" : null,
+            "attributeName" : "deploymentStyle",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Public", "Private" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Platforms",
+      "data" : {
+        "attributes" : [ {
+          "type" : "multi-select-list",
+          "caption" : "Platforms",
+          "data" : {
+            "value" : null,
+            "attributeName" : "platform",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Cross-Platforms", "Mac", "Other", "Unix", "Windows" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "date",
+          "caption" : "EOL Date (Platform)",
+          "data" : {
+            "value" : null,
+            "attributeName" : "platformEolDate",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Current Version?",
+          "data" : {
+            "value" : null,
+            "attributeName" : "platformCurrentVersion",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Platform Version",
+          "data" : {
+            "value" : null,
+            "attributeName" : "platformVersion",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Languages",
+      "data" : {
+        "attributes" : [ {
+          "type" : "multi-select-list",
+          "caption" : "Languages",
+          "data" : {
+            "value" : null,
+            "attributeName" : "language",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "ASP", "Assembly", "Basic/Visual Basic", "Bourne Shell", "C", "C#", "HTML", "JAVA", "JSP", "Multi", "Oracle", "Python", "Sybase", "Other" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "date",
+          "caption" : "EOL Date (Language)",
+          "data" : {
+            "value" : null,
+            "attributeName" : "languageEolDate",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Current Version?",
+          "data" : {
+            "value" : null,
+            "attributeName" : "languageCurrentVersion",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Language Version",
+          "data" : {
+            "value" : null,
+            "attributeName" : "languageVersion",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Deployment",
+      "data" : {
+        "attributes" : [ {
+          "type" : "list",
+          "caption" : "Host Architecture",
+          "data" : {
+            "value" : null,
+            "attributeName" : "hostArchitecture",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "multi-select-list",
+          "caption" : "SDLC Environments",
+          "data" : {
+            "value" : null,
+            "attributeName" : "sdlcEnvironment",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Staging/Dev", "Test", "DR", "Production" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Location",
+          "data" : {
+            "value" : null,
+            "attributeName" : "location",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Data Center", "None" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "date",
+          "caption" : "Deployment in Production",
+          "data" : {
+            "value" : null,
+            "attributeName" : "deploymentProduction",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Services/Interfaces",
+      "data" : {
+        "attributes" : [ {
+          "type" : "list",
+          "caption" : "Services/Interfaces",
+          "data" : {
+            "value" : null,
+            "attributeName" : "servicesInterfaces",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Input/Output Architecture",
+          "data" : {
+            "value" : null,
+            "attributeName" : "ioArchitecture",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Input", "Output", "Multi" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "multi-select-list",
+          "caption" : "Interfaces Protocol",
+          "data" : {
+            "value" : null,
+            "attributeName" : "interfaceProtocol",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "FTP", "SFTP", "Multi", "Other" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Method",
+          "data" : {
+            "value" : null,
+            "attributeName" : "servicesMethod",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Secure", "Insecure" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Support",
+    "preview" : false,
+    "data" : [ {
+      "type" : "user-with-avatar",
+      "caption" : "Relationship Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "relationshipOwners" : [ ]
+          }
+        },
+        "attributeName" : "relationshipOwners",
+        "editable" : true,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::3401",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Third Party Service Provider",
+      "data" : {
+        "attributes" : [ {
+          "type" : "string",
+          "caption" : "Third Party Name",
+          "data" : {
+            "value" : null,
+            "attributeName" : "thirdPartyName",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "Description of Vendor",
+          "data" : {
+            "value" : null,
+            "attributeName" : "thirdPartyDescription",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Details",
+      "data" : {
+        "attributes" : [ {
+          "type" : "list",
+          "caption" : "Access to Confidential Data",
+          "data" : {
+            "value" : null,
+            "attributeName" : "accessConfidentialData",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Application Stability/Activity",
+      "data" : {
+        "attributes" : [ {
+          "type" : "string",
+          "caption" : "# of Issues",
+          "data" : {
+            "value" : null,
+            "attributeName" : "issuesCount",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Issues Frequency",
+          "data" : {
+            "value" : null,
+            "attributeName" : "issuesFrequency",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Daily", "Weekly", "Monthly", "Quarterly", "Yearly" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "string",
+          "caption" : "# of Changes",
+          "data" : {
+            "value" : null,
+            "attributeName" : "changesCount",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Changes Frequency",
+          "data" : {
+            "value" : null,
+            "attributeName" : "changesFrequency",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Daily", "Weekly", "Monthly", "Quarterly", "Yearly" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Changes Batched For Release",
+          "data" : {
+            "value" : null,
+            "attributeName" : "batchedForRelease",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Security",
+    "preview" : false,
+    "data" : [ {
+      "type" : "user-with-avatar",
+      "caption" : "Security Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "securityOwners" : [ ]
+          }
+        },
+        "attributeName" : "securityOwners",
+        "editable" : true,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::3401",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Entitlements",
+      "data" : {
+        "attributes" : [ {
+          "type" : "list",
+          "caption" : "Entitlements",
+          "data" : {
+            "value" : null,
+            "attributeName" : "entitlement",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Platform Access",
+          "data" : {
+            "value" : null,
+            "attributeName" : "platformAccess",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Application", "Database", "Multi", "Operating System" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Level of Access",
+          "data" : {
+            "value" : null,
+            "attributeName" : "accessLevel",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Read", "Update", "N/A" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Role of ISA",
+          "data" : {
+            "value" : null,
+            "attributeName" : "isaRole",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Provision", "Reconcile", "Both" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Audit Logging",
+          "data" : {
+            "value" : null,
+            "attributeName" : "auditLog",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Yes", "No" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Compliance",
+    "preview" : false,
+    "data" : [ {
+      "type" : "user-with-avatar",
+      "caption" : "Compliance Owners",
+      "data" : {
+        "value" : {
+          "attributes" : {
+            "clickable" : true,
+            "complianceOwners" : [ ]
+          }
+        },
+        "attributeName" : "complianceOwners",
+        "editable" : true,
+        "endpoint" : "services/items/Default/Default.BusinessApplication:::3401",
+        "modified" : false,
+        "others" : { }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Security Standards",
+      "data" : {
+        "attributes" : [ {
+          "type" : "list",
+          "caption" : "Sensitive Data",
+          "data" : {
+            "value" : null,
+            "attributeName" : "sensitiveData",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Manage to Production Standards", "Obfuscate Sensitive Data", "Not Performed" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "Security Classification",
+          "data" : {
+            "value" : null,
+            "attributeName" : "securityClassification",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "Confidential", "Internal", "Public", "Restricted" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        }, {
+          "type" : "list",
+          "caption" : "IS Risk",
+          "data" : {
+            "value" : null,
+            "attributeName" : "isRisk",
+            "editable" : true,
+            "endpoint" : "services/items/Default/Default.BusinessApplication%3A%3A%3A3401",
+            "modified" : false,
+            "others" : {
+              "availableValues" : [ "High", "Medium", "Low", "Unknown" ]
+            }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 1,
+            "width" : 2,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : true,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Data Asset",
+    "preview" : false,
+    "data" : [ {
+      "type" : "data-asset",
+      "caption" : "Total number of Assigned Data Elements:",
+      "data" : {
+        "lastUpdateDate" : "2020-08-20T07:33:28.939",
+        "technologyCounts" : [ {
+          "name" : "Amazon S3",
+          "value" : 19
+        } ],
+        "totalCount" : 19
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Capture",
+    "preview" : false,
+    "data" : [ {
+      "type" : "data-statistics",
+      "caption" : "Data Statistics",
+      "data" : [ {
+        "id" : "AmazonS3Cataloger:AmazonS3Catalog",
+        "configurationName" : "AmazonS3Catalog",
+        "pluginName" : "AmazonS3Cataloger",
+        "pluginType" : "cataloger",
+        "lastRun" : "2020-08-20T07:33:03.332",
+        "totalCount" : 19,
+        "typeCounts" : {
+          "File" : 10,
+          "Cluster" : 1,
+          "Service" : 1,
+          "Analysis" : 1,
+          "Directory" : 6
+        },
+        "nodeName" : "GoogleCloud",
+        "catalogName" : "Default",
+        "status" : "IDLE"
+      }, {
+        "id" : "AmazonS3Cataloger:AmazonS3Catalog",
+        "configurationName" : "AmazonS3Catalog",
+        "pluginName" : "AmazonS3Cataloger",
+        "pluginType" : "cataloger",
+        "lastRun" : "2020-08-20T07:33:03.332",
+        "totalCount" : 19,
+        "typeCounts" : {
+          "File" : 10,
+          "Cluster" : 1,
+          "Service" : 1,
+          "Analysis" : 1,
+          "Directory" : 6
+        },
+        "nodeName" : "LocalNode",
+        "catalogName" : "Default",
+        "status" : "IDLE"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  } ],
+  "sideBar" : {
+    "widgets" : [ {
+      "type" : "rating",
+      "caption" : "Rating",
+      "data" : {
+        "content" : {
+          "ratingCount" : 0,
+          "averageRating" : 0.0,
+          "userRating" : 0,
+          "ratings" : [ ],
+          "maxValue" : 5
+        },
+        "links" : {
+          "add" : {
+            "value" : "/ratings/Default/Default.BusinessApplication:::3401/",
+            "params" : { }
+          },
+          "get" : {
+            "value" : "/ratings/Default/Default.BusinessApplication:::3401/",
+            "params" : { }
+          },
+          "delete" : {
+            "value" : "/ratings/Default/Default.BusinessApplication:::3401/",
+            "params" : { }
+          }
+        }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "pure-ui",
+      "caption" : "Completeness",
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : {
+        "type" : "completeness",
+        "others" : {
+          "colorCodes" : {
+            "sad" : "#f90707",
+            "smile" : "#93DA49",
+            "noSpeech" : "#f8d106"
+          },
+          "rangeValues" : {
+            "maxSadValue" : 39,
+            "minSadValue" : 0,
+            "maxSmileValue" : 100,
+            "minSmileValue" : 80,
+            "maxNoSpeechValue" : 79,
+            "minNoSpeechValue" : 40
+          },
+          "smileyCodes" : {
+            "sad" : "fal fa-frown",
+            "smile" : "fal fa-smile",
+            "noSpeech" : "fal fa-meh"
+          }
+        }
+      }
+    }, {
+      "type" : "taglist",
+      "caption" : "Tags",
+      "data" : [ ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "topBar" : {
+    "widgets" : [ {
+      "type" : "trust",
+      "caption" : "Trust Score",
+      "data" : {
+        "score" : 0.0,
+        "factors" : [ {
+          "factor" : "Authoritative Source",
+          "filter" : "authoritativeSource",
+          "contribution" : 0.0,
+          "dimension" : "Governance"
+        }, {
+          "factor" : "Business Criticality",
+          "filter" : "businessCriticality:High=5,Medium=3,Low=1",
+          "contribution" : 0.0,
+          "dimension" : "Governance"
+        }, {
+          "factor" : "Business Owner",
+          "filter" : "businessOwners",
+          "contribution" : 0.0,
+          "dimension" : "Governance"
+        }, {
+          "factor" : "Capture",
+          "filter" : "data=2,cataloger=4,dataanalyzer=5",
+          "contribution" : 0.0,
+          "dimension" : "Technical"
+        }, {
+          "factor" : "Data Classification",
+          "filter" : "dataClassification:Restricted=1,Confidential=1,Internal=1",
+          "contribution" : 0.0,
+          "dimension" : "Governance"
+        }, {
+          "factor" : "Data Quality",
+          "filter" : "90=2,60=3,30=4,-1=5",
+          "contribution" : 0.0,
+          "dimension" : "Intelligence"
+        }, {
+          "factor" : "Lineage",
+          "filter" : null,
+          "contribution" : 0.0,
+          "dimension" : "Technical"
+        }, {
+          "factor" : "Linked Items",
+          "filter" : "name",
+          "contribution" : 0.0,
+          "dimension" : "Governance"
+        }, {
+          "factor" : "PII",
+          "filter" : "pii",
+          "contribution" : 0.0,
+          "dimension" : "Governance"
+        } ]
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "hierarchy" : [ {
+    "label" : "onlyPython",
+    "children" : [ ]
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "tableName": "company_table",
+  "description": "Table Description",
+  "database": "sourcedb511a",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "id1",
+        "type": "bigint",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqatestautomation4/SourceFiles/Source511/Company_Table",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "id1",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "company profit",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "serving since",
+          "type": "bigint",
+          "comment": ""
+        }
+
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+}

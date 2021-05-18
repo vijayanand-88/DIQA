@@ -1,0 +1,11 @@
+{
+  "8130_SnowflakeAPI": {
+    "label": {
+      "": "8130_SnowflakeAPI"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "8130_SnowflakeAPI"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+"configurations": [{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "AzureInvalidPK",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "AzureInvalidPK",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "filter": null,
+  "database": "testSqlDatabase8",
+  "tables": [],
+  "host": "asgsqlcosmos.documents.azure.com",
+  "user": "Devi.Niranjani@asg.com",
+  "primarykey": "test"
+}
+]
+}

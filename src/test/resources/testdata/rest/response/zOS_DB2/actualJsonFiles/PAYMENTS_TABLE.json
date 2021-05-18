@@ -1,0 +1,1 @@
+{"PAYMENTS_TABLE":[{"mode":"VIEW","source":"PAYMENTDATE","dir":"->","target":"PAYMENTDATE"},{"mode":"VIEW","source":"DB2_VIEWTOMULTIPLETABLE","dir":"->","target":"DB2_VIEWFROMVIEWANDTABLE"},{"mode":"VIEW","source":"PAYMENTS_TABLE","dir":"->","target":"DB2_VIEWTOMULTIPLETABLE"}]}

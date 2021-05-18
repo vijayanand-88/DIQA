@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/Analyzer/1.0.0">
+    <xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+    <Cluster xmi:id="Cluster_5" xsi:type="Cluster" name="LineageTestCluster">
+        <definitions xmi:id="Service_5" xsi:type="Service" name="LineageTestService">
+            <definitions xmi:id="Database_5" xsi:type="Database" name="DBEnd2End">
+                <definitions xmi:id="Table_43" xsi:type="Table" name="SeedTab">
+                    <definitions xmi:id="Column_43" xsi:type="Column" name="SeedCol">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_44" xsi:type="Table" name="ForwTab1">
+                    <definitions xmi:id="Column_44" xsi:type="Column" name="Col1">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_45" xsi:type="Table" name="ForwTab2">
+                    <definitions xmi:id="Column_45" xsi:type="Column" name="Col2">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_46" xsi:type="Table" name="ForwTab3">
+                    <definitions xmi:id="Column_46" xsi:type="Column" name="Col3">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_47" xsi:type="Table" name="ForwTab4">
+                    <definitions xmi:id="Column_47" xsi:type="Column" name="Col4">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_48" xsi:type="Table" name="ForwTab5">
+                    <definitions xmi:id="Column_48" xsi:type="Column" name="Col5">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_49" xsi:type="Table" name="ForwTab6">
+                    <definitions xmi:id="Column_49" xsi:type="Column" name="Col6">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_50" xsi:type="Table" name="BackTab1">
+                    <definitions xmi:id="Column_50" xsi:type="Column" name="Col1">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_51" xsi:type="Table" name="BackTab2">
+                    <definitions xmi:id="Column_51" xsi:type="Column" name="Col2">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_52" xsi:type="Table" name="BackTab3">
+                    <definitions xmi:id="Column_52" xsi:type="Column" name="Col3">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_53" xsi:type="Table" name="BackTab4">
+                    <definitions xmi:id="Column_53" xsi:type="Column" name="Col4">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_54" xsi:type="Table" name="BackTab5">
+                    <definitions xmi:id="Column_54" xsi:type="Column" name="Col5">
+                    </definitions>
+                </definitions>
+                <definitions xmi:id="Table_55" xsi:type="Table" name="BackTab6">
+                    <definitions xmi:id="Column_55" xsi:type="Column" name="Col6">
+                    </definitions>
+                </definitions>
+            </definitions>
+            <operations xmi:id="Operation_5" xsi:type="Operation" name="LineageTestOperation">
+                <lineage xmi:id="LineageHop_52" xsi:type="LineageHop" name="J4SGZ" mode="COPY">
+                    <lineageFrom xmi:idref="Column_55">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_54">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_51" xsi:type="LineageHop" name="HFLCXK" mode="COPY">
+                    <lineageFrom xmi:idref="Column_55">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_53">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_50" xsi:type="LineageHop" name="4N64YSO2" mode="COPY">
+                    <lineageFrom xmi:idref="Column_54">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_52">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_49" xsi:type="LineageHop" name="YMMJ5XRYP" mode="COPY">
+                    <lineageFrom xmi:idref="Column_53">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_51">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_48" xsi:type="LineageHop" name="04XS08" mode="COPY">
+                    <lineageFrom xmi:idref="Column_52">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_43">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_47" xsi:type="LineageHop" name="2RFQ0ALY" mode="COPY">
+                    <lineageFrom xmi:idref="Column_51">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_43">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_46" xsi:type="LineageHop" name="5DHL8JK3Q" mode="COPY">
+                    <lineageFrom xmi:idref="Column_50">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_43">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_45" xsi:type="LineageHop" name="63IUF4" mode="COPY">
+                    <lineageFrom xmi:idref="Column_48">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_49">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_44" xsi:type="LineageHop" name="CY7NGPXYV" mode="COPY">
+                    <lineageFrom xmi:idref="Column_47">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_49">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_43" xsi:type="LineageHop" name="1N4AFD" mode="COPY">
+                    <lineageFrom xmi:idref="Column_46">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_48">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_42" xsi:type="LineageHop" name="Y4OTHIHE" mode="COPY">
+                    <lineageFrom xmi:idref="Column_45">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_47">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_41" xsi:type="LineageHop" name="A54I5DUL" mode="COPY">
+                    <lineageFrom xmi:idref="Column_43">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_46">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_40" xsi:type="LineageHop" name="5UT4LIM" mode="COPY">
+                    <lineageFrom xmi:idref="Column_43">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_45">
+                    </lineageTo>
+                </lineage>
+                <lineage xmi:id="LineageHop_39" xsi:type="LineageHop" name="F8I2T" mode="COPY">
+                    <lineageFrom xmi:idref="Column_43">
+                    </lineageFrom>
+                    <lineageTo xmi:idref="Column_44">
+                    </lineageTo>
+                </lineage>
+            </operations>
+        </definitions>
+    </Cluster>
+</xmi:XMI>

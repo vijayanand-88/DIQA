@@ -1,0 +1,61 @@
+{
+  "SC1_BLineageBA1": {
+    "BusinessLineageTo": [
+      "BLineageBA2"
+    ]
+  },
+  "SC1_BLineageBA2": {
+    "BusinessLineageFrom": [
+      "BLineageBA1"
+    ]
+  },
+  "SC2_BLineageBA3": {
+    "BusinessLineageTo": [
+      "BLineageBA1"
+    ]
+  },
+  "SC2_BLineageBA1": {
+    "BusinessLineageFrom": [
+      "BLineageBA3"
+    ],
+    "BusinessLineageTo": [
+      "BLineageBA2"
+    ]
+  },
+  "SC2_BLineageBA2": {
+    "BusinessLineageFrom": [
+      "BLineageBA1"
+    ]
+  },
+  "SC3_BLineageBA1": {
+    "BusinessLineageFrom": [
+      "BLineageBA3"
+    ]
+  },
+  "SC3_BLineageBA3": {
+    "BusinessLineageTo": [
+      "BLineageBA1"
+    ]
+  },
+  "SC4_BLineageBA2": {
+    "BusinessLineageFrom": [
+      "BLineageBA1"
+    ]
+  },
+  "SC4_BLineageBA1": {
+    "BusinessLineageTo": [
+      "BLineageBA2"
+    ]
+  },
+  "SC5_BLineageBA2": {
+    "BusinessLineageFrom": [
+      "BLineageBA1"
+    ]
+  },
+  "SC5_BLineageBA1": {
+    "BusinessLineageTo": [
+      "BLineageBA2"
+    ]
+  }
+}
+

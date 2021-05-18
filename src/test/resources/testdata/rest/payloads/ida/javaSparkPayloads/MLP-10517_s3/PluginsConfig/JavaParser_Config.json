@@ -1,0 +1,18 @@
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaParserJS",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaSpS3"],
+      "filter": null,
+      "pluginType": "parser",
+      "businessApplicationName": "test_BA_JavaSpS3"
+    }

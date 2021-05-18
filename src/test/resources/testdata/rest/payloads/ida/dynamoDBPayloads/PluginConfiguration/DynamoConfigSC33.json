@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DynamoCatalog1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [
+        "SC1DynamoTags"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "DynamoValidDS",
+      "credential": "ValidDYDBCredentials",
+      "businessApplicationName": "DYNAMODB_BA",
+      "dryRun": false,
+      "filter": null,
+      "tables": [
+        {
+          "table": "GlobalTable2019"
+        },
+        {
+          "table": "GlobalTable_2017"
+        },
+        {
+          "table": "DynamicColumns"
+        },
+        {
+          "table": "CatalogTable"
+        },
+        {
+          "table": "TestTableOnlyPK"
+        },
+        {
+          "table": "AllDataTypes"
+        },
+        {
+          "table": "TestTable1"
+        }
+      ],
+      "properties": []
+    }
+  ]
+}

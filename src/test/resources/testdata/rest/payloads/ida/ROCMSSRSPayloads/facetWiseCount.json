@@ -1,0 +1,28 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 8,
+      "value" : "Analysis"
+    }, {
+      "count" : 8,
+      "value" : "DataField"
+    }, {
+      "count" : 4,
+      "value" : "ReportPackage"
+    }, {
+      "count" : 2,
+      "value" : "ReportSchema"
+    }, {
+      "count" : 1,
+      "value" : "DataType"
+    }, {
+      "count" : 1,
+      "value" : "Report"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

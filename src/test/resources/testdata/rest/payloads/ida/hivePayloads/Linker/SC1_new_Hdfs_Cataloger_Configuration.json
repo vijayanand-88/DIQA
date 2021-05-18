@@ -1,0 +1,42 @@
+{
+  "configurations" : [ {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : false,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Cataloger",
+    "tags" : [ "SC1_AllFormats" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/hivelinkerTest",
+        "fileMode" : "include",
+        "label" : {
+          "" : "NewDirectory"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "AllFormats" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC1_AllFormats",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_valid",
+    "businessApplicationName" : "HDFS_BA"
+  } ]
+}

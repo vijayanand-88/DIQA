@@ -1,0 +1,42 @@
+{
+  "configurations" : [ {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : false,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Cataloger",
+    "tags" : [ "SC3_forDryRun" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/CsvAnalyzerTest",
+        "fileMode" : "include",
+        "label" : {
+          "" : "Allfolders"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "Positive" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC3_forDryRun",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_resolveclusterfalse",
+    "businessApplicationName" : "HDFS_BA"
+  } ]
+}

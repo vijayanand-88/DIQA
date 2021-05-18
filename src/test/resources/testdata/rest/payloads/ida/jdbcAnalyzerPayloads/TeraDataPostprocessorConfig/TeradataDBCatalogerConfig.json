@@ -1,0 +1,98 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeraDataDBCataloger_V16",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC1TeradataCataloger"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "TeradataDBDataSource_V16",
+      "credential": "TeradataDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "TeradataDBCataloger",
+      "databaseFilter": [
+        {
+          "database": "automation_testdata_db"
+        }
+      ],
+      "casesensitive": false,
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeraDataDBCataloger_MultiServer1_V16",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC2TeradataCataloger"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "TeradataDBDataSource_V16",
+      "credential": "TeradataDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "TeradataDBCataloger",
+      "databaseFilter": [
+        {
+          "database": "automation_testdata_db"
+        }
+      ],
+      "casesensitive": false,
+      "arguments": [],
+      "type": "Cataloger"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeraDataDBCataloger_MultiServer2_V15",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC3TeradataCataloger"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "TeradataDBDataSource_V15",
+      "credential": "TeradataDB_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "TeradataDBCataloger",
+      "databaseFilter": [
+        {
+          "database": "automation_testdata_db"
+        }
+      ],
+      "casesensitive": false,
+      "arguments": [],
+      "type": "Cataloger"
+    }
+
+  ]
+}

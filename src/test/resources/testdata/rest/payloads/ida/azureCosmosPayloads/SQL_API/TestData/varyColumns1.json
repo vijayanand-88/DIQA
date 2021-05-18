@@ -1,0 +1,12 @@
+{
+  "firstName": "Rajesh",
+  "lastName": "Kumar",
+  "gender": "man",
+  "age": 24,
+  "id": "a5075ac2-2f31-4172-a291-a1172372e2d0",
+  "_rid": "kShuAIRClbQBAAAAAAAAAA==",
+  "_self": "dbs/kShuAA==/colls/kShuAIRClbQ=/docs/kShuAIRClbQBAAAAAAAAAA==/",
+  "_etag": "\"2d00cc96-0000-0000-0000-5c8b33420000\"",
+  "_attachments": "attachments/",
+  "_ts": 1552626498
+}

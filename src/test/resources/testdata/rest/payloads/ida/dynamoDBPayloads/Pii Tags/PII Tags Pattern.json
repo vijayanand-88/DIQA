@@ -1,0 +1,1394 @@
+{
+  "type/datapattern_valid_0_5": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "FULL_NAME",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "email",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/datapattern_Invalid_0_5": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "IPADDRESS",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "SSN",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*NUM.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "gender",
+        "typePattern": ".*FLOAT.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/namepattern_valid_0_5": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/invalidnamepattern_valid_0_5": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "IPADDRESS1",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "SSN1",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*FULL1.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "gender1",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*emails.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validnamepattern_valid_0_2": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validnamepattern_valid_0_6": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validnamepattern_valid_0_6_alltrue": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validnamepattern_valid_1_allfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 1,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 1,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 1,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 1,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 1,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validnamepattern_valid_0_5_allfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validnamepattern_valid_0_2_allfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validnamepattern_Invalid_0_2_allfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "IPADDRESS1",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "SSN1",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*FULL1.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "gender1",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*email1.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/Invalidtypepattern_valid_0_2_allfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR1",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR1",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "gender",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR1.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "Invaliddatapattern_valid_0_2_allfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\d{3}[ -]{0,1}\.\d{3}[ -]{0,1}.\d{3}[ -]{0,1}.\d{1}[ -]{0,1}.\d{5}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\d{3}[ -]{1}\d{2}[ -]{1}\d{4} \d{6}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\w+\s\w+\d{3}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(male|Male|female|Female)",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[\w\-\.]+*([\w\-]+\.)+[\w\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validtdatapattern_valid_0_5_Emptytrue": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": true,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": true,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": true,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": true,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": true,
+        "matchFull": false,
+        "minimumRatio": 0.5,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validtdatapattern_valid_0_6_matchFulltrue": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "database",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "Comments",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Fullmatch PII"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validtdatapattern_valid_0_6_Allfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "database",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.6,
+        "namePattern": "Comments",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Fullmatch PII"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validtdatapattern_valid_0_2_matchFulltrue": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "GRANTS.",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.2,
+        "namePattern": "Comments",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Fullmatch PII"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validtdatapattern_valid_0_2_Allfalse": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "GRANTS.",
+        "matchEmpty": false,
+        "matchFull": false,
+        "minimumRatio": 0.2,
+        "namePattern": "Comments",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Fullmatch PII"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validtdatapattern_valid_0_6_Emptytrue_Global2017": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": false,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  },
+  "type/validtdatapattern_valid_0_6_Alltrue_Global2017": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "dataType": "STRUCTURED",
+      "technologies": [],
+      "pluginName": "DynamoDBAnalyzer",
+      "view": {
+        "label": "DynamoDBAnalyzer ",
+        "value": "DynamoDBAnalyzer "
+      },
+      "@class": "com.asg.dis.policies.facts.DIAnalysis"
+    },
+    "outputs": [
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "IP Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "tags": [
+          "Social Security Number"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": ".*FULL.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Full Name"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "(M|male|Male|F|female|Female|m|f)",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": "gender",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Gender"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      },
+      {
+        "tagCategory": "DynamoDBPII",
+        "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+        "matchEmpty": true,
+        "matchFull": true,
+        "minimumRatio": 0.6,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR.*",
+        "tags": [
+          "Email Address"
+        ],
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction"
+      }
+    ]
+  }
+}

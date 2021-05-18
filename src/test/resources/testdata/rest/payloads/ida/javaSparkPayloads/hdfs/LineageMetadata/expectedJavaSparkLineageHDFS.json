@@ -1,0 +1,136 @@
+{
+  "RDD_Combinations": {
+    "lines2 => \/user\/root\/java\/Target\/system.parquet": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines2",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/Target\\\/system.parquet",
+      "lineageTo": "part-00001"
+    },
+    "lines1 => \/user\/root\/java\/Target\/country.csv": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines1",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/Target\\\/country.csv",
+      "lineageTo": "part-00001"
+    },
+    "system => lines2": {
+      "mode": "COPY",
+      "lineageFrom": "system",
+      "lineageTo": "lines2"
+    },
+    "country => lines1": {
+      "mode": "COPY",
+      "lineageFrom": "country",
+      "lineageTo": "lines1"
+    },
+    "lines => \/user\/root\/java\/Target\/commandstarget": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/Target\\\/commandstarget",
+      "lineageTo": "part-00001"
+    },
+    "commands.txt => lines": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "commands.txt",
+      "lineageTo": "lines"
+    }
+  },
+  "DF_Combinations": {
+    "students.orc => userDF2": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "students.orc",
+      "lineageTo": "userDF2"
+    },
+    "userDF6 => \/user\/root\/java\/source\/Load\/Target\/commandsTarget1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF6",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/source\\\/Load\\\/Target\\\/commandsTarget1",
+      "lineageTo": "part-00000-3b5d4a2f-93d1-4753-b078-5306d0c3fe82-c000.txt"
+    },
+    "spark.csv => userDF8": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "spark.csv",
+      "lineageTo": "userDF8"
+    },
+    "userDF3 => \/user\/root\/java\/source\/Load\/Target\/hdfs1Target": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF3",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/source\\\/Load\\\/Target\\\/hdfs1Target",
+      "lineageTo": "part-00000-d9ad2e3d-8a7e-465c-8129-e19617a9f70f-c000.snappy.parquet"
+    },
+    "userDF => \/user\/root\/java\/source\/Load\/Target\/cityTarget": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/source\\\/Load\\\/Target\\\/cityTarget",
+      "lineageTo": "part-00000-1b56678e-5686-4f98-b721-f633e8d4a079-c000.snappy.parquet"
+    },
+    "commands.txt => userDF6": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "commands.txt",
+      "lineageTo": "userDF6"
+    },
+    "userDF5 => \/user\/root\/java\/source\/Load\/Target\/usersTarget1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF5",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/source\\\/Load\\\/Target\\\/usersTarget1",
+      "lineageTo": "part-00000-14e3f78f-0b0a-47ea-a9d4-43cc552409c6-c000.snappy.parquet"
+    },
+    "userDF7 => \/user\/root\/java\/source\/Load\/Target\/hdfs1Target_01": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF7",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/source\\\/Load\\\/Target\\\/hdfs1Target_01",
+      "lineageTo": "part-00000-d97be388-5d0f-433d-9702-cac7dbde245b-c000.json"
+    },
+    "hdfs1.json => userDF3": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "hdfs1.json",
+      "lineageTo": "userDF3"
+    },
+    "city.csv => userDF": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "city.csv",
+      "lineageTo": "userDF"
+    },
+    "hdfs1.json => userDF7": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "hdfs1.json",
+      "lineageTo": "userDF7"
+    },
+    "userDF8 => \/user\/root\/java\/source\/Load\/Target\/sparkTarget": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF8",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/source\\\/Load\\\/Target\\\/sparkTarget",
+      "lineageTo": "part-00000-01ac7a41-5960-47f6-8517-c52b2b6bfb7c-c000.csv"
+    },
+    "userDF4 => \/user\/root\/java\/source\/Load\/Target\/usersTarget": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF4",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/source\\\/Load\\\/Target\\\/usersTarget",
+      "lineageTo": "part-00000-ec4f9dfb-d6d5-41f4-83c7-5b63e3c6eb02-c000.snappy.orc"
+    },
+    "users.parquet => userDF4": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "users.parquet",
+      "lineageTo": "userDF4"
+    },
+    "userDF2 => \/user\/root\/java\/source\/Load\/Target\/studentsTarget": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF2",
+      "targetLocation": "\\\/user\\\/root\\\/java\\\/source\\\/Load\\\/Target\\\/studentsTarget",
+      "lineageTo": "part-00000-ffd8423f-bd16-40e2-9cef-a3d8abbf4288-c000.snappy.parquet"
+    },
+    "users.parquet => userDF5": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/user\\\/root\\\/java\\\/source",
+      "lineageFrom": "users.parquet",
+      "lineageTo": "userDF5"
+    }
+  }
+}

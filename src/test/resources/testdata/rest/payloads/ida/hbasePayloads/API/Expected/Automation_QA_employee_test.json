@@ -1,0 +1,7 @@
+[ {
+  "sample" : {
+    "header" : [ "personal data:address", "personal data:city", "personal data:name", "professional data:DOJ", "professional data:designation", "professional data:hike", "professional data:salary" ],
+    "values" : [ [ null, "hyderabad", "raju", null, "manager", null, "50000" ], [ null, "delhi", "sunder", null, "developer", null, "10000" ], [ null, "bangalore", "brahmi", null, "sr developer", null, "1000000" ], [ null, "chennai", "zoomer", null, "director", null, "500000" ], [ null, "kolkatta", "zoomer", null, "Sr manager", null, "1000000" ], [ "testaddress12345", "mumbai", "Tester1", "21/05/2012", "Test Engineer", "5.43", "30000" ] ]
+  },
+  "id" : "null"
+} ]

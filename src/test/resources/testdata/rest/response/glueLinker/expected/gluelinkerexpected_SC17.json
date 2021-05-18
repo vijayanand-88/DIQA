@@ -1,0 +1,316 @@
+{
+  "glueavro": [
+    {
+      "mode": "VIEW",
+      "source": "additonalInfo",
+      "dir": "->",
+      "target": "additonalinfo"
+    },
+    {
+      "mode": "VIEW",
+      "source": "additonalinfo",
+      "dir": "->",
+      "target": "additonalInfo"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "alternatePhoneNo",
+      "dir": "->",
+      "target": "alternatephoneno"
+    },
+    {
+      "mode": "VIEW",
+      "source": "alternatephoneno",
+      "dir": "->",
+      "target": "alternatePhoneNo"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "glueavro",
+      "dir": "->",
+      "target": "jsonDataTypes.json"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isActive",
+      "dir": "->",
+      "target": "isactive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isactive",
+      "dir": "->",
+      "target": "isActive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "jsonDataTypes.json",
+      "dir": "->",
+      "target": "glueavro"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedTime",
+      "dir": "->",
+      "target": "loggedtime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedtime",
+      "dir": "->",
+      "target": "loggedTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tBigINT",
+      "dir": "->",
+      "target": "tbigint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tChar",
+      "dir": "->",
+      "target": "tchar"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tDecimal",
+      "dir": "->",
+      "target": "tdecimal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tDoublePrecision",
+      "dir": "->",
+      "target": "tdoubleprecision"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tINT",
+      "dir": "->",
+      "target": "tint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tReal",
+      "dir": "->",
+      "target": "treal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tSmallINT",
+      "dir": "->",
+      "target": "tsmallint"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tTimeStamp",
+      "dir": "->",
+      "target": "ttimestamp"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tbigint",
+      "dir": "->",
+      "target": "tBigINT"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tchar",
+      "dir": "->",
+      "target": "tChar"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tdecimal",
+      "dir": "->",
+      "target": "tDecimal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tdoubleprecision",
+      "dir": "->",
+      "target": "tDoublePrecision"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tint",
+      "dir": "->",
+      "target": "tINT"
+    },
+    {
+      "mode": "VIEW",
+      "source": "treal",
+      "dir": "->",
+      "target": "tReal"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tsmallint",
+      "dir": "->",
+      "target": "tSmallINT"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ttimestamp",
+      "dir": "->",
+      "target": "tTimeStamp"
+    },
+    {
+      "mode": "VIEW",
+      "source": "userName",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "source": "userObj",
+      "dir": "->",
+      "target": "userobj"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username",
+      "dir": "->",
+      "target": "userName"
+    },
+    {
+      "mode": "VIEW",
+      "source": "userobj",
+      "dir": "->",
+      "target": "userObj"
+    }
+  ]
+}

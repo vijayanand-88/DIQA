@@ -1,0 +1,41 @@
+{
+  "Informatica_Reconcile_Config": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "Informatica_Reconcile",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": "name==\"CAE-JS\"",
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "other",
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/rrt.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar;",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}",
+        "ThreadsUsed": "4",
+        "type": "Other",
+        "StoreLookupLinks": false,
+        "RepositorySeedItem": "*",
+        "ReconcileCategory": "repository",
+        "RochadeServerHost": "${rochade.server}",
+        "JavaMemory": "8192m",
+        "pluginName": "Scanner_for_Informatica_Reconcile",
+        "FolderSeedItem": "*",
+        "RochadeServerPort": "${rochade.port}"
+      }
+    ]
+  }
+}

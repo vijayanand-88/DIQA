@@ -1,0 +1,358 @@
+{
+  "ADRMQT": [
+    {
+      "mode": "MULTIHOP",
+      "source": "FIRST_NAME",
+      "dir": "<-",
+      "target": "VORNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STREET",
+      "dir": "<-",
+      "target": "STRASSE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "LAST_NAME",
+      "dir": "<-",
+      "target": "NTCHNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "COUNTRY",
+      "dir": "<-",
+      "target": "LAND"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "ORT"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ZIP_CODE",
+      "dir": "<-",
+      "target": "PLZ"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STREET",
+      "dir": "<-",
+      "target": "HAUSNUMMER"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "VORNAME",
+      "dir": "<-",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "PLZ",
+      "dir": "<-",
+      "target": "ZIPCODE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STRASSE",
+      "dir": "<-",
+      "target": "STREET"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ORT",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "LAND",
+      "dir": "<-",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "NTCHNAME",
+      "dir": "<-",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "HAUSNUMMER",
+      "dir": "<-",
+      "target": "HOUSENUMBER"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "LASTNAME",
+      "dir": "<-",
+      "target": "ZIP_CODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "FIRSTNAME",
+      "dir": "<-",
+      "target": "ZIP_CODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "ZIP_CODE"
+    },
+    {
+      "mode": "COPY",
+      "source": "FIRSTNAME",
+      "dir": "<-",
+      "target": "FIRST_NAME"
+    },
+    {
+      "mode": "COPY",
+      "source": "LASTNAME",
+      "dir": "<-",
+      "target": "LAST_NAME"
+    },
+    {
+      "mode": "COPY",
+      "source": "CITY",
+      "dir": "<-",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "FIRST_NAME",
+      "dir": "->",
+      "target": "VORNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STREET",
+      "dir": "->",
+      "target": "STRASSE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "LAST_NAME",
+      "dir": "->",
+      "target": "NTCHNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "LAND"
+    },
+    {
+      "mode": "VIEW",
+      "source": "CITY",
+      "dir": "->",
+      "target": "ORT"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ZIP_CODE",
+      "dir": "->",
+      "target": "PLZ"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STREET",
+      "dir": "->",
+      "target": "HAUSNUMMER"
+    },
+    {
+      "mode": "VIEW",
+      "source": "VORNAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PLZ",
+      "dir": "->",
+      "target": "ZIPCODE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STRASSE",
+      "dir": "->",
+      "target": "STREET"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ORT",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "LAND",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "NTCHNAME",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "HAUSNUMMER",
+      "dir": "->",
+      "target": "HOUSENUMBER"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "PLZ",
+      "dir": "->",
+      "target": "ZIPCODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "VORNAME",
+      "dir": "->",
+      "target": "FIRST_NAME"
+    },
+    {
+      "mode": "COPY",
+      "source": "CITY",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ORT",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "LASTNAME",
+      "dir": "->",
+      "target": "NTCHNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "VORNAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "HAUSNUMMER",
+      "dir": "->",
+      "target": "HOUSENUMBER"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "NTCHNAME",
+      "dir": "->",
+      "target": "LAST_NAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ORT",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "STRASSE",
+      "dir": "->",
+      "target": "STREET"
+    },
+    {
+      "mode": "COPY",
+      "source": "LAST_NAME",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "LAND",
+      "dir": "->",
+      "target": "COUNTRY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "STREET",
+      "dir": "->",
+      "target": "STRASSE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "COUNTRY",
+      "dir": "->",
+      "target": "LAND"
+    },
+    {
+      "mode": "COPY",
+      "source": "FIRST_NAME",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "FIRSTNAME",
+      "dir": "->",
+      "target": "VORNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "HOUSENUMBER",
+      "dir": "->",
+      "target": "HAUSNUMMER"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ZIP_CODE",
+      "dir": "->",
+      "target": "FIRSTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "NTCHNAME",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "CITY",
+      "dir": "->",
+      "target": "ORT"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ZIP_CODE",
+      "dir": "->",
+      "target": "CITY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ZIPCODE",
+      "dir": "->",
+      "target": "PLZ"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "ZIP_CODE",
+      "dir": "->",
+      "target": "LASTNAME"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "PLZ",
+      "dir": "->",
+      "target": "ZIP_CODE"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "CITY",
+      "dir": "->",
+      "target": "ADRNEWTAB_I"
+    }
+  ]
+}

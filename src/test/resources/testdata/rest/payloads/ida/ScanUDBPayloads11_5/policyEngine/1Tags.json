@@ -1,0 +1,912 @@
+{
+  "typeanddatapattern1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR1.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR1.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR1.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "typePattern": ".*VAR1.*",
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "nameanddatapattern1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS",
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAIL.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN",
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER",
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS1",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAILS.*",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN1",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER1",
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL1.*",
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "datapatternandratio1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "datapatternandratio2": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "datapatternandratio3": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "namedatatypepatternandratio1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAIL.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS1",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAIL1.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN1",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER1",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL1.*",
+        "typePattern": "VARCHAR",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "IPADDRESS",
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*EMAIL.*",
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "SSN",
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": "GENDER",
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName2"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "namePattern": ".*FULL.*",
+        "typePattern": "VARCHAR1",
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "matchempty": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "UDBIPAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "UDBEmailAddress"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "UDBSSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "UDBGender"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "UDBFullName"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      }
+
+    ]
+  },
+  "matchfullcase1": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "database",
+        "tags": [
+          "UDBFullMatchTag",
+          "UDBFullMatchTag1"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "database",
+        "tags": [
+          "UDBFullMatchTag2",
+          "UDBFullMatchTag3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+
+    ]
+  },
+  "matchfullcase2": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "UDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "UDBFullMatchTag",
+          "UDBFullMatchTag1"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "tagCategory": "PIIUDB",
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "UDBFullMatchTag2",
+          "UDBFullMatchTag3"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+
+    ]
+  }
+}
+
+

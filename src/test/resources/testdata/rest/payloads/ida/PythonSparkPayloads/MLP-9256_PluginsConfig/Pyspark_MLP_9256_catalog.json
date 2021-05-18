@@ -1,0 +1,11 @@
+{
+  "RDD_Transformation": {
+    "label": {
+      "": "RDD_Transformation"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "RDD_Transformation"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": null,
+      "dryRun": "true",
+      "nodeCondition":"name==\"LocalNode\"",
+      "label": {
+        "": ""
+      },
+      "tags": [
+        "DryRun_commonlinker"
+      ],
+      "catalogName": "Default",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "credential": null,
+      "name": "PythonLinker",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": null,
+      "businessApplicationName": null
+    }
+  ]
+}

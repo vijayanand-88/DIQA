@@ -1,0 +1,22 @@
+{
+    "firstName": "Ram",
+    "lastName": "Kannan",
+    "gender": "man",
+    "age": 28,
+    "address": {
+        "streetAddress": "126 Udhna",
+        "city": "chennai",
+        "state": "TN",
+        "postalCode": "694221"
+    },
+    "phoneNumbers": {
+        "type": "home",
+        "number": "8383627627"
+    },
+    "id": "b9bbdf62-baad-4a46-8bf4-e719d37ea857",
+    "_rid": "kShuAPFa9xwCAAAAAAAAAA==",
+    "_self": "dbs/kShuAA==/colls/kShuAPFa9xw=/docs/kShuAPFa9xwCAAAAAAAAAA==/",
+    "_etag": "\"0800a020-0000-0000-0000-5c87a0270000\"",
+    "_attachments": "attachments/",
+    "_ts": 1552392231
+}

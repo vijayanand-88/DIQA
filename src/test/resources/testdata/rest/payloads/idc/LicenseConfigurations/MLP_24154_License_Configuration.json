@@ -1,0 +1,13 @@
+{
+  "entities" : [ {
+    "name" : "LINEAGE_PLUGINS",
+    "limit" : [ "OracleDBPostProcessor" ],
+    "active" : true,
+    "type" : "list"
+  }, {
+    "name" : "DATASOURCE",
+    "limit" : 2,
+    "active" : true,
+    "type" : "number"
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HiveCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "HiveTag"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "HiveDataSource_Valid",
+      "credential": "hiveValidCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [{
+          "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+          "label": {
+            "": "filter1"
+          },
+          "tags": [
+            "HiveTag1"
+          ],
+          "dbRegexList": [
+            "hivelinkerdb"
+          ]
+        }],
+        "deltaTime": "30",
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "analyzeCollectedData": true,
+      "pluginName": "HiveCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

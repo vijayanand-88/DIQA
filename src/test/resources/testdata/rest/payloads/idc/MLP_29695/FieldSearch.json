@@ -1,0 +1,5 @@
+{
+  "query": "{Table(name:\"customeraddress\"){${fields_content} similar{Table{name}}}}",
+  "operationName": "query"
+
+}

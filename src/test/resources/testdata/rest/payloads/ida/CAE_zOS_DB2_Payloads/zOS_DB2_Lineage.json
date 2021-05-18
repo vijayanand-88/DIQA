@@ -1,0 +1,26 @@
+{
+  "db2_Lineage":
+    {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "other",
+      "dryRun": false,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "label": {
+        "": ""
+      },
+      "type": "Other",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "Valid_CAE_Feeder_zOS_DB2_Cred",
+      "pluginName": "CAELineage",
+      "name": "db2_Lineage",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "zOS_DB2_Feeder_DS",
+      "businessApplicationName": "zOS_DB2_LINEAGE_BA"
+    }
+}

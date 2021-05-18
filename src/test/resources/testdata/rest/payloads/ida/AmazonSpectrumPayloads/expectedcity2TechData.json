@@ -1,0 +1,5 @@
+{
+  "externalLocations": [
+    "s3://asgredshiftworlddata/Redshift-Data/city1/city.csv"
+  ]
+}

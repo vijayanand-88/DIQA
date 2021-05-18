@@ -1,0 +1,31 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "dataanalyzer",
+    "dryRun" : true,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Dataanalyzer",
+    "tags" : [ "CasAnTag" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "histogramBuckets" : 10,
+    "pluginVersion" : "LATEST",
+    "tables" : [ {
+      "table" : "multiplepart"
+    } ],
+    "credential" : null,
+    "pluginName" : "CassandraDBAnalyzer",
+    "queryBatchSize" : 100,
+    "sampleDataCount" : 25,
+    "name" : "CassandraAnalyzerDryRun",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : null,
+    "topValues" : 10,
+    "businessApplicationName" : "CassandraAnalyzerBA"
+  } ]
+}

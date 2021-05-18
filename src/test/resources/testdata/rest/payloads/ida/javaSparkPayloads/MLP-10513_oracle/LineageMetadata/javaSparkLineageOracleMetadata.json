@@ -1,0 +1,50 @@
+{
+  "LineageHop_1": {
+    "source": [
+      "DEPTBLOCK"
+    ],
+    "target": [
+      "DEPTBLOCK"
+    ]
+  },
+  "LineageHop_2": {
+    "source": [
+      "DEPTID"
+    ],
+    "target": [
+      "DEPTID"
+    ]
+  },
+  "LineageHop_3": {
+    "source": [
+      "DEPTNAME"
+    ],
+    "target": [
+      "DEPTNAME"
+    ]
+  },
+  "LineageHop_4": {
+    "source": [
+      "DEPTBLOCK"
+    ],
+    "target": [
+      "DEPTBLOCK"
+    ]
+  },
+  "LineageHop_5": {
+    "source": [
+      "DEPTID"
+    ],
+    "target": [
+      "DEPTID"
+    ]
+  },
+  "LineageHop_6": {
+    "source": [
+      "DEPTNAME"
+    ],
+    "target": [
+      "DEPTNAME"
+    ]
+  }
+}

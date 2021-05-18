@@ -1,0 +1,8 @@
+[
+  {
+    "type": "Column",
+    "name": "TestItemWithScope",
+    "@schema": {},
+    "@global": {}
+  }
+]

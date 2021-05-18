@@ -1,0 +1,16 @@
+{
+  "selections": {
+    "type_s": [
+      "Table"
+    ],
+    "asg_modifiedby_s": [],
+    "asg.tagPathsHierarchy_ss": [
+      "SC1_onlyTables"
+    ],
+    "asg_modifiedat_dt": [],
+    "asg.parentTypeNamePathHierarchy_ss": [
+      "Cluster/Sandbox/Service/HBASE"
+    ],
+    "dataType_s": []
+  }
+}

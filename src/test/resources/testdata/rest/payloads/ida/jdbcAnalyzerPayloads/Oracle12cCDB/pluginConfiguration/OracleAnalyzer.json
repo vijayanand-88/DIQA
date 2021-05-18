@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Orc12cCDBAnalyzer"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Oracle12C_CDB_AY",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "database": "ORACLE12C",
+      "pluginName": "OracleDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [],
+      "type": "Dataanalyzer",
+      "database": "ORCA12C.DID.DEV.ASGINT.LOC",
+      "schemas": [],
+      "topValues": 10
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "CSV": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "CsvAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Cluster Demo\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "SC1_CsvAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "CSV_ANALYZER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "histogramBuckets": 100,
+    "sparkOptions": [
+      {
+        "key": "deploy.mode",
+        "value": "cluster"
+      },
+      {
+        "key": "spark.network.timeout",
+        "value": "600s"
+      }
+    ],
+    "pluginName": "CsvAnalyzer",
+    "runAfter": [],
+    "dataSample": {
+      "sampleSize": 10
+    },
+    "type": "Dataanalyzer",
+    "topValues": 10
+  },
+  "AVRO": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AvroAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Cluster Demo\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "SC1_AvroAnalyzer"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "AVRO_ANALYZER_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "histogramBuckets": 100,
+    "sparkOptions": [
+      {
+        "key": "deploy.mode",
+        "value": "cluster"
+      },
+      {
+        "key": "spark.network.timeout",
+        "value": "600s"
+      }
+    ],
+    "pluginName": "AvroAnalyzer",
+    "runAfter": [],
+    "dataSample": {
+      "sampleSize": 10
+    },
+    "type": "Dataanalyzer",
+    "topValues": 10
+  },
+  "PARQUET": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "ParquetAnalyzer",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Cluster Demo\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "SC1_ParquetTag"
+    ],
+    "pluginType": "dataanalyzer",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "Parquet_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "histogramBuckets": 100,
+    "sparkOptions": [
+      {
+        "key": "deploy.mode",
+        "value": "cluster"
+      },
+      {
+        "key": "spark.network.timeout",
+        "value": "600s"
+      }
+    ],
+    "pluginName": "ParquetAnalyzer",
+    "runAfter": [],
+    "dataSample": {
+      "sampleSize": 25
+    },
+    "type": "Dataanalyzer",
+    "topValues": 10
+  }
+}

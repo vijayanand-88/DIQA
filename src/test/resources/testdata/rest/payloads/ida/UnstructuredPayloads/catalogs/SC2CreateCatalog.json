@@ -1,0 +1,11 @@
+{
+  "SC2TIKKACATALOG": {
+    "label": {
+      "": "SC2TIKKACATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "SC2TIKKACATALOG"
+    }
+  }
+}

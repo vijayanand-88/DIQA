@@ -1,0 +1,209 @@
+{
+  "MySQLScan": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MySQLScan",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "collector",
+      "dataSource": "MySQLEDIDS",
+      "credential": "MySQLEDICredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${driver.path};${rochade.home}/scanmysql/V110/bin/scanmysql.jar;${rochade.home}/scanmysql/V110/bin/ScannerUtils.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/bin/rochade.jar",
+      "RochadeBin": "${rochade.home}/bin",
+      "JavaMemory": "512m",
+      "pluginName": "Scanner_for_MySQL_Scan",
+      "RochadePath": "${rochade.home}",
+      "ScannerBin": "${rochade.home}/scanmysql/V110/bin",
+      "PropertiesAndOutputPath": "C:\\software\\Mysql",
+      "arguments": [],
+      "type": "collector",
+      "LogLevel": "CONFIG"
+    }
+  },
+  "MySQLImport": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MySQLImport",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "other",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochadexml.jar;${rochade.home}/bin/rochade.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar",
+      "RochadeBin": "${rochade.home}/bin",
+      "RochadeServerHost": "${rochade.server}",
+      "JavaMemory": "512m",
+      "pluginName": "Scanner_for_MySQL_Import",
+      "RochadePath": "${rochade.home}",
+      "PropertiesAndOutputPath": "C:\\software\\Mysql",
+      "type": "Other",
+      "LogLevel": "CONFIG",
+      "RochadeServerPort": "8888",
+      "ResetDependencyLinks": false
+    }
+  },
+  "MySQLPostProcessor": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MySQLPostProcessor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "other",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar;${rochade.home}/bin/ScanLogging.jar;${rochade.home}/scanmysql/V110/bin/scanmysql.jar;${rochade.home}/scanmysql/V110/bin/ScannerUtils.jar;${rochade.home}/scanmysql/V110/bin/SQLPostProcess.jar;${rochade.home}/scanmysql/V110/bin/SQL2XML.jar",
+      "RochadeBin": "${rochade.home}/bin",
+      "JavaMemory": "512m",
+      "pluginName": "Scanner_for_MySQL_Postprocess",
+      "RochadePath": "${rochade.home}",
+      "ScannerBin": "${rochade.home}/scanmysql/V110/bin",
+      "LogSuspiciousSql": false,
+      "PropertiesAndOutputPath": "C:\\software\\Mysql",
+      "arguments": [],
+      "LogSuspiciousSqlPath": "",
+      "type": "Other",
+      "LogLevel": "CONFIG"
+    }
+  },
+  "MySQLReconcile": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MySQLReconcile",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Headless-EDI\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "other",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "ServerSeedItem": "*",
+      "ClassPath": "${rochade.home}/bin/rochade.jar;${rochade.home}/bin/rrt.jar;${rochade.home}/bin/js.jar;${rochade.home}/bin/roacccxj.jar;",
+      "RochadeBin": "${rochade.home}/bin",
+      "RochadePath": "${rochade.home}",
+      "PropertiesAndOutputPath": "C:\\software\\Mysql",
+      "ThreadsUsed": "4",
+      "type": "Other",
+      "LogLevel": "CONFIG",
+      "ReconcileCategory": "server",
+      "RochadeServerHost": "${rochade.server}",
+      "JavaMemory": "4096m",
+      "pluginName": "Scanner_for_MySQL_Reconcile",
+      "DatabaseSeedItem": "*",
+      "RochadeServerPort": "8888"
+    }
+  },
+  "EDIBus": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusMySQL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusMySQLDS",
+      "credential": "EDIMySqlCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        "MYSQL"
+      ],
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "replicate",
+        "incremental": false
+      }
+    }
+  },
+  "EDIBusCleanup": {
+    "configurations": {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusMySQLCleanUp",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": "EDIBusMySQLDS",
+      "credential": "EDIMySqlCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "EDI technologies": [
+        {
+          "technology": "MYSQL"
+        }
+      ],
+      "pluginName": "EDIBus",
+      "type": "Bulk",
+      "EDI types": [],
+      "commands and flags": {
+        "function": "cleanup",
+        "incremental": false
+      }
+    }
+  }
+}

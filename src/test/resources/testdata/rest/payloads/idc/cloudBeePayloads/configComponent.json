@@ -1,0 +1,3 @@
+{
+  "$item": "out('has_DataSample').values('sample').tryNext().map{s -> new groovy.json.JsonSlurper().parseText(new String(s.decodeBase64(), java.nio.charset.StandardCharsets.UTF_8))}.orElseGet{new groovy.json.JsonSlurper().parseText('{}')}"
+}

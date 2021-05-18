@@ -1,0 +1,212 @@
+{
+  "HdfsCat3" : {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : false,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "cataloger",
+    "autoStart" : false,
+    "tags" : [ "SC4_CreateDir" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/HDFSMonitor_Test1",
+        "fileMode" : "include",
+        "label" : {
+          "" : "Filter2"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "Filter4" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "schedule" : null,
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC4_CreateDir",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_valid",
+    "businessApplicationName" : "HDFS_MONITOR_BA"
+  },
+  "HdfsCat4" : {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : false,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "cataloger",
+    "autoStart" : false,
+    "tags" : [ "SC5_CreateDir" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/HDFSMonitor_Test2",
+        "fileMode" : "include",
+        "label" : {
+          "" : "Filter2"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "Filter5" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "schedule" : null,
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC5_CreateDir",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_valid",
+    "businessApplicationName" : "HDFS_MONITOR_BA"
+  },
+  "HdfsCat1" : {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : false,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "cataloger",
+    "autoStart" : false,
+    "tags" : [ "SC2_CreateDir" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/HDFSMonitor_Test",
+        "fileMode" : "include",
+        "label" : {
+          "" : "Filter1"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "Filetoavailable" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "schedule" : null,
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC2_CreateDir",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_valid",
+    "businessApplicationName" : "HDFS_MONITOR_BA"
+  },
+  "HdfsCat2" : {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : false,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "cataloger",
+    "autoStart" : false,
+    "tags" : [ "SC3_CreateDir" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/HDFSMonitor_Test",
+        "fileMode" : "include",
+        "label" : {
+          "" : "Filter2"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "Fileshouldnotavailable" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "schedule" : null,
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC3_CreateDir",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_valid",
+    "businessApplicationName" : "HDFS_MONITOR_BA"
+  },
+  "HdfsCat5" : {
+    "scanHdfs" : true,
+    "analyzeCollectedData" : false,
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"Cluster Demo\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "cataloger",
+    "autoStart" : false,
+    "tags" : [ "SC6_CreateDir" ],
+    "catalogName" : "Default",
+    "filter" : {
+      "deltaTime" : "30",
+      "filters" : [ {
+        "fileExtensions" : [ ],
+        "excludeRegexp" : [ ],
+        "root" : "/HDFSMonitor_Test3",
+        "fileMode" : "include",
+        "label" : {
+          "" : "Filter2"
+        },
+        "class" : "com.asg.dis.common.analysis.dom.HdfsFilter",
+        "tags" : [ "Filter6" ]
+      } ],
+      "extraFilters" : { },
+      "maxHits" : "100"
+    },
+    "schedule" : null,
+    "pluginVersion" : "LATEST",
+    "scanServices" : false,
+    "credential" : "hdfsDBValidCredential",
+    "pluginName" : "HdfsCataloger",
+    "name" : "SC6_CreateDir",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "HDFSDataSource_valid",
+    "businessApplicationName" : "HDFS_MONITOR_BA"
+  }
+}

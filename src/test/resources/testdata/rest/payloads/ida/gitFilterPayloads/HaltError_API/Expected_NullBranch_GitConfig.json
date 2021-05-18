@@ -1,0 +1,9 @@
+[ {
+  "itemId" : "Default.Analysis:::2235",
+  "errorIndex" : 0,
+  "errorDetails" : {
+    "timestamp" : "2020-05-28 11:41:24.102",
+    "message" : "ANALYSIS-GIT-0033: Invalid branch name []",
+    "cleared" : false
+  }
+} ]

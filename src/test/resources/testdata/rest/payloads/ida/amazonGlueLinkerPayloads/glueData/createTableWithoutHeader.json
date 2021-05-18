@@ -1,0 +1,92 @@
+{
+  "tableName": "glueLinker",
+  "description": "Table Description",
+  "database": "qagluelinkerdatabase",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "countrycode",
+        "type": "varchar(256)",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqagluelinkerbucket/GlueLinker/BasicDataTypesWithoutHeader/BasicdatatypesWOH.csv",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "employee_id",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "full_name",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "phone_number",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "gender",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "ssn",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "postal_code",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "ip_address",
+          "type": "string",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+} 

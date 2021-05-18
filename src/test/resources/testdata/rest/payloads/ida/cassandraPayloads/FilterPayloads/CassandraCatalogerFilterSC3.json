@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Cassandra_Cataloger_SC3",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SC3_CassandraFilter"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "CassandraDS",
+      "credential": "CassandraCredentials",
+      "businessApplicationName": "CassandraCatalogerBA",
+      "dryRun": false,
+      "filter": null,
+      "databases": [
+        {
+          "tables": [],
+          "database": "keyspace2"
+        },
+        {
+          "tables": [],
+          "database": "keyspace2"
+        },
+        {
+          "tables": [],
+          "database": "keyspace3"
+        }
+      ],
+      "pluginName": "CassandraDBCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

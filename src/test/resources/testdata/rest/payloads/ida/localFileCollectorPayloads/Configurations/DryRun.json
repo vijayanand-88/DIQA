@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Dry_Run",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "Dry_Run",
+        "en": "Dry_Run"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 100,
+      "tags": [
+        "LFC"
+      ],
+      "pluginType": "COLLECTOR",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": true,
+      "filter": {
+        "filters": [],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "pluginName": "LocalFileCollector",
+      "root": "/lfc_testfiles",
+      "incrementalRun": true,
+      "type": "Collector"
+    }
+  ]
+}

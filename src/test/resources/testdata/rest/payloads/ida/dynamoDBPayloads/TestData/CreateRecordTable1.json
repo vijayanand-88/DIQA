@@ -1,0 +1,13 @@
+{
+  "BicycleType": "Road",
+  "Brand": "Mountain A",
+  "Color": [
+    "Red",
+    "Black"
+  ],
+  "Description": "201 Description",
+  "ID": 206,
+  "Price": 100,
+  "ProductCategory": "Bicycle",
+  "Title": "18-Bike-201"
+}

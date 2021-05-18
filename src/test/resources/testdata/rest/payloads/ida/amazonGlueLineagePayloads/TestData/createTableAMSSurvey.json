@@ -1,0 +1,78 @@
+{
+  "tableName": "amssurvey",
+  "description": "Table Description",
+  "database": "amssurveydb",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "nomber",
+        "type": "bigint",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqatestautomation4/SourceFiles/Source811/AMSSurvey",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "nomber",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "sex",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "citizen",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "count",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "countstate",
+          "type": "bigint",
+          "comment": ""
+        }
+
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+}

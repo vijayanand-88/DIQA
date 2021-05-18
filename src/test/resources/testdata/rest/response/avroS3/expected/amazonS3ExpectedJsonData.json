@@ -1,0 +1,132 @@
+{
+  "MetaData": {
+    "totalCount": 20,
+    "colToCol": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "tables": [
+        {
+          "source": "rc1.age",
+          "target": "gluetable21.age"
+        },
+        {
+          "count": 6,
+          "value": "Directory"
+        },
+        {
+          "count": 2,
+          "value": "Analysis"
+        },
+        {
+          "count": 1,
+          "value": "Cluster"
+        },
+        {
+          "count": 1,
+          "value": "Service"
+        }
+      ]
+    },
+    "clusterMetaData": {
+      "name": "amazonaws.com",
+      "clusterID": "S3AmazonSC1.Cluster:::1",
+      "table": {
+        "values": {
+          "type": "Service",
+          "name": [
+            "Amazon"
+          ]
+        }
+      },
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Cloud Data"
+          },
+          {
+            "techTag": "Amazon S3"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "serviceMetaData": {
+      "name": "AmazonS3",
+      "serviceID": "S3AmazonSC1.Service:::1",
+      "has_Directory": [
+        {
+          "name": "asgqatestautomation"
+        }
+      ],
+      "taglist": {
+        "values": [
+          {
+            "techTag": "Cloud Data"
+          },
+          {
+            "techTag": "Amazon S3"
+          }
+        ],
+        "rating": {
+        },
+        "comments": {
+        }
+      }
+    },
+    "directoryMetaData": {
+      "directorySize": 122275,
+      "numberOfFiles": 8,
+      "sizeOfFiles": 122275,
+      "location": "asgqatestautomation/AutoTestData/TestFolder1/",
+      "numberOfSubDir": 2,
+      "sizeOfSubDir": 159414,
+      "directoryID": "S3AmazonSC1.Directory:::3",
+      "table": {
+        "has_Files": [
+          {
+            "name": "AWSS3Errors.txt"
+          },
+          {
+            "name": "Capture.jpg"
+          },
+          {
+            "name": "ExceptionforRegion.txt"
+          },
+          {
+            "name": "avro.xlsx"
+          },
+          {
+            "name": "user.avro"
+          },
+          {
+            "name": "user.json"
+          },
+          {
+            "name": "userInfo.avro"
+          },
+          {
+            "name": "userTest.avro"
+          }
+        ],
+        "has_Directory": [
+          {
+            "name": "subdirectory"
+          },
+          {
+            "name": "version"
+          }
+        ]
+      }
+    }
+  },
+  "fileMetaData": {
+    "fileID": "S3AmazonSC1.File:::1",
+    "Location": "asgqatestautomation/AutoTestData/TestFolder1/Capture.jpg",
+    "fileSize": 92226
+  },
+  "analysisMetaData": {
+  }
+}

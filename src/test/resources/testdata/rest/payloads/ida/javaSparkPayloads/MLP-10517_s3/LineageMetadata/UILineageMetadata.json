@@ -1,0 +1,10 @@
+{
+  "DFS3_positiveflow_1": {
+    "source": ["people.json"],
+    "target": ["userDF3"]
+  },
+  "DFS3_positiveflow_2": {
+    "source": ["userDF3"],
+    "target": ["part-00000-06159d7d-9bb4-45f1-8a56-e969ccc8b10f-c000.snappy.parquet"]
+  }
+}

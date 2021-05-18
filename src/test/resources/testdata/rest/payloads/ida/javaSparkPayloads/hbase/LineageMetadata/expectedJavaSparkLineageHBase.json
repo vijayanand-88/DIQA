@@ -1,0 +1,275 @@
+{
+  "Spark_Hbase_Filter": {
+    "testemployee.personal data:name => jdbcDF_hb4.personal data:name": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "personal data:city => qa_emp_filter.personal data:city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    },
+    "testemployee.personal data:address => jdbcDF_hb4.personal data:address": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:address",
+      "lineageTo": "personal data:address"
+    },
+    "testemployee.professional data:DOJ => jdbcDF_hb4.professional data:DOJ": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:DOJ",
+      "lineageTo": "professional data:DOJ"
+    },
+    "testemployee.professional data:designation => jdbcDF_hb4.professional data:designation": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:designation",
+      "lineageTo": "professional data:designation"
+    },
+    "testemployee.professional data:hike => jdbcDF_hb4.professional data:hike": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:hike",
+      "lineageTo": "professional data:hike"
+    },
+    "personal data:name => qa_emp_filter.personal data:name": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "testemployee.personal data:city => jdbcDF_hb4.personal data:city": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    },
+    "testemployee.professional data:salary => jdbcDF_hb4.professional data:salary": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:salary",
+      "lineageTo": "professional data:salary"
+    }
+  },
+  "Spark_Hbase_Overwrite": {
+    "professional data:DOJ => qa_overwrite.professional data:DOJ": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:DOJ",
+      "lineageTo": "professional data:DOJ"
+    },
+    "testemployee.personal data:address => jdbcDF_hb3.personal data:address": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:address",
+      "lineageTo": "personal data:address"
+    },
+    "testemployee.professional data:DOJ => jdbcDF_hb3.professional data:DOJ": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:DOJ",
+      "lineageTo": "professional data:DOJ"
+    },
+    "personal data:name => qa_overwrite.personal data:name": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "testemployee.personal data:city => jdbcDF_hb3.personal data:city": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    },
+    "professional data:hike => qa_overwrite.professional data:hike": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:hike",
+      "lineageTo": "professional data:hike"
+    },
+    "professional data:designation => qa_overwrite.professional data:designation": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:designation",
+      "lineageTo": "professional data:designation"
+    },
+    "personal data:address => qa_overwrite.personal data:address": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:address",
+      "lineageTo": "personal data:address"
+    },
+    "testemployee.professional data:salary => jdbcDF_hb3.professional data:salary": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:salary",
+      "lineageTo": "professional data:salary"
+    },
+    "testemployee.personal data:name => jdbcDF_hb3.personal data:name": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "personal data:city => qa_overwrite.personal data:city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    },
+    "professional data:salary => qa_overwrite.professional data:salary": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:salary",
+      "lineageTo": "professional data:salary"
+    },
+    "testemployee.professional data:hike => jdbcDF_hb3.professional data:hike": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:hike",
+      "lineageTo": "professional data:hike"
+    },
+    "testemployee.professional data:designation => jdbcDF_hb3.professional data:designation": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:designation",
+      "lineageTo": "professional data:designation"
+    }
+  },
+  "Spark_Hbase_Format_Select": {
+    "testemployee.personal data:city => jdbcDF_hb1.personal data:city": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    },
+    "testemployee.professional data:hike => jdbcDF_hb1.professional data:hike": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:hike",
+      "lineageTo": "professional data:hike"
+    },
+    "testemployee.personal data:address => jdbcDF_hb1.personal data:address": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:address",
+      "lineageTo": "personal data:address"
+    },
+    "testemployee.professional data:DOJ => jdbcDF_hb1.professional data:DOJ": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:DOJ",
+      "lineageTo": "professional data:DOJ"
+    },
+    "personal data:city => qa_emp.personal data:city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    },
+    "personal data:name => qa_emp.personal data:name": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "testemployee.personal data:name => jdbcDF_hb1.personal data:name": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "testemployee.professional data:salary => jdbcDF_hb1.professional data:salary": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:salary",
+      "lineageTo": "professional data:salary"
+    },
+    "testemployee.professional data:designation => jdbcDF_hb1.professional data:designation": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:designation",
+      "lineageTo": "professional data:designation"
+    }
+  },
+  "Spark_Hbase_MultipleWrite": {
+    "personal data:name => qa_emp_wr2.personal data:name": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "personal data:address => qa_emp_wr2.personal data:address": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:address",
+      "lineageTo": "personal data:address"
+    },
+    "professional data:DOJ => qa_emp_wr2.professional data:DOJ": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:DOJ",
+      "lineageTo": "professional data:DOJ"
+    },
+    "testemployee.professional data:designation => jdbcDF_hb2.professional data:designation": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:designation",
+      "lineageTo": "professional data:designation"
+    },
+    "personal data:name => qa_emp_wr1.personal data:name": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "professional data:salary => qa_emp_wr1.professional data:salary": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:salary",
+      "lineageTo": "professional data:salary"
+    },
+    "professional data:designation => qa_emp_wr1.professional data:designation": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:designation",
+      "lineageTo": "professional data:designation"
+    },
+    "professional data:salary => qa_emp_wr2.professional data:salary": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:salary",
+      "lineageTo": "professional data:salary"
+    },
+    "personal data:address => qa_emp_wr1.personal data:address": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:address",
+      "lineageTo": "personal data:address"
+    },
+    "professional data:DOJ => qa_emp_wr1.professional data:DOJ": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:DOJ",
+      "lineageTo": "professional data:DOJ"
+    },
+    "professional data:designation => qa_emp_wr2.professional data:designation": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:designation",
+      "lineageTo": "professional data:designation"
+    },
+    "professional data:hike => qa_emp_wr2.professional data:hike": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:hike",
+      "lineageTo": "professional data:hike"
+    },
+    "testemployee.personal data:city => jdbcDF_hb2.personal data:city": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    },
+    "testemployee.professional data:salary => jdbcDF_hb2.professional data:salary": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:salary",
+      "lineageTo": "professional data:salary"
+    },
+    "professional data:hike => qa_emp_wr1.professional data:hike": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "professional data:hike",
+      "lineageTo": "professional data:hike"
+    },
+    "testemployee.personal data:address => jdbcDF_hb2.personal data:address": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:address",
+      "lineageTo": "personal data:address"
+    },
+    "testemployee.professional data:DOJ => jdbcDF_hb2.professional data:DOJ": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:DOJ",
+      "lineageTo": "professional data:DOJ"
+    },
+    "testemployee.professional data:hike => jdbcDF_hb2.professional data:hike": {
+      "mode": "COPY",
+      "lineageFrom": "professional data:hike",
+      "lineageTo": "professional data:hike"
+    },
+    "testemployee.personal data:name => jdbcDF_hb2.personal data:name": {
+      "mode": "COPY",
+      "lineageFrom": "personal data:name",
+      "lineageTo": "personal data:name"
+    },
+    "personal data:city => qa_emp_wr1.personal data:city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    },
+    "personal data:city => qa_emp_wr2.personal data:city": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "personal data:city",
+      "lineageTo": "personal data:city"
+    }
+  }
+}

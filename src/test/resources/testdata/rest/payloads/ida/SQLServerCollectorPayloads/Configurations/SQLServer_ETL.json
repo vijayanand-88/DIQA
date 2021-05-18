@@ -1,0 +1,51 @@
+{
+  "SQLServer_DDLoader": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SQLServer_DDLoader",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "collector",
+    "dataSource": "SQLServer_Feeder_DS",
+    "credential": "Valid_Feeder_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Contextuality": {
+      "inputSetName": "",
+      "inputSetPrivate": ""
+    },
+    "negative": false,
+    "Advanced": {
+      "multi-env": false,
+      "LoaderPath": "",
+      "technologies": [
+        "Java",
+        "Oracle",
+        "SqlServer",
+        "DB2"
+      ],
+      "tfmSystemPolicy": "DefaultOnly",
+      "renamingPropertyFile": "",
+      "tfmSystemPolicyValue": "",
+      "technologyRestriction": false
+    },
+    "checkAll": false,
+    "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+    "parallel": false,
+    "pluginName": "CAEDDLoader",
+    "clear": true,
+    "onDemandLineage": true,
+    "incremental": false,
+    "type": "Collector",
+    "restrict": ""
+  }
+}

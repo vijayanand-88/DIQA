@@ -1,0 +1,16 @@
+[
+  {
+    "startLine": 3,
+    "endLine": 3,
+    "startColumn": 10,
+    "endColumn": 28,
+    "conString": "locVar=Program"
+  },
+  {
+    "startLine": 4,
+    "endLine": 4,
+    "startColumn": 10,
+    "endColumn": 27,
+    "conString": "LangName=Java"
+  }
+]

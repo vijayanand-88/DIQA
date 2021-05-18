@@ -1,0 +1,10 @@
+{
+  "TestDeleteWithData": {
+    "label": {
+      "": "TestDeleteWithData"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+    }
+  }
+}

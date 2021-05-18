@@ -1,0 +1,34 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : null,
+    "incremental" : true,
+    "type" : "Cataloger",
+    "tags" : [ "Cataloger_filter1" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "pluginVersion" : "LATEST",
+    "credential" : "Redshift_Credentials",
+    "pluginName" : "AmazonRedshiftCataloger",
+    "schemas" : [ {
+      "schema" : "testschema",
+      "tables" : [ {
+        "table" : "employee"
+      }, {
+        "table" : "tag_details"
+      }, {
+        "table" : "diffdatatypes"
+      } ]
+    } ],
+    "name" : "RedShiftCataloger",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "RedshiftDataSource",
+    "properties" : [ ],
+    "businessApplicationName" : "AmazonRedshift_BA"
+  } ]
+}

@@ -1,0 +1,188 @@
+start locator --name=gemfire_locator1 --port=10334
+start server --name=gemfire_server1 --server-port=40411 --assign-buckets=true --enable-time-statistics=true --max-connections=8 --max-threads=5
+start server --name=gemfire_server2 --server-port=40412 --assign-buckets=true --enable-time-statistics=true  --max-connections=7 --max-threads=3
+create region --name=region_local --type=LOCAL --key-constraint=java.lang.String --value-constraint=java.lang.Object --enable-statistics=true
+create region --name=region_partition --type=PARTITION_PERSISTENT_OVERFLOW --enable-statistics=true --eviction-action=overflow-to-disk
+create region --name=region_replicate --type=REPLICATE --key-constraint=java.lang.String --value-constraint=java.lang.Boolean --enable-statistics=true --eviction-max-memory=1000 --eviction-action=overflow-to-disk
+create index --name=myKeyIndex_local --expression=region_local.Id --region=region_local --type=key
+create region --name=region_pincode --type=partition --key-constraint=java.lang.String --value-constraint=java.lang.Long --enable-statistics=true  --eviction-entry-count=512 --eviction-action=local-destroy
+put --key="local key 1" --value="String value 1" --region=region_local
+put --key="human_average_age" --value=60 --region=region_local
+put --key="IsJVMUpdated" --value=true --region=region_local
+put --key="pi Value" --value=3.1415926535897932384626433 --region=region_local --value-class=java.lang.Double
+put --key="Sun Radius" --value=695508 --region=region_local --value-class=java.lang.Long
+put --key="Moon Radius" --value=1737 --region=region_local --value-class=java.lang.Integer
+put --region=region_pincode --key='Karapakkam S.O' --value=600097 --value-class=java.lang.Long
+put --region=region_pincode --key='Urapakkam S.O' --value=603210 --value-class=java.lang.Long
+put --region=region_pincode --key='Annai Anjugam Nagar S.O' --value=603211 --value-class=java.lang.Long
+put --region=region_pincode --key='Medavakkam  S.O' --value=600100 --value-class=java.lang.Long
+put --region=region_pincode --key='Thazambur' --value=600130 --value-class=java.lang.Long
+put --region=region_pincode --key='Vallam S.O' --value=603003 --value-class=java.lang.Long
+put --region=region_pincode --key='Kovilambakkam S.O' --value=600129 --value-class=java.lang.Long
+put --region=region_pincode --key='Kovur S.O' --value=600128 --value-class=java.lang.Long
+put --region=region_pincode --key='Meenambakkam S.O' --value=600016 --value-class=java.lang.Long
+put --region=region_pincode --key='Valmiki Nagar S.O' --value=600041 --value-class=java.lang.Long
+put --region=region_pincode --key='Melakkottaiyur S.O' --value=600127 --value-class=java.lang.Long
+put --region=region_pincode --key='Thiruvalluvar University S.O' --value=632115 --value-class=java.lang.Long
+put --region=region_pincode --key='Nerkundram S.O' --value=600107 --value-class=java.lang.Long
+put --region=region_pincode --key='Vellore Fort S.O' --value=632004 --value-class=java.lang.Long
+put --region=region_pincode --key='MEPZ Tambaram S.O' --value=600045 --value-class=java.lang.Long
+put --region=region_pincode --key='Tambaram West S.O' --value=600045 --value-class=java.lang.Long
+put --region=region_pincode --key='Mudichur S.O' --value=600048 --value-class=java.lang.Long
+put --region=region_pincode --key='Keelakattalai S.O' --value=600117 --value-class=java.lang.Long
+put --region=region_pincode --key='Pallikaranai S.O' --value=600100 --value-class=java.lang.Long
+put --region=region_pincode --key='Velnagar Vellanur S.O' --value=600062 --value-class=java.lang.Long
+put --region=region_pincode --key='Madambakkam S.O' --value=600126 --value-class=java.lang.Long
+put --region=region_pincode --key='Mugalivakkam S.O' --value=600125 --value-class=java.lang.Long
+put --region=region_pincode --key='Ranipet Bazar S.O' --value=632401 --value-class=java.lang.Long
+put --region=region_pincode --key='Injambakkam S.O' --value=600115 --value-class=java.lang.Long
+put --region=region_pincode --key='Villupuram Collectorate S.O' --value=605602 --value-class=java.lang.Long
+put --region=region_pincode --key='Tidel Park S.O' --value=600113 --value-class=java.lang.Long
+put --region=region_pincode --key='CRP Camp S.O' --value=600055 --value-class=java.lang.Long
+put --region=region_pincode --key='Padur S.O' --value=603103 --value-class=java.lang.Long
+put --region=region_pincode --key='Ram Nagar' --value=600091 --value-class=java.lang.Long
+put --region=region_pincode --key='Tirumudivakkam S.O' --value=600132 --value-class=java.lang.Long
+put --region=region_pincode --key='Neelangarai S.O' --value=600115 --value-class=java.lang.Long
+put --region=region_pincode --key='Sithalapakkam S.O' --value=600131 --value-class=java.lang.Long
+put --region=region_pincode --key='Ayyampettai S.O' --value=631601 --value-class=java.lang.Long
+put --region=region_pincode --key='Balchettychatram S.O' --value=631551 --value-class=java.lang.Long
+put --region=region_pincode --key='Big Kanchipuram S.O' --value=631502 --value-class=java.lang.Long
+put --region=region_pincode --key='Edayarpakkam S.O' --value=631553 --value-class=java.lang.Long
+put --region=region_pincode --key='Enathur S.O' --value=631561 --value-class=java.lang.Long
+put --region=region_pincode --key='Kaliyampoondi S.O' --value=603402 --value-class=java.lang.Long
+put --region=region_pincode --key='Kanchipuram Collectorate S.O' --value=631501 --value-class=java.lang.Long
+put --region=region_pincode --key='Kanchipuram Cutchery S.O' --value=631501 --value-class=java.lang.Long
+put --region=region_pincode --key='Karaipettai S.O' --value=631552 --value-class=java.lang.Long
+put --region=region_pincode --key='Little Kanchipuram S.O' --value=631501 --value-class=java.lang.Long
+put --region=region_pincode --key='Magaral S.O' --value=631603 --value-class=java.lang.Long
+put --region=region_pincode --key='Manampathi S.O' --value=603403 --value-class=java.lang.Long
+put --region=region_pincode --key='Palayaseevaram S.O' --value=631606 --value-class=java.lang.Long
+put --region=region_pincode --key='Pannur S.O (Kanchipuram)' --value=602108 --value-class=java.lang.Long
+put --region=region_pincode --key='Pattunoolchatram S.O' --value=602105 --value-class=java.lang.Long
+put --region=region_pincode --key='Pillayarpalayam S.O' --value=631501 --value-class=java.lang.Long
+put --region=region_pincode --key='Sankaramutt S.O' --value=631502 --value-class=java.lang.Long
+put --region=region_pincode --key='Sriperumbudur S.O' --value=602105 --value-class=java.lang.Long
+put --region=region_pincode --key='Sunguvarchatram S.O' --value=602106 --value-class=java.lang.Long
+put --region=region_pincode --key='Thenneri S.O' --value=631604 --value-class=java.lang.Long
+put --region=region_pincode --key='Thoopul S.O' --value=631501 --value-class=java.lang.Long
+put --region=region_pincode --key='Tirukachinambi Street S.O' --value=631501 --value-class=java.lang.Long
+put --region=region_pincode --key='Uttiramerur S.O' --value=603406 --value-class=java.lang.Long
+put --region=region_pincode --key='Walajabad S.O' --value=631605 --value-class=java.lang.Long
+put --region=region_pincode --key='Ammavarikuppam S.O' --value=631301 --value-class=java.lang.Long
+put --region=region_pincode --key='Arungolam S.O' --value=631201 --value-class=java.lang.Long
+put --region=region_pincode --key='Athimanjeripeta S.O' --value=631202 --value-class=java.lang.Long
+put --region=region_pincode --key='Erumbi S.O' --value=631302 --value-class=java.lang.Long
+put --region=region_pincode --key='Ikkadu S.O' --value=602021 --value-class=java.lang.Long
+put --region=region_pincode --key='Kadambathur S.O' --value=631203 --value-class=java.lang.Long
+put --region=region_pincode --key='Kakalur Ind Estate S.O' --value=602003 --value-class=java.lang.Long
+put --region=region_pincode --key='Kg Kandigai S.O' --value=631205 --value-class=java.lang.Long
+put --region=region_pincode --key='Lakshipuram S.O' --value=602024 --value-class=java.lang.Long
+put --region=region_pincode --key='Madduru S.O' --value=631206 --value-class=java.lang.Long
+put --region=region_pincode --key='Manavalanagar S.O' --value=602002 --value-class=java.lang.Long
+put --region=region_pincode --key='Pallipat S.O' --value=631207 --value-class=java.lang.Long
+put --region=region_pincode --key='Perambakkam S.O' --value=631402 --value-class=java.lang.Long
+put --region=region_pincode --key='Periapalayam S.O' --value=601102 --value-class=java.lang.Long
+put --region=region_pincode --key='Podaturpeta S.O' --value=631208 --value-class=java.lang.Long
+put --region=region_pincode --key='Poondi S.O' --value=602023 --value-class=java.lang.Long
+put --region=region_pincode --key='Poonimangadu S.O' --value=631212 --value-class=java.lang.Long
+put --region=region_pincode --key='Ponpadi Rs S.O' --value=631213 --value-class=java.lang.Long
+put --region=region_pincode --key='Ramakrishnarajupeta S.O' --value=631303 --value-class=java.lang.Long
+put --region=region_pincode --key='Saraswathinagar S.O' --value=631211 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruninravur Rs S.O' --value=602024 --value-class=java.lang.Long
+put --region=region_pincode --key='Tirur Cpt S.O' --value=602025 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruttani S.O' --value=631209 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruttanieast S.O' --value=631209 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruttaniwest S.O' --value=631209 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruttanisouth S.O' --value=631209 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruvallur Nethaji Road S.O' --value=602001 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruvelangadu S.O' --value=631210 --value-class=java.lang.Long
+put --region=region_pincode --key='Uttukottai S.O' --value=602026 --value-class=java.lang.Long
+put --region=region_pincode --key='Vanganur S.O' --value=631304 --value-class=java.lang.Long
+put --region=region_pincode --key='Vengal S.O' --value=601103 --value-class=java.lang.Long
+put --region=region_pincode --key='Kanakammachatram S.O' --value=631204 --value-class=java.lang.Long
+put --region=region_pincode --key='Choolaimedu S.O' --value=600094 --value-class=java.lang.Long
+put --region=region_pincode --key='Gopalapuram S.O (Chennai)' --value=600086 --value-class=java.lang.Long
+put --region=region_pincode --key='Greams Road S.O' --value=600006 --value-class=java.lang.Long
+put --region=region_pincode --key='Royapettah S.O' --value=600014 --value-class=java.lang.Long
+put --region=region_pincode --key='Teynampet S.O' --value=600018 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruvallikkeni S.O' --value=600005 --value-class=java.lang.Long
+put --region=region_pincode --key='Chepauk S.O' --value=600005 --value-class=java.lang.Long
+put --region=region_pincode --key='Hindi Prachar Sabha S.O' --value=600017 --value-class=java.lang.Long
+put --region=region_pincode --key='Lloyds Estate S.O' --value=600014 --value-class=java.lang.Long
+put --region=region_pincode --key='Loyola College S.O' --value=600034 --value-class=java.lang.Long
+put --region=region_pincode --key='Mandaveli S.O' --value=600004 --value-class=java.lang.Long
+put --region=region_pincode --key='Pr. Accountant General S.O' --value=600018 --value-class=java.lang.Long
+put --region=region_pincode --key='Madras University S.O' --value=600005 --value-class=java.lang.Long
+put --region=region_pincode --key='Vivekananda College Madras S.O' --value=600004 --value-class=java.lang.Long
+put --region=region_pincode --key='DPI S.O' --value=600006 --value-class=java.lang.Long
+put --region=region_pincode --key='Shastri Bhavan S.O' --value=600006 --value-class=java.lang.Long
+put --region=region_pincode --key='Thygarayanagar North ND S.O' --value=600017 --value-class=java.lang.Long
+put --region=region_pincode --key='Thygarayanagar South NDS.O' --value=600017 --value-class=java.lang.Long
+put --region=region_pincode --key='Teynampet West S.O' --value=600006 --value-class=java.lang.Long
+put --region=region_pincode --key='Nungambakkam S.O' --value=600034 --value-class=java.lang.Long
+put --region=region_pincode --key='Nungambakkam High Road S.O' --value=600034 --value-class=java.lang.Long
+put --region=region_pincode --key='Nggo Colony Tiruvallur S.O' --value=602001 --value-class=java.lang.Long
+put --region=region_pincode --key='Irungattukottai S.O' --value=602117 --value-class=java.lang.Long
+put --region=region_pincode --key='Parthasarathy Koil S.O' --value=600005 --value-class=java.lang.Long
+put --region=region_pincode --key='Anna Road H.O' --value=600002 --value-class=java.lang.Long
+put --region=region_pincode --key='Chennai G.P.O. ' --value=600001 --value-class=java.lang.Long
+put --region=region_pincode --key='Arakkonam H.O' --value=631001 --value-class=java.lang.Long
+put --region=region_pincode --key='Ranipet H.O' --value=632401 --value-class=java.lang.Long
+put --region=region_pincode --key='Chengalpattu H.O' --value=603001 --value-class=java.lang.Long
+put --region=region_pincode --key='Kanchipuram H.O' --value=631501 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruvallur H.O' --value=602001 --value-class=java.lang.Long
+put --region=region_pincode --key='Tindivanam H.O' --value=604001 --value-class=java.lang.Long
+put --region=region_pincode --key='Villupuram H.O' --value=605602 --value-class=java.lang.Long
+put --region=region_pincode --key='Tambaram H.O' --value=600045 --value-class=java.lang.Long
+put --region=region_pincode --key='Ambattur H.O' --value=600053 --value-class=java.lang.Long
+put --region=region_pincode --key='Avadi Camp H.O' --value=600054 --value-class=java.lang.Long
+put --region=region_pincode --key='Tiruvannamalai H.O' --value=606601 --value-class=java.lang.Long
+put --region=region_pincode --key='Arni H.O' --value=632301 --value-class=java.lang.Long
+put --region=region_pincode --key='Vellore H.O' --value=632001 --value-class=java.lang.Long
+put --region=region_pincode --key='Thygarayanagar H.O' --value=600017 --value-class=java.lang.Long
+put --region=region_pincode --key='Mylapore H.O' --value=600004 --value-class=java.lang.Long
+put --region=region_pincode --key='Park Town H.O' --value=600003 --value-class=java.lang.Long
+put --region=region_pincode --key='St.Thomas Mount H.O' --value=600016 --value-class=java.lang.Long
+put --region=region_pincode --key='Kadaperi B.O' --value=600047 --value-class=java.lang.Long
+put --region=region_pincode --key='Paruthipattu B.O' --value=600071 --value-class=java.lang.Long
+put --region=region_pincode --key='Kannankottai B.O' --value=601202 --value-class=java.lang.Long
+put --region=region_pincode --key='Medur B.O' --value=601204 --value-class=java.lang.Long
+put --region=region_pincode --key='Guruvoyal B.O' --value=600052 --value-class=java.lang.Long
+put --region=region_partition --key="Random Key 1" --value="Value 1"
+put --region=region_partition --key="Random Key 2" --value="Value 2"
+put --region=region_partition --key="Random Key 3" --value="Value 3"
+put --region=region_partition --key="Random Key 4" --value="Value 4"
+put --region=region_partition --key="Random Key 5" --value="Value 5"
+put --region=region_partition --key="Random Key 6" --value="Value 6"
+put --region=region_partition --key="Random Key 7" --value=1001
+put --region=region_partition --key="Random Key 7" --value=1002 --value-class=java.lang.Integer
+put --region=region_partition --key="Random Key 8" --value=1003 --value-class=java.lang.Integer
+put --region=region_partition --key="Random Key 9" --value=9876543210 --value-class=java.lang.Long
+put --region=region_partition --key=123 --value="Sample Value 1"
+put --region=region_partition --key=123 --value="Sample Value 1" --key-class=java.lang.Integer
+put --region=region_partition --key=124 --value="Sample Value 2" --key-class=java.lang.Integer
+put --region=region_partition --key=24089778 --value="Sample Value32" --key-class=java.lang.Long
+create gateway-sender --id='sender2' --parallel=true --remote-distributed-system-id='2'
+create gateway-sender --id='sender3' --parallel=true --remote-distributed-system-id='3'
+alter region --name=region_pincode --gateway-sender-id=sender2,sender3
+alter region --name=region_local --gateway-sender-id=sender2,sender3
+create gateway-receiver --start-port=1530 --end-port=1551 --hostname-for-senders=localhost
+put --region=region_replicate --key=Sample1 --value=true --value-class=java.lang.Boolean
+put --region=region_replicate --key=Sample2 --value=true --value-class=java.lang.Boolean
+put --region=region_replicate --key=Sample3 --value=false --value-class=java.lang.Boolean
+put --region=region_replicate --key=Sample4 --value=true --value-class=java.lang.Boolean
+create region --name=region_datatype --type=PARTITION_PERSISTENT_OVERFLOW --enable-statistics=true --eviction-action=overflow-to-disk
+put --region=region_datatype --key="Integer" --value=10 --value-class=java.lang.Integer
+put --region=region_datatype --key="BigInt" --value=9223372036854775807 --value-class=java.lang.Long
+put --region=region_datatype --key="Char" --value='C' --value-class=java.lang.String
+put --region=region_datatype --key="Double" --value=500.5 --value-class=java.lang.Double
+put --region=region_datatype --key="Float" --value=10000.6 --value-class=java.lang.Float
+put --region=region_datatype --key="Boolean" --value=true
+put --region=region_datatype --key="Varchar" --value="TestValue" --value-class=java.lang.String
+create index --name=TestKeyIndex --expression=region_datatype.Integer --region=region_datatype --type=key
+
+create lucene index --name=lucene_Index_order --region=/orders --field=customerId
+create region --name=orders --type=PARTITION --enable-statistics=true --eviction-action=overflow-to-disk
+
+put --region=orders --key='customerId' --value=100 --value-class=java.lang.Integer
+put --region=orders --key='customerName' --value="name1" --value-class=java.lang.String

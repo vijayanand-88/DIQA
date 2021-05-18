@@ -1,0 +1,27 @@
+{
+  "configurations": {
+    "TableauConnector": [
+      {
+        "class": "com.asg.dis.common.datasets.DataSetPluginConfiguration",
+        "name": "TableauConnector",
+        "label": {
+          "": "TableauConnector",
+          "en": "TableauConnector"
+        },
+        "tableauVersion": "10.1",
+        "tableauTemplates": []
+      }
+    ],
+    "CdapConnector": [
+      {
+        "class": "com.asg.dis.common.datasets.DataSetPluginConfiguration",
+        "name": "testCDAP",
+        "label": null,
+        "allowAnonymous": true,
+        "baseURL": "http://localhost:11015",
+        "namespace": "default",
+        "tags": "DataIntelligence"
+      }
+    ]
+  }
+}

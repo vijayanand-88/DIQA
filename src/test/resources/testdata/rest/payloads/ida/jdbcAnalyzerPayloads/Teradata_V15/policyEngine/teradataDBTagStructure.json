@@ -1,0 +1,680 @@
+[
+  {
+    "name": "TeradataDBPII",
+    "definition": "General Classification",
+    "status": "APPROVED",
+    "type": "Structure Information Tag",
+    "userAssignable": true,
+    "subTags": [
+      {
+        "name": "TeradataDBEmailPII_SC1Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC1Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC1Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC1Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC1Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC2Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC2Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC2Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC2Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC2Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC3Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC3Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC3Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC3Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC3Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC4Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC4Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC4Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC4Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC4Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC5Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC5Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC5Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC5Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC5Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC6Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC6Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC6Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC6Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC6Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC7Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC7Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC7Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC7Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC7Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC8Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC8Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC8Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC8Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC8Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC9Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC9Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC9Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC9Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC9Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC10Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC10Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC10Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC10Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC10Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC11Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC11Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC11Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC11Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC11Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC12Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC12Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC12Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC12Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC12Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC13Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC13Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC13Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC13Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC13Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBEmailPII_SC14Tag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBSSNPII_SC14Tag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBGenderPII_SC14Tag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullNamePII_SC14Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBIPAddressPII_SC14Tag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullMatchPII_SC1Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullMatchPII_SC2Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullMatchPII_SC3Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "TeradataDBFullMatchPII_SC4Tag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      }
+    ],
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

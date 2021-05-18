@@ -1,0 +1,6 @@
+{
+  "configurationName": null,
+  "configurationType": "plugin-configuration",
+  "type": "Cataloger",
+  "pluginName": "SQLServerDBCataloger"
+}

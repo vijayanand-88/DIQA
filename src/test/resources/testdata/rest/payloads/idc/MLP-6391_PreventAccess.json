@@ -1,0 +1,8 @@
+{
+  "roleMappings": [
+    {
+      "role": "GUEST USER",
+      "user": "TestSystem"
+    }
+  ]
+}

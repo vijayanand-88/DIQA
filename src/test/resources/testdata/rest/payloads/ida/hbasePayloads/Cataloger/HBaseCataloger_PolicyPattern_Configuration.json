@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PolicyPattern_HbaseCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "PolicyPattern_HbaseCataloger"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "HbaseDataSource_Valid",
+      "credential": "hbaseDBValidCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "HBaseCataloger",
+      "type": "Cataloger",
+      "includeItems": {
+        "includeTables": [],
+        "includeNamespaces": [
+          "pattern_matching"
+        ]
+      },
+      "scanRows": "100"
+    }
+  ]
+}

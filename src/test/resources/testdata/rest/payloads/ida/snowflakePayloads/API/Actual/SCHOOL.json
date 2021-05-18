@@ -1,0 +1,7 @@
+[ {
+  "sample" : {
+    "header" : [ "SCHOOLID", "STUDENTID", "CLASSID", "SCHOOLNAME" ],
+    "values" : [ [ "101", "3000", "1", "school1" ] ]
+  },
+  "id" : "null"
+} ]

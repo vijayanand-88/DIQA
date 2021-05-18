@@ -1,0 +1,61 @@
+{
+  "CopyS3Object": {
+    "SourceFile.txt => CopiedFile.txt": {
+      "mode": "COPY",
+      "sourceLocation": "asgcoms3primarybucket\\\/JavaFiles\\\/QaTestData\\\/SourceFile.txt",
+      "lineageFrom": "SourceFile.txt",
+      "targetLocation": "asgcoms3primarybucket\\\/JavaFiles\\\/QaTestData\\\/CopiedFile.txt",
+      "lineageTo": "CopiedFile.txt"
+    }
+  },
+  "HandleS3Objects": {
+    "\/C:\/BlueBoyR\/IDA\/R10.2.0\/Java\/S3Lineage\/SampleTestFileToUpload.txt => UploadedS3File.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\/BlueBoyR\\\/IDA\\\/R10.2.0\\\/Java\\\/S3Lineage\\\/SampleTestFileToUpload.txt",
+      "lineageFrom": "\/C:\/BlueBoyR\/IDA\/R10.2.0\/Java\/S3Lineage\/SampleTestFileToUpload.txt",
+      "targetLocation": "asgcoms3primarybucket\\\/JavaFiles\\\/QaTestData\\\/UploadedS3File.txt",
+      "lineageTo": "UploadedS3File.txt"
+    }
+  },
+  "HandleMultipleS3API": {
+    "SourceFile.txt => CopiedFile.txt": {
+      "mode": "COPY",
+      "sourceLocation": "asgcoms3primarybucket\\\/JavaFiles\\\/QaTestData\\\/SourceFile.txt",
+      "lineageFrom": "SourceFile.txt",
+      "targetLocation": "asgcoms3primarybucket\\\/JavaFiles\\\/QaTestData\\\/CopiedFile.txt",
+      "lineageTo": "CopiedFile.txt"
+    },
+    "\/C:\/work_related\/Amazon_S3\/SampleFile\/upload\/SampleTestFile.txt => UploadedS3File.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\/work_related\\\/Amazon_S3\\\/SampleFile\\\/upload\\\/SampleTestFile.txt",
+      "lineageFrom": "\/C:\/work_related\/Amazon_S3\/SampleFile\/upload\/SampleTestFile.txt",
+      "targetLocation": "asgcoms3primarybucket\\\/JavaFiles\\\/QaTestData\\\/UploadedS3File.txt",
+      "lineageTo": "UploadedS3File.txt"
+    }
+  },
+  "GetS3Object": {
+    "SampleTestFileToDownload.txt => \/C:\/BlueBoyR\/IDA\/R10.2.0\/Java\/S3Lineage\/SampleTestFileDownloaded.txt": {
+      "mode": "COPY",
+      "sourceLocation": "asgcoms3primarybucket\\\/JavaFiles\\\/QaTestData\\\/SampleTestFileToDownload.txt",
+      "lineageFrom": "SampleTestFileToDownload.txt",
+      "targetLocation": "\\\/C:\\\/BlueBoyR\\\/IDA\\\/R10.2.0\\\/Java\\\/S3Lineage\\\/SampleTestFileDownloaded.txt",
+      "lineageTo": "\/C:\/BlueBoyR\/IDA\/R10.2.0\/Java\/S3Lineage\/SampleTestFileDownloaded.txt"
+    }
+  },
+  "TransferManagerUploadDirectory": {
+    "\/C:\/Java\/S3_Lineage_Upload => UploadDir": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\/Java\\\/S3_Lineage_Upload",
+      "lineageFrom": "\/C:\/Java\/S3_Lineage_Upload",
+      "lineageTo": "UploadDir"
+    }
+  },
+  "TransferManagerDownloadDirectory": {
+    "DownloadDir => \/C:\/Java\/S3_Lineage_Download": {
+      "mode": "COPY",
+      "lineageFrom": "DownloadDir",
+      "targetLocation": "\\\/C:\\\/Java\\\/S3_Lineage_Download",
+      "lineageTo": "\/C:\/Java\/S3_Lineage_Download"
+    }
+  }
+}

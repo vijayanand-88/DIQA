@@ -1,0 +1,16 @@
+{
+  "glueavro": [
+    {
+      "mode": "VIEW",
+      "source": "ORC",
+      "dir": "->",
+      "target": "glueavro"
+    },
+    {
+      "mode": "VIEW",
+      "source": "glueavro",
+      "dir": "->",
+      "target": "ORC"
+    }
+  ]
+}

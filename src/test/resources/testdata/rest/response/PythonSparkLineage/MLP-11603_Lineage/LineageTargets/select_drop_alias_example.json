@@ -1,0 +1,64 @@
+{
+  "select_drop_alias_example": {
+    "PEOPLE.NAME => jdbcDF4.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "HEIGHT => ADULTS.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "CITY => ADULTS.CITY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "NAME => ADULTS.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "jdbcDF4.CITY => df12.CITY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "PEOPLE.HEIGHT => jdbcDF4.HEIGHT": {
+      "mode": "COPY",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "jdbcDF4.NAME => df12.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "jdbcDF4.AGE => df12.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "PEOPLE.CITY => jdbcDF4.CITY": {
+      "mode": "COPY",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "AGE => ADULTS.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "jdbcDF4.HEIGHT => df12.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "PEOPLE.AGE => jdbcDF4.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    }
+  }
+}

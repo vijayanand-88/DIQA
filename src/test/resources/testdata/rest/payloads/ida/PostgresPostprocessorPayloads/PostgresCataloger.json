@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Postgres_Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": "PostgresDS",
+      "credential": "Postgres_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "runAfter": [],
+      "filter": null,
+      "pluginName": "PostgreSQLDBCataloger",
+      "schemas": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

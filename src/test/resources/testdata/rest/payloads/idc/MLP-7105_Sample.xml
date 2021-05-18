@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/Analyzer/10.1.0">
+	<xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+	<Cluster xmi:id="Cluster_5" xsi:type="Cluster" name="LineageTestCluster">
+		<definitions xmi:id="Service_5" xsi:type="Service" name="LineageTestService">
+			<definitions xmi:id="Database_5" xsi:type="Database" name="DBEnd2End">
+				<definitions xmi:id="Table_43" xsi:type="Table" name="SeedTab">
+					<definitions xmi:id="Column_43" xsi:type="Column" name="ColOne">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_44" xsi:type="Table" name="ForwTab1">
+					<definitions xmi:id="Column_44" xsi:type="Column" name="ColTwo">
+					</definitions>
+					<definitions xmi:id="Column_45" xsi:type="Column" name="ColNew">
+					</definitions>
+				</definitions>
+
+
+
+			</definitions>
+		</definitions>
+	</Cluster>
+</xmi:XMI>

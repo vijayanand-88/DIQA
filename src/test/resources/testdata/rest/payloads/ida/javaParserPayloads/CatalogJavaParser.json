@@ -1,0 +1,11 @@
+{
+  "CatalogJavaParser": {
+    "label": {
+      "": "CatalogJavaParser"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CatalogJavaParser"
+    }
+  }
+}

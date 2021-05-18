@@ -1,0 +1,10 @@
+[
+  {
+    "startLine": 13,
+    "endLine": 13,
+    "startColumn": 12,
+    "endColumn": 35,
+    "methodName": "inner_factorial",
+    "argumentNb": 1
+  }
+]

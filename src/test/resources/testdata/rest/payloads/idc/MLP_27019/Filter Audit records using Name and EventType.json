@@ -1,0 +1,7 @@
+{
+  "userName": "TestSystem",
+  "levels": [
+    "INFO"
+  ],
+  "eventType": "ConfigurationChangeEvent"
+}

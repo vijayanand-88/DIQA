@@ -1,0 +1,23 @@
+{
+"configurations": [{
+"class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+"name": "AzureCosmosInvalidUser7",
+"pluginVersion": "LATEST",
+"label": {
+"": ""
+},
+"catalogName": "AzureCosmosInvalidUser7",
+"eventClass": null,
+"eventCondition": null,
+"nodeCondition": null,
+"maxWorkSize": 1000,
+"filter": null,
+"database": "testSqlDatabase7",
+"driverBundleName": "cdata.jdbc.cosmosdb.CosmosDBDriver",
+"schemas": [],
+"host": "asgsqlcosmos.documents.azure.com",
+"user": "test@asg.com",
+"primarykey": "m2FVxxoa21Th6DJBnIq9GTAPwtGOZWmVGcWzaNKoWI0Y0kmYpyqx3XIQZZSIZG3SSE21qBoiVUkbZ1AMgCDhPg=="
+}
+]
+}

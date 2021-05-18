@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XMI SYSTEM "http://schema.asg.com/rochade/xml/RNX_1_6.dtd">
+<XMI timestamp="07/20/2017 15:53:42 CEST" verified="false" xmi.version="1.0">
+    <XMI.header>
+        <XMI.documentation>
+            <XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+            <XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+        </XMI.documentation>
+        <XMI.model xmi.name="RNX" xmi.version="1.6" />
+        <XMI.model xmi.name="METAAPPS" xmi.version="DEVELOPMENT" href="rochade://decheutas01p.asg.com:8000/ADMIN/AP-DATA/S/METAAPPS/DEVELOPMENT">Created  09/07/2016     14:50:56</XMI.model>
+    </XMI.header>
+    <XMI.content xmi.uuid="XMLDsp|SERVER1|AP-DATA|ADMIN|S|METAAPPS|DEVELOPMENT" uuidDel="|">
+        <ITEM xmi.id="_0" itemType="RBG/GLOSSARY" itemName="PersonalInformation">
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType="Txt" attrName="RBG/BUSINESS-TERM-TYPE" contentType="text/plain">RBG/BUSINESS-TERM</ATTRIBUTE>
+                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">PersonalInformation</ATTRIBUTE>
+                <ATTRIBUTE attrType="Lnk" attrName="RBG/HAS-BUSINESS-TERM" linkType="Xns">
+                    <ITEMS>
+                        <ITEM xmi.id="_1" itemType="DWR_ANL_MEMBER" itemName="Accrual Method of Measuring Cost" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">This accounting method records cost when the liability is incurred. As applied to Federal employee retirement benefits, cost is recorded when the benefits are earned rather than when they are paid at some time in the future.</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Lnk" attrName="RBG/HAS-BUSINESS-TERM" linkType="Xns">
+                                    <ITEMS>
+                                        <ITEM xmi.id="_10" itemType="DWR_ANL_MEMBER" itemName="Sub Tag Test" itemScope="_0">
+                                            <ATTRIBUTES>
+                                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Description for Sub Tags</ATTRIBUTE>
+                                                <ATTRIBUTE attrType="Lnk" attrName="GDP_HAS_PERSONAL_INFORMATION" linkType="Xns">
+                                                    <ITEMS>
+                                                        <ITEM xmi.idref="_42" itemType="GDP_PERSONAL_INFORMATION" itemName="Account ID" itemScope="_1" />
+                                                        <ITEM xmi.idref="_43" itemType="GDP_PERSONAL_INFORMATION" itemName="LastName" itemScope="_1" />
+                                                        <ITEM xmi.idref="_54" itemType="GDP_PERSONAL_INFORMATION" itemName="Profile Picture" itemScope="_1" />
+                                                        <ITEM xmi.idref="_45" itemType="GDP_PERSONAL_INFORMATION" itemName="Email Address" itemScope="_1" />
+                                                        <ITEM xmi.idref="_46" itemType="GDP_PERSONAL_INFORMATION" itemName="Favorite Color" itemScope="_1" />
+                                                        <ITEM xmi.idref="_52" itemType="GDP_PERSONAL_INFORMATION" itemName="Gender" itemScope="_1" />
+                                                        <ITEM xmi.idref="_53" itemType="GDP_PERSONAL_INFORMATION" itemName="BirthDate" itemScope="_1" />
+                                                        <ITEM xmi.idref="_65" itemType="GDP_PERSONAL_INFORMATION" itemName="Income" itemScope="_1" />
+                                                    </ITEMS>
+                                                </ATTRIBUTE>
+                                            </ATTRIBUTES>
+                                        </ITEM>
+                                    </ITEMS>
+                                </ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_2" itemType="RBG/BUSINESS-TERM" itemName="Appropriation" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">An appropriation provides legal authority for Federal agencies to incur obligations and to make payments out of the Treasury for specified purposes. Thirteen regular appropriations bills are considered every year by the Congress and supplemental appropriations are considered from time to time.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_3" itemType="RBG/BUSINESS-TERM" itemName="Authorization" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">An authorization is an act of the Congress that establishes or continues a Federal program or agency and sets forth the guidelines to which it must adhere.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_4" itemType="RBG/BUSINESS-TERM" itemName="Balanced Budget" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">A balanced budget occurs when total receipts equal total outlays for a fiscal year.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_5" itemType="RBG/BUSINESS-TERM" itemName="Budget Authority" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Budget authority is the authority provided by law to incur financial obligations that will result in outlays.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_6" itemType="RBG/BUSINESS-TERM" itemName="Budget Enforcement Act (BEA) of 1990" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">The BEA is a recently expired law that was designed to limit discretionary spending while ensuring that any new entitlement program or tax cut did not increase deficits. It set annual limits on discretionary spending.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_7" itemType="RBG/BUSINESS-TERM" itemName="Budget Resolution" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">This is Congress’ annual framework that sets targets for total budget authority, total outlays, total revenues, and the deficit (on-budget), as well as discretionary andmandatory allocations within the spending targets. These targets guide the committees’ deliberations. It does not become law and is not binding on the Executive Branch.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_8" itemType="RBG/BUSINESS-TERM" itemName="Cap" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">A “cap” is a legal limit on annual discretionary spending.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_9" itemType="RBG/BUSINESS-TERM" itemName="Continuing Resolution" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">A continuing resolution provides for the ongoing operation of the Government in the absence of enacted appropriations, usually at the same spending rate as the prior year.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_10" itemType="RBG/BUSINESS-TERM" itemName="Debt Held by the Public" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">The cumulative amount of money the Federal Government has borrowed from the public and not repaid.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_11" itemType="RBG/BUSINESS-TERM" itemName="Debt Held by Government Accounts" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">The debt the Treasury Department owes to other accounts within the Federal Government. Most of it results from the surpluses of the Social Security and other trust funds, which are required by law to be invested in Federal securities.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_12" itemType="RBG/BUSINESS-TERM" itemName="Debt Limit" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">The maximum amount of Federal debt that may legally be outstanding at any time. It includes both the debt held by the public and the debt held by Government accounts. When the debt limit is reached, the Government cannot borrow more money until the Congress has enacted a law to increase the limit.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_13" itemType="RBG/BUSINESS-TERM" itemName="Deficit" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">A deficit is the amount by which outlays exceed receipts in a fiscal year.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_14" itemType="RBG/BUSINESS-TERM" itemName="Discretionary Spending" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Discretionary spending is what the President and the Congress decide to spend through annual appropriations bills. Examples include spending for such activities as the FBI, the Coast Guard, education, space exploration, highway construction, defense, and foreign aid. (See Mandatory Spending.)</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_15" itemType="RBG/BUSINESS-TERM" itemName="Entitlement" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">An entitlement program is one in which the Federal Government is legally obligated to make payments or provide aid to any person who meets the legal criteria for eligibility. Examples include Social Security, Medicare, Medicaid, and Food Stamps.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_16" itemType="RBG/BUSINESS-TERM" itemName="Fiscal Year" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">The fiscal year is the Federal Government’s accounting period. It begins on October 1st and ends on September 30th. For example, fiscal year 2006 begins on October 1, 2005, and ends on September 30, 2006.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_17" itemType="RBG/BUSINESS-TERM" itemName="Full-time Equivalents (FTEs)" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Civilian employment in the Executive Branch is measured on the basis of full-time equivalents. One FTE is equal to one work year or 2,080 non-overtime hours. Thus, one full-time employee counts as one FTE, and two half-time employees also count as one FTE.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_18" itemType="RBG/BUSINESS-TERM" itemName="Gross Domestic Product (GDP)" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">GDP is a measure of the market value of goods and services produced within the United States. It is the standard measure of the size of the economy.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_19" itemType="RBG/BUSINESS-TERM" itemName="Mandatory Spending" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Mandatory spending is provided by permanent law rather than annual appropriations. Examples are Social Security and the Student Loan Program. The President and the Congress can change the law with respect to the eligibility criteria or the payment formula, and thus change the level of spending onmandatory programs, but they don’t have to take annual action to ensure the continuation of spending. (See Discretionary Spending.)</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_20" itemType="RBG/BUSINESS-TERM" itemName="Obligations" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Obligations are binding agreements that result in outlays, immediately or in the future.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_21" itemType="RBG/BUSINESS-TERM" itemName="Offsetting Collections and Offsetting Receipts" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Offsetting collections and offsetting receipts are income that are deducted from outlays, rather than counted on the receipts side of the budget. They result from business-like activities such as the sale of stamps by the Postal Service.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_22" itemType="RBG/BUSINESS-TERM" itemName="Off-Budget" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">By law, Social Security and the Postal Service are accounted for separately from all other programs in the Federal Government and amounts are designated as “off-budget.”</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_23" itemType="RBG/BUSINESS-TERM" itemName="On-Budget" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Those programs not legally designated as off-budget.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_24" itemType="RBG/BUSINESS-TERM" itemName="Outlays" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Outlays are the amount of money the Government spends, minus business-like collections, in a given fiscal year.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_25" itemType="RBG/BUSINESS-TERM" itemName="Program Assessment Rating Tool (PART)" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">The PART is an analytical device used to evaluate program effectiveness and inform budget, management, and legislative decisions aimed at improving performance. It consists of a series of questions about program purpose and design, strategic planning, management, and results. Answers to PART questions require specific evidence to prove program effectiveness.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_26" itemType="RBG/BUSINESS-TERM" itemName="Pay-As-You-Go (PAYGO)" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Created by the Budget Enforcement Act, PAYGO refers to requirements that new mandatory spending proposals or tax reductions must be offset by cuts in other mandatory spending or by tax increases. The purpose of these rules is to ensure that the deficit does not rise or the surplus does not fall because of policy changes to mandatory spending and taxes.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_27" itemType="RBG/BUSINESS-TERM" itemName="President’s Management Agenda" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">A strategy to improve themanagement and performance of the FederalGovernment. The Agenda includes five Government-wide initiatives and multiple program-specific initiatives. The five Government-wide initiatives are defined below.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_28" itemType="RBG/BUSINESS-TERM" itemName="StrategicManagement of HumanCapital" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Having processes in place to ensure that the right person is in the right job, at the right time, and is performing well.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_29" itemType="RBG/BUSINESS-TERM" itemName="Competitive Sourcing" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Regularly examining commercial activities performed by the Government to determine whether it is more efficient to obtain such services from Federal employees or from the private sector.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_30" itemType="RBG/BUSINESS-TERM" itemName="Improved Financial Performance" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Accurately accounting for the taxpayers’ money and giving managers timely and accurate program cost information to inform management decisions and control costs.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_31" itemType="RBG/BUSINESS-TERM" itemName="Expanded Electronic Government" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Ensuring that the Federal Government’s information technology investments significantly improve the Government’s ability to serve citizens, and that information technology systems are secure, and delivered on time and on budget.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_32" itemType="RBG/BUSINESS-TERM" itemName="Budget and Performance Integration" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Ensuring that performance is routinely considered in funding and management decisions, and that programs achieve expected results and work toward continual improvement.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_33" itemType="RBG/BUSINESS-TERM" itemName="Receipts" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Governmental receipts (often simply “receipts”) are the collections of money that primarily result from taxes and similar Government powers to compel payment. Examples of governmental receipts include income taxes, payroll taxes, excise taxes, and customs duties. They do not include offsetting receipts or collections from the Federal Government’s business-like activities, such as the entrance fees at national parks, or collections by one Government account from another.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_34" itemType="RBG/BUSINESS-TERM" itemName="Surplus" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">A surplus is the amount by which receipts exceed outlays in a fiscal year.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_35" itemType="RBG/BUSINESS-TERM" itemName="Trust Funds" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Trust funds are Federal Government accounts designated as “trust funds” by law and which record receipts for spending on specified purposes.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_36" itemType="RBG/BUSINESS-TERM" itemName="Unified Budget" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">The unified budget includes receipts from all sources and outlays for all programs of the Federal Government, including both on- and off-budget programs. It is the most comprehensive measure of the Government’s finances.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                        <ITEM xmi.id="_37" itemType="RBG/BUSINESS-TERM" itemName="Unobligated Balance" itemScope="_0">
+                            <ATTRIBUTES>
+                                <ATTRIBUTE attrType="Txt" attrName="RBG/STATUS" contentType="text/plain">READY</ATTRIBUTE>
+                                <ATTRIBUTE attrType="Txt" attrName="DEFINITION" contentType="text/plain">Funding that has been approved or is available, but not yet obligated for any particular purpose.</ATTRIBUTE>
+                            </ATTRIBUTES>
+                        </ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+    </XMI.content>
+</XMI>

@@ -1,0 +1,27 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : {
+      "" : ""
+    },
+    "type" : "Cataloger",
+    "tags" : null,
+    "catalogName" : "Default",
+    "filter" : null,
+    "pluginVersion" : "LATEST",
+    "credential" : "OracleCredentials",
+    "pluginName" : "OracleDBCataloger",
+    "schemas" : [ ],
+    "name" : "OracleCataloger",
+    "arguments" : [ ],
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "OracleDS",
+    "properties" : [ ],
+    "businessApplicationName" : null
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "SC1": {
+    "Tables": [
+      "table2",
+      "table1",
+      "table1",
+      "table3",
+      "table1"
+    ]
+  },
+  "SC2": {
+    "Tables": [
+      "table2",
+      "table1",
+      "table1",
+      "table5",
+      "table1"
+    ]
+  },
+  "SC3": {
+    "Tables": [
+      "table1",
+      "table5",
+      "table1",
+      "table4"
+    ]
+  },
+  "SC4": {
+    "Tables": [
+      "table5",
+      "table1",
+      "table1",
+      "table2",
+      "table1"
+    ]
+  }
+}

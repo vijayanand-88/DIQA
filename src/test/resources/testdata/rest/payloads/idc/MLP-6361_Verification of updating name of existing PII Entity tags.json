@@ -1,0 +1,11 @@
+{
+  "id": "BusinessGlossary.PIIEntity:::1",
+  "type": "PIIEntity",
+  "name": "CustomerUpdated",
+  "@schema": {
+
+  },
+  "@global": {
+
+  }
+}

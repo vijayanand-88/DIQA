@@ -1,0 +1,136 @@
+{
+  "gitCollector": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "GitCollector",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "GitCollector"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tagPythonSparkHBase"
+    ],
+    "businessApplicationName": "test_BA_PythonSparkHBase",
+    "pluginType": "collector",
+    "dataSource": "GitCollectorDataSource",
+    "credential": "Git_Credentials",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": {
+      "filters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.Filter",
+          "label": null,
+          "tags": null,
+          "branch": "refs/heads/master"
+        }
+      ],
+      "deltaTime": "30",
+      "extraFilters": {
+        "filefilters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.FileFilter",
+            "label": {
+              "": "Label1"
+            },
+            "tags": null,
+            "fileMode": "include",
+            "objectType": "folder",
+            "expressionType": "simple",
+            "expressions": [
+              "**/pythonHbase/**"
+            ]
+          }
+        ]
+      },
+      "maxHits": null
+    },
+    "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+    "pluginName": "GitCollector",
+    "type": "Collector"
+  },
+  "hbaseCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "HBaseCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tagPythonSparkHBase"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "HBaseDataSource",
+    "credential": "HBaseCredentials",
+    "businessApplicationName": "test_BA_PythonSparkHBase",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "HBaseCataloger",
+    "type": "Cataloger",
+    "includeItems": {
+      "includeTables": [],
+      "includeNamespaces": []
+    },
+    "scanRows": "100"
+  },
+  "pythonParser": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonParser",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tagPythonSparkHBase"
+    ],
+    "pluginType": "parser",
+    "dataSource": null,
+    "credential": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "businessApplicationName": "test_BA_PythonSparkHBase",
+    "type": "Parser"
+  },
+  "pythonSparkLineage": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PythonSparkLineage",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "tagPythonSparkHBase"
+    ],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "test_BA_PythonSparkHBase",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "PythonSparkLineage",
+    "type": "Lineage"
+  }
+}

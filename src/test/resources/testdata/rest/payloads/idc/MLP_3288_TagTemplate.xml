@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE XMI SYSTEM 'http://schema.asg.com/rochade/xml/RNX_1_6.dtd'>
+<XMI timestamp='01/09/2018 14:44:19 GMT' verified='false' xmi.version='1.0'  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0">
+    <XMI.header>
+        <XMI.documentation>
+            <XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+            <XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+            <XMI.extensions>
+                <xsi:Extension extender="ASG-Rochade XML Facilities">
+                    <rxe:importModes>
+                        <rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>
+                        <rxe:mode category="COMPONENT.DWR_DAT_PACKAGE.*">KEEP</rxe:mode>
+                        <rxe:mode category="REFERENCE">KEEP</rxe:mode>
+                        <rxe:mode category="COMPONENT.DWR_DAT_FILE.*">KEEP</rxe:mode>
+                        <rxe:mode category="COMPONENT.DWR_RDB_DATABASE.*">KEEP</rxe:mode>
+                        <rxe:mode category="COMPONENT.DWR_RDB_SCHEMA.*">KEEP</rxe:mode>
+                        <rxe:mode category="COMPONENT.DWR_RDB_DB_SYSTEM.*">KEEP</rxe:mode>
+                    </rxe:importModes>
+                </xsi:Extension>
+            </XMI.extensions>
+        </XMI.documentation>
+        <XMI.model xmi.name='RNX' xmi.version='1.6'/>
+    </XMI.header>
+    <XMI.content xmi.uuid='XMLDsp|SERVER|AP-DATA|USER|S|AREA|INITIAL' uuidDel='|'>
+        <ITEM xmi.id='BigData.Tag:::95' itemType='GDP_PERSONAL_INFORMATION' itemName='IP Address'  itemScope='BigData.Tag:::100'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/TECHNICAL_DATA_CATALOG' linkType='Set' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Column:::1716' itemType='DWR_RDB_COLUMN' itemName='ipaddress'  itemScope='BigData.Table:::107'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Tag:::96' itemType='GDP_PERSONAL_INFORMATION' itemName='Postal Code'  itemScope='BigData.Tag:::100'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/TECHNICAL_DATA_CATALOG' linkType='Set' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Column:::1714' itemType='DWR_RDB_COLUMN' itemName='zipcode'  itemScope='BigData.Table:::107'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Tag:::98' itemType='GDP_PERSONAL_INFORMATION' itemName='Full Name'  itemScope='BigData.Tag:::100'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/TECHNICAL_DATA_CATALOG' linkType='Set' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Column:::1715' itemType='DWR_RDB_COLUMN' itemName='name'  itemScope='BigData.Table:::107'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Tag:::99' itemType='GDP_PERSONAL_INFORMATION' itemName='Region'  itemScope='BigData.Tag:::100'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/TECHNICAL_DATA_CATALOG' linkType='Set' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Column:::1712' itemType='DWR_RDB_COLUMN' itemName='phone'  itemScope='BigData.Table:::107'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Tag:::101' itemType='GDP_PERSONAL_INFORMATION' itemName='Social ID'  itemScope='BigData.Tag:::100'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Lnk' attrName='RBG/TECHNICAL_DATA_CATALOG' linkType='Set' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Column:::1711' itemType='DWR_RDB_COLUMN' itemName='ssn'  itemScope='BigData.Table:::107'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Tag:::100' itemType='RBG/GLOSSARY' itemName='Personal EDI' >
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Lnk' attrName='GDP_HAS_PERSONAL_INFORMATION' linkType='Xns' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Tag:::98' itemType='GDP_PERSONAL_INFORMATION' itemName='Full Name'  itemScope='BigData.Tag:::100'></ITEM>
+                        <ITEM xmi.idref='BigData.Tag:::101' itemType='GDP_PERSONAL_INFORMATION' itemName='Social ID'  itemScope='BigData.Tag:::100'></ITEM>
+                        <ITEM xmi.idref='BigData.Tag:::99' itemType='GDP_PERSONAL_INFORMATION' itemName='Region'  itemScope='BigData.Tag:::100'></ITEM>
+                        <ITEM xmi.idref='BigData.Tag:::95' itemType='GDP_PERSONAL_INFORMATION' itemName='IP Address'  itemScope='BigData.Tag:::100'></ITEM>
+                        <ITEM xmi.idref='BigData.Tag:::96' itemType='GDP_PERSONAL_INFORMATION' itemName='Postal Code'  itemScope='BigData.Tag:::100'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Table:::107' itemType='DWR_RDB_TABLE_OR_VIEW' itemName='piidata'  itemScope='BigData.Database:::27Schema'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_TIME_CREATION' contentType='text/plain'>2018-01-09 06:25:24</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_USER_ID_CREATION' contentType='text/plain'>raj_ops</ATTRIBUTE>
+                <ATTRIBUTE attrType='Lnk' attrName='DWR_RDB_HAS_COLUMN' linkType='Xns' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Column:::1715' itemType='DWR_RDB_COLUMN' itemName='name'  itemScope='BigData.Table:::107'></ITEM>
+                        <ITEM xmi.idref='BigData.Column:::1711' itemType='DWR_RDB_COLUMN' itemName='ssn'  itemScope='BigData.Table:::107'></ITEM>
+                        <ITEM xmi.idref='BigData.Column:::1712' itemType='DWR_RDB_COLUMN' itemName='phone'  itemScope='BigData.Table:::107'></ITEM>
+                        <ITEM xmi.idref='BigData.Column:::1713' itemType='DWR_RDB_COLUMN' itemName='statecode'  itemScope='BigData.Table:::107'></ITEM>
+                        <ITEM xmi.idref='BigData.Column:::1714' itemType='DWR_RDB_COLUMN' itemName='zipcode'  itemScope='BigData.Table:::107'></ITEM>
+                        <ITEM xmi.idref='BigData.Column:::1716' itemType='DWR_RDB_COLUMN' itemName='ipaddress'  itemScope='BigData.Table:::107'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Column:::1715' itemType='DWR_RDB_COLUMN' itemName='name'  itemScope='BigData.Table:::107'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Column:::1711' itemType='DWR_RDB_COLUMN' itemName='ssn'  itemScope='BigData.Table:::107'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Column:::1712' itemType='DWR_RDB_COLUMN' itemName='phone'  itemScope='BigData.Table:::107'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Column:::1713' itemType='DWR_RDB_COLUMN' itemName='statecode'  itemScope='BigData.Table:::107'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Column:::1714' itemType='DWR_RDB_COLUMN' itemName='zipcode'  itemScope='BigData.Table:::107'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Column:::1716' itemType='DWR_RDB_COLUMN' itemName='ipaddress'  itemScope='BigData.Table:::107'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Database:::27Schema' itemType='DWR_RDB_SCHEMA' itemName='gdpr'  itemScope='BigData.Database:::27'>
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Lnk' attrName='DWR_RDB_HAS_TABLE_OR_VIEW' linkType='Xns' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Table:::107' itemType='DWR_RDB_TABLE_OR_VIEW' itemName='piidata'  itemScope='BigData.Database:::27Schema'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+        <ITEM xmi.id='BigData.Database:::27' itemType='DWR_RDB_DATABASE' itemName='gdpr'  itemScope='BigData.DbSystem:::3'>      </ITEM>
+        <ITEM xmi.id='BigData.DbSystem:::3' itemType='DWR_RDB_DB_SYSTEM' itemName='Hive Warehouse' >
+            <ATTRIBUTES>
+                <ATTRIBUTE attrType='Lnk' attrName='DWR_RDB_HAS_DATABASE' linkType='Xns' >
+                    <ITEMS>
+                        <ITEM xmi.idref='BigData.Database:::27' itemType='DWR_RDB_DATABASE' itemName='gdpr'  itemScope='BigData.DbSystem:::3'></ITEM>
+                    </ITEMS>
+                </ATTRIBUTE>
+            </ATTRIBUTES>
+        </ITEM>
+    </XMI.content>
+</XMI>

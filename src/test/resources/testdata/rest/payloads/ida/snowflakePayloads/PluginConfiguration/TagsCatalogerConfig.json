@@ -1,0 +1,57 @@
+{
+  "CatalogerConfig":
+  {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SnowflakeDBCataloger",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "snowflakeTag"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "SnowflakeValidDataSource",
+    "credential": "ValidSnowflakeCredentials",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "SnowflakeDBCataloger",
+    "schemas": [{
+      "schema": "TEST_SNOWSchemaAuto",
+      "tables":  [
+        {
+          "table": "TAGDETAILS_ALLMATCH"
+        },
+        {
+          "table": "TAGDETAILS_ALLEMPTY"
+        },
+        {
+          "table": "TAGDETAILS_Ratiolessthan05EmptyFalse"
+        },
+        {
+          "table": "TAGDETAILS_Ratiogreaterthan05EmptyFalseTrue"
+        },
+        {
+          "table": "TAGDETAILS_RatioEqualTo05EmptyFalse"
+        },
+        {
+          "table": "TAGDETAILS_Ratiogreaterthan05MatchFullTrue"
+        },
+        {
+          "table": "TAGDETAILS_Ratiolesserthan05MatchFullTrue"
+        }
+      ]
+    }],
+    "type": "Cataloger",
+    "properties": []
+  }
+
+}
+
+

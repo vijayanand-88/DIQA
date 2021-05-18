@@ -1,0 +1,30 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "PostgresCatalogerWithOnlyTableFilter",
+  "label": {
+    "": ""
+  },
+  "catalogName": "POSTGRES CATALOG",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "cataloger",
+  "dataSource": "SampleDataSource",
+  "credential": "SampleCredentials",
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "PostgreSQLDBCataloger",
+  "schemas": [
+    {
+      "tables": [
+        {
+          "table": "postgres_tag_details"
+        }
+      ]
+    }
+  ],
+  "type": "Cataloger",
+  "properties": []
+}

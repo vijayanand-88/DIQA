@@ -1,0 +1,212 @@
+{
+  "PositiveFlow1": {
+    "students.orc => usersDF2": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "students.orc",
+      "lineageTo": "usersDF2"
+    },
+    "system.parquet => usersDF5": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "system.parquet",
+      "lineageTo": "usersDF5"
+    },
+    "usersDF3 => \/pythonA\/automation\/load\/target1\/citytarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF3",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/citytarget",
+      "lineageTo": "part-r-00000.csv"
+    },
+    "usersDF => \/pythonA\/automation\/load\/target1\/empTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/empTarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "city.csv => usersDF3": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "city.csv",
+      "lineageTo": "usersDF3"
+    },
+    "rubiks.parquet => usersDF6": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "rubiks.parquet",
+      "lineageTo": "usersDF6"
+    },
+    "shapes.orc => usersDF4": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "shapes.orc",
+      "lineageTo": "usersDF4"
+    },
+    "usersDF6 => \/pythonA\/automation\/load\/target1\/rubiksTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF6",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/rubiksTarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "emp.csv => usersDF": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "emp.csv",
+      "lineageTo": "usersDF"
+    },
+    "usersDF4 => \/pythonA\/automation\/load\/target1\/shapesTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF4",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/shapesTarget",
+      "lineageTo": "part-r-00000.orc"
+    },
+    "usersDF5 => \/pythonA\/automation\/load\/target1\/systemTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF5",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/systemTarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "usersDF2 => \/pythonA\/automation\/load\/target1\/studentsTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF2",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/studentsTarget",
+      "lineageTo": "part-r-00000.parquet"
+    }
+  },
+  "PositiveFlow2": {
+    "gender.orc => usersDF11": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "gender.orc",
+      "lineageTo": "usersDF11"
+    },
+    "usersDF11 => \/pythonA\/automation\/load\/target1\/genderTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF11",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/genderTarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "usersDF7 => \/pythonA\/automation\/load\/target1\/countrytarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF7",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/countrytarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "country.csv => usersDF7": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "country.csv",
+      "lineageTo": "usersDF7"
+    },
+    "soccer.orc => usersDF8": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "soccer.orc",
+      "lineageTo": "usersDF8"
+    },
+    "chocolate.csv => usersDF10": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "chocolate.csv",
+      "lineageTo": "usersDF10"
+    },
+    "usersDF8 => \/pythonA\/automation\/load\/target1\/soccerTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF8",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/soccerTarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "usersDF12 => \/pythonA\/automation\/load\/target1\/accountTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF12",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/accountTarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "marathon.parquet => usersDF9": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "marathon.parquet",
+      "lineageTo": "usersDF9"
+    },
+    "usersDF10 => \/pythonA\/automation\/load\/target1\/chocolatetarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF10",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/chocolatetarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "account.parquet => usersDF12": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "account.parquet",
+      "lineageTo": "usersDF12"
+    },
+    "usersDF9 => \/pythonA\/automation\/load\/target1\/marathonTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF9",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/marathonTarget",
+      "lineageTo": "part-r-00000.parquet"
+    }
+  },
+  "PositiveFlow3": {
+    "usersDF13 => \/pythonA\/automation\/load\/target1\/customerTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF13",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/customerTarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "usersDF15 => \/pythonA\/automation\/load\/target1\/namesAndFavColorsTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF15",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/namesAndFavColorsTarget",
+      "lineageTo": "part-r-00000.parquet"
+    },
+    "marathon.parquet => usersDF17": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "marathon.parquet",
+      "lineageTo": "usersDF17"
+    },
+    "people.json => usersDF14": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "people.json",
+      "lineageTo": "usersDF14"
+    },
+    "namesAndFavColors.text => usersDF16": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "namesAndFavColors.text",
+      "lineageTo": "usersDF16"
+    },
+    "namesAndFavColors.text => usersDF15": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "namesAndFavColors.text",
+      "lineageTo": "usersDF15"
+    },
+    "usersDF14 => \/pythonA\/automation\/load\/target1\/peopleTarget": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF14",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/peopleTarget",
+      "lineageTo": "part-r-00000.json"
+    },
+    "usersDF16 => \/pythonA\/automation\/load\/target1\/namesAndFavColorsTarget1": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF16",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/namesAndFavColorsTarget1",
+      "lineageTo": "part-r-00000.txt"
+    },
+    "customer.json => usersDF13": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/pythonA\\\/automation\\\/source1",
+      "lineageFrom": "customer.json",
+      "lineageTo": "usersDF13"
+    },
+    "usersDF17 => \/pythonA\/automation\/load\/target1\/shapesTarget1": {
+      "mode": "COPY",
+      "lineageFrom": "usersDF17",
+      "targetLocation": "\\\/pythonA\\\/automation\\\/load\\\/target1\\\/shapesTarget1",
+      "lineageTo": "part-r-00000.orc"
+    }
+  }
+}

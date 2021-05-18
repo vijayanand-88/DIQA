@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureCosmosFiltr6",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AzureCosmosFiltr6",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "database": "testSqlData",
+      "tables": [
+        {
+          "table": "TestCollection"
+        }
+      ],
+      "host": "asgsqlcosmos.documents.azure.com",
+      "user": "Devi.Niranjani@asg.com",
+      "primarykey": "m2FVxxoa21Th6DJBnIq9GTAPwtGOZWmVGcWzaNKoWI0Y0kmYpyqx3XIQZZSIZG3SSE21qBoiVUkbZ1AMgCDhPg=="
+    }
+  ]
+}

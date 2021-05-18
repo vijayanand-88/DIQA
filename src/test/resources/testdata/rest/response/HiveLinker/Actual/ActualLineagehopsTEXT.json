@@ -1,0 +1,16 @@
+{
+  "tagdetails_text": [
+    {
+      "mode": "VIEW",
+      "source": "TextFolder",
+      "dir": "->",
+      "target": "tagdetails_text"
+    },
+    {
+      "mode": "VIEW",
+      "source": "tagdetails_text",
+      "dir": "->",
+      "target": "TextFolder"
+    }
+  ]
+}

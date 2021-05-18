@@ -1,0 +1,371 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": []
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithMultipleSchemaFilterWithTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        },
+        {
+          "schema": "TEST",
+          "tables": [
+            {
+              "table": "BASELINES"
+            }
+          ]
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerwithSchemaAndMultipleTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerwithNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "ORACLENONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "ORACLENONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithIncorrectURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": []
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gecol1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithIncorrectCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manage",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "sys",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithOnlyTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithMultipleSchemasInFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": []
+        },
+        {
+          "schema": "PM",
+          "tables": []
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithWrongBundleName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "system",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:cae12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithTimeStamp",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "collector1",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "USR_COLL",
+          "tables": [
+            {
+              "table": "ORACLE_EMPTY"
+            },
+            {
+              "table": "ORACLE_TABLE"
+            }
+          ]
+        }
+      ],
+      "user": "collector",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:col2"
+    }
+  ]
+}

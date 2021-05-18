@@ -1,0 +1,189 @@
+{
+  "FileReaderWriter_Write": {
+    "FileReaderInput.txt => FileWriterOutput.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/FileReaderInput.txt",
+      "lineageFrom": "\/FileReaderInput.txt",
+      "targetLocation": "\\\/FileWriterOutput.txt",
+      "lineageTo": "\/FileWriterOutput.txt"
+    }
+  },
+  "FileUtilsCopyURLToFile": {
+    "copyURLTempFile_Input.txt => C:\\IOLinker\\copyURLTempFile_Output.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/file:\\\/C:\\\/IOLinker\\\/copyURLTempFile_Input.txt",
+      "lineageFrom": "\/file:\/C:\/IOLinker\/copyURLTempFile_Input.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\copyURLTempFile_Output.txt",
+      "lineageTo": "\/C:\\IOLinker\\copyURLTempFile_Output.txt"
+    }
+  },
+  "FilesNewByteChannel": {
+    "bytechannel.txt => channelOp.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\/IOLinker\\\/bytechannel.txt",
+      "lineageFrom": "\/C:\/IOLinker\/bytechannel.txt",
+      "targetLocation": "\\\/C:\\\/IOLinker\\\/channelOp.txt",
+      "lineageTo": "\/C:\/IOLinker\/channelOp.txt"
+    }
+  },
+  "IOMultipleLineage": {
+    "MultiSource.txt => MultiDestination.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/MultiSource.txt",
+      "lineageFrom": "\/MultiSource.txt",
+      "targetLocation": "\\\/MultiDestination.txt",
+      "lineageTo": "\/MultiDestination.txt"
+    },
+    "MulticopyFilesAPI_f1.txt => MulticopyFilesAPI_f2.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/MulticopyFilesAPI_f1.txt",
+      "lineageFrom": "\/MulticopyFilesAPI_f1.txt",
+      "targetLocation": "\\\/MulticopyFilesAPI_f2.txt",
+      "lineageTo": "\/MulticopyFilesAPI_f2.txt"
+    }
+  },
+  "FileUtilsReadFileToString_2": {
+    "C:\\IOLinker\\ReadFileToStringFile2.txt => C:\\IOLinker\\WriteString.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\\IOLinker\\\\ReadFileToStringFile2.txt",
+      "lineageFrom": "\/C:\\IOLinker\\ReadFileToStringFile2.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\WriteString.txt",
+      "lineageTo": "\/C:\\IOLinker\\WriteString.txt"
+    }
+  },
+  "FileUtilsLineIterator": {
+    "C:\\IOLinker\\LineIterator_Input.txt => C:\\IOLinker\\LineIterator_Output.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\\IOLinker\\\\LineIterator_Input.txt",
+      "lineageFrom": "\/C:\\IOLinker\\LineIterator_Input.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\LineIterator_Output.txt",
+      "lineageTo": "\/C:\\IOLinker\\LineIterator_Output.txt"
+    }
+  },
+  "FileUtilsReadFileToString_1": {
+    "C:\\IOLinker\\ReadFileToString.txt => C:\\IOLinker\\WriteFileToString.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\\IOLinker\\\\ReadFileToString.txt",
+      "lineageFrom": "\/C:\\IOLinker\\ReadFileToString.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\WriteFileToString.txt",
+      "lineageTo": "\/C:\\IOLinker\\WriteFileToString.txt"
+    }
+  },
+  "FilesCopy": {
+    "copyFilesAPI_f1.txt => copyFilesAPI_f2.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/copyFilesAPI_f1.txt",
+      "lineageFrom": "\/copyFilesAPI_f1.txt",
+      "targetLocation": "\\\/copyFilesAPI_f2.txt",
+      "lineageTo": "\/copyFilesAPI_f2.txt"
+    }
+  },
+  "FileUtilsCopyFile": {
+    "Source.txt => Destination.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/Source.txt",
+      "lineageFrom": "\/Source.txt",
+      "targetLocation": "\\\/Destination.txt",
+      "lineageTo": "\/Destination.txt"
+    }
+  },
+  "FileUtilsCopyInputStreamToFile": {
+    "C:\\IOLinker\\CopyInputStreamToFile_Input.txt => C:\\IOLinker\\CopyInputStreamToFile_Output.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\\IOLinker\\\\CopyInputStreamToFile_Input.txt",
+      "lineageFrom": "\/C:\\IOLinker\\CopyInputStreamToFile_Input.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\CopyInputStreamToFile_Output.txt",
+      "lineageTo": "\/C:\\IOLinker\\CopyInputStreamToFile_Output.txt"
+    }
+  },
+  "FilesMove": {
+    "moveFilesAPI_f1.txt => moveFilesAPI_f2.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/moveFilesAPI_f1.txt",
+      "lineageFrom": "\/moveFilesAPI_f1.txt",
+      "targetLocation": "\\\/moveFilesAPI_f2.txt",
+      "lineageTo": "\/moveFilesAPI_f2.txt"
+    }
+  },
+  "FileStreamWrite": {
+    "InputStream.txt => OutputStream.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/InputStream.txt",
+      "lineageFrom": "\/InputStream.txt",
+      "targetLocation": "\\\/OutputStream.txt",
+      "lineageTo": "\/OutputStream.txt"
+    }
+  },
+  "StreamIntermediateOp": {
+    "StreamInterOpSource.txt => StreamInterOpOutput.txt": {
+      "mode": "TRANSFORM",
+      "sourceLocation": "\\\/C:\\\/IOLinker\\\/StreamInterOpSource.txt",
+      "lineageFrom": "\/C:\/IOLinker\/StreamInterOpSource.txt",
+      "targetLocation": "\\\/C:\\\/IOLinker\\\/StreamInterOpOutput.txt",
+      "lineageTo": "\/C:\/IOLinker\/StreamInterOpOutput.txt"
+    }
+  },
+  "FilesLines": {
+    "IDA.txt => FileLinesOutput.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\/Blue Boy R\\\/IDA.txt",
+      "lineageFrom": "\/C:\/Blue Boy R\/IDA.txt",
+      "targetLocation": "\\\/C:\\\/Blue Boy R\\\/FileLinesOutput.txt",
+      "lineageTo": "\/C:\/Blue Boy R\/FileLinesOutput.txt"
+    }
+  },
+  "FilesReadAllLines": {
+    "ascii.txt => op.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\/IOLinker\\\/ascii.txt",
+      "lineageFrom": "\/C:\/IOLinker\/ascii.txt",
+      "targetLocation": "\\\/C:\\\/IOLinker\\\/op.txt",
+      "lineageTo": "\/C:\/IOLinker\/op.txt"
+    }
+  },
+  "FileUtilsCopyToFile": {
+    "C:\\IOLinker\\CopyToFile_Source.txt => C:\\IOLinker\\CopyToFile_Destination.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\\IOLinker\\\\CopyToFile_Source.txt",
+      "lineageFrom": "\/C:\\IOLinker\\CopyToFile_Source.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\CopyToFile_Destination.txt",
+      "lineageTo": "\/C:\\IOLinker\\CopyToFile_Destination.txt"
+    }
+  },
+  "FileUtilsCopyFileToDirectory": {
+    "C:\\IOLinker\\CopyFileToDirectory_Source.txt => C:\\IOLinker\\Target\\CopyFileToDirectory_Source.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\\IOLinker\\\\CopyFileToDirectory_Source.txt",
+      "lineageFrom": "\/C:\\IOLinker\\CopyFileToDirectory_Source.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\Target\\\\CopyFileToDirectory_Source.txt",
+      "lineageTo": "\/C:\\IOLinker\\Target\\CopyFileToDirectory_Source.txt"
+    }
+  },
+  "BufferedReaderWriter_Write": {
+    "BufferedReader.txt => BufferedWriter.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/BufferedReader.txt",
+      "lineageFrom": "\/BufferedReader.txt",
+      "targetLocation": "\\\/BufferedWriter.txt",
+      "lineageTo": "\/BufferedWriter.txt"
+    }
+  },
+  "FileUtilsCopyToDirectory": {
+    "C:\\IOLinker\\CopyToDirectory_Source.txt => C:\\IOLinker\\Target\\CopyToDirectory_Source.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\\IOLinker\\\\CopyToDirectory_Source.txt",
+      "lineageFrom": "\/C:\\IOLinker\\CopyToDirectory_Source.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\Target\\\\CopyToDirectory_Source.txt",
+      "lineageTo": "\/C:\\IOLinker\\Target\\CopyToDirectory_Source.txt"
+    }
+  },
+  "FileUtilsReadFileToByteArray": {
+    "C:\\IOLinker\\ReadFileToByteArray_Source.txt => C:\\IOLinker\\ReadFileToByteArray_Target.txt": {
+      "mode": "COPY",
+      "sourceLocation": "\\\/C:\\\\IOLinker\\\\ReadFileToByteArray_Source.txt",
+      "lineageFrom": "\/C:\\IOLinker\\ReadFileToByteArray_Source.txt",
+      "targetLocation": "\\\/C:\\\\IOLinker\\\\ReadFileToByteArray_Target.txt",
+      "lineageTo": "\/C:\\IOLinker\\ReadFileToByteArray_Target.txt"
+    }
+  }
+}

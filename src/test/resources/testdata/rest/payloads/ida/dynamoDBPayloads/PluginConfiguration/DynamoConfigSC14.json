@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DynamoCatalog3",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='java'",
+      "maxWorkSize": 100,
+      "tags": ["SC4DynamoTags"],
+      "pluginType": "cataloger",
+      "dataSource": "DynamoValidDS",
+      "credential": "ValidDYDBCredentials",
+	  "dryRun": false,
+      "filter": null,
+      "tables": [],
+      "properties": []
+    }
+  ]
+}

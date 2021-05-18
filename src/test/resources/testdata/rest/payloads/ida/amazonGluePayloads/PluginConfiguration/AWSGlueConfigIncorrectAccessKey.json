@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GlueCatalogIncorrectAccessKey",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagGlueIncorrectAccessKey"],
+      "pluginType": "cataloger",
+      "dataSource": "AWSGlueInvalidCredentialsDataSource",
+      "credential": "InvalidGlueCredentials",
+      "filter": null,
+      "secretKey": "PsaTPBFPFnZwLwv9ucRZhKdvg5yOI9dMYcsetUez",
+      "accessKey": "AKIA4UIVSTNYUDHTTVT4123",
+      "region": "us-east-1",
+      "includeItems": {
+        "includeDatabases": [],
+        "includeJobs": []
+      }
+    }
+  ]
+}

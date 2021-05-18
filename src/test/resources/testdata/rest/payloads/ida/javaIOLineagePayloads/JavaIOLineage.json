@@ -1,0 +1,11 @@
+{
+  "JavaIOLineage": {
+    "label": {
+      "": "JavaIOLineage"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "JavaIOLineage"
+    }
+  }
+}

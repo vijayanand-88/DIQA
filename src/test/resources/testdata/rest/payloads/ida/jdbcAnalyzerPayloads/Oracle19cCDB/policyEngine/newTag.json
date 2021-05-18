@@ -1,0 +1,47 @@
+{
+  "comments": "Full Name",
+  "inputEntry": [
+    {
+      "text": "DIAnalysis[true]",
+      "domainName": "DIAnalysis"
+    }
+  ],
+  "outputEntry": [
+    {
+      "text": "\"\\w+\\s\\w+\"",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "\"User Defined PII Tag\"",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "false",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "true",
+      "expressionLanguage": null,
+      "attributeName": null
+    },
+    {
+      "text": "0.5",
+      "expressionLanguage": null,
+      "attributeName": null
+    }
+  ]
+}
+

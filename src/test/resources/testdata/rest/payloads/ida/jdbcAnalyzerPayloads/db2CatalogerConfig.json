@@ -1,0 +1,424 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": []
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithMultipleSchemasInFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": []
+        },
+        {
+          "schema": "DB2ADMIN",
+          "tables": []
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerwithSchemaAndMultipleTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            },
+            {
+              "table": "TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithMultipleSchemaFilterWithTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        },
+        {
+          "schema": "DB2ADMIN",
+          "tables": [
+            {
+              "table": "UDBTEST1"
+            }
+          ]
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerwithNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "DB2NONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "DB2NONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithIncorrectURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": []
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gech-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithIncorrectCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "QA",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "qa",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithIncorretBundleName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2",
+      "schemas": [],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithTimeStamp",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_EMPTY"
+            },
+            {
+              "table": "DB2_TABLE"
+            }
+          ]
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/SAMPLE"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithIncorrectDatabaseURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/check"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithNoUsernameAndPassword",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": null,
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "UDBTEST1",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": null,
+      "properties": [],
+      "url": "jdbc:db2://gechcae-col1.asg.com:50000/check"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithOracleDatabaseURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:col2"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithPostgresDatabaseURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "laguna-68",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [],
+      "user": "db2admin",
+      "properties": [],
+      "url": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres"
+    }
+  ]
+}

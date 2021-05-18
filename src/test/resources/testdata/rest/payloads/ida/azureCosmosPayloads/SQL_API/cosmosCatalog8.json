@@ -1,0 +1,11 @@
+{
+  "AzureInvalidHost": {
+    "label": {
+      "": "AzureInvalidHost"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "AzureInvalidHost"
+    }
+  }
+}

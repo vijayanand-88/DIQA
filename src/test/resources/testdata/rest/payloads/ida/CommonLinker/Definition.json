@@ -1,0 +1,34 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "GitCollector",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "CommonLinker",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "collector",
+  "dataSource": "GitCollectorDataSource",
+  "credential": "SampleCredentials",
+  "filter": {
+    "filters": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.Filter",
+        "label": null,
+        "tags": null,
+        "branch": "PythonTest"
+      }
+    ],
+    "deltaTime": "300",
+    "extraFilters": {
+      "filefilters": []
+    },
+    "maxHits": null
+  },
+  "dryRun": "FALSE",
+  "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+}

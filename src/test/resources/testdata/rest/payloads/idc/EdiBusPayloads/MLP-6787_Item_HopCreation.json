@@ -1,0 +1,9 @@
+[
+  {
+
+    "type": "LineageHop",
+    "name": "HopEDI",
+    "mode":"COPY"
+
+  }
+]

@@ -1,0 +1,1 @@
+{"Clusters":{"desired_config":{"tag":"version41","type":"catalog-hdfs-config","properties":{"cataloger.krb.conf":"/etc/krb5.conf","cataloger.keytab":"/etc/security/keytabs/cataloger.keytab","cataloger.scan.hdfs":"true","cataloger.hdfs.user":"hdfs","cataloger.krb.principal":"hdfs@PRINCIPAL.COM","cataloger.scan.services":"false"}}}}

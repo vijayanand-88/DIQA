@@ -1,0 +1,11 @@
+{
+  "TechOneCatalog": {
+    "label": {
+      "": "TechOneCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "TechOneCatalog"
+    }
+  }
+}

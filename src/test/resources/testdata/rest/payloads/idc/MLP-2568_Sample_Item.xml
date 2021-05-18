@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns:rim="http://rochade.asg.com/ScanHive/2.10.000"><!--2017-03-07 13:14:47 - START: ASG-Rochade(R) SCANHIVE-->
+    <xmi:Documentation>
+        <exporter>ASG-Rochade(R) SCANHIVE</exporter>
+        <exporterVersion>2.10.000-165</exporterVersion>
+        <xmi:Extension extender="ASG-Rochade XML Facilities">
+            <rxe:importModes>
+                <mode category="ATTRIBUTE">KEEP</mode>
+                <mode category="COMPONENT.RBD_CONNECTION.RBD_HAS-STORAGE">KEEP</mode>
+            </rxe:importModes>
+        </xmi:Extension>
+    </xmi:Documentation>
+    <rim:TCluster name="Cluster 1" def="">
+        <nHasDataPackages name="Cluster 1" def="" stage="BigData">
+            <nHasDatType name="date" xmi:id="x3" xmi:type="rim:TDatDataType" def="date" datDataType="DATE" datScale="" datLength="" stage="BigData"></nHasDatType>
+            <nHasDatType name="string" xmi:id="x7" xmi:type="rim:TDatDataType" def="string" datDataType="STRING" datScale="" datLength="" stage="BigData"></nHasDatType>
+        </nHasDataPackages>
+        <nHasDbSystems name="Hive Warehouse" def="Hive data warehouse" location="hdfs://quickstart.cloudera:8020" appName="Hive" appVersion="" ipAddress="10.33.6.133" hostName="10.33.6.133">
+            <nHasStorage name="default" def="" location="/user/hive/warehouse" storageType="rbd/hive" tags="LandingArea,BigData">
+                <desc>Default Hive database</desc>
+                <nHasStoUnit name="ice_supply" createdAt="2016-10-06 02:05:10" createdBy="root" modifiedAt="" modifiedBy="" def="" inputType="org.apache.hadoop.mapred.TextInputFormat" delimitFields="field.delim=\u002c" buckNumber="-1" serLib="org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe" location="/user/hive/warehouse/ice_supply" storageType="external" hbaseName="" filesNumber="4" tableSize="169800" tags="LandingArea,BigData">
+                    <nHasColumns info="">
+                        <owned name="col1" xmi:id="x45" dataType="string" def="" lDatOfType="x7">
+                            <desc></desc>
+                        </owned>
+                    </nHasColumns>
+                    <nHasColumns info="">
+                        <owned name="col2" xmi:id="x46" dataType="string" def="" lDatOfType="x7">
+                            <desc></desc>
+                        </owned>
+                    </nHasColumns>
+                </nHasStoUnit>
+            </nHasStorage>
+        </nHasDbSystems>
+
+    </rim:TCluster>
+</xmi:XMI>
+

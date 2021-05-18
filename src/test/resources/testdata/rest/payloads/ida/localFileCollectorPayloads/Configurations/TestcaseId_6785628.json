@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MaxWorkSize0",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "MaxWorkSize0",
+        "en": "MaxWorkSize0"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 0,
+      "tags": [
+        "LFC"
+      ],
+      "pluginType": "COLLECTOR",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": []
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "pluginName": "LocalFileCollector",
+      "root": "/lfc_testfiles",
+      "incrementalRun": true,
+      "type": "Collector"
+    }
+  ]
+}

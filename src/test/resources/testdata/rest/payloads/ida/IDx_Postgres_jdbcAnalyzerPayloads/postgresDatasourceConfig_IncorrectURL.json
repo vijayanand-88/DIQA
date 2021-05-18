@@ -1,0 +1,21 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "IncorrectURL",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "POSTGRES CATALOG",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "datasource",
+  "dataSource": null,
+  "credential": "SampleCredentials",
+  "filter": null,
+  "pluginName": "PostgresJDBCDataSource",
+  "driverBundleName": "org.postgresql.jdbc42",
+  "url": "jdbc:postgresql://deche.asg.com:5432/postgres"
+}

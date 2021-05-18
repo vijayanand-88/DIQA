@@ -1,0 +1,22 @@
+{
+  "comments" : "PII - NewTag",
+  "inputEntry" : [ {
+    "text" : "DIAnalysis[ true ]",
+    "domainName" : null
+  } ],
+  "outputEntry" : [ {
+    "text" : "\"(\\+\\d{1,3}\\s)?\\(?\\d{1,3}\\)?[\\s.-]\\d{3}([\\s.-])?\\d{4}\""
+  }, {
+    "text" : "\"full_name\""
+  }, {
+    "text" : "true"
+  }, {
+    "text" : "\".*post.*\""
+  }, {
+    "text" : ""
+  }, {
+    "text" : "false"
+  }, {
+    "text" : "0.699999988079071"
+  } ]
+}

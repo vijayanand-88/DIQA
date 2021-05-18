@@ -1,0 +1,280 @@
+{
+  "DF_S3_Combinations": {
+    "emp.csv => userDF8": {
+      "mode": "COPY",
+      "sourceLocation": "asgqatestautomation2\\\/Java\\\/Source\\\/emp.csv",
+      "lineageFrom": "emp.csv",
+      "lineageTo": "userDF8"
+    },
+    "people.json => userDF3": {
+      "mode": "COPY",
+      "sourceLocation": "asgqatestautomation2\\\/Java\\\/Source\\\/people.json",
+      "lineageFrom": "people.json",
+      "lineageTo": "userDF3"
+    },
+    "rubiks.parquet => userDF5": {
+      "mode": "COPY",
+      "sourceLocation": "asgqatestautomation2\\\/Java\\\/Source\\\/rubiks.parquet",
+      "lineageFrom": "rubiks.parquet",
+      "lineageTo": "userDF5"
+    },
+    "userDF8 => asgqatestautomation2\/Java\/Target\/DF\/empTarget01\/part-00000-6b63676d-a2bd-4944-982a-d113d153cc6e-c000.csv": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF8",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/DF\\\/empTarget01\\\/part-00000-6b63676d-a2bd-4944-982a-d113d153cc6e-c000.csv",
+      "lineageTo": "part-00000-6b63676d-a2bd-4944-982a-d113d153cc6e-c000.csv"
+    },
+    "rubiks.parquet => userDF4": {
+      "mode": "COPY",
+      "sourceLocation": "asgqatestautomation2\\\/Java\\\/Source\\\/rubiks.parquet",
+      "lineageFrom": "rubiks.parquet",
+      "lineageTo": "userDF4"
+    },
+    "people.json => userDF7": {
+      "mode": "COPY",
+      "sourceLocation": "asgqatestautomation2\\\/Java\\\/Source\\\/people.json",
+      "lineageFrom": "people.json",
+      "lineageTo": "userDF7"
+    },
+    "userDF7 => asgqatestautomation2\/Java\/Target\/DF\/peopleTarget_01\/part-00000-f1371f5d-8633-4c63-8cd7-3869fac23483-c000.json": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF7",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/DF\\\/peopleTarget_01\\\/part-00000-f1371f5d-8633-4c63-8cd7-3869fac23483-c000.json",
+      "lineageTo": "part-00000-f1371f5d-8633-4c63-8cd7-3869fac23483-c000.json"
+    },
+    "userDF4 => asgqatestautomation2\/Java\/Target\/DF\/rubiksTarget\/part-00000-dc589701-08cc-4880-a4ac-516e74d18db9-c000.snappy.orc": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF4",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/DF\\\/rubiksTarget\\\/part-00000-dc589701-08cc-4880-a4ac-516e74d18db9-c000.snappy.orc",
+      "lineageTo": "part-00000-dc589701-08cc-4880-a4ac-516e74d18db9-c000.snappy.orc"
+    },
+    "userDF5 => asgqatestautomation2\/Java\/Target\/DF\/rubiksTarget1\/part-00000-6c2eabca-3fd6-4326-9ad8-ce95cfb4034c-c000.snappy.parquet": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF5",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/DF\\\/rubiksTarget1\\\/part-00000-6c2eabca-3fd6-4326-9ad8-ce95cfb4034c-c000.snappy.parquet",
+      "lineageTo": "part-00000-6c2eabca-3fd6-4326-9ad8-ce95cfb4034c-c000.snappy.parquet"
+    },
+    "userDF6 => asgqatestautomation2\/Java\/Target\/DF\/rddSourceTarget1\/part-00000-4ca6c3be-22b6-4149-a0f7-5a3ecc11ed43-c000.txt": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF6",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/DF\\\/rddSourceTarget1\\\/part-00000-4ca6c3be-22b6-4149-a0f7-5a3ecc11ed43-c000.txt",
+      "lineageTo": "part-00000-4ca6c3be-22b6-4149-a0f7-5a3ecc11ed43-c000.txt"
+    },
+    "rddSource.txt => userDF6": {
+      "mode": "COPY",
+      "sourceLocation": "asgqatestautomation2\\\/Java\\\/Source\\\/rddSource.txt",
+      "lineageFrom": "rddSource.txt",
+      "lineageTo": "userDF6"
+    },
+    "userDF3 => asgqatestautomation2\/Java\/Target\/DF\/peopleTarget\/part-00000-06159d7d-9bb4-45f1-8a56-e969ccc8b10f-c000.snappy.parquet": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "userDF3",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/DF\\\/peopleTarget\\\/part-00000-06159d7d-9bb4-45f1-8a56-e969ccc8b10f-c000.snappy.parquet",
+      "lineageTo": "part-00000-06159d7d-9bb4-45f1-8a56-e969ccc8b10f-c000.snappy.parquet"
+    }
+  },
+  "RDD_S3_Combinations": {
+    "rddSource.txt => lines": {
+      "mode": "COPY",
+      "sourceLocation": "asgqatestautomation2\\\/Java\\\/Source\\\/rddSource.txt",
+      "lineageFrom": "rddSource.txt",
+      "lineageTo": "lines"
+    },
+    "Source => lines1": {
+      "mode": "COPY",
+      "lineageFrom": "Source",
+      "lineageTo": "lines1"
+    },
+    "Source => lines2": {
+      "mode": "COPY",
+      "lineageFrom": "Source",
+      "lineageTo": "lines2"
+    },
+    "lines1 => asgqatestautomation2\/Java\/Target\/RDD\/output_DirectoryToFile.csv\/part-00000": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines1",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/output_DirectoryToFile.csv\\\/part-00000",
+      "lineageTo": "part-00000"
+    },
+    "lines => asgqatestautomation2\/Java\/Target\/RDD\/rddTarget_FileToDirectory\/part-00001": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/rddTarget_FileToDirectory\\\/part-00001",
+      "lineageTo": "part-00001"
+    },
+    "lines => asgqatestautomation2\/Java\/Target\/RDD\/rddTarget_FileToDirectory\/part-00000": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/rddTarget_FileToDirectory\\\/part-00000",
+      "lineageTo": "part-00000"
+    },
+    "lines2 => asgqatestautomation2\/Java\/Target\/RDD\/output_DirectoryToDirectory\/part-00003": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines2",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/output_DirectoryToDirectory\\\/part-00003",
+      "lineageTo": "part-00003"
+    },
+    "lines1 => asgqatestautomation2\/Java\/Target\/RDD\/output_DirectoryToFile.csv\/part-00001": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines1",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/output_DirectoryToFile.csv\\\/part-00001",
+      "lineageTo": "part-00001"
+    },
+    "lines2 => asgqatestautomation2\/Java\/Target\/RDD\/output_DirectoryToDirectory\/part-00000": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines2",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/output_DirectoryToDirectory\\\/part-00000",
+      "lineageTo": "part-00000"
+    },
+    "lines1 => asgqatestautomation2\/Java\/Target\/RDD\/output_DirectoryToFile.csv\/part-00002": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines1",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/output_DirectoryToFile.csv\\\/part-00002",
+      "lineageTo": "part-00002"
+    },
+    "lines1 => asgqatestautomation2\/Java\/Target\/RDD\/output_DirectoryToFile.csv\/part-00003": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines1",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/output_DirectoryToFile.csv\\\/part-00003",
+      "lineageTo": "part-00003"
+    },
+    "lines2 => asgqatestautomation2\/Java\/Target\/RDD\/output_DirectoryToDirectory\/part-00002": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines2",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/output_DirectoryToDirectory\\\/part-00002",
+      "lineageTo": "part-00002"
+    },
+    "lines2 => asgqatestautomation2\/Java\/Target\/RDD\/output_DirectoryToDirectory\/part-00001": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "lines2",
+      "targetLocation": "asgqatestautomation2\\\/Java\\\/Target\\\/RDD\\\/output_DirectoryToDirectory\\\/part-00001",
+      "lineageTo": "part-00001"
+    }
+  },
+  "S3_CsvToAvro_Final": {
+    "facebook.json.tweet => userDF3.tweet": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "tweet",
+      "lineageTo": "tweet"
+    },
+    "tweet => fbTarget_DF.tweet": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "tweet",
+      "lineageTo": "tweet"
+    },
+    "facebook.json.timestamp => userDF3.timestamp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "timestamp",
+      "lineageTo": "timestamp"
+    },
+    "timestamp => fbTarget_DF.timestamp": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "timestamp",
+      "lineageTo": "timestamp"
+    },
+    "username => fbTarget_DF.username": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    },
+    "facebook.json.username => userDF3.username": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "username",
+      "lineageTo": "username"
+    }
+  },
+  "S3_JsonToParquet_Final": {
+    "people.json.one => userDF3.one": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "one",
+      "lineageTo": "one"
+    },
+    "one => peopleTarget_DF.one": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "one",
+      "lineageTo": "one"
+    },
+    "people.json.four => userDF3.four": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "four",
+      "lineageTo": "four"
+    },
+    "people.json.two => userDF3.two": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "two",
+      "lineageTo": "two"
+    },
+    "people.json.three => userDF3.three": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "three",
+      "lineageTo": "three"
+    },
+    "two => peopleTarget_DF.two": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "two",
+      "lineageTo": "two"
+    },
+    "four => peopleTarget_DF.four": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "four",
+      "lineageTo": "four"
+    },
+    "three => peopleTarget_DF.three": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "three",
+      "lineageTo": "three"
+    }
+  },
+  "S3_CsvToJson_Final": {
+    "emp.csv._c0 => userDF3._c0": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c0",
+      "lineageTo": "_c0"
+    },
+    "_c4 => empTarget_DF._c4": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c4",
+      "lineageTo": "_c4"
+    },
+    "_c0 => empTarget_DF._c0": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c0",
+      "lineageTo": "_c0"
+    },
+    "_c3 => empTarget_DF._c3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c3",
+      "lineageTo": "_c3"
+    },
+    "emp.csv._c4 => userDF3._c4": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c4",
+      "lineageTo": "_c4"
+    },
+    "emp.csv._c3 => userDF3._c3": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c3",
+      "lineageTo": "_c3"
+    },
+    "_c1 => empTarget_DF._c1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c1",
+      "lineageTo": "_c1"
+    },
+    "emp.csv._c2 => userDF3._c2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c2",
+      "lineageTo": "_c2"
+    },
+    "_c2 => empTarget_DF._c2": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c2",
+      "lineageTo": "_c2"
+    },
+    "emp.csv._c1 => userDF3._c1": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "_c1",
+      "lineageTo": "_c1"
+    }
+  }
+}

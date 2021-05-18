@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithSchemaFilter_19cPDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["Orc19cPDBCataloger"],
+      "pluginType": "cataloger",
+      "dataSource": "Oracle19cPDBDSLineage",
+      "credential": "Oracle19cPDBLineageCred",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "OracleDBCataloger",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": []
+        },
+        {
+          "schema": "ORACLE19C_LINEAGESCHEMA1",
+          "tables": []
+        },
+        {
+          "schema": "ORACLE19C_LINEAGESCHEMA2",
+          "tables": []
+        }
+      ],
+      "arguments": [],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

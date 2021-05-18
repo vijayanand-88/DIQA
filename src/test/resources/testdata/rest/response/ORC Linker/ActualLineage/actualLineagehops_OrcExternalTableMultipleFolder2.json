@@ -1,0 +1,1 @@
+{"OrcExternalTableMultipleFolder":[{"mode":"VIEW","source":"ORCFilesinMultipleFolder","dir":"->","target":"OrcExternalTableMultipleFolder"},{"mode":"VIEW","source":"OrcExternalTableMultipleFolder","dir":"->","target":"ORCFilesinMultipleFolder"}]}

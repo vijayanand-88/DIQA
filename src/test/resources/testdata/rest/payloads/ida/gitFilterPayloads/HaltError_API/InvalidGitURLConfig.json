@@ -1,0 +1,9 @@
+[ {
+  "itemId" : "Default.Analysis:::13899",
+  "errorIndex" : 0,
+  "errorDetails" : {
+    "timestamp" : "2020-08-09 13:52:30.446",
+    "message" : "ANALYSIS-GIT-0034: Repository not found https://source-team.asg.com/scm/di/pythonanalyzerdemo_invalid.git.  https://source-team.asg.com/scm/di/pythonanalyzerdemo_invalid.git: Repository not found",
+    "cleared" : false
+  }
+} ]

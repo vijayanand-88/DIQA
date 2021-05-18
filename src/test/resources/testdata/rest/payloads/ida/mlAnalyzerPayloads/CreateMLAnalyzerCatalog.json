@@ -1,0 +1,11 @@
+{
+  "MLANALYZER CATALOG": {
+    "label": {
+      "": "MLANALYZER CATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "MLANALYZER CATALOG"
+    }
+  }
+}

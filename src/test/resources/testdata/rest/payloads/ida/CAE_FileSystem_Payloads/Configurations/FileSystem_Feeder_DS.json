@@ -1,0 +1,65 @@
+{
+  "FileSystem_Feeder_DataSource": {
+    "configurations": [
+      {
+        "eventCondition": null,
+        "eventClass": null,
+        "maxWorkSize": 100,
+        "pluginType": "datasource",
+        "dryRun": false,
+        "nodeCondition": null,
+        "Driver": "ORA19",
+        "label": {
+          "": ""
+        },
+        "DBPort": "1521",
+        "tags": [],
+        "catalogName": "Default",
+        "filter": null,
+        "schedule": null,
+        "pluginVersion": "LATEST",
+        "CAEPath": "${cae.home}",
+        "credential": "Valid_Feeder_Cred",
+        "pluginName": "CAEDataSource",
+        "ServerName": "DIQDOCKER02V.DIQ.QA.ASGINT.LOC",
+        "name": "FileSystem_Feeder_DS",
+        "DBName": "CAE",
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "dataSource": null,
+        "businessApplicationName": null
+      }
+    ]
+  },
+  "FileSystem_Feeder_DataSource_SQL": {
+    "configurations": [
+      {
+        "eventCondition": null,
+        "eventClass": null,
+        "maxWorkSize": 100,
+        "pluginType": "datasource",
+        "dryRun": false,
+        "nodeCondition": null,
+        "Driver": "SQLSRV_2019",
+        "label": {
+          "": ""
+        },
+        "DBPort": "1433",
+        "tags": [],
+        "catalogName": "Default",
+        "filter": null,
+        "schedule": null,
+        "pluginVersion": "LATEST",
+        "CAEPath": "${cae.home}",
+        "DBInstance": "MSSQLSERVER",
+        "credential": "Valid_Feeder_Cred_SQLServer",
+        "pluginName": "CAEDataSource",
+        "ServerName": "DIQDOCKER02V.DIQ.QA.ASGINT.LOC",
+        "name": "FileSystem_Feeder_DS_SQL",
+        "DBName": "CAE",
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "dataSource": null,
+        "businessApplicationName": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDILineageFile",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "JavaIOLineage",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "filter": null,
+      "IDA types": [
+        {
+          "type": "Column"
+        },
+        {
+          "type": "Table"
+        },
+        {
+          "type": "File"
+        },
+        {
+          "type": "Class"
+        },
+        {
+          "type": "Function"
+        },
+        {
+          "type": "Field"
+        },
+        {
+          "type": "Directory"
+        },
+        {
+          "type": "Service"
+        },
+        {
+          "type": "Database"
+        },
+        {
+          "type": "Operation"
+        },
+        {
+          "type": "LineageHop"
+        }
+      ],
+      "EDI technologies": [],
+      "EDI access": {
+        "EDI host": "usyp5thirmoga1v.asg.com",
+        "EDI port": 9292,
+        "EDI user": "ADMIN",
+        "EDI password": "rochade",
+        "EDI database": "AP-DATA",
+        "EDI subject area name": "AUTOMATION",
+        "EDI subject area version": "1.0",
+        "EDI subject area access roles": [
+          {
+            "role": "RBR_ADM"
+          }
+        ]
+      },
+      "EDI types": [],
+      "commands and flags": {
+        "function": "toEDI",
+        "incremental": false,
+        "batch size": 1000,
+        "run in transaction": false
+      },
+      "IDA technologies": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "ImportOne": {
+    "label": {
+      "": "ImportOne"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "ImportOne"
+    }
+  }
+}

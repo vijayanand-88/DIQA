@@ -1,0 +1,15 @@
+{
+  "DatabaseName": "gluetestdatabase",
+  "FunctionInput": {
+    "ClassName": "Test",
+    "FunctionName": "gluetestfunction2",
+    "OwnerName": "testUser",
+    "OwnerType": "USER",
+    "ResourceUris": [
+      {
+        "ResourceType": "JAR",
+        "Uri": "string"
+      }
+    ]
+  }
+}

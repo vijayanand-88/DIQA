@@ -1,0 +1,520 @@
+{
+  "caeCollectordebugOn": {
+    "configurations": {
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "General Environment": {
+        "OUTPUT_FILENAME_PREFIX": "FTP_ZOS",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar;${cae.home}/lib/caeextr/rtc/*",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "CAEPath": "${cae.home}",
+        "DES_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "JAVA_TRACE_FILE": "",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "LOCALE_OVERRIDE": "",
+        "VSO_FILE": "",
+        "LOG_FILE": "zOS-PDS.log",
+        "JAVA_TRACE": "on"
+      },
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "type": "CAE",
+      "credential": "zosCredentials",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "businessApplicationName": "ZOS_FTP_PDS",
+      "eventClass": null,
+      "pluginType": "CAE",
+      "label": {
+        "": ""
+      },
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "FTP,VIS.DEMO.CAE.LINEAGE.MIXED.SOURCE,TYPE=JCL,PROCESS=LOAD,INCM=JCL*"
+            }
+          },
+          {
+            "configLine": {
+              "": "FTP,VIS.DEMO.CAE.LINEAGE.MIXED.SOURCE,TYPE=CBL,PROCESS=LOAD,INCM=DLN*"
+            }
+          },
+          {
+            "configLine": {
+              "": "FTP,VIS.DEMO.CAE.LINEAGE.JCL,TYPE=JCL,PROCESS=LOAD"
+            }
+          },
+          {
+            "configLine": {
+              "": "FTP,VIS.DEMO.CAE.LINEAGE.COPY,TYPE=CPY,PROCESS=LOAD"
+            }
+          },
+          {
+            "configLine": {
+              "": "FTP,VIS.DEMO.CAE.LINEAGE.COBOL,TYPE=CBL,PROCESS=LOAD"
+            }
+          }
+        ]
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "pluginName": "PDSCollector",
+      "name": "zosPDSCollectordebugon",
+      "auditFields": {
+        "createdAt": "2020-11-23T11:21:33.530521",
+        "createdBy": "TestSystem",
+        "modifiedAt": "2020-11-23T11:21:33.530525",
+        "modifiedBy": "TestSystem"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "dataSource": "zOSPDSDataSource"
+    }
+  },
+  "caeCollectordebugOff": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "collector",
+      "dryRun": false,
+      "General Environment": {
+        "OUTPUT_FILENAME_PREFIX": "FTP_ZOS",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "JAVA_MEMORY_HEAP_1": "-Xms256m",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8",
+        "DEBUG": "off",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar;${cae.home}/lib/caeextr/rtc/*",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "CAEPath": "C:\\Program Files\\ASG\\Common Analysis Engine",
+        "DES_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "JAVA_TRACE_FILE": "",
+        "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "LOCALE_OVERRIDE": "",
+        "VSO_FILE": "",
+        "LOG_FILE": "",
+        "JAVA_TRACE": "on"
+      },
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "runAfter": [],
+      "label": {
+        "": ""
+      },
+      "type": "Collector",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "FTP,DV537A.VIS.DEMO.CAE.LINEAGE.COBOL,TYPE=CBL,PROCESS=LOAD"
+            }
+          }
+        ]
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "autopdscredential",
+      "pluginName": "CAE_Collector_for_zOS_PDS",
+      "name": "zosPDSCollectordebugoff",
+      "ProjectRootFolder": "C:\\Program Files\\ASG\\ASG-becubic\\projects\\TEST1",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "Auto_CAEDS",
+      "businessApplicationName": null
+    }
+  },
+  "zOSPDSLineage": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "lineage",
+      "dryRun": false,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "label": {
+        "": ""
+      },
+      "type": "Lineage",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "zosEntryPoint",
+      "pluginName": "CAELineage",
+      "name": "zOSPDSLineage",
+      "auditFields": {
+        "createdAt": "2021-01-06T08:04:07.364165",
+        "createdBy": "TestSystem",
+        "modifiedAt": "2021-01-06T08:04:07.364165",
+        "modifiedBy": "TestSystem"
+      },
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "PDSFeedLoadLineageDS",
+      "businessApplicationName": null
+    }
+  },
+  "deleteEntryPoint": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "other",
+      "dryRun": false,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "DBUserName": "zOSEntryPoint",
+      "label": {
+        "": ""
+      },
+      "type": "tools",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "zosCAEServer",
+      "pluginName": "CAEDeleteEntryPoint",
+      "name": "DeletePDSEntryPoint",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "PDSFeedLoadLineageDS",
+      "businessApplicationName": null
+    }
+  },
+  "zosPDSCollectorInvalid": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "collector",
+      "dryRun": false,
+      "General Environment": {
+        "OUTPUT_FILENAME_PREFIX": "FTP_ZOS",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "JAVA_MEMORY_HEAP_1": "-Xms256m",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8",
+        "DEBUG": "off",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar;${cae.home}/lib/caeextr/rtc/*",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "CAEPath": "C:\\Program Files\\ASG\\ASG-becubic\\CAE",
+        "DES_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "JAVA_TRACE_FILE": "",
+        "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "LOCALE_OVERRIDE": "",
+        "VSO_FILE": "",
+        "LOG_FILE": "",
+        "JAVA_TRACE": "on"
+      },
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "runAfter": [],
+      "label": {
+        "": ""
+      },
+      "type": "Collector",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "FTP,DV537A.VIS.DEMO.CAE.LINEAGE.COBOL,TYPE=CBL,PROCESS=LOAD"
+            }
+          }
+        ]
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "autopdsinvalidcredential",
+      "pluginName": "CAE_Collector_for_zOS_PDS",
+      "name": "zosPDSCollectorInvalid",
+      "ProjectRootFolder": "C:\\Program Files\\ASG\\ASG-becubic\\projects\\TEST1",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "Auto_CAEDS",
+      "businessApplicationName": null
+    }
+  },
+  "caetoddconfig": {
+    "configurations": {
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "Advanced": {
+        "technologies": [
+          "Java",
+          "Oracle",
+          "SqlServer"
+        ],
+        "tfmSystemPolicyValue": "",
+        "multi-env": false,
+        "technologyRestriction": false,
+        "LoaderPath": "",
+        "tfmSystemPolicy": "DefaultOnly",
+        "renamingPropertyFile": ""
+      },
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "onDemandLineage": true,
+      "type": "Bulk",
+      "restrict": "",
+      "negative": false,
+      "credential": "zosEntryPoint",
+      "weburl": "http://localhost/becubic/service/rochadeloadimpact?repository=${server}",
+      "parallel": false,
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "businessApplicationName": null,
+      "eventClass": null,
+      "pluginType": "bulk",
+      "checkAll": false,
+      "clear": true,
+      "label": {
+        "": ""
+      },
+      "incremental": false,
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "Contextuality": {
+        "inputSetPrivate": "",
+        "inputSetName": ""
+      },
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "pluginName": "CAEDDLoader",
+      "name": "PDSTODDLoader",
+      "auditFields": {
+        "createdAt": "2020-11-23T11:30:46.770694",
+        "createdBy": "TestSystem",
+        "modifiedAt": "2020-11-23T11:30:46.770698",
+        "modifiedBy": "TestSystem"
+      },
+      "dataSource": "PDSFeedLoadLineageDS"
+    }
+  },
+  "zosEntryPointConfig": {
+    "configurations": {
+      "eventCondition": null,
+      "Overwrite": true,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "tools",
+      "dryRun": false,
+      "DBUserPassword": "zOSEntryPoint",
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "DBUserName": "zOSEntryPoint",
+      "label": {
+        "": ""
+      },
+      "type": "Tools",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "zosCAEServer",
+      "pluginName": "CAECreateEntryPoint",
+      "name": "zOSEntryPoint",
+      "auditFields": {
+        "createdAt": "2020-11-23T11:17:46.716025",
+        "createdBy": "TestSystem",
+        "modifiedAt": "2020-11-23T11:17:46.716029",
+        "modifiedBy": "TestSystem"
+      },
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "zOSServerDS",
+      "businessApplicationName": null
+    }
+  },
+  "PDSDB2LineageConfig": {
+    "configurations": {
+      "eventCondition": null,
+      "maxWorkSize": 100,
+      "dryRun": false,
+      "JAVA_MEMORY_HEAP_1": "-Xms256m",
+      "General Environment": {
+        "OUTPUT_FILENAME_PREFIX": "DB2ZOS_schema",
+        "DES_DIR": "${project.host.dir}/ADU",
+        "JAVA_LIBRARY_PATH": "${cae.home}/lib/caeextr",
+        "CONFIG_AND_OUTPUT_FILE_ENCODING": "UTF-8",
+        "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+        "LOG_DIR": "${project.root}/LOG/Collect",
+        "CAEPath": "${cae.home}",
+        "DES_FILE": "",
+        "WORK_DIR": "${project.root}/Collect_Dist/Work",
+        "JAVA_TRACE_FILE": "",
+        "CAEEXTRACT_DB": "${project.root}/Collect_Dist/DB/caeextr.db",
+        "LOCALE_OVERRIDE": "",
+        "VSO_FILE": "",
+        "LOG_FILE": "zOS_DB2.log",
+        "JAVA_TRACE": "on"
+      },
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "type": "CAE",
+      "credential": "zosCredentials",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "businessApplicationName": null,
+      "schema filter": [
+        {
+          "mode": "INCLUDE",
+          "schema": "DEVDXC"
+        }
+      ],
+      "eventClass": null,
+      "pluginType": "CAE",
+      "label": {
+        "": ""
+      },
+      "DEBUG": "off",
+      "Source Selection": {
+        "CFG_FILE": "",
+        "configLines": [
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_ALIAS,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_CONC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_CONR,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_DBASE,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_INDEX,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_PLAN,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_PKG,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_SEQ,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_SPROC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_SYN,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_TABL,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_TRIG,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_VIEW,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_SUBSYS,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_SPROCSRC,PROCESS=LOAD,BATCH=200"
+            }
+          },
+          {
+            "configLine": {
+              "": "DB2ZOS,TYPE=DB2ZOS_TRIGSRC,PROCESS=LOAD,BATCH=200"
+            }
+          }
+        ]
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "pluginName": "DB2zOSCollector",
+      "name": "PDSDB2LineageConfig",
+      "auditFields": {
+        "createdAt": "2020-12-14T07:07:43.522088",
+        "createdBy": "TestSystem",
+        "modifiedAt": "2020-12-14T07:22:00.357636",
+        "modifiedBy": "TestSystem"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+      "dataSource": "PDSDB2LineageDS"
+    }
+  },
+  "pdsFeedConfig": {
+    "configurations": {
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "CAE",
+      "dryRun": false,
+      "nodeCondition": "name==\"MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC\"",
+      "label": {
+        "": ""
+      },
+      "type": "CAE",
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "schedule": null,
+      "pluginVersion": "LATEST",
+      "credential": "zosEntryPoint",
+      "pluginName": "CAEFeed",
+      "name": "PDSFeedConfig",
+      "auditFields": {
+        "createdAt": "2020-11-23T11:28:54.519396",
+        "createdBy": "TestSystem",
+        "modifiedAt": "2020-11-23T11:28:54.519402",
+        "modifiedBy": "TestSystem"
+      },
+      "ProjectRootFolder": "${cae.project.home}",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "PDSFeedLoadLineageDS",
+      "businessApplicationName": null
+    }
+  }
+}

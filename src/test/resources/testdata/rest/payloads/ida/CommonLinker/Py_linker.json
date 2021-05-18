@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PythonLinker",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CommonLinker"
+      ],
+      "pluginType": "linker",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "BA_PY",
+      "dryRun": false,
+      "filter": null
+    }
+  ]
+}

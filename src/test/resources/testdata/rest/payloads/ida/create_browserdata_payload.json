@@ -1,0 +1,20 @@
+{
+  "BrowserData": {
+    "label": {
+      "en": "BrowserData",
+      "": "BrowserData"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "BrowserData",
+      "tags": {
+        "rootTags": []
+      },
+      "image": {
+        "icon": "glyphicon-cog",
+        "color": "black"
+      },
+      "description": {}
+    }
+  }
+}

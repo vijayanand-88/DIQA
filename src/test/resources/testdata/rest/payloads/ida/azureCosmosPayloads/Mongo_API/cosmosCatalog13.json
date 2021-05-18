@@ -1,0 +1,12 @@
+{
+  "CosmosDynCols": {
+    "label": {
+      "": "CosmosDynCols"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CosmosDynCols"
+    }
+  }
+}
+

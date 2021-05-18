@@ -1,0 +1,90 @@
+{
+  "MetaData": {
+    "totalCount": 15,
+    "facetCounts": {
+      "catalog_s": [],
+      "asg.tagPathsHierarchy_ss": [],
+      "type_s": [
+        {
+          "count": 8,
+          "value": "Column"
+        },
+        {
+          "count": 1,
+          "value": "Constraint"
+        },
+        {
+          "count": 1,
+          "value": "Table"
+        },
+        {
+          "count": 1,
+          "value": "Analysis"
+        },
+        {
+          "count": 1,
+          "value": "Cluster"
+        },
+        {
+          "count": 1,
+          "value": "Database"
+        },
+        {
+          "count": 1,
+          "value": "Host"
+        },
+        {
+          "count": 1,
+          "value": "Service"
+        }
+      ]
+    },
+    "tableMetaData": {
+      "name": "TestTable1",
+      "tableID": "DynamoCatalog1.Table:::1",
+      "tableType": "TABLE",
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      },
+    "constraintMetaData": {
+      "name": "TESTTABLE1_PRIMARYKEY",
+      "constraintID": "DynamoCatalog1.Constraint:::5",
+      "constraintType": "PRIMARY_KEY",
+      "table": {
+        "values": [
+          {
+            "type": "Columns",
+            "name": "BicycleType"
+          },
+          {
+            "type": "Columns",
+            "name": "ID"
+          }
+
+        ],
+        "taglist": {
+          "values": [
+            {
+              "techTag": "Dynamo DB"
+            }
+          ],
+          "rating": {
+          },
+          "comments": {
+          }
+        }
+      }
+    }
+    }
+
+  }
+

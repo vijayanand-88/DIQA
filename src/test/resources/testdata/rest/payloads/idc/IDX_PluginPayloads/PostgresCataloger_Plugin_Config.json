@@ -1,0 +1,26 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "PostgresDB",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "cataloger",
+  "dataSource": "TestPostgresDS",
+  "credential": "TestPostgresCredential",
+  "filter": null,
+  "pluginName": "PostgreSQLDBCataloger",
+  "schemas": [
+    {
+      "schema": "public",
+      "tables": []
+    }
+  ],
+  "type": "cataloger",
+  "properties": []
+}

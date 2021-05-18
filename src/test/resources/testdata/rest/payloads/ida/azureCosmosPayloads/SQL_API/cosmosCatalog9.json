@@ -1,0 +1,11 @@
+{
+  "CosmosSpecificNode": {
+    "label": {
+      "": "CosmosSpecificNode"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CosmosSpecificNode"
+    }
+  }
+}

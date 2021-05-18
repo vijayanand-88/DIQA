@@ -1,0 +1,30 @@
+[
+    {
+        "start": {
+            "lineNumber": 3,
+            "position": 22
+        },
+        "staticVar": "MIN=MinimumValue"
+    },
+    {
+        "start": {
+            "lineNumber": 4,
+            "position": 22
+        },
+        "staticVar": "MAx=MaximumValue"
+    },
+    {
+        "start": {
+            "lineNumber": 7,
+            "position": 12
+        },
+        "staticVar": "a=10"
+    },
+    {
+        "start": {
+            "lineNumber": 8,
+            "position": 12
+        },
+        "staticVar": "b"
+    }
+]

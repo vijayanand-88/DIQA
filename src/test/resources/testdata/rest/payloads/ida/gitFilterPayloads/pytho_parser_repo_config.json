@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Bitbucket AnalysisDemoData",
+      "label": {
+        "": "Git Collector",
+        "en": "Git Collector"
+      },
+      "catalogName": "GitCatalog",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "parallelQueryBatchSize": 10000,
+      "parallelWorkBatchSize": 100,
+      "parallelWorkPollInterval": 60,
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "300",
+        "extraFilters": {},
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "contentAnalyzerPluginConfiguration": "Unstructured",
+      "projectDepth": "1",
+      "repositoryUser": "becubic_build",
+      "repositoryPassword": "lEBaSLUFW2RR1znZNrBwiftT+EYRU7bj",
+      "repositoryURL": "https://source-team.asg.com/scm/diqa/pythonparserautomationrepo.git"
+    }
+  ]
+}

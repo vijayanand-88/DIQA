@@ -1,0 +1,172 @@
+{
+  "glueavro": [
+    {
+      "mode": "VIEW",
+      "source": "birthdate",
+      "dir": "->",
+      "target": "birthdate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "birthdate",
+      "dir": "->",
+      "target": "birthdate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cc",
+      "dir": "->",
+      "target": "cc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "cc",
+      "dir": "->",
+      "target": "cc"
+    },
+    {
+      "mode": "VIEW",
+      "source": "comments",
+      "dir": "->",
+      "target": "comments"
+    },
+    {
+      "mode": "VIEW",
+      "source": "comments",
+      "dir": "->",
+      "target": "comments"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "first_name",
+      "dir": "->",
+      "target": "first_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "first_name",
+      "dir": "->",
+      "target": "first_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "glueavro",
+      "dir": "->",
+      "target": "userdata1.parquet"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ip_address",
+      "dir": "->",
+      "target": "ip_address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "last_name",
+      "dir": "->",
+      "target": "last_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "last_name",
+      "dir": "->",
+      "target": "last_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "registration_dttm",
+      "dir": "->",
+      "target": "registration_dttm"
+    },
+    {
+      "mode": "VIEW",
+      "source": "registration_dttm",
+      "dir": "->",
+      "target": "registration_dttm"
+    },
+    {
+      "mode": "VIEW",
+      "source": "salary",
+      "dir": "->",
+      "target": "salary"
+    },
+    {
+      "mode": "VIEW",
+      "source": "salary",
+      "dir": "->",
+      "target": "salary"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "title",
+      "dir": "->",
+      "target": "title"
+    },
+    {
+      "mode": "VIEW",
+      "source": "userdata1.parquet",
+      "dir": "->",
+      "target": "glueavro"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "JsonExternalTableSingleFolder": [
+    {
+      "mode": "VIEW",
+      "source": "LOGGEDDATE",
+      "dir": "->",
+      "target": "loggedDate"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ISACTIVE",
+      "dir": "->",
+      "target": "isActive"
+    },
+    {
+      "mode": "VIEW",
+      "source": "TESTMAXLENGTHOFFIELDNAMEUSINGTHISFIELDFINETILLHEREYOUSHOULDNOTSEETHIS",
+      "dir": "->",
+      "target": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis"
+    },
+    {
+      "mode": "VIEW",
+      "source": "LOGGEDTIME",
+      "dir": "->",
+      "target": "loggedTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "COMPANY",
+      "dir": "->",
+      "target": "company"
+    },
+    {
+      "mode": "VIEW",
+      "source": "GENDER",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "source": "LOGGEDYEAR",
+      "dir": "->",
+      "target": "loggedYear"
+    },
+    {
+      "mode": "VIEW",
+      "source": "NAME",
+      "dir": "->",
+      "target": "name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "MONTH",
+      "dir": "->",
+      "target": "month"
+    },
+    {
+      "mode": "VIEW",
+      "source": "PHONE",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ID",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "DAY",
+      "dir": "->",
+      "target": "day"
+    },
+    {
+      "mode": "VIEW",
+      "source": "JsonExternalTableSingleFolder",
+      "dir": "->",
+      "target": "JsonFilesInSingleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "LOGGEDDATETIME",
+      "dir": "->",
+      "target": "loggedDateTime"
+    },
+    {
+      "mode": "VIEW",
+      "source": "ADDRESS",
+      "dir": "->",
+      "target": "address"
+    },
+    {
+      "mode": "VIEW",
+      "source": "AGE",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "EMAIL",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedDate",
+      "dir": "->",
+      "target": "LOGGEDDATE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "address",
+      "dir": "->",
+      "target": "ADDRESS"
+    },
+    {
+      "mode": "VIEW",
+      "source": "day",
+      "dir": "->",
+      "target": "DAY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "JsonFilesInSingleFolder",
+      "dir": "->",
+      "target": "JsonExternalTableSingleFolder"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedDateTime",
+      "dir": "->",
+      "target": "LOGGEDDATETIME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "AGE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedTime",
+      "dir": "->",
+      "target": "LOGGEDTIME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+      "dir": "->",
+      "target": "TESTMAXLENGTHOFFIELDNAMEUSINGTHISFIELDFINETILLHEREYOUSHOULDNOTSEETHIS"
+    },
+    {
+      "mode": "VIEW",
+      "source": "name",
+      "dir": "->",
+      "target": "NAME"
+    },
+    {
+      "mode": "VIEW",
+      "source": "month",
+      "dir": "->",
+      "target": "MONTH"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gender",
+      "dir": "->",
+      "target": "GENDER"
+    },
+    {
+      "mode": "VIEW",
+      "source": "company",
+      "dir": "->",
+      "target": "COMPANY"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "PHONE"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "ID"
+    },
+    {
+      "mode": "VIEW",
+      "source": "loggedYear",
+      "dir": "->",
+      "target": "LOGGEDYEAR"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "EMAIL"
+    },
+    {
+      "mode": "VIEW",
+      "source": "isActive",
+      "dir": "->",
+      "target": "ISACTIVE"
+    }
+  ]
+}

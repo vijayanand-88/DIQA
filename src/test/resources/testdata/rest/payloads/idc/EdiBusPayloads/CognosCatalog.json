@@ -1,0 +1,11 @@
+{
+  "CognosCatalog": {
+    "label": {
+      "": "CognosCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CognosCatalog"
+    }
+  }
+}

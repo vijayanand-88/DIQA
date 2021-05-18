@@ -1,0 +1,10 @@
+[
+  {
+    "startLine": 12,
+    "endLine": 12,
+    "startColumn": 20,
+    "endColumn": 56,
+    "methodName": "System.out.println",
+    "argumentNb": 1
+  }
+]

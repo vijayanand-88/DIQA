@@ -1,0 +1,25 @@
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQL_Postprocessor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "SQL_Postprocessor"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SC1PPUDB"],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "runAfter": [],
+      "filter": null,
+      "pluginName": "SQLPostProcessor",
+      "arguments": [],
+      "type": "Dataanalyzer"
+    }

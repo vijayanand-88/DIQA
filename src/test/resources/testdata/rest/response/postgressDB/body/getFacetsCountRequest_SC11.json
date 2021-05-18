@@ -1,0 +1,14 @@
+{
+  "selections": {
+    "catalog_s": [
+      "Default"
+    ],
+    "asg.tagPathsHierarchy_ss": ["SC2DynamoTags"],
+    "type_s": [
+      "*"
+    ],
+    "asg.parentTypeNamePathHierarchy_ss": [],
+    "asg.modifiedAt_dt": [],
+    "asg.modifiedBy_s": []
+  }
+}

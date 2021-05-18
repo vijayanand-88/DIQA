@@ -1,0 +1,11 @@
+{
+  "AzureInvalidPK": {
+    "label": {
+      "": "AzureInvalidPK"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "AzureInvalidPK"
+    }
+  }
+}

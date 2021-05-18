@@ -1,0 +1,179 @@
+{
+  "SVNCreateEntryPointDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SVNEntryPointDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "CAEOracleServer",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "ORA19",
+        "DBPort": "1521"
+      }
+    ]
+  },
+  "SVNCollectorDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SVNDataSource",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-09T08:01:23.06306",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-09T08:01:23.063065"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "SVNCredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "Connection": {
+          "CAEPath": "${cae.home}",
+          "SCMSDir": "http://gechemsvn1.asg.com/CAE/",
+          "SCMSExecutable": "C:\\Program Files\\CollabNet\\Subversion Client\\svn.exe",
+          "ProjectRootFolder": "${cae.project.home}"
+        }
+      }
+    ]
+  },
+  "SVNFeedLoadDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SVNFeedLoadDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-09T08:07:14.402442",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-09T08:07:14.402449"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "SVNEntryPoint",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "DBInstance": "",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "ORA19",
+        "DBPort": "1521"
+      }
+    ]
+  },
+  "SVNSQLEntryPointDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SVNEntryPointDataSource",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2021-01-05T15:18:31.876814",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2021-01-05T15:18:31.876836"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "CAESQLServer",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "DBInstance": "MSSQLSERVER",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "SQLSRV_2019",
+        "DBPort": "1433"
+      }
+    ]
+  },
+  "SVNSQLFeedLoadDS": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "SVNFeedLoadDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-09T08:07:14.402442",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-09T08:07:14.402449"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "SVNEntryPoint",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "CAEPath": "${cae.home}",
+        "DBInstance": "MSSQLSERVER",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "DBName": "CAE",
+        "Driver": "SQLSRV_2019",
+        "DBPort": "1433"
+      }
+    ]
+  }
+}

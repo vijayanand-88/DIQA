@@ -1,0 +1,31 @@
+{
+  "Id": 200,
+  "Book Title": "Mountain A",
+  "Book Binary": "true",
+  "In Publication": true,
+  "Color": [
+    "Red",
+    "Black"
+  ],
+  "ItemsOnMyDesk": [
+    "Coffee Cup",
+    "Telephone"
+  ],
+  "Book SS": [
+    "Black",
+    "Green",
+    "Red"
+  ],
+  "Book NS": [
+    42.2,
+    -19,
+    7.5,
+    3.14
+  ],
+  "Book BS": [
+    "U3Vubnk=",
+    "UmFpbnk=",
+    "U25vd3k="
+  ],
+  "Book NULL": null
+}

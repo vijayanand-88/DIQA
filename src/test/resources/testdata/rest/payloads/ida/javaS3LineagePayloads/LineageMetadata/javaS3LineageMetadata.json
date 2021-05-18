@@ -1,0 +1,10 @@
+{
+  "LineageHop_1": {
+    "source": ["/C:/work_related/Amazon_S3/SampleFile/upload/SampleTestFile.txt"],
+    "target": ["UploadedS3File.txt"]
+  },
+  "LineageHop_2": {
+    "source": ["SourceFile.txt"],
+    "target": ["CopiedFile.txt"]
+  }
+}

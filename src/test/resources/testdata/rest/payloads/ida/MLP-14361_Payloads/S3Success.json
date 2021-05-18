@@ -1,0 +1,19 @@
+{
+"class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+"name": "S3Success",
+"pluginVersion": "LATEST",
+"label": {
+"": ""
+},
+"catalogName": "RedshiftDataSource",
+"eventClass": null,
+"eventCondition": null,
+"nodeCondition": null,
+"maxWorkSize": 100,
+"tags": [],
+"pluginType": "datasource",
+"dataSource": null,
+"credential": "S3ValidCredentials",
+"filter": null,
+"region": "us-east-1"
+}

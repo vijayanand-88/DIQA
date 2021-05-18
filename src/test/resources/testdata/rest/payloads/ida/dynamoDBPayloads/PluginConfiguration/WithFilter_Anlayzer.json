@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "WithFilter_DDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "WithFilter"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "DYNAMODB_BA",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "tables": [
+        {
+          "table": "AllDataTypes"
+        },
+        {
+          "table": "GlobalTable_2017"
+        },
+        {
+          "table": "GlobalTable2019"
+        }
+      ],
+      "pluginName": "DynamoDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

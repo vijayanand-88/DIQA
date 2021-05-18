@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Cluster",
+    "name": "TestClusters",
+    "prop-text" : "text",
+    "@schema": {},
+    "@global": {}
+  },
+  {
+    "type": "Cluster",
+    "name": "TestClustertype",
+    "prop-text" : "Sample Text",
+    "@schema": {}
+  },
+  {
+    "type": "Table",
+    "name": "TableOneTest",
+    "prop-text" : "Sample Text",
+    "@schema": {}
+  },
+  {
+    "type": "Column",
+    "name": "ColumnOneTest",
+    "prop-text" : "Sample Text",
+    "@schema": {}
+  },
+  {
+    "type": "File",
+    "name": "FileOneTest",
+    "prop-text" : "Sample Text",
+    "@schema": {}
+  }
+]

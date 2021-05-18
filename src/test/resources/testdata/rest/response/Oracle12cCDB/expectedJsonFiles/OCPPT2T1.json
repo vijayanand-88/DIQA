@@ -1,0 +1,1 @@
+{"OCPPT2T1":[{"mode":"COPY","source":"ID","dir":"->","target":"ID"},{"mode":"COPY","source":"NAME","dir":"->","target":"NAME"},{"mode":"COPY","source":"AGE","dir":"->","target":"AGE"}]}

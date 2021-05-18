@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+      "name": "ParquetAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "7854_OracleAPI",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "regExpMatchers": [],
+      "dataSample": {
+        "sampleSize": "25"
+      },
+      "histogramBuckets": 100,
+      "topValues": 10,
+      "filter": null,
+      "resolveNameWrapper": {
+        "resolvingPluginName": "CNavigatorCataloger",
+        "resolvingPluginConfiguration": "CNavigatorCataloger"
+      },
+      "resolveClusterName": false,
+      "sparkOptions": [
+        {
+          "key": "deploy.mode",
+          "value": "cluster"
+        },
+        {
+          "key": "spark.network.timeout",
+          "value": "600s"
+        }
+      ]
+    }
+  ]
+}

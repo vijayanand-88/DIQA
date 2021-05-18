@@ -1,0 +1,11 @@
+{
+  "Text_SaveText_Lineage": {
+    "label": {
+      "": "Text_SaveText_Lineage"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Text_SaveText_Lineage"
+    }
+  }
+}

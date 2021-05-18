@@ -1,0 +1,12 @@
+{
+  "CosmosDatatypes": {
+    "label": {
+      "": "CosmosDatatypes"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CosmosDatatypes"
+    }
+  }
+}
+

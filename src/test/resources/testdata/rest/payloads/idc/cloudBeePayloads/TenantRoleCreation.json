@@ -1,0 +1,19 @@
+{
+  "name": "TestRole",
+  "label": {
+    "": "TestRole",
+    "en": "TestRole"
+  },
+  "description": {
+    "": "",
+    "en": ""
+  },
+  "permissions": [
+    "DATASET_CREATE",
+    "BASE_PERMISSION",
+    "DATASET_MODIFY",
+    "DATASET_DELETE",
+    "DATASET_REQUEST_ACCESS",
+    "DATASET_APPROVE"
+  ]
+}

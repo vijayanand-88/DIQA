@@ -1,0 +1,17 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "JavaJDBCLineageJJ",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": "JavaJDBCLineageJJ"
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "filter": null,
+  "tags": ["tagJavaJDBCLinOracle"],
+  "pluginType": "lineage",
+  "businessApplicationName": "test_BA_JavaJDBCOracle"
+}

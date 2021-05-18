@@ -1,0 +1,7 @@
+{
+  "userName": "TestSystem",
+  "levels": [
+    "ERROR"
+  ],
+  "eventType": "LoginFailedEvent"
+}

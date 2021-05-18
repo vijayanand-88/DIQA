@@ -1,0 +1,40 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 594,
+      "value" : "Column"
+    }, {
+      "count" : 138,
+      "value" : "Table"
+    }, {
+      "count" : 15,
+      "value" : "Trigger"
+    }, {
+      "count" : 8,
+      "value" : "Constraint"
+    }, {
+      "count" : 7,
+      "value" : "Schema"
+    }, {
+      "count" : 6,
+      "value" : "Operation"
+    }, {
+      "count" : 4,
+      "value" : "Analysis"
+    }, {
+      "count" : 4,
+      "value" : "Routine"
+    }, {
+      "count" : 1,
+      "value" : "Database"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

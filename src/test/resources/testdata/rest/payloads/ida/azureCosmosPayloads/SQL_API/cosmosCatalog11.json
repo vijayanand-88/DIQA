@@ -1,0 +1,11 @@
+{
+  "AzureCosmosSql11": {
+    "label": {
+      "": "AzureCosmosSql11"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "AzureCosmosSql11"
+    }
+  }
+}

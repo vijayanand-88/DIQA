@@ -1,0 +1,46 @@
+import com.amazonaws.services.glue.ChoiceOption
+import com.amazonaws.services.glue.GlueContext
+import com.amazonaws.services.glue.MappingSpec
+import com.amazonaws.services.glue.ResolveSpec
+import com.amazonaws.services.glue.errors.CallSite
+import com.amazonaws.services.glue.util.GlueArgParser
+import com.amazonaws.services.glue.util.Job
+import com.amazonaws.services.glue.util.JsonOptions
+import org.apache.spark.SparkContext
+import scala.collection.JavaConverters._
+
+object GlueApp {
+  def main(sysArgs: Array[String]) {
+    val spark: SparkContext = new SparkContext()
+    val glueContext: GlueContext = new GlueContext(spark)
+    // @params: [JOB_NAME]
+    val args = GlueArgParser.getResolvedOptions(sysArgs, Seq("JOB_NAME").toArray)
+    Job.init(args("JOB_NAME"), glueContext, args.asJava)
+    // @type: DataSource
+    // @args: [database = "gluetestdatabase", table_name = "gluetesttable", transformation_ctx = "datasource0"]
+    // @return: datasource0
+    // @inputs: []
+    val datasource0 = glueContext.getCatalogSource(database = "gluetestdatabase", tableName = "gluetesttable", redshiftTmpDir = "", transformationContext = "datasource0").getDynamicFrame()
+    // @type: ApplyMapping
+    // @args: [mapping = [("countrycode", "string", "countrycode", "string"), ("request_timestamp", "string", "request_timestamp", "string"), ("elb_name", "string", "elb_name", "string"), ("request_ip", "string", "request_ip", "string"), ("request_port", "int", "request_port", "int"), ("backend_ip", "string", "backend_ip", "string"), ("backend_port", "int", "backend_port", "int"), ("request_processing_time", "double", "request_processing_time", "double"), ("backend_processing_time", "double", "backend_processing_time", "double"), ("client_response_time", "double", "client_response_time", "double"), ("elb_response_code", "string", "elb_response_code", "string"), ("backend_response_code", "string", "backend_response_code", "string"), ("received_bytes", "long", "received_bytes", "long"), ("sent_bytes", "long", "sent_bytes", "long"), ("request_verb", "string", "request_verb", "string"), ("url", "string", "url", "string"), ("protocol", "string", "protocol", "string"), ("user_agent", "string", "user_agent", "string"), ("ssl_cipher", "string", "ssl_cipher", "string"), ("ssl_protocol", "string", "ssl_protocol", "string"), ("partition_countrycode", "string", "partition_countrycode", "string")], transformation_ctx = "applymapping1"]
+    // @return: applymapping1
+    // @inputs: [frame = datasource0]
+    val applymapping1 = datasource0.applyMapping(mappings = Seq(("countrycode", "string", "countrycode", "string"), ("request_timestamp", "string", "request_timestamp", "string"), ("elb_name", "string", "elb_name", "string"), ("request_ip", "string", "request_ip", "string"), ("request_port", "int", "request_port", "int"), ("backend_ip", "string", "backend_ip", "string"), ("backend_port", "int", "backend_port", "int"), ("request_processing_time", "double", "request_processing_time", "double"), ("backend_processing_time", "double", "backend_processing_time", "double"), ("client_response_time", "double", "client_response_time", "double"), ("elb_response_code", "string", "elb_response_code", "string"), ("backend_response_code", "string", "backend_response_code", "string"), ("received_bytes", "long", "received_bytes", "long"), ("sent_bytes", "long", "sent_bytes", "long"), ("request_verb", "string", "request_verb", "string"), ("url", "string", "url", "string"), ("protocol", "string", "protocol", "string"), ("user_agent", "string", "user_agent", "string"), ("ssl_cipher", "string", "ssl_cipher", "string"), ("ssl_protocol", "string", "ssl_protocol", "string"), ("partition_countrycode", "string", "partition_countrycode", "string")), caseSensitive = false, transformationContext = "applymapping1")
+    // @type: SelectFields
+    // @args: [paths = ["countrycode", "request_timestamp", "elb_name", "request_ip", "request_port", "backend_ip", "backend_port", "request_processing_time", "backend_processing_time", "client_response_time", "elb_response_code", "backend_response_code", "received_bytes", "sent_bytes", "request_verb", "url", "protocol", "user_agent", "ssl_cipher", "ssl_protocol"], transformation_ctx = "selectfields2"]
+    // @return: selectfields2
+    // @inputs: [frame = applymapping1]
+    val selectfields2 = applymapping1.selectFields(paths = Seq("countrycode", "request_timestamp", "elb_name", "request_ip", "request_port", "backend_ip", "backend_port", "request_processing_time", "backend_processing_time", "client_response_time", "elb_response_code", "backend_response_code", "received_bytes", "sent_bytes", "request_verb", "url", "protocol", "user_agent", "ssl_cipher", "ssl_protocol"), transformationContext = "selectfields2")
+    // @type: ResolveChoice
+    // @args: [choice = "MATCH_CATALOG", database = "gluetestdatabase", table_name = "gluetesttable", transformation_ctx = "resolvechoice3"]
+    // @return: resolvechoice3
+    // @inputs: [frame = selectfields2]
+    val resolvechoice3 = selectfields2.resolveChoice(choiceOption = Some(ChoiceOption("MATCH_CATALOG")), database = Some("gluetestdatabase"), tableName = Some("gluetesttable"), transformationContext = "resolvechoice3")
+    // @type: DataSink
+    // @args: [database = "gluetestdatabase", table_name = "gluetesttable", transformation_ctx = "datasink4"]
+    // @return: datasink4
+    // @inputs: [frame = resolvechoice3]
+    val datasink4 = glueContext.getCatalogSink(database = "gluetestdatabase", tableName = "gluetesttable", redshiftTmpDir = "", transformationContext = "datasink4").writeDynamicFrame(resolvechoice3)
+    Job.commit()
+  }
+}

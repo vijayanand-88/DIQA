@@ -1,0 +1,26 @@
+{
+  "Service1Metadata": {
+    "Attributes": ["Description","Definition"],
+    "Values": {
+      "Definition": "Created by ASG-Rochade (R) ScanDataStage Version 1.70.001-117 Load"
+    }
+  },
+  "Service2Metadata": {
+    "Attributes": ["Description","Definition"],
+    "Values": {
+      "Definition": "ONCBSHAVM030.PRE_PRODnCreated by ASG-Rochade (R) ScanDataStage Version 1.70.001-117 Load"
+    }
+  },
+  "Operation1Metadata": {
+    "Attributes": ["Description","Definition"],
+    "Values": {
+      "Definition": "TPECSU04.AC_SIT.Pjb_RCP_STG2AC\\nCreated by ASG-Rochade (R) ScanDataStage Version 1.70.001-117 Load"
+    }
+  },
+  "Operation2Metadata": {
+    "Attributes": ["Description","Definition"],
+    "Values": {
+      "Definition": "TPECSU04.AC_SIT.Pjb_RCP_STG2AC\\nCreated by ASG-Rochade (R) ScanDataStage Version 1.70.001-117 Load"
+    }
+  }
+}

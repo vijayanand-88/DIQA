@@ -1,0 +1,40 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "GitCollector",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [
+    "tagPythonSparkSQL"
+  ],
+  "pluginType": "collector",
+  "dataSource": "GitCollectorDataSource",
+  "credential": "ValidGitCredentials",
+  "businessApplicationName": "test_BA_PythonSparkSQL",
+  "dryRun": false,
+  "schedule": null,
+  "filter": {
+    "filters": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.Filter",
+        "label": null,
+        "tags": null,
+        "branch": "SqlPythonSparkLineage"
+      }
+    ],
+    "deltaTime": "30",
+    "extraFilters": {
+      "filefilters": []
+    },
+    "maxHits": null
+  },
+  "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+  "pluginName": "GitCollector",
+  "type": "Collector"
+}

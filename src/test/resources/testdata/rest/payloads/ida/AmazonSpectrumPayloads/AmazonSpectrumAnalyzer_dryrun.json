@@ -1,0 +1,28 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "dryRun" : true,
+    "pluginType" : "dataanalyzer",
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : null,
+    "incremental" : false,
+    "type" : "Dataanalyzer",
+    "tags" : [ "SpecAnalyzer" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "histogramBuckets" : 10,
+    "batchWrite" : true,
+    "pluginVersion" : "LATEST",
+    "database" : "world",
+    "sampleDataCount" : 25,
+    "queryBatchSize" : 100,
+    "pluginName" : "AmazonSpectrumAnalyzer",
+    "schemas" : [ ],
+    "name" : "AmazonSpectrumAnalyzerDryRun",
+    "host" : "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "topValues" : 10
+  } ]
+}

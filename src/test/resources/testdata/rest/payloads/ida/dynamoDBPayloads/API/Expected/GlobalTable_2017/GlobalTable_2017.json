@@ -1,0 +1,36 @@
+[
+  {
+    "id": "null",
+    "sample": {
+      "values": [
+        [
+          "123",
+          "Harsha",
+          "false",
+          "us-east-1",
+          "",
+          "IT",
+          "project1"
+        ],
+        [
+          "124",
+          "Siddharthan",
+          "false",
+          "us-east-1",
+          "",
+          "IT",
+          "project2"
+        ]
+      ],
+      "header": [
+        "EmpId",
+        "EName",
+        "aws:rep:deleting",
+        "aws:rep:updateregion",
+        "aws:rep:updatetime",
+        "Department",
+        "Project"
+      ]
+    }
+  }
+]

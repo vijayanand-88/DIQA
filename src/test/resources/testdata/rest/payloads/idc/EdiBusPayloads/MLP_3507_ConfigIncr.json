@@ -1,0 +1,57 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusFullRep",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "bulk",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "IDA types": [],
+      "EDI technologies": [],
+      "pluginName": "EDIBus",
+      "EDI access": {
+        "EDI host": "usyp5thirmoga1v.asg.com",
+        "EDI port": 9292,
+        "EDI user": "ADMIN",
+        "EDI database": "AP-DATA",
+        "EDI password": "rochade",
+        "EDI subject area name": "IDCDATA",
+        "EDI subject area version": "1.0",
+        "EDI subject area access roles": [
+          {
+            "role": "RBR_ADM"
+          }
+        ]
+      },
+      "type": "Bulk",
+      "EDI types": [
+        {
+          "type": "DWR_RDB_COLUMN"
+        },
+        {
+          "type": "DWR_RDB_DB_SYSTEM"
+        }
+      ],
+      "commands and flags": {
+        "function": "toIDP",
+        "batch size": 1000,
+        "incremental": true,
+        "run in transaction": false
+      },
+      "IDA technologies": []
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Cluster DataSets",
+  "description": "cluster data items",
+  "status": "RESTRICTED",
+  "dataElements":["BigData.Cluster:::1","BigData.Cluster:::2"]
+}

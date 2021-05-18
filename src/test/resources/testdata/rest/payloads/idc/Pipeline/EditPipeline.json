@@ -1,0 +1,22 @@
+{
+  "label": null,
+  "schedule": null,
+  "orchestration": {
+    "starts": [
+      {
+        "plugin": "SimilarityLinker",
+        "configuration": "SimilarityLinkerTable"
+      }
+    ],
+    "graph": {
+      "SimilarityLinker:SimilarityLinkerTable": [
+        {
+          "plugin": "LocalFileCollector",
+          "configuration": "Demo Local Files"
+        }
+      ]
+    },
+    "positions": {}
+  },
+  "description": "TestPipeline to Describe to edit"
+}

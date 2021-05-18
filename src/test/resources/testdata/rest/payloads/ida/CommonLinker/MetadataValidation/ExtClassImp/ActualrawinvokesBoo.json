@@ -1,0 +1,16 @@
+[
+    {
+        "name": "...*",
+        "start": {
+            "lineNumber": 1,
+            "position": 1
+        },
+        "stop": {
+            "lineNumber": 1,
+            "position": 17
+        },
+        "resolved": [
+            "Default.SourceTree:::3056"
+        ]
+    }
+]

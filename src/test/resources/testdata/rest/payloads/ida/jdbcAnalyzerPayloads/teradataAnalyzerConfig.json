@@ -1,0 +1,85 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 1000,
+      "tags": [
+        "AnalyzeTeradataSC1"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Test_BA_Teradata",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginName": "TeradataDBAnalyzer",
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataAnalyzerDryRunTrue",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 1000,
+      "tags": [
+        "AnalyzeTeradataSC1DryRunTrue"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Test_BA_Teradata",
+      "dryRun": true,
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginName": "TeradataDBAnalyzer",
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataAnalyzerWithNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 1000,
+      "tags": [
+        "AnalyzeTeradataWithNodeCondition"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Test_BA_Teradata",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginName": "TeradataDBAnalyzer",
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

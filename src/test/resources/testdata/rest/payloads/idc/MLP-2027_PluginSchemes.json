@@ -1,0 +1,104 @@
+{
+  "properties": [
+    {
+      "type": "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+      "value": [
+        {
+          "type": "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "name": "deltaTime",
+          "widget": "string",
+          "label": "deltaTime",
+          "hidden": false,
+          "validators": [],
+          "advanced": false
+        },
+        {
+          "type": "com.asg.dis.common.data.component.configview.properties.BeanArrayProperty",
+          "value": {
+            "headers": [
+              {
+                "label": "Branch",
+                "valuePath": [
+                  "properties",
+                  "0",
+                  "value"
+                ]
+              }
+            ],
+            "rows": [],
+            "prototype": {
+              "properties": [
+                {
+                  "type": "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name": "branch",
+                  "widget": "string",
+                  "label": "branch",
+                  "hidden": false,
+                  "validators": [],
+                  "advanced": false
+                },
+                {
+                  "type": "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "value": "com.asg.dis.common.analysis.dom.Filter",
+                  "name": "class",
+                  "widget": "string",
+                  "label": "class",
+                  "hidden": false,
+                  "validators": [],
+                  "advanced": false,
+                  "constant": true
+                }
+              ],
+              "metadata": {},
+              "validators": [],
+              "empty": false
+            }
+          },
+          "name": "filters",
+          "widget": "table",
+          "label": "filters",
+          "hidden": false,
+          "validators": [],
+          "advanced": false
+        }
+      ],
+      "name": "filter",
+      "widget": "properties",
+      "label": "filter",
+      "hidden": false,
+      "validators": [],
+      "advanced": false,
+      "collapsed": false
+    },
+    {
+      "type": "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+      "name": "repositoryURL",
+      "widget": "string",
+      "label": "repositoryURL",
+      "hidden": false,
+      "validators": [],
+      "advanced": false
+    },
+    {
+      "type": "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+      "name": "repositoryUser",
+      "widget": "string",
+      "label": "repositoryUser",
+      "hidden": false,
+      "validators": [],
+      "advanced": false
+    },
+    {
+      "type": "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+      "name": "repositoryPassword",
+      "widget": "string",
+      "label": "repositoryPassword",
+      "hidden": false,
+      "validators": [],
+      "advanced": false
+    }
+  ],
+  "metadata": {},
+  "validators": [],
+  "empty": false
+}

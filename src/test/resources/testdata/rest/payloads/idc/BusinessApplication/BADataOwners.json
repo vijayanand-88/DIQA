@@ -1,0 +1,23 @@
+[
+  {
+    "id": null,
+    "scopeId": null,
+    "scopeAttrName": null,
+    "type": "BusinessApplication",
+    "name": "BA_DataOwners",
+    "businessOwners": [
+      "becubic_build"
+    ],
+    "technologyOwners": [
+      "becubic_build"
+    ],
+    "complianceOwners": [
+      "becubic_build"
+    ],
+    "securityOwners": [
+      "becubic_build"
+    ],"relationshipOwners": [
+    "becubic_build"
+  ]
+  }
+]

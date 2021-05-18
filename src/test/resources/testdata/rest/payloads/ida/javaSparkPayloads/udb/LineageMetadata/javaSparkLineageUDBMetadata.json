@@ -1,0 +1,66 @@
+{
+  "LineageHop_1": {
+    "source": [
+      "DEPT_HEAD"
+    ],
+    "target": [
+      "DEPT_HEAD"
+    ]
+  },
+  "LineageHop_2": {
+    "source": [
+      "DEPT_ID"
+    ],
+    "target": [
+      "DEPT_ID"
+    ]
+  },
+  "LineageHop_3": {
+    "source": [
+      "DEPT_LOCATION"
+    ],
+    "target": [
+      "DEPT_LOCATION"
+    ]
+  },
+  "LineageHop_4": {
+    "source": [
+      "DEPT_NAME"
+    ],
+    "target": [
+      "DEPT_NAME"
+    ]
+  },
+  "LineageHop_5": {
+    "source": [
+      "DEPT_HEAD"
+    ],
+    "target": [
+      "DEPT_HEAD"
+    ]
+  },
+  "LineageHop_6": {
+    "source": [
+      "DEPT_ID"
+    ],
+    "target": [
+      "DEPT_ID"
+    ]
+  },
+  "LineageHop_7": {
+    "source": [
+      "DEPT_LOCATION"
+    ],
+    "target": [
+      "DEPT_LOCATION"
+    ]
+  },
+  "LineageHop_8": {
+    "source": [
+      "DEPT_NAME"
+    ],
+    "target": [
+      "DEPT_NAME"
+    ]
+  }
+}

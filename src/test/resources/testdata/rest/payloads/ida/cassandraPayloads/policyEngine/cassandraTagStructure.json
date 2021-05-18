@@ -1,0 +1,68 @@
+[
+  {
+    "name": "CassandraPII",
+    "definition": "General Classification",
+    "status": "APPROVED",
+    "type": "Structure Information Tag",
+    "userAssignable": true,
+    "subTags": [
+      {
+        "name": "CassandraEmailPIITag",
+        "definition": "EmailTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "CassandraSSNPIITag",
+        "definition": "SSNTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "CassandraGenderPIITag",
+        "definition": "GenderTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "CassandraFullNamePIITag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "CassandraIPAddressPIITag",
+        "definition": "IPAddressTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      },
+      {
+        "name": "CassandraFullMatchPIITag",
+        "definition": "FullNameTag",
+        "status": "APPROVED",
+        "type": "Structure Information Tag1",
+        "userAssignable": true,
+        "catalog": "Default",
+        "subTags":[]
+      }
+    ],
+    "isRoot": true,
+    "catalog": "Default",
+    "root": true
+  }
+]

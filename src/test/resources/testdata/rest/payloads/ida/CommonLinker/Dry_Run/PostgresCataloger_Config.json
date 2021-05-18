@@ -1,0 +1,22 @@
+{
+  "eventCondition": null,
+  "eventClass": null,
+  "maxWorkSize": 100,
+  "pluginType": "cataloger",
+  "dryRun": "false",
+  "nodeCondition": null,
+  "label": {
+    "": ""
+  },
+  "type": "Cataloger",
+  "tags": [],
+  "catalogName": "Analysis",
+  "filter": null,
+  "credential": "SampleCredentials",
+  "pluginName": "PostgreSQLDBCataloger",
+  "schemas": [],
+  "name": "PostgresDB",
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "dataSource": "SampleDataSource",
+  "properties": []
+}

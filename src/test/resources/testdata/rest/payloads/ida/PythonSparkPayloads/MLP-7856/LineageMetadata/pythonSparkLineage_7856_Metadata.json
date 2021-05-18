@@ -1,0 +1,58 @@
+{
+  "LineageHop_1": {
+    "source": [
+      "au_id"
+    ],
+    "target": [
+      "au_id"
+    ]
+  },
+  "LineageHop_2": {
+    "source": [
+      "au_ord"
+    ],
+    "target": [
+      "au_ord"
+    ]
+  },
+  "LineageHop_3": {
+    "source": [
+      "title_id"
+    ],
+    "target": [
+      "title_id"
+    ]
+  },
+  "LineageHop_4": {
+    "source": [
+      "au_id"
+    ],
+    "target": [
+      "au_id"
+    ]
+  },
+  "LineageHop_5": {
+    "source": [
+      "au_ord"
+    ],
+    "target": [
+      "au_ord"
+    ]
+  },
+  "LineageHop_6": {
+    "source": [
+      "royaltyper"
+    ],
+    "target": [
+      "royaltyper"
+    ]
+  },
+  "LineageHop_7": {
+    "source": [
+      "title_id"
+    ],
+    "target": [
+      "title_id"
+    ]
+  }
+}

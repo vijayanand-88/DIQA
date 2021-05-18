@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "MaxWorkSize3",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "MaxWorkSize3",
+        "en": "MaxWorkSize3"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 3,
+      "tags": [
+        "LFC"
+      ],
+      "pluginType": "COLLECTOR",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": {
+        "filters": [],
+        "deltaTime": null,
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "DemoFilter"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "file",
+              "expressionType": "simple",
+              "expressions": [
+                ""
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+      "root": "/lfc_testfiles",
+      "incrementalRun": true
+    }
+  ]
+}

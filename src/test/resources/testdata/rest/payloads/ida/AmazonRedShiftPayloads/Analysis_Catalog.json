@@ -1,0 +1,9 @@
+{
+  "RedshiftDataSource": {
+    "label": {
+      "": "RedshiftDataSource",
+      "en": "RedshiftDataSource"
+    },
+    "className": "com.asg.dis.platform.connect.reboot.RebootArea"
+  }
+}

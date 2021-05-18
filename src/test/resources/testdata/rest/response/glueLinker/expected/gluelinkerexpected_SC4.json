@@ -1,0 +1,16 @@
+{
+  "gluelinker": [
+    {
+      "mode": "VIEW",
+      "source": "MultipleCSVFiles",
+      "dir": "->",
+      "target": "gluelinker"
+    },
+    {
+      "mode": "VIEW",
+      "source": "gluelinker",
+      "dir": "->",
+      "target": "MultipleCSVFiles"
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "Metadata": {
+    "service": {
+      "applicationVersion": "PostgreSQL08.00.0002",
+      "serviceName": "AmazonRedshift",
+      "serviceID": "REDSHIFTCATALOG.Service:::1"
+    },
+    "host": {
+      "hostName": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "hostID": "REDSHIFTCATALOG.Host:::1"
+    },
+    "database": {
+      "storageType": "PostgreSQL08.00.0002",
+      "databaseID": "REDSHIFTCATALOG.Database:::1"
+    },
+    "catalogedText": "Last catalogued at",
+    "schemaCount": 11,
+    "schemas": [
+      {
+        "schemaName": "testschema",
+        "tables": [
+          {
+            "tableName": "tabletest2"
+          },
+          {
+            "tableName": "viewexternaldiffdatatypes"
+          },
+          {
+            "tableName": "employee",
+            "caption": "Table Type",
+            "data": {
+              "value": "TABLE"
+            }
+          },
+          {
+            "tableName": "viewdiffdatatypes"
+          },
+          {
+            "tableName": "redshiftpublishers"
+          },
+          {
+            "tableName": "writeqa_redshiftdepartment"
+          },
+          {
+            "tableName": "tempview1"
+          },
+          {
+            "tableName": "employee1"
+          },
+          {
+            "tableName": "referencetable23"
+          },
+          {
+            "tableName": "referencetable25"
+          },
+          {
+            "tableName": "referencetable22"
+          },
+          {
+            "tableName": "department",
+            "constraint": {
+              "data": [
+                {
+                  "constraintName": "department_pkey"
+                },
+                {
+                  "constraintName": "department_empid_fkey"
+                }
+              ]
+            }
+          },
+          {
+            "tableName": "viewexternalcity"
+          },
+          {
+            "tableName": "referencetable21"
+          },
+          {
+            "tableName": "qa_java_parquettoredshift"
+          },
+          {
+            "tableName": "viewtagdetails"
+          },
+          {
+            "tableName": "tempviewfromexttable1"
+          },
+          {
+            "tableName": "redshiftjobs"
+          },
+          {
+            "tableName": "tempviewfromexttable4"
+          },
+          {
+            "tableName": "tempviewfromexttable3"
+          },
+          {
+            "tableName": "redshiftpersons"
+          },
+          {
+            "tableName": "writeqa_ow_redshiftpersons"
+          },
+          {
+            "tableName": "viewexternaltagdetails"
+          },
+          {
+            "tableName": "tempview3"
+          },
+          {
+            "tableName": "viewexternalycity1"
+          },
+          {
+            "tableName": "writeqa_redshiftcustomers"
+          },
+          {
+            "tableName": "tempview4"
+          },
+          {
+            "tableName": "qa_java_csvtoredshift"
+          },
+          {
+            "tableName": "view_from_view"
+          },
+          {
+            "tableName": "referencetable9"
+          },
+          {
+            "tableName": "diffdatatypes"
+          },
+          {
+            "tableName": "qa_java_redshiftjobs1"
+          },
+          {
+            "tableName": "referencetable11"
+          },
+          {
+            "tableName": "viewfromtableandexttable"
+          },
+          {
+            "tableName": "qa_java_redshiftjobs2"
+          },
+          {
+            "tableName": "referencetable19"
+          },
+          {
+            "tableName": "redshiftdepartment"
+          },
+          {
+            "tableName": "redshiftcustomers"
+          },
+          {
+            "tableName": "referencetable16"
+          },
+          {
+            "tableName": "referencetable14"
+          },
+          {
+            "tableName": "referencetable15"
+          },
+          {
+            "tableName": "tag_details"
+          },
+          {
+            "tableName": "referencetable13"
+          }
+        ]
+      },
+      {
+        "schemaName": "schematest",
+        "tables": [
+          {
+            "tableName": "persons"
+          },
+          {
+            "tableName": "referencetable4"
+          },
+          {
+            "tableName": "referencetable7"
+          },
+          {
+            "tableName": "referencetable3"
+          },
+          {
+            "tableName": "viewforforwardlineageverification"
+          },
+          {
+            "tableName": "referencetable1"
+          },
+          {
+            "tableName": "referencetable2"
+          },
+          {
+            "tableName": "viewfromdiffschemamultipletablewithcondt"
+          },
+          {
+            "tableName": "viewfrommultipletable"
+          },
+          {
+            "tableName": "viewfrommultipleexternaltable"
+          },
+          {
+            "tableName": "tempviewfromexttable2"
+          },
+          {
+            "tableName": "viewfromsingleexttablewithcondt"
+          },
+          {
+            "tableName": "viewfromsingleexttable"
+          },
+          {
+            "tableName": "referencetable17"
+          },
+          {
+            "tableName": "referencetable18"
+          },
+          {
+            "tableName": "viewfromsingletable"
+          },
+          {
+            "tableName": "viewwithoutalias"
+          },
+          {
+            "tableName": "referencetable12"
+          },
+          {
+            "tableName": "referencetable10"
+          },
+          {
+            "tableName": "viewfromsingletablewithcondt"
+          },
+          {
+            "tableName": "tabletest1"
+          },
+          {
+            "tableName": "viewfromdiffschemamultipletable"
+          },
+          {
+            "tableName": "viewfromdiffschemamultipleexternaltable"
+          },
+          {
+            "tableName": "tempview2"
+          },
+          {
+            "tableName": "viewfromdiffschemamultipleexternaltablewithcondt"
+          },
+          {
+            "tableName": "referencetable20"
+          },
+          {
+            "tableName": "referencetable11"
+          },
+          {
+            "tableName": "customers"
+          },
+          {
+            "tableName": "referencetable8"
+          },
+          {
+            "tableName": "viewfrommultipletablewithcondt"
+          },
+          {
+            "tableName": "referencetable5"
+          },
+          {
+            "tableName": "referencetable6"
+          },
+          {
+            "tableName": "viewfromexternaltableusingunionall"
+          },
+          {
+            "tableName": "viewfrommultipletableusingjoin"
+          },
+          {
+            "tableName": "viewfrommultipleview"
+          },
+          {
+            "tableName": "viewfromcomplexstatement"
+          },
+          {
+            "tableName": "tabletest"
+          },
+          {
+            "tableName": "referencetable24"
+          },
+          {
+            "tableName": "viewfromtableusingunionall"
+          },
+          {
+            "tableName": "viewfrommultipleexternaltablewithcondt"
+          },
+          {
+            "tableName": "viewfrommultipleexternaltableusingjoin"
+          },
+          {
+            "tableName": "viewfromtableandview"
+          },
+          {
+            "tableName": "viewfrommultipleviewfromexttable"
+          },
+          {
+            "tableName": "viewfromtableandviewofexternaltable"
+          },
+          {
+            "tableName": "viewfromviewfromexttable"
+          },
+          {
+            "tableName": "viewfromcomplexstatementexternaltable"
+          },
+          {
+            "tableName": "viewfromview"
+          },
+          {
+            "tableName": "viewfromsingletablewithcondttest"
+          }
+        ]
+      },
+      {
+        "schemaName": "spectrum"
+      },
+      {
+        "schemaName": "spectrumtest"
+      },
+      {
+        "schemaName": "java_lineage_test"
+      },
+      {
+        "schemaName": "financial"
+      },
+      {
+        "schemaName": "information_schema"
+      },
+      {
+        "schemaName": "pg_catalog"
+      },
+      {
+        "schemaName": "pg_internal"
+      },
+      {
+        "schemaName": "demo",
+        "tables": [
+          {
+            "tableName": "countrylanguage",
+            "columns": [
+              {
+                "columnName": "language",
+                "values": [
+                  {
+                    "dataType": "VARCHAR",
+                    "technicalData": {
+                      "size": 256,
+                      "is_nullable": "NO"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tableName": "city",
+            "constraint": {
+              "data": []
+            }
+          }
+        ]
+      },
+      {
+        "schemaName": "public",
+        "tables": [
+          {
+            "tableName": "spectrumtestview"
+          }
+        ]
+      }
+    ]
+  },
+  "NegativeCase": [
+    {
+      "schemaName": "qaschema",
+      "catalogedItemscount": 1
+    }
+  ]
+}

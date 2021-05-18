@@ -1,0 +1,34 @@
+{
+  "putCall": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "UNSTRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(m|M|male|Male|f|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": true,
+        "namePattern": "*555*",
+        "typePattern": "string",
+        "matchEmpty": true,
+        "minimumRatio": 0.9
+      }
+    ]
+  },
+  "Postcall": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "data": {},
+    "pluginName": "AmazonRedshiftAnalyzer",
+    "dataType": "UNSTRUCTURED"
+  }
+}
+

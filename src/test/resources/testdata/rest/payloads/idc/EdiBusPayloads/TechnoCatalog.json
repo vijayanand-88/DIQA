@@ -1,0 +1,11 @@
+{
+  "TechnoCatalog": {
+    "label": {
+      "": "TechnoCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "TechnoCatalog"
+    }
+  }
+}

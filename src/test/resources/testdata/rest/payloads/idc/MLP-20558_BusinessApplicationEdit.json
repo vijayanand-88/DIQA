@@ -1,0 +1,82 @@
+[
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 5,
+    "factor": "ATTRIBUTE_PRESENT",
+    "filterValue": "businessOwners1",
+    "dimension": "Governance",
+    "label": "Business Owner"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 3,
+    "factor": "ATTRIBUTE_TRUE",
+    "filterValue": "authoritativeSource1",
+    "dimension": "Governance",
+    "label": "Authoritative Source"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 3,
+    "factor": "ATTRIBUTE_ENUM",
+    "filterValue": "businessCriticality:High=5,Medium=3,Low=1",
+    "dimension": "Governance",
+    "label": "Business Criticality"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 4,
+    "factor": "ATTRIBUTE_ENUM",
+    "filterValue": "dataClassification:Restricted=1,Confidential=1,Internal=1",
+    "dimension": "Governance",
+    "label": "Data Classification"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 4,
+    "factor": "ATTRIBUTE_TRUE",
+    "filterValue": "pii",
+    "dimension": "Governance",
+    "label": "PII"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 5,
+    "factor": "TAGGING",
+    "filterValue": "name",
+    "dimension": "Governance",
+    "label": "Linked Items"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 3,
+    "factor": "BUSINESS_QUALITY",
+    "filterValue": "90=2,60=3,30=4,-1=5",
+    "dimension": "Intelligence",
+    "label": "Data Quality"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 5,
+    "factor": "BUSINESS_CAPTURE",
+    "filterValue": "data=2,cataloger=4,dataanalyzer=5",
+    "dimension": "Technical",
+    "label": "Capture"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 3,
+    "factor": "BUSINESS_LINEAGE",
+    "filterValue": null,
+    "dimension": "Technical",
+    "label": "Lineage"
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 3,
+    "factor": "BUSINESS_RELATIONSHIP",
+    "filterValue": null,
+    "dimension": "Technical",
+    "label": "Relationship"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JsonS3Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 1000,
+      "tags": ["JsonS3SC18Tags"],
+      "pluginType": "cataloger",
+      "dataSource": "AmazonJSONS3ValidDataSource",
+      "credential": "ValidJSONCredentials",
+      "versionMode": false,
+      "maxObjectsAmount": 1000,
+      "filter": null,
+      "incremental": false,
+      "bucketFilter": {
+        "patterns": [
+          "asgqajsontestautomation"
+        ],
+        "mode": "INCLUDE",
+        "objectFilter": {
+          "dirPrefixes": [],
+          "dirFilter": {
+            "patterns": [],
+            "mode": "INCLUDE"
+          },
+          "fileFilter": {
+            "patterns": ["citylots.json"],
+            "mode": "INCLUDE"
+          }
+        }
+      }
+    }
+  ]
+}

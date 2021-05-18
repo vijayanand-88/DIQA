@@ -1,0 +1,793 @@
+{
+  "count" : 5,
+  "results" : [ {
+    "id" : "Default.Table:::72224",
+    "type" : "Table",
+    "name" : "table2",
+    "asg.parentTypeNamePath" : [ "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA/Database/keyspace1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::302593",
+      "name" : "CassandraCatalogerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraCatalogerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::61504",
+      "source" : 61505,
+      "target" : 72224,
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302636",
+      "name" : "Cassandra",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 490,
+      "asg_modifiedby" : "Service",
+      "target" : 72224
+    }, {
+      "id" : "Default.tag:::302679",
+      "name" : "SC5_CassandraFilter",
+      "rootTagName" : "SC5_CassandraFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72258,
+      "asg_modifiedby" : "Service",
+      "target" : 72224
+    }, {
+      "id" : "Default.tag:::302765",
+      "name" : "CassandraAnalyzerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraAnalyzerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:08.356+0000",
+      "asg_createdat" : "2020-10-02T17:30:08.356+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::61506",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 61507,
+      "asg_modifiedby" : "Service",
+      "target" : 72224,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302780",
+      "name" : "SC1_CassandraAnalyzerFilter",
+      "rootTagName" : "SC1_CassandraAnalyzerFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:08.356+0000",
+      "asg_createdat" : "2020-10-02T17:30:08.356+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72267,
+      "asg_modifiedby" : "Service",
+      "target" : 72224
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::72223",
+    "type" : "Table",
+    "name" : "table3",
+    "asg.parentTypeNamePath" : [ "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA/Database/keyspace1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::302594",
+      "name" : "CassandraCatalogerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraCatalogerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::61504",
+      "source" : 61505,
+      "target" : 72223,
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302637",
+      "name" : "Cassandra",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 490,
+      "asg_modifiedby" : "Service",
+      "target" : 72223
+    }, {
+      "id" : "Default.tag:::302680",
+      "name" : "SC5_CassandraFilter",
+      "rootTagName" : "SC5_CassandraFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72258,
+      "asg_modifiedby" : "Service",
+      "target" : 72223
+    }, {
+      "id" : "Default.tag:::302766",
+      "name" : "CassandraAnalyzerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraAnalyzerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:08.356+0000",
+      "asg_createdat" : "2020-10-02T17:30:08.356+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::61506",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 61507,
+      "asg_modifiedby" : "Service",
+      "target" : 72223,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302781",
+      "name" : "SC1_CassandraAnalyzerFilter",
+      "rootTagName" : "SC1_CassandraAnalyzerFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:08.356+0000",
+      "asg_createdat" : "2020-10-02T17:30:08.356+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72267,
+      "asg_modifiedby" : "Service",
+      "target" : 72223
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::72225",
+    "type" : "Table",
+    "name" : "table1",
+    "asg.parentTypeNamePath" : [ "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA/Database/keyspace1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::302618",
+      "name" : "CassandraCatalogerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraCatalogerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::61504",
+      "source" : 61505,
+      "target" : 72225,
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302661",
+      "name" : "Cassandra",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 490,
+      "asg_modifiedby" : "Service",
+      "target" : 72225
+    }, {
+      "id" : "Default.tag:::302704",
+      "name" : "SC5_CassandraFilter",
+      "rootTagName" : "SC5_CassandraFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.351+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.351+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72258,
+      "asg_modifiedby" : "Service",
+      "target" : 72225
+    }, {
+      "id" : "Default.tag:::302767",
+      "name" : "CassandraAnalyzerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraAnalyzerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:08.356+0000",
+      "asg_createdat" : "2020-10-02T17:30:08.356+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::61506",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 61507,
+      "asg_modifiedby" : "Service",
+      "target" : 72225,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302782",
+      "name" : "SC1_CassandraAnalyzerFilter",
+      "rootTagName" : "SC1_CassandraAnalyzerFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:08.356+0000",
+      "asg_createdat" : "2020-10-02T17:30:08.356+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72267,
+      "asg_modifiedby" : "Service",
+      "target" : 72225
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::72227",
+    "type" : "Table",
+    "name" : "table1",
+    "asg.parentTypeNamePath" : [ "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA/Database/keyspace2" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::302621",
+      "name" : "CassandraCatalogerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraCatalogerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::61504",
+      "source" : 61505,
+      "target" : 72227,
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302664",
+      "name" : "Cassandra",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 490,
+      "asg_modifiedby" : "Service",
+      "target" : 72227
+    }, {
+      "id" : "Default.tag:::302707",
+      "name" : "SC5_CassandraFilter",
+      "rootTagName" : "SC5_CassandraFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.351+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.351+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72258,
+      "asg_modifiedby" : "Service",
+      "target" : 72227
+    }, {
+      "id" : "Default.tag:::302808",
+      "name" : "CassandraAnalyzerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraAnalyzerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:09.179+0000",
+      "asg_createdat" : "2020-10-02T17:30:09.179+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::61506",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 61507,
+      "asg_modifiedby" : "Service",
+      "target" : 72227,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302813",
+      "name" : "SC1_CassandraAnalyzerFilter",
+      "rootTagName" : "SC1_CassandraAnalyzerFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:09.179+0000",
+      "asg_createdat" : "2020-10-02T17:30:09.179+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72267,
+      "asg_modifiedby" : "Service",
+      "target" : 72227
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Table:::72229",
+    "type" : "Table",
+    "name" : "table1",
+    "asg.parentTypeNamePath" : [ "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA/Database/keyspace3" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::302623",
+      "name" : "CassandraCatalogerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraCatalogerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "isRoot" : false,
+      "rootid" : null,
+      "catalog" : null,
+      "originItemID" : "Default.BusinessApplication:::61504",
+      "source" : 61505,
+      "target" : 72229,
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "asg_modifiedby" : "Service",
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302666",
+      "name" : "Cassandra",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.337+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.337+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 490,
+      "asg_modifiedby" : "Service",
+      "target" : 72229
+    }, {
+      "id" : "Default.tag:::302709",
+      "name" : "SC5_CassandraFilter",
+      "rootTagName" : "SC5_CassandraFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:29:07.351+0000",
+      "asg_createdat" : "2020-10-02T17:29:07.351+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72258,
+      "asg_modifiedby" : "Service",
+      "target" : 72229
+    }, {
+      "id" : "Default.tag:::302825",
+      "name" : "CassandraAnalyzerBA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: CassandraAnalyzerBA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:10.143+0000",
+      "asg_createdat" : "2020-10-02T17:30:10.143+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::61506",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 61507,
+      "asg_modifiedby" : "Service",
+      "target" : 72229,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::302830",
+      "name" : "SC1_CassandraAnalyzerFilter",
+      "rootTagName" : "SC1_CassandraAnalyzerFilter",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-02T17:30:10.143+0000",
+      "asg_createdat" : "2020-10-02T17:30:10.143+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 72267,
+      "asg_modifiedby" : "Service",
+      "target" : 72229
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  } ],
+  "configs" : {
+    "defaultListView" : [ {
+      "value" : "asg.parentTypeNamePath",
+      "label" : "Hierarchy"
+    }, {
+      "value" : "asg.tagNames",
+      "label" : "Tags"
+    } ]
+  },
+  "configsMap" : {
+    "*" : {
+      "*" : "defaultListView"
+    }
+  },
+  "facets" : {
+    "asg.tagPathsHierarchy_ss" : {
+      "label" : "Tags",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 5,
+        "value" : "BusinessApplication",
+        "label" : "BusinessApplication",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 5,
+          "value" : "BusinessApplication/CassandraAnalyzerBA",
+          "label" : "CassandraAnalyzerBA",
+          "checked" : false,
+          "childValues" : [ ]
+        }, {
+          "count" : 5,
+          "value" : "BusinessApplication/CassandraCatalogerBA",
+          "label" : "CassandraCatalogerBA",
+          "checked" : false,
+          "childValues" : [ ]
+        } ]
+      }, {
+        "count" : 5,
+        "value" : "SC1_CassandraAnalyzerFilter",
+        "label" : "SC1_CassandraAnalyzerFilter",
+        "checked" : true,
+        "childValues" : [ ]
+      }, {
+        "count" : 5,
+        "value" : "SC5_CassandraFilter",
+        "label" : "SC5_CassandraFilter",
+        "checked" : false,
+        "childValues" : [ ]
+      }, {
+        "count" : 5,
+        "value" : "Technology",
+        "label" : "Technology",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 5,
+          "value" : "Technology/Enterprise Data",
+          "label" : "Enterprise Data",
+          "checked" : false,
+          "childValues" : [ {
+            "count" : 5,
+            "value" : "Technology/Enterprise Data/NoSQL Databases",
+            "label" : "NoSQL Databases",
+            "checked" : false,
+            "childValues" : [ {
+              "count" : 5,
+              "value" : "Technology/Enterprise Data/NoSQL Databases/Cassandra",
+              "label" : "Cassandra",
+              "checked" : false,
+              "childValues" : [ ]
+            } ]
+          } ]
+        } ]
+      } ]
+    },
+    "type_s" : {
+      "label" : "Metadata Type",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 15,
+        "value" : "Column",
+        "checked" : false
+      }, {
+        "count" : 5,
+        "value" : "Constraint",
+        "checked" : false
+      }, {
+        "count" : 5,
+        "value" : "Table",
+        "checked" : true
+      }, {
+        "count" : 3,
+        "value" : "Database",
+        "checked" : false
+      }, {
+        "count" : 1,
+        "value" : "Service",
+        "checked" : false
+      } ]
+    },
+    "asg.parentTypeNamePathHierarchy_ss" : {
+      "label" : "Hierarchy",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 5,
+        "value" : "Cluster/dechehdpqa01v.asg.com",
+        "label" : "dechehdpqa01v.asg.com [Cluster]",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 5,
+          "value" : "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA",
+          "label" : "CASSANDRA [Service]",
+          "checked" : true,
+          "childValues" : [ {
+            "count" : 3,
+            "value" : "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA/Database/keyspace1",
+            "label" : "keyspace1 [Database]",
+            "checked" : true,
+            "childValues" : [ ]
+          }, {
+            "count" : 1,
+            "value" : "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA/Database/keyspace2",
+            "label" : "keyspace2 [Database]",
+            "checked" : true,
+            "childValues" : [ ]
+          }, {
+            "count" : 1,
+            "value" : "Cluster/dechehdpqa01v.asg.com/Service/CASSANDRA/Database/keyspace3",
+            "label" : "keyspace3 [Database]",
+            "checked" : true,
+            "childValues" : [ ]
+          } ]
+        } ]
+      } ]
+    },
+    "asg_modifiedat_dt" : {
+      "label" : "Last Modified",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 0,
+        "value" : "(*,NOW-1YEAR]",
+        "label" : "1 year and older",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-1YEAR,NOW-6MONTH]",
+        "label" : "6 months up to 1 year",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-6MONTH,NOW-1MONTH]",
+        "label" : "1 month up to 6 months",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-1MONTH,NOW-7DAY]",
+        "label" : "1 week up to 1 month",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-7DAY,NOW-1DAY]",
+        "label" : "1 day up to 1 week",
+        "checked" : false
+      }, {
+        "count" : 5,
+        "value" : "(NOW-1DAY,NOW]",
+        "label" : "past 24 hours",
+        "checked" : false
+      } ]
+    },
+    "asg_modifiedby_s" : {
+      "label" : "Modified by",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 5,
+        "value" : "Service",
+        "checked" : false
+      } ]
+    }
+  }
+}

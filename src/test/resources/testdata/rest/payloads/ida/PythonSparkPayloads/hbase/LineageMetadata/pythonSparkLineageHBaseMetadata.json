@@ -1,0 +1,74 @@
+{
+  "LineageHop_1": {
+    "source": [
+      "personal data:city"
+    ],
+    "target": [
+      "personal data:city"
+    ]
+  },
+  "LineageHop_2": {
+    "source": [
+      "personal data:name"
+    ],
+    "target": [
+      "personal data:name"
+    ]
+  },
+  "LineageHop_3": {
+    "source": [
+      "personal data:address"
+    ],
+    "target": [
+      "personal data:address"
+    ]
+  },
+  "LineageHop_4": {
+    "source": [
+      "personal data:city"
+    ],
+    "target": [
+      "personal data:city"
+    ]
+  },
+  "LineageHop_5": {
+    "source": [
+      "personal data:name"
+    ],
+    "target": [
+      "personal data:name"
+    ]
+  },
+  "LineageHop_6": {
+    "source": [
+      "professional data:DOJ"
+    ],
+    "target": [
+      "professional data:DOJ"
+    ]
+  },
+  "LineageHop_7": {
+    "source": [
+      "professional data:designation"
+    ],
+    "target": [
+      "professional data:designation"
+    ]
+  },
+  "LineageHop_8": {
+    "source": [
+      "professional data:hike"
+    ],
+    "target": [
+      "professional data:hike"
+    ]
+  },
+  "LineageHop_9": {
+    "source": [
+      "professional data:salary"
+    ],
+    "target": [
+      "professional data:salary"
+    ]
+  }
+}

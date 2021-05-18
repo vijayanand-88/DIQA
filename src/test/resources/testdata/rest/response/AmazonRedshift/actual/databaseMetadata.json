@@ -1,0 +1,371 @@
+{
+  "caption" : {
+    "name" : "world",
+    "type" : "Database",
+    "id" : "REDSHIFTCATALOG.Database:::1",
+    "actions" : [ {
+      "class" : "com.asg.dis.platform.data.component.itemview.dom.ItemAction",
+      "name" : "create-assign-item",
+      "requiredPermissions" : [ "DATA_MODIFY" ],
+      "label" : "Assign to Data Set",
+      "icon" : "fa fa-database",
+      "disabled" : false,
+      "requiredUsers" : [ ],
+      "requiredRoles" : [ ],
+      "params" : {
+        "historyItemId" : null,
+        "scopeid" : "REDSHIFTCATALOG.Service%3A%3A%3A1",
+        "catalog" : "REDSHIFTCATALOG",
+        "name" : "world",
+        "id" : "REDSHIFTCATALOG.Database%3A%3A%3A1",
+        "type" : "Database"
+      }
+    } ],
+    "editableIcon" : false,
+    "breadCrumbs" : [ {
+      "name" : "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "tooltip" : "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com [Cluster]",
+      "id" : "REDSHIFTCATALOG.Cluster:::1"
+    }, {
+      "name" : "AmazonRedshift",
+      "tooltip" : "AmazonRedshift [Service]",
+      "id" : "REDSHIFTCATALOG.Service:::1"
+    }, {
+      "name" : "world",
+      "tooltip" : "world [Database]",
+      "id" : "REDSHIFTCATALOG.Database:::1"
+    } ],
+    "historyVersion" : null,
+    "editableName" : false,
+    "refreshItemOnChangeEndpoint" : null,
+    "quality" : {
+      "message" : "Not applicable",
+      "color" : "#A59C9C",
+      "value" : 0.0
+    }
+  },
+  "data" : [ {
+    "category" : "Overview",
+    "preview" : true,
+    "data" : [ {
+      "type" : "multi-properties",
+      "caption" : "Metadata",
+      "data" : {
+        "attributes" : [ {
+          "type" : "string",
+          "caption" : "ID",
+          "data" : {
+            "value" : "REDSHIFTCATALOG.Database:::1",
+            "attributeName" : "id",
+            "editable" : false,
+            "endpoint" : "services/items/REDSHIFTCATALOG/REDSHIFTCATALOG.Database%3A%3A%3A1",
+            "modified" : false
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0
+          }
+        }, {
+          "type" : "string",
+          "caption" : "Storage type",
+          "data" : {
+            "value" : "PostgreSQL08.00.0002",
+            "attributeName" : "storageType",
+            "editable" : false,
+            "endpoint" : "services/items/REDSHIFTCATALOG/REDSHIFTCATALOG.Database%3A%3A%3A1",
+            "modified" : false
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0
+          }
+        }, {
+          "type" : "json",
+          "caption" : "Technical Data",
+          "data" : {
+            "value" : {
+              "jdbcURL" : "jdbc:redshift://redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com:5439/world",
+              "dbType" : "POSTGRESQL",
+              "host" : "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+              "driverClass" : "com.amazon.redshift.jdbc.Driver",
+              "driverName" : "RedshiftJDBC",
+              "database" : "world",
+              "userName" : "master",
+              "password" : "l6fJA32V4kLfrFJ0HnoHH7blk2gvrPCI4AcQ+av5R1o="
+            },
+            "attributeName" : "techData",
+            "editable" : false,
+            "endpoint" : "services/items/REDSHIFTCATALOG/REDSHIFTCATALOG.Database%3A%3A%3A1",
+            "modified" : false
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0
+          }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0
+      }
+    }, {
+      "type" : "issuelist",
+      "caption" : "issue",
+      "data" : {
+        "tool" : "jira",
+        "icon" : "data:image/png;base64,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",
+        "pluginName" : "JiraConnector",
+        "pluginConfigurationName" : "Jira",
+        "actions" : [ {
+          "actionId" : "create-issue",
+          "label" : "Create issue"
+        } ],
+        "issues" : [ ]
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0
+      }
+    }, {
+      "type" : "rating",
+      "caption" : "Rating",
+      "data" : {
+        "content" : {
+          "ratingCount" : 0,
+          "averageRating" : 0.0,
+          "userRating" : 0,
+          "ratings" : [ ],
+          "maxValue" : 5
+        },
+        "links" : {
+          "add" : {
+            "value" : "/ratings/REDSHIFTCATALOG/REDSHIFTCATALOG.Database:::1/",
+            "params" : { }
+          },
+          "get" : {
+            "value" : "/ratings/REDSHIFTCATALOG/REDSHIFTCATALOG.Database:::1/",
+            "params" : { }
+          },
+          "delete" : {
+            "value" : "/ratings/REDSHIFTCATALOG/REDSHIFTCATALOG.Database:::1/",
+            "params" : { }
+          }
+        }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0
+      }
+    }, {
+      "type" : "taglist",
+      "caption" : "tag",
+      "data" : [ {
+        "id" : "REDSHIFTCATALOG.Tag:::33",
+        "name" : "Redshift",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "Redshift Data Warehouses",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "subTags" : [ ],
+        "asg.createdAt" : "2020-01-29T06:46:09.7506",
+        "isRoot" : false,
+        "asg.modifiedAt" : "2020-01-29T06:46:09.7506",
+        "asg.createdBy" : "Service",
+        "asg.scopeId" : "0",
+        "asg.modifiedBy" : "Service"
+      }, {
+        "id" : "REDSHIFTCATALOG.Tag:::72",
+        "name" : "Cloud Data Warehouses",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "Cloud based Data Warehouses",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "subTags" : [ ],
+        "asg.createdAt" : "2020-01-29T06:46:09.7506",
+        "isRoot" : false,
+        "asg.modifiedAt" : "2020-01-29T06:46:09.7506",
+        "asg.createdBy" : "Service",
+        "asg.scopeId" : "0",
+        "asg.modifiedBy" : "Service"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0
+      }
+    }, {
+      "type" : "table",
+      "caption" : "Schemas",
+      "data" : {
+        "headers" : [ {
+          "colId" : "name",
+          "colLabel" : "Name",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "type",
+          "colLabel" : "type",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        }, {
+          "colId" : "description",
+          "colLabel" : "Description",
+          "hidden" : false,
+          "columnSize" : 1,
+          "type" : "default"
+        } ],
+        "data" : [ {
+          "id" : "REDSHIFTCATALOG.Schema:::8",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "demo",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::7",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "financial",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::4",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "information_schema",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::6",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "java_lineage_test",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::5",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "pg_catalog",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::11",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "pg_internal",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::9",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "public",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::10",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "schematest",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::2",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "spectrum",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::3",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "spectrumtest",
+          "type" : "Schema",
+          "description" : null
+        }, {
+          "id" : "REDSHIFTCATALOG.Schema:::1",
+          "catalog" : "REDSHIFTCATALOG",
+          "name" : "testschema",
+          "type" : "Schema",
+          "description" : null
+        } ],
+        "pagination" : {
+          "endpoint" : "/searches/REDSHIFTCATALOG/query/pagingQuery/REDSHIFTCATALOG.Database%3A%3A%3A1?param=originQuerySource=g.V%28%27%24%7Bid%7D%27%29.out%28%27%24%7Battribute%7D%27%29&what=id,catalog,name,type,description&param=id=REDSHIFTCATALOG.Database:::1&param=attribute=has_Schema&param=sortfield=name&param=pageSize=14&param=pageNumber=",
+          "pageSize" : 14,
+          "maxSize" : 11
+        },
+        "editable" : false,
+        "loadAllIdsUrl" : "services/searches/REDSHIFTCATALOG?query=g.V%28%27%24%7Bid%7D%27%29.out%28%27%24%7Battribute%7D%27%29.id()&param=id=REDSHIFTCATALOG.Database%3A%3A%3A1&param=attribute=has_Schema",
+        "modified" : false,
+        "filterEnabled" : false,
+        "namespaceLinkAttributeWidget" : false,
+        "attributeName" : "has_Schema"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0
+      }
+    }, {
+      "type" : "comments",
+      "caption" : "COMMENTS",
+      "data" : {
+        "latestComment" : null,
+        "commentCount" : 0
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 0,
+        "page" : 0
+      }
+    } ]
+  }, {
+    "category" : "Relationships",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lineage",
+      "caption" : "DataLineage",
+      "data" : {
+        "theme" : "relationships",
+        "id" : "REDSHIFTCATALOG.Database:::1"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0
+      }
+    } ]
+  } ],
+  "hierarchy" : [ {
+    "label" : "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+    "children" : [ {
+      "label" : "AmazonRedshift",
+      "children" : [ {
+        "label" : "world",
+        "children" : [ ]
+      } ]
+    } ]
+  } ]
+}

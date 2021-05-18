@@ -1,0 +1,50 @@
+{
+  "LineageHop_1": {
+    "source": [
+      "commands.txt"
+    ],
+    "target": [
+      "lines"
+    ]
+  },
+  "LineageHop_2": {
+    "source": [
+      "country"
+    ],
+    "target": [
+      "lines1"
+    ]
+  },
+  "LineageHop_3": {
+    "source": [
+      "lines"
+    ],
+    "target": [
+      "part-00001"
+    ]
+  },
+  "LineageHop_4": {
+    "source": [
+      "lines1"
+    ],
+    "target": [
+      "part-00001"
+    ]
+  },
+  "LineageHop_5": {
+    "source": [
+      "lines2"
+    ],
+    "target": [
+      "part-00001"
+    ]
+  },
+  "LineageHop_6": {
+    "source": [
+      "system"
+    ],
+    "target": [
+      "lines2"
+    ]
+  }
+}

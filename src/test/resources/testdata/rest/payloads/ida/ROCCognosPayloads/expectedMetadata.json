@@ -1,0 +1,37 @@
+{
+  "DatabaseMetadata": {
+    "Description1": ["Description","Definition","Storage type"],
+    "Description2": {
+      "Description": "/content/folder[@name='Samples']/folder[@name='Models']/package[@name='GO sales (analysis)']",
+      "Definition":"/Samples/Models/GO sales (analysis)",
+      "Storage type": "Cognos"
+    }
+  },
+  "SchemaMetadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition":"[].[dataSources].[gosales]"
+    }
+  },
+  "TableMetadata": {
+    "Description1": ["Description","Table Type","Created by","Modified by"],
+    "Description2": {
+      "Table Type":"VIEW",
+      "Description": "<sql type=\"cognos\">Select <column>*</column>from<table>[gosales].BRANCH</table> </sql>",
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle1": ["Created","Modified"]
+  },
+  "ColumnMetadata": {
+    "Description": {
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle": ["Created","Modified"],
+    "Statistics":{
+      "Length": "82"
+    }
+  }
+}
+

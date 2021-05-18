@@ -1,0 +1,251 @@
+{
+  "configurations": {
+    "HiveCataloger": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+        "name": "HiveCataloger",
+        "label": {
+          "": "HiveCataloger",
+          "en": "HiveCataloger"
+        },
+        "catalogName": "BigData",
+        "eventClass": null,
+        "eventCondition": null,
+        "enableQueryParser": false,
+        "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+        "kerberosKrb5location": "/etc/krb5.conf",
+        "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+              "label": {
+                "": "LandingArea"
+              },
+              "tags": [
+                "LandingArea",
+                "BigData"
+              ],
+              "dbRegexList": [
+                "foodmart"
+              ]
+            },
+            {
+              "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+              "label": {
+                "": "AnalyticsArea"
+              },
+              "tags": [
+                "AnalyticsArea",
+                "BigData"
+              ],
+              "dbRegexList": [
+                "northwind"
+              ]
+            }
+          ],
+          "maxHits": null,
+          "deltaTime": "30"
+        }
+      }
+    ],
+    "HiveQueryParser": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "HiveQueryParser",
+        "label": {
+          "": "HiveQueryParser",
+          "en": "HiveQueryParser"
+        },
+        "catalogName": "BigData",
+        "eventClass": null,
+        "eventCondition": null,
+        "filter": null
+      }
+    ],
+    "HdfsMonitor": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "HdfsMonitor",
+        "label": {
+          "": "HdfsMonitor",
+          "en": "HdfsMonitor"
+        },
+        "catalogName": "BigData",
+        "autoStart": true,
+        "eventClass": null,
+        "eventCondition": null,
+        "filter": null,
+        "catalogerConfigurationName": "HdfsCataloger"
+      }
+    ],
+    "HiveMonitor": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+        "name": "HiveMonitor",
+        "label": {
+          "": "HiveMonitor",
+          "en": "HiveMonitor"
+        },
+        "catalogName": "BigData",
+        "autoStart": true,
+        "eventClass": null,
+        "eventCondition": null,
+        "enableQueryParser": true,
+        "kerberosKeytabLocation": null,
+        "kerberosKrb5location": null,
+        "kerberosPrincipalName": null,
+        "filter": null,
+        "catalogerConfigurationName": "HiveCataloger"
+      }
+    ],
+    "MLAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.MLConfiguration",
+        "name": "ML Analyzer",
+        "label": {
+          "": "ML Analyzer",
+          "en": "ML Analyzer"
+        },
+        "catalogName": "BigData",
+        "eventClass": null,
+        "eventCondition": null,
+        "maxNumberValues": "1000",
+        "cutoffRatio": "0.3",
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+              "label": {
+                "": "PII"
+              },
+              "tags": [
+                "PII"
+              ],
+              "dbRegexList": [
+                "healthcare"
+              ]
+            }
+          ],
+          "maxHits": null,
+          "deltaTime": "300"
+        }
+      }
+    ],
+    "HdfsCataloger": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.HdfsConfiguration",
+        "name": "HdfsCataloger",
+        "label": {
+          "": "HdfsCataloger",
+          "en": "HdfsCataloger"
+        },
+        "catalogName": "BigData",
+        "eventClass": null,
+        "eventCondition": null,
+        "catalogerHdfsUser": "hdfs",
+        "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+        "kerberosKrb5location": "/etc/krb5.conf",
+        "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+        "clusterManagerName": "HORTONWORKS",
+        "clusterManagerHost": "http://10.33.6.165",
+        "clusterManagerPort": "8080",
+        "clusterManagerLogin": "raj_ops",
+        "clusterManagerPassword": "rdX7heWAVn6gvz3PoOHHpw==",
+        "clusterManagerApiVersion": "api/v1",
+        "scanHdfs": true,
+        "scanServices": false,
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+              "label": {
+                "": "BigData"
+              },
+              "tags": [
+                "BigData"
+              ],
+              "root": "/apps/hive/warehouse",
+              "excludeRegexp": [],
+              "fileMode": "exclude",
+              "fileExtensions": [
+                "*"
+              ]
+            }
+          ],
+          "maxHits": "100",
+          "deltaTime": "30"
+        }
+      }
+    ],
+    "BigDataAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+        "name": "Data Analyzer",
+        "label": {
+          "": "Data Analyzer",
+          "en": "Data Analyzer"
+        },
+        "catalogName": "BigData",
+        "eventClass": null,
+        "eventCondition": null,
+        "regExpMatchers": [
+          {
+            "namePattern": "(.*phone.*)",
+            "typePattern": null,
+            "dataPattern": "^(\\+\\d{1,3}\\s)?\\(?\\d{1,3}\\)?[\\s.-]\\d{3}([\\s.-])?\\d{4}$",
+            "minimumRatio": "0.7",
+            "tags": [
+              "Phone Number"
+            ]
+          },
+          {
+            "namePattern": "(.*email.*)",
+            "typePattern": "string",
+            "dataPattern": "^.*@.*$",
+            "minimumRatio": "0.9",
+            "tags": [
+              "Email Address"
+            ]
+          },
+          {
+            "namePattern": "(.*fax.*)",
+            "typePattern": null,
+            "dataPattern": "^(\\+\\d{1,3}\\s)?\\(?\\d{1,3}\\)?[\\s.-]\\d{3}([\\s.-])?\\d{4}$",
+            "minimumRatio": "0.7",
+            "tags": [
+              "Fax Number"
+            ]
+          },
+          {
+            "namePattern": ".*post.*",
+            "typePattern": null,
+            "dataPattern": "55555|^$",
+            "minimumRatio": "1.0",
+            "tags": [
+              "Anonymized"
+            ]
+          },
+          {
+            "namePattern": "((.*phone.*)|(.*fax.*))",
+            "typePattern": null,
+            "dataPattern": ".*-555-.*|^$",
+            "minimumRatio": "1.0",
+            "tags": [
+              "Anonymized"
+            ]
+          }
+        ],
+        "dataSample": {
+          "sampleSize": "25"
+        },
+        "histogramBuckets": "100",
+        "topValues": "10",
+        "filter": null
+      }
+    ]
+  },
+  "$parameter": {
+    "catalog": "BigData"
+  }
+}

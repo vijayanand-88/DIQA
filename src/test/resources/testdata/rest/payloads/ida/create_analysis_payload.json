@@ -1,0 +1,20 @@
+{
+  "Analysis": {
+    "label": {
+      "en": "Analysis",
+      "": "Analysis"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Analysis",
+      "tags": {
+        "rootTags": []
+      },
+      "image": {
+        "icon": "glyphicon-font",
+        "color": "black"
+      },
+      "description": {}
+    }
+  }
+}

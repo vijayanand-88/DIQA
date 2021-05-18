@@ -1,0 +1,34 @@
+{
+  "classID": 87017,
+  "functionID": 87025,
+  "hopsList": [
+    "EMPLOYEEID => SPARK_TARGET_SC1_1.EMPLOYEEID",
+    "EMPLOYEEID => SPARK_TARGET_SC1_2.EMPLOYEEID",
+    "SPARK_SOURCE_SC1.EMAIL => jdbcDF_td1.EMAIL",
+    "SPARK_SOURCE_SC1.EMPLOYEEID => jdbcDF_td1.EMPLOYEEID",
+    "SPARK_SOURCE_SC1.FULL_NAME => jdbcDF_td1.FULL_NAME",
+    "SPARK_SOURCE_SC1.GENDER => jdbcDF_td1.GENDER",
+    "SPARK_SOURCE_SC1.IPADDRESS => jdbcDF_td1.IPADDRESS",
+    "SPARK_SOURCE_SC1.SSN => jdbcDF_td1.SSN",
+    "SPARK_SOURCE_SC1.phonenumber => jdbcDF_td1.phonenumber",
+    "SPARK_SOURCE_SC1.postalcode => jdbcDF_td1.postalcode",
+    "SPARK_SOURCE_SC1.state => jdbcDF_td1.state",
+    "SSN => SPARK_TARGET_SC1_1.SSN",
+    "SSN => SPARK_TARGET_SC1_2.SSN"
+  ],
+  "hopsID": {
+    "SPARK_SOURCE_SC1.postalcode => jdbcDF_td1.postalcode": 87038,
+    "SSN => SPARK_TARGET_SC1_1.SSN": 87044,
+    "SPARK_SOURCE_SC1.SSN => jdbcDF_td1.SSN": 87041,
+    "EMPLOYEEID => SPARK_TARGET_SC1_1.EMPLOYEEID": 87032,
+    "SPARK_SOURCE_SC1.phonenumber => jdbcDF_td1.phonenumber": 87036,
+    "SSN => SPARK_TARGET_SC1_2.SSN": 87039,
+    "SPARK_SOURCE_SC1.state => jdbcDF_td1.state": 87033,
+    "SPARK_SOURCE_SC1.EMPLOYEEID => jdbcDF_td1.EMPLOYEEID": 87040,
+    "SPARK_SOURCE_SC1.FULL_NAME => jdbcDF_td1.FULL_NAME": 87034,
+    "EMPLOYEEID => SPARK_TARGET_SC1_2.EMPLOYEEID": 87043,
+    "SPARK_SOURCE_SC1.GENDER => jdbcDF_td1.GENDER": 87035,
+    "SPARK_SOURCE_SC1.EMAIL => jdbcDF_td1.EMAIL": 87037,
+    "SPARK_SOURCE_SC1.IPADDRESS => jdbcDF_td1.IPADDRESS": 87042
+  }
+}

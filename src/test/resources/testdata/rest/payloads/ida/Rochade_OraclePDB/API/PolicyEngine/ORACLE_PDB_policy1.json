@@ -1,0 +1,888 @@
+{
+  "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+  "input": {
+    "@class": "com.asg.dis.policies.facts.DIAnalysis",
+    "pluginName": "OracleDBAnalyzer",
+    "technologies": [
+      ""
+    ],
+    "view": {
+      "label": "OracleDBAnalyzer",
+      "value": "OracleDBAnalyzer"
+    },
+    "dataType": "STRUCTURED"
+  },
+  "outputs": [
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VARCHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VARCHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*CHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC1Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*VAR1.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VAR3CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "VAR2CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*VAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC2Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": ".*4CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*IPADD.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "EMAIL",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "SS.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC3Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*NAME",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*I1P.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*EM1AIL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "SSN11.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "1GENDER",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC4Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*F1ULL.*",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC5Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC6Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC8Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 1
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC9Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "VARCHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "VARCHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*CHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC10Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL_.*",
+      "typePattern": ".*CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPAD1DRESS",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*1MAIL",
+      "typePattern": "VARCHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*1SSN.*",
+      "typePattern": "VARCHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER1",
+      "typePattern": ".*CHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC11Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL1.*",
+      "typePattern": ".*CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*AR2CHA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "2VARCHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "VAR2CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*2CHAR",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC12Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL_.*",
+      "typePattern": ".*VA2CHA.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}$[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "IPADDRESS",
+      "typePattern": ".*VAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]$([A-Za-z0-9_\\-]+\\.)$[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*MAIL",
+      "typePattern": "VARCHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}\\d{6}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": ".*SSN.*",
+      "typePattern": "VARCHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(male|Male|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "GENDER",
+      "typePattern": ".*CHAR2",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]$\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC13Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "FULL_.*",
+      "typePattern": ".*CHAR.*",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+      "tags": [
+        "ORACLE_PDB_IPAddressPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9_\\-\\.]+@([A-Za-z0-9_\\-]+\\.)+[A-Za-z0-9_\\-]{2,4}",
+      "tags": [
+        "ORACLE_PDB_EmailPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+      "tags": [
+        "ORACLE_PDB_SSNPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "(M|male|Male|F|female|Female)",
+      "tags": [
+        "ORACLE_PDB_GenderPII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "[A-Za-z0-9]+\\s[A-Za-z0-9]+",
+      "tags": [
+        "ORACLE_PDB_FullNamePII_SC14Tag"
+      ],
+      "matchFull": false,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": true,
+      "minimumRatio": 0.5
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "database",
+      "tags": [
+        "ORACLE_PDB_FullMatchPII_SC1Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.6
+    },
+    {
+      "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+      "tagCategory": "ORACLE_PDB_PII",
+      "dataPattern": "GRANTS.",
+      "tags": [
+        "ORACLE_PDB_FullMatchPII_SC3Tag"
+      ],
+      "matchFull": true,
+      "namePattern": "",
+      "typePattern": "",
+      "matchEmpty": false,
+      "minimumRatio": 0.2
+    }
+  ]
+}

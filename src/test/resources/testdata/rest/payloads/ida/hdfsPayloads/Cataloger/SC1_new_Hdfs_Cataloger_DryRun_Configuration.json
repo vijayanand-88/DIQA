@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "scanHdfs": true,
+      "analyzeCollectedData": true,
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "cataloger",
+      "dryRun": true,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "label": {
+        "": ""
+      },
+      "type": "Cataloger",
+      "tags": [
+        "DryRun_maintag"
+      ],
+      "catalogName": "Default",
+      "filter": {
+        "deltaTime": "30",
+        "filters": [
+          {
+            "fileExtensions": [],
+            "excludeRegexp": [],
+            "root": "/MaxHits",
+            "fileMode": "include",
+            "label": {
+              "": "DryRunTrue"
+            },
+            "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+            "tags": [
+              "DryRunFile"
+            ]
+          }
+        ],
+        "extraFilters": {},
+        "maxHits": "100"
+      },
+      "pluginVersion": "LATEST",
+      "scanServices": false,
+      "credential": "hdfsDBValidCredential",
+      "pluginName": "HdfsCataloger",
+      "name": "SC10_DryRun",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": "HDFSDataSource_resolveclusterfalse",
+      "businessApplicationName": "HDFS_BA"
+    }
+  ]
+}

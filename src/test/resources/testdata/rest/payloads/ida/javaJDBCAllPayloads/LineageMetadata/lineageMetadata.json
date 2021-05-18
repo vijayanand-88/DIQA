@@ -1,0 +1,10 @@
+{
+  "LineageHop_1": {
+    "source": ["/C:/Lambda/FirstNameLists.txt"],
+    "target": ["set_1"]
+  },
+  "LineageHop_2": {
+    "source": ["set_1"],
+    "target": ["FNAME"]
+  }
+}

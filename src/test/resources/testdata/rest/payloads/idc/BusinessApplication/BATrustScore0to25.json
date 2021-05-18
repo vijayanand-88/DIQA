@@ -1,0 +1,11 @@
+[
+  {
+    "id": null,
+    "scopeId": null,
+    "scopeAttrName": null,
+    "type": "BusinessApplication",
+    "name": "TestBAItem1",
+    "businessCriticality": "High",
+    "authoritativeSource": "Yes"
+  }
+]

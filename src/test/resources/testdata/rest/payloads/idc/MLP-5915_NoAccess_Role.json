@@ -1,0 +1,13 @@
+{
+  "name": "NOACCESS",
+  "label": {
+    "": "NOACCESS",
+    "en": "NOACCESS"
+  },
+  "description": {
+    "": "NOACCESS role doesn't have any permission",
+    "en": "NOACCESS role doesn't have any permission"
+  },
+  "permissions": [
+  ]
+}

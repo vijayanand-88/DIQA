@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "HdfsCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "HdfsTag1"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "HDFSDataSource_valid",
+      "credential": "hdfsValidCredential",
+      "businessApplicationName": "HDFS_BA",
+      "dryRun": false,
+      "schedule": null,
+      "runAfter": [],
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+            "label": {
+              "": "f1"
+            },
+            "tags": [],
+            "root": "/ParquetPatternMatch",
+            "excludeRegexp": [],
+            "fileMode": "include",
+            "fileExtensions": []
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {},
+        "maxHits": "50"
+      },
+      "scanHdfs": true,
+      "analyzeCollectedData": true,
+      "scanServices": false,
+      "pluginName": "HdfsCataloger",
+      "type": "Cataloger"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "header": {
+    "contentType": "application/json",
+    "acceptFormat": "application/json"
+  },
+  "queryparam":{},
+  "path": "dashboards",
+  "method": "GET",
+  "payload":"",
+  "responseCode": "200"
+}

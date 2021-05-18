@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JDBCCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JDBCCataloger"
+      },
+      "catalogName": "Oracle",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name=='InternalNode'",
+      "parallelQueryBatchSize": 10000,
+      "parallelWorkBatchSize": 100,
+      "parallelWorkPollInterval": 60,
+      "filter": null,
+      "database": "col2",
+      "password": "collector1",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "host": "gechcae-col1.asg.com",
+      "user": "collector",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521:col2"
+    }
+  ]
+}

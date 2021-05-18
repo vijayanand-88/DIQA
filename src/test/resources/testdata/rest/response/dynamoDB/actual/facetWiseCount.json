@@ -1,0 +1,34 @@
+{
+  "count" : 0,
+  "result" : [ ],
+  "facetCounts" : {
+    "catalog_s" : [ ],
+    "asg.tagPathsHierarchy_ss" : [ ],
+    "type_s" : [ {
+      "count" : 18,
+      "value" : "Column"
+    }, {
+      "count" : 2,
+      "value" : "Constraint"
+    }, {
+      "count" : 2,
+      "value" : "Table"
+    }, {
+      "count" : 1,
+      "value" : "Analysis"
+    }, {
+      "count" : 1,
+      "value" : "Cluster"
+    }, {
+      "count" : 1,
+      "value" : "Database"
+    }, {
+      "count" : 1,
+      "value" : "Host"
+    }, {
+      "count" : 1,
+      "value" : "Service"
+    } ],
+    "asg.parentTypeNamePathHierarchy_ss" : [ ]
+  }
+}

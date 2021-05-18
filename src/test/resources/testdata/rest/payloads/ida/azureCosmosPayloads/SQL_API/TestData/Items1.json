@@ -1,0 +1,13 @@
+{
+    "id": "1",
+    "userid": "100",
+    "category": "personal",
+    "name": "groceries",
+    "description": "Pick up apples and strawberries.",
+    "isComplete": false,
+    "_rid": "kShuAKb6m9IBAAAAAAAAAA==",
+    "_self": "dbs/kShuAA==/colls/kShuAKb6m9I=/docs/kShuAKb6m9IBAAAAAAAAAA==/",
+    "_etag": "\"0500b608-0000-0000-0000-5c8217330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1552029491
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "open-tasks",
+    "type": "open-tasks-widget",
+    "icon": {
+      "icon": "fa fa-info-circle",
+      "color": "#91AA9D"
+    },
+    "layout": {
+      "height": 1,
+      "width": 1,
+      "page": 1
+    },
+    "data": {
+      "title": "My open tasks",
+      "icon": {
+        "icon": "fa fa-info-circle",
+        "color": "#91AA9D"
+      },
+      "definition": "Here is the list of all the tasks which are currently open and assigned to you",
+      "listHeader": "Tasks",
+      "description": "List of open tasks",
+      "emptyTaskListMessage": "You currently have no tasks assigned to you. Enjoy your day!",
+      "actions": []
+    }
+  }
+]

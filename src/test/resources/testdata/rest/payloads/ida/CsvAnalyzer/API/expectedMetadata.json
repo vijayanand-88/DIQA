@@ -1,0 +1,46 @@
+{
+  "DiffdatatypesWOH": {
+    "_c5": {
+      "Average": "456.75",
+      "Maximum value": "656.75",
+      "Median": "456.75",
+      "Minimum value": "256.75",
+      "Number of non null values": "5",
+      "Percentage of non null values": "100",
+      "Standard deviation": "158.11",
+      "sum": "2283.75",
+      "Number of unique values": "5",
+      "Percentage of unique values": "100",
+      "Variance": "25000"
+    },
+    "_c2": {
+      "Average": "615353",
+      "Maximum value": "935353",
+      "Median": "535353",
+      "Minimum value": "535353",
+      "Number of non null values": "5",
+      "Percentage of non null values": "100",
+      "Standard deviation": "178885.44",
+      "sum": "3076765",
+      "Number of unique values": "2",
+      "Percentage of unique values": "40",
+      "Variance": "32000000000"
+    },
+    "_c9": {
+      "avgLength": "8.6",
+      "avgWordCount": "1",
+      "Maximum length": "10",
+      "Maximum value": "7/7/2017",
+      "maxWordCount": "1",
+      "Minimum length": "8",
+      "Minimum value": "10/10/2013",
+      "minWordCount": "1",
+      "mostFrequentWord": "3/3/2013",
+      "Number of non null values": "5",
+      "Percentage of non null values": "100",
+      "Number of unique values": "5",
+      "Percentage of unique values": "100"
+    }
+  }
+}
+

@@ -1,0 +1,9 @@
+[ {
+  "itemId" : "Default.Analysis:::13924",
+  "errorIndex" : 0,
+  "errorDetails" : {
+    "timestamp" : "2020-08-09 13:53:49.184",
+    "message" : "ANALYSIS-GIT-0032: MaxWorkSize expected value should be greater than 0. The actual value is 0. No files were collected.",
+    "cleared" : false
+  }
+} ]

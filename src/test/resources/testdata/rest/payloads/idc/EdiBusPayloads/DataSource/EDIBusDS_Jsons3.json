@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "eventCondition": null,
+      "eventClass": null,
+      "maxWorkSize": 100,
+      "pluginType": "datasource",
+      "dryRun": false,
+      "EDI subject area name": "S3JSON",
+      "EDI subject area version": "1.0",
+      "nodeCondition": null,
+      "label": {
+        "": ""
+      },
+      "tags": [],
+      "catalogName": "Default",
+      "filter": null,
+      "pluginVersion": "LATEST",
+      "EDI subject area access roles": [
+        {
+          "role": "*"
+        }
+      ],
+      "credential": "EDIBusValidCredentials",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "name": "EDIBusDS_Jsons3",
+      "EDI database": "AP-DATA",
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "dataSource": null,
+      "businessApplicationName": null
+    }
+  ]
+}

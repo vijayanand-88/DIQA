@@ -1,0 +1,13 @@
+{
+  "data": {
+    "label": {
+      "": "List query updated"
+    },
+    "chartQuery": false,
+    "parameters": [],
+    "querySource": "g.V().hasLabel(\"${schema}.DWR_ANL_MEMBER\").valueMap(true,what)",
+    "templateQuery": false,
+    "queryResultType": "UNSPECIFIED"
+  },
+  "path": "com/asg/dis/platform/query/com.asg.idc.Osgi1-0.0.1.SNAPSHOT-query_list.json"
+}

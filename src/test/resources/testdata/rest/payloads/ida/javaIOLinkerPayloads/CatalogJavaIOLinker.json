@@ -1,0 +1,11 @@
+{
+  "CatalogJavaIOLinker": {
+    "label": {
+      "": "CatalogJavaIOLinker"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CatalogJavaIOLinker"
+    }
+  }
+}

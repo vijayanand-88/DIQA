@@ -1,0 +1,830 @@
+{
+  "count" : 7,
+  "results" : [ {
+    "id" : "Default.Directory:::5725",
+    "type" : "Directory",
+    "name" : "ROOT",
+    "asg.parentTypeNamePath" : [ "Cluster/Cluster Demo/Service/HDFS" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::12890",
+      "name" : "HDFS_BA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: HDFS_BA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::5447",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5448,
+      "asg_modifiedby" : "Service",
+      "target" : 5725,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::12899",
+      "name" : "Hadoop Files",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Hadoop Filesystem",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 401,
+      "asg_modifiedby" : "Service",
+      "target" : 5725
+    }, {
+      "id" : "Default.tag:::12908",
+      "name" : "SC8_Manxhits_Negative",
+      "rootTagName" : "SC8_Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5732,
+      "asg_modifiedby" : "Service",
+      "target" : 5725
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.File:::5731",
+    "type" : "File",
+    "name" : "uploadFile2.csv",
+    "asg.parentTypeNamePath" : [ "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits/Directory/Sub1/Directory/Sub2/Directory/Sub3/Directory/Sub4" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::12879",
+      "name" : "Manxhits_Negative",
+      "rootTagName" : "Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5733,
+      "asg_modifiedby" : "Service",
+      "target" : 5731
+    }, {
+      "id" : "Default.tag:::12886",
+      "name" : "HDFS_BA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: HDFS_BA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::5447",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5448,
+      "asg_modifiedby" : "Service",
+      "target" : 5731,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::12895",
+      "name" : "Hadoop Files",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Hadoop Filesystem",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 401,
+      "asg_modifiedby" : "Service",
+      "target" : 5731
+    }, {
+      "id" : "Default.tag:::12904",
+      "name" : "SC8_Manxhits_Negative",
+      "rootTagName" : "SC8_Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5732,
+      "asg_modifiedby" : "Service",
+      "target" : 5731
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::5727",
+    "type" : "Directory",
+    "name" : "Sub1",
+    "asg.parentTypeNamePath" : [ "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::12880",
+      "name" : "Manxhits_Negative",
+      "rootTagName" : "Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5733,
+      "asg_modifiedby" : "Service",
+      "target" : 5727
+    }, {
+      "id" : "Default.tag:::12887",
+      "name" : "HDFS_BA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: HDFS_BA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::5447",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5448,
+      "asg_modifiedby" : "Service",
+      "target" : 5727,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::12896",
+      "name" : "Hadoop Files",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Hadoop Filesystem",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 401,
+      "asg_modifiedby" : "Service",
+      "target" : 5727
+    }, {
+      "id" : "Default.tag:::12905",
+      "name" : "SC8_Manxhits_Negative",
+      "rootTagName" : "SC8_Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5732,
+      "asg_modifiedby" : "Service",
+      "target" : 5727
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::5728",
+    "type" : "Directory",
+    "name" : "Sub2",
+    "asg.parentTypeNamePath" : [ "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits/Directory/Sub1" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::12881",
+      "name" : "Manxhits_Negative",
+      "rootTagName" : "Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5733,
+      "asg_modifiedby" : "Service",
+      "target" : 5728
+    }, {
+      "id" : "Default.tag:::12888",
+      "name" : "HDFS_BA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: HDFS_BA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::5447",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5448,
+      "asg_modifiedby" : "Service",
+      "target" : 5728,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::12897",
+      "name" : "Hadoop Files",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Hadoop Filesystem",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 401,
+      "asg_modifiedby" : "Service",
+      "target" : 5728
+    }, {
+      "id" : "Default.tag:::12906",
+      "name" : "SC8_Manxhits_Negative",
+      "rootTagName" : "SC8_Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5732,
+      "asg_modifiedby" : "Service",
+      "target" : 5728
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::5729",
+    "type" : "Directory",
+    "name" : "Sub3",
+    "asg.parentTypeNamePath" : [ "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits/Directory/Sub1/Directory/Sub2" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::12882",
+      "name" : "Manxhits_Negative",
+      "rootTagName" : "Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5733,
+      "asg_modifiedby" : "Service",
+      "target" : 5729
+    }, {
+      "id" : "Default.tag:::12889",
+      "name" : "HDFS_BA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: HDFS_BA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::5447",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5448,
+      "asg_modifiedby" : "Service",
+      "target" : 5729,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::12898",
+      "name" : "Hadoop Files",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Hadoop Filesystem",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 401,
+      "asg_modifiedby" : "Service",
+      "target" : 5729
+    }, {
+      "id" : "Default.tag:::12907",
+      "name" : "SC8_Manxhits_Negative",
+      "rootTagName" : "SC8_Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5732,
+      "asg_modifiedby" : "Service",
+      "target" : 5729
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::5726",
+    "type" : "Directory",
+    "name" : "MaxHits",
+    "asg.parentTypeNamePath" : [ "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::12883",
+      "name" : "Manxhits_Negative",
+      "rootTagName" : "Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5733,
+      "asg_modifiedby" : "Service",
+      "target" : 5726
+    }, {
+      "id" : "Default.tag:::12891",
+      "name" : "HDFS_BA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: HDFS_BA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::5447",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5448,
+      "asg_modifiedby" : "Service",
+      "target" : 5726,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::12900",
+      "name" : "Hadoop Files",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Hadoop Filesystem",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 401,
+      "asg_modifiedby" : "Service",
+      "target" : 5726
+    }, {
+      "id" : "Default.tag:::12909",
+      "name" : "SC8_Manxhits_Negative",
+      "rootTagName" : "SC8_Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5732,
+      "asg_modifiedby" : "Service",
+      "target" : 5726
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  }, {
+    "id" : "Default.Directory:::5730",
+    "type" : "Directory",
+    "name" : "Sub4",
+    "asg.parentTypeNamePath" : [ "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits/Directory/Sub1/Directory/Sub2/Directory/Sub3" ],
+    "asg.tagNames" : [ {
+      "id" : "Default.tag:::12884",
+      "name" : "Manxhits_Negative",
+      "rootTagName" : "Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5733,
+      "asg_modifiedby" : "Service",
+      "target" : 5730
+    }, {
+      "id" : "Default.tag:::12892",
+      "name" : "HDFS_BA",
+      "rootTagName" : "BusinessApplication",
+      "parentTagName" : "",
+      "definition" : "BusinessApplication: HDFS_BA",
+      "status" : "APPROVED",
+      "type" : "BusinessApplication Tag",
+      "image" : {
+        "icon" : "icon-business",
+        "color" : "#004ea8"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "originItemID" : "Default.BusinessApplication:::5447",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5448,
+      "asg_modifiedby" : "Service",
+      "target" : 5730,
+      "originItemCatalog" : "Default"
+    }, {
+      "id" : "Default.tag:::12901",
+      "name" : "Hadoop Files",
+      "rootTagName" : "Technology",
+      "parentTagName" : "",
+      "definition" : "Hadoop Filesystem",
+      "status" : "APPROVED",
+      "type" : "Technology Tag",
+      "image" : {
+        "icon" : "icon-technology",
+        "color" : "#35906c"
+      },
+      "userAssignable" : false,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : false,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 401,
+      "asg_modifiedby" : "Service",
+      "target" : 5730
+    }, {
+      "id" : "Default.tag:::12910",
+      "name" : "SC8_Manxhits_Negative",
+      "rootTagName" : "SC8_Manxhits_Negative",
+      "parentTagName" : "",
+      "definition" : "",
+      "status" : "APPROVED",
+      "type" : "Structure Information Tag",
+      "userAssignable" : true,
+      "subTags" : [ ],
+      "asg_modifiedat" : "2020-10-20T15:25:40.767+0000",
+      "asg_createdat" : "2020-10-20T15:25:40.767+0000",
+      "isRoot" : true,
+      "catalog" : "Default",
+      "asg_createdby" : "Service",
+      "asg_isnsa" : false,
+      "source" : 5732,
+      "asg_modifiedby" : "Service",
+      "target" : 5730
+    } ],
+    "catalog" : {
+      "name" : "Default",
+      "label" : "Default"
+    }
+  } ],
+  "configs" : {
+    "defaultListView" : [ {
+      "value" : "asg.parentTypeNamePath",
+      "label" : "Hierarchy"
+    }, {
+      "value" : "asg.tagNames",
+      "label" : "Tags"
+    } ]
+  },
+  "configsMap" : {
+    "*" : {
+      "*" : "defaultListView"
+    }
+  },
+  "facets" : {
+    "asg.tagPathsHierarchy_ss" : {
+      "label" : "Tags",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 7,
+        "value" : "BusinessApplication",
+        "label" : "BusinessApplication",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 7,
+          "value" : "BusinessApplication/HDFS_BA",
+          "label" : "HDFS_BA",
+          "checked" : false,
+          "childValues" : [ ]
+        } ]
+      }, {
+        "count" : 7,
+        "value" : "SC8_Manxhits_Negative",
+        "label" : "SC8_Manxhits_Negative",
+        "checked" : true,
+        "childValues" : [ ]
+      }, {
+        "count" : 7,
+        "value" : "Technology",
+        "label" : "Technology",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 7,
+          "value" : "Technology/Big Data",
+          "label" : "Big Data",
+          "checked" : false,
+          "childValues" : [ {
+            "count" : 7,
+            "value" : "Technology/Big Data/Hadoop Files",
+            "label" : "Hadoop Files",
+            "checked" : false,
+            "childValues" : [ ]
+          } ]
+        } ]
+      }, {
+        "count" : 6,
+        "value" : "Manxhits_Negative",
+        "label" : "Manxhits_Negative",
+        "checked" : false,
+        "childValues" : [ ]
+      } ]
+    },
+    "type_s" : {
+      "label" : "Metadata Type",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 6,
+        "value" : "Directory",
+        "checked" : false
+      }, {
+        "count" : 1,
+        "value" : "File",
+        "checked" : false
+      } ]
+    },
+    "asg.parentTypeNamePathHierarchy_ss" : {
+      "label" : "Hierarchy",
+      "type" : "TREE",
+      "values" : [ {
+        "count" : 9,
+        "value" : "Cluster/Cluster Demo",
+        "label" : "Cluster Demo [Cluster]",
+        "checked" : false,
+        "childValues" : [ {
+          "count" : 8,
+          "value" : "Cluster/Cluster Demo/Service/HDFS",
+          "label" : "HDFS [Service]",
+          "checked" : false,
+          "childValues" : [ {
+            "count" : 7,
+            "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT",
+            "label" : "ROOT [Directory]",
+            "checked" : true,
+            "childValues" : [ {
+              "count" : 6,
+              "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits",
+              "label" : "MaxHits [Directory]",
+              "checked" : true,
+              "childValues" : [ {
+                "count" : 5,
+                "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits/Directory/Sub1",
+                "label" : "Sub1 [Directory]",
+                "checked" : true,
+                "childValues" : [ {
+                  "count" : 4,
+                  "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits/Directory/Sub1/Directory/Sub2",
+                  "label" : "Sub2 [Directory]",
+                  "checked" : true,
+                  "childValues" : [ {
+                    "count" : 3,
+                    "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits/Directory/Sub1/Directory/Sub2/Directory/Sub3",
+                    "label" : "Sub3 [Directory]",
+                    "checked" : true,
+                    "childValues" : [ {
+                      "count" : 2,
+                      "value" : "Cluster/Cluster Demo/Service/HDFS/Directory/ROOT/Directory/MaxHits/Directory/Sub1/Directory/Sub2/Directory/Sub3/Directory/Sub4",
+                      "label" : "Sub4 [Directory]",
+                      "checked" : true,
+                      "childValues" : [ ]
+                    } ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    },
+    "asg_modifiedat_dt" : {
+      "label" : "Last Modified",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 0,
+        "value" : "(*,NOW-1YEAR]",
+        "label" : "1 year and older",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-1YEAR,NOW-6MONTH]",
+        "label" : "6 months up to 1 year",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-6MONTH,NOW-1MONTH]",
+        "label" : "1 month up to 6 months",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-1MONTH,NOW-7DAY]",
+        "label" : "1 week up to 1 month",
+        "checked" : false
+      }, {
+        "count" : 0,
+        "value" : "(NOW-7DAY,NOW-1DAY]",
+        "label" : "1 day up to 1 week",
+        "checked" : false
+      }, {
+        "count" : 7,
+        "value" : "(NOW-1DAY,NOW]",
+        "label" : "past 24 hours",
+        "checked" : false
+      } ]
+    },
+    "asg_modifiedby_s" : {
+      "label" : "Modified by",
+      "type" : "FLAT_LIST",
+      "values" : [ {
+        "count" : 7,
+        "value" : "Service",
+        "checked" : false
+      } ]
+    }
+  }
+}

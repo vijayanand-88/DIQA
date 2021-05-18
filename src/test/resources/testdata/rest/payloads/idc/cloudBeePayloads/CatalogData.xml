@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/Analyzer/9.8.0">
+	<xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+	<Cluster xmi:id="Cluster_23" xsi:type="Cluster" name="LineageTestCluster">
+		<definitions xmi:id="Service_23" xsi:type="Service" name="LineageTestService">
+			<definitions xmi:id="Database_23" xsi:type="Database" name="MultiHop">
+				<definitions xmi:id="Table_45" xsi:type="Table" name="Tbl1">
+					<definitions xmi:id="Column_54" xsi:type="Column" name="Col1">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_46" xsi:type="Table" name="Tbl2">
+					<definitions xmi:id="Column_55" xsi:type="Column" name="Col2">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_47" xsi:type="Table" name="Tbl3">
+					<definitions xmi:id="Column_56" xsi:type="Column" name="Col3">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_48" xsi:type="Table" name="Tbl4">
+					<definitions xmi:id="Column_57" xsi:type="Column" name="Col4">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_49" xsi:type="Table" name="Tbl5">
+					<definitions xmi:id="Column_58" xsi:type="Column" name="Col5">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_50" xsi:type="Table" name="Tbl6">
+					<definitions xmi:id="Column_59" xsi:type="Column" name="Col6">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_51" xsi:type="Table" name="Tbl7">
+					<definitions xmi:id="Column_60" xsi:type="Column" name="Col7">
+					</definitions>
+				</definitions>
+			</definitions>
+			<operations xmi:id="Operation_23" xsi:type="Operation" name="LineageTestOperation">
+				<lineage xmi:id="LineageHop_77" xsi:type="LineageHop" name="VEL4EHC" mode="COPY">
+					<lineageFrom xmi:idref="Column_54">
+					</lineageFrom>
+					<lineageTo xmi:idref="LineageHop_78">
+					</lineageTo>
+				</lineage>
+				<lineage xmi:id="LineageHop_78" xsi:type="LineageHop" name="9LIW9NA" mode="COPY">
+					<lineageFrom xmi:idref="LineageHop_77">
+					</lineageFrom>
+					<lineageTo xmi:idref="LineageHop_79">
+					</lineageTo>
+				</lineage>
+				<lineage xmi:id="LineageHop_79" xsi:type="LineageHop" name="UE5KVXR" mode="COPY">
+					<lineageFrom xmi:idref="LineageHop_78">
+					</lineageFrom>
+					<lineageTo xmi:idref="Column_55">
+					</lineageTo>
+				</lineage>
+			</operations>
+		</definitions>
+	</Cluster>
+</xmi:XMI>

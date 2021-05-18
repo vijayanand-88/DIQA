@@ -1,0 +1,11 @@
+{
+  "CloudEraCatalogFilter": {
+    "label": {
+      "": "CloudEraCatalogFilter"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CloudEraCatalogFilter"
+    }
+  }
+}

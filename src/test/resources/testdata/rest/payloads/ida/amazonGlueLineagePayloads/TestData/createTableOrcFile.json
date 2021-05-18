@@ -1,0 +1,140 @@
+{
+  "tableName": "orcfile",
+  "description": "Table Description",
+  "database": "linkersourcedb",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "city",
+        "type": "string",
+        "comment": ""
+      }
+    ]
+  },
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "city",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "contactno",
+          "type": "binary",
+          "comment": ""
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "fax",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "gender",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "ipaddress",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "landlineno",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "phone",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "postalcode",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "ssn",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "state",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "street",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "userid",
+          "type": "tinyint",
+          "comment": ""
+        },
+        {
+          "name": "username",
+          "type": "string",
+          "comment": ""
+        }
+      ]
+    },
+    "location": "s3://asgqatestautomation4/SourceFiles/s3FileSupportWithGlueTable/GlueSource/OrcFile/",
+    "inputFormat": "org.apache.hadoop.hive.ql.io.orc.OrcInputFormat",
+    "outputFormat": "org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat",
+    "compressed": "false",
+    "numBuckets": "-1",
+    "SerDeInfo": {
+      "name": "",
+      "serializationLib": "org.apache.hadoop.hive.ql.io.orc.OrcSerde",
+      "parameters": {}
+    },
+    "bucketCols": [],
+    "sortCols": [],
+    "parameters": {
+      "sizeKey": "2103",
+      "objectCount": "1",
+      "UPDATED_BY_CRAWLER": "s3_orc_cr",
+      "CrawlerSchemaSerializerVersion": "1.0",
+      "recordCount": "5",
+      "averageRecordSize": "98",
+      "CrawlerSchemaDeserializerVersion": "1.0",
+      "compressionType": "none",
+      "classification": "orc",
+      "typeOfData": "file"
+    },
+    "SkewedInfo": {},
+    "storedAsSubDirectories": "false"
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.openx.data.jsonserde.JsonSerDe",
+    "parameters": {
+      "paths": "delay,dud,quarter,snno,time,y,year"
+    }
+  },
+  "parameters": {
+    "sizeKey": "2103",
+    "objectCount": "1",
+    "UPDATED_BY_CRAWLER": "s3_orc_cr",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "5",
+    "averageRecordSize": "98",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "orc",
+    "typeOfData": "file"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "UDB_Creator": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "UDB_CreateEntryPoint",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "tools",
+    "dataSource": "UDB_Creator_Deletor_DS",
+    "credential": "UDB_Entrypoint_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Overwrite": true,
+    "DBUserPassword": "udbcollector_automation",
+    "pluginName": "CAECreateEntryPoint",
+    "DBUserName": "udbcollector_automation",
+    "type": "Tools"
+  },
+  "UDB_Deletor": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "UDB_DeleteEntyrPoint",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "tools",
+    "dataSource": "UDB_Creator_Deletor_DS",
+    "credential": "UDB_Entrypoint_Cred",
+    "businessApplicationName": null,
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "CAEDeleteEntryPoint",
+    "DBUserName": "udbcollector_automation",
+    "type": "Tools"
+  }
+}

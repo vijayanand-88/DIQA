@@ -1,0 +1,22 @@
+{
+    "firstName": "sree",
+    "lastName": "shakthi",
+    "gender": "female",
+    "age": 32,
+    "address": {
+        "streetAddress": "125 street",
+        "city": "chennai",
+        "state": "TN",
+        "postalCode": "684221"
+    },
+    "phoneNumbers": {
+        "type": "home",
+        "number": "8383627627"
+    },
+    "id": "650f1f1c-049c-4982-a2ef-73067b47c690",
+    "_rid": "kShuAPFa9xwFAAAAAAAAAA==",
+    "_self": "dbs/kShuAA==/colls/kShuAPFa9xw=/docs/kShuAPFa9xwFAAAAAAAAAA==/",
+    "_etag": "\"0800a320-0000-0000-0000-5c87a0270000\"",
+    "_attachments": "attachments/",
+    "_ts": 1552392231
+}

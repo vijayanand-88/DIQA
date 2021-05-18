@@ -1,0 +1,11 @@
+{
+  "7855_RedshiftAPI": {
+    "label": {
+      "": "7855_RedshiftAPI"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "7855_RedshiftAPI"
+    }
+  }
+}

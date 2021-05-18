@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Oracle12cRDSDSwrongDriverVersion",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "Oracle12cRDSCredentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "driver": "oracle.jdbc.OracleDriver",
+      "driverBundleVersion": "20.0.08",
+      "pluginName": "OracleDBDataSource",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "url": "jdbc:oracle:thin:@idadb12c.cshey0cobobn.us-east-1.rds.amazonaws.com:1521:idadb12c"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleDBDataSource_TEST_DEFAULT_CONFIGURATION",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": null,
+      "pluginType": null,
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null
+    }
+  ]
+}

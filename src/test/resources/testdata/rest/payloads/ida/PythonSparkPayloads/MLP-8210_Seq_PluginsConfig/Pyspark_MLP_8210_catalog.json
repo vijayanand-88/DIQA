@@ -1,0 +1,11 @@
+{
+  "8210_RDDFiles": {
+    "label": {
+      "": "8210_RDDFiles"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "8210_RDDFiles"
+    }
+  }
+}

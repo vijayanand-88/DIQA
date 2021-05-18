@@ -1,0 +1,64 @@
+{
+  "glueavro": [
+    {
+      "mode": "VIEW",
+      "source": "ParquetMultipleFiles",
+      "dir": "->",
+      "target": "glueavro"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "source": "glueavro",
+      "dir": "->",
+      "target": "ParquetMultipleFiles"
+    },
+    {
+      "mode": "VIEW",
+      "source": "housenum",
+      "dir": "->",
+      "target": "housenum"
+    },
+    {
+      "mode": "VIEW",
+      "source": "housenum",
+      "dir": "->",
+      "target": "housenum"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username1",
+      "dir": "->",
+      "target": "username1"
+    },
+    {
+      "mode": "VIEW",
+      "source": "username1",
+      "dir": "->",
+      "target": "username1"
+    }
+  ]
+}

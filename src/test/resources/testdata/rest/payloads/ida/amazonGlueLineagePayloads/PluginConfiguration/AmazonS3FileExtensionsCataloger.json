@@ -1,0 +1,864 @@
+{
+  "AmazonS3Cataloger1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonS3Cataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AmazonS3Cataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AmazonS3DataSource1",
+    "credential": "ValidGlueCredentials",
+    "dryRun": false,
+    "filter": null,
+    "keepEmptyFolders": false,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "incremental": true,
+    "bucketFilter": {
+      "patterns": [
+        "asgqatestautomation4"
+      ],
+      "mode": "INCLUDE",
+      "objectFilter": {
+        "dirPrefixes": [],
+        "dirFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        },
+        "fileFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        }
+      }
+    },
+    "businessApplicationName": "AGL1_BA"
+  },
+  "AmazonS3Cataloger2": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonS3Cataloger2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AmazonS3Cataloger2"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AmazonS3DataSource2",
+    "credential": "ValidGlueCredentials",
+    "dryRun": false,
+    "filter": null,
+    "keepEmptyFolders": false,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "incremental": true,
+    "bucketFilter": {
+      "patterns": [
+        "asg-qa-glue-lineage-rds"
+      ],
+      "mode": "INCLUDE",
+      "objectFilter": {
+        "dirPrefixes": [],
+        "dirFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        },
+        "fileFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        }
+      }
+    },
+    "businessApplicationName": "AGL1_BA"
+  },
+  "AmazonRedshiftCataloger1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AmazonRedshiftCataloger1",
+    "pluginVersion": "LATEST",
+    "label": null,
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AmazonRedshiftDataSource1",
+    "credential": "ValidRedshiftCredentials",
+    "dryRun": false,
+    "filter": null,
+    "schemas": [
+      {
+        "schema": "atn",
+        "tables": []
+      }
+    ],
+    "incremental": false,
+    "properties": [],
+    "businessApplicationName": "AGL1_BA"
+  },
+  "AWSGlueCataloger1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AWSGlueCataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AWSGlueCataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AWSGlueValidDataSource1",
+    "credential": "ValidGlueCredentials",
+    "dryRun": false,
+    "filter": null,
+    "includeItems": {
+      "includeDatabases": [],
+      "includeJobs": [
+        "*Auto*"
+      ]
+    },
+    "businessApplicationName": "AGL1_BA"
+  },
+  "AWSGlueCataloger2": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AWSGlueCataloger2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AWSGlueCataloger2"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AWSGlueValidDataSource2",
+    "credential": "ValidGlueCredentials",
+    "dryRun": false,
+    "filter": null,
+    "includeItems": {
+      "includeDatabases": [],
+      "includeJobs": [
+        "*Auto*"
+      ]
+    },
+    "businessApplicationName": "AGL1_BA"
+  },
+  "AWSGluePythonParserDryRun": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AWSGluePythonParser2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AWSGluePythonParser2"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1DryRun"
+    ],
+    "pluginType": "parser",
+    "dataSource": null,
+    "credential": null,
+    "dryRun": true,
+    "filter": null
+  },
+  "AWSGluePythonParser1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AWSGluePythonParser1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AWSGluePythonParser1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "parser",
+    "dataSource": null,
+    "credential": null,
+    "dryRun": false,
+    "filter": null,
+    "businessApplicationName": "AGL1_BA"
+  },
+  "AWSGluePythonSparkLineage1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AWSGluePythonSparkLineage1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AWSGluePythonSparkLineage1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "lineage",
+    "dataSource": null,
+    "credential": null,
+    "dryRun": false,
+    "filter": null,
+    "businessApplicationName": "AGL1_BA"
+  },
+  "AWSCollector1": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AWSCollector1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AWSCollector1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "collector",
+    "dataSource": "AWSCollectorValidDataSource1",
+    "credential": "ValidGlueCredentials",
+    "dryRun": false,
+    "filter": null,
+    "businessApplicationName": "AGL1_BA"
+  },
+  "AWSCollector2": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AWSCollector2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AWSCollector2"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "collector",
+    "dataSource": "AWSCollectorValidDataSource2",
+    "credential": "ValidGlueCredentials",
+    "dryRun": false,
+    "filter": null,
+    "businessApplicationName": "AGL1_BA"
+  },
+  "CsvCatalogerWithHeader": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "CsvS3Cataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "CsvS3Cataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "CsvS3DataSource1",
+    "credential": "ValidGlueCredentials",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "filter": null,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "pluginName": "CsvS3Cataloger",
+    "delimiter": ",",
+    "incremental": true,
+    "type": "Cataloger",
+    "bucketFilter": {
+      "mode": "INCLUDE",
+      "patterns": [
+        "asgqatestautomation4"
+      ],
+      "objectFilter": {
+        "dirFilter": {
+          "mode": "EXCLUDE",
+          "patterns": []
+        },
+        "fileFilter": {
+          "mode": "EXCLUDE",
+          "patterns": [
+            "emp.csv"
+          ]
+        },
+        "dirPrefixes": []
+      }
+    },
+    "firstRowAsHeader": true
+  },
+  "CsvCatalogerWithoutHeader": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "CsvS3Cataloger2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "CsvS3Cataloger2"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "CsvS3DataSource1",
+    "credential": "ValidGlueCredentials",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "filter": null,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "pluginName": "CsvS3Cataloger",
+    "delimiter": ",",
+    "incremental": true,
+    "type": "Cataloger",
+    "bucketFilter": {
+      "mode": "INCLUDE",
+      "patterns": [
+        "asgqatestautomation4"
+      ],
+      "objectFilter": {
+        "dirFilter": {
+          "mode": "EXCLUDE",
+          "patterns": []
+        },
+        "fileFilter": {
+          "mode": "INCLUDE",
+          "patterns": [
+            "emp.csv"
+          ]
+        },
+        "dirPrefixes": []
+      }
+    },
+    "firstRowAsHeader": false
+  },
+  "CsvCatalogerUSEast2": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "CsvS3Cataloger3",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "CsvS3Cataloger3"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "CsvS3DataSource3",
+    "credential": "ValidGlueCredentials",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "filter": null,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "pluginName": "CsvS3Cataloger",
+    "delimiter": ",",
+    "incremental": true,
+    "type": "Cataloger",
+    "bucketFilter": {
+      "mode": "INCLUDE",
+      "patterns": [
+        "asg-qa-glue-lineage-rds"
+      ],
+      "objectFilter": {
+        "dirFilter": {
+          "mode": "INCLUDE",
+          "patterns": []
+        },
+        "fileFilter": {
+          "mode": "INCLUDE",
+          "patterns": [  ]
+        },
+        "dirPrefixes": []
+      }
+    },
+    "firstRowAsHeader": true
+  },
+  "AvroCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AvroS3Cataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AvroS3Cataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "AvroS3DataSource1",
+    "credential": "ValidGlueCredentials",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "filter": null,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "pluginName": "AvroS3Cataloger",
+    "incremental": true,
+    "type": "Cataloger",
+    "bucketFilter": {
+      "mode": "INCLUDE",
+      "patterns": [
+        "asgqatestautomation4"
+      ],
+      "objectFilter": {
+        "dirFilter": {
+          "mode": "INCLUDE",
+          "patterns": [
+            "*/s3FileSupport/*",
+            "*/s3FileSupportWithGlueTable/*"
+          ]
+        },
+        "fileFilter": {
+          "mode": "INCLUDE",
+          "patterns": []
+        },
+        "dirPrefixes": [
+          "/SourceFiles"
+        ]
+      }
+    }
+  },
+  "ParquetCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "ParquetS3Cataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "ParquetS3Cataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "ParquetS3DataSource1",
+    "credential": "ValidGlueCredentials",
+    "keepEmptyFolders": false,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "filter": null,
+    "incremental": false,
+    "options": {
+      "incremental": false,
+      "mode": "files",
+      "keepEmptyFolders": false,
+      "maxObjectsAmount": 1000
+    },
+    "bucketFilter": {
+      "patterns": [
+        "asgqatestautomation4"
+      ],
+      "mode": "INCLUDE",
+      "objectFilter": {
+        "dirPrefixes": [
+          "/SourceFiles"
+        ],
+        "dirFilter": {
+          "patterns": [
+            "*/s3FileSupport/*",
+            "*/s3FileSupportWithGlueTable/*"
+          ],
+          "mode": "INCLUDE"
+        },
+        "fileFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        }
+      }
+    },
+    "dryRun": false,
+    "businessApplicationName": "AGL1_BA"
+  },
+  "JsonCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "JsonS3Cataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "JsonS3Cataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "JsonS3DataSource1",
+    "credential": "ValidGlueCredentials",
+    "keepEmptyFolders": false,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "filter": null,
+    "incremental": false,
+    "options": {
+      "incremental": false,
+      "mode": "files",
+      "keepEmptyFolders": false,
+      "maxObjectsAmount": 1000
+    },
+    "bucketFilter": {
+      "patterns": [
+        "asgqatestautomation4"
+      ],
+      "mode": "INCLUDE",
+      "objectFilter": {
+        "dirPrefixes": [
+          "/SourceFiles"
+        ],
+        "dirFilter": {
+          "patterns": [
+            "*/s3FileSupport/*",
+            "*/s3FileSupportWithGlueTable/*"
+          ],
+          "mode": "INCLUDE"
+        },
+        "fileFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        }
+      }
+    },
+    "dryRun": false,
+    "businessApplicationName": "AGL1_BA"
+  },
+  "OrcCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OrcS3Cataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "OrcS3Cataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": null,
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "OrcS3DataSource1",
+    "credential": "ValidGlueCredentials",
+    "keepEmptyFolders": false,
+    "versionMode": false,
+    "maxObjectsAmount": 1000,
+    "filter": null,
+    "incremental": false,
+    "options": {
+      "incremental": false,
+      "mode": "files",
+      "keepEmptyFolders": false,
+      "maxObjectsAmount": 1000
+    },
+    "bucketFilter": {
+      "patterns": [
+        "asgqatestautomation4"
+      ],
+      "mode": "INCLUDE",
+      "objectFilter": {
+        "dirPrefixes": [
+          "/SourceFiles"
+        ],
+        "dirFilter": {
+          "patterns": [
+            "*/s3FileSupportWithGlueTable/*"
+          ],
+          "mode": "INCLUDE"
+        },
+        "fileFilter": {
+          "patterns": [],
+          "mode": "INCLUDE"
+        }
+      }
+    },
+    "dryRun": false,
+    "businessApplicationName": "AGL1_BA"
+  },
+  "DynamoDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "DynamoDBCataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "DynamoDBCataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "DynamoDBDataSource1",
+    "credential": "ValidGlueCredentials",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "filter": null,
+    "tables": [],
+    "pluginName": "DynamoDBCataloger",
+    "type": "Cataloger",
+    "properties": []
+  },
+  "SQLServerRDSCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "SQLServerDBCataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "SQLServerDBCataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "cataloger",
+    "dataSource": "SQLServerDBDataSource1",
+    "credential": "ValidSQLServerRDSCredentials",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "SQLServerDBCataloger",
+    "schemas": [
+      {
+        "schema": "acc",
+        "tables": []
+      },
+      {
+        "schema": "dbo",
+        "tables": [
+          {
+            "table": "past_hires_sqlsvr_target"
+          }
+        ]
+      }
+    ],
+    "arguments": [],
+    "type": "cataloger"
+  },
+  "GlueLinker": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "AWSGlueLinker1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "AWSGlueLinker1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "linker",
+    "dataSource": null,
+    "credential": null,
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "filter": null,
+    "pluginName": "AWSGlueLinker",
+    "type": "Linker",
+    "region": "us-east-1"
+  },
+  "oracleDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "OracleDBDataSource1",
+    "credential": "ValidOracleDBCredentials1",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "COLLECTOR",
+        "tables": []
+      }
+    ],
+    "arguments": [],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "oracleDBCataloger_rds": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "OracleDBCataloger2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "OracleDBDataSource2",
+    "credential": "ValidOracleDBCredentials2",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "OracleDBCataloger",
+    "schemas": [
+      {
+        "schema": "MASTER",
+        "tables": []
+      }
+    ],
+    "arguments": [],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "postgreDBCataloger": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgreSQLDBCataloger1",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PostgreSQLDBCataloger1"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "PostgreSQLDBDataSource1",
+    "credential": "ValidPostgresDBCredentials1",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "PostgreSQLDBCataloger",
+    "schemas": [
+      {
+        "schema": "atn",
+        "tables": []
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  },
+  "postgreDBCataloger_rds": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "PostgreSQLDBCataloger2",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": "PostgreSQLDBCataloger2"
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"LocalNode\"",
+    "maxWorkSize": 100,
+    "tags": [
+      "AGL1"
+    ],
+    "pluginType": "cataloger",
+    "dataSource": "PostgreSQLDBDataSource2",
+    "credential": "ValidPostgresDBCredentials1",
+    "businessApplicationName": "AGL1_BA",
+    "dryRun": false,
+    "schedule": null,
+    "runAfter": [],
+    "filter": null,
+    "pluginName": "PostgreSQLDBCataloger",
+    "schemas": [
+      {
+        "schema": "rds",
+        "tables": []
+      },
+      {
+        "schema": "public",
+        "tables": [
+          {
+            "table": "past_hires_pstgr_target"
+          }
+        ]
+      }
+    ],
+    "type": "Cataloger",
+    "properties": []
+  }
+}

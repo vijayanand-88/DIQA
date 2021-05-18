@@ -1,0 +1,12 @@
+[
+  {
+    "id": null,
+    "scopeId": null,
+    "scopeAttrName": null,
+    "type": "BusinessApplication",
+    "name": "BA_DataAsset",
+    "businessOwners": [
+      "becubic_build"
+    ]
+  }
+]

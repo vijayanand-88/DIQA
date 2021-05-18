@@ -1,0 +1,502 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": []
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithMultipleSchemaFilterWithTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        },
+        {
+          "schema": "ORACLE12C_SCHEMA2",
+          "tables": [
+            {
+              "table": "BASELINES"
+            }
+          ]
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerwithSchemaAndMultipleTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerwithNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "ORACLENONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "ORACLENONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithIncorrectURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "C##ORACLE12C_SCHEMA1",
+          "tables": []
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DID.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithIncorrectCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "manage",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "C##ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "user",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithOnlyTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithMultipleSchemasInFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": []
+        },
+        {
+          "schema": "ORACLE12C_SCHEMA2",
+          "tables": []
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithWrongBundleName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "org.postgresql.jdbc42",
+      "schemas": [],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithTimeStamp",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "C##ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_EMPTY"
+            },
+            {
+              "table": "ORACLE_TABLE"
+            }
+          ]
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithWrongDriverVersion",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driver": "oracle.jdbc.OracleDriver",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "arguments": [],
+      "driverBundleVersion": "20.0.08",
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithWrongDriverName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driver": "com.postgres.jdbc",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "arguments": [],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithWrongDatabaseInURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "C##ORACLE12C_SCHEMA1",
+          "tables": [
+            {
+              "table": "ORACLE_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "arguments": [],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:NonExistingDatabase"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCataloger4CDB1PDB1DB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "filter": null,
+      "password": "manager",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [],
+      "arguments": [],
+      "user": "system",
+      "url": "jdbc:oracle:thin:@gechcae-col1.asg.com:1521/CDB1PDB1",
+      "properties": []
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleCatalogerWithFilters",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "ORACLE12C CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "admin123",
+      "driverBundleName": "oracle.jdbc.OracleDriver",
+      "schemas": [
+        {
+          "schema": "C##ORACLE12C_SCHEMA1",
+          "tables": []
+        },
+        {
+          "schema": "ORACLE12C_SCHEMA1",
+          "tables": []
+        }
+      ],
+      "user": "adminuser",
+      "properties": [],
+      "url": "jdbc:oracle:thin:@DIDORACLE01V.DID.DEV.ASGINT.LOC:1521:ORCA12C"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "DynamicIDs": {
+    "has_BA": {
+      "id": "49505"
+    },
+    "Git_Analysis": {
+      "id": "57030"
+    },
+    "Oracle_Cluster": {
+      "id": "49517"
+    },
+    "Project": {
+      "id": "57031"
+    },
+    "JavaJDBCLineage_Analysis": {
+      "id": "57306"
+    },
+    "JLinker_Analysis": {
+      "id": "57292"
+    },
+    "Oracle_Analysis": {
+      "id": "57018"
+    },
+    "JParser_Analysis": {
+      "id": "57087"
+    }
+  }
+}

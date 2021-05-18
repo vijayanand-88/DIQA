@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CosmosDynCols",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "CosmosDynCols",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "databases": [],
+      "database": "testDB1",
+      "driverBundleName": "cdata.jdbc.cosmosdb.CosmosDBDriver",
+      "host": "asgmongo.documents.azure.com",
+      "user": "Devi.Niranjani@asg.com",
+      "primarykey": "ybEcljNa4pFaKhuL7Pum7bba0upeoD6yqbkYeVDKpZTVRbuMESbSw1s9b0NhCv8xFyA6S10bwZvrR6gVtNLOyg=="
+    }
+  ]
+}

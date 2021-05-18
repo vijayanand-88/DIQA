@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+      "name": "HiveMonitor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "HiveMonitor"
+      },
+      "catalogName": "BigData",
+      "autoStart": false,
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='bigdata'",
+      "maxWorkSize": 1000,
+      "enableQueryParser": true,
+      "kerberosKeytabLocation": null,
+      "kerberosKrb5location": null,
+      "kerberosPrincipalName": null,
+      "analyzeCollectedData": false,
+      "filter": null,
+      "catalogerConfigurationName": "HiveCataloger"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemID": 5,
+  "item": "shoes",
+  "qty": 100,
+  "wastedqty": 28,
+  "tags": [
+    "cotton"
+  ],
+  "itemDate": "22-Jan-2019",
+  "price": 3500.75
+}

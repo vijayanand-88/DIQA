@@ -1,0 +1,11 @@
+{
+  "javaSparkLineage": {
+    "label": {
+      "": "javaSparkLineage"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "javaSparkLineage"
+    }
+  }
+}

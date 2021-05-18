@@ -1,0 +1,97 @@
+{
+  "SC1": {
+    "Tables": [
+      "emp",
+      "hremployee",
+      "employee"
+    ],
+    "Cluster": [
+      "Sandbox"
+    ]
+  },
+  "SC2": {
+    "Tables": [
+      "employee",
+      "employee",
+      "employee",
+      "employee",
+      "employee"
+    ],
+    "hierarchy": [
+      "Automation_QA",
+      "Automation_QA1",
+      "Automation_QA2",
+      "default",
+      "pyspark"
+    ]
+  },
+  "SC3": {
+    "Tables": [
+      "employee",
+      "hremployee"
+    ],
+    "hierarchy": [
+      "pyspark"
+    ]
+  },
+  "SC4": {
+    "Tables": [
+      "employee_test",
+      "employee",
+      "employee_test",
+      "employee",
+      "employee_test",
+      "employee",
+      "employee1"
+    ],
+    "hierarchy": [
+      "Automation_QA2",
+      "Automation_QA",
+      "Automation_QA1"
+    ]
+  },
+  "SC5": {
+    "Tables": [
+      "employee",
+      "employee",
+      "employee1"
+    ],
+    "hierarchy": [
+      "default",
+      "Automation_QA1"
+    ]
+  },
+  "SC6": {
+    "Tables": {
+      "employee": {
+        "column": [
+          "professional data:designation",
+          "professional data:salary",
+          "personal data:city",
+          "personal data:name"
+        ]
+      }
+    },
+    "hierarchy": [
+      "default"
+    ]
+  },
+  "SC7": {
+    "Tables": {
+      "employee": {
+        "column": [
+          "professional data:designation",
+          "professional data:salary",
+          "personal data:city",
+          "personal data:name",
+          "personal data:address",
+          "professional data:DOJ",
+          "professional data:hike"
+        ]
+      }
+    },
+    "hierarchy": [
+      "default"
+    ]
+  }
+}

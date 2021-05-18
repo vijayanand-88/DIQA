@@ -1,0 +1,10 @@
+[
+  {
+    "name": "x",
+    "type": "Integer"
+  },
+  {
+    "name": "y",
+    "type": "Integer"
+  }
+]

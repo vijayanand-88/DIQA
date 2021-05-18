@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeJDBCCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "SnowFlake_Linker"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SnowFlakeDS",
+      "credential": "SnowFlake_Credentials",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "SnowflakeDBCataloger",
+      "schemas": [
+        {
+          "schema": "TEST_SNOWSchemaAuto",
+          "tables": [
+            {
+              "table": "OrcExternalTableSingleFolder"
+            },
+            {
+              "table": "OrcExternalTableMultipleFolder"
+            },
+            {
+              "table": "OrcExternalTableCombinationFolder"
+            }
+          ]
+        }
+      ],
+      "type": "cataloger",
+      "properties": []
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "Service": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Description": "ID               : DIDROCHADE04VI2019TAB Connected        : true IsLoaded         : true ProductName      : Microsoft SQL Server Analysis Services ProductLevel     : RTM Edition          : Developer64 EditionID        : 2176971986 ConnectionInfo   :     Catalog        :     ConnectionType : Native    InstanceName   : I2019TAB    Location       :     Port           :     ProtocolFormat : Default    Server         : DIDROCHADE04V    SSPI           : Negotiate",
+      "Definition": "DIDROCHADE04VI2019TAB"
+    }
+  },
+  "Schema": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Description": "Collation                            :  Culture                            : en-AU DefaultMode                        : Import DefaultDataView                    : Full HasLocalChanges                    : false IsRemoved                          : false ModifiedTime                       : 2020-01-24 09:43:58 StructureModifiedTime              : 2020-01-24 09:43:58 ObjectType                         : Model StorageLocation                    :",
+      "Definition": "Model"
+    }
+  },
+  "Table": {
+    "Description1": ["Description","Created by","Modified by","Table Type"],
+    "Description2": {
+      "Description": "DataCategory                    :  ExtendedProperties            :  IsHidden                      : false IsPrivate                     : false IsRemoved                     : false ModifiedTime                  : 2020-01-24 09:43:58 ObjectType                    : Table ShowAsVariationsOnly          : false StructureModifiedTime         : 2020-01-24 09:43:58",
+      "Created by": "ADMIN",
+      "Modified by": "ADMIN",
+      "Table Type": "TABLE"
+    }
+  },
+  "Column": {
+    "Lifecycle": ["Created","Modified"],
+    "Statistics": {
+      "Length": "0"
+    },
+    "Description": {
+      "Description": "Alignment                            : Default DataCategory                       :  DisplayFolder                      :  DisplayOrdinal                     : 0 EncodingHint                       : Default ErrorMessage                       :  FormatString                       : General Date IsAvailableInMDX                   : true IsDefaultImage                     : false IsDefaultLabel                     : false IsHidden                           : true IsRemoved                          : false IsUnique                           : false KeepUniqueRows                     : false ModifiedTime                       : 2020-01-24 09:43:58 ObjectType                         : Column RefreshedTime                      : 1699-12-31 00:00:00 SortByColumn                       :  SourceProviderType                 : DBTimeStamp State                              : Ready StructureModifiedTime              : 2020-01-24 09:43:58 SummarizeBy                        : Default TableDetailPosition                : -1 Type                               : Data SourceColumn                       : EffectiveTo",
+      "Created by": "ADMIN",
+      "Modified by": "ADMIN"
+    }
+  },
+  "OlapPackage": {
+    "Description1": ["Definition","owner","Description"],
+    "Description2": {
+      "Definition": "DIDROCHADE04VI2019TAB",
+      "owner": "ADMIN",
+      "Description": "ID               : DIDROCHADE04VI2019TAB Connected        : true IsLoaded         : true ProductName      : Microsoft SQL Server Analysis Services ProductLevel     : RTM Edition          : Developer64 EditionID        : 2176971986 ConnectionInfo   :     Catalog        :     ConnectionType : Native    InstanceName   : I2019TAB    Location       :     Port           :     ProtocolFormat : Default    Server         : DIDROCHADE04V    SSPI           : Negotiate"
+    }
+  },
+  "Dimension": {
+    "Description1": ["Definition","owner","Description","query","dimensionType"],
+    "Description2": {
+      "Definition": "Dim_Campaign Regular",
+      "owner": "ADMIN"
+    }
+  },
+
+  "Measure": {
+    "Description1": ["dataAllowedValues","dataDefaultValue","dataLength","dataMinimumLength","dataScale","Definition","Description","isMeasure","owner"],
+    "Description2": {
+      "dataLength": "0",
+      "dataMinimumLength": "0",
+      "dataScale": "0",
+      "Definition": "DSP_SEQ_NO Regular Regular",
+      "owner": "ADMIN"
+    }
+  },
+
+
+  "ReportQuery": {
+    "Description1": ["Description","Definition","owner","query"]
+  }
+
+}
+

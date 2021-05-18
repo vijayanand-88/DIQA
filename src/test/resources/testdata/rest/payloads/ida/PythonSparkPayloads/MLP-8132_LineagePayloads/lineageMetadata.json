@@ -1,0 +1,43 @@
+{
+  "usersDF": {
+    "source": ["emp.csv"],
+    "target": ["usersDF"]
+  },
+  "usersDF4": {
+    "source": ["namesAndFavColors.text"],
+    "target": ["usersDF4"]
+  },
+  "usersDF1": {
+    "source": ["people.json"],
+    "target": ["usersDF1"]
+  },
+  "usersDF2": {
+    "source": ["rubiks.parquet"],
+    "target": ["usersDF2"]
+  },
+  "usersDF3": {
+    "source": ["students.orc"],
+    "target": ["usersDF3"]
+  },
+  "usersDF_Target": {
+    "source": ["usersDF"],
+    "target": ["part-00000-687e7718-43d4-43a0-99ee-26ec0fca3ded-c000.csv"]
+  },
+  "usersDF1_Target": {
+    "source": ["usersDF1"],
+    "target": ["part-r-00000-0386e26f-6edb-4f4a-9ba2-1afae941d0b4.json"]
+  },
+  "usersDF2_Target": {
+    "source": ["usersDF2"],
+    "target": ["part-00000-16afaade-5307-493b-89de-cca04a55c832-c000.snappy.parquet"]
+  },
+  "usersDF3_Target": {
+    "source": ["usersDF3"],
+    "target": ["part-00000-2e174405-4498-415a-9016-efca1ee618db-c000.snappy.parquet"]
+  },
+  "usersDF4_Target": {
+    "source": ["usersDF4"],
+    "target": ["part-00000-a8a2c43b-0de1-4bbe-9f0e-0b177db8f149-c000.txt"]
+  }
+
+}

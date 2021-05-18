@@ -1,0 +1,24 @@
+{
+  "firstName": "Rajesh",
+  "lastName": "Kumar",
+  "gender": "man",
+  "age": 24,
+  "address": {
+    "streetAddress": "126 Udhna",
+    "city": "Surat",
+    "state": "GJ",
+    "postalCode": "394221"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "7383627627"
+    }
+  ],
+  "id": "66b41931-bbf5-4b5b-b82c-58f1c351a1ba",
+  "_rid": "kShuAJHQg28BAAAAAAAAAA==",
+  "_self": "dbs/kShuAA==/colls/kShuAJHQg28=/docs/kShuAJHQg28BAAAAAAAAAA==/",
+  "_etag": "\"2b00291b-0000-0000-0000-5c8763ee0000\"",
+  "_attachments": "attachments/",
+  "_ts": 1552376814
+}

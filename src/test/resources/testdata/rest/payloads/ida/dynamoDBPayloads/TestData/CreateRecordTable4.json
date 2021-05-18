@@ -1,0 +1,44 @@
+{
+  "Book Binary": "QUFBR2Q=",
+  "Book Blank": "",
+  "Book BS": [
+    "U3Vubnk=",
+    "UmFpbnk=",
+    "U25vd3k="
+  ],
+  "Book Datewithtimestamp": "2010-12-20T17:42:34+00:00",
+  "Book double": 45.50,
+  "Book Float": 2.0000009,
+  "Book long": 1234567890,
+  "Book NS": [
+    72.2,
+    -19,
+    7.5,
+    3.14
+  ],
+  "Book NULL": null,
+  "Book SS": [
+    "Blue",
+    "Orange",
+    "Yellow"
+  ],
+  "Book Title": "Mountain B",
+  "Color": [
+    "Orange",
+    "Green"
+  ],
+  "Id": 300,
+  "In Publication": true,
+  "BookAuthor": {
+    "Age": {
+      "N": "35"
+    },
+    "Name": {
+      "S": "micheal"
+    }
+  },
+  "ItemsOnMyDesk": [
+    "Coffee Cup",
+    "Telephone"
+  ]
+}

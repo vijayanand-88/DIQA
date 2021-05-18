@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns:rim="http://rochade.asg.com/ScanOracleTest/2.00.0"><!--2018-03-28 18:14:04 - START: SCANORAC-->
+	<xmi:Documentation>
+		<exporter>SCANORAC</exporter>
+		<exporterVersion>2.00.002-dev</exporterVersion>
+		<xmi:Extension extender="ASG-Rochade XML Facilities">
+			<rxe:importModes>
+				<mode category="ATTRIBUTE.*.DEFINITION">KEEP</mode>
+				<mode category="ATTRIBUTE.*.DESCRIPTION">KEEP</mode>
+			</rxe:importModes>
+		</xmi:Extension>
+	</xmi:Documentation>
+
+	<rim:service name="gedus3-ora11r2:1521" xmi:id="x1">
+		<Def>gedus3-ora11r2:1521</Def><!--NONCDB: ORCL11R2.ASG.COM-->
+		<HasDatabase name="ORCL11R2.ASG.COM" xmi:id="x2" rdbID="ORACLE" DefTabspType="SMALLFILE" CharSet="WE8MSWIN1252" NCharCharSet="AL16UTF16" ForceLggng="NO" DbId="2281700980" Created="2012-05-23" Hostname="GEDUS3-ORA11R2" ReleaseNo="11.2.0.1.0" PhysName="ORCL11R2.ASG.COM" DbType="NONCDB" Services="orcl11r2XDB,orcl11r2.asg.com" Lstnr="LISTENER_ORCL11R2" PsuVer="N/A" Bytes="1.806.172.160" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM" rocName="ORCL11R2.ASG.COM">
+			<version>Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production
+				With the Partitioning, OLAP, Data Mining and Real Application Testing options
+				Oracle JDBC driver 12.2.0.1.0</version><!--PARAMETER-->
+
+			<HasRoles name="DBA" xmi:id="x161" rdbID="ORACLE" PasswdReq="NO" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.DBA" rocName="DBA" GrRole="x171">
+				<ProcPerm tgt="x246a0" info="EXECUTE"/>
+			</HasRoles>
+			<HasRoles name="SCHEDULER_ADMIN" xmi:id="x171" rdbID="ORACLE" PasswdReq="NO" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.SCHEDULER_ADMIN" rocName="SCHEDULER_ADMIN">
+				<DbPerm tgt="x2" info="CREATE ANY JOB"/>
+				<DbPerm tgt="x2" info="CREATE EXTERNAL JOB"/>
+				<DbPerm tgt="x2" info="CREATE JOB"/>
+				<DbPerm tgt="x2" info="EXECUTE ANY CLASS"/>
+				<DbPerm tgt="x2" info="EXECUTE ANY PROGRAM"/>
+				<DbPerm tgt="x2" info="MANAGE SCHEDULER"/>
+			</HasRoles>
+
+			<HasSchemas name="PUBLIC" xmi:id="x1de" rdbID="ORACLE" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.PUBLIC" rocName="PUBLIC">
+				<HasSyn name="DBMS_CSX_ADMIN" xmi:id="x93ae" Created="2010-04-02" Modified="2010-04-02" rdbID="ORACLE" RefObj="XDB.DBMS_CSX_ADMIN" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.PUBLIC.DBMS_CSX_ADMIN" rocName="DBMS_CSX_ADMIN" SynOf="x246a0"/>
+			</HasSchemas>
+
+			<HasTabsp info="">
+				<owned name="SYSAUX" xmi:id="x197" rdbID="ORACLE" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.SYSAUX" rocName="SYSAUX">
+					<techData>{"ORA_PLUGGED-IN":"NO","ORA_BIGFILE":"NO","ORA_LOGGING":"YES","ORA_CONTENTS":"PERMANENT","ORA_EXTENT-MANAGEMENT":"LOCAL","ORA_MAX-EXTENTS":"UNLIMITED","ORA_ALLOCATION-TYPE":"SYSTEM","ORA_FLASHBACK":"YES","ORA_INITIAL-EXTENT":"65536","ORA_DEF-TAB-COMPRESSION":"NO","ORA_RETENTION":"NOT APPLY","ORA_FORCE-LOGGING":"NO","ORA_MIN-EXTENTS":"1","ORA_BLOCK-SIZE":"8192","ORA_MIN-EXTLEN":"65536","ORA_SEGMENT-SPACE-MANAGEMENT":"AUTO"}</techData>
+				</owned>
+			</HasTabsp>
+			<HasSchemas name="XDB" xmi:id="x1d2" Created="2010-04-02" rdbID="ORACLE" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.XDB" rocName="XDB">
+				<HasCnstrnt name="COKEY" xmi:id="x24452" rdbID="ORACLE" CnstrntType="P" Created="2010-04-02" Modified="2010-04-02" GeneratedName="NO" Disabled="NO" Deferrable="NO" Deferred="NO" Rely="NO" Validated="YES" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.XDB.COKEY" rocName="COKEY" TabIdx="x24453">
+					<Col tgt="x247c1"/>
+					<Col tgt="x247c2"/>
+				</HasCnstrnt>
+				<HasIdx name="COKEY" xmi:id="x24453" Created="2010-04-02" Modified="2010-04-02" Bytes="65.536" TotalBytes="65.536" rdbID="ORACLE" Unique="YES" IdxType="NORMAL" GeneratedName="NO" CnstrntType="" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.XDB.COKEY" rocName="COKEY" Tabsp="x197" RefTab="x24451">
+					<Col tgt="x247c1" info="ASC"/>
+					<Col tgt="x247c2" info="ASC"/>
+					<techData>{"ORA_MAX-TRANSACTIONS":"255","ORA_LOGGING":"YES","ORA_INITIAL-EXTENT":"65536","ORA_BUFFER-POOL":"DEFAULT","ORA_INI-TRANSACTIONS":"2","ORA_NEXT-EXTENT":"1048576","ORA_COMPRESSION":"NO","ORA_MAX-EXTENTS":"UNLIMITED","ORA_PCTFREE":"10","ORA_MIN-EXTENTS":"1"}</techData>
+				</HasIdx>
+				<HasTab name="XDB$CHECKOUTS" xmi:id="x24451" Created="2010-04-02" Modified="2010-04-02" Bytes="65.536" TotalBytes="65.536" rdbID="ORACLE" TabType="table" LastAnalyzed="2010-04-02" NumRows="0" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.XDB.XDB$CHECKOUTS" rocName="XDB$CHECKOUTS" Tabsp="x197" TabIdx="x24453" tabCnstrnt="x24452">
+					<techData>{"ORA_INSTANCES":"1","ORA_DEGREE":"1","ORA_BUFFER-POOL":"DEFAULT","ORA_NESTED":"NO","ORA_NEXT-EXTENT":"1048576","ORA_ROW-MOVEMENT":"NO","ORA_MAX-EXTENTS":"UNLIMITED","ORA_MAX-TRANSACTIONS":"255","ORA_TABLE-LOCK":"YES","ORA_INITIAL-EXTENT":"65536","ORA_ROWDEPENDENCIES":"NO","ORA_INI-TRANSACTIONS":"1","ORA_MONITORING":"YES","ORA_COMPRESSION":"NO","ORA_PCTFREE":"10","ORA_MIN-EXTENTS":"1","ORA_CACHE":"NO"}</techData>
+					<HasCols name="VCRUID" xmi:id="x247c1" rdbID="ORACLE" Dtype="RAW 16" Nullable="NO" ColId="1" NoRows="NO" ColType="table" DaLen="16" DaPrec="" DaScale="" CharLen="0" DtMod="" DtName="RAW" IsEncrypted="NO" EncrypAlgorithm="" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.XDB.XDB$CHECKOUTS.VCRUID" rocName="VCRUID"/>
+					<HasCols name="WORKSPACEID" xmi:id="x247c2" rdbID="ORACLE" Dtype="NUMBER 38" Nullable="NO" ColId="2" NoRows="NO" ColType="table" DaLen="0" DaPrec="" DaScale="0" CharLen="0" DtMod="" DtName="NUMBER" IsEncrypted="NO" EncrypAlgorithm="" rocId="gedus3-ora11r2:1521.ORCL11R2.ASG.COM.XDB.XDB$CHECKOUTS.WORKSPACEID" rocName="WORKSPACEID"/>
+				</HasTab>
+			</HasSchemas>
+
+		</HasDatabase>
+	</rim:service><!--Declaration of 1019 link targets out of scope.-->
+
+	<rim:service name="gedus3-ora11r2:1521">
+		<HasDatabase name="ORCL11R2.ASG.COM">
+			<HasSchemas name="PUBLIC">
+				<HasType name="KU$_LOGENTRY" xmi:id="x2b3a0"/>
+			</HasSchemas>
+			<HasSchemas name="XDB">
+				<HasProcx name="DBMS_CSX_ADMIN" xmi:id="x246a0" xmi:type="rim:pack"/>
+			</HasSchemas>
+		</HasDatabase>
+	</rim:service>
+
+</xmi:XMI>

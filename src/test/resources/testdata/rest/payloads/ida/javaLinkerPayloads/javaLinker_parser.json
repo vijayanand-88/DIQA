@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaParser",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaParser"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaLinker"],
+      "businessApplicationName": "test_BA_JavaLinker",
+      "pluginType": "parser",
+      "filter": null
+    }
+  ]
+}

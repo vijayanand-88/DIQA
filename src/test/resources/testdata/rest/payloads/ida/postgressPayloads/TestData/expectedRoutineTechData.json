@@ -1,0 +1,6 @@
+{
+  "ClassName": "Test",
+  "OwnerName": "testUser",
+  "OwnerType": "USER",
+  "ResourceUri": "[{ResourceType: JAR,Uri: string}]"
+}

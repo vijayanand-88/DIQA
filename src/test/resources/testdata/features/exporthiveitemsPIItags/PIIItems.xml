@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE XMI SYSTEM 'http://schema.asg.com/rochade/xml/RNX_1_6.dtd'>
+<XMI timestamp='08/07/2018 09:30:31 GMT' verified='false' xmi.version='1.0'  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+			<XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+			<XMI.extensions>
+			<xsi:Extension extender="ASG-Rochade XML Facilities">
+			 <rxe:importModes>
+			 	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_DAT_PACKAGE.*">KEEP</rxe:mode>
+			 	<rxe:mode category="REFERENCE">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_DAT_FILE.*">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_RDB_DATABASE.*">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_RDB_SCHEMA.*">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_RDB_DB_SYSTEM.*">KEEP</rxe:mode>
+			 	</rxe:importModes>
+			</xsi:Extension>
+			</XMI.extensions>
+		</XMI.documentation>
+		<XMI.model xmi.name='RNX' xmi.version='1.6'/>
+	</XMI.header>
+	<XMI.content xmi.uuid='XMLDsp|SERVER|AP-DATA|USER|S|AREA|INITIAL' uuidDel='|'>
+	</XMI.content>
+</XMI>

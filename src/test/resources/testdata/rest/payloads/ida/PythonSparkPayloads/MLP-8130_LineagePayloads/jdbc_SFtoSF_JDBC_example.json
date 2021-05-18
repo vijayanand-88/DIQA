@@ -1,0 +1,34 @@
+{
+  "DEPTID": {
+    "source": ["DEPTID"],
+    "target": ["DEPTID"]
+  },
+  "DEPTID1": {
+    "source": ["DEPTID"],
+    "target": ["DEPTID"]
+  },
+  "PAYROLLDEPT": {
+    "source": ["PAYROLLDEPT"],
+    "target": ["PAYROLLDEPT"]
+  },
+  "PAYROLLID": {
+    "source": ["PAYROLLID"],
+    "target": ["PAYROLLID"]
+  },
+  "SALARY": {
+    "source": ["SALARY"],
+    "target": ["SALARY"]
+  },
+  "PAYROLLDEPT1": {
+    "source": ["PAYROLLDEPT"],
+    "target": ["PAYROLLDEPT"]
+  },
+  "PAYROLLID1": {
+    "source": ["PAYROLLID"],
+    "target": ["PAYROLLID"]
+  },
+  "SALARY1": {
+    "source": ["SALARY"],
+    "target": ["SALARY"]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "data": "",
+  "advanced": false,
+  "post": {
+    "selections": {
+      "type_s": [],
+      "asg.parentTypeNamePathHierarchy_ss": [],
+      "asg.ratingAvg_d": [],
+      "dataType_s": [],
+      "asg.modifiedAt_dt": [],
+      "asg.modifiedBy_s": []
+    },
+    "sorting": []
+  },
+  "name": "TestPublicSearch",
+  "widgets": [],
+  "value": "/search",
+  "area": "BigData",
+  "username": "Test System Administrator",
+  "publicLink": true
+}

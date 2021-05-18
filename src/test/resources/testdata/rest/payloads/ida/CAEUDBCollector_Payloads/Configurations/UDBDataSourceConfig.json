@@ -1,0 +1,42 @@
+{
+  "UDBDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "UDB_Collector_DS",
+        "label": {
+          "": ""
+        },
+        "auditFields": {
+          "createdBy": "TestSystem",
+          "createdAt": "2020-11-16T05:21:30.689733",
+          "modifiedBy": "TestSystem",
+          "modifiedAt": "2020-11-16T05:21:30.689741"
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "udbcollector_validcred",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "Connection": {
+          "url": "jdbc:db2://DIQDB211501V.did.dev.asgint.loc:50000/SAMPLE",
+          "DBApplicationId": "",
+          "DBAccountUtilityFile": ""
+        },
+        "Datasource General Environment": {
+          "CAEPath": "${cae.home}",
+          "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar",
+          "JAVA_MEMORY_HEAP_1": "-Xms256m",
+          "JAVA_MEMORY_HEAP_2": "-Xmx1024m"
+        }
+      }
+    ]
+  }
+}

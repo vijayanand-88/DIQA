@@ -1,0 +1,1167 @@
+{
+  "MatchEmptyTag": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": true,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "MatchRatiolessthan05": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "Typedataratiopattern": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "typePattern": "VARCHAR",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "typePattern": "VARCHAR",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "dataratiofullmatch": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 1
+      }
+    ]
+  },
+  "namedataratiopattern":{
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "namePattern": "ipaddress",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "namePattern": ".*emai.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "namePattern": "ssn",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "namePattern": ".*gend.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "namePattern": ".*full_.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "nametypedataratiopattern": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "namePattern": "ipaddress",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "namePattern": ".*emai.*",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "namePattern": "ssn",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "namePattern": ".*gend.*",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "namePattern": "full_name",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "dataratiopatternequalto05":  {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "typedataratiotypepatternnomatch": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "typePattern": ".*IPADDS.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "typePattern": "NUMBER",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "typePattern": "NUMBER",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "typePattern": "NUMBER",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "typePattern": "NUMBER",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "namedatarationamenotmatch": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "namePattern": "IPADDRESS1",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "namePattern": ".*EMAIL1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "namePattern": "SSN1",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "namePattern": "GENDER1",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "namePattern": ".*FULL1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.5
+      }
+    ]
+  },
+  "dataratiomatchemptyfalsegreaterthan05":  {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED",
+      "tagCategory": "PII"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "dataratiomatchemptytruegreaterthan05": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": true,
+        "matchEmpty": true,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "namedatarationamepatternnotmatch" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "namePattern": "IPADDRESS1",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "namePattern": ".*EMAIL1.*",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "namePattern": "SSN1",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "namePattern": "GENDER1",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "namePattern": ".*FULL1.*",
+        "typePattern": ".*VAR.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "nametypedataratiotypepatternnotmatch" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "namePattern": "ipaddress",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "namePattern": ".*email.*",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "namePattern": "ssn",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "namePattern": "gender",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "namePattern": ".*full_.*",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "nametypedataratiodatapatternnotmatch" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}.\\d{3}[ -]{0,1}.\\d{1}[ -]{0,1}.\\d{5}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "namePattern": "IPADDRESS1",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+*([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "namePattern": ".*EMAIL1.*",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}\\d{6}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "namePattern": "SSN1",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(male|Male|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "namePattern": "GENDER1",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+\\d{3}",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "namePattern": ".*FULL1.*",
+        "typePattern": ".*VAR1.*",
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "MatchFullTruegreaterthan05" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "database",
+        "tags": [
+          "Fullmatch PII",
+		  "Fullmatch PII1"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "MatchFullFalsegreaterthan05" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "database",
+        "tags": [
+          "Fullmatch PII",
+		  "Fullmatch PII1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.6
+      }
+    ]
+  },
+  "MatchFullTruelesserthan05" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "Fullmatch PII",
+		  "Fullmatch PII1"
+        ],
+        "matchFull": true,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "MatchFullFalselesserthan05" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "GRANTS.",
+        "tags": [
+          "Fullmatch PII",
+		  "Fullmatch PII1"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "SC58" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "SnowflakeDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  },
+  "SC52" : {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "SnowflakeDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{3}[ -]{0,1}\\.\\d{1}[ -]{0,1}",
+        "tags": [
+          "IP Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\d{3}[ -]{1}\\d{2}[ -]{1}\\d{4}",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(M|male|Male|F|female|Female)",
+        "tags": [
+          "Gender"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "\\w+\\s\\w+",
+        "tags": [
+          "Full Name"
+        ],
+        "matchFull": false,
+        "matchEmpty": false,
+        "minimumRatio": 0.2
+      }
+    ]
+  }
+}

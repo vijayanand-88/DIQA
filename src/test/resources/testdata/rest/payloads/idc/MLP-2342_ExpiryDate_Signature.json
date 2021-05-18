@@ -1,0 +1,497 @@
+{
+  "signature" : "iibaIWEbb7u9D+KH5yxx8Zv95G5kH1p22k/NedQ5o9dXV8dx146235TzeNyT0D68ALCliogULQZpeJseNsEq8ZCho6L7te/C9nXdkYu6ikX8B/dNlDG1pLyoOogaspoOiBb8M4rB8dCntNeqCZo7/Zqjcp57tCg9vYXxZ3+VgVI8hY6gGEoVHnVkIyJ+NZfx/o3XcjsqCr6djeQuYP92Et5ZEPLsb1Yps5ZPhHTM91HrmNUoFkQQZ+M2LpzXGDQhVY3y29Hv+1t22sOt8Tt+4K1Y2YdBoq+Qm19p9eNusWxsnzNVLSDmSbetNKp6qkRVn/m5LF0NPWl5jrLcprTPWvA12Uw==",
+  "licenseContent" : {
+    "tenant" : "ASG Development",
+    "rules" : [ {
+      "feature" : "IDA",
+      "enabled" : true,
+      "until" : "",
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDD",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDC",
+      "enabled" : true,
+      "until" : "",
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDF",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDE",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDH",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDG",
+      "enabled" : true,
+      "until" : "",
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDI",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDL",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDK",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDN",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDM",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDP",
+      "enabled" : true,
+      "until" : "2019-12-31T11:34:02.834+0000",
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IE3",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDR",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IE2",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDQ",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IE4",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDV",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDX",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IDY",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEA",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEC",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEE",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IED",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEG",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEF",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEI",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEH",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEK",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEM",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEL",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEO",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEN",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEQ",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEP",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "ID2",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IES",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IER",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEU",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IET",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "ID3",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "ID6",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEW",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEV",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEY",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEX",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "ID7",
+      "enabled" : true,
+      "until" : "",
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    }, {
+      "feature" : "IEZ",
+      "enabled" : true,
+      "until" : null,
+      "cap" : 0,
+      "capInterval" : "none",
+      "concurrentUsers" : 0,
+      "distinctUsers" : 0,
+      "distinctMachines" : 0,
+      "users" : [ ]
+    } ]
+  }
+}

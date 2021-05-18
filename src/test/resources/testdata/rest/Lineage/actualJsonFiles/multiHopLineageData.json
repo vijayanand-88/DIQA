@@ -1,0 +1,124 @@
+{
+  "viewfromdiffschemamultipletablewithcondt": [
+    {
+      "mode": "VIEW",
+      "source": "lastname",
+      "dir": "->",
+      "target": "lastname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "fullname",
+      "dir": "->",
+      "target": "full_name"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "source": "id",
+      "dir": "->",
+      "target": "personid"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "source": "firstname",
+      "dir": "->",
+      "target": "firstname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "firstname",
+      "dir": "->",
+      "target": "firstname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "lastname",
+      "dir": "->",
+      "target": "lastname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "source": "full_name",
+      "dir": "->",
+      "target": "fullname"
+    },
+    {
+      "mode": "VIEW",
+      "source": "state",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "MULTIHOP",
+      "source": "personid",
+      "dir": "->",
+      "target": "id"
+    },
+    {
+      "mode": "VIEW",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "personid",
+      "dir": "->",
+      "target": "fullname"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "personid",
+      "dir": "->",
+      "target": "firstname"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "personid",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "personid",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "personid",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "CONTROL",
+      "source": "personid",
+      "dir": "->",
+      "target": "lastname"
+    }
+  ]
+}

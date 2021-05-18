@@ -1,0 +1,16 @@
+[
+    {
+        "startLine": 3,
+        "endLine": 3,
+        "startColumn": 22,
+        "endColumn": 50,
+        "conString": "MIN=MinimumValue"
+    },
+    {
+        "startLine": 4,
+        "endLine": 4,
+        "startColumn": 22,
+        "endColumn": 50,
+        "conString": "MAx=MaximumValue"
+    }
+]

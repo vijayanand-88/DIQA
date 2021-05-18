@@ -1,0 +1,11 @@
+{
+  "jdbcURL": "jdbc:postgresql://decheqaperf01v.asg.com:5432/postgres",
+  "dbType": "POSTGRESQL",
+  "host": "decheqaperf01v.asg.com",
+  "driverClass": "org.postgresql.Driver",
+  "driverName": "PostgreSQL Native Driver",
+  "driverBundleName": "org.postgresql.jdbc42",
+  "database": "postgres",
+  "userName": "postgres",
+  "password": "dZ05uajYEjSMzHOaymPnZh/lPUb2MOppN+Kh2Lr+8MU="
+}

@@ -1,0 +1,8 @@
+{
+  "keywords": "customers",
+  "post": {
+    "selections" : {
+      "catalog_s": ["BigData", "DataSets", "Business Glossary"]
+    }},
+  "catalog": "BigData"
+}

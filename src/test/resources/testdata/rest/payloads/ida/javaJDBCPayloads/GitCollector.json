@@ -1,0 +1,51 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "GitCollectorJJ",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": "GitCollectorJJ"
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": ["tagJavaJDBCLinOracle"],
+  "pluginType": "collector",
+  "dataSource": "GitCollectorDataSourceJJ",
+  "credential": "ValidGitCredentialsJJ",
+  "filter": {
+    "filters": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.Filter",
+        "label": null,
+        "tags": null,
+        "branch": "refs/heads/master"
+      }
+    ],
+    "deltaTime": "300",
+    "extraFilters": {
+      "filefilters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.FileFilter",
+          "label": {
+            "": "Filter1"
+          },
+          "tags": null,
+          "fileMode": "include",
+          "objectType": "folder",
+          "expressionType": "simple",
+          "expressions": [
+            "**javajdbclineage/oracle**"
+          ]
+        }
+      ]
+    },
+    "maxHits": null
+  },
+  "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+  "businessApplicationName": "test_BA_JavaJDBCOracle",
+  "dryRun": false
+}
+
+

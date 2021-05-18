@@ -1,0 +1,14 @@
+{
+  "selections": {
+    "asg.tagPathsHierarchy_ss": [
+      "SC1_Hbase"
+    ],
+    "type_s": [],
+    "asg.parentTypeNamePathHierarchy_ss": [
+      "Cluster/LocalNode/Service/HBASE/Database/default/Table/employee"
+    ],
+    "dataType_s": [],
+    "asg_modifiedat_dt": [],
+    "asg_modifiedby_s": []
+  }
+}

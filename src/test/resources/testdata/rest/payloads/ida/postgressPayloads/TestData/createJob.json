@@ -1,0 +1,29 @@
+{
+  "AllocatedCapacity": 2,
+  "Command": {
+    "Name": "QATestJob",
+    "PythonVersion": "3",
+    "ScriptLocation": "s3://aws-glue-scripts-868165524337-us-east-1/asg-glue-samples/glue"
+  },
+  "Connections": {
+    "Connections": [ "string" ]
+  },
+  "DefaultArguments": {
+    "Temporarydirectory" : "s3://aws-glue-scripts-868165524337-us-east-1/asg-glue-samples/glue"
+  },
+  "Description": "QATestJob Description",
+  "GlueVersion": "1.0",
+  "LogUri": "string",
+  "Name": "QATestJob",
+  "NotificationProperty": {
+    "NotifyDelayAfter": 1
+  },
+  "NumberOfWorkers": 1,
+  "Role": "AWSSeviceRoleForGlue",
+  "SecurityConfiguration": "string",
+  "Tags": {
+    "string" : "string"
+  },
+  "Timeout": 10,
+  "WorkerType": "string"
+}

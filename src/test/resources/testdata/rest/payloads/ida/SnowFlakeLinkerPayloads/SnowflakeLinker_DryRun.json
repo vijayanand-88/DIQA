@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeDBLinker",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "linker",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": true,
+      "schedule": null,
+      "runAfter": [],
+      "filter": null,
+      "pluginName": "SnowflakeDBLinker",
+      "queryBatchSize": 100,
+      "schemas": [
+      ],
+      "host": "asg_partner.us-east-1.snowflakecomputing.com",
+      "DatabaseName": "TEST_DB",
+      "type": "Linker"
+    }
+  ]
+}

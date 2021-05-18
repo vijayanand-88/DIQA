@@ -1,0 +1,774 @@
+{
+  "alldatatypes3": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "id",
+      "dir": "->",
+      "target": "Id"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "in publication",
+      "dir": "->",
+      "target": "In Publication"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "alldatatypes3",
+      "dir": "->",
+      "target": "AllDataTypes3"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "itemsonmydesk",
+      "dir": "->",
+      "target": "ItemsOnMyDesk"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "book title",
+      "dir": "->",
+      "target": "Book Title"
+    }
+  ],
+  "adventureworks_acc_useraccount": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "created_on",
+      "dir": "->",
+      "target": "created_on"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "user_id",
+      "dir": "->",
+      "target": "user_id"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "last_login",
+      "dir": "->",
+      "target": "last_login"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "password",
+      "dir": "->",
+      "target": "password"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "adventureworks_acc_useraccount",
+      "dir": "->",
+      "target": "useraccount"
+    }
+  ],
+  "orcfile": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "fax",
+      "dir": "->",
+      "target": "fax"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "gender",
+      "dir": "->",
+      "target": "gender"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "city",
+      "dir": "->",
+      "target": "city"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "contactno",
+      "dir": "->",
+      "target": "contactno"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "userid",
+      "dir": "->",
+      "target": "userid"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "ipaddress",
+      "dir": "->",
+      "target": "ipaddress"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "ssn",
+      "dir": "->",
+      "target": "ssn"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "postalcode",
+      "dir": "->",
+      "target": "postalcode"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "state",
+      "dir": "->",
+      "target": "state"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "street",
+      "dir": "->",
+      "target": "street"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "landlineno",
+      "dir": "->",
+      "target": "landlineno"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "country",
+      "dir": "->",
+      "target": "country"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "orcfile",
+      "dir": "->",
+      "target": "OrcFile"
+    }
+  ],
+  "aidscolumnarrayjsontarget": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "aidscolumnarrayjsontarget",
+      "dir": "->",
+      "target": "JsonFileOp"
+    }
+  ],
+  "cricketparquet2target": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "cricketparquet2target",
+      "dir": "->",
+      "target": "ParquetFileOp"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "username1",
+      "dir": "->",
+      "target": "username1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "housenum",
+      "dir": "->",
+      "target": "housenum"
+    }
+  ],
+  "adventureworks_acc_useraccount_bkp": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "created_on",
+      "dir": "->",
+      "target": "created_on"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "user_id",
+      "dir": "->",
+      "target": "user_id"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "last_login",
+      "dir": "->",
+      "target": "last_login"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "adventureworks_acc_useraccount_bkp",
+      "dir": "->",
+      "target": "useraccount_bkp"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "password",
+      "dir": "->",
+      "target": "password"
+    }
+  ],
+  "avrofile2target": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "timestamp",
+      "dir": "->",
+      "target": "timestamp"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "tweet",
+      "dir": "->",
+      "target": "tweet"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "avrofile2target",
+      "dir": "->",
+      "target": "AvroFileOp"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    }
+  ],
+  "aids2": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "year",
+      "dir": "->",
+      "target": "year"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "delay",
+      "dir": "->",
+      "target": "delay"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "snno",
+      "dir": "->",
+      "target": "snno"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "y",
+      "dir": "->",
+      "target": "y"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "quarter",
+      "dir": "->",
+      "target": "quarter"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "aids2",
+      "dir": "->",
+      "target": "AIDS2"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "dud",
+      "dir": "->",
+      "target": "dud"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "time",
+      "dir": "->",
+      "target": "time"
+    }
+  ],
+  "avrofile2": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "timestamp",
+      "dir": "->",
+      "target": "timestamp"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "tweet",
+      "dir": "->",
+      "target": "tweet"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "avrofile2",
+      "dir": "->",
+      "target": "AvroFile"
+    }
+  ],
+  "aids3": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "y",
+      "dir": "->",
+      "target": "y"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "quarter",
+      "dir": "->",
+      "target": "quarter"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "dud",
+      "dir": "->",
+      "target": "dud"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "aids3",
+      "dir": "->",
+      "target": "AIDS3"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "year",
+      "dir": "->",
+      "target": "year"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "delay",
+      "dir": "->",
+      "target": "delay"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "snno",
+      "dir": "->",
+      "target": "snno"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "time",
+      "dir": "->",
+      "target": "time"
+    }
+  ],
+  "cricketparquet2": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "username1",
+      "dir": "->",
+      "target": "username1"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "housenum",
+      "dir": "->",
+      "target": "housenum"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "phone",
+      "dir": "->",
+      "target": "phone"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "age",
+      "dir": "->",
+      "target": "age"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "cricketparquet2",
+      "dir": "->",
+      "target": "ParquetFile"
+    }
+  ],
+  "aidscolumnarrayjson": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "aidscolumnarrayjson",
+      "dir": "->",
+      "target": "JsonFile"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "quarter",
+      "dir": "->",
+      "target": "quarter"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "dud",
+      "dir": "->",
+      "target": "dud"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "time",
+      "dir": "->",
+      "target": "time"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "year",
+      "dir": "->",
+      "target": "year"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "delay",
+      "dir": "->",
+      "target": "delay"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "snno",
+      "dir": "->",
+      "target": "snno"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "y",
+      "dir": "->",
+      "target": "y"
+    }
+  ],
+  "world_atn_gluetable951": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "snno",
+      "dir": "->",
+      "target": "snno"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "delay",
+      "dir": "->",
+      "target": "delay"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "year",
+      "dir": "->",
+      "target": "year"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "time",
+      "dir": "->",
+      "target": "time"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "dud",
+      "dir": "->",
+      "target": "dud"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "quarter",
+      "dir": "->",
+      "target": "quarter"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "y",
+      "dir": "->",
+      "target": "y"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "world_atn_gluetable951",
+      "dir": "->",
+      "target": "gluetable951"
+    }
+  ],
+  "dvdrental_accounts_rds": [
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "password",
+      "dir": "->",
+      "target": "password"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "last_login",
+      "dir": "->",
+      "target": "last_login"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "user_id",
+      "dir": "->",
+      "target": "user_id"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "created_on",
+      "dir": "->",
+      "target": "created_on"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "email",
+      "dir": "->",
+      "target": "email"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "dvdrental_accounts_rds",
+      "dir": "->",
+      "target": "accounts"
+    },
+    {
+      "mode": "VIEW",
+      "multiHopModes": [],
+      "sourceAvailability": "NO",
+      "source": "username",
+      "dir": "->",
+      "target": "username"
+    }
+  ]
+}

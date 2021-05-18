@@ -1,0 +1,52 @@
+{
+  "sybaseEP_Creator": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybaseEP_Creator",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "sybaseEP_Creator_Deletor_DS",
+    "credential": "Valid_CAE_Creator_Deletor_sybase_Cred",
+    "businessApplicationName": "SYBASE_CREATOR_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "Overwrite": true,
+    "DBUserPassword": "EP_SYBASE",
+    "pluginName": "CAECreateEntryPoint",
+    "DBUserName": "EP_SYBASE",
+    "type": "Other"
+  },
+  "sybaseEP_Deletor": {
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "name": "sybaseEP_Deletor",
+    "pluginVersion": "LATEST",
+    "label": {
+      "": ""
+    },
+    "catalogName": "Default",
+    "eventClass": null,
+    "eventCondition": null,
+    "nodeCondition": "name==\"Headless-EDI\"",
+    "maxWorkSize": 100,
+    "tags": [],
+    "pluginType": "other",
+    "dataSource": "sybaseEP_Creator_Deletor_DS",
+    "credential": "Valid_CAE_Creator_Deletor_sybase_Cred",
+    "businessApplicationName": "SYBASE_DELETOR_BA",
+    "dryRun": false,
+    "schedule": null,
+    "filter": null,
+    "pluginName": "CAEDeleteEntryPoint",
+    "DBUserName": "EP_SYBASE",
+    "type": "Other"
+  }
+}

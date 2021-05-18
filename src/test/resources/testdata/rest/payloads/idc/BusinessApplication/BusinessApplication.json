@@ -1,0 +1,16 @@
+[
+  {
+    "id": null,
+    "scopeId": null,
+    "scopeAttrName": null,
+    "type": "BusinessApplication",
+    "name": "BA TagTest before plugin run",
+    "businessCriticality": "High",
+    "authoritativeSource": "Yes",
+    "dataClassification": "Restricted",
+    "pii": "Yes",
+    "businessOwners": [
+      "Bharathi.R"
+    ]
+  }
+]

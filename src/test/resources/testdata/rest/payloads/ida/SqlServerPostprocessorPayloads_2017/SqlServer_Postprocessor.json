@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServer_PostProcessor",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SQLServerPostProcessor"],
+      "pluginType": "lineage",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "SQL_Server_PP",
+      "dryRun": false,
+      "schedule": null,
+      "filter": null,
+      "pluginName": "SQLServerDBPostProcessor",
+      "arguments": [],
+      "type": "Lineage"
+    }
+  ]
+}

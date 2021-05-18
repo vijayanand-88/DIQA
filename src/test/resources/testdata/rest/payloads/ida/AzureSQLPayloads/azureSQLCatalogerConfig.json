@@ -1,0 +1,479 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": []
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithMultipleSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": [
+            {
+              "table": "BuildVersion"
+            },
+            {
+              "table": "diffdatatypes"
+            }
+          ]
+        },
+        {
+          "schema": "testschema",
+          "tables": [
+            {
+              "table": "department"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": [
+            {
+              "table": "BuildVersion"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithSchemaAndMultipleTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": [
+            {
+              "table": "BuildVersion"
+            },
+            {
+              "table": "diffdatatypes"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "tables": [
+            {
+              "table": "diffdatatypes"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithMultipleSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": []
+        },
+        {
+          "schema": "testschema",
+          "tables": []
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "NonExistingSchema",
+          "tables": [
+            {
+              "table": "NonExistingTable"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithSchemaAndNonExistingTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "dbo",
+          "tables": [
+            {
+              "table": "NonExistingTable"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithNonExistingTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "tables": [
+            {
+              "table": "NonExistingTable"
+            }
+          ]
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCataloger1",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [
+        {
+          "schema": "testschema",
+          "tables": []
+        }
+      ],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithNoDatabaseInURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithNoCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": null,
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "user": null,
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithIncorrectURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.data.wind.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithIncorrectDriverBundleName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc1",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithIncorrectDriverBundleVersion",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driver": "com.microsoft.sqlserver.jdbc.SQLServerDrivers",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "driverBundleVersion": "6.4.0.jr",
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithIncorrectDriverName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driver": "com.microsoft.sqlserver.jdbc.SQLServer",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "driverBundleVersion": "6.4.0.jre8",
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AzureSqlCatalogerWithNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "AZURESQL CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qwer1234$",
+      "driverBundleName": "com.microsoft.sqlserver.mssql-jdbc",
+      "schemas": [],
+      "user": "asgqa",
+      "properties": [],
+      "url": "jdbc:sqlserver://asg-jdbc.database.windows.net:1433;database=asg-jdbc;"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GitCollector",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "GitCollector"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["tagJavaSparkOracle"],
+      "businessApplicationName": "test_BA_JavaSparkOracle",
+      "pluginType": "collector",
+      "dataSource": "GitCollectorDataSource",
+      "credential": "Git_Credentials",
+      "filter": {
+        "filters": [
+          {
+            "class": "com.asg.dis.common.analysis.dom.Filter",
+            "label": null,
+            "tags": null,
+            "branch": "refs/heads/master"
+          }
+        ],
+        "deltaTime": "30",
+        "extraFilters": {
+          "filefilters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.FileFilter",
+              "label": {
+                "": "Label1"
+              },
+              "tags": null,
+              "fileMode": "include",
+              "objectType": "folder",
+              "expressionType": "simple",
+              "expressions": [
+                "**/oracle12c/**"
+              ]
+            }
+          ]
+        },
+        "maxHits": null
+      },
+      "dryRun": false,
+      "contentAnalyzerPlugin": "UnstructuredDataAnalyzer"
+    }
+  ]
+}

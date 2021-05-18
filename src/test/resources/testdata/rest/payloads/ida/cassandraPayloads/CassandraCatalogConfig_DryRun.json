@@ -1,0 +1,25 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : {
+      "" : "CassandraCatalogerDryRun"
+    },
+    "type" : "Cataloger",
+    "tags" : [ "CasTag" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "pluginVersion" : "LATEST",
+    "tables" : [ ],
+    "credential" : "CassandraCredentials",
+    "pluginName" : "CassandraDBCataloger",
+    "name" : "CassandraCatalogerDryRun",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "CassandraDS",
+    "businessApplicationName" : "CassandraCatalogerBA"
+  } ]
+}

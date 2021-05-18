@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "CosmosMetadata7",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "CosmosMetadata7",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "databases": [],
+      "database": "Tas",
+      "tables": [
+        {
+          "table": "abc"
+        }
+      ],
+      "driverBundleName": "cdata.jdbc.cosmosdb.CosmosDBDriver",
+      "host": "asgmongo.documents.azure.com",
+      "user": "Devi.Niranjani@asg.com",
+      "primarykey": "ybEcljNa4pFaKhuL7Pum7bba0upeoD6yqbkYeVDKpZTVRbuMESbSw1s9b0NhCv8xFyA6S10bwZvrR6gVtNLOyg=="
+    }
+  ]
+}

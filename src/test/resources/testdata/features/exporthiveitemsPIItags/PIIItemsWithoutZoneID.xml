@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE XMI SYSTEM 'http://schema.asg.com/rochade/xml/RNX_1_6.dtd'>
+<XMI timestamp='08/10/2018 05:53:57 GMT' verified='false' xmi.version='1.0'  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>ASG-Rochade XML Facilities Exporter</XMI.exporter>
+			<XMI.exporterVersion>2.60.001</XMI.exporterVersion>
+			<XMI.extensions>
+			<xsi:Extension extender="ASG-Rochade XML Facilities">
+			 <rxe:importModes>
+			 	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_DAT_PACKAGE.*">KEEP</rxe:mode>
+			 	<rxe:mode category="REFERENCE">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_DAT_FILE.*">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_RDB_DATABASE.*">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_RDB_SCHEMA.*">KEEP</rxe:mode>
+			 	<rxe:mode category="COMPONENT.DWR_RDB_DB_SYSTEM.*">KEEP</rxe:mode>
+			 	</rxe:importModes>
+			</xsi:Extension>
+			</XMI.extensions>
+		</XMI.documentation>
+		<XMI.model xmi.name='RNX' xmi.version='1.6'/>
+	</XMI.header>
+	<XMI.content xmi.uuid='XMLDsp|SERVER|AP-DATA|USER|S|AREA|INITIAL' uuidDel='|'>
+      <ITEM xmi.id='BigData.Tag:::13' itemType='GDP_PERSONAL_INFORMATION' itemName='Social Security Number'  itemScope='BigData.Tag:::9'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Lnk' attrName='RBG/TECHNICAL_DATA_CATALOG' linkType='Set' >
+          <ITEMS>
+            <ITEM xmi.idref='BigData.Column:::299' itemType='DWR_RDB_COLUMN' itemName='titleofcourtesy'  itemScope='BigData.Table:::26'></ITEM>
+          </ITEMS>
+        </ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Tag:::9' itemType='RBG/GLOSSARY' itemName='PII' >
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Lnk' attrName='GDP_HAS_PERSONAL_INFORMATION' linkType='Xns' >
+          <ITEMS>
+            <ITEM xmi.idref='BigData.Tag:::13' itemType='GDP_PERSONAL_INFORMATION' itemName='Social Security Number'  itemScope='BigData.Tag:::9'></ITEM>
+          </ITEMS>
+        </ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Table:::26' itemType='DWR_RDB_TABLE_OR_VIEW' itemName='employees_full'  itemScope='BigData.Database:::9___Schema'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_DESCRIPTION' contentType='text/plain'>Imported by sqoop on 2017/01/20 13:23:42</ATTRIBUTE>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_TIME_CREATION' contentType='text/plain'>2017-03-07 07:35:16</ATTRIBUTE>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_USER_ID_CREATION' contentType='text/plain'>root</ATTRIBUTE>
+        <ATTRIBUTE attrType='Lnk' attrName='DWR_RDB_HAS_COLUMN' linkType='Xns' >
+          <ITEMS>
+            <ITEM xmi.idref='BigData.Column:::310' itemType='DWR_RDB_COLUMN' itemName='photopath'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::294' itemType='DWR_RDB_COLUMN' itemName='birthdate'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::306' itemType='DWR_RDB_COLUMN' itemName='region'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::307' itemType='DWR_RDB_COLUMN' itemName='firstname'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::298' itemType='DWR_RDB_COLUMN' itemName='employeeid'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::303' itemType='DWR_RDB_COLUMN' itemName='notes'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::305' itemType='DWR_RDB_COLUMN' itemName='hiredate'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::300' itemType='DWR_RDB_COLUMN' itemName='address'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::311' itemType='DWR_RDB_COLUMN' itemName='postalcode'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::309' itemType='DWR_RDB_COLUMN' itemName='title'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::301' itemType='DWR_RDB_COLUMN' itemName='photo'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::297' itemType='DWR_RDB_COLUMN' itemName='city'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::296' itemType='DWR_RDB_COLUMN' itemName='extension'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::304' itemType='DWR_RDB_COLUMN' itemName='reportsto'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::302' itemType='DWR_RDB_COLUMN' itemName='country'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::299' itemType='DWR_RDB_COLUMN' itemName='titleofcourtesy'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::295' itemType='DWR_RDB_COLUMN' itemName='lastname'  itemScope='BigData.Table:::26'></ITEM>
+            <ITEM xmi.idref='BigData.Column:::308' itemType='DWR_RDB_COLUMN' itemName='homephone'  itemScope='BigData.Table:::26'></ITEM>
+          </ITEMS>
+        </ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::294' itemType='DWR_RDB_COLUMN' itemName='birthdate'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::295' itemType='DWR_RDB_COLUMN' itemName='lastname'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::296' itemType='DWR_RDB_COLUMN' itemName='extension'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::297' itemType='DWR_RDB_COLUMN' itemName='city'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::298' itemType='DWR_RDB_COLUMN' itemName='employeeid'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::299' itemType='DWR_RDB_COLUMN' itemName='titleofcourtesy'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::300' itemType='DWR_RDB_COLUMN' itemName='address'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::301' itemType='DWR_RDB_COLUMN' itemName='photo'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::302' itemType='DWR_RDB_COLUMN' itemName='country'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::303' itemType='DWR_RDB_COLUMN' itemName='notes'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::304' itemType='DWR_RDB_COLUMN' itemName='reportsto'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::305' itemType='DWR_RDB_COLUMN' itemName='hiredate'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::306' itemType='DWR_RDB_COLUMN' itemName='region'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::307' itemType='DWR_RDB_COLUMN' itemName='firstname'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::308' itemType='DWR_RDB_COLUMN' itemName='homephone'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::309' itemType='DWR_RDB_COLUMN' itemName='title'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::310' itemType='DWR_RDB_COLUMN' itemName='photopath'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Column:::311' itemType='DWR_RDB_COLUMN' itemName='postalcode'  itemScope='BigData.Table:::26'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Txt' attrName='DWR_STAGE' contentType='text/plain'>BigData</ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Database:::9___Schema' itemType='DWR_RDB_SCHEMA' itemName='northwind'  itemScope='BigData.Database:::9'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Lnk' attrName='DWR_RDB_HAS_TABLE_OR_VIEW' linkType='Xns' >
+          <ITEMS>
+            <ITEM xmi.idref='BigData.Table:::26' itemType='DWR_RDB_TABLE_OR_VIEW' itemName='employees_full'  itemScope='BigData.Database:::9___Schema'></ITEM>
+          </ITEMS>
+        </ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Database:::9' itemType='DWR_RDB_DATABASE' itemName='northwind'  itemScope='BigData.Service:::2'>
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Lnk' attrName='DWR_RDB_HAS_SCHEMA' linkType='Xns' >
+          <ITEMS>
+            <ITEM xmi.idref='BigData.Database:::9___Schema' itemType='DWR_RDB_SCHEMA' itemName='northwind'  itemScope='BigData.Database:::9'></ITEM>
+          </ITEMS>
+        </ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+      <ITEM xmi.id='BigData.Service:::2' itemType='DWR_RDB_DB_SYSTEM' itemName='Cluster Demo.HIVE' >
+       <ATTRIBUTES>
+        <ATTRIBUTE attrType='Lnk' attrName='DWR_RDB_HAS_DATABASE' linkType='Xns' >
+          <ITEMS>
+            <ITEM xmi.idref='BigData.Database:::9' itemType='DWR_RDB_DATABASE' itemName='northwind'  itemScope='BigData.Service:::2'></ITEM>
+          </ITEMS>
+        </ATTRIBUTE>
+        <ATTRIBUTE attrType='Lnk' attrName='DWR_RDB_HAS_DATABASE' linkType='Xns' >
+          <ITEMS>
+            <ITEM xmi.idref='BigData.Database:::9' itemType='DWR_RDB_DATABASE' itemName='northwind'  itemScope='BigData.Service:::2'></ITEM>
+          </ITEMS>
+        </ATTRIBUTE>
+       </ATTRIBUTES>
+      </ITEM>
+	</XMI.content>
+</XMI>

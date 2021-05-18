@@ -1,0 +1,300 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeraDataCatalogerWithDatabaseFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": "TeradataSeriveSource",
+      "credential": "TeradataDB_Credentials",
+      "filter": null,
+      "databaseFilter": [
+        {
+          "database": "automation_test_db"
+        }
+      ],
+      "arguments": []
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerwithMultipleDatabaseFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": "TeradataSeriveSource",
+      "credential": "TeradataDB_Credentials",
+      "filter": null,
+      "databaseFilter": [
+        {
+          "database": "automation_test_db"
+        },
+        {
+          "database": "collector"
+        }
+      ],
+      "arguments": []
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerwithNonExistingDatabase",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": "TeradataSeriveSource",
+      "credential": "TeradataDB_Credentials",
+      "filter": null,
+      "databaseFilter": [
+        {
+          "database": "NonExistingDatabase"
+        }
+      ],
+      "arguments": []
+
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerwithIncorrectBundleDriver",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "password": "dbc",
+      "driver": "com.teradata.jdbc",
+      "driverBundleName": "com.teradata.jdbc.TeraDriver",
+      "databaseFilter": [
+        {
+          "database": "automation_test_db"
+        }
+      ],
+      "arguments": [],
+      "driverBundleVersion": "16.20.0.08",
+      "user": "dbc",
+      "url": "jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerwithIncorrectBundleVersion",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "filter": null,
+      "password": "dbc",
+      "driver": "com.teradata.jdbc.TeraDriver",
+      "driverBundleName": "com.teradata.jdbc.TeraDriver",
+      "databaseFilter": [
+        {
+          "database": "automation_test_db"
+        }
+      ],
+      "arguments": [],
+      "driverBundleVersion": "16.00",
+      "user": "dbc",
+      "url": "jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerwithIncorrectBundleName",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "tables": [
+        {
+          "table": "TERADATA_TAG_DETAILS"
+        }
+      ],
+      "password": "dbc",
+      "driverBundleName": "com.teradata.TeraDriver",
+      "databaseFilter": [],
+      "arguments": [],
+      "user": "dbc",
+      "properties": [],
+      "url": "jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerWithWrongHostInURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": "TeradataInvalidHost",
+      "credential": "TeradataDB_Credentials",
+      "filter": null,
+      "arguments": []
+
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerWithNodeCondition",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "type=='internal'",
+      "maxWorkSize": 1000,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": "TeradataSeriveSource",
+      "credential": "TeradataDB_Credentials",
+      "filter": null,
+      "databaseFilter": [
+        {
+          "database": "collector"
+        }
+      ],
+      "arguments": []
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerWithoutDBinURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "dbc",
+      "driverBundleName": "com.teradata.jdbc.TeraDriver",
+      "databaseFilter": [],
+      "arguments": [],
+      "user": "dbc",
+      "properties": [],
+      "url": "jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerWithArgumentAndDBfilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TD CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "dbc",
+      "driverBundleName": "com.teradata.jdbc.TeraDriver",
+      "databaseFilter": [
+        {
+          "database": "automation_test_db"
+        }
+      ],
+      "arguments": [
+        {
+          "argument": "filter.applyToUsers=false"
+        }
+      ],
+      "user": "dbc",
+      "properties": [],
+      "url": "jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeradataCatalogerWithIncorrectCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "dbc123",
+      "driverBundleName": "com.teradata.jdbc.TeraDriver",
+      "databaseFilter": [],
+      "arguments": [],
+      "user": "dbcUser",
+      "properties": [],
+      "url": "jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "TeraDataCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "TERADATA CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "dbc",
+      "driverBundleName": "com.teradata.jdbc.TeraDriver",
+      "databaseFilter": [
+        {
+          "database": "DBC"
+        },
+        {
+          "database": "automation_test_db"
+        }
+      ],
+      "user": "dbc",
+      "properties": [],
+      "url": "jdbc:teradata://10.33.6.190/TMODE=ANSI,CHARSET=ASCII,database=collector"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Upload": {
+    "label": {
+      "": "Upload"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Upload"
+    }
+  }
+}

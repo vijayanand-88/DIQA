@@ -1,0 +1,11 @@
+{
+  "header": {
+    "contentType": "application/json",
+    "acceptFormat": "application/json"
+  },
+  "queryparam": {},
+  "path": "settings/catalogs",
+  "method": "POST",
+  "payload": "ida/create_analysis_payload.json",
+  "responseCode": "204"
+}

@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "GlueCatalogMultipleDB",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "GlueCatalogMultipleDB",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "cataloger",
+      "dataSource": null,
+      "credential": null,
+      "filter": null,
+      "secretKey": "PsaTPBFPFnZwLwv9ucRZhKdvg5yOI9dMYcsetUez",
+      "accessKey": "AKIA4UIVSTNYUDHTTVT4",
+      "region": "us-east-1",
+      "includeItems": {
+        "includeDatabases": ["sampledb","*testdata*"],
+        "includeJobs": ["nojob"]
+      }
+    }
+  ]
+}

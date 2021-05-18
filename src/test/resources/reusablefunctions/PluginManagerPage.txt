@@ -1,0 +1,106 @@
+For the new UI in 10.3,Few methods in Plugin Manager(Manage Configurations)
+
+PLUGIN MANAGER PAGE
+---------------
+Feature Step:
+
+Method to enter text in input box
+Page Name - Plugin Manager:
+1.	And user "click" on "Filter/Search Close Button" in Manage Configurations panel in Plugin manger - Method to verify presence and click any button or any link in Manage Configuration page
+2.	And user "enters text" in Manage Configurations panel in Plugin manger  (dataTable)
+| TextBox | Text |
+| Search Box | SimilarityLinkerTable |
+
+
+Method to perform all filter operations in Manage Configuration page
+4.	And user selects dropdown in Manage Configurations panel in Plugin manger  (dataTable)
+| filterName | attribute |
+| Deployment | LocalNode |
+
+Method to verify the status of the deployment
+5.	And user "verifies presence" of following "Items displayed for Deployment Filter" in Manage Configurations Page (dataTable)
+| dechedocker12v.asg.com |
+| InternalNode |
+| LocalNode |
+
+Method to verify the plugin configuration buttons
+6.   And user verifies whether following parameters is "displayed" in Manage Configurations panel
+      | button | pluginName            |
+      | Stop   | SimilarityLinkerTable |
+
+Method to verify the presence of elements in list view
+    And user "verifies presence" of following "Items displayed for Configuration Filter" in Manage Configurations Page
+      | SimilarityLinkerTable |
+
+Method to verify the status of the deployment
+8.And user verifies the status of the deployment in Manage Configurations panel
+      | pluginName | status  |
+      | LocalNode  | running |
+
+Method to click the buttons in the Manage Configurations page
+9. And user "click" on "Add Configuration" button under "LocalNode" in Manage Configurations
+
+Method to select dropdown or enter text in Add Configuration page
+10. And user "select dropdown" in Add Configuration Page in Manage Configurations
+      | fieldName   | attribute             |
+      | Type        | cataloger             |
+
+Method to verify the status count of the deployment in manage Configurations page
+11. And user verifies the status count for the deployment "LocalNode" in Manage Configurations page
+            | status  | count |
+            | running | 1     |
+
+Method to click on any button in Add Configuration page
+12.    And user "click" on "Test Connection" button in Add Configuration Page
+
+Method to veriy the presence/absense/enabled/disabled of a element
+13.     And user verifies "Test Connection" is "disabled" in Add Configuration Page
+
+
+Method to verify and click the plugin Actions in Manage Configurations page
+14.    And user verifies whether following parameters is "displayed" in Manage Configurations panel
+      | button | pluginName      |
+      | Clone  | PostgresSQLData |
+      And user performs "click" operation in Manage Configurations panel
+      | button | actionItem      |
+      | Clone  | PostgresSQLData |
+
+15. Methods to select and edit in the pipelines and configurator screen
+  @MLP-26737 @webtest @regression @positive
+  Scenario: MLP-26737:Configure a pipeline
+    Given User launch browser and traverse to login page
+    When user enter credentials for "System Administrator1" role
+    And user "click" on "Capture and Import Data Link" for "Manage Pipelines" in "Landing page"
+    And user "click" on "Add Pipeline" button under "Manage Pipelines Table" in Manage Configurations
+    And User performs following actions in the Pipeline Configurator Page
+      | Actiontype                              | ActionItem    | ItemName                | Section                   |
+      | Enter Text                              | Pipeline Name | Pipeline1               |                           |
+      | Expand Accordion and Select Plugin Type | Linker        | Existing Configurations | SimilarityLinkerTable     |
+      | Expand Accordion and Select Plugin Type | Linker        | Existing Configurations | SimilarityLinkerHistogram |
+      | Expand Accordion and Select Plugin Type | Collector     | Existing Configurations | Demo Local Files          |
+      | Expand Accordion and Select Plugin Type | Collector     | Existing Configurations | GitCollectorConfig        |
+      | Expand Accordion and Select Plugin Type | Cataloger     | Existing Configurations | AvroS3DemoCataloger1      |
+      | Click                                   | Save          |                         |                           |
+
+  ##7184020##
+  @MLP-26737 @webtest @regression @positive
+  Scenario: MLP-26737:Verify user can swap the poisitions of the plugin configuration diagrams in the pipeline
+    Given User launch browser and traverse to login page
+    When user enter credentials for "System Administrator1" role
+    And user "click" on "Capture and Import Data Link" for "Manage Pipelines" in "Landing page"
+    And User performs following actions in the Manage pipelines Page
+      | Actiontype       | ActionItem |
+      | Expand accordion | Pipeline1  |
+    And user verifies the "Diagram Order" for "pipeline1" in "Manage Pipeline page"
+      | SimilarityLinkerTable | SimilarityLinkerHistogram | Demo Local Files | GitCollectorConfig | AvroS3DemoCataloger1 |
+    And User performs following actions in the Manage pipelines Page
+      | Actiontype           | ActionItem | ItemName          |
+      | click on menu option | Pipeline1  | Edit the pipeline |
+    And user verifies the "Diagram Order" for "pipeline1" in "Pipeline Configurator page"
+      | SimilarityLinkerTable | SimilarityLinkerHistogram | Demo Local Files | GitCollectorConfig | AvroS3DemoCataloger1 |
+    And User performs following actions in the Pipeline Configurator Page
+      | Actiontype            | ActionItem                     | ItemName                         | Section |
+      | Drag and Drop Diagram | AvroS3DemoCataloger1,cataloger | SimilarityLinkerHistogram,linker |         |
+      | Click                 | Save                           |                                  |         |
+
+

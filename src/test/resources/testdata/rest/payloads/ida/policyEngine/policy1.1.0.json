@@ -1,0 +1,67 @@
+{
+  "PIINewTag": {
+    "@class":"com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class":"com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "SnowflakeDBAnalyzer",
+      "technologies": [
+        ""
+      ],
+      "dataType": "STRUCTURED"
+    },
+
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(m|M|male|Male|f|F|female|Female)",
+        "tags": [
+          "SSN"
+        ],
+        "matchFull": true,
+        "namePattern": "*555*",
+        "typePattern": "string",
+        "matchEmpty": true,
+        "minimumRatio": 0.9
+      },
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(m|M|male|Male|f|F|female|Female)",
+        "tags": [
+          "Email Address"
+        ],
+        "matchFull": true,
+        "namePattern": "*555*",
+        "typePattern": "string",
+        "matchEmpty": true,
+        "minimumRatio": 0.9
+      }
+    ]
+  },
+
+  "PIIAppendTag": {
+    "@class": "com.asg.dis.platform.policies.TaggingPolicy",
+    "input": {
+      "@class": "com.asg.dis.policies.facts.DIAnalysis",
+      "pluginName": "SnowflakeDBAnalyzer",
+      "technologies": [
+        "MongoDB"
+      ],
+      "dataType": "STRUCTURED"
+    },
+    "outputs": [
+      {
+        "@class": "com.asg.dis.policies.actions.StructuredDataAnalysisAction",
+        "dataPattern": "(m|M|male|Male|f|F|female|Female)",
+        "tags": [
+          "EmailAddress"
+        ],
+        "matchFull": true,
+        "namePattern": "*555*",
+        "typePattern": "string",
+        "matchEmpty": true,
+        "minimumRatio": 0.9
+      }
+    ]
+  }
+
+}

@@ -1,0 +1,281 @@
+{
+  "ORACLE_DIFFDATATYPES": {
+    "Columns": {
+      "BFILECOLUMN": {
+        "Description": {
+          "Data type": "BFILE"
+        }
+      },
+      "BINARYDOUBLECOLUMN": {
+        "Description": {
+          "Data type": "BINARY_DOUBLE"
+        }
+      },
+      "BINARYFLOATCOLUMN": {
+        "Description": {
+          "Data type": "BINARY_FLOAT"
+        }
+      },
+      "BLOBCOLUMN": {
+        "Description": {
+          "Data type": "BLOB"
+        }
+      },
+      "CHARCOLUMN": {
+        "Statistics": {
+          "Length": "10",
+          "Maximum value": "Char5",
+          "Minimum length": "10",
+          "Minimum value": "Char1",
+          "Maximum length": "10",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "CHAR"
+        }
+      },
+      "CLOBCOLUMN": {
+        "Description": {
+          "Data type": "CLOB"
+        }
+      },
+      "DATECOLUMN": {
+        "Statistics": {
+          "Length": "7",
+          "Maximum value": "2019-12-31 00:00:00",
+          "Minimum value": "1818-08-21 00:00:00",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "DATE"
+        }
+      },
+      "FLOATCOLUMN": {
+        "Statistics": {
+          "Average": "32000",
+          "Length": "22",
+          "Maximum value": "52000",
+          "Median": "32000",
+          "Minimum value": "12000",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "15811.39",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": "250000000"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "FLOAT"
+        }
+      },
+      "LONGCOLUMN": {
+        "Description": {
+          "Data type": "LONG"
+        }
+      },
+      "NCHARCOLUMN": {
+        "Statistics": {
+          "Length": "20",
+          "Maximum value": "nchar5",
+          "Minimum length": "10",
+          "Minimum value": "nchar1",
+          "Maximum length": "10",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NCHAR"
+        }
+      },
+      "NCLOBCOLUMN": {
+        "Description": {
+          "Data type": "NCLOB"
+        }
+      },
+      "NUMBERCOLUMN": {
+        "Statistics": {
+          "Average": "3.21",
+          "Length": "3",
+          "Maximum value": "5.21",
+          "Median": "3.21",
+          "Minimum value": "1.21",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Standard deviation": "1.58",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100",
+          "Variance": 2.50
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NUMERIC"
+        }
+      },
+      "NVARCHAR2COLUMN": {
+        "Statistics": {
+          "Length": "20",
+          "Maximum value": "nvarchar25",
+          "Minimum length": "10",
+          "Minimum value": "nvarchar21",
+          "Maximum length": "10",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "5",
+          "Percentage of unique values": "100"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "NVARCHAR2"
+        }
+      },
+      "RAWCOLUMN": {
+        "Description": {
+          "Data type": "RAW"
+        }
+      },
+      "ROWIDCOLUMN": {
+        "Description": {
+          "Data type": "ROWID"
+        }
+      },
+      "TIMESTAMP6LTZCOLUMN": {
+        "Statistics": {
+          "Length": "11",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "4",
+          "Percentage of unique values": "80"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TIMESTAMP"
+        }
+      },
+      "TIMESTAMP6TZCOLUMN": {
+        "Statistics": {
+          "Length": "13",
+          "Maximum value": "2017-08-10 10:30:20.0 -7:00",
+          "Minimum value": "2002-06-10 10:30:20.0 -7:00",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "4",
+          "Percentage of unique values": "80"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TIMESTAMP"
+        }
+      },
+      "TIMESTAMPCOLUMN": {
+        "Statistics": {
+          "Length": "6",
+          "Maximum value": "2002-06-26 09:39:16.78",
+          "Minimum value": "1901-03-20 05:39:16.78",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "4",
+          "Percentage of unique values": "80"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "TIMESTAMP"
+        }
+      },
+      "UROWIDCOLUMN": {
+        "Description": {
+          "Data type": "UROWID"
+        }
+      },
+      "VARCHAR2COLUMN": {
+        "Statistics": {
+          "Length": "10",
+          "Maximum value": "varchar24",
+          "Minimum length": "9",
+          "Minimum value": "varchar21",
+          "Maximum length": "9",
+          "Number of non null values": "5",
+          "Percentage of non null values": "100",
+          "Number of null values": "0",
+          "Number of unique values": "4",
+          "Percentage of unique values": "80"
+        },
+        "Lifecycle": [
+          "Last analyzed at"
+        ],
+        "Description": {
+          "Data type": "VARCHAR2"
+        }
+      }
+    }
+  },
+  "ORACLE12C_SCHEMA2": {
+    "ORACLE_DIFFDATATYPES": {
+      "Lifecycle": [
+        "Last analyzed at"
+      ]
+    },
+    "ORACLE_DIFFDATATYPES_VIEW": {
+      "Lifecycle": [
+        "Last analyzed at"
+      ]
+    }
+  },
+  "ORACLE12C_SCHEMA1": {
+    "ORACLE_TABLE": {
+      "Lifecycle": [
+        "Last analyzed at"
+      ]
+    },
+    "ORACLE_TAG_DETAILS": {
+      "Lifecycle": [
+        "Last analyzed at"
+      ]
+    }
+  },
+  "Analysis": {
+    "Description": {
+      "Number of processed items": "1",
+      "Number of errors": "0"
+    }
+  }
+}
+

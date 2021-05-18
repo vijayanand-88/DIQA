@@ -1,0 +1,11 @@
+{
+  "boxstyle": { "fill": "#b76e79", "stroke-width": 1, "rx" : 5, "ry" : 5 },
+  "labelpos": { "x": 5, "y": 17, "height": 22, "length": 34 },
+  "boxpadding": 8,
+  "boxparents": 2,
+  "labelstyle": { "fill": "blue", "font-size": "12pt", "font-weight": "bold" },
+  "labelstyle.Table": { "fill": "brown", "font-size": "12pt", "font-weight": "bold" },
+  "borderstyle": { "stroke": "blue", "stroke-width": 1 },
+  "borderstyle.Table": { "stroke": "brown", "stroke-width": 1, "stroke-dasharray": "4 4" },
+  "color": "#fee0d2"
+}

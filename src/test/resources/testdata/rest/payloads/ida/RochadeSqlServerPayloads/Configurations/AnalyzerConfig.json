@@ -1,0 +1,459 @@
+{
+  "WithoutSchemaTableFilter": {
+    "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+},
+  "OnlySchemaFilter": {
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SqlServerTag1"],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "SqlServer_BA_Test",
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+          {
+            "schema": "TestSchema",
+            "tables": []
+          }
+        ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]    
+  },
+  "SchemaTableMultipleFilter": {
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+          {
+            "schema": "TestSchema",
+            "tables": [
+              {
+                "table": "DiffDataTypesAnalyzer"
+              },
+              {
+                "table": "DiffDataTypesAnalyzerView"
+              }
+            ]
+          }
+        ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+    
+  },
+  "OnlyTableFilter": {
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+          {
+            "schema": "",
+            "tables": [
+              {
+                "table": "DiffDataTypesAnalyzer"
+              },
+			  {
+                "table": "DiffDataTypesAnalyzerView"
+              }
+            ]
+          }
+        ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+    
+  },
+  "SchemaTableMultipleDuplicateFilter": {
+   "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+          {
+            "schema": "TestSchema",
+            "tables": [
+              {
+                "table": "DiffDataTypesAnalyzer"
+              },
+              {
+                "table": "DiffDataTypesAnalyzerView"
+              }
+            ]
+          },
+          {
+            "schema": "SqlServerLineage",
+            "tables": [
+              {
+                "table": "DiffDataTypesAnalyzer"
+              },
+              {
+                "table": "Diffdatatypesanalyzerview"
+              }
+            ]
+          },
+          {
+            "schema": "TestSchema",
+            "tables": [
+              {
+                "table": "DiffDataTypesAnalyzer"
+              },
+              {
+                "table": "DiffDataTypesAnalyzerView"
+              }
+            ]
+          }
+        ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+ 
+    
+  },
+  
+  "DatabaseSchemaTableFilter": {
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"InternalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+	  "database": "IDATestDatabase",
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+          {
+            "schema": "SqlServerLineage",
+            "tables": [
+              {
+                "table": "DiffDataTypesAnalyzer"
+              },
+              {
+                "table": "Diffdatatypesanalyzerview"
+              }
+            ]
+          }
+        ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+    
+  },
+  "MorethanOneDatabase": {
+    "configurations": [
+	{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"RochadeIDANode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 5,
+      "schemas": [
+          {
+            "schema": "TestSchema",
+            "tables": [
+              {
+                "table": "DiffDataTypesAnalyzer"
+              },
+              {
+                "table": "DiffDataTypesAnalyzerView"
+              }
+            ]
+          },
+          {
+            "schema": "TESTSQL2019",
+            "tables": [
+              {
+                "table": "BINARYVALUES"
+              }
+            ]
+          }
+        ],
+
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+    ]
+  },
+  
+  "InvalidDBSchemaTableFilter":  {
+    "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+	  "database": "IDATESTDATABASE1",
+      "histogramBuckets": 10,
+      "dryRun": false,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [
+          {
+            "schema": "TESTSCHEMA1",
+            "tables": [
+              {
+                "table": "DIFFDATATYPESANALYZER1"
+              }
+            ]
+          }
+        ],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+  
+  },
+  "DryRun": {
+    "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SQLServerDBAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "auditFields": {
+        "createdBy": "TestSystem",
+        "createdAt": "2020-12-07T17:33:45.654275",
+        "modifiedBy": "TestSystem",
+        "modifiedAt": "2020-12-07T17:33:45.654275"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "schedule": null,
+      "filter": null,
+      "histogramBuckets": 10,
+      "dryRun": true,
+      "pluginName": "SQLServerDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "schemas": [],
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+  }
+}

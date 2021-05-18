@@ -1,0 +1,11 @@
+{
+  "AzureCosmosFiltr6": {
+    "label": {
+      "": "AzureCosmosFiltr6"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "AzureCosmosFiltr6"
+    }
+  }
+}

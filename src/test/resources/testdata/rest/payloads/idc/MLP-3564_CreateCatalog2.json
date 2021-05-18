@@ -1,0 +1,11 @@
+{
+  "Sample": {
+    "label": {
+      "": "Sample"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Sample"
+    }
+  }
+}

@@ -1,0 +1,1811 @@
+{
+  "Spark_Oracle_withColumnRenamed": {
+    "EMPLOYEE_ID => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "MANAGER_ID => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "EMPLOYEE_DETAILS.HIRE_DATE => df1_read.HIRE_DATE": {
+      "mode": "COPY",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.JOB_ID => df1_read.JOB_ID": {
+      "mode": "COPY",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df1_read.MANAGER_ID => df2_withColumnRenamed.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "FIRST_NAME => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df1_read.EMAIL => df2_withColumnRenamed.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df1_read.EMPLOYEE_ID => df2_withColumnRenamed.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "HIRE_DATE => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "SALARY => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df1_read.FIRST_NAME => df2_withColumnRenamed.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df1_read.SALARY => df2_withColumnRenamed.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "EMAIL => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "DEPARTMENT_ID => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "EMPLOYEE_DETAILS.SSN => df1_read.SSN": {
+      "mode": "COPY",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.LAST_NAME => df1_read.LAST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "GENDER => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df1_read.GENDER => df2_withColumnRenamed.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "EMPLOYEE_DETAILS.EMPLOYEE_ID => df1_read.EMPLOYEE_ID": {
+      "mode": "COPY",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "COMMISSION_PCT => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.JOB_ID => df2_withColumnRenamed.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "EMPLOYEE_DETAILS.SALARY => df1_read.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "EMPLOYEE_DETAILS.COMMISSION_PCT => df1_read.COMMISSION_PCT": {
+      "mode": "COPY",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.DEPARTMENT_ID => df2_withColumnRenamed.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "EMPLOYEE_DETAILS.EMAIL => df1_read.EMAIL": {
+      "mode": "COPY",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "PHONE_NUMBER => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df1_read.HIRE_DATE => df2_withColumnRenamed.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "JOB_ID => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df1_read.SSN => df2_withColumnRenamed.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df1_read.LAST_NAME => df2_withColumnRenamed.LASTNAMEMODIFIED": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LASTNAMEMODIFIED"
+    },
+    "EMPLOYEE_DETAILS.FIRST_NAME => df1_read.FIRST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "SSN => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df1_read.LASTNAMEMODIFIED => df2_withColumnRenamed.LASTNAMEMODIFIED": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LASTNAMEMODIFIED",
+      "lineageTo": "LASTNAMEMODIFIED"
+    },
+    "EMPLOYEE_DETAILS.MANAGER_ID => df1_read.MANAGER_ID": {
+      "mode": "COPY",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "EMPLOYEE_DETAILS.PHONE_NUMBER => df1_read.PHONE_NUMBER": {
+      "mode": "COPY",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "LASTNAMEMODIFIED => QAA_JAVA_WTHCOLUMNRENAMED_AUTO.LASTNAMEMODIFIED": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LASTNAMEMODIFIED",
+      "lineageTo": "LASTNAMEMODIFIED"
+    },
+    "EMPLOYEE_DETAILS.GENDER => df1_read.GENDER": {
+      "mode": "COPY",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df1_read.COMMISSION_PCT => df2_withColumnRenamed.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.PHONE_NUMBER => df2_withColumnRenamed.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "EMPLOYEE_DETAILS.DEPARTMENT_ID => df1_read.DEPARTMENT_ID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    }
+  },
+  "Spark_Oracle_Union": {
+    "df1_read.AGE => df3_union.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "df2_read.ID => df1_read.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "CUSTOMERS.SALARY => df1_read.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df1_read.ID => df3_union.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "df1_read.NAME => df3_union.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "df1_read.SALARY => df3_union.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "CUSTOMERS.AGE => df1_read.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "CUSTOMERS.NAME => df1_read.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "ID => QAA_JAVA_UNION_AUTO.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "ORDERS.ORDERID => df2_read.ORDERID": {
+      "mode": "COPY",
+      "lineageFrom": "ORDERID",
+      "lineageTo": "ORDERID"
+    },
+    "ORDERS.AMOUNT => df2_read.AMOUNT": {
+      "mode": "COPY",
+      "lineageFrom": "AMOUNT",
+      "lineageTo": "AMOUNT"
+    },
+    "CUSTOMERS.ID => df1_read.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "ORDERS.ID => df2_read.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "ORDERS.ORDERDATE => df2_read.ORDERDATE": {
+      "mode": "COPY",
+      "lineageFrom": "ORDERDATE",
+      "lineageTo": "ORDERDATE"
+    }
+  },
+  "Spark_Oracle_repartitionByrange_replace_sort_sortwithpartitions": {
+    "df4_sort.DEPARTMENT_ID => df5_sortWithinPartitions.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df4_sort.MANAGER_ID => df5_sortWithinPartitions.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df2_repartitionByRange.EMPLOYEE_ID => df4_sort.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df4_sort.EMAIL => df5_sortWithinPartitions.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "EMAIL => QAA_JAVA_SORT_AUTO.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df1_read.COMMISSION_PCT => df2_repartitionByRange.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.JOB_ID => df2_repartitionByRange.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df2_repartitionByRange.COMMISSION_PCT => df4_sort.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df2_repartitionByRange.PHONE_NUMBER => df4_sort.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "SSN => QAA_JAVA_SORT_AUTO.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "DEPARTMENT_ID => QAA_JAVA_SORT_AUTO.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df4_sort.PHONE_NUMBER => df5_sortWithinPartitions.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "EMPLOYEE_DETAILS.EMPLOYEE_ID => df1_read.EMPLOYEE_ID": {
+      "mode": "COPY",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "LAST_NAME => QAA_JAVA_SORT_AUTO.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df4_sort.SALARY => df5_sortWithinPartitions.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "EMPLOYEE_DETAILS.SALARY => df1_read.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "EMPLOYEE_ID => QAA_JAVA_SORT_AUTO.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df2_repartitionByRange.MANAGER_ID => df4_sort.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "JOB_ID => QAA_JAVA_SORT_AUTO.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "EMPLOYEE_DETAILS.EMAIL => df1_read.EMAIL": {
+      "mode": "COPY",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df4_sort.JOB_ID => df5_sortWithinPartitions.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df1_read.HIRE_DATE => df2_repartitionByRange.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "df4_sort.SSN => df5_sortWithinPartitions.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df2_repartitionByRange.LAST_NAME => df4_sort.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "EMPLOYEE_DETAILS.FIRST_NAME => df1_read.FIRST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df2_repartitionByRange.HIRE_DATE => df4_sort.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "df1_read.EMPLOYEE_ID => df2_repartitionByRange.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df2_repartitionByRange.FIRST_NAME => df4_sort.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "EMPLOYEE_DETAILS.MANAGER_ID => df1_read.MANAGER_ID": {
+      "mode": "COPY",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df4_sort.GENDER => df5_sortWithinPartitions.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df4_sort.LAST_NAME => df5_sortWithinPartitions.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df1_read.SSN => df2_repartitionByRange.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df2_repartitionByRange.DEPARTMENT_ID => df4_sort.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df2_repartitionByRange.SSN => df4_sort.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df1_read.FIRST_NAME => df2_repartitionByRange.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df1_read.MANAGER_ID => df2_repartitionByRange.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df1_read.PHONE_NUMBER => df2_repartitionByRange.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "EMPLOYEE_DETAILS.HIRE_DATE => df1_read.HIRE_DATE": {
+      "mode": "COPY",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.JOB_ID => df1_read.JOB_ID": {
+      "mode": "COPY",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "PHONE_NUMBER => QAA_JAVA_SORT_AUTO.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "COMMISSION_PCT => QAA_JAVA_SORT_AUTO.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.GENDER => df2_repartitionByRange.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df4_sort.HIRE_DATE => df5_sortWithinPartitions.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "HIRE_DATE => QAA_JAVA_SORT_AUTO.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.SSN => df1_read.SSN": {
+      "mode": "COPY",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.LAST_NAME => df1_read.LAST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "GENDER => QAA_JAVA_SORT_AUTO.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "EMPLOYEE_DETAILS.COMMISSION_PCT => df1_read.COMMISSION_PCT": {
+      "mode": "COPY",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "SALARY => QAA_JAVA_SORT_AUTO.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "FIRST_NAME => QAA_JAVA_SORT_AUTO.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df4_sort.COMMISSION_PCT => df5_sortWithinPartitions.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df4_sort.FIRST_NAME => df5_sortWithinPartitions.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df2_repartitionByRange.JOB_ID => df4_sort.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df2_repartitionByRange.SALARY => df4_sort.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df4_sort.EMPLOYEE_ID => df5_sortWithinPartitions.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df1_read.DEPARTMENT_ID => df2_repartitionByRange.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df1_read.SALARY => df2_repartitionByRange.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df2_repartitionByRange.GENDER => df4_sort.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "EMPLOYEE_DETAILS.PHONE_NUMBER => df1_read.PHONE_NUMBER": {
+      "mode": "COPY",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df1_read.EMAIL => df2_repartitionByRange.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df2_repartitionByRange.EMAIL => df4_sort.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "EMPLOYEE_DETAILS.GENDER => df1_read.GENDER": {
+      "mode": "COPY",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df1_read.LAST_NAME => df2_repartitionByRange.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "MANAGER_ID => QAA_JAVA_SORT_AUTO.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "EMPLOYEE_DETAILS.DEPARTMENT_ID => df1_read.DEPARTMENT_ID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    }
+  },
+  "Spark_Oracle_Except": {
+    "ORDERS.AMOUNT => df2_read.AMOUNT": {
+      "mode": "COPY",
+      "lineageFrom": "AMOUNT",
+      "lineageTo": "AMOUNT"
+    },
+    "CUSTOMERS.SALARY => df1_read.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "CUSTOMERS.ID => df1_read.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "ORDERS.ID => df2_read.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "ORDERS.ORDERDATE => df2_read.ORDERDATE": {
+      "mode": "COPY",
+      "lineageFrom": "ORDERDATE",
+      "lineageTo": "ORDERDATE"
+    },
+    "CUSTOMERS.AGE => df1_read.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "CUSTOMERS.NAME => df1_read.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "ORDERS.ORDERID => df2_read.ORDERID": {
+      "mode": "COPY",
+      "lineageFrom": "ORDERID",
+      "lineageTo": "ORDERID"
+    }
+  },
+  "Spark_Oracle_Intersect": {
+    "df1_read.NAME => df3_intersect.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "df1_read.SALARY => df3_intersect.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df1_read.ID => df3_intersect.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "CUSTOMERS.SALARY => df1_read.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df2_read => df1_read": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "df2_read",
+      "lineageTo": "df1_read"
+    },
+    "ID => QAA_JAVA_INTERSECT_AUTO.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "CUSTOMERS.AGE => df1_read.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "CUSTOMERS.NAME => df1_read.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "ORDERS.ORDERID => df2_read.ORDERID": {
+      "mode": "COPY",
+      "lineageFrom": "ORDERID",
+      "lineageTo": "ORDERID"
+    },
+    "ORDERS.AMOUNT => df2_read.AMOUNT": {
+      "mode": "COPY",
+      "lineageFrom": "AMOUNT",
+      "lineageTo": "AMOUNT"
+    },
+    "df1_read.AGE => df3_intersect.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "CUSTOMERS.ID => df1_read.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "ORDERS.ID => df2_read.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "ORDERS.ORDERDATE => df2_read.ORDERDATE": {
+      "mode": "COPY",
+      "lineageFrom": "ORDERDATE",
+      "lineageTo": "ORDERDATE"
+    }
+  },
+  "Spark_Oracle_summary_limit_describe_sample": {
+    "EMPLOYEE_DETAILS.HIRE_DATE => df1_read.HIRE_DATE": {
+      "mode": "COPY",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.JOB_ID => df1_read.JOB_ID": {
+      "mode": "COPY",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df1_read.GENDER => df2_summary.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df1_read.EMAIL => df2_summary.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df1_read.LAST_NAME => df2_summary.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df1_read.EMPLOYEE_ID => df2_summary.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df1_read.SSN => df2_summary.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df1_read.COMMISSION_PCT => df2_summary.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "EMPLOYEE_DETAILS.SSN => df1_read.SSN": {
+      "mode": "COPY",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.LAST_NAME => df1_read.LAST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df4_sample.JOB_ID => df5_hint.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "EMPLOYEE_DETAILS.EMPLOYEE_ID => df1_read.EMPLOYEE_ID": {
+      "mode": "COPY",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "EMPLOYEE_DETAILS.SALARY => df1_read.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df1_read.MANAGER_ID => df2_summary.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "JOB_ID => QAA_JAVA_SUMMARY_DESCRIBE_AUTO.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df1_read.DEPARTMENT_ID => df2_summary.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "EMPLOYEE_DETAILS.COMMISSION_PCT => df1_read.COMMISSION_PCT": {
+      "mode": "COPY",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.HIRE_DATE => df2_summary.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.EMAIL => df1_read.EMAIL": {
+      "mode": "COPY",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df1_read.SALARY => df2_summary.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "EMPLOYEE_DETAILS.FIRST_NAME => df1_read.FIRST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "EMPLOYEE_DETAILS.MANAGER_ID => df1_read.MANAGER_ID": {
+      "mode": "COPY",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df2_summary.JOB_ID => df3_describe.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "EMPLOYEE_DETAILS.PHONE_NUMBER => df1_read.PHONE_NUMBER": {
+      "mode": "COPY",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df1_read.PHONE_NUMBER => df2_summary.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df1_read.FIRST_NAME => df2_summary.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "EMPLOYEE_DETAILS.GENDER => df1_read.GENDER": {
+      "mode": "COPY",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df1_read.JOB_ID => df2_summary.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df3_describe.JOB_ID => df4_sample.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "EMPLOYEE_DETAILS.DEPARTMENT_ID => df1_read.DEPARTMENT_ID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    }
+  },
+  "Spark_Oracle_withColumn2": {
+    "PEOPLE.NAME => df1_read.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "df1_read.CITY => df2_withColumn.CITY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "df1_read.HEIGHT => df2_withColumn.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "HEIGHT => QAA_JAVA_WITHCOLUMN1_AUTO.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "df1_read.PHONE => df2_withColumn.PHONE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE",
+      "lineageTo": "PHONE"
+    },
+    "PEOPLE.HEIGHT => df1_read.HEIGHT": {
+      "mode": "COPY",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "df1_read.AGE => df2_withColumn.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "NAME => QAA_JAVA_WITHCOLUMN1_AUTO.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "PEOPLE.AGE => df1_read.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "CITY => QAA_JAVA_WITHCOLUMN1_AUTO.CITY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "PHONE => QAA_JAVA_WITHCOLUMN1_AUTO.PHONE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE",
+      "lineageTo": "PHONE"
+    },
+    "PEOPLE.CITY => df1_read.CITY": {
+      "mode": "COPY",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "df1_read.NAME => df2_withColumn.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "AGE => QAA_JAVA_WITHCOLUMN1_AUTO.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    }
+  },
+  "Spark_Oracle_withColumn1": {
+    "PEOPLE.HEIGHT => df1_read_m3.HEIGHT": {
+      "mode": "COPY",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "df1_read_m3.HEIGHT => df2_withColumnselect.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "PEOPLE.AGE => df1_read_m3.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "PHONE => QAA_JAVA_WITHCOLUMN3_AUTO.PHONE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE",
+      "lineageTo": "PHONE"
+    },
+    "df1_read_m3.PHONE => df2_withColumnselect.PHONE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE",
+      "lineageTo": "PHONE"
+    },
+    "PEOPLE.CITY => df1_read_m3.CITY": {
+      "mode": "COPY",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "HEIGHT => QAA_JAVA_WITHCOLUMN3_AUTO.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "PEOPLE.NAME => df1_read_m3.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    }
+  },
+  "Spark_Oracle_withColumn3": {
+    "PHONE => QAA_JAVA_WITHCOLUMN2_AUTO.PHONE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE",
+      "lineageTo": "PHONE"
+    },
+    "PEOPLE.CITY => df1_read_m2.CITY": {
+      "mode": "COPY",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "NAME => QAA_JAVA_WITHCOLUMN2_AUTO.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "PEOPLE.AGE => df1_read_m2.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "PEOPLE.HEIGHT => df1_read_m2.HEIGHT": {
+      "mode": "COPY",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "AGE => QAA_JAVA_WITHCOLUMN2_AUTO.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "PEOPLE.NAME => df1_read_m2.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "CITY => QAA_JAVA_WITHCOLUMN2_AUTO.CITY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "HEIGHT => QAA_JAVA_WITHCOLUMN2_AUTO.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    }
+  },
+  "Spark_Oracle_Alias_Distinct": {
+    "df1_read.SSN => df2_alias.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.HIRE_DATE => df1_read.HIRE_DATE": {
+      "mode": "COPY",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.JOB_ID => df1_read.JOB_ID": {
+      "mode": "COPY",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "JOB_ID => QAA_JAVA_ALIAS_DISTINCT_AUTO.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df1_read.LAST_NAME => df2_alias.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "EMPLOYEE_DETAILS.SSN => df1_read.SSN": {
+      "mode": "COPY",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.LAST_NAME => df1_read.LAST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "EMPLOYEE_DETAILS.EMPLOYEE_ID => df1_read.EMPLOYEE_ID": {
+      "mode": "COPY",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df1_read.FIRST_NAME => df2_alias.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "EMPLOYEE_DETAILS.SALARY => df1_read.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df1_read.MANAGER_ID => df2_alias.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "EMPLOYEE_DETAILS.COMMISSION_PCT => df1_read.COMMISSION_PCT": {
+      "mode": "COPY",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "EMPLOYEE_DETAILS.EMAIL => df1_read.EMAIL": {
+      "mode": "COPY",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df1_read.SALARY => df2_alias.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df1_read.HIRE_DATE => df2_alias.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.FIRST_NAME => df1_read.FIRST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df1_read.GENDER => df2_alias.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "EMPLOYEE_DETAILS.MANAGER_ID => df1_read.MANAGER_ID": {
+      "mode": "COPY",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df1_read.EMPLOYEE_ID => df2_alias.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df1_read.EMAIL => df2_alias.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "EMPLOYEE_DETAILS.PHONE_NUMBER => df1_read.PHONE_NUMBER": {
+      "mode": "COPY",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df1_read.COMMISSION_PCT => df2_alias.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.DEPARTMENT_ID => df2_alias.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df1_read.PHONE_NUMBER => df2_alias.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df2_alias.JOB_ID => df3_distinct.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "EMPLOYEE_DETAILS.GENDER => df1_read.GENDER": {
+      "mode": "COPY",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df1_read.JOB_ID => df2_alias.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "EMPLOYEE_DETAILS.DEPARTMENT_ID => df1_read.DEPARTMENT_ID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    }
+  },
+  "Spark_Oracle_Join_Hint": {
+    "PEOPLE.NAME => df1_read.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "PEOPLE_DETAILS.ADDRESS => df2_read.ADDRESS": {
+      "mode": "COPY",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "PEOPLE_DETAILS.PINCODE => df2_read.PINCODE": {
+      "mode": "COPY",
+      "lineageFrom": "PINCODE",
+      "lineageTo": "PINCODE"
+    },
+    "HEIGHT => QAA_JAVA_JOINTABLES_AUTO.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "df1_read.CITY => df3_join.CITY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "df2_read.FIRSTNAME => df2_read.FIRSTNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRSTNAME",
+      "lineageTo": "FIRSTNAME"
+    },
+    "df3_join.AGE => df4_hint.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "df1_read.NAME => df3_join.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "df1_read.HEIGHT => df3_join.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "df2_read.FIRSTNAME => df4_hint.FIRSTNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRSTNAME",
+      "lineageTo": "FIRSTNAME"
+    },
+    "df2_read.ADDRESS => df2_read.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "FIRSTNAME => QAA_JAVA_JOINTABLES_AUTO.FIRSTNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRSTNAME",
+      "lineageTo": "FIRSTNAME"
+    },
+    "ADDRESS => QAA_JAVA_JOINTABLES_AUTO.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "df2_read.PINCODE => df4_hint.PINCODE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PINCODE",
+      "lineageTo": "PINCODE"
+    },
+    "PEOPLE.CITY => df1_read.CITY": {
+      "mode": "COPY",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "PINCODE => QAA_JAVA_JOINTABLES_AUTO.PINCODE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PINCODE",
+      "lineageTo": "PINCODE"
+    },
+    "df2_read.DOOR_NUM => df3_join.DOOR_NUM": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DOOR_NUM",
+      "lineageTo": "DOOR_NUM"
+    },
+    "NAME => QAA_JAVA_JOINTABLES_AUTO.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "PEOPLE_DETAILS.FIRSTNAME => df2_read.FIRSTNAME": {
+      "mode": "COPY",
+      "lineageFrom": "FIRSTNAME",
+      "lineageTo": "FIRSTNAME"
+    },
+    "df3_join.PINCODE => df4_hint.PINCODE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PINCODE",
+      "lineageTo": "PINCODE"
+    },
+    "df2_read.ADDRESS => df4_hint.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "DOOR_NUM => QAA_JAVA_JOINTABLES_AUTO.DOOR_NUM": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DOOR_NUM",
+      "lineageTo": "DOOR_NUM"
+    },
+    "df2_read.PINCODE => df2_read.PINCODE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PINCODE",
+      "lineageTo": "PINCODE"
+    },
+    "df3_join.ADDRESS => df4_hint.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "df3_join.CITY => df4_hint.CITY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "AGE => QAA_JAVA_JOINTABLES_AUTO.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "df3_join.NAME => df4_hint.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "df3_join.HEIGHT => df4_hint.HEIGHT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "PEOPLE.HEIGHT => df1_read.HEIGHT": {
+      "mode": "COPY",
+      "lineageFrom": "HEIGHT",
+      "lineageTo": "HEIGHT"
+    },
+    "PEOPLE.AGE => df1_read.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "df2_read.FIRSTNAME => df3_join.FIRSTNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRSTNAME",
+      "lineageTo": "FIRSTNAME"
+    },
+    "df3_join.DOOR_NUM => df4_hint.DOOR_NUM": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DOOR_NUM",
+      "lineageTo": "DOOR_NUM"
+    },
+    "df2_read.PINCODE => df3_join.PINCODE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PINCODE",
+      "lineageTo": "PINCODE"
+    },
+    "df2_read.ADDRESS => df3_join.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "CITY => QAA_JAVA_JOINTABLES_AUTO.CITY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "CITY",
+      "lineageTo": "CITY"
+    },
+    "df3_join.FIRSTNAME => df4_hint.FIRSTNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRSTNAME",
+      "lineageTo": "FIRSTNAME"
+    },
+    "df2_read.DOOR_NUM => df2_read.DOOR_NUM": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DOOR_NUM",
+      "lineageTo": "DOOR_NUM"
+    },
+    "df1_read.AGE => df3_join.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "df2_read.DOOR_NUM => df4_hint.DOOR_NUM": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DOOR_NUM",
+      "lineageTo": "DOOR_NUM"
+    },
+    "PEOPLE_DETAILS.DOOR_NUM => df2_read.DOOR_NUM": {
+      "mode": "COPY",
+      "lineageFrom": "DOOR_NUM",
+      "lineageTo": "DOOR_NUM"
+    }
+  },
+  "Spark_Oracle_dropDuplicates_drop_orderBy_repartition": {
+    "df3_dropDuplicates.SSN => df4_drop.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df1_read.SSN => df2_alias.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df2_alias.EMPLOYEE_ID => df3_dropDuplicates.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "DEPARTMENT_ID => QAA_JAVA_DROP_ORDERBY_AUTO.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df4_drop.JOB_ID => df5_orderBy.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df3_dropDuplicates.FIRST_NAME => df4_drop.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "MANAGER_ID => QAA_JAVA_DROP_ORDERBY_AUTO.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df4_drop.GENDER => df5_orderBy.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df1_read.LAST_NAME => df2_alias.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df5_orderBy.GENDER => df6_repartition.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df5_orderBy.HIRE_DATE => df6_repartition.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "df5_orderBy.JOB_ID => df6_repartition.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "JOB_ID => QAA_JAVA_DROP_ORDERBY_AUTO.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "GENDER => QAA_JAVA_DROP_ORDERBY_AUTO.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df3_dropDuplicates.EMAIL => df4_drop.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "EMPLOYEE_DETAILS.EMPLOYEE_ID => df1_read.EMPLOYEE_ID": {
+      "mode": "COPY",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df1_read.FIRST_NAME => df2_alias.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df4_drop.LAST_NAME => df5_orderBy.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "EMPLOYEE_DETAILS.SALARY => df1_read.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df1_read.MANAGER_ID => df2_alias.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df5_orderBy.SALARY => df6_repartition.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "SALARY => QAA_JAVA_DROP_ORDERBY_AUTO.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "EMPLOYEE_DETAILS.EMAIL => df1_read.EMAIL": {
+      "mode": "COPY",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df5_orderBy.EMPLOYEE_ID => df6_repartition.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "EMPLOYEE_DETAILS.FIRST_NAME => df1_read.FIRST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df5_orderBy.LAST_NAME => df6_repartition.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df1_read.GENDER => df2_alias.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "EMPLOYEE_DETAILS.MANAGER_ID => df1_read.MANAGER_ID": {
+      "mode": "COPY",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "LAST_NAME => QAA_JAVA_DROP_ORDERBY_AUTO.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df5_orderBy.DEPARTMENT_ID => df6_repartition.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df1_read.COMMISSION_PCT => df2_alias.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.PHONE_NUMBER => df2_alias.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df5_orderBy.FIRST_NAME => df6_repartition.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df2_alias.LAST_NAME => df3_dropDuplicates.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df1_read.JOB_ID => df2_alias.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df2_alias.COMMISSION_PCT => df3_dropDuplicates.COMMISSION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df2_alias.PHONE_NUMBER => df3_dropDuplicates.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df4_drop.DEPARTMENT_ID => df5_orderBy.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df4_drop.PHONE_NUMBER => df5_orderBy.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df2_alias.HIRE_DATE => df3_dropDuplicates.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "df2_alias.FIRST_NAME => df3_dropDuplicates.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df3_dropDuplicates.GENDER => df4_drop.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "EMPLOYEE_DETAILS.HIRE_DATE => df1_read.HIRE_DATE": {
+      "mode": "COPY",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "EMPLOYEE_DETAILS.JOB_ID => df1_read.JOB_ID": {
+      "mode": "COPY",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df3_dropDuplicates.MANAGER_ID => df4_drop.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "EMPLOYEE_ID => QAA_JAVA_DROP_ORDERBY_AUTO.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df4_drop.HIRE_DATE => df5_orderBy.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "df4_drop.MANAGER_ID => df5_orderBy.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "FIRST_NAME => QAA_JAVA_DROP_ORDERBY_AUTO.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "EMAIL => QAA_JAVA_DROP_ORDERBY_AUTO.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df2_alias.EMAIL => df3_dropDuplicates.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df3_dropDuplicates.PHONE_NUMBER => df4_drop.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df5_orderBy.EMAIL => df6_repartition.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df2_alias.JOB_ID => df3_dropDuplicates.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df4_drop.FIRST_NAME => df5_orderBy.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "df4_drop.SSN => df5_orderBy.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.SSN => df1_read.SSN": {
+      "mode": "COPY",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df3_dropDuplicates.DEPARTMENT_ID => df4_drop.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "EMPLOYEE_DETAILS.LAST_NAME => df1_read.LAST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "df2_alias.SALARY => df3_dropDuplicates.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df3_dropDuplicates.EMPLOYEE_ID => df4_drop.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df4_drop.SALARY => df5_orderBy.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "EMPLOYEE_DETAILS.COMMISSION_PCT => df1_read.COMMISSION_PCT": {
+      "mode": "COPY",
+      "lineageFrom": "COMMISSION_PCT",
+      "lineageTo": "COMMISSION_PCT"
+    },
+    "df1_read.SALARY => df2_alias.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df1_read.HIRE_DATE => df2_alias.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "df4_drop.EMPLOYEE_ID => df5_orderBy.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df5_orderBy.MANAGER_ID => df6_repartition.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df3_dropDuplicates.SALARY => df4_drop.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "df3_dropDuplicates.JOB_ID => df4_drop.JOB_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOB_ID",
+      "lineageTo": "JOB_ID"
+    },
+    "df2_alias.GENDER => df3_dropDuplicates.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "HIRE_DATE => QAA_JAVA_DROP_ORDERBY_AUTO.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "df1_read.EMPLOYEE_ID => df2_alias.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "df1_read.EMAIL => df2_alias.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "PHONE_NUMBER => QAA_JAVA_DROP_ORDERBY_AUTO.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df3_dropDuplicates.HIRE_DATE => df4_drop.HIRE_DATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIRE_DATE",
+      "lineageTo": "HIRE_DATE"
+    },
+    "SSN => QAA_JAVA_DROP_ORDERBY_AUTO.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.PHONE_NUMBER => df1_read.PHONE_NUMBER": {
+      "mode": "COPY",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df2_alias.SSN => df3_dropDuplicates.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "df1_read.DEPARTMENT_ID => df2_alias.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df2_alias.DEPARTMENT_ID => df3_dropDuplicates.DEPARTMENT_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    },
+    "df5_orderBy.PHONE_NUMBER => df6_repartition.PHONE_NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONE_NUMBER",
+      "lineageTo": "PHONE_NUMBER"
+    },
+    "df2_alias.MANAGER_ID => df3_dropDuplicates.MANAGER_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGER_ID",
+      "lineageTo": "MANAGER_ID"
+    },
+    "df5_orderBy.SSN => df6_repartition.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DETAILS.GENDER => df1_read.GENDER": {
+      "mode": "COPY",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "df4_drop.EMAIL => df5_orderBy.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "df3_dropDuplicates.LAST_NAME => df4_drop.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "EMPLOYEE_DETAILS.DEPARTMENT_ID => df1_read.DEPARTMENT_ID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPARTMENT_ID",
+      "lineageTo": "DEPARTMENT_ID"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DynamoCatalog6",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["SC7DynamoTags"],
+      "pluginType": "cataloger",
+      "dataSource": "DynamoValidDS",
+      "credential": "ValidDYDBCredentials",
+	  "dryRun": false,
+      "filter": null,
+      "tables": [
+        {
+          "table": "AllDataTypes"
+        }
+      ],
+      "properties": []
+    }
+  ]
+}

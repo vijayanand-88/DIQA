@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusUnstruct",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "SC1TIKKACATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "filter": null,
+      "IDA types": [],
+      "EDI technologies": [],
+      "EDI access": {
+        "EDI host": "usyp5thirmoga1v.asg.com",
+        "EDI subject area access roles": [
+          {
+            "role": "RBR_ADM"
+          }
+        ],
+        "EDI subject area name": "AUTOMATION",
+        "EDI port": "9292",
+        "EDI user": "ADMIN",
+        "EDI subject area version": "1.0",
+        "EDI password": "rochade",
+        "EDI database": "AP-DATA"
+      },
+      "EDI types": [],
+      "commands and flags": {
+        "run in transaction": false,
+        "function": "toEDI",
+        "batch size": 1000,
+        "incremental": false
+      },
+      "IDA technologies": [
+        {
+          "technology": "Unstructured"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{"_corrupt_record":"[  "}
+{"_corrupt_record":"   {  "}
+{"_corrupt_record":"      \"string\":\"string1\","}
+{"_corrupt_record":"      \"int\":1,"}
+{"_corrupt_record":"      \"array\":[  "}
+{"_corrupt_record":"         1,"}
+{"_corrupt_record":"         2,"}
+{"_corrupt_record":"         3"}
+{"_corrupt_record":"      ],"}
+{"_corrupt_record":"      \"dict\":{  "}
+{"_corrupt_record":"         \"key\":\"value1\""}
+{"_corrupt_record":"      }"}
+{"_corrupt_record":"   },"}
+{"_corrupt_record":"   {  "}
+{"_corrupt_record":"      \"string\":\"string2\","}
+{"_corrupt_record":"      \"int\":2,"}
+{"_corrupt_record":"      \"array\":[  "}
+{"_corrupt_record":"         2,"}
+{"_corrupt_record":"         4,"}
+{"_corrupt_record":"         6"}
+{"_corrupt_record":"      ],"}
+{"_corrupt_record":"      \"dict\":{  "}
+{"_corrupt_record":"         \"key\":\"value2\""}
+{"_corrupt_record":"      }"}
+{"_corrupt_record":"   },"}
+{"_corrupt_record":"   {  "}
+{"_corrupt_record":"      \"string\":\"string3\","}
+{"_corrupt_record":"      \"int\":3,"}
+{"_corrupt_record":"      \"array\":[  "}
+{"_corrupt_record":"         3,"}
+{"_corrupt_record":"         6,"}
+{"_corrupt_record":"         9"}
+{"_corrupt_record":"      ],"}
+{"_corrupt_record":"      \"dict\":{  "}
+{"_corrupt_record":"         \"key\":\"value3\","}
+{"_corrupt_record":"         \"extra_key\":\"extra_value3\""}
+{"_corrupt_record":"      }"}
+{"_corrupt_record":"   }"}
+{"_corrupt_record":"]"}

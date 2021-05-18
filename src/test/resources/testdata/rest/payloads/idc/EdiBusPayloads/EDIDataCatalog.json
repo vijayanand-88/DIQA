@@ -1,0 +1,11 @@
+{
+  "EDIData": {
+    "label": {
+      "": "EDIData"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "EDIData"
+    }
+  }
+}

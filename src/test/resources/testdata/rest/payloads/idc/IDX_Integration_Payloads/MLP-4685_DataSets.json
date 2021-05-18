@@ -1,0 +1,6 @@
+{
+  "name": "AutomationDataSet",
+  "description": "Table items",
+  "status": "PUBLIC",
+  "dataElements":["BigData.Table:::10"]
+}

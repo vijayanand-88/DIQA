@@ -1,0 +1,18 @@
+{
+  "AGE": {
+    "source": ["AGE"],
+    "target": ["AGE"]
+  },
+  "CITY": {
+    "source": ["CITY"],
+    "target": ["CITY"]
+  },
+  "HEIGHT": {
+    "source": ["HEIGHT"],
+    "target": ["HEIGHT"]
+  },
+  "NAME": {
+    "source": ["NAME"],
+    "target": ["NAME"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "neo4j05": {
+    "label": {
+      "": "neo4j05"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "neo4j05"
+    }
+  }
+}

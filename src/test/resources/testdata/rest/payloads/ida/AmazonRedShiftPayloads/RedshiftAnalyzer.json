@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "RedshiftAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition":  "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "datasource": null,
+      "credential": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "batchWrite": true,
+      "database": "world",
+      "pluginName": "AmazonRedshiftAnalyzer",
+      "sampleDataCount": 25,
+      "queryBatchSize": 100,
+      "schemas": [],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

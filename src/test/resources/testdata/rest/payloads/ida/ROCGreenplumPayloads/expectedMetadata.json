@@ -1,0 +1,70 @@
+{
+  "Service": {
+    "Description1": [
+      "Description",
+      "Definition"
+    ],
+    "Description2": {
+      "Definition": "Greenplum"
+    }
+  },
+  "Database": {
+    "Description1": [
+      "Description",
+      "Definition",
+      "Storage type"
+    ],
+    "Description2": {
+      "Definition": "Automatically generated encoding : 6 encoding name :  : 6 datistemplate : false datallowconn : true ",
+      "Storage type": "Greenplum"
+    }
+  },
+  "Schema": {
+    "Description1": [
+      "Description",
+      "Definition"
+    ],
+    "Description2": {
+      "Description": "nspacl : {gpadmin=UC/gpadmin,=UC/gpadmin} "
+    }
+  },
+  "Table": {
+    "Description1": [
+      "Description",
+      "Created by",
+      "Modified by",
+      "Table Type"
+    ],
+    "Description2": {
+      "Description": "relfilenode : 16564 relpages : 0 reltuples : 0 reloptions :  relacl :  isPartition : false ",
+      "Created by": "ADMIN",
+      "Modified by": "ADMIN",
+      "Table Type": "TABLE"
+    }
+  },
+  "Column": {
+    "Lifecycle": [
+      "Created",
+      "Modified"
+    ],
+    "Statistics": {
+      "Length": "0"
+    },
+    "Description": {
+      "Description": "attnum : 1 attlen : 4 attndims : 0 atttypmod : -1 attbyval : true attstorage : p attisdropped : false attislocal : true attinhcount : 0 data_type : integer character_maximum_length :  numeric_precision : 32 numeric_precision_radix : 2 numeric_scale : 0 datetime_precision :  tech_type : int4 ",
+      "Created by": "ADMIN",
+      "Modified by": "ADMIN"
+    }
+  },
+  "Routine": {
+    "Lifecycle": [
+      "Created",
+      "Modified"
+    ],
+    "Description": {
+      "Created by": "ADMIN",
+      "routineType": "FUNCTION"
+    }
+  }
+}
+

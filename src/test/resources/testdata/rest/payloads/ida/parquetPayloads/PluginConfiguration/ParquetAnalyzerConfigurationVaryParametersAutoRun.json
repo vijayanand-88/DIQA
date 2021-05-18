@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "ParquetAnalyzer",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "autoStart": true,
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"Cluster Demo\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "ParquetTag1"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "Parquet_BA",
+      "dryRun": false,
+      "schedule": null,
+      "runAfter": [],
+      "filter": null,
+      "histogramBuckets": 10,
+      "sparkOptions": [
+        {
+          "key": "deploy.mode",
+          "value": "cluster"
+        },
+        {
+          "key": "spark.network.timeout",
+          "value": "600s"
+        }
+      ],
+      "pluginName": "ParquetAnalyzer",
+      "dataSample": {
+        "sampleSize": 5
+      },
+      "type": "Dataanalyzer",
+      "topValues": 5
+    }
+  ]
+}

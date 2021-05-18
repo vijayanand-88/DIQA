@@ -1,0 +1,354 @@
+{
+  "caption" : {
+    "name" : "Domain=amazonaws.com;Region=us-east-1;",
+    "type" : "Host",
+    "id" : "Default.Host:::38517",
+    "actions" : [ {
+      "class" : "com.asg.dis.platform.data.component.itemview.dom.ItemAction",
+      "name" : "create-assign-item",
+      "requiredPermissions" : [ "DATA_MODIFY" ],
+      "label" : "Assign to Data Set",
+      "icon" : "fa fa-database",
+      "disabled" : false,
+      "requiredUsers" : [ ],
+      "requiredRoles" : [ ],
+      "params" : {
+        "historyItemId" : null,
+        "scopeid" : "Default.Cluster%3A%3A%3A38516",
+        "catalog" : "Default",
+        "name" : "Domain%3Damazonaws.com%3BRegion%3Dus-east-1%3B",
+        "id" : "Default.Host%3A%3A%3A38517",
+        "type" : "Host"
+      }
+    }, {
+      "class" : "com.asg.dis.platform.data.component.itemview.dom.ItemAction",
+      "name" : "refresh-async",
+      "endpoint" : "/trustscores/{catalog}",
+      "requiredPermissions" : [ ],
+      "label" : "Refresh Trust",
+      "icon" : "fa fa-refresh",
+      "disabled" : false,
+      "requiredUsers" : [ ],
+      "requiredRoles" : [ ],
+      "params" : {
+        "historyItemId" : null,
+        "scopeid" : "Default.Cluster%3A%3A%3A38516",
+        "catalog" : "Default",
+        "name" : "Domain%3Damazonaws.com%3BRegion%3Dus-east-1%3B",
+        "id" : "Default.Host%3A%3A%3A38517",
+        "type" : "Host"
+      }
+    } ],
+    "editableIcon" : false,
+    "breadCrumbs" : [ {
+      "name" : "Domain=amazonaws.com;Region=us-east-1;",
+      "tooltip" : "Domain=amazonaws.com;Region=us-east-1; [Cluster]",
+      "id" : "Default.Cluster:::38516"
+    }, {
+      "name" : "Domain=amazonaws.com;Region=us-east-1;",
+      "tooltip" : "Domain=amazonaws.com;Region=us-east-1; [Host]",
+      "id" : "Default.Host:::38517"
+    } ],
+    "historyVersion" : null,
+    "editableName" : false,
+    "refreshItemOnChangeEndpoint" : "/websocket/events/broadcast",
+    "quality" : {
+      "message" : "Not applicable",
+      "color" : "#A59C9C",
+      "value" : 0.0
+    }
+  },
+  "data" : [ {
+    "category" : "Overview",
+    "preview" : true,
+    "data" : [ {
+      "type" : "multi-properties",
+      "caption" : "Description",
+      "data" : {
+        "attributes" : [ {
+          "type" : "string",
+          "caption" : "Host name",
+          "data" : {
+            "value" : "Domain=amazonaws.com;Region=us-east-1;",
+            "attributeName" : "hostName",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.Host%3A%3A%3A38517",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "multi-properties",
+      "caption" : "Statistics",
+      "data" : {
+        "attributes" : [ {
+          "type" : "number",
+          "caption" : "Number of cores",
+          "data" : {
+            "value" : 0,
+            "attributeName" : "coresNum",
+            "editable" : false,
+            "endpoint" : "services/items/Default/Default.Host%3A%3A%3A38517",
+            "modified" : false,
+            "others" : { }
+          },
+          "actions" : [ ],
+          "layout" : {
+            "height" : 2,
+            "width" : 3,
+            "page" : 0,
+            "x" : 0,
+            "y" : 0,
+            "rows" : 0,
+            "cols" : 0
+          },
+          "additionalConfiguration" : { }
+        } ],
+        "editable" : false,
+        "modified" : false
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  }, {
+    "category" : "Relationships",
+    "preview" : false,
+    "data" : [ {
+      "type" : "lineage",
+      "caption" : "DataLineage",
+      "data" : {
+        "theme" : "relationships",
+        "id" : "Default.Host:::38517"
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 0,
+        "width" : 0,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  } ],
+  "sideBar" : {
+    "widgets" : [ {
+      "type" : "rating",
+      "caption" : "Rating",
+      "data" : {
+        "content" : {
+          "ratingCount" : 0,
+          "averageRating" : 0.0,
+          "userRating" : 0,
+          "ratings" : [ ],
+          "maxValue" : 5
+        },
+        "links" : {
+          "add" : {
+            "value" : "/ratings/Default/Default.Host:::38517/",
+            "params" : { }
+          },
+          "get" : {
+            "value" : "/ratings/Default/Default.Host:::38517/",
+            "params" : { }
+          },
+          "delete" : {
+            "value" : "/ratings/Default/Default.Host:::38517/",
+            "params" : { }
+          }
+        }
+      },
+      "actions" : [ ],
+      "layout" : {
+        "height" : 1,
+        "width" : 2,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    }, {
+      "type" : "taglist",
+      "caption" : "Tags",
+      "data" : [ {
+        "id" : "Default.Tag:::33712",
+        "name" : "DYNAMODB_BA",
+        "rootTagName" : "DYNAMODB_BA",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-09-08T03:02:54.437+0000",
+        "asg_createdat" : "2020-09-06T14:02:08.049+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::526",
+        "name" : "Dynamo DB",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "Cloud based Dynamo DB",
+        "status" : "APPROVED",
+        "type" : "Technology Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-09-08T03:02:54.437+0000",
+        "asg_createdat" : "2020-09-03T07:43:28.535+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::32998",
+        "name" : "SC1DynamoTags",
+        "rootTagName" : "SC1DynamoTags",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-09-08T03:02:54.437+0000",
+        "asg_createdat" : "2020-09-06T05:34:57.842+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "topBar" : {
+    "widgets" : [ {
+      "type" : "tag-details",
+      "caption" : "Tags",
+      "data" : [ {
+        "id" : "Default.Tag:::33712",
+        "name" : "DYNAMODB_BA",
+        "rootTagName" : "DYNAMODB_BA",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-09-08T03:02:54.437+0000",
+        "asg_createdat" : "2020-09-06T14:02:08.049+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::526",
+        "name" : "Dynamo DB",
+        "rootTagName" : "Technology",
+        "parentTagName" : "",
+        "definition" : "Cloud based Dynamo DB",
+        "status" : "APPROVED",
+        "type" : "Technology Tag",
+        "image" : {
+          "icon" : "icon-technology",
+          "color" : "#35906c"
+        },
+        "userAssignable" : false,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-09-08T03:02:54.437+0000",
+        "asg_createdat" : "2020-09-03T07:43:28.535+0000",
+        "isRoot" : false,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      }, {
+        "id" : "Default.Tag:::32998",
+        "name" : "SC1DynamoTags",
+        "rootTagName" : "SC1DynamoTags",
+        "parentTagName" : "",
+        "definition" : "",
+        "status" : "APPROVED",
+        "type" : "Structure Information Tag",
+        "userAssignable" : true,
+        "subTags" : [ ],
+        "asg_modifiedat" : "2020-09-08T03:02:54.437+0000",
+        "asg_createdat" : "2020-09-06T05:34:57.842+0000",
+        "isRoot" : true,
+        "catalog" : "Default",
+        "asg_createdby" : "Service",
+        "asg_modifiedby" : "Service"
+      } ],
+      "actions" : [ ],
+      "layout" : {
+        "height" : 2,
+        "width" : 3,
+        "page" : 0,
+        "x" : 0,
+        "y" : 0,
+        "rows" : 0,
+        "cols" : 0
+      },
+      "additionalConfiguration" : { }
+    } ]
+  },
+  "hierarchy" : [ {
+    "label" : "Domain=amazonaws.com;Region=us-east-1;",
+    "children" : [ {
+      "label" : "Domain=amazonaws.com;Region=us-east-1;",
+      "children" : [ ]
+    } ]
+  } ]
+}

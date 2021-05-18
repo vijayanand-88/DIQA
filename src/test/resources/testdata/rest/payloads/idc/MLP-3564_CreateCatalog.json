@@ -1,0 +1,11 @@
+{
+  "Deletion": {
+    "label": {
+      "": "Deletion"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Deletion"
+    }
+  }
+}

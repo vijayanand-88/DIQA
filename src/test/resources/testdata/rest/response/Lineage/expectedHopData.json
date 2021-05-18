@@ -1,0 +1,44 @@
+{
+  "QATest212": {
+    "ds0.fare => rc1.fare": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "train_sm_s2adb_csv.passengerid => ds0.passengerid": {
+      "mode": "COPY",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "ds0.ticket => rc1.ticket": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "ds0.age => rc1.age": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    },
+    "train_sm_s2adb_csv.fare => ds0.fare": {
+      "mode": "COPY",
+      "lineageFrom": "fare",
+      "lineageTo": "fare"
+    },
+    "ds0.passengerid => rc1.passengerid": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "passengerid",
+      "lineageTo": "passengerid"
+    },
+    "train_sm_s2adb_csv.ticket => ds0.ticket": {
+      "mode": "DELETE",
+      "lineageFrom": "ticket",
+      "lineageTo": "ticket"
+    },
+    "train_sm_s2adb_csv.age => ds0.age": {
+      "mode": "COPY",
+      "lineageFrom": "age",
+      "lineageTo": "age"
+    }
+  }
+}

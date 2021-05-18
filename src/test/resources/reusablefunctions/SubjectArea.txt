@@ -1,0 +1,21 @@
+
+1. Method to Verfiy Technology Tags
+
+ Then user "verify tag item presence" of technology tags for the below Type and file names
+      | catalogName | name      | facet | Tag                  | fileName        |
+      | S3AmazonSC1 | File      | Type  | Cloud Data,Amazon S3 | AWSS3Errors.txt |
+      | S3AmazonSC1 | Directory | Type  | Cloud Data,Amazon S3 | AutoTestData    |
+
+2. Method to Compare value from Json Object and value of Metatdata Attributes in UI
+
+And user "Get" the json file value from "ida/AmazonRedShiftPayloads/IncrementalConfig/IncrementalExpected.json" and Compare With UI Values
+        | Action    | jsonObject                     | AttributeName      |
+        | NotEquals | $.employee.Last_Cataloged_at t | Last catalogued at |
+        | Equals | $.employee.Last_Cataloged_at t | Last catalogued at |
+
+3. Method to copy the metadata value from Item view page and update in the json object value using jsonpath
+
+And user copy metadata value from Item View Page and write to file
+        | attributeName  | Last catalogued at                                                             |
+        | actualFilePath | payloads/ida/AmazonRedShiftPayloads/IncrementalConfig/IncrementalExpected.json |
+        | jsonpath       | $.employee.Last_Cataloged_at                                                   |

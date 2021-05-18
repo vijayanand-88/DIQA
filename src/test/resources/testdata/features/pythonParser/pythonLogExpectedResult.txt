@@ -1,0 +1,61 @@
+INFO - PARSING-0001: Parsing file GlobalNonLocalYieldStatement
+INFO - PARSING-0002: File GlobalNonLocalYieldStatement parsed with no errors
+INFO - PARSING-0001: Parsing file ExpressionStatement
+INFO - PARSING-0002: File ExpressionStatement parsed with no errors
+INFO - PARSING-0001: Parsing file TryStatement
+INFO - PARSING-0002: File TryStatement parsed with no errors
+INFO - PARSING-0001: Parsing file FunctionCallChaining
+INFO - PARSING-0002: File FunctionCallChaining parsed with no errors
+INFO - PARSING-0001: Parsing file ClassDefinitions
+INFO - PARSING-0002: File ClassDefinitions parsed with no errors
+INFO - PARSING-0001: Parsing file FunctionDefinition
+INFO - PARSING-0002: File FunctionDefinition parsed with no errors
+INFO - PARSING-0001: Parsing file IfStatement
+INFO - PARSING-0002: File IfStatement parsed with no errors
+INFO - PARSING-0001: Parsing file WithStatement
+INFO - PARSING-0002: File WithStatement parsed with no errors
+INFO - PARSING-0001: Parsing file ForStatement
+INFO - PARSING-0002: File ForStatement parsed with no errors
+INFO - PARSING-0001: Parsing file FileLevelStatement
+INFO - PARSING-0002: File FileLevelStatement parsed with no errors
+INFO - PARSING-0001: Parsing file WhileStatement
+INFO - PARSING-0002: File WhileStatement parsed with no errors
+INFO - PARSING-0001: Parsing file OperatorPrecedence
+INFO - PARSING-0002: File OperatorPrecedence parsed with no errors
+INFO - PARSING-0001: Parsing file FunCallVardeclaration
+INFO - PARSING-0002: File FunCallVardeclaration parsed with no errors
+INFO - PARSING-0001: Parsing file RaiseStatement
+INFO - PARSING-0002: File RaiseStatement parsed with no errors
+INFO - PARSING-0001: Parsing file TestCoverage
+INFO - PARSING-0002: File TestCoverage parsed with no errors
+INFO - PARSING-0001: Parsing file AssertStatement
+INFO - PARSING-0002: File AssertStatement parsed with no errors
+INFO - PARSING-0001: Parsing file sample2
+INFO - PARSING-0002: File sample2 parsed with no errors
+INFO - PARSING-0001: Parsing file error
+ERROR - PARSING-0003: File error parsed with 3 error(s)
+ERROR - {"lineNumber":1,"position":4,"errorMsg":"missing ':' at ' '","userInfo":"missing ","name":"error"}
+ERROR - {"lineNumber":5,"position":6,"errorMsg":"extraneous input '\\t\\t    ' expecting {'def', 'return', 'raise', 'from', 'import', 'global', 'nonlocal', 'assert', 'if', 'while', 'for', 'try', 'with', 'lambda', 'not', 'None', 'True', 'False', 'class', 'yield', 'del', 'pass', 'continue', 'break', 'async', 'await', NAME, STRING_LITERAL, BYTES_LITERAL, UNSIGNED_INTEGER, DECIMAL_INTEGER, OCT_INTEGER, HEX_INTEGER, BIN_INTEGER, FLOAT_NUMBER, IMAG_NUMBER, '...', '*', '(', '[', '+', '-', '~', '{', '@', DEDENT}","userInfo":"extraneous input ","name":"error"}
+ERROR - {"lineNumber":5,"position":24,"errorMsg":"extraneous input ')' expecting {<EOF>, 'def', 'return', 'raise', 'from', 'import', 'global', 'nonlocal', 'assert', 'if', 'while', 'for', 'try', 'with', 'lambda', 'not', 'None', 'True', 'False', 'class', 'yield', 'del', 'pass', 'continue', 'break', 'async', 'await', NEWLINE, NAME, STRING_LITERAL, BYTES_LITERAL, UNSIGNED_INTEGER, DECIMAL_INTEGER, OCT_INTEGER, HEX_INTEGER, BIN_INTEGER, FLOAT_NUMBER, IMAG_NUMBER, '...', '*', '(', '[', '+', '-', '~', '{', '@'}","userInfo":"extraneous input ","name":"error"}
+INFO - PARSING-0001: Parsing file ImportStatement
+INFO - PARSING-0002: File ImportStatement parsed with no errors
+INFO - PARSING-0001: Parsing file DictionaryType
+INFO - PARSING-0002: File DictionaryType parsed with no errors
+INFO - PARSING-0001: Parsing file sample1
+INFO - PARSING-0002: File sample1 parsed with no errors
+INFO - PARSING-0001: Parsing file ClassInsideFunction
+INFO - PARSING-0002: File ClassInsideFunction parsed with no errors
+INFO - PARSING-0001: Parsing file LambdaStatement
+INFO - PARSING-0002: File LambdaStatement parsed with no errors
+INFO - PARSING-0001: Parsing file __init__
+INFO - PARSING-0002: File __init__ parsed with no errors
+INFO - PARSING-0001: Parsing file foo
+INFO - PARSING-0002: File foo parsed with no errors
+INFO - PARSING-0001: Parsing file __init__
+INFO - PARSING-0002: File __init__ parsed with no errors
+INFO - PARSING-0001: Parsing file bar1
+INFO - PARSING-0002: File bar1 parsed with no errors
+INFO - PARSING-0001: Parsing file bar
+INFO - PARSING-0002: File bar parsed with no errors
+INFO - PARSING-0001: Parsing file __init__
+INFO - PARSING-0002: File __init__ parsed with no errors

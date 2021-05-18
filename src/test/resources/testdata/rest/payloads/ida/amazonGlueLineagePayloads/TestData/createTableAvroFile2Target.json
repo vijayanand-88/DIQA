@@ -1,0 +1,78 @@
+{
+  "tableName": "avrofile2target",
+  "description": "Table Description",
+  "database": "linkertargetdb",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "username",
+        "type": "string",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqatestautomation4/SourceFiles/s3FileSupportWithGlueTable/GlueTarget/AvroFileOp/",
+  "inputFormat": "org.apache.hadoop.hive.ql.io.avro.AvroContainerInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.avro.AvroContainerOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "username",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "tweet",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "timestamp",
+          "type": "bigint",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.avro.AvroSerDe",
+    "parameters": {
+      "avro.schema.literal": "{\"type\":\"record\",\"name\":\"twitter_schema\",\"namespace\":\"com.miguno.avro\",\"fields\":[{\"name\":\"username\",\"type\":\"string\",\"doc\":\"Name of the user account on Twitter.com\"},{\"name\":\"tweet\",\"type\":\"string\",\"doc\":\"The content of the user's Twitter message\"},{\"name\":\"timestamp\",\"type\":\"long\",\"doc\":\"Unix epoch time in milliseconds\"}],\"doc:\":\"A basic schema for storing Twitter messages\"}",
+      "serialization.format": "1"
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {
+    "sizeKey": "548",
+    "objectCount": "1",
+    "UPDATED_BY_CRAWLER": "avro",
+    "avro.schema.literal": "{\"type\":\"record\",\"name\":\"twitter_schema\",\"namespace\":\"com.miguno.avro\",\"fields\":[{\"name\":\"username\",\"type\":\"string\",\"doc\":\"Name of the user account on Twitter.com\"},{\"name\":\"tweet\",\"type\":\"string\",\"doc\":\"The content of the user's Twitter message\"},{\"name\":\"timestamp\",\"type\":\"long\",\"doc\":\"Unix epoch time in milliseconds\"}],\"doc:\":\"A basic schema for storing Twitter messages\"}",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "3",
+    "averageRecordSize": "50",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "avro",
+    "typeOfData": "file"
+  },
+  "SkewedInfo": {  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "sizeKey": "548",
+    "objectCount": "1",
+    "UPDATED_BY_CRAWLER": "avro",
+    "avro.schema.literal": "{\"type\":\"record\",\"name\":\"twitter_schema\",\"namespace\":\"com.miguno.avro\",\"fields\":[{\"name\":\"username\",\"type\":\"string\",\"doc\":\"Name of the user account on Twitter.com\"},{\"name\":\"tweet\",\"type\":\"string\",\"doc\":\"The content of the user's Twitter message\"},{\"name\":\"timestamp\",\"type\":\"long\",\"doc\":\"Unix epoch time in milliseconds\"}],\"doc:\":\"A basic schema for storing Twitter messages\"}",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "recordCount": "3",
+    "averageRecordSize": "50",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "compressionType": "none",
+    "classification": "avro",
+    "typeOfData": "file"
+  }
+}

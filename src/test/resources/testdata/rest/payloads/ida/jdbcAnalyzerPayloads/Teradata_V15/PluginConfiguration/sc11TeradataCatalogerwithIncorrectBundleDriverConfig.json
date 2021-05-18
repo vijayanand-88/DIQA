@@ -1,0 +1,31 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TeradataCatalogerwithIncorrectBundleDriver",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [
+    "SC11TeradataCatalogerWithIncorrectBundleDriver"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "TeradataDataSourceWithWrongDriverName",
+  "credential": "TeradataCredentials",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "TeradataDBCataloger",
+  "databaseFilter": [
+    {
+      "database": "automation_test_db"
+    }
+  ],
+  "casesensitive": true,
+  "arguments": [],
+  "type": "Cataloger"
+}

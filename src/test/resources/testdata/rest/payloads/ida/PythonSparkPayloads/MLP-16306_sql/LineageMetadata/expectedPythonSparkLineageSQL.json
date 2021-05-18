@@ -1,0 +1,1313 @@
+{
+  "TableToTable_View": {
+    "CUSTOMERS.AGE => SFtoSF_DF.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "SFtoSF_DF.AGE => TempviewJDBC.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "SFtoSF_DF.NAME => TempviewJDBC.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "SFtoSF_DF_write.AGE => CUSTOMERS_TEMPVIEW.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "SFtoSF_DF.ID => TempviewJDBC.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "SFtoSF_DF_write.ID => CUSTOMERS_TEMPVIEW.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "CUSTOMERS.ID => SFtoSF_DF.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "SFtoSF_DF.ADDRESS => TempviewJDBC.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "TempviewJDBC.ID => SFtoSF_DF_write.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "SFtoSF_DF_write.NAME => CUSTOMERS_TEMPVIEW.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "CUSTOMERS.NAME => SFtoSF_DF.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "TempviewJDBC.NAME => SFtoSF_DF_write.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "CUSTOMERS.ADDRESS => SFtoSF_DF.ADDRESS": {
+      "mode": "COPY",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "TempviewJDBC.AGE => SFtoSF_DF_write.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "TempviewJDBC.ADDRESS => SFtoSF_DF_write.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    }
+  },
+  "TableToTable_SelectAllColumns": {
+    "SFtoSF_DF.ADDRESS => SelectAllColumns.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "CUSTOMERS.AGE => SFtoSF_DF.AGE": {
+      "mode": "COPY",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "SelectAllColumns.NAME => SF_To_SF_jdbc_write.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "SFtoSF_DF.ID => SelectAllColumns.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "SF_To_SF_jdbc_write.NAME => CUSTOMERS_ALL_COLUMNS.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "SelectAllColumns.AGE => SF_To_SF_jdbc_write.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "CUSTOMERS.ID => SFtoSF_DF.ID": {
+      "mode": "COPY",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "SFtoSF_DF.NAME => SelectAllColumns.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "SF_To_SF_jdbc_write.AGE => CUSTOMERS_ALL_COLUMNS.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "SelectAllColumns.ID => SF_To_SF_jdbc_write.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "SFtoSF_DF.AGE => SelectAllColumns.AGE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "AGE",
+      "lineageTo": "AGE"
+    },
+    "SF_To_SF_jdbc_write.ID => CUSTOMERS_ALL_COLUMNS.ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ID",
+      "lineageTo": "ID"
+    },
+    "CUSTOMERS.NAME => SFtoSF_DF.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "SelectAllColumns.ADDRESS => SF_To_SF_jdbc_write.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "CUSTOMERS.ADDRESS => SFtoSF_DF.ADDRESS": {
+      "mode": "COPY",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "SF_To_SF_jdbc_write.ADDRESS => CUSTOMERS_ALL_COLUMNS.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    }
+  },
+  "FiletoFile_GlobalTempView": {
+    "fileToFileGlobalView.Number => jsonTojson_write.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "jsonTojson.FullName => fileToFileGlobalView.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson_write.Position => hdfs_output.json.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "hdfs.json.Club => jsonTojson.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson_write.Number => hdfs_output.json.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "fileToFileGlobalView.Club => jsonTojson_write.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "fileToFileGlobalView.DateOfBirth => jsonTojson_write.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "fileToFileGlobalView.Team => jsonTojson_write.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "fileToFileGlobalView.Position => jsonTojson_write.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson.Team => fileToFileGlobalView.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson.Number => fileToFileGlobalView.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "fileToFileGlobalView.IsCaptain => jsonTojson_write.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "jsonTojson.Competition => fileToFileGlobalView.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson_write.FullName => hdfs_output.json.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "hdfs.json.Team => jsonTojson.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson_write.Competition => hdfs_output.json.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson.Position => fileToFileGlobalView.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "hdfs.json.Position => jsonTojson.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson.ClubCountry => fileToFileGlobalView.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "hdfs.json.Competition => jsonTojson.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "fileToFileGlobalView.ClubCountry => jsonTojson_write.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson.Club => fileToFileGlobalView.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "hdfs.json.IsCaptain => jsonTojson.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "fileToFileGlobalView.Competition => jsonTojson_write.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson_write.ClubCountry => hdfs_output.json.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson_write.Club => hdfs_output.json.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson_write.Team => hdfs_output.json.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson_write.IsCaptain => hdfs_output.json.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "hdfs.json.DateOfBirth => jsonTojson.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson.IsCaptain => fileToFileGlobalView.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "hdfs.json.FullName => jsonTojson.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson.DateOfBirth => fileToFileGlobalView.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson_write.DateOfBirth => hdfs_output.json.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "hdfs.json.Number => jsonTojson.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "hdfs.json.ClubCountry => jsonTojson.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "fileToFileGlobalView.FullName => jsonTojson_write.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    }
+  },
+  "FileToFile_multiple_write": {
+    "fileToFileMultiplewrite.Number => jsonTojson_write.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "hdfs.json.Club => jsonTojson.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson_write.Competition => hdfs_output_Multiwrite1.json.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson.DateOfBirth => fileToFileMultiplewrite.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson_write.Club => hdfs_output_Multiwrite2.json.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson_write.DateOfBirth => hdfs_output_Multiwrite2.json.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson_write.Position => hdfs_output_Multiwrite1.json.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "fileToFileMultiplewrite.ClubCountry => jsonTojson_write.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson.FullName => fileToFileMultiplewrite.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson_write.ClubCountry => hdfs_output_Multiwrite2.json.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "hdfs.json.Team => jsonTojson.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson_write.IsCaptain => hdfs_output_Multiwrite1.json.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "fileToFileMultiplewrite.FullName => jsonTojson_write.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson_write.Competition => hdfs_output_Multiwrite2.json.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson_write.Team => hdfs_output_Multiwrite2.json.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson_write.FullName => hdfs_output_Multiwrite1.json.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "hdfs.json.Position => jsonTojson.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson_write.ClubCountry => hdfs_output_Multiwrite1.json.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson.Club => fileToFileMultiplewrite.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "fileToFileMultiplewrite.Position => jsonTojson_write.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "hdfs.json.Competition => jsonTojson.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson_write.Club => hdfs_output_Multiwrite1.json.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "hdfs.json.IsCaptain => jsonTojson.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "jsonTojson.Number => fileToFileMultiplewrite.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "jsonTojson.Competition => fileToFileMultiplewrite.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "fileToFileMultiplewrite.Club => jsonTojson_write.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "fileToFileMultiplewrite.Team => jsonTojson_write.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson.IsCaptain => fileToFileMultiplewrite.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "hdfs.json.DateOfBirth => jsonTojson.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "fileToFileMultiplewrite.DateOfBirth => jsonTojson_write.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson_write.IsCaptain => hdfs_output_Multiwrite2.json.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "jsonTojson_write.FullName => hdfs_output_Multiwrite2.json.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson_write.Number => hdfs_output_Multiwrite1.json.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "hdfs.json.FullName => jsonTojson.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "fileToFileMultiplewrite.Competition => jsonTojson_write.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson_write.Team => hdfs_output_Multiwrite1.json.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "fileToFileMultiplewrite.IsCaptain => jsonTojson_write.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "jsonTojson_write.Number => hdfs_output_Multiwrite2.json.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "jsonTojson_write.Position => hdfs_output_Multiwrite2.json.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "hdfs.json.Number => jsonTojson.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "jsonTojson.ClubCountry => fileToFileMultiplewrite.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson.Position => fileToFileMultiplewrite.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson.Team => fileToFileMultiplewrite.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "hdfs.json.ClubCountry => jsonTojson.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson_write.DateOfBirth => hdfs_output_Multiwrite1.json.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    }
+  },
+  "TableToTable_multiple_write_and_views": {
+    "tableToTableMultipleWrites2.EMPLOYEE_ID => jdbcDF3.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "EMPLOYEE_DATA.SSN => jdbcDF2.SSN": {
+      "mode": "COPY",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "jdbcDF2.DEPTID => tableToTableMultipleWrites2.DEPTID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPTID",
+      "lineageTo": "DEPTID"
+    },
+    "EMPLOYEE_DATA.FIRST_NAME => jdbcDF2.FIRST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "tableToTableMultipleWrites.NAME => jdbcDF1.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "jdbcDF1.NAME => STUDENT_TWOCOLUMNS_MULTIPLEDF.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "jdbcDF1.STUDENTID => STUDENT_TWOCOLUMNS_MULTIPLEDF.STUDENTID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "STUDENTID",
+      "lineageTo": "STUDENTID"
+    },
+    "EMPLOYEE_DATA.DEPTID => jdbcDF2.DEPTID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPTID",
+      "lineageTo": "DEPTID"
+    },
+    "jdbcDF2.FIRST_NAME => tableToTableMultipleWrites2.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "tableToTableMultipleWrites2.EMAIL => jdbcDF3.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "STUDENT.ADDRESS => jdbcDF.ADDRESS": {
+      "mode": "COPY",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "STUDENT.NAME => jdbcDF.NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "jdbcDF.STUDENTID => tableToTableMultipleWrites.STUDENTID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "STUDENTID",
+      "lineageTo": "STUDENTID"
+    },
+    "tableToTableMultipleWrites.STUDENTID => jdbcDF1.STUDENTID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "STUDENTID",
+      "lineageTo": "STUDENTID"
+    },
+    "EMPLOYEE_DATA.HIREDATE => jdbcDF2.HIREDATE": {
+      "mode": "COPY",
+      "lineageFrom": "HIREDATE",
+      "lineageTo": "HIREDATE"
+    },
+    "jdbcDF2.JOBID => tableToTableMultipleWrites2.JOBID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "JOBID",
+      "lineageTo": "JOBID"
+    },
+    "jdbcDF2.MANAGERID => tableToTableMultipleWrites2.MANAGERID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "MANAGERID",
+      "lineageTo": "MANAGERID"
+    },
+    "jdbcDF3.FIRST_NAME => EMPLOYEE_DATA_GENDER_FILTER_3SELECT.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "EMPLOYEE_DATA.MANAGERID => jdbcDF2.MANAGERID": {
+      "mode": "COPY",
+      "lineageFrom": "MANAGERID",
+      "lineageTo": "MANAGERID"
+    },
+    "jdbcDF2.SSN => tableToTableMultipleWrites2.SSN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SSN",
+      "lineageTo": "SSN"
+    },
+    "EMPLOYEE_DATA.EMAIL => jdbcDF2.EMAIL": {
+      "mode": "COPY",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "jdbcDF2.EMPLOYEE_ID => tableToTableMultipleWrites2.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "jdbcDF2.HIREDATE => tableToTableMultipleWrites2.HIREDATE": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "HIREDATE",
+      "lineageTo": "HIREDATE"
+    },
+    "jdbcDF2.GENDER => tableToTableMultipleWrites2.GENDER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "EMPLOYEE_DATA.GENDER => jdbcDF2.GENDER": {
+      "mode": "COPY",
+      "lineageFrom": "GENDER",
+      "lineageTo": "GENDER"
+    },
+    "STUDENT.STUDENTID => jdbcDF.STUDENTID": {
+      "mode": "COPY",
+      "lineageFrom": "STUDENTID",
+      "lineageTo": "STUDENTID"
+    },
+    "tableToTableMultipleWrites.ADDRESS => jdbcDF1.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    },
+    "tableToTableMultipleWrites2.FIRST_NAME => jdbcDF3.FIRST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FIRST_NAME",
+      "lineageTo": "FIRST_NAME"
+    },
+    "jdbcDF2.LAST_NAME => tableToTableMultipleWrites2.LAST_NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "EMPLOYEE_DATA.LAST_NAME => jdbcDF2.LAST_NAME": {
+      "mode": "COPY",
+      "lineageFrom": "LAST_NAME",
+      "lineageTo": "LAST_NAME"
+    },
+    "jdbcDF2.EMAIL => tableToTableMultipleWrites2.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "jdbcDF2.PHONENUMBER => tableToTableMultipleWrites2.PHONENUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PHONENUMBER",
+      "lineageTo": "PHONENUMBER"
+    },
+    "jdbcDF3.EMAIL => EMPLOYEE_DATA_GENDER_FILTER_3SELECT.EMAIL": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMAIL",
+      "lineageTo": "EMAIL"
+    },
+    "EMPLOYEE_DATA.PHONENUMBER => jdbcDF2.PHONENUMBER": {
+      "mode": "COPY",
+      "lineageFrom": "PHONENUMBER",
+      "lineageTo": "PHONENUMBER"
+    },
+    "EMPLOYEE_DATA.COMMISION_PCT => jdbcDF2.COMMISION_PCT": {
+      "mode": "COPY",
+      "lineageFrom": "COMMISION_PCT",
+      "lineageTo": "COMMISION_PCT"
+    },
+    "EMPLOYEE_DATA.JOBID => jdbcDF2.JOBID": {
+      "mode": "COPY",
+      "lineageFrom": "JOBID",
+      "lineageTo": "JOBID"
+    },
+    "EMPLOYEE_DATA.EMPLOYEE_ID => jdbcDF2.EMPLOYEE_ID": {
+      "mode": "COPY",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "jdbcDF.NAME => tableToTableMultipleWrites.NAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "jdbcDF3.EMPLOYEE_ID => EMPLOYEE_DATA_GENDER_FILTER_3SELECT.EMPLOYEE_ID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "EMPLOYEE_ID",
+      "lineageTo": "EMPLOYEE_ID"
+    },
+    "jdbcDF2.COMMISION_PCT => tableToTableMultipleWrites2.COMMISION_PCT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "COMMISION_PCT",
+      "lineageTo": "COMMISION_PCT"
+    },
+    "jdbcDF.ADDRESS => tableToTableMultipleWrites.ADDRESS": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ADDRESS",
+      "lineageTo": "ADDRESS"
+    }
+  },
+  "FiletoFile_TempView": {
+    "jsonTojson_write.Team => hdfs_output_temp.json.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "fileToFileTempView.ClubCountry => jsonTojson_write.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson_write.FullName => hdfs_output_temp.json.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "hdfs.json.Club => jsonTojson.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson_write.Position => hdfs_output_temp.json.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "fileToFileTempView.Competition => jsonTojson_write.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson.Club => fileToFileTempView.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson.FullName => fileToFileTempView.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson_write.Number => hdfs_output_temp.json.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "jsonTojson.IsCaptain => fileToFileTempView.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "hdfs.json.Team => jsonTojson.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson_write.DateOfBirth => hdfs_output_temp.json.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "hdfs.json.Position => jsonTojson.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson.ClubCountry => fileToFileTempView.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson_write.Club => hdfs_output_temp.json.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson_write.ClubCountry => hdfs_output_temp.json.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson.DateOfBirth => fileToFileTempView.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson_write.IsCaptain => hdfs_output_temp.json.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "hdfs.json.Competition => jsonTojson.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson.Number => fileToFileTempView.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "fileToFileTempView.Number => jsonTojson_write.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "hdfs.json.IsCaptain => jsonTojson.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "fileToFileTempView.Position => jsonTojson_write.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson.Competition => fileToFileTempView.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "fileToFileTempView.DateOfBirth => jsonTojson_write.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "hdfs.json.DateOfBirth => jsonTojson.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson.Position => fileToFileTempView.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson.Team => fileToFileTempView.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "fileToFileTempView.IsCaptain => jsonTojson_write.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "jsonTojson_write.Competition => hdfs_output_temp.json.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "hdfs.json.FullName => jsonTojson.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "hdfs.json.Number => jsonTojson.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "fileToFileTempView.FullName => jsonTojson_write.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "hdfs.json.ClubCountry => jsonTojson.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "fileToFileTempView.Club => jsonTojson_write.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "fileToFileTempView.Team => jsonTojson_write.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    }
+  },
+  "TableToTable_GlobalTempView": {
+    "FINANCE.PAYROLLDEPT => SF_To_SF_jdbc.PAYROLLDEPT": {
+      "mode": "COPY",
+      "lineageFrom": "PAYROLLDEPT",
+      "lineageTo": "PAYROLLDEPT"
+    },
+    "SF_To_SF_jdbc.DEPTID => GlobalTempviewJDBC.DEPTID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPTID",
+      "lineageTo": "DEPTID"
+    },
+    "GlobalTempviewJDBC.PAYROLLDEPT => SF_To_SF_jdbc_write.PAYROLLDEPT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PAYROLLDEPT",
+      "lineageTo": "PAYROLLDEPT"
+    },
+    "SF_To_SF_jdbc_write.PAYROLLID => FINANCE_GLOBALTEMPVIEW.PAYROLLID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PAYROLLID",
+      "lineageTo": "PAYROLLID"
+    },
+    "GlobalTempviewJDBC.PAYROLLID => SF_To_SF_jdbc_write.PAYROLLID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PAYROLLID",
+      "lineageTo": "PAYROLLID"
+    },
+    "FINANCE.PAYROLLID => SF_To_SF_jdbc.PAYROLLID": {
+      "mode": "COPY",
+      "lineageFrom": "PAYROLLID",
+      "lineageTo": "PAYROLLID"
+    },
+    "SF_To_SF_jdbc.SALARY => GlobalTempviewJDBC.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "SF_To_SF_jdbc_write.PAYROLLDEPT => FINANCE_GLOBALTEMPVIEW.PAYROLLDEPT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PAYROLLDEPT",
+      "lineageTo": "PAYROLLDEPT"
+    },
+    "SF_To_SF_jdbc_write.SALARY => FINANCE_GLOBALTEMPVIEW.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "GlobalTempviewJDBC.SALARY => SF_To_SF_jdbc_write.SALARY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "SF_To_SF_jdbc.PAYROLLDEPT => GlobalTempviewJDBC.PAYROLLDEPT": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PAYROLLDEPT",
+      "lineageTo": "PAYROLLDEPT"
+    },
+    "SF_To_SF_jdbc.PAYROLLID => GlobalTempviewJDBC.PAYROLLID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "PAYROLLID",
+      "lineageTo": "PAYROLLID"
+    },
+    "FINANCE.DEPTID => SF_To_SF_jdbc.DEPTID": {
+      "mode": "COPY",
+      "lineageFrom": "DEPTID",
+      "lineageTo": "DEPTID"
+    },
+    "FINANCE.SALARY => SF_To_SF_jdbc.SALARY": {
+      "mode": "COPY",
+      "lineageFrom": "SALARY",
+      "lineageTo": "SALARY"
+    },
+    "SF_To_SF_jdbc_write.DEPTID => FINANCE_GLOBALTEMPVIEW.DEPTID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPTID",
+      "lineageTo": "DEPTID"
+    },
+    "GlobalTempviewJDBC.DEPTID => SF_To_SF_jdbc_write.DEPTID": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DEPTID",
+      "lineageTo": "DEPTID"
+    }
+  },
+  "FileToFile_multiple_views": {
+    "jsonTojson.DateOfBirth => fileToFileMultipleTempView1.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson_write.FullName => hdfs_output_SelectAll1.json.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson.DateOfBirth => fileToFileMultipleTempView2.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson.Position => fileToFileMultipleTempView2.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson.Team => fileToFileMultipleTempView2.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson.FullName => fileToFileMultipleTempView1.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson.Competition => fileToFileMultipleTempView2.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "fileToFileMultipleTempView2.Number => jsonTojson_write1.NUMBER": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "NUMBER"
+    },
+    "jsonTojson.Competition => fileToFileMultipleTempView1.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson_write.IsCaptain => hdfs_output_SelectAll1.json.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "jsonTojson.Club => fileToFileMultipleTempView2.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "hdfs.json.Position => jsonTojson.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "fileToFileMultipleTempView1.DateOfBirth => jsonTojson_write.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "jsonTojson.IsCaptain => fileToFileMultipleTempView2.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "fileToFileMultipleTempView1.ClubCountry => jsonTojson_write.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "fileToFileMultipleTempView2.DateOfBirth => jsonTojson_write1.DATEOFBIRTH": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DATEOFBIRTH"
+    },
+    "jsonTojson.IsCaptain => fileToFileMultipleTempView1.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "jsonTojson_write.Position => hdfs_output_SelectAll1.json.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "jsonTojson.Position => fileToFileMultipleTempView1.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "fileToFileMultipleTempView1.Club => jsonTojson_write.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "fileToFileMultipleTempView1.Team => jsonTojson_write.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "jsonTojson_write.DateOfBirth => hdfs_output_SelectAll1.json.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "fileToFileMultipleTempView2.Competition => jsonTojson_write1.COMPETITION": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "COMPETITION"
+    },
+    "jsonTojson_write.Team => hdfs_output_SelectAll1.json.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "hdfs.json.ClubCountry => jsonTojson.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson.Number => fileToFileMultipleTempView1.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "fileToFileMultipleTempView2.IsCaptain => jsonTojson_write1.ISCAPTAIN": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "ISCAPTAIN"
+    },
+    "fileToFileMultipleTempView2.Position => jsonTojson_write1.POSITION": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "POSITION"
+    },
+    "fileToFileMultipleTempView2.Club => jsonTojson_write1.CLUB": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "CLUB"
+    },
+    "hdfs.json.Club => jsonTojson.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson_write.Club => hdfs_output_SelectAll1.json.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "fileToFileMultipleTempView2.FullName => jsonTojson_write1.FULLNAME": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FULLNAME"
+    },
+    "jsonTojson_write.ClubCountry => hdfs_output_SelectAll1.json.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "fileToFileMultipleTempView1.Position => jsonTojson_write.Position": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Position",
+      "lineageTo": "Position"
+    },
+    "hdfs.json.Team => jsonTojson.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "fileToFileMultipleTempView1.Competition => jsonTojson_write.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "fileToFileMultipleTempView2.Team => jsonTojson_write1.TEAM": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "TEAM"
+    },
+    "hdfs.json.Competition => jsonTojson.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "hdfs.json.IsCaptain => jsonTojson.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "fileToFileMultipleTempView1.FullName => jsonTojson_write.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson.Team => fileToFileMultipleTempView1.Team": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Team",
+      "lineageTo": "Team"
+    },
+    "fileToFileMultipleTempView1.Number => jsonTojson_write.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "hdfs.json.DateOfBirth => jsonTojson.DateOfBirth": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "DateOfBirth",
+      "lineageTo": "DateOfBirth"
+    },
+    "fileToFileMultipleTempView1.IsCaptain => jsonTojson_write.IsCaptain": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "IsCaptain",
+      "lineageTo": "IsCaptain"
+    },
+    "fileToFileMultipleTempView2.ClubCountry => jsonTojson_write1.CLUBCOUNTRY": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "CLUBCOUNTRY"
+    },
+    "jsonTojson_write.Number => hdfs_output_SelectAll1.json.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "hdfs.json.FullName => jsonTojson.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    },
+    "jsonTojson.ClubCountry => fileToFileMultipleTempView2.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "hdfs.json.Number => jsonTojson.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "jsonTojson.Club => fileToFileMultipleTempView1.Club": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Club",
+      "lineageTo": "Club"
+    },
+    "jsonTojson_write.Competition => hdfs_output_SelectAll1.json.Competition": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Competition",
+      "lineageTo": "Competition"
+    },
+    "jsonTojson.ClubCountry => fileToFileMultipleTempView1.ClubCountry": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "ClubCountry",
+      "lineageTo": "ClubCountry"
+    },
+    "jsonTojson.Number => fileToFileMultipleTempView2.Number": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "Number",
+      "lineageTo": "Number"
+    },
+    "jsonTojson.FullName => fileToFileMultipleTempView2.FullName": {
+      "mode": "TRANSFORM",
+      "lineageFrom": "FullName",
+      "lineageTo": "FullName"
+    }
+  }
+}

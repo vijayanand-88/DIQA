@@ -1,0 +1,20 @@
+{
+  "Cat7": {
+    "label": {
+      "": "Cat7"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Cat7"
+    }
+  },
+  "Cat8": {
+    "label": {
+      "": "Cat8"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Cat8"
+    }
+  }
+}

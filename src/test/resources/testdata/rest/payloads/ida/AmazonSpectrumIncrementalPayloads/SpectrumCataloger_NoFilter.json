@@ -1,0 +1,25 @@
+{
+  "configurations" : [ {
+    "eventCondition" : null,
+    "eventClass" : null,
+    "maxWorkSize" : 100,
+    "pluginType" : "cataloger",
+    "dryRun" : false,
+    "nodeCondition" : "name==\"LocalNode\"",
+    "label" : null,
+    "incremental" : true,
+    "type" : "Cataloger",
+    "tags" : [ "Spectrum_Incremental" ],
+    "catalogName" : "Default",
+    "filter" : null,
+    "pluginVersion" : "LATEST",
+    "credential" : "Spectrum_Credentials",
+    "pluginName" : "AmazonSpectrumCataloger",
+    "schemas" : [ ],
+    "name" : "SpectrumCataloger",
+    "class" : "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource" : "SpectrumDataSource",
+    "properties" : [ ],
+    "businessApplicationName" : null
+  } ]
+}

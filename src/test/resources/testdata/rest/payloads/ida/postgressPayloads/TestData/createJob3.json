@@ -1,0 +1,31 @@
+{
+  "AllocatedCapacity": 2,
+  "Command": {
+    "Name": "GlueTestJob",
+    "PythonVersion": "3",
+    "ScriptLocation": "s3://aws-glue-scripts-868165524337-us-east-1/QA/GlueTestJob"
+  },
+  "Connections": {
+    "Connections": [
+      "DatabaseTestConnection"
+    ]
+  },
+  "DefaultArguments": {
+    "--TempDir": "s3://aws-glue-temporary-868165524337-us-east-1/QA"
+  },
+  "Description": "aws glue qa automation",
+  "GlueVersion": "1.0",
+  "LogUri": "string",
+  "Name": "QATestData",
+  "NotificationProperty": {
+    "NotifyDelayAfter": 1
+  },
+  "NumberOfWorkers": 299,
+  "Role": "AWSSeviceRoleForGlue",
+  "SecurityConfiguration": "None",
+  "Tags": {
+    "string": "string"
+  },
+  "Timeout": 2880,
+  "WorkerType": "Standard"
+}

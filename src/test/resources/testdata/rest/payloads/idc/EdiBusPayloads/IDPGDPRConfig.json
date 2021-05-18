@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "toIDPGDPR",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "BusinessGlossary",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "filter": null,
+      "IDA types": [],
+      "EDI technologies": [],
+      "EDI access": {
+        "EDI host": "usyp5thirmoga1v.asg.com",
+        "EDI port": 9292,
+        "EDI user": "ADMIN",
+        "EDI password": "rochade",
+        "EDI database": "AP-DATA",
+        "EDI subject area name": "PIITAG",
+        "EDI subject area version": "1.0",
+        "Glossary Name": "TESTGLOSS",
+        "EDI subject area access roles": [
+          {
+            "role": "RBR_ADM"
+          }
+        ]
+      },
+      "EDI types": [
+        {
+          "type": "GDP_PERSONAL_INFORMATION"
+        }
+      ],
+      "commands and flags": {
+        "function": "toIDPGDPR",
+        "incremental": false,
+        "batch size": 1000,
+        "run in transaction": false
+      },
+      "IDA technologies": []
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "hdfsDataSource": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "dryRun": false,
+    "catalogerHdfsUser": "hdfs",
+    "nodeCondition": null,
+    "label": {
+      "": ""
+    },
+    "kerberos": {},
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "schedule": null,
+    "pluginVersion": "LATEST",
+    "credential": "HdfsCredentials",
+    "clusterManager": {
+      "clusterManagerApiVersion": "api/v1",
+      "clusterManagerName": "HORTONWORKS",
+      "clusterManagerHost": "10.50.208.101",
+      "clusterManagerPort": "8080"
+    },
+    "resolveClusterName": false,
+    "pluginName": "HdfsDataSource",
+    "name": "HdfsDataSource",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null,
+    "businessApplicationName": null
+  },
+  "gitCollectorDataSource": {
+    "eventCondition": null,
+    "eventClass": null,
+    "maxWorkSize": 100,
+    "pluginType": "datasource",
+    "dryRun": false,
+    "nodeCondition": null,
+    "runAfter": [],
+    "label": {
+      "": ""
+    },
+    "url": "https://source-team.asg.com/scm/di/pythonanalyzerdemo.git",
+    "tags": [],
+    "catalogName": "Default",
+    "filter": null,
+    "schedule": null,
+    "pluginVersion": "LATEST",
+    "credential": "Git_Credentials",
+    "pluginName": "GitCollectorDataSource",
+    "name": "GitCollectorDataSource",
+    "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+    "dataSource": null,
+    "businessApplicationName": null
+  }
+}

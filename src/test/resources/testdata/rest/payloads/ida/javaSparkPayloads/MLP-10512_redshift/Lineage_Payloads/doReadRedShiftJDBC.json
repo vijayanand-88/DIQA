@@ -1,0 +1,26 @@
+{
+  "deptblock": {
+    "source": ["deptblock"],
+    "target": ["deptblock"]
+  },
+  "deptid": {
+    "source": ["deptid"],
+    "target": ["deptid"]
+  },
+  "deptname": {
+    "source": ["deptname"],
+    "target": ["deptname"]
+  },
+  "deptblock1": {
+    "source": ["deptblock"],
+    "target": ["deptblock"]
+  },
+  "deptid1": {
+    "source": ["deptid"],
+    "target": ["deptid"]
+  },
+  "deptname1": {
+    "source": ["deptname"],
+    "target": ["deptname"]
+  }
+}

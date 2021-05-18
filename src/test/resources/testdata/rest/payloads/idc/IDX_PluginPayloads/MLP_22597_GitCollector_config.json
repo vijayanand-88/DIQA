@@ -1,0 +1,52 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "GitCollectorConfig",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": "name==\"LocalNode\"",
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "collector",
+  "dataSource": "GitDSConfig",
+  "credential": "GitCred",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": {
+    "filters": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.Filter",
+        "label": null,
+        "tags": null,
+        "branch": "refs/heads/master"
+      }
+    ],
+    "deltaTime": null,
+    "extraFilters": {
+      "filefilters": [
+        {
+          "class": "com.asg.dis.common.analysis.dom.FileFilter",
+          "label": {
+            "": "GitFilters"
+          },
+          "tags": null,
+          "fileMode": "include",
+          "objectType": "file",
+          "expressionType": "simple",
+          "expressions": [
+            "**/DD_PIITags/**"
+          ]
+        }
+      ]
+    },
+    "maxHits": null
+  },
+  "contentAnalyzerPlugin": "UnstructuredDataAnalyzer",
+  "pluginName": "GitCollector",
+  "contentAnalyzerPluginConfiguration": "UnstructuredDataAnalyzer",
+  "type": "Collector"
+}

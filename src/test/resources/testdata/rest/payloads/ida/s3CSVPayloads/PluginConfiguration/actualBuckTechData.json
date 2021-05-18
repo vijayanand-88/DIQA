@@ -1,0 +1,51 @@
+{
+  "BucketAccelerateConfiguration": {},
+  "BucketVersioningConfiguration": {
+    "status": "Off"
+  },
+  "BucketCrossOriginConfiguration": {},
+  "BucketLoggingConfiguration": {
+    "loggingEnabled": false
+  },
+  "BucketNotificationConfiguration": {
+    "configurations": {},
+    "topicConfigurations": []
+  },
+  "BucketReplicationConfiguration": {},
+  "BucketTaggingConfiguration": {},
+  "BucketWebsiteConfiguration": {},
+  "AccessControlList": {
+    "owner": {
+      "displayName": "licenseadmin",
+      "id": "29a4533b7c51b2cb084069df78902fd0935c89a2eb6280c6d2b4e5bd12650209"
+    },
+    "requesterCharged": false,
+    "grantsAsList": [
+      {
+        "grantee": {
+          "displayName": "licenseadmin",
+          "identifier": "29a4533b7c51b2cb084069df78902fd0935c89a2eb6280c6d2b4e5bd12650209",
+          "typeIdentifier": "id"
+        },
+        "permission": "FullControl"
+      }
+    ],
+    "grants": [
+      {
+        "grantee": {
+          "displayName": "licenseadmin",
+          "identifier": "29a4533b7c51b2cb084069df78902fd0935c89a2eb6280c6d2b4e5bd12650209",
+          "typeIdentifier": "id"
+        },
+        "permission": "FullControl"
+      }
+    ]
+  },
+  "BucketPolicy": {},
+  "ServerSideEncryptionConfiguration": {},
+  "location": "US",
+  "AnalyticsConfigurations": [],
+  "MetricsConfiguration": [],
+  "InventoryConfigurations": [],
+  "region": "us-east-1"
+}

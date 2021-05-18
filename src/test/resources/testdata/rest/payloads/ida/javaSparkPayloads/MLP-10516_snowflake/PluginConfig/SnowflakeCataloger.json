@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "SnowflakeDBCataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "SnowflakeDBCataloger"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "tagJavaSparkSnowflake"
+      ],
+      "pluginType": "cataloger",
+      "dataSource": "SnowflakeDataSource",
+      "credential": "SnowflakeValidCredentials",
+      "businessApplicationName": "test_BA_JavaSparkSnowflake",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "SnowflakeDBCataloger",
+      "schemas": [
+        {
+          "schema": "AUTO",
+          "tables": []
+        }
+      ],
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

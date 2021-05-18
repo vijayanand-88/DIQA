@@ -1,0 +1,34 @@
+[
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.2,
+    "factor": "QUALITY",
+    "filterValue": null,
+    "dimension": null,
+    "label": null
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.3,
+    "factor": "RATINGS_AVERAGE",
+    "filterValue": null,
+    "dimension": null,
+    "label": null
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.2,
+    "factor": "RATINGS_COUNT",
+    "filterValue": "2",
+    "dimension": null,
+    "label": null
+  },
+  {
+    "@class": "com.asg.dis.policies.actions.TrustAction",
+    "weight": 0.3,
+    "factor": "TAGS",
+    "filterValue": "Glossary Tag",
+    "dimension": "Business",
+    "label": "Linked to Business Term"
+  }
+]

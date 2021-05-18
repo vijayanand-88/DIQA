@@ -1,0 +1,236 @@
+{
+  "roles": [
+    {
+      "name": "CATALOG_ADMIN",
+      "label": {
+        "": "Catalog Administrator",
+        "en": "Catalog Administrator"
+      },
+      "description": {
+        "": "Catalog Administrator is responsible for all rights related to the upkeep, configuration and customization of a data catalog. Can also assign/remove roles",
+        "en": "Catalog Administrator is responsible for all rights related to the upkeep, configuration and customization of a data catalog. Can also assign/remove roles"
+      },
+      "permissions": [
+        "TAG_CREATE",
+        "DATA_CREATE",
+        "DATA_TAG",
+        "DATA_APPROVE",
+        "TAG_DELETE",
+        "ADMIN_CATALOG",
+        "DATASET_APPROVE",
+        "DATA_MODIFY",
+        "DATASET_DELETE",
+        "TAG_APPROVE",
+        "ADMIN_SERVICES",
+        "ADMIN_DASHBOARD",
+        "DATASET_REQUEST_ACCESS",
+        "DATASET_ANALYSIS",
+        "DATASET_CREATE",
+        "DATA_DELETE",
+        "ADMIN_SECURITY",
+        "DATASET_MODIFY",
+        "TAG_SUGGEST",
+        "BASE_PERMISSION"
+      ]
+    },
+    {
+      "name": "DATA_OWNER",
+      "label": {
+        "": "Data Owner",
+        "en": "Data Owner"
+      },
+      "description": {
+        "": "Data Owner is responsible for accuracy, integrity, and timeliness of a data asset and for establishing the controls for its generation, lifecycle management, and access.",
+        "en": "Data Owner is responsible for accuracy, integrity, and timeliness of a data asset and for establishing the controls for its generation, lifecycle management, and access."
+      },
+      "permissions": [
+        "TAG_CREATE",
+        "DATA_CREATE",
+        "DATA_TAG",
+        "DATA_APPROVE",
+        "TAG_DELETE",
+        "DATASET_APPROVE",
+        "DATA_MODIFY",
+        "DATASET_DELETE",
+        "TAG_APPROVE",
+        "DATASET_REQUEST_ACCESS",
+        "DATASET_ANALYSIS",
+        "DATASET_CREATE",
+        "DATA_DELETE",
+        "DATASET_MODIFY",
+        "TAG_SUGGEST",
+        "BASE_PERMISSION"
+      ]
+    },
+    {
+      "name": "DATA_STEWARD",
+      "label": {
+        "": "Data Steward",
+        "en": "Data Steward"
+      },
+      "description": {
+        "": "Data Steward is responsible for data content, context and rules, working with various stakeholders. May create/enhance/approve metadata/datasets, respond to questions/issues and grant access to datasets.",
+        "en": "Data Steward is responsible for data content, context and rules, working with various stakeholders. May create/enhance/approve metadata/datasets, respond to questions/issues and grant access to datasets."
+      },
+      "permissions": [
+        "TAG_CREATE",
+        "DATA_CREATE",
+        "DATA_TAG",
+        "DATA_APPROVE",
+        "TAG_DELETE",
+        "DATASET_APPROVE",
+        "DATA_MODIFY",
+        "DATASET_DELETE",
+        "TAG_APPROVE",
+        "DATASET_REQUEST_ACCESS",
+        "DATASET_ANALYSIS",
+        "DATASET_CREATE",
+        "DATA_DELETE",
+        "DATASET_MODIFY",
+        "TAG_SUGGEST",
+        "BASE_PERMISSION"
+      ]
+    },
+    {
+      "name": "DATA_CONSUMER",
+      "label": {
+        "": "Data Consumer",
+        "en": "Data Consumer"
+      },
+      "description": {
+        "": "Data Consumer consumes the data and also has contributor rights to give ratings, suggest new business terms, make comments and ask questions, create datasets.",
+        "en": "Data Consumer consumes the data and also has contributor rights to give ratings, suggest new business terms, make comments and ask questions, create datasets."
+      },
+      "permissions": [
+        "DATA_CREATE",
+        "DATASET_CREATE",
+        "DATA_DELETE",
+        "DATASET_MODIFY",
+        "DATA_MODIFY",
+        "DATASET_DELETE",
+        "TAG_SUGGEST",
+        "BASE_PERMISSION",
+        "DATASET_REQUEST_ACCESS"
+      ]
+    },
+    {
+      "name": "DATA_CUSTODIAN",
+      "label": {
+        "": "Data Custodian",
+        "en": "Data Custodian"
+      },
+      "description": {
+        "": "Data Custodian implements process, working with Data Steward; enables the user community to access and manipulate (use) the data. It is a technical role and often resides in the IT department.",
+        "en": "Data Custodian implements process, working with Data Steward; enables the user community to access and manipulate (use) the data. It is a technical role and often resides in the IT department."
+      },
+      "permissions": [
+        "DATASET_CREATE",
+        "DATASET_MODIFY",
+        "DATASET_APPROVE",
+        "DATASET_DELETE",
+        "BASE_PERMISSION",
+        "DATASET_REQUEST_ACCESS"
+      ]
+    },
+    {
+      "name": "GUEST_USER",
+      "label": {
+        "": "Guest User",
+        "en": "Guest User"
+      },
+      "description": {
+        "": "Guest User has limited privileges and can rate, comment and suggest tags",
+        "en": "Guest User has limited privileges and can rate, comment and suggest tags"
+      },
+      "permissions": [
+        "TAG_SUGGEST",
+        "BASE_PERMISSION"
+      ]
+    },
+    {
+      "name": "SYSTEM_ADMIN",
+      "label": {
+        "": "System Administrator",
+        "en": "System Administrator"
+      },
+      "description": {
+        "": "System Administrator has all the rights and is responsible for the upkeep, configuration, customization, security, and reliable operation of the system",
+        "en": "System Administrator has all the rights and is responsible for the upkeep, configuration, customization, security, and reliable operation of the system"
+      },
+      "permissions": [
+        "ADMIN_EVENTS",
+        "TAG_CREATE",
+        "ADMIN_ANALYSIS",
+        "ADMIN_EXTENSIONS",
+        "ADMIN_ACCESS",
+        "DATA_APPROVE",
+        "DATA_TAG",
+        "ADMIN_CATALOG",
+        "UPLOAD_DELETE",
+        "ADMIN_TENANT",
+        "ADMIN_DIAGRAM",
+        "ADMIN_DELETION",
+        "DATASET_APPROVE",
+        "ADMIN_MESSAGING",
+        "TAG_APPROVE",
+        "ADMIN_SERVICES",
+        "ADMIN_DASHBOARD",
+        "DATASET_REQUEST_ACCESS",
+        "DATASET_CREATE",
+        "ADMIN_NOTIFICATIONS",
+        "DATA_DELETE",
+        "ADMIN_RECOMMENDER",
+        "UPLOAD_CREATE",
+        "DATASET_MODIFY",
+        "ADMIN_COMPONENTS",
+        "BASE_PERMISSION",
+        "DATA_CREATE",
+        "ADMIN_XML_SCHEMA",
+        "TAG_DELETE",
+        "TRIGGER_ANALYSIS",
+        "UPLOAD_MODIFY",
+        "DATA_MODIFY",
+        "ADMIN_WORKFLOW",
+        "DATASET_DELETE",
+        "ADMIN_DERIVED_ATTS",
+        "DATASET_ANALYSIS",
+        "ADMIN_SEARCH",
+        "ADMIN_WIDGETS",
+        "ADMIN_SECURITY",
+        "ADMIN_QUERIES",
+        "ADMIN_STRUCTURE",
+        "TAG_SUGGEST",
+        "UPLOAD_APPROVE",
+        "ADMIN_ITEM_VIEWS"
+      ]
+    },
+    {
+      "name": "NO_ACCESS",
+      "label": {
+        "": "No Access Role",
+        "en": "No Access Role"
+      },
+      "description": {
+        "": "Users in this role can not access catalogs",
+        "en": "Users in this role can not access catalogs"
+      },
+      "permissions": []
+    },
+    {
+      "name": "string",
+      "label": {
+        "additionalprop2": "string",
+        "additionalprop1": "string",
+        "additionalprop3": "string"
+      },
+      "description": {
+        "additionalprop2": "string",
+        "additionalprop1": "string",
+        "additionalprop3": "string"
+      },
+      "permissions": [
+        "ADMIN_TENANT"
+      ]
+    }
+  ]
+}

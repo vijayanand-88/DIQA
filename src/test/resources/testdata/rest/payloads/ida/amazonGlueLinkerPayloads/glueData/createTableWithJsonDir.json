@@ -1,0 +1,172 @@
+{
+  "tableName": "glueavro",
+  "description": "Table Description",
+  "database": "qagluelinkerdatabase",
+  "cols": {
+    "PartitionKeys": [
+      {
+        "name": "countrycode",
+        "type": "varchar(256)",
+        "comment": ""
+      }
+    ]
+  },
+  "location": "s3://asgqagluelinkerbucket/GlueLinker/MultipleJsonFiles/",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "id",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "isactive",
+          "type": "boolean",
+          "comment": ""
+        },
+        {
+          "name": "age",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "tsmallint",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "tint",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "tbigint",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "tdecimal",
+          "type": "double",
+          "comment": ""
+        },
+        {
+          "name": "treal",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "tdoubleprecision",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "tchar",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "ttimestamp",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "gender",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "company",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "additonalinfo",
+          "type": "array<string>",
+          "comment": ""
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "loggedtime",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "month",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "day",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "username",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "alternatephoneno",
+          "type": "array<int>",
+          "comment": ""
+        },
+        {
+          "name": "phone",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "address",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "userobj",
+          "type": "struct<object1:string,object2:string>",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "parameters": {},
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+} 

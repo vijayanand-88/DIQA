@@ -1,0 +1,268 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2Cataloger",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [],
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "QA150A",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithSchemaFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "QA150A",
+          "tables": []
+        }
+      ],
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithMultipleSchemasInFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "QA150A"
+        },
+        {
+          "schema": "QA106B"
+        }
+      ],
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerwithSchemaAndMultipleTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "QA150A",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        }
+      ],
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    },
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithMultipleSchemaFilterWithTables",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "QA150A",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            },
+            {
+              "table": "TABLE_PRIMARY"
+            }
+          ]
+        },
+        {
+          "schema": "QA106B",
+          "tables": [
+            {
+              "table": "ESWDSPTB"
+            }
+          ]
+        }
+      ],
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerwithNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "DB2NONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "DB2NONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithIncorrectURL",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "qadb201",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "QA150A",
+          "tables": []
+        }
+      ],
+      "user": "qa150a",
+      "properties": [],
+      "url": "jdbc:db2://msq.asg.com:6209/NA01DC1Q"
+    },
+
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "DB2CatalogerWithIncorrectCredentials",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "DB2 CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 1000,
+      "filter": null,
+      "password": "QA",
+      "driverBundleName": "com.ibm.db2.jcc",
+      "schemas": [
+        {
+          "schema": "QA150A",
+          "tables": [
+            {
+              "table": "DB2_TAG_DETAILS"
+            }
+          ]
+        }
+      ],
+      "user": "qa",
+      "properties": [],
+      "url": "jdbc:db2://mvssysq.asg.com:6209/NA01DC1Q"
+    }
+
+  ]
+}

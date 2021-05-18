@@ -1,0 +1,87 @@
+{
+  "locale" : {
+    "name" : "English",
+    "value" : ""
+  },
+  "menuItems" : [ {
+    "type" : "MenuItem",
+    "id" : "dashboard",
+    "iconClass" : "fa fa-home",
+    "label" : "Dashboard",
+    "layout" : "TOP",
+    "constant" : true,
+    "pinned" : true
+  }, {
+    "type" : "MenuItem",
+    "id" : "event-management",
+    "iconClass" : "fa fa-usb",
+    "label" : "Event and Workflow Manager",
+    "layout" : "TOP",
+    "constant" : false,
+    "pinned" : false
+  }, {
+    "type" : "MenuItem",
+    "id" : "plugin-management",
+    "iconClass" : "fa fa-cogs",
+    "label" : "Plugin Manager",
+    "layout" : "TOP",
+    "constant" : false,
+    "pinned" : false
+  }, {
+    "type" : "MenuItem",
+    "id" : "catalog-management",
+    "iconClass" : "fa fa-tasks",
+    "label" : "Catalog Manager",
+    "layout" : "TOP",
+    "constant" : false,
+    "pinned" : false
+  }, {
+    "type" : "MenuItem",
+    "id" : "item-view-management",
+    "iconClass" : "fa fa-link",
+    "label" : "Item View Manager",
+    "layout" : "TOP",
+    "constant" : false,
+    "pinned" : false
+  }, {
+    "type" : "MenuItem",
+    "id" : "bundle-management",
+    "iconClass" : "fa fa-download",
+    "label" : "Bundle Manager",
+    "layout" : "TOP",
+    "constant" : false,
+    "pinned" : false
+  }, {
+    "type" : "MenuItem",
+    "id" : "excel-upload-management",
+    "iconClass" : "fa fa-file-excel-o",
+    "label" : "Excel Upload Manager",
+    "layout" : "TOP",
+    "constant" : false,
+    "pinned" : false
+  }, {
+    "type" : "MenuItem",
+    "id" : "query-management",
+    "iconClass" : "fa fa-question",
+    "label" : "Query Manager",
+    "layout" : "TOP",
+    "constant" : false,
+    "pinned" : false
+  }, {
+    "type" : "notifications",
+    "id" : "notifications",
+    "iconClass" : "fa fa-bell",
+    "label" : "Notifications",
+    "layout" : "BOTTOM",
+    "constant" : true,
+    "pinned" : true,
+    "notificationSign" : true,
+    "link" : "/websocket/notifications/broadcast"
+  } ],
+  "internalMenuItems" : { },
+  "useAdvancedSolrSyntax" : false,
+  "availableLocales" : [ {
+    "name" : "English",
+    "value" : ""
+  } ]
+}

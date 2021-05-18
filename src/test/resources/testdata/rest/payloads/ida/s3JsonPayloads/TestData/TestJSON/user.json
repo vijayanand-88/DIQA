@@ -1,0 +1,5 @@
+[{"username": {"string": "Sehwag"},"age": 38,"phone": "123445","housenum": "test 101","address": {"street": {"string": "Anna street"},"city": "Chennai","state_prov": "Tamil Nadu", "country": "India","zip": "600035"}},
+{"username": {"string": "Kamal"},"age": 45,"phone": "435435","housenum": "test 10","address": {"street": {"string": "Periyar street"},"city": "Bangalore","state_prov": "Karnataka", "country": "US","zip": "60034"}},
+{"username": {"string": "Kamal"},"age": 45,"phone": "435435","housenum": "test 10","address": {"street": null,"city": "Bangalore","state_prov": "Andhra", "country": "US","zip": "6002"}},
+{"username": null,"age": 45,"phone": "435435","housenum": "test 10","address": {"street": null,"city": "Bangalore","state_prov": "Karnataka", "country": "US","zip": "60034"}}
+]

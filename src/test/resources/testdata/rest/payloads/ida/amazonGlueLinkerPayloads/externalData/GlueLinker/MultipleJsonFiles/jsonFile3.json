@@ -1,0 +1,18 @@
+{
+	"id": "38",
+	"isActive": true,
+	"age": 27,
+	"name": "Jhonny Cage",
+	"gender": "male",
+	"company": "CEDWARD",
+	"email": "jcage@cedward.com",
+	"loggedTime":"07:55",
+	"loggedDate":"2018-08-09",
+	"loggedDateTime":"2013-12-01 00:45:00",
+	"loggedYear":"2020",
+	"month":"March",
+	"day":"Tuesday",
+	"phone": "+1 (890) 543-2508",
+	"address": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551",
+	"testmaxlengthoffieldnameusingthisfieldfinetillhereyoushouldnotseethis": "169 Rutledge Street, Konterra, Northern Mariana Islands, 8551"
+}

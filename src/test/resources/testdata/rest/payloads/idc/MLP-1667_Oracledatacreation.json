@@ -1,0 +1,11 @@
+{
+  "TestOracle": {
+    "label": {
+      "": "TestOracle"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "TestOracleDataSchema"
+    }
+  }
+}

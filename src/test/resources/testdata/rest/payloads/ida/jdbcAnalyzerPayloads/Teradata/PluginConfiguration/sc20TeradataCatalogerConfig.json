@@ -1,0 +1,27 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TeraDataCataloger",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "TERADATA CATALOG",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [],
+  "pluginType": "cataloger",
+  "dataSource": "TeradataDataSource",
+  "credential": "TeradataCredentials",
+  "filter": null,
+  "databaseFilter": [
+    {
+      "database": "DBC"
+    },
+    {
+      "database": "automation_test_db"
+    }
+  ],
+  "arguments": []
+}

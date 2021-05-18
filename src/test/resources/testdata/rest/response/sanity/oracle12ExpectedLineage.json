@@ -1,0 +1,24 @@
+{
+  "PROV2T": {
+    "INSERT NAME": {
+      "mode": "COPY",
+      "lineageFrom": "NAME",
+      "lineageTo": "NAME"
+    },
+    "INSERT SCHOOLNAME": {
+      "mode": "COPY",
+      "lineageFrom": "SCHOOLNAME",
+      "lineageTo": "SCHOOLNAME"
+    },
+    "INSERT ROLLNO": {
+      "mode": "COPY",
+      "lineageFrom": "ROLLNO",
+      "lineageTo": "ROLLNO"
+    },
+    "INSERT GRADE": {
+      "mode": "COPY",
+      "lineageFrom": "GRADE",
+      "lineageTo": "GRADE"
+    }
+  }
+}

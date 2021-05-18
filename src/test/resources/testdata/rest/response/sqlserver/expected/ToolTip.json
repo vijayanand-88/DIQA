@@ -1,0 +1,388 @@
+{
+  "Commonfields": {
+    "Name": {
+      "name": "name",
+      "widget": "string",
+      "label": "Name",
+      "tooltip": "Plugin configuration name",
+      "hidden": false,
+      "validators": [
+        {
+          "name": "required",
+          "message": " Name field should not be empty"
+        },
+        {
+          "name": "uniqueTableKey",
+          "message": " Name contains duplicated values"
+        },
+        {
+          "name": "pattern",
+          "config": "^[^\\s\\/\\\\]+([\\s]+[^\\s\\/\\\\]+)*$",
+          "message": " Invalid name. Leading/trailing blanks and special characters are forbidden"
+        },
+        {
+          "name": "uniqueValue",
+          "config": [
+            "MongoDBCataloger_ValidDB&Cred"
+          ],
+          "message": "Name already exists. Please enter a different name."
+        }
+      ],
+      "advanced": false
+    },
+    "type": {
+      "name": "type",
+      "widget": "select",
+      "label": "Type",
+      "tooltip": "Type of the plugin",
+      "hidden": false,
+      "validators": [
+        {
+          "name": "requiredSelection",
+          "message": " Type should have at least one value selected"
+        }
+      ],
+      "advanced": false
+    },
+    "pluginName": {
+      "name": "pluginName",
+      "widget": "select",
+      "label": "Plugin",
+      "tooltip": "Name of the plugin",
+      "hidden": false,
+      "validators": [
+        {
+          "name": "requiredSelection",
+          "message": " Plugin should have at least one value selected"
+        }
+      ],
+      "advanced": false
+    },
+    "pluginVersion": {
+      "name": "pluginVersion",
+      "widget": "select",
+      "label": "Plugin version",
+      "tooltip": "Required plugin version",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": false
+    },
+    "label": {
+      "value": null,
+      "name": "label",
+      "widget": "label",
+      "label": "Label",
+      "tooltip": "Plugin configuration extended label and description",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": false
+    },
+    "businessApplicationName": {
+      "name": "businessApplicationName",
+      "widget": "select",
+      "label": "Business Application",
+      "tooltip": "Business Application",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": false
+    },
+    "dataSource": {
+      "name": "dataSource",
+      "widget": "childProperties",
+      "label": "Data Source",
+      "tooltip": "Data source connection to be used",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": false
+    },
+    "credential": {
+      "name": "credential",
+      "widget": "childProperties",
+      "label": "Credential",
+      "tooltip": "Credential to be used",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": false
+    },
+    "eventCondition": {
+      "value": null,
+      "name": "eventCondition",
+      "widget": "string",
+      "label": "Event condition",
+      "tooltip": "Condition an event must match to trigger this configuration. Expressed in Groovy",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": true
+    },
+    "dryRun": {
+      "value": false,
+      "name": "dryRun",
+      "widget": "checkbox",
+      "label": "Dry Run",
+      "tooltip": "Option to enable/disable the plugin execution on dry run mode without writing objects into the repository",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": true
+    },
+    "eventClass": {
+      "value": null,
+      "name": "eventClass",
+      "widget": "string",
+      "label": "Event class",
+      "tooltip": "Event Class name to trigger current plugin configuration",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": true
+    },
+    "maxWorkSize": {
+      "value": 100,
+      "name": "maxWorkSize",
+      "widget": "number",
+      "label": "Maximum work size",
+      "tooltip": "Maximum number of items the plugin can process before delegating to other nodes",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": true
+    },
+    "nodeCondition": {
+      "value": null,
+      "name": "nodeCondition",
+      "widget": "string",
+      "label": "Node condition",
+      "tooltip": "Condition an node must match to be able to run this configuration. Expressed in Groovy",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": true
+    },
+    "autoStart": {
+      "name": "autoStart",
+      "widget": "checkbox",
+      "label": "Auto start",
+      "tooltip": "Option to enable/disable the automatic execution of the plugin configuration after node startup",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": true
+    },
+    "tags": {
+      "name": "tags",
+      "widget": "multi-select",
+      "label": "Tags",
+      "tooltip": "Add custom tag(s) to define your data item",
+      "hidden": false,
+      "validators": [
+      ],
+      "advanced": true
+    },
+	"schematablefilters": {
+      "name": "Schema/Table Filters",
+      "widget": "select",
+      "label": "Schema/Table Filters",
+      "tooltip": "Filter on SQLServer DB Schema/Table",
+      "hidden": false,
+      "validators": [
+        {
+          "name": "requiredSelection",
+          "message": " Type should have at least one value selected"
+        }
+      ],
+      "advanced": false
+    }
+  },
+  "Uniquefilter": {
+    "hive": {
+      "hiveDataSourceType": {
+        "name": "pluginName",
+        "widget": "select",
+        "label": "Data Source Type",
+        "tooltip": "To be implemented",
+        "hidden": false,
+        "validators": [
+          {
+            "name": "requiredSelection",
+            "message": " Data Source Type should have at least one value selected"
+          }
+        ],
+        "advanced": false
+      },
+      "resolveClusterName": {
+        "name": "resolveClusterName",
+        "widget": "checkbox",
+        "label": "Resolve cluster name",
+        "tooltip": "Disabled by default. Enable it to resolve the cluster name.",
+        "hidden": false,
+        "validators": [],
+        "advanced": false
+      },
+      "kerberosauthentication": {
+        "name": "kerberos",
+        "widget": "properties",
+        "label": "Kerberos authentication",
+        "tooltip": "Configuration settings for Kerberos authentication",
+        "hidden": false,
+        "validators": [],
+        "advanced": false,
+        "collapsed": true
+      },
+      "kerberosKeytabLocation": {
+        "name": "kerberosKeytabLocation",
+        "widget": "string",
+        "label": "Kerberos Keytab location",
+        "tooltip": "Full path along with the Kerberos Keytab file name. Keytab is a file representation of Kerberos principal. It contains pairs of Kerberos principal and encrypted keys",
+        "hidden": false,
+        "validators": [],
+        "advanced": false
+      },
+      "kerberosKrb5location": {
+        "name": "kerberosKrb5location",
+        "widget": "string",
+        "label": "Kerberos Krb5 location",
+        "tooltip": "Full path along with the Kerberos Krb5 configuration file name.",
+        "hidden": false,
+        "validators": [],
+        "advanced": false
+      },
+      "kerberosPrincipalName": {
+        "name": "kerberosPrincipalName",
+        "widget": "string",
+        "label": "Kerberos principal name",
+        "tooltip": "Name of the Kerberos principal that will be used to connect to Hive.",
+        "hidden": false,
+        "validators": [],
+        "advanced": false
+      },
+      "clusterManager": {
+        "name": "clusterManager",
+        "widget": "properties",
+        "label": "Cluster name configuration settings",
+        "tooltip": "Configuration settings for the preferred cluster manager (CLOUDERA or HORTONWORKS), it will be used only if Resolve cluster name is enabled.",
+        "hidden": false,
+        "validators": [],
+        "advanced": false,
+        "collapsed": true
+      },
+      "clusterManagerName": {
+        "name": "clusterManagerName",
+        "widget": "select",
+        "label": "Cluster manager name",
+        "tooltip": "Name of the cluster manager (CLOUDERA or HORTONWORKS) to which the Hive Data Source plugin should connect.",
+        "hidden": false,
+        "validators": [],
+        "advanced": false
+      },
+      "clusterManagerHost": {
+        "name": "clusterManagerHost",
+        "widget": "string",
+        "label": "Cluster manager hostname",
+        "tooltip": "Hostname of the cluster manager (CLOUDERA or HORTONWORKS) to which the Hive Data Source plugin should connect.",
+        "hidden": false,
+        "validators": [],
+        "advanced": false
+      },
+      "clusterManagerPort": {
+        "name": "clusterManagerPort",
+        "widget": "string",
+        "label": "Cluster manager port",
+        "tooltip": "Port number of the cluster manager (CLOUDERA or HORTONWORKS) to which the Hive Data Source plugin should connect.",
+        "hidden": false,
+        "validators": [],
+        "advanced": false
+      },
+      "clusterManagerApiVersion": {
+        "name": "clusterManagerApiVersion",
+        "widget": "string",
+        "label": "Cluster manager API version",
+        "tooltip": "Version of the cluster manager (CLOUDERA or HORTONWORKS) REST API to which the Hive Data Source plugin should connect. For example, api/v1",
+        "hidden": false,
+        "validators": [],
+        "advanced": false
+      },
+	  "analyzeCollectedData":
+	  {
+          "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+          "value" : true,
+          "name" : "analyzeCollectedData",
+          "widget" : "checkbox",
+          "label" : "Analyze collected data",
+          "tooltip" : "Switch on/off analyzing collected data by BigDataAnalyzer",
+          "hidden" : false,
+          "validators" : [ ],
+          "advanced" : false
+        },
+		"deltaTime":
+		{
+          "type" : "com.asg.dis.common.data.component.configview.properties.NestedBeanProperty",
+		   "tooltip" : "Interval for monitoring new Hive event files. Is defined in seconds.",
+          "value" : [ {
+            "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+            "name" : "deltaTime",
+            "widget" : "number",
+            "label" : "Delta time",
+            "tooltip" : "Interval for monitoring new Hive event files. Is defined in seconds.",
+            "hidden" : false,
+            "validators" : [ {
+              "name" : "required",
+              "message" : " Delta time field should not be empty"
+            } ],
+            "advanced" : false
+          }]},
+		  "prototype" : {
+                  "type" : "com.asg.dis.common.data.component.configview.properties.SimpleProperty",
+                  "name" : "label",
+                  "widget" : "label",
+                  "label" : "label",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "required",
+                    "message" : " label field should not be empty"
+                  } ],
+                  "advanced" : false
+            }, 
+				"Databases":{
+                  "name" : "dbRegexList",
+                  "widget" : "advanced-select",
+                  "label" : "Databases",
+                  "hidden" : false,
+                  "validators" : [ {
+                    "name" : "requiredSelection",
+                    "message" : " Databases should have at least one value selected"
+                  } ],
+                  "advanced" : false
+                },
+				"tags":
+				{
+                  "type" : "com.asg.dis.common.data.component.configview.properties.EnumProperty",
+                  "value" : {
+                    "selectedValues" : [ ],
+                    "availableValues" : [ ],
+                    "singleSelection" : false,
+                    "reload" : false,
+                    "allowUserInput" : true
+                  },
+                  "name" : "tags",
+                  "widget" : "advanced-select",
+                  "label" : "tags",
+                  "hidden" : false,
+                  "validators" : [ ],
+                  "advanced" : false
+                },
+				"filters":
+				{
+                "name" : "filters",
+                "metadata" : { },
+                "validators" : [ ],
+                "empty" : false
+              }
+    }
+  }
+}

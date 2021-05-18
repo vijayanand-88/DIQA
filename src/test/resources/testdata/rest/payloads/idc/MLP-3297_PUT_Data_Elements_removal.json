@@ -1,0 +1,6 @@
+{
+  "name": "DataType Set",
+  "description": "DataTypes",
+  "status": "PUBLIC",
+  "dataElements": ["BigData.DataType:::5"]
+}

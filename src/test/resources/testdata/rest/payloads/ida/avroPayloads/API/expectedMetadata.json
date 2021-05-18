@@ -1,0 +1,66 @@
+{
+  "DiffdatatypesWOH": {
+    "username": {
+      "avgLength": "9.5",
+      "avgWordCount": "1",
+      "Maximum length": "13",
+      "Maximum value": "TestUserName1",
+      "maxWordCount": "1",
+      "Minimum length": "6",
+      "Minimum value": "Sehwag",
+      "minWordCount": "1",
+      "mostFrequentWord": "TestUserName1",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100"
+    },
+    "age": {
+      "Average": "43",
+      "Maximum value": "48",
+      "Median": "43",
+      "Minimum value": "38",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "Standard deviation": "7.07",
+      "sum": "86",
+      "Number of unique values": "2",
+      "Percentage of unique values": "100",
+      "Variance": "50"
+    },
+    "longtype": {
+      "Average": "4353",
+      "Maximum value": "4353",
+      "Median": "4353",
+      "Minimum value": "4353",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "sum": "8706",
+      "Number of unique values": "1",
+      "Percentage of unique values": "50"
+    },
+    "floatType": {
+      "Average": "6447474",
+      "Maximum value": "6447474.0",
+      "Median": "6447474",
+      "Minimum value": "6447474.0",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "sum": "1.2894948E7",
+      "Number of unique values": "1",
+      "Percentage of unique values": "50"
+    },
+    "doubleType": {
+      "Average": "53636363",
+      "Maximum value": "5.3636363E7",
+      "Median": "53636363",
+      "Minimum value": "5.3636363E7",
+      "Number of non null values": "2",
+      "Percentage of non null values": "100",
+      "sum": "1.07272726E8",
+      "Number of unique values": "1",
+      "Percentage of unique values": "50"
+    }
+  }
+}
+

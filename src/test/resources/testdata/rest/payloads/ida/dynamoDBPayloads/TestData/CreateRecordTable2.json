@@ -1,0 +1,44 @@
+{
+  "Book Binary": "QUFBY2Q=",
+  "Book Blank": "",
+  "Book BS": [
+    "U3Vubnk=",
+    "UmFpbnk=",
+    "U25vd3k="
+  ],
+  "Book Datewithtimestamp": "2010-12-21T17:42:34+00:00",
+  "Book double": 34.50,
+  "Book Float": 2.0000009,
+  "Book long": 123456789,
+  "Book NS": [
+    42.2,
+    -19,
+    7.5,
+    3.14
+  ],
+  "Book NULL": null,
+  "Book SS": [
+    "Black",
+    "Green",
+    "Red"
+  ],
+  "Book Title": "Mountain A",
+  "BookAuthor": {
+    "Age": {
+      "N": "35"
+    },
+    "Name": {
+      "S": "Joe"
+    }
+  },
+  "Color": [
+    "Red",
+    "Black"
+  ],
+  "Id": 200,
+  "In Publication": true,
+  "ItemsOnMyDesk": [
+    "Coffee Cup",
+    "Telephone"
+  ]
+}

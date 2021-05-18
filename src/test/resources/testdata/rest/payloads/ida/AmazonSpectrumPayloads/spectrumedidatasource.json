@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusSpectrum",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "datasource",
+      "dataSource": null,
+      "credential": "SpectrumEDIBusCredential",
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "EDI host": "usyp5thirmoga1v.asg.com",
+      "EDI subject area access roles": [
+        {
+          "role": "RBR_ADM"
+        }
+      ],
+      "EDI subject area name": "REDSHIFTSPEC",
+      "EDI port": 9292,
+      "pluginName": "EDIBusDataSource",
+      "EDI subject area version": "1.0",
+      "EDI database": "AP-DATA"
+    },{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "EDIBusDataSource_TEST_DEFAULT_CONFIGURATION",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": null,
+      "pluginType": null,
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null
+    }
+  ]
+}

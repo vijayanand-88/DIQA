@@ -1,0 +1,19 @@
+{
+  "CatalogId": "01",
+  "DatabaseInput": {
+    "CreateTableDefaultPermissions": [
+      {
+        "Permissions": ["ALL"],
+        "Principal": {
+          "DataLakePrincipalIdentifier": "IAM_ALLOWED_PRINCIPALS"
+        }
+      }
+    ],
+    "Description": "Test Glue Database",
+    "LocationUri": "Test Location",
+    "Name": "sourcedb512",
+    "Parameters": {
+      "key" : "value"
+    }
+  }
+}

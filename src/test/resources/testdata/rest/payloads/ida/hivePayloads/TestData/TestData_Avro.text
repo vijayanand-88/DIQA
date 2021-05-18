@@ -1,0 +1,37 @@
+CREATE EXTERNAL TABLE hivelinkerdb.Tagdetails_AVRO(EMPLOYEEID int ,FULL_NAME varchar(256),email varchar(256),phonenumber varchar(256),gender varchar(256),SSN varchar(256),postalcode varchar(256),state varchar(256),IPADDRESS varchar(256))
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.avro.AvroSerDe'
+WITH SERDEPROPERTIES ('avro.schema.literal'='{
+  "type" : "record",
+  "name" : "userTypes",
+  "namespace" : "my.example",
+  "fields" : [ {
+    "name" : "EMPLOYEEID",
+    "type" : "int"
+  }, {
+    "name" : "FULL_NAME",
+    "type" : "string"
+  }, {
+    "name" : "email",
+    "type" : "string"
+  }, {
+    "name" : "phonenumber",
+    "type" : "string"
+  }, {
+    "name" : "gender",
+    "type" : "string"
+  }, {
+    "name" : "SSN",
+    "type" : "string"
+  }, {
+    "name" : "postalcode",
+    "type" : "string"
+  },{
+    "name" : "state",
+    "type" : "string"
+  },{
+    "name" : "IPADDRESS",
+    "type" : "string"
+  } ]
+}')
+STORED as AVRO
+LOCATION 'hdfs://sandbox.hortonworks.com:8020/hivelinkerTest/AVRO'

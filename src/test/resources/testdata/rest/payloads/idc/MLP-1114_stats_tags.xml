@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/DataAnalyzer/1.0.0">
+<cluster name="Cluster 1">
+	<dbSystem name="Hive Warehouse">
+		<database name="media">
+			<table name="address" tags="Tag0,Tag1">
+				<column minValue="0" name="customerid" tags="Tag2"/>
+				<column minValue="1" name="state">
+					<tag>Tag3</tag>
+					<tag>Tag4</tag>
+				</column>
+				<column name="city">
+					<tags>Tag5,Tag6</tags>
+				</column>
+			</table>
+		</database>
+	</dbSystem>
+</cluster>
+</xmi:XMI>

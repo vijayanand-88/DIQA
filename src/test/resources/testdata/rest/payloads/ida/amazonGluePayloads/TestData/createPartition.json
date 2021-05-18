@@ -1,0 +1,106 @@
+{
+  "tableName": "store",
+  "description": "glueTestTable1 Description",
+  "database": "gluetestdatabase",
+  "PartitionKeys": [
+    {
+      "name": "country",
+      "type": "varchar(256)",
+      "comment": ""
+    }
+  ],
+  "location": "s3://asg-ida-s3-dev-test/Store/country=USA/",
+  "inputFormat": "org.apache.hadoop.mapred.TextInputFormat",
+  "outputFormat": "org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat",
+  "compressed": "false",
+  "numBuckets": "-1",
+  "StorageDescriptor": {
+    "cols": {
+      "FieldSchema": [
+        {
+          "name": "col0",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "col1",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "col2",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "col3",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "col4",
+          "type": "int",
+          "comment": ""
+        },
+        {
+          "name": "col5",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "col6",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "col7",
+          "type": "string",
+          "comment": ""
+        },
+        {
+          "name": "col8",
+          "type": "bigint",
+          "comment": ""
+        },
+        {
+          "name": "col9",
+          "type": "string",
+          "comment": ""
+        },
+		{
+          "name": "country",
+          "type": "string",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "SerDeInfo": {
+    "name": "",
+    "serializationLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+    "parameters": {
+      "field.delim": ",",
+      "serialization.format": ","
+    }
+  },
+  "bucketCols": [],
+  "sortCols": [],
+  "partitionValues": [
+    "Mexico"
+  ],
+  "partitionProp": {
+    "USA1": "Test",
+    "USA2": "Mexico"
+  },
+  "SkewedInfo": {
+    "skewedColNames": [],
+    "skewedColValues": [],
+    "skewedColValueLocationMaps": {}
+  },
+  "storedAsSubDirectories": "false",
+  "parameters": {
+    "EXTERNAL": "TRUE",
+    "numRows": "4080",
+    "transient_lastDdlTime": "1554365506"
+  }
+}

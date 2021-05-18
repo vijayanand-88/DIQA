@@ -1,0 +1,40 @@
+{ "nsUri" : "http://rochade.asg.com/ModeTest",
+  "objectDefs" : [ {
+    "sqlgName" : "T1",
+    "propertyDefs" : [ {
+      "sqlgName" : "_ta1", "rochName" : "R_ta1", "valueType" : "STRING" }, {
+      "sqlgName" : "_ta2", "rochName" : "R_ta2", "valueType" : "STRING" }, {
+      "sqlgName" : "_ta3", "rochName" : "R_ta3", "valueType" : "STRING" }, {
+      "sqlgName" : "ta1", "rochName" : "Rta1", "valueType" : "STRING" }, {
+      "sqlgName" : "ta2", "rochName" : "Rta2", "valueType" : "STRING" }, {
+      "sqlgName" : "ta3", "rochName" : "Rta3", "valueType" : "STRING" }, {
+      "sqlgName" : "ta4", "rochName" : "Rta4", "valueType" : "STRING" }, {
+      "sqlgName" : "_la1", "rochName" : "R_la1", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "_la2", "rochName" : "R_la2", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "_la3", "rochName" : "R_la3", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "la1", "rochName" : "Rla1", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "la2", "rochName" : "Rla2", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "la3", "rochName" : "Rla3", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "la4", "rochName" : "Rla4", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "la5", "rochName" : "Rla5", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "la6", "rochName" : "Rla6", "valueType" : "OBJECT", "namespace" : false, "ordered" : false }, {
+      "sqlgName" : "lao1", "rochName" : "Rlao1", "valueType" : "OBJECT", "namespace" : false, "ordered" : true }, {
+      "sqlgName" : "lao2", "rochName" : "Rlao2", "valueType" : "OBJECT", "namespace" : false, "ordered" : true }, {
+      "sqlgName" : "lao3", "rochName" : "Rlao3", "valueType" : "OBJECT", "namespace" : false, "ordered" : true }, {
+      "sqlgName" : "lao4", "rochName" : "Rlao4", "valueType" : "OBJECT", "namespace" : false, "ordered" : true }, {
+      "sqlgName" : "lao5", "rochName" : "Rlao5", "valueType" : "OBJECT", "namespace" : false, "ordered" : true }, {
+      "sqlgName" : "lao6", "rochName" : "Rlao6", "valueType" : "OBJECT", "namespace" : false, "ordered" : true }, {
+      "sqlgName" : "_na1", "rochName" : "R_na1", "valueType" : "OBJECT", "namespace" : true, "ordered" : true }, {
+      "sqlgName" : "_na2", "rochName" : "R_na2", "valueType" : "OBJECT", "namespace" : true, "ordered" : true }, {
+      "sqlgName" : "_na3", "rochName" : "R_na3", "valueType" : "OBJECT", "namespace" : true, "ordered" : true }, {
+      "sqlgName" : "na1", "rochName" : "Rna1", "valueType" : "OBJECT", "namespace" : true, "ordered" : false }, {
+      "sqlgName" : "na2", "rochName" : "Rna2", "valueType" : "OBJECT", "namespace" : true, "ordered" : false }, {
+      "sqlgName" : "na3", "rochName" : "Rna3", "valueType" : "OBJECT", "namespace" : true, "ordered" : false }, {
+      "sqlgName" : "na4", "rochName" : "Rna4", "valueType" : "OBJECT", "namespace" : true, "ordered" : false }, {
+      "sqlgName" : "nao1", "rochName" : "Rnao1", "valueType" : "OBJECT", "namespace" : true, "ordered" : true }, {
+      "sqlgName" : "nao2", "rochName" : "Rnao2", "valueType" : "OBJECT", "namespace" : true, "ordered" : true }, {
+      "sqlgName" : "nao3", "rochName" : "Rnao3", "valueType" : "OBJECT", "namespace" : true, "ordered" : true }, {
+      "sqlgName" : "nao4", "rochName" : "Rnao4", "valueType" : "OBJECT", "namespace" : true, "ordered" : true } ]
+  } ]
+}
+    

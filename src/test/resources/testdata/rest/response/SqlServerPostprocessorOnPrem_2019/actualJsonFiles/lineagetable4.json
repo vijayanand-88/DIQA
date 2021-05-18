@@ -1,0 +1,1 @@
+{"lineagetable4":[{"mode":"COPY","sourceAvailability":"YES","source":"age","dir":"<-","target":"age"},{"mode":"COPY","sourceAvailability":"YES","source":"Default.Column:::4323","dir":"<-","target":"Default.Column:::4320"},{"mode":"COPY","sourceAvailability":"YES","source":"Default.Column:::4322","dir":"<-","target":"Default.Column:::4319"}]}

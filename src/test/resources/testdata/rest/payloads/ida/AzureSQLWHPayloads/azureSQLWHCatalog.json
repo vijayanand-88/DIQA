@@ -1,0 +1,11 @@
+{
+  "Azurewarehouse": {
+    "label": {
+      "": "Azurewarehouse"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "Azurewarehouse"
+    }
+  }
+}

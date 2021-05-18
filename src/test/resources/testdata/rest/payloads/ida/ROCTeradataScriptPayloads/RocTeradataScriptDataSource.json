@@ -1,0 +1,154 @@
+{
+  "ROCTeradataDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RochadeTeradataDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ROCTeradataCredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "RochadeBin": "${rochade.home}/bin",
+        "pluginName": "ROCTeradataDataSource",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}/Teradata",
+        "Connection": {
+          "JDBCUrl": "jdbc:teradata://didtde01v.did.dev.asgint.loc/TMODE=ANSI,CHARSET=ASCII",
+          "JDBCDriverPath": "D:\\JDBC_Drivers\\teradata.jar",
+          "SecurityJarPath": "‪D:\\JDBC_Drivers\\tdgssconfig.jar"
+        },
+        "VersionPathName": "V303"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "ROCTeradataDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "ROCTeradataSADataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "RochadeTeradataSADS",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ROCTeradataSACredentials",
+        "businessApplicationName": null,
+        "schedule": null,
+        "filter": null,
+        "pluginName": "ROCTeradataSADataSource",
+        "RochadeBin": "${rochade.home}/bin",
+        "RochadeServerHost": "${rochade.server}",
+        "RochadePath": "${rochade.home}",
+        "PropertiesAndOutputPath": "${rochade.project.home}/Teradata",
+        "VersionPathName": "V303",
+        "RochadeServerPort": "${rochade.port}"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "ROCTeradataSADataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  },
+  "EDIBusDataSource": {
+    "configurations": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "EDIBusTeradataScriptDS",
+        "pluginVersion": "LATEST",
+        "label": {
+          "": ""
+        },
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": [],
+        "pluginType": "datasource",
+        "dataSource": null,
+        "credential": "ROCTeradataSACredentials",
+        "businessApplicationName": null,
+        "dryRun": false,
+        "schedule": null,
+        "filter": null,
+        "EDI host": "DIQROCHADE01V.DIQ.QA.ASGINT.LOC",
+        "EDI subject area access roles": [
+          {
+            "role": "*"
+          }
+        ],
+        "EDI subject area name": "METAAPPS",
+        "EDI port": 8888,
+        "pluginName": "EDIBusDataSource",
+        "EDI subject area version": "PRODUCTION",
+        "EDI database": "AP-DATA"
+      },
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "EDIBusDataSource_TEST_DEFAULT_CONFIGURATION",
+        "label": null,
+        "catalogName": "Default",
+        "eventClass": null,
+        "eventCondition": null,
+        "nodeCondition": null,
+        "maxWorkSize": 100,
+        "tags": null,
+        "pluginType": null,
+        "dataSource": null,
+        "credential": null,
+        "businessApplicationName": null,
+        "dryRun": false,
+        "filter": null
+      }
+    ]
+  }
+}
+

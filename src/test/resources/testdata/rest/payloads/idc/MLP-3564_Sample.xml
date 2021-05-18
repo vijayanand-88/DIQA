@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rxe="http://www.asg.com/rochade/xml/xmiExtension/1.0" xmlns="http://www.asg.com/Analyzer/10.0.0">
+	<xmi:Documentation><xmi:Extension extender="ASG-Rochade XML Facilities"><rxe:importModes>	<rxe:mode category="ATTRIBUTE">KEEP</rxe:mode>	<rxe:mode category="REFERENCE">KEEP</rxe:mode>	<rxe:mode category="COMPONENT">KEEP</rxe:mode></rxe:importModes></xmi:Extension></xmi:Documentation>
+	<Cluster xmi:id="Cluster_1" xsi:type="Cluster" name="LineageDemo Cluster">
+		<definitions xmi:id="DbSystem_1" xsi:type="Database" name="Production">
+			<definitions xmi:id="Database_1" xsi:type="Database" name="Accounting">
+				<definitions xmi:id="Table_4" xsi:type="Table" name="AccountTypes">
+					<definitions xmi:id="Column_21" xsi:type="Column" name="col1" dataType="long">
+					</definitions>
+					<definitions xmi:id="Column_22" xsi:type="Column" name="col2" dataType="varchar">
+					</definitions>
+				</definitions>
+				<definitions xmi:id="Table_5" xsi:type="Table" name="Accounts">
+				</definitions>
+				<definitions xmi:id="Table_6" xsi:type="Table" name="employees">
+				</definitions>
+				<definitions xmi:id="Table_7" xsi:type="Table" name="orders">
+				</definitions>
+			</definitions>
+		</definitions>
+	</Cluster>
+
+</xmi:XMI>

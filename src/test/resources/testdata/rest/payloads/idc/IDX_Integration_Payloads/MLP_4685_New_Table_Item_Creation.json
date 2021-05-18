@@ -1,0 +1,8 @@
+[
+  {
+    "type": "Table",
+    "name": "SampleTest1",
+    "prop-text" : "Sample Text",
+    "@schema": {}
+  }
+]

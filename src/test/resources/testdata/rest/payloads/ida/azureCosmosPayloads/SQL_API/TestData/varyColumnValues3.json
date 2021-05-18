@@ -1,0 +1,14 @@
+{
+  "Name": "Ramya",
+  "Native": false,
+  "gender": "F",
+  "salary": 65000.56,
+  "age": 34,
+  "postalcode": 1234567890123456800,
+  "id": "8c73bd00-d2b3-4d4c-9f2b-ca79762a462d",
+  "_rid": "kShuAKb87LoDAAAAAAAAAA==",
+  "_self": "dbs/kShuAA==/colls/kShuAKb87Lo=/docs/kShuAKb87LoDAAAAAAAAAA==/",
+  "_etag": "\"450024b8-0000-0000-0000-5c8bf2c00000\"",
+  "_attachments": "attachments/",
+  "_ts": 1552675520
+}

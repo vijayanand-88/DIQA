@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PythonParser",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "PythonParser"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "CommonLinker"
+      ],
+      "pluginType": "parser",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "BA_PY",
+      "dryRun": false,
+      "filter": null,
+      "parallelWorkPollInterval": 60,
+      "parallelWorkBatchSize": 100,
+      "parallelQueryBatchSize": 10000
+    }
+  ]
+}

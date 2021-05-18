@@ -1,0 +1,154 @@
+{
+  "zOSDataSource": {
+    "configurations": [
+      {
+        "eventCondition": null,
+        "eventClass": null,
+        "maxWorkSize": 100,
+        "pluginType": "datasource",
+        "nodeCondition": null,
+        "Connection": {
+          "FTP_PROPERTIES_FILE": "${project.root}/Collect_Dist/Cfg/encodingConversion.properties",
+          "CAEPath": "${cae.home}",
+          "ProjectRootFolder": "${cae.project.home}",
+          "SCMSDir": "mvssysa.asg.com"
+        },
+        "label": {
+          "": ""
+        },
+        "tags": [],
+        "catalogName": "Default",
+        "filter": null,
+        "schedule": null,
+        "pluginVersion": "LATEST",
+        "credential": "zosCredentials",
+        "pluginName": "CAEPDSDataSource",
+        "name": "zOSPDSDataSource",
+        "auditFields": {
+          "createdAt": "2020-11-23T10:54:21.81602",
+          "createdBy": "TestSystem",
+          "modifiedAt": "2020-11-23T10:54:21.816027",
+          "modifiedBy": "TestSystem"
+        },
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "dataSource": null,
+        "businessApplicationName": null
+      }
+    ]
+  },
+  "PDSFeedLoadLineageDS": {
+    "configurations": [
+      {
+        "eventCondition": null,
+        "eventClass": null,
+        "maxWorkSize": 100,
+        "pluginType": "datasource",
+        "nodeCondition": null,
+        "Driver": "ORA19",
+        "label": {
+          "": ""
+        },
+        "DBPort": "1521",
+        "tags": [],
+        "catalogName": "Default",
+        "filter": null,
+        "schedule": null,
+        "pluginVersion": "LATEST",
+        "CAEPath": "${cae.home}",
+        "credential": "zosEntryPoint",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "name": "PDSFeedLoadLineageDS",
+        "auditFields": {
+          "createdAt": "2020-11-23T11:07:59.270078",
+          "createdBy": "TestSystem",
+          "modifiedAt": "2020-11-23T11:07:59.270083",
+          "modifiedBy": "TestSystem"
+        },
+        "DBName": "CAE",
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "dataSource": null,
+        "businessApplicationName": null
+      }
+    ]
+  },
+  "zOSCAEDataSource": {
+    "configurations": [
+      {
+        "eventCondition": null,
+        "eventClass": null,
+        "maxWorkSize": 100,
+        "pluginType": "datasource",
+        "nodeCondition": null,
+        "Driver": "ORA19",
+        "label": {
+          "": ""
+        },
+        "DBPort": "1521",
+        "tags": [],
+        "catalogName": "Default",
+        "filter": null,
+        "schedule": null,
+        "pluginVersion": "LATEST",
+        "CAEPath": "${cae.home}",
+        "credential": "zosCAEServer",
+        "pluginName": "CAEDataSource",
+        "ServerName": "MOBIQPLUGIN01V.MOBIQ.QA.ASGINT.LOC",
+        "name": "zOSServerDS",
+        "auditFields": {
+          "createdAt": "2020-11-23T10:58:01.274811",
+          "createdBy": "TestSystem",
+          "modifiedAt": "2020-11-23T10:58:01.274815",
+          "modifiedBy": "TestSystem"
+        },
+        "DBName": "CAE",
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "dataSource": null,
+        "businessApplicationName": null
+      }
+    ]
+  },
+  "zOSPDSDB2LineageDS": {
+    "configurations": [
+      {
+        "eventCondition": null,
+        "eventClass": null,
+        "maxWorkSize": 100,
+        "pluginType": "datasource",
+        "nodeCondition": null,
+        "Connection": {
+          "DBApplicationId": "",
+          "DBAccountUtilityFile": "",
+          "subsystem": "DC1A",
+          "url": "jdbc:db2://mvssysa.asg.com:6203/NA01DC1A"
+        },
+        "label": {
+          "": ""
+        },
+        "tags": [],
+        "catalogName": "Default",
+        "filter": null,
+        "schedule": null,
+        "pluginVersion": "LATEST",
+        "credential": "zosCredentials",
+        "pluginName": "CAEDB2zOSDataSource",
+        "name": "PDSDB2LineageDS",
+        "auditFields": {
+          "createdAt": "2020-11-23T11:02:22.154617",
+          "createdBy": "TestSystem",
+          "modifiedAt": "2020-11-23T11:02:22.154621",
+          "modifiedBy": "TestSystem"
+        },
+        "Datasource General Environment": {
+          "CAEPath": "${cae.home}",
+          "JAVA_MEMORY_HEAP_1": "-Xms256m",
+          "JAVA_MEMORY_HEAP_2": "-Xmx1024m",
+          "CLASSPATH": "${cae.home}/lib/caeextr/*;${java.home}/lib/rt.jar"
+        },
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "dataSource": null,
+        "businessApplicationName": null
+      }
+    ]
+  }
+}

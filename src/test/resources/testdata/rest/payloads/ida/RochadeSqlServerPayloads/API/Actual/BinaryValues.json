@@ -1,0 +1,7 @@
+[ {
+  "sample" : {
+    "header" : [ "FIELDID", "INSTANCEID", "NAME", "RANK", "VALIDFROM", "VALIDTO", "VALUE", "VERSIONID" ],
+    "values" : [ [ "49", "1363", "C:\\Program Files (x86)\\ASG\\ASG-becubic\\setup\\gridData.xmi", "0", "480068924", null, "UNSUPPORTED", "0" ], [ "634", "8941", "resultInputs.ser", "0", "480072113", null, "UNSUPPORTED", "0" ], [ "635", "8941", "result1.ser", "0", "480072113", null, "UNSUPPORTED", "0" ], [ "634", "8959", "resultInputs.ser", "0", "480072131", null, "UNSUPPORTED", "0" ], [ "635", "8959", "result1.ser", "0", "480072131", null, "UNSUPPORTED", "0" ] ]
+  },
+  "id" : "null"
+} ]

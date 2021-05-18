@@ -1,0 +1,11 @@
+{
+  "CLOUDBEE CATALOG": {
+    "label": {
+      "": "CLOUDBEE CATALOG"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "CLOUDBEE CATALOG"
+    }
+  }
+}

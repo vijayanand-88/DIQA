@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "JavaS3Lineage",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": "JavaS3Lineage"
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["tagJavaS3LineageDryRunTrue"],
+      "businessApplicationName": "test_BA_JavaS3Lineage",
+      "pluginType": "lineage",
+      "dryRun": true,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "CodeBinary": "sdsadafdasfdsfdsfdsf",
+  "Description": "Desc for AutoMob",
+  "Id": 102,
+  "ModelBinarySet": [
+    "GhpcyB0Z",
+    "h0IG"
+  ],
+  "ModelList": [
+    "Car",
+    "Jeep",
+    "Bus"
+  ],
+  "ModelMap": {
+    "Audi": "q3",
+    "BMW": "3 Series"
+  },
+  "ModelNumberSet": [
+    "2004",
+    "2003",
+    "2005"
+  ],
+  "ModelStringSet": [
+    "Audi",
+    "BMW",
+    "Ford"
+  ],
+  "Name": "Automob",
+  "Book Title":"AT",
+  "Price": "1000.34",
+  "Valid": true
+}

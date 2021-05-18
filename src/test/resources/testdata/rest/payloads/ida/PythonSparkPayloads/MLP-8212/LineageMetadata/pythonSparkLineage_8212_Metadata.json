@@ -1,0 +1,42 @@
+{
+  "LineageHop_1": {
+    "source": [
+      "_c0"
+    ],
+    "target": [
+      "_c0"
+    ]
+  },
+  "LineageHop_2": {
+    "source": [
+      "_c1"
+    ],
+    "target": [
+      "_c1"
+    ]
+  },
+  "LineageHop_3": {
+    "source": [
+      "_c2"
+    ],
+    "target": [
+      "_c2"
+    ]
+  },
+  "LineageHop_4": {
+    "source": [
+      "_c0"
+    ],
+    "target": [
+      "_c0"
+    ]
+  },
+  "LineageHop_5": {
+    "source": [
+      "_c1"
+    ],
+    "target": [
+      "_c1"
+    ]
+  }
+}

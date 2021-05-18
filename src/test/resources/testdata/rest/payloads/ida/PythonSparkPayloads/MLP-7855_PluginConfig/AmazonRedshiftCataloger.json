@@ -1,0 +1,65 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonRedshiftCataloger",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": ["RedshiftPythonSparkLineage"],
+      "pluginType": "cataloger",
+      "dataSource": "RedshiftDataSource",
+      "credential": "Redshift_Credentials",
+      "dryRun": false,
+      "filter": null,
+      "pluginName": "AmazonRedshiftCataloger",
+      "schemas": [
+        {
+          "schema": "demo",
+          "tables": [
+            {
+              "table": "city"
+            },
+            {
+              "table": "city_created"
+            },
+            {
+              "table": "users"
+            },
+            {
+              "table": "users_created"
+            },
+            {
+              "table": "users_onlytwocolumns"
+            },
+            {
+              "table": "employee"
+            },
+            {
+              "table": "employee_underage"
+            },
+            {
+              "table": "employee1"
+            },
+            {
+              "table": "citywithtwocolumns"
+            },
+            {
+              "table": "category"
+            },
+            {
+              "table": "category_twocolumns"
+            }
+          ]
+        }
+      ],
+      "incremental": false,
+      "type": "Cataloger",
+      "properties": []
+    }
+  ]
+}

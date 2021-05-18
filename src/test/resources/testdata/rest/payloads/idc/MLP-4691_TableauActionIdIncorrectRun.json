@@ -1,0 +1,9 @@
+{
+  "actionId": "NON_EXIST_ACTION_ID",
+  "pluginName": "TableauConnector",
+  "pluginVersion": "10.0.0.RC1-SNAPSHOT",
+  "configurationName": "TableauConnector",
+  "elementIDs": [
+    "BigData.Column:::15"
+  ]
+}

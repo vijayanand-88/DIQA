@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "LINEAGE_PLUGINS",
+      "type": "list",
+      "limit": [],
+      "active": false
+    },
+    {
+      "name": "DATASOURCE",
+      "type": "number",
+      "limit": 10,
+      "active": false
+    }
+  ]
+}

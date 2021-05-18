@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "Cassandra_Analyzer_InvalidTable",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "invalidtable_anlayzer"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": "CassandraAnalyzerBA",
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 10,
+      "databases": [
+        {
+          "tables": [
+            {
+              "table": "invalidtable"
+            }
+          ],
+          "database": "keyspace3"
+        }
+      ],
+      "pluginName": "CassandraDBAnalyzer",
+      "queryBatchSize": 100,
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+    }
+  ]
+}

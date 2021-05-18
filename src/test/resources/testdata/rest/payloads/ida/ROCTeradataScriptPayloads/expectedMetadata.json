@@ -1,0 +1,102 @@
+{
+  "Service1Metadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition": null,
+      "Description": null
+    }
+  },
+  "Service2Metadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition": null,
+      "Description": null
+    }
+  },
+  "Service3Metadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition": "D:\\\\TeradataSQL_TestScripts",
+      "Description": null
+    }
+  },
+  "Service4Metadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition": "D:\\\\TeradataSQL_TestScripts\\\\childdir",
+      "Description": null
+    }
+  },
+  "Operation1Metadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition": null,
+      "Description": "CREATE PROCEDURE automation_testdata_db. table_to_table () \\n  BEGIN \\n    INSERT INTO automation_testdata_db.tab_to_tab2(id, name, age, address) \\n    SELECT id, name, age, address FROM automation_testdata_db.tab_to_tab1; \\n  END;"
+    }
+  },
+  "DatabaseMetadata": {
+    "Description1": ["Description","Definition","Storage type"],
+    "Description2": {
+      "Description": null,
+      "Definition":"didtde01v.did.dev.asgint.loc.AUTOMATION_TESTDATA_DB",
+      "Storage type": "Teradata"
+    }
+  },
+  "SchemaMetadata": {
+    "Description1": ["Description","Definition"],
+    "Description2": {
+      "Definition":"didtde01v.did.dev.asgint.loc.AUTOMATION_TESTDATA_DB",
+      "Description": null
+    }
+  },
+  "TableMetadata": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Table Type":"TABLE",
+      "Description": null,
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle1": ["Created","Modified"]
+  },
+  "ColumnMetadata": {
+    "Description": {
+      "Description": null,
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle": ["Created","Modified"],
+    "Statistics":{
+      "Length": "100"
+    }
+  },
+  "ConstraintMetadata": {
+    "Description": {
+      "Constraint Type": "FOREIGN_KEY"
+    }
+  },
+  "RoutineMetadata": {
+    "Description": {
+      "Definition": null,
+      "Created by":"ADMIN",
+      "routineType":"PROCEDURE"
+    },
+    "Lifecycle": ["Created","Modified"]
+  },
+  "ViewSQLSource": {
+    "Description": {
+      "source": "CREATE VIEW automation_testdata_db.View_to_Table2 as select rollno,sname from automation_testdata_db.View_to_Table1;"
+    }
+  },
+  "RoutineSQLSource": {
+    "Description": {
+      "source": "create PROCEDURE  automation_testdata_db.Table_to_Table() \nbegin \n     insert into automation_testdata_db.Tab_to_Tab2(id,name,age,address)\n     select id,name,age,address from automation_testdata_db.Tab_to_Tab1;\nEND;"
+    }
+  },
+  "SQLSource_TRIGGER1": {
+    "Description": {
+      "source": "CREATE TRIGGER ORACLE12C_SCHEMA1.TRIGGER1 AFTER  insert on ORACLE12C_SCHEMA1.TRIGGERTEST for each row  begin  insert into ORACLE12C_SCHEMA1.TRIGGERTEST1 values(:new.ID,:new.IDNAME,:new.IDADDRESS); end;\\n"
+    }
+  }
+}
+

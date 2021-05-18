@@ -1,0 +1,51 @@
+{
+  "SQLServerDefaultSystem": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Definition": "diqbecsql1901v\\ncreated by ASG-Rochade Scanner for MS SQL Server",
+      "Description": "General additional remarks\\n- examples\\n- demarcations\\n- explanations"
+    }
+  },
+  "SQLServer_DataBase": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Description": "General additional remarks\\n- examples\\n- demarcations\\n- explanations",
+      "Definition": "diqbecsql1901v.idatestdatabase\\ncreated by ASG-Rochade Scanner for MS SQL Server",
+      "Storage type": "MSSQLServer"
+    }
+  },
+  "SQLServer_schema": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Description": "General additional remarks\\n- examples\\n- demarcations\\n- explanations",
+      "Definition": "diqbecsql1901v.idatestdatabase.sqlserverlineage\\ncreated by ASG-Rochade Scanner for MS SQL Server"
+    }
+  },
+  "SQLServer_Table": {
+    "Description1": ["Description"],
+    "Description2": {
+      "Table Type":"TABLE",
+      "Description": "General additional remarks\\n- examples\\n- demarcations\\n- explanations",
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle1": ["Created","Modified"]
+  },
+  "SQLServer_Column": {
+    "Description": {
+      "Description": "General additional remarks\\n- examples\\n- demarcations\\n- explanations",
+      "Created by":"ADMIN",
+      "Modified by":"ADMIN"
+    },
+    "Lifecycle": ["Created","Modified"],
+    "Statistics":{
+      "Length": "50"
+    }
+  },
+  "SQLServer_Constraint": {
+    "Description": {
+      "Constraint Type": "FOREIGN_KEY"
+    }
+  }
+}
+

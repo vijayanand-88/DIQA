@@ -1,0 +1,34 @@
+{
+  "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+  "name": "TeradataCatalogerwithMultipleDatabaseFilter",
+  "pluginVersion": "LATEST",
+  "label": {
+    "": ""
+  },
+  "catalogName": "Default",
+  "eventClass": null,
+  "eventCondition": null,
+  "nodeCondition": null,
+  "maxWorkSize": 100,
+  "tags": [
+    "SC8TeradataCatalogerWithMultipleDatabaseFilter"
+  ],
+  "pluginType": "cataloger",
+  "dataSource": "TeradataDataSource",
+  "credential": "TeradataCredentials",
+  "businessApplicationName": null,
+  "dryRun": false,
+  "filter": null,
+  "pluginName": "TeradataDBCataloger",
+  "databaseFilter": [
+    {
+      "database": "automation_test_db"
+    },
+    {
+      "database": "collector"
+    }
+  ],
+  "casesensitive": true,
+  "arguments": [],
+  "type": "Cataloger"
+}

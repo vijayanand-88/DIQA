@@ -1,0 +1,222 @@
+{
+  "configurations": {
+    "HiveCataloger": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.HiveConfiguration",
+        "name": "HiveCataloger",
+        "label": {
+          "": "HiveCataloger"
+        },
+        "catalogName": "CDAP Hive Demo",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "enableQueryParser": false,
+        "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+        "kerberosKrb5location": "/etc/krb5.conf",
+        "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+        "analyzeCollectedData": true,
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.HiveFilter",
+              "label": {
+                "": "Filter"
+              },
+              "tags": [
+                "cdap"
+              ],
+              "dbRegexList": [
+                "idcdemo"
+              ]
+            }
+          ],
+          "deltaTime": "30",
+          "extraFilters": {},
+          "maxHits": null
+        },
+        "resolveClusterName": false,
+        "resolveNameWrapper": {
+          "resolvingPluginName": "CNavigatorCataloger",
+          "resolvingPluginConfiguration": "CNavigatorCataloger"
+        }
+      }
+    ],
+    "BigDataAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+        "name": "Data Analyzer",
+        "label": {
+          "": "Data Analyzer"
+        },
+        "catalogName": "ParCatalog",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "regExpMatchers": [],
+        "dataSample": {
+          "sampleSize": "25"
+        },
+        "histogramBuckets": "100",
+        "topValues": "10",
+        "filter": null,
+        "sparkOptions": [
+          {
+            "key": "deploy.mode",
+            "value": "client"
+          },
+          {
+            "key": "spark.network.timeout",
+            "value": "600s"
+          }
+        ]
+      }
+    ],
+    "AvroAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+        "name": "AvroAnalyzer",
+        "pluginVersion": "9.9.0.SNAPSHOT",
+        "label": {
+          "": "AvroAnalyzer"
+        },
+        "catalogName": "ParCatalog",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "regExpMatchers": [],
+        "dataSample": {
+          "sampleSize": "25"
+        },
+        "histogramBuckets": "100",
+        "topValues": "10",
+        "filter": null,
+        "sparkOptions": [
+          {
+            "key": "deploy.mode",
+            "value": "cluster"
+          },
+          {
+            "key": "spark.network.timeout",
+            "value": "600s"
+          }
+        ]
+      }
+    ],
+    "ParquetAnalyzer": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.AnalyzerConfiguration",
+        "name": "ParquetAnalyzer",
+        "pluginVersion": "9.9.0.SNAPSHOT",
+        "label": {
+          "": "ParquetAnalyzer"
+        },
+        "catalogName": "ParCatalog",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "regExpMatchers": [],
+        "dataSample": {
+          "sampleSize": "25"
+        },
+        "histogramBuckets": "100",
+        "topValues": "10",
+        "filter": null,
+        "sparkOptions": [
+          {
+            "key": "deploy.mode",
+            "value": "cluster"
+          },
+          {
+            "key": "spark.network.timeout",
+            "value": "600s"
+          }
+        ]
+      }
+    ],
+    "HdfsCataloger": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.HdfsConfiguration",
+        "name": "HdfsCataloger",
+        "pluginVersion": "9.9.0.SNAPSHOT",
+        "label": {
+          "": "HdfsCataloger"
+        },
+        "catalogName": "ParCatalog",
+        "eventClass": null,
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "catalogerHdfsUser": "hdfs",
+        "kerberosKeytabLocation": "/etc/security/keytabs/kataloger.keytab",
+        "kerberosKrb5location": "/etc/krb5.conf",
+        "kerberosPrincipalName": "hdfs@PRINCIPAL.COM",
+        "clusterManagerName": "HORTONWORKS",
+        "clusterManagerHost": "10.33.6.165",
+        "clusterManagerPort": "8080",
+        "clusterManagerLogin": "raj_ops",
+        "clusterManagerPassword": "rdX7heWAVn6gvz3PoOHHpw==",
+        "clusterManagerApiVersion": "api/v1",
+        "scanHdfs": true,
+        "scanServices": false,
+        "analyzeCollectedData": true,
+        "filter": {
+          "filters": [
+            {
+              "class": "com.asg.dis.common.analysis.dom.HdfsFilter",
+              "label": {
+                "": "L1"
+              },
+              "tags": [],
+              "root": "/parFolder",
+              "excludeRegexp": [],
+              "fileMode": "include",
+              "fileExtensions": [
+                "parquet"
+              ]
+            }
+          ],
+          "deltaTime": "30",
+          "extraFilters": {},
+          "maxHits": "100"
+        },
+        "resolveClusterName": false,
+        "resolveNameWrapper": {
+          "resolvingPluginName": "CNavigatorCataloger",
+          "resolvingPluginConfiguration": "CNavigatorCataloger"
+        }
+      }
+    ],
+    "UploadHive": [
+      {
+        "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+        "name": "UploadHive",
+        "label": {
+          "": "UploadHive"
+        },
+        "catalogName": "CDAP Hive Demo",
+        "autoStart": true,
+        "eventClass": "UploadEvent",
+        "eventCondition": null,
+        "parallelQueryBatchSize": 10000,
+        "parallelWorkBatchSize": 100,
+        "parallelWorkPollInterval": 60,
+        "filter": null,
+        "hdfsDir": "/home/excelUpload",
+        "hiveURL": "jdbc:hive2://10.33.10.138:10000",
+        "additionalHiveURLParams": "",
+        "hiveUser": "raj_ops",
+        "hivePwd": "raj_ops"
+      }
+    ]
+  }
+}

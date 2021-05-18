@@ -1,0 +1,98 @@
+{
+  "LineageHop_1": {
+    "source": [
+      "city.csv"
+    ],
+    "target": [
+      "usersDF3"
+    ]
+  },
+  "LineageHop_2": {
+    "source": [
+      "emp.csv"
+    ],
+    "target": [
+      "usersDF"
+    ]
+  },
+  "LineageHop_3": {
+    "source": [
+      "rubiks.parquet"
+    ],
+    "target": [
+      "usersDF6"
+    ]
+  },
+  "LineageHop_4": {
+    "source": [
+      "shapes.orc"
+    ],
+    "target": [
+      "usersDF4"
+    ]
+  },
+  "LineageHop_5": {
+    "source": [
+      "students.orc"
+    ],
+    "target": [
+      "usersDF2"
+    ]
+  },
+  "LineageHop_6": {
+    "source": [
+      "system.parquet"
+    ],
+    "target": [
+      "usersDF5"
+    ]
+  },
+  "LineageHop_7": {
+    "source": [
+      "usersDF"
+    ],
+    "target": [
+      "part-r-00000.parquet"
+    ]
+  },
+  "LineageHop_8": {
+    "source": [
+      "usersDF2"
+    ],
+    "target": [
+      "part-r-00000.parquet"
+    ]
+  },
+  "LineageHop_9": {
+    "source": [
+      "usersDF3"
+    ],
+    "target": [
+      "part-r-00000.csv"
+    ]
+  },
+  "LineageHop_10": {
+    "source": [
+      "usersDF4"
+    ],
+    "target": [
+      "part-r-00000.orc"
+    ]
+  },
+  "LineageHop_11": {
+    "source": [
+      "usersDF5"
+    ],
+    "target": [
+      "part-r-00000.parquet"
+    ]
+  },
+  "LineageHop_12": {
+    "source": [
+      "usersDF6"
+    ],
+    "target": [
+      "part-r-00000.parquet"
+    ]
+  }
+}

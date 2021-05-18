@@ -1,0 +1,11 @@
+{
+  "ConflictTechCatalog": {
+    "label": {
+      "": "ConflictTechCatalog"
+    },
+    "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+    "configuration": {
+      "schema": "ConflictTechCatalog"
+    }
+  }
+}

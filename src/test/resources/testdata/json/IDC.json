@@ -1,0 +1,759 @@
+{
+  "Login": [
+    {
+      "username": "test23",
+      "password": "System23",
+      "Input1": "Sam",
+      "Input2": "Sam",
+      "Input3": "Sam"
+    }
+  ],
+  "Home": [
+    {
+      "name": "Sample",
+      "passwordHome": "simple",
+      "Input1": "Sam",
+      "Input2": "Sam",
+      "Input3": "Sam"
+    }
+  ],
+  "createNewSubjectArea": [
+    {
+      "Name": "sampleSubjectAreaqa",
+      "Description": "qaAutTestdescription"
+    }
+  ],
+  "createNewSubjectArea2": [
+    {
+      "Name": "qaTestsubjectarea",
+      "Description": "qaTestdescription"
+    }
+  ],
+  "createNewTag": [
+    {
+      "Name": "QAAUTOMATIONTAG",
+      "Description": "QAAUTOMATIONTAGDESC",
+      "Type": "New"
+    }
+  ],
+  "createNewSubjectArea4": [
+    {
+      "Name": "qaTestTag",
+      "Description": "qaTestTag"
+    }
+  ],
+  "createNewSubjectArea3": [
+    {
+      "Name": "NewSubjectArea"
+    }
+  ],
+  "deleteNewSubjectArea": [
+    {
+      "Name": "qaTestsubjectarea"
+    }
+  ],
+  "deleteModifiedSubjectArea": [
+    {
+      "Name": "qaAutTestsubjectareaqatestupdated"
+    }
+  ],
+  "selectingSubjectAreaFromList1": [
+    {
+      "Name": "sampleSubjectAreaqa"
+    }
+  ],
+  "selectingSubjectAreaFromList2": [
+    {
+      "Name": "qatestupdated"
+    }
+  ],
+  "updateExistingSubjectArea": [
+    {
+      "Name": "qatestupdated",
+      "Description": "qadescriptionupdated"
+    }
+  ],
+  "updateSubjectAreaName": [
+    {
+      "Name": "BigData Test"
+    }
+  ],
+  "updateSubjectAreaName1": [
+    {
+      "Name": "BigData"
+    }
+  ],
+  "updateSubjectAreaDesc": [
+    {
+      "Description": "BigData item"
+    }
+  ],
+  "subjectAreaComments": [
+    {
+      "Name": "Test comment"
+    }
+  ],
+  "subjectAreaComments1": [
+    {
+      "Name": "Admin comment"
+    }
+  ],
+  "subjectAreaComments2": [
+    {
+      "Name": "User comment"
+    }
+  ],
+  "subjectAreaSearchText": [
+    {
+      "Name": "a",
+      "SearchText": "customergenres",
+      "SearchTextForComment": "sales_fact",
+      "Comment": "Editing the comment",
+      "ReplyToComment": "Adding a Reply",
+      "BadQuality": "photopath",
+      "GoodQuality": "catmapping",
+      "ExcellentQuality": "shippers",
+      "NotApplicable": "Loyalty"
+    }
+  ],
+  "createTagSubectArea": [
+    {
+      "Name": "qatest",
+      "Definition": "qadefinition",
+      "TagType": "qatype"
+    }
+  ],
+  "HiveCatalogerCreation": [
+    {
+      "Name": "Cluster 3",
+      "HiveName": "Test Hive",
+      "Delta Time": "300",
+      "Filter Name": "Test Filter",
+      "HDFSName": "Test HDFS",
+      "ClusterName": "Cluster Demo"
+    }
+  ],
+  "createNewdashboard": [
+    {
+      "Name": "QAAutDashBoard"
+    }
+  ],
+  "updateExistingDashboard": [
+    {
+      "Name": "dashboardUpdated"
+    }
+  ],
+  "deleteNewDashboard": [
+    {
+      "Name": "dashboardUpdated"
+    }
+  ],
+  "TableName": [
+    {
+      "Table": "sales_fact_dec_1998"
+    }
+  ],
+  "ImportErrorsAndWarnings": [
+    {
+      "sheetWithBlankColumnError": "IMPORT-0008: All row import failed",
+      "sheetWithBlankColumnWarnings": "IMPORT-0001: Cannot import row no: 1 - Error Message: ITEM-0009: Property name missing,IMPORT-0001: Cannot import row no: 2 - Error Message: ITEM-0009: Property name missing,IMPORT-0001: Cannot import row no: 3 - Error Message: ITEM-0009: Property name missing,IMPORT-0001: Cannot import row no: 4 - Error Message: ITEM-0009: Property name missing,IMPORT-0001: Cannot import row no: 5 - Error Message: ITEM-0009: Property name missing,IMPORT-0001: Cannot import row no: 6 - Error Message: ITEM-0009: Property name missing"
+    }
+  ],
+  "QuickLink": [
+    {
+      "Search Name": "Search for sales_fact_dec_1998 table",
+      "Search Description": "Search return sales fact table and its columns",
+      "Catalog Name": "Search Catalog1",
+      "Catalog Desctiption": "Quick link Search Widget",
+      "search text": "database",
+      "Database search": "List of all Databases",
+      "DB search Desc": "This shows all the available Databases",
+      "Solr": "catalog_s:BigData AND type_s:Database",
+      "Solr Name": "Database list through solr syntax",
+      "Solr Description": "Quicklink with solr",
+      "Random quick link name": "list of Tables",
+      "Random quick link description": "List of Foodmart Database"
+    }
+  ],
+  "LeadingSpace": [
+    {
+      "Name": "  LeadingSpace"
+    }
+  ],
+  "TrailingSpace": [
+    {
+      "Name": "TrailingSpace  "
+    }
+  ],
+  "Backslash": [
+    {
+      "Name": "\Test"
+    }
+  ],
+  "Forwardslash": [
+    {
+      "Name": "/Test"
+    }
+  ],
+  "DoubleQuotes": [
+    {
+      "Name": "\""
+    }
+  ],
+  "Queries": [
+    {
+      "QueryLog_Q1": "select*fromxademo.recharge_details",
+      "QueryLog_Q2": "createtablefoodmart.customer_shopping_list(customer_idint,product_idint,product_namevarchar(60),brand_namevarchar(60))",
+      "QueryLog_Q3": "createexternaltabledefault.cus_shop_list(customer_idint,product_idint,product_namestring,brand_namestring)",
+      "QueryLog_Q4": "insertintofoodmart.customer_shopping_list(customer_id,product_id_",
+      "QueryLog_Q5": "insertoverwritedirectory'user/totalcommerce/testcsvfolder'select*fromnorthwind.employees",
+      "QueryLog_Q6": "insertoverwritetablecus_shop_listselect*fromfoodmart.customer_shopping_list"
+    }
+  ],
+  "QueriesValidation": [
+    {
+      "QueryLog_Q1": "select*fromxademo.recharge_details",
+      "QueryLog_Q2": "createtablefoodmart.customer_shopping_list(customer_idint,product_idint,product_namevarchar(60),brand_namevarchar(60))",
+      "QueryLog_Q3": "createexternaltabledefault.cus_shop_list(customer_idint,product_idint,product_namestring,brand_namestring)",
+      "QueryLog_Q4": "insertintofoodmart.customer_shopping_list(customer_id,product_id_",
+      "QueryLog_Q5": "insertoverwritedirectory''user/totalcommerce/testcsvfolder''select*fromnorthwind.employees",
+      "QueryLog_Q6": "insertoverwritetablecus_shop_listselect*fromfoodmart.customer_shopping_list"
+    }
+  ],
+  "QueryParser": [
+    {
+      "QueryLog_Q1": "select * from hivequeryparserdb.customers",
+      "QueryLog_Q2": "CREATE TABLE hivequeryparserdb.customer_shopping_list(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "DropQueryLog_Q2": "drop TABLE hivequeryparserdb.customer_shopping_list",
+      "QueryLog_Q3": "CREATE EXTERNAL TABLE IF NOT EXISTS hivequeryparserdb.city (id STRING, name STRING, countrycode STRING, city STRING, population INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE LOCATION 'hdfs://sandbox.hortonworks.com:8020/hivelinkertest/csv/'",
+      "DropQueryLog_Q3": "drop table hivequeryparserdb.cust_shop_list",
+      "DropQueryTable1": "drop table hivequeryparserdb.product",
+      "DropQueryTable2": "drop table hivequeryparserdb.store",
+      "DropQueryTable3": "drop table hivequeryparserdb.productstore",
+      "DropQueryTable4": "drop table hivequeryparserdb.city",
+      "DropQueryTable5": "drop table hivequeryparserdb.customers",
+      "DropQueryTable6": "drop table hivequeryparserdb.customers1",
+      "QueryLog_Q4": "create table hivequeryparserdb.productstore(store_id int,product_id int,product_name string,store_name string)",
+      "QueryLog_Q4_1": "create table hivequeryparserdb.product as select * from foodmart.product",
+      "QueryLog_Q4_2": "create table hivequeryparserdb.store as select * from foodmart.store",
+      "QueryLog_Q4_3": "insert into hivequeryparserdb.productstore(store_id,product_id,product_name,store_name) select b.store_id,a.product_id,a.product_name,b.store_name from hivequeryparserdb.product a inner join hivequeryparserdb.store b on a.product_id=b.store_id",
+      "QueryLog_Q5": "INSERT OVERWRITE DIRECTORY 'hivelinker/csv/testcsvfolder' select * from hivequeryparserdb.customer_shopping_list",
+      "QueryLog_Q6": "CREATE TABLE hivequeryparserdb.cust_shop_list as select * from hivequeryparserdb.customer_shopping_list",
+      "QueryLog_Q6_1": "INSERT OVERWRITE TABLE hivequeryparserdb.cust_shop_list select * from hivequeryparserdb.customer_shopping_list",
+      "QueryLog_Q7": "use foodmart",
+      "QueryLog_Q8": "create database idcdemo",
+      "QueryLog_Q9": "create table idcdemo.test(id int)",
+      "QueryLog_Q10": "drop table test",
+      "CreateHiveDatabase": "create database hivesample",
+      "CreateHiveTable11": "create table hivesample.TestTable1(EMPLOYEEID int,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string)",
+      "InsertHiveTable1": "insert into hivesample.TestTable1 values(10,'Irina Shayk','ishayk@gmail.com','325.123.4568','F','435-56-3222','98578','VI','223.249.255.6')",
+      "InsertHiveTable2": "insert into hivesample.TestTable1 values(20,'lakshmi Priya','lakshmi@gmail.com','110.113.3245','M','135-78-2111','57907','TN','173.149.125.7')",
+      "InsertHiveTable3": "insert into hivesample.TestTable1 values(30,'Saranya shakthi','saranya@gmail.com','310.413.6245','F','635-88-7111','37907','KA','143.129.105.8')",
+      "InsertHiveTable4": "insert into hivesample.TestTable1 values(40,'Harsha harini','harini@gmail.com','710.200.8245','M','335-68-0111','57907','GU','043.129.105.8')",
+      "InsertHiveTable5": "insert into hivesample.TestTable1 values(50,'Harsha harini','harini@gmail.com','710.200.8245','M','335-68-0111','57907','GU','043.129.105.8')",
+      "CreateHiveTable1": "create table hivesample.sales_fact as select * from foodmart.sales_fact_dec_1998",
+      "dropHiveTable11":"drop table hivesample.TestTable1",
+      "CreateHiveTable22": "create table default.TestTable1(EMPLOYEEID int,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string)",
+      "dropHiveTable22":"drop table default.TestTable1",
+      "CreateHiveTable2": "create table hivesample.zone_west as select * from default.sample_08",
+      "CreateHiveTable3": "create table healthcare.zone_east(emp_id int,dep_id int, dept_name varchar(30),store_name varchar(30))",
+      "CreateHiveTable33": "create table hivesample.zone_east(emp_id int,dep_id int, dept_name varchar(30),store_name varchar(30))",
+      "InsertHiveTable33Row1": "insert into hivesample.zone_east values(30,150,'dept1','store name1')",
+      "InsertHiveTable33Row2": "insert into hivesample.zone_east values(30,250,'dept2','store name1')",
+      "InsertHiveTable33Row3": "insert into hivesample.zone_east values(45,350,'dept3','store name3')",
+      "InsertHiveTable33Row4": "insert into hivesample.zone_east values(55,550,'dept3','store name3')",
+      "InsertHiveTable33Row5": "insert into hivesample.zone_east values(65,150,'dept2','store name5')",
+      "dropHiveTable33":"drop table hivesample.zone_east",
+      "CreateHiveDatabase2": "create database databasewithnotables",
+      "CreateHiveDatabase3": "create database hivepolicypatterndb",
+      "CreateHiveTableALLMATCH": "create table hivepolicypatterndb.tagdetails_allmatch (EMPLOYEEID int ,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string)",
+      "InsertHiveTableALLMATCH1": "insert into hivepolicypatterndb.tagdetails_allmatch values(10,'Irina Shayk','ishayk@gmail.com','325.123.4568','F','435-56-3222','98578','VI','223.249.255.6')",
+      "InsertHiveTableALLMATCH2": "insert into hivepolicypatterndb.tagdetails_allmatch values(20,'lakshmi Priya','lakshmi@gmail.com','110.113.3245','M','135-78-2111','57907','TN','173.149.125.7')",
+      "InsertHiveTableALLMATCH3": "insert into hivepolicypatterndb.tagdetails_allmatch values(30,'Saranya shakthi','saranya@gmail.com','310.413.6245','F','635-88-7111','37907','KA','143.129.105.8')",
+      "InsertHiveTableALLMATCH4": "insert into hivepolicypatterndb.tagdetails_allmatch values(40,'Harsha harini','harini@gmail.com','710.200.8245','M','335-68-0111','57907','GU','043.129.105.8')",
+      "InsertHiveTableALLMATCH5": "insert into hivepolicypatterndb.tagdetails_allmatch values(50,'meghna priya','meghna@gmail.com','910.210.5345','M','315-78-9010','59907','EN','643.729.605.7')",
+      "CreateHiveTableALLEMPTY": "create table hivepolicypatterndb.tagdetails_allempty (EMPLOYEEID int ,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string)",
+      "InsertHiveTableALLEMPTY1": "insert into hivepolicypatterndb.tagdetails_allempty values(10,null,'ishayk@gmail.com','325.123.4568',null,'435-56-3222','98578','VI','223.249.255.6')",
+      "InsertHiveTableALLEMPTY2": "insert into hivepolicypatterndb.tagdetails_allempty values(20,null,'lakshmi@gmail.com','110.113.3245',null,'135-78-2111','57907','TN','173.149.125.7')",
+      "InsertHiveTableALLEMPTY3": "insert into hivepolicypatterndb.tagdetails_allempty values(30,null,'saranya@gmail.com','310.413.6245',null,'635-88-7111','37907','KA','143.129.105.8')",
+      "InsertHiveTableALLEMPTY4": "insert into hivepolicypatterndb.tagdetails_allempty values(40,null,'harini@gmail.com','710.200.8245',null,'335-68-0111','57907','GU','043.129.105.8')",
+      "InsertHiveTableALLEMPTY5": "insert into hivepolicypatterndb.tagdetails_allempty values(50,null,'meghna@gmail.com','910.210.5345',null,'315-78-9010','59907','EN','643.729.605.7')",
+      "CreateHiveTableRatiolessthan05EmptyFalse": "create table hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse (EMPLOYEEID int ,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string)",
+      "InsertHiveTableRatiolessthan05EmptyFalse1": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(10,'Irina Shayk','ishayk@gmail.com','325.123.4568','F','435-56-3222','98578','VI','223.249.255.6')",
+      "InsertHiveTableRatiolessthan05EmptyFalse2": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(20,'lakshmi Priya','lakshmi@gmail.com','110.113.3245','M','135-78-2111','57907','TN','173.149.125.7')",
+      "InsertHiveTableRatiolessthan05EmptyFalse3": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(30,'Saranya shakthi','saranya@gmail.com','310.413.6245','F','635-88-7111','37907','KA','143.129.105.8')",
+      "InsertHiveTableRatiolessthan05EmptyFalse4": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(40,'Harshaharini','harini@gmail.com','710.200.8245','M1','335680111','57907','GU','043.129.105.8')",
+      "InsertHiveTableRatiolessthan05EmptyFalse5": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(50,'meghnapriya','meghna@gmail.com','910.210.5345','M1','315789010','59907','EN','643.729.605.7')",
+      "InsertHiveTableRatiolessthan05EmptyFalse6": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(60,'IrinaShayk','ishayk@gmail.com','325.123.4568','F1','435563222','98578','VI','223.249.255.6')",
+      "InsertHiveTableRatiolessthan05EmptyFalse7": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(70,'lakshmiPriya','lakshmi@gmail.com','110.113.3245','M1','135782111','57907','TN','173.149.125.7')",
+      "InsertHiveTableRatiolessthan05EmptyFalse8": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(80,'Saranyashakthi','saranya@gmail.com','310.413.6245','F1','635887111','37907','KA','143.129.105.8')",
+      "InsertHiveTableRatiolessthan05EmptyFalse9": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(90,'Harshaharini','harini@gmail.com','710.200.8245','M1','335680111','57907','GU','043.129.105.8')",
+      "InsertHiveTableRatiolessthan05EmptyFalse10": "insert into hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse values(100,'meghnapriya','meghna@gmail.com','910.210.5345','M1','315789010','59907','EN','643.729.605.7')",
+      "CreateHiveTableRatiogreaterthan05EmptyFalseTrue": "create table hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue (EMPLOYEEID int ,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string)",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue1": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(10,'Irina Shayk','ishayk@gmail.com','325.123.4568','F','435-56-3222','98578','VI','223.249.255.6')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue2": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(20,'lakshmi Priya','lakshmi@gmail.com','110.113.3245','M','135-78-2111','57907','TN','173.149.125.7')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue3": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(30,'Saranya shakthi','saranya@gmail.com','310.413.6245','F','635-88-7111','37907','KA','143.129.105.8')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue4": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(40,'Harsha harini','harini@gmail.com','710.200.8245','M','335-68-0111','57907','GU','043.129.105.8')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue5": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(50,'meghna priya','meghna@gmail.com','910.210.5345','M1','315-78-9010','59907','EN','643.729.605.7')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue6": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(60,'IrinaShayk','ishayk@gmail.com','325.123.4568','F1','435563222','98578','VI','223.249.255.6')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue7": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(70,'lakshmiPriya','lakshmi@gmail.com','110.113.3245','M1','135782111','57907','TN','173.149.125.7')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue8": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(80,null,'saranya@gmail.com','310.413.6245',null,null,'37907','KA','143.129.105.8')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue9": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(90,null,'harini@gmail.com','710.200.8245',null,null,'57907','GU','043.129.105.8')",
+      "InsertHiveTableRatiogreaterthan05EmptyFalseTrue10": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue values(100,null,'meghna@gmail.com','910.210.5345',null,null,'59907','EN','643.729.605.7')",
+      "CreateHiveTableRatioEqualTo05EmptyFalse": "create table hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse (EMPLOYEEID int ,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string)",
+      "InsertHiveTableRatioEqualTo05EmptyFalse1": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(10,'Irina Shayk','ishayk@gmail.com','325.123.4568','F','435-56-3222','98578','VI','223.249.255.6')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse2": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(20,'lakshmi Priya','lakshmi@gmail.com','110.113.3245','M','135-78-2111','57907','TN','173.149.125.7')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse3": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(30,'Saranya shakthi','saranya@gmail.com','310.413.6245','F','635-88-7111','37907','KA','143.129.105.8')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse4": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(40,'Harsha harini','harini@gmail.com','710.200.8245','M','335-68-0111','57907','GU','043.129.105.8')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse5": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(50,'meghna priya','meghna@gmail.com','910.210.5345','M','315-78-9010','59907','EN','643.729.605.7')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse6": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(60,'IrinaShayk','ishayk@gmail.com','325.123.4568','F1','435563222','98578','VI','223.249.255.6')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse7": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(70,'lakshmiPriya','lakshmi@gmail.com','110.113.3245','M1','135782111','57907','TN','173.149.125.7')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse8": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(80,'Saranyashakthi','saranya@gmail.com','310.413.6245','F1','635887111','37907','KA','143.129.105.8')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse9": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(90,'Harshaharini','harini@gmail.com','710.200.8245','M1','335680111','57907','GU','043.129.105.8')",
+      "InsertHiveTableRatioEqualTo05EmptyFalse10": "insert into hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse values(100,'meghnapriya','meghna@gmail.com','910.210.5345','M1','315789010','59907','EN','643.729.605.7')",
+      "CreateHiveTableRatiogreaterthan05MatchFullTrue": "create table hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue (RollNumber int ,NAME String,Comments String)",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue1": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(10,'Irina','Snowflake manages all aspects of how this data is stored.The organization and other aspects of data storage are handled by Snowflake.')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue2": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(20,'Name1','A database is a collection of information that is organized so that it can be easily accessed, managed and updated. Computer databases typically contain aggregations of data records or files.')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue3": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(30,'Name2','In a relational database digital information about a specific customer is organized into rows columns and tables which are indexed to make it easier.')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue4": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(40,'Name3','SHOW GRANTS. Lists all access control privileges that have been granted to roles, users, and shares. For more information about privileges and roles, see Access Control in Snowflake.')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue5": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(50,'Name4','A database is a collection of information that is organized so that it can be easily accessed, managed and updated. Computer databases typically contain aggregations of data records or files.')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue6": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(60,'Irina','Snowflake manages all aspects of how this data is stored.The organization and other aspects of data storage are handled by Snowflake.')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue7": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(70,'Name1','A database.')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue8": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(80,'Name2','In a relational database')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue9": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(90,'Name3','SHOW GRANTS.')",
+      "InsertHiveTableRatiogreaterthan05MatchFullTrue10": "insert into hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue values(1000,'Name4','A database.')",
+      "CreateHiveTableRatiolesserthan05MatchFullTrue": "create table hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue (RollNumber int ,NAME String,Comments String)",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue1": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(10,'Irina','Snowflake manages all aspects of how this data is stored.The organization and other aspects of data storage are handled by Snowflake.')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue2": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(20,'Name1','A database is a collection of information that is organized so that it can be easily accessed, managed and updated. Computer databases typically contain aggregations of data records or files.')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue3": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(30,'Name2','In a relational database digital information about a specific customer is organized into rows columns and tables which are indexed to make it easier.')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue4": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(40,'Name3','SHOW GRANTS. Lists all access control privileges that have been granted to roles, users, and shares. For more information about privileges and roles, see Access Control in Snowflake.')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue5": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(50,'Name4','A database.')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue6": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(60,'Irina','Snowflake manages.')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue7": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(70,'Name1','A database.')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue8": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(80,'Name2','In a relational database')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue9": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(90,'Name3','SHOW GRANTS.')",
+      "InsertHiveTableRatiolesserthan05MatchFullTrue10": "insert into hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue values(1000,'Name4','A database.')",
+      "CreateHiveDatabase4": "create database hivelinkerdb",
+      "CreateExternalHiveTableTagdetailsCSV": "CREATE EXTERNAL TABLE IF NOT EXISTS hivelinkerdb.Tagdetails_CSV (EMPLOYEEID int ,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE LOCATION 'hdfs://sandbox.hortonworks.com:8020/hivelinkerTest/CSV/'",
+      "CreateExternalHiveTableTagdetailsPARQUET": "CREATE EXTERNAL TABLE IF NOT EXISTS hivelinkerdb.Tagdetails_PARQUET (EMPLOYEEID int ,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS PARQUET LOCATION 'hdfs://sandbox.hortonworks.com:8020/hivelinkerTest/PARQUET/'",
+      "CreateExternalHiveTableTagdetailsText": "CREATE EXTERNAL TABLE IF NOT EXISTS hivelinkerdb.Tagdetails_TEXT (EMPLOYEEID int ,FULL_NAME string,email string,phonenumber string,gender string,SSN string,postalcode string,state string,IPADDRESS string) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS PARQUET LOCATION 'hdfs://sandbox.hortonworks.com:8020/hivelinkerTest/TextFolder/'",
+      "CreateExternalHiveTableTagdetailsNorecordtables": "create table hivelinkerdb.Norecordtables (RollNumber int ,NAME String,Comments String)",
+
+      "DropHiveDatabase2": "drop database databasewithnotables",
+      "DropExternalHiveTableTagdetails_CSV": "drop table hivelinkerdb.tagdetails_csv",
+      "DropExternalHiveTableTagdetails_AVRO": "drop table hivelinkerdb.tagdetails_avro",
+      "DropExternalHiveTableTagdetails_PARQUET": "drop table hivelinkerdb.tagdetails_parquet",
+      "DropExternalHiveTableTagdetails_Norecordtables": "drop table hivelinkerdb.norecordtables",
+      "DropExternalHiveTableTagdetails_tagdetails_text": "drop table hivelinkerdb.tagdetails_text",
+      "DropHiveDatabase_hivelinkerdb": "drop database hivelinkerdb",
+
+      "DropTable_SalesFact": "drop table hivesample.sales_fact",
+      "DropTable_ZoneWest": "drop table hivesample.zone_west",
+      "DropTable_testtable1": "drop table hivesample.testtable1",
+      "DropDatabase": "drop database hivesample",
+      "DropTable_healthCare": "drop table healthcare.zone_east",
+      "CreateHiveCatalogerDatabase3": "create database hivecatalogersample",
+      "CreateHiveCatalogerTable1": "create table hivecatalogersample.sales_fact as select * from default.sample_08",
+      "CreateHiveCatalogerTable2": "create table hivecatalogersample.zone_westas select * from default.sample_08",
+      "DropTable_CatalogerSalesFact": "drop table hivecatalogersample.sales_fact",
+      "DropTable_CatalogerZoneWest": "drop table hivecatalogersample.zone_west",
+      "DropCatalogerDatabase": "drop database hivecatalogersample",
+      "CreateHiveBDADatabase": "create database hivebda",
+      "CreateHiveBDATable1": "create table hivebda.sales_bda as select * from foodmart.sales_fact_dec_1998",
+      "CreateHiveBDATable11": "create table hivebda.diffdatatypes(inttype int,tinyinttype tinyint,smallinttype smallint,biginttype bigint,floattype float,doubletype double,decimaltype decimal,stringtype string,varchartype varchar(10),chartype char(10),datetype date,timestamptype timestamp,booleantype boolean,binarytype binary)",
+      "InsertHiveBDATable11Row1":"insert into hivebda.diffdatatypes values(10,5,2000,10000,234.5,5000.56,8500.25,'string1','varchar1','char1','2014-12-07','2014-12-07 23:00:00',true,'25')",
+      "InsertHiveBDATable11Row2":"insert into hivebda.diffdatatypes values(12,15,5000,15000,334.5,6000.56,8700.25,'string2','varchar2','char2','2015-10-03','2015-10-03 12:20:00',false,'20')",
+      "InsertHiveBDATable11Row3":"insert into hivebda.diffdatatypes values(14,35,5600,35000,434.5,7000.56,9700.25,'string3','varchar3','char3','1990-10-03','1990-10-03 00:20:00',false,'40')",
+      "InsertHiveBDATable11Row4":"insert into hivebda.diffdatatypes values(34,45,7600,95000,634.5,8000.56,10700.25,'string4','varchar4','char4','1981-01-01','1981-01-01 04:20:20',true,'55')",
+      "InsertHiveBDATable11Row5":"insert into hivebda.diffdatatypes values(64,55,3300,350000,4340.5,70000.56,97000.25,'string4','varchar4','char4','1991-10-03','1991-10-03 00:20:00',false,'67')",
+      "CreateHiveBDADatabase2": "create database hivebda2",
+      "CreateHiveBDATable2": "create table hivebda2.sample as select * from default.sample_08",
+      "CreateHiveBDATable3": "create table hivebda3.sample2 as select * from default.sample_08",
+      "ShowDatabases": "show databases",
+      "DropHiveBDADatabase": "drop database hivebda",
+      "DropHiveBDATable1": "drop table hivebda.diffdatatypes",
+      "DropHiveBDATable11": "drop table hivebda.sales_bda",
+      "DropHiveBDADatabase2": "drop database hivebda2",
+      "DropHiveBDATable2": "drop table hivebda2.sample",
+      "DropHiveBDATable3": "drop table hivebda3.sample2",
+      "CreateHiveBDADatabase3": "create database hivebda3",
+      "DropHiveBDADatabase3": "drop database hivebda3",
+      "CreateBDATable1": "create table default.BDATest(id int)",
+      "DropBDATable1": "drop table default.BDATest",
+      "CreateHiveBDADB": "create database hiveBDAsample",
+      "CreateBDATable2": "create table hiveBDAsample.BDAtable(name1 string,name2 string,name3 string,name4 string,name5 string,name6 string,name7 string,name8 string,name9 string,name10 string,
+      name11
+      string,
+      name12
+      string,
+      name13
+      string,
+      name14
+      string,
+      name15
+      string,
+      name16
+      string,
+      name17
+      string,
+      name18
+      string,
+      name19
+      string,
+      name20
+      string,
+      name21
+      string,
+      name22
+      string,
+      name23
+      string,
+      name24
+      string,
+      name25
+      string,
+      name26
+      string,
+      name27
+      string,
+      name28
+      string,
+      name29
+      string,
+      name30
+      string,
+      name31
+      string,
+      name32
+      string,
+      name33
+      string,
+      name34
+      string,
+      name35
+      string,
+      name36
+      string,
+      name37
+      string,
+      name38
+      string,
+      name39
+      string,
+      name40
+      string,
+      name41
+      string,
+      name42
+      string,
+      name43
+      string,
+      name44
+      string,
+      name45
+      string,
+      name46
+      string,
+      name47
+      string,
+      name48
+      string,
+      name49
+      string,
+      name50
+      string)
+      ",
+      "DropBDATable2": "drop table hiveBDAsample.BDAtable",
+      "DropHiveBDADB": "drop database hiveBDAsample",
+      "CreateMLADatabase": "create database testmladatabase",
+      "CreateMLATable1": "create table testmladatabase.testmlatable1(colour string,shade string)",
+      "InsertRow1IntoMLATable1": "insert into testmladatabase.testmlatable1 values('red','dark')",
+      "InsertRow2IntoMLATable1": "insert into testmladatabase.testmlatable1 values('yellow','light')",
+      "InsertRow3IntoMLATable1": "insert into testmladatabase.testmlatable1 values('blue','dark')",
+      "InsertRow4IntoMLATable1": "insert into testmladatabase.testmlatable1 values('green','contrast')",
+      "CreateMLATable2SameAsMLATable1": "create table testmladatabase.testmlatable2 as select * from testmladatabase.testmlatable1",
+      "CreateMLATable3": "create table testmladatabase.testmlatable3(colour3 string,shade3 string)",
+      "InsertRow1IntoMLATable3": "insert into testmladatabase.testmlatable3 values('red','dark')",
+      "InsertRow2IntoMLATable3": "insert into testmladatabase.testmlatable3 values('yellow','light')",
+      "InsertRow3IntoMLATable3": "insert into testmladatabase.testmlatable3 values('grey','medium')",
+      "InsertRow4IntoMLATable3": "insert into testmladatabase.testmlatable3 values('silver','heavy')",
+      "CreateMLATable4": "create table testmladatabase.testmlatable4(colour4 string,shade4 string)",
+      "InsertRow1IntoMLATable4": "insert into testmladatabase.testmlatable4 values('red','dark')",
+      "InsertRow2IntoMLATable4": "insert into testmladatabase.testmlatable4 values('black','matte')",
+      "InsertRow3IntoMLATable4": "insert into testmladatabase.testmlatable4 values('grey','medium')",
+      "InsertRow4IntoMLATable4": "insert into testmladatabase.testmlatable4 values('silver','heavy')",
+      "CreateMLATable5": "create table testmladatabase.testmlatable5(colour5 string,shade5 string)",
+      "InsertRow1IntoMLATable5": "insert into testmladatabase.testmlatable5 values('white','milk')",
+      "InsertRow2IntoMLATable5": "insert into testmladatabase.testmlatable5 values('black','matte')",
+      "InsertRow3IntoMLATable5": "insert into testmladatabase.testmlatable5 values('grey','medium')",
+      "InsertRow4IntoMLATable5": "insert into testmladatabase.testmlatable5 values('silver','heavy')",
+      "DropMLATable5": "drop table testmladatabase.testmlatable5",
+      "DropMLATable4": "drop table testmladatabase.testmlatable4",
+      "DropMLATable3": "drop table testmladatabase.testmlatable3",
+      "DropMLATable2": "drop table testmladatabase.testmlatable2",
+      "DropMLATable1": "drop table testmladatabase.testmlatable1",
+      "DropMLADatabase": "drop database testmladatabase",
+      "CreateExceluploadDatabase": "create database excelupload",
+      "CreateInventoryTable": "create table excelupload.inventory_fact(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "CreatePIIDatabase": "create database piidata",
+      "CreatePersonInfoTable": "create table piidata.person_info(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "CreatePersonAddreInfoTable": "create table piidata.person_addr_info(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "DropInventoryTable": "drop table excelupload.inventory_fact",
+      "DropExceluploadDatabase": "drop database excelupload",
+      "CreateFacebookmediaDatabase": "create database facebookmedia",
+      "CreateSalesTable": "create table facebookmedia.sales_info(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "DropSalesTable": "drop table excelupload.inventory_fact",
+      "DropFacebookmediaDatabase": "drop database facebookmedia",
+      "CreateHivePartitionDatabase": "create database testhivepartition",
+      "CreateHiveNonPartitionTable": "create table testhivepartition.non_partition_table(OFFICE_NAME STRING,OFFICE_STATUS STRING,PINCODE INT,STATE STRING)",
+      "InsertIntoNonPartitionTable": "insert into testhivepartition.non_partition_table values('madurai office','open',600112,'Tamil Nadu')",
+      "CreateHivePartitionTable": "create table testhivepartition.partition_table(OFFICE_NAME STRING,OFFICE_STATUS STRING,PINCODE INT) PARTITIONED BY(STATE STRING)",
+      "SetPartitionTrue": "SET hive.exec.dynamic.partition = true",
+      "SetPartitionModeNonStrict": "SET hive.exec.dynamic.partition.mode = nonstrict",
+      "InsertIntoPartitionTable": "insert overwrite table testhivepartition.partition_table partition(STATE) select OFFICE_NAME,OFFICE_STATUS,PINCODE,STATE from testhivepartition.non_partition_table",
+      "DropHivePartitionTable": "drop table testhivepartition.partition_table",
+      "DropHiveNonPartitionTable": "drop table testhivepartition.non_partition_table",
+      "DropHivePartitionDatabase": "drop database testhivepartition",
+      "QPCreateDB1": "create database hivequeryparserdb",
+      "QPCreateTable2": "CREATE TABLE hivequeryparserdb.customers(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "QPCreateTable1": "CREATE TABLE hivequeryparserdb.customers1 as select * from hivequeryparserdb.customers",
+      "QPDropDB": "drop database hivequeryparserdb",
+      "Drophiveepolicypatterndb": "drop database hivepolicypatterndb",
+      "DropTableALLMATCH": "drop table hivepolicypatterndb.tagdetails_allmatch",
+      "DropTableALLEMPTY": "drop table hivepolicypatterndb.tagdetails_allempty",
+      "DropTableRatiolessthan05EmptyFalse": "drop table hivepolicypatterndb.tagdetails_ratiolessthan05emptyfalse",
+      "DropTableRatiogreaterthan05EmptyFalseTrue": "drop table hivepolicypatterndb.tagdetails_ratiogreaterthan05emptyfalsetrue",
+      "DropTableRatioEqualTo05EmptyFalse": "drop table hivepolicypatterndb.tagdetails_ratioequalto05emptyfalse",
+      "DropTableRatiogreaterthan05MatchFullTrue": "drop table hivepolicypatterndb.tagdetails_ratiogreaterthan05matchfulltrue",
+      "DropTableRatiolesserthan05MatchFullTrue": "drop table hivepolicypatterndb.tagdetails_ratiolesserthan05matchfulltrue",
+      "QPCreateDB": "create database xademo",
+      "QPCreateTable": "CREATE TABLE xademo.customers(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "AddNewTableDefaultDB":"create table default.addnewtable(id int,name string,age int)",
+      "DropNewTableDefaultDB":"drop table default.addnewtable",
+      "CreateHiveMonitorDatabase": "create database hivemonitordb",
+      "CreateHiveMonitorTable1": "create table hivemonitordb.monitortable1(id int,name string,age int)",
+      "CreateHiveMonitorTable2": "create table hivemonitordb.monitortable2(id int,name string,age int,address string)",
+      "CreateHiveMonitorTable3": "create table hivemonitordb.monitortable3 as select * from hivemonitordb.monitortable2",
+      "CreateHiveMonitorTable4": "create table hivemonitordb.monitortable4 as select id,name from hivemonitordb.monitortable1",
+      "CreateHiveMonitorTable5": "create table hivemonitordb.monitortable5(custid int,custname string,city string)",
+      "CreateHiveMonitorTable6": "create table default.monitortable6 as select * from default.sample_07",
+      "CreateHiveMonitorTable7": "create table hivemonitordb.monitortable7 as select * from hivemonitordb.monitortable5",
+      "CreateHiveMonitorTable8": "create table hivemonitordb.monitortable8 as select * from hivemonitordb.monitortable5",
+      "CreateHiveMonitorTable9": "create table hivemonitordb.monitortable9 as select * from hivemonitordb.monitortable5",
+      "CreateHiveMonitorTable11": "create table hivemonitordb.diffdatatypes(inttype int,tinyinttype tinyint,smallinttype smallint,biginttype bigint,floattype float,doubletype double,decimaltype decimal,stringtype string,varchartype varchar(10),chartype char(10),datetype date,timestamptype timestamp,booleantype boolean,binarytype binary)",
+      "InsertHiveMonitorTable11Row1":"insert into hivemonitordb.diffdatatypes values(10,5,2000,10000,234.5,5000.56,8500.25,'string1','varchar1','char1','2014-12-07','2014-12-07 23:00:00',true,'25')",
+      "InsertHiveMonitorTable11Row2":"insert into hivemonitordb.diffdatatypes values(12,15,5000,15000,334.5,6000.56,8700.25,'string2','varchar2','char2','2015-10-03','2015-10-03 12:20:00',false,'20')",
+      "InsertHiveMonitorTable11Row3":"insert into hivemonitordb.diffdatatypes values(14,35,5600,35000,434.5,7000.56,9700.25,'string3','varchar3','char3','1990-10-03','1990-10-03 00:20:00',false,'40')",
+      "InsertHiveMonitorTable11Row4":"insert into hivemonitordb.diffdatatypes values(34,45,7600,95000,634.5,8000.56,10700.25,'string4','varchar4','char4','1981-01-01','1981-01-01 04:20:20',true,'55')",
+      "InsertHiveMonitorTable11Row5":"insert into hivemonitordb.diffdatatypes values(64,55,3300,350000,4340.5,70000.56,97000.25,'string4','varchar4','char4','1991-10-03','1991-10-03 00:20:00',false,'67')",
+      "dropHiveMonitorTable11":"drop table hivemonitordb.diffdatatypes",
+      "dropHiveMonitorTable09":"drop table hivemonitordb.monitortable9",
+      "dropHiveMonitorTable08":"drop table hivemonitordb.monitortable8",
+      "dropHiveMonitorTable07":"drop table hivemonitordb.monitortable7",
+      "dropHiveMonitorTable06":"drop table hivemonitordb.monitortable6",
+      "dropHiveMonitorTable05":"drop table hivemonitordb.monitortable5",
+      "dropHiveMonitorTable04":"drop table hivemonitordb.monitortable4",
+      "dropHiveMonitorTable03":"drop table hivemonitordb.monitortable3",
+      "dropHiveMonitorTable02":"drop table hivemonitordb.monitortable2",
+      "dropHiveMonitorTable01":"drop table hivemonitordb.monitortable1",
+      "dropHiveMonitorDB":"drop database hivemonitordb",
+      "QPSkip1":"explain select * from hivequeryparserdb.customer_shopping_list",
+      "QPSkip2":"ANALYZE TABLE hivequeryparserdb.customer_shopping_list COMPUTE STATISTICS",
+      "QPSkip3":"describe extended hivequeryparserdb.customer_shopping_list",
+      "QPSkip4":"MSCK REPAIR TABLE hivequeryparserdb.customer_shopping_list",
+      "QPSkip5":"show tables",
+      "QPSkip6":"lock table hivequeryparserdb.customer_shopping_list",
+      "QPSkip7":"unlock table hivequeryparserdb.customer_shopping_list",
+      "QPSkip8":"use hivequeryparserdb"
+    }
+  ],
+  "EventType": [
+    {
+      "EventType_E1": "query",
+      "EventType_E2": "CREATETABLE",
+      "EventType_E3": "CREATETABLE",
+      "EventType_E4": "query",
+      "EventType_E5": "query",
+      "EventType_E6": "query"
+    }
+  ],
+  "EntityType": [
+    {
+      "EntityType_E1": "",
+      "EntityType_E2": "table",
+      "EntityType_E3": "table",
+      "EntityType_E4": "",
+      "EntityType_E5": "",
+      "EntityType_E6": ""
+    }
+  ],
+  "InitialEntityName": [
+    {
+      "InitialEntityName_E1": "",
+      "InitialEntityName_E2": "foodmart.customer_shopping_list",
+      "InitialEntityName_E3": "default.cus_shop_list",
+      "InitialEntityName_E4": "",
+      "InitialEntityName_E5": "",
+      "InitialEntityName_E6": ""
+    }
+  ],
+  "FinalEntityName": [
+    {
+      "FinalEntityName_E1": "",
+      "FinalEntityName_E2": "foodmart.customer_shopping_list",
+      "FinalEntityName_E3": "default.cus_shop_list",
+      "FinalEntityName_E4": "",
+      "FinalEntityName_E5": "",
+      "FinalEntityName_E6": ""
+    }
+  ],
+  "QueryString": [
+    {
+      "QS_E1": "select * from xademo.recharge_details",
+      "QS_E2": "CREATE TABLE foodmart.customer_shopping_list(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "QS_E3": "create external table default.cus_shop_list(customer_id INT,product_id INT,product_name STRING,brand_name STRING)",
+      "QS_E4": "insert into foodmart.customer_shopping_list(customer_id,product_id,product_name,brand_name) select b.customer_id,b.product_id,a.product_name,a.brand_name from foodmart.product a inner join foodmart.sales_fact_dec_1998 b on a.product_id=b.product_id",
+      "QS_E5": "INSERT OVERWRITE DIRECTORY 'user/totalCommerce/testcsvfolder' select * from northwind.employees",
+      "QS_E6": "INSERT OVERWRITE TABLE cus_shop_list select * from foodmart.customer_shopping_list"
+    }
+  ],
+  "Inputs": [
+    {
+      "Name_E1": "xademo@recharge_details",
+      "Table_E1": "recharge_details",
+      "Database_E1": "xademo",
+      "Name_E5": "northwind@employees",
+      "Table_E5": "employees",
+      "Database_E5": "northwind"
+    }
+  ],
+  "Outputs": [
+    {
+      "Type_E2": "TABLE",
+      "Type_E3": "TABLE",
+      "Table_E2": "customer_shopping_list",
+      "Table_E3": "cus_shop_list",
+      "Database_E2": "foodmart",
+      "Database_E3": "default"
+    }
+  ],
+  "Lineage": [
+    {
+      "foodmart.sales_fact_dec_1998.product_id": "foodmart.customer_shopping_list.product_id",
+      "foodmart.product.product_name": "foodmart.customer_shopping_list.product_name",
+      "foodmart.product.brand_name": "foodmart.customer_shopping_list.brand_name",
+      "foodmart.sales_fact_dec_1998.customer_id": "foodmart.customer_shopping_list.customer_id",
+      "foodmart.customer_shopping_list.product_name": "default.cus_shop_list.product_name",
+      "foodmart.customer_shopping_list.product_id": "default.cus_shop_list.product_id",
+      "foodmart.customer_shopping_list.brand_name": "default.cus_shop_list.brand_name",
+      "foodmart.customer_shopping_list.customer_id": "default.cus_shop_list.customer_id"
+    }
+  ],
+  "IDCEventFile": [
+    {
+      "IDCEvent_E1": "select * from media.albums",
+      "IDCEvent_E8": "select * from xademo.recharge_details",
+      "IDCEvent_E9": "CREATE TABLE foodmart.customer_shopping_list(customer_id int,product_id int,product_name varchar(60),brand_name varchar(60))",
+      "IDCEvent_E10": "insertintofoodmart.customer_shopping_list(customer_id,product_id_",
+      "IDCEvent_E11": "createexternaltablecus_shop_list(customer_idint,product_idint,product_namestring,brand_namestring)",
+      "IDCEvent_E12": "insertoverwritedirectory'user/totalcommerce/testcsvfolder'select*fromnorthwind.employees"
+    }
+  ],
+  "UISolrSearch": [
+    {
+      "Search Text": "India",
+      "Search Query": "name_s:customers",
+      "Field Query": "name_s",
+      "Exact Match": "customers"
+    }
+  ],
+  "WidgetDescription": [
+    {
+      "Description": "Dashboard Editing Functionality"
+    }
+  ],
+  "EditingAndRemovingOfTags": [
+    {
+      "ParentTag": "Data Analysis",
+      "Child Tag": "Critical"
+    }
+  ],
+  "tagWorkFlow": [
+    {
+      "tagName": "QAAutomation Tag",
+      "tagDefinition": "QAAutomation Tag Decription",
+      "CommentsAdded": "QAAutomation Tag Comment"
+    }
+  ],
+  "NewItemView": [
+    {
+      "Name": "New Item View",
+      "Definition": "Testing Purpose"
+    }
+  ],
+  "DeletedItemView": [
+    {
+      "Name": "New Item View"
+    }
+  ],
+  "NewItemViewEdit": [
+    {
+      "Name": "New Item View Edit",
+      "Definition": "Testing Purpose Edit"
+    }
+  ],
+  "ExcelUpload": [
+    {
+      "prsn_address": "select * from default.prsn_address_info",
+      "prsn_address_info": "desc default.prsn_address_info",
+      "prsn_system": "select * from default.prsn_system_info",
+      "prsn_system_info": "desc default.prsn_system_info",
+      "prsn_family": "select * from default.prsn_family_info",
+      "prsn_family_info": "desc default.prsn_family_info",
+      "data": "select * from default.pii_data",
+      "address": "select * from default.pii_address",
+      "family": "select * from default.pii_family",
+      "pii_data": "desc default.pii_data",
+      "pii_address": "desc default.pii_address",
+      "pii_family": "desc default.pii_family",
+      "system": "select * from default.pii_xls_system",
+      "identity": "select * from default.pii_xls_identity",
+      "profile": "select * from default.pii_xls_profile",
+      "pii_xls_system": "desc default.pii_xls_system",
+      "pii_xls_identity": "desc default.pii_xls_identity",
+      "pii_xls_profile": "desc default.pii_xls_profile",
+      "new line": "select * from default.new_line_space1",
+      "new_line_space": "desc default.new_line_space1",
+      "xls new line": "select * from default.new_line_xls",
+      "new_line_xls": "desc default.new_line_xls",
+      "diff cols": "select * from default.diff_type_cols",
+      "diff_type_cols": "desc default.diff_type_cols",
+      "null check": "select * from default.null_check",
+      "null_check": "desc default.null_check",
+      "exceluploaddemo": "create database exceldemo",
+      "ee insuarnce": "select * from exceldemo.ee_insurance_info",
+      "ee_insuarnce_info": "desc exceldemo.ee_insurance_info",
+      "pay data": "select * from exceldemo.prsn_pay_data",
+      "prsn_pay_data": "desc exceldemo.prsn_pay_data",
+      "cus card": "select * from exceldemo.customer_card_info",
+      "exceldemo": "show tables from exceldemo",
+      "cus_card_europe": "select * from exceldemo.cus_card_info1"
+    }
+  ],
+  "REPORT URL": [
+    {
+      "Sales Report Q1": "http://dechetableau01v.asg.com/views/Regional/GlobalTemperatures?iframeSizedToWindow=true&:embed=y&:showAppBanner=false&:display_count=no&:showVizHome=no",
+      "Sales Report Q11": ""
+    }
+  ],
+  "SpreadSheetLoaderQueries": [
+    {
+      "getSpreadSheetValues": "select * from \"ImportSpreadSheet\".\"V_Import\";"
+    }
+  ],
+  "OriginType": [
+    {
+      "originQuery": "select asg_origintype from public.items where name='Test1.java' order by id  Asc LIMIT 1;"
+    }
+  ]
+}

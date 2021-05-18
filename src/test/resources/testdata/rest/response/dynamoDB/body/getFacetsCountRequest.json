@@ -1,0 +1,22 @@
+{
+  "selections": {
+    "asg.tagPathsHierarchy_ss": [
+      "SC1DynamoTags"
+    ],
+    "type_s": [],
+    "asg.parentTypeNamePathHierarchy_ss": [
+      "Cluster/Domain=amazonaws.com;Region=us-east-1;/Service/DYNAMODB/Database/DYNAMODB/Table/CatalogTable",
+      "Cluster/Domain=amazonaws.com;Region=us-east-1;/Service/DYNAMODB/Database/DYNAMODB/Table/AllDataTypes",
+      "Cluster/Domain=amazonaws.com;Region=us-east-1;/Service/DYNAMODB/Database/DYNAMODB/Table/DynamicColumns",
+      "Cluster/Domain=amazonaws.com;Region=us-east-1;/Service/DYNAMODB/Database/DYNAMODB/Table/GlobalTable_2017",
+      "Cluster/Domain=amazonaws.com;Region=us-east-1;/Service/DYNAMODB/Database/DYNAMODB/Table/GlobalTable2019",
+      "Cluster/Domain=amazonaws.com;Region=us-east-1;/Service/DYNAMODB/Database/DYNAMODB/Table/TestTableOnlyPK",
+      "Cluster/Domain=amazonaws.com;Region=us-east-1;/Service/DYNAMODB/Database/DYNAMODB/Table/TestTable1"
+
+    ],
+    "dataType_s": [],
+    "asg_modifiedat_dt": [],
+    "asg_modifiedby_s": []
+  },
+  "sorting": []
+}

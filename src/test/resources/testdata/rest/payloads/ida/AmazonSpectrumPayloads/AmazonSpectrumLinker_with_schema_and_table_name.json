@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "AmazonSpectrumLinker",
+      "pluginVersion": "LATEST",
+      "label": null,
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition":"name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": ["SpecLinker"],
+      "pluginType": "linker",
+      "dataSource": null,
+      "credential": null,
+      "dryRun": false,
+      "filter": null,
+      "database": "world",
+      "queryBatchSize": 100,
+      "schemas": [
+        {
+          "schema": "spectrum",
+          "mode": "INCLUDE",
+          "tables": [
+            {
+              "table": "city"
+            }
+          ]
+        }
+      ],
+      "host": "redshift-cluster-1.csvp5wcqqxvw.us-east-1.redshift.amazonaws.com",
+      "incremental": false,
+      "type": "Linker",
+      "pluginName": "AmazonSpectrumLinker",
+      "region": "us-east-1"
+    }
+  ]
+}

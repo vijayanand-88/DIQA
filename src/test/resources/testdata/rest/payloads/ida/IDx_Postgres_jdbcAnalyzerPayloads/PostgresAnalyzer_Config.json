@@ -1,0 +1,23 @@
+{
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "PostgreSQLDBAnalyzer",
+      "label": {
+            "": ""
+      },
+      "catalogName": "POSTGRES CATALOG",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": null,
+      "maxWorkSize": 100,
+      "tags": [],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginName": "PostgreSQLDBAnalyzer",
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "topValues": 10
+}

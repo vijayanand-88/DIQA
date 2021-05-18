@@ -1,0 +1,42 @@
+{"ImportSpreadSheet": {
+  "label": {
+    "": "ImportSpreadSheet",
+    "en": "ImportSpreadSheet"
+  },
+  "className": "com.asg.dis.platform.connect.dom.SqlgArea",
+  "configuration": {
+    "tags": {
+      "name": null,
+      "definition": null,
+      "rootTags": [
+
+      ]
+    },
+    "itemView": {
+      "BusinessTerm": "defaultItemView"
+    },
+    "schemaModels": [
+      "http://www.asg.com/BusinessGlossary/10.1.0"
+    ],
+    "editableTypes": [
+      {
+        "name": "BusinessTerm",
+        "root": true,
+        "creatable": true,
+        "editable": true,
+        "deletable": true
+      }
+    ],
+    "dataCatalogs": [
+
+    ],
+    "schema": "ImportSpreadSheet",
+    "description": {
+      "": "ImportSpreadSheet",
+      "en": "ImportSpreadSheet"
+    }
+  },
+  "modifiedBy": "TestSystem",
+  "modifiedAt": "2019-03-11T09:52:26.229",
+  "catalogType": "GLOSSARY"
+}}

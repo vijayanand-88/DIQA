@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "class": "com.asg.dis.common.analysis.dom.PluginConfiguration",
+      "name": "OracleAnalyzerWithnNonExistingSchemaAndTableFilter",
+      "pluginVersion": "LATEST",
+      "label": {
+        "": ""
+      },
+      "catalogName": "Default",
+      "eventClass": null,
+      "eventCondition": null,
+      "nodeCondition": "name==\"LocalNode\"",
+      "maxWorkSize": 100,
+      "tags": [
+        "Orc19cRDSAnalyzer"
+      ],
+      "pluginType": "dataanalyzer",
+      "dataSource": null,
+      "credential": null,
+      "businessApplicationName": null,
+      "dryRun": false,
+      "filter": null,
+      "histogramBuckets": 100,
+      "pluginName": "OracleDBAnalyzer",
+      "sampleDataCount": 25,
+      "type": "Dataanalyzer",
+      "database": "IDADB",
+      "schemas": [
+        {
+          "schema": "NONEXISTINGSCHEMA",
+          "tables": [
+            {
+              "table": "NONEXISTINGTABLE"
+            }
+          ]
+        }
+      ],
+      "topValues": 10
+    }
+  ]
+}
